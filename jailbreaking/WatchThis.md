@@ -9,7 +9,7 @@ nav_order: 1
 [WatchThis](https://www.mobileread.com/forums/showthread.php?t=346037) is a jailbreak utilising a `demo payload` exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../getting-started) with WatchThis
+- Please check that your Kindle is [compatible](../getting-started.html) with WatchThis
 - You will also need a PC
 
 {: .warning}
@@ -51,7 +51,7 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 11. Select `Help & User Guides` and then select `Get Started`
 12. The device will now reboot into a jailbroken state
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak) section for what to do now.
+You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
 
 # Troubleshooting
 If you had any issue with the above steps...

@@ -13,6 +13,8 @@ This is the Kindle Modding wiki, an online resource which hopes to consolidate a
 ## Useful Links
 [Mobileread Forums](https://www.mobileread.com/forums/forumdisplay.php?f=150)
 
+[Kindle Nickname Table](https://wiki.mobileread.com/wiki/Kindle_Serial_Numbers)
+
 Join [Our Discord](https://dsc.gg/kindle-modding)!
 
 [Getting Started With Jailbreaking Your Kindle]()

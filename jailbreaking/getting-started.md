@@ -14,7 +14,7 @@ Unlike Amazon, the Kindle Modding community, such as this Wiki and MobileRead re
 This can often get somewhat confusing, so to figure out which Kindle you have, simply view the Kindle's serial number and locate it on [this table](https://wiki.mobileread.com/wiki/Kindle_Serial_Numbers)
 
 
-{: .important-title }
+{: .highlight }
 You can find your serial number by going to `Settings` > `Device Options` > `Device Info`
 Which will show a window in which you will be able to see your Kindle's serial number
 
@@ -35,7 +35,7 @@ Once you have your model, simply pick a jailbreaking method from this table:
 | KT2   |             `5.12.2.2`            |          `5.10.3` - `5.13.3`          |             `any`             |
 | PW2   |             `5.12.2.2`            |          `5.10.3` - `5.13.3`          |             `any`             |
 
-{: .important-title}
+{: .highlight}
 WatchThis is currently the recommended method, so use it when possible.
 
 {: .warning }

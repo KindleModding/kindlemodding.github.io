@@ -9,7 +9,7 @@ nav_order: 2
 [KindleBreak](https://www.mobileread.com/forums/showthread.php?t=338268) is jailbreak utilising the [`KindleDrip`](https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08) webkit exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../getting-started) with KindleBreak
+- Please check that your Kindle is [compatible](../getting-started.html) with KindleBreak
 - You will also need a PC
 
 {: .warning}
@@ -28,4 +28,4 @@ KindleBreak will **NOT** work on firmware `5.12.2.2.2`
 9. The browser should freeze, crash and then after some time (up to 5 minutes) the Kindle will reboot. After this, it should show an error popup with the message `Application Error` or `Collecting Debug Info`
 10. The device is now in a jailbroken state
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak) section for what to do now.
+You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
