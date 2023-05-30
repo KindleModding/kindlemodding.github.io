@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Getting Started
-nav_order: 1
+nav_order: 2
 ---
 
 # Getting Started
@@ -23,7 +23,7 @@ Once you have your model, simply pick a jailbreaking method from this table:
 
 | Model | [WatchThis](WatchThis) (Software) | [KindleBreak](KindleBreak) (Software) | [Popcorn](Popcorn) (Hardware) |
 |-------|:---------------------------------:|:-------------------------------------:|:-----------------------------:|
-| KT3   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
+| KT3   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |             `any`             |
 | KT4   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
 | KOA1  |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
 | KOA2  |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |

@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: WatchThis
-nav_order: 1
+nav_order: 3
 ---
 
 # WatchThis
@@ -28,7 +28,7 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 9. Select the `standard` demo type
 10. Press `Done` at the "sideload content" prompt
 11. Once that is done, you can byass the `misconfiguration` error using the following gesture:
-[gesture](!./WatchThis-Gesture.png)
+![gesture](./WatchThis-Gesture.png)
 (tap with two fingers, then swipe left)
 12. In the searchbar, type `;demo` and click enter
 13. Select the "sideload content" option

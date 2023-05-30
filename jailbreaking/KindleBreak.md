@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: KindleBreak
-nav_order: 2
+nav_order: 4
 ---
 
 # KindleBreak
