@@ -3,7 +3,6 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Popcorn
 title: PW3
-nav_order: 1
 ---
 
 # PW3
@@ -18,6 +17,7 @@ Make sure you have followed the [initial Popcorn instructions](./)
 1. Tear down the `PW3` up to `step 4` as described [here](https://www.ifixit.com/Guide/Kindle+Paperwhite+3rd+Generation+Motherboard+Replacement/61696) (**DO NOT** remove the battery)
 2. Connect a wire between right pad of the `CR501` to `TP508` as shown in this picture (ignore the additional wires): ![Jumpers](./PW2-PW3.png)
 3. Whilst those points are connected, hard reboot the Kindle by holding down the power button for `15 seconds`
+4. Plug the Kindle into your PC
 
 If everything went well, the device is now in `SDP Mode` and ready to be flashed
 
@@ -37,3 +37,8 @@ sudo imx_usb -c imx_usb_loader/wario
 And wait for it to complete.
 
 You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- [Popcorn](https://www.mobileread.com/forums/showthread.php?t=345655) created by [katadelos](https://www.mobileread.com/forums/member.php?u=308426)
+- Original Test Point Image source - [Neon](https://www.mobileread.com/forums/member.php?u=329187)?

@@ -29,3 +29,6 @@ Follow these steps **ONLY** for WatchThis
 5. Copy the `.bin` file from the extracted zip to the root of your Kindle
 6. Eject and unplug your Kindle
 7. On your Kindle, go to `Settings` > `Update Your Kindle` to install the hotfix
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

@@ -40,3 +40,8 @@ WatchThis is currently the recommended method, so use it when possible.
 
 {: .warning }
 KindleBreak **DOES NOT** support firmware version `5.12.2.2.2.2` on **ANY MODEL**. Use `WatchThis` instead (if possible).
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- Thanks to [katadelos](https://www.mobileread.com/forums/member.php?u=308426) for creating `WatchThis`
+- Thanks to [tryol](https://www.mobileread.com/forums/member.php?u=317940) for creating `KindleBreak`

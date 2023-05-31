@@ -29,3 +29,7 @@ KindleBreak will **NOT** work on firmware `5.12.2.2.2`
 10. The device is now in a jailbroken state
 
 You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- [KindleBreak](https://www.mobileread.com/forums/showthread.php?t=338268) created by [tryol](https://www.mobileread.com/forums/member.php?u=317940)

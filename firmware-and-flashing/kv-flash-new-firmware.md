@@ -73,3 +73,8 @@ If everything works, the Kindle should boot to whichever firmware you flashed.
 
 {: .warning}
 If your Kindle does not boot, try flashing it again
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- Info taken from the [Original Thread](https://www.mobileread.com/forums/showthread.php?t=343385)
+- Thanks to [katadelos](https://www.mobileread.com/forums/member.php?u=308426) for figuring this out!

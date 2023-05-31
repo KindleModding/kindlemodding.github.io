@@ -2,10 +2,10 @@
 layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Popcorn
-title: PW2
+title: KV
 ---
 
-# PW2
+# KV
 
 {: .warning}
 Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
@@ -13,11 +13,15 @@ Popcorn is quite a sophisticated jailbreak method and requires prior electronics
 {: .highlight}
 Make sure you have followed the [initial Popcorn instructions](./)
 
+{: .warning}
+The Kindle Voyage (KV) supports `WatchThis` on its latest firmware. It is not recommented that you use `Popcorn` instead of `WatchThis`
+
 ## Performing the Jailbreak
-1. Tear down the `PW2` up to `step 4` as described [here](https://www.ifixit.com/Guide/Kindle+Paperwhite+2nd+Generation+Motherboard+Replacement/71196) (**DO NOT** remove the battery)
-2. Connect a wire between right pad of the `CR501` to `TP508` as shown in this picture (ignore the additional wires): ![Jumpers](./PW2-PW3.png)
-3. Whilst those points are connected, hard reboot the Kindle by holding down the power button for `15 seconds`
-4. Plug the Kindle into your PC
+1. Tear down the `KV` up to `step 5` as described [here](https://www.ifixit.com/Guide/Kindle+Voyage+Screen+Replacement/37464)
+2. Remove the motherboard by unscrewing it from the chassis and **gently** disconnecting all the cables and the battery
+3. Connect a wire between test pads `TM501` and `TM500` as shown in this picture: ![Jumpers](./KV.png)
+4. Whilst those points are connected, hard reboot the Kindle by holding down the power button for `15 seconds`
+5. Plug the Kindle into your PC
 
 If everything went well, the device is now in `SDP Mode` and ready to be flashed
 

@@ -35,3 +35,6 @@ This portion of the guide is only for Kindles with Firmware 5.11.x or above
 
 {: .highlight}
 If you want to reset your Kindle, you will need to restore the binary, you can do this by opening `KUAL`, selecting `Rename OTA Binaries` and then this time selecting `Restore` instead of rename.
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

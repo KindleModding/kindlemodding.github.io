@@ -42,3 +42,6 @@ If your Kindle becomes bricked and you have a [backup](./backing-up.html), then 
 11. Once it is finished, simply reboot the device via the `reboot` command
 
 With any luck, your Kindle should reboot good as new!
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

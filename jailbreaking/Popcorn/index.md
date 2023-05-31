@@ -34,6 +34,7 @@ Popcorn is quite a sophisticated jailbreak method and requires prior electronics
 2. For the `PW2`, `PW3`, `KT2` or `KV` download these files: [https://www.mobileread.com/forums/showpost.php?p=4217167&postcount=17](https://www.mobileread.com/forums/showpost.php?p=4217167&postcount=17)
 
     For the `KT3`, download these files: [https://www.mobileread.com/forums/showpost.php?p=4288479&postcount=60](https://www.mobileread.com/forums/showpost.php?p=4288479&postcount=60)
+3. Extract the files to a safe location
 
 ## Getting Started (Linux)
 1. Install `imx_usb_loader` (via your distro's package manager)
@@ -47,3 +48,7 @@ Simply select your model and follow the instructions on the page
 [KT2](./KT2.html){: .btn }
 [KT3](./KT3.html){: .btn }
 [KV](./KV.html){: .btn }
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- [Popcorn](https://www.mobileread.com/forums/showthread.php?t=345655) created by [katadelos](https://www.mobileread.com/forums/member.php?u=308426)

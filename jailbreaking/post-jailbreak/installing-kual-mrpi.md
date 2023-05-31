@@ -33,3 +33,6 @@ KAUL and MRPI both rely on each other, so you must install them both together
 ## Troubleshooting
 - Verify the location of all the folders and files on the Kindle
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

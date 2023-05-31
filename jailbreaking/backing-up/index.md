@@ -19,3 +19,6 @@ has_children: true
 > - KOA
 > 
 > This is because newer devices such as the KT4/PW4 have different partition layouts as well as *secure boot*,  making it impossible to resture backed up partitions.
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

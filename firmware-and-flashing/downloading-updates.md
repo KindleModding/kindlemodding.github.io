@@ -44,3 +44,6 @@ This table contains the last jailbreakable firmware for each Kindle as a link. N
 | PW5SE      | Kindle Paperwhite Signature Edition   | [https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_paperwhite_11th_5.14.2.bin](https://s3.amazonaws.com/firmwaredownloads/update_kindle_all_new_paperwhite_11th_5.14.2.bin) |   |
 | N/A        | Kindle (11th Generation)              | [https://s3.amazonaws.com/firmwaredownloads/update_kindle_11th_5.15.1.1.bin](https://s3.amazonaws.com/firmwaredownloads/update_kindle_11th_5.15.1.1.bin)                                   |   |
 | N/A        | Kindle Scribe                         | [https://s3.amazonaws.com/firmwaredownloads/update_kindle_scribe_5.16.2.bin](https://s3.amazonaws.com/firmwaredownloads/update_kindle_scribe_5.16.2.bin)                                   |   |
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

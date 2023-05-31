@@ -2,10 +2,10 @@
 layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Popcorn
-title: PW2
+title: KT2
 ---
 
-# PW2
+# KT2
 
 {: .warning}
 Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
@@ -14,8 +14,8 @@ Popcorn is quite a sophisticated jailbreak method and requires prior electronics
 Make sure you have followed the [initial Popcorn instructions](./)
 
 ## Performing the Jailbreak
-1. Tear down the `PW2` up to `step 4` as described [here](https://www.ifixit.com/Guide/Kindle+Paperwhite+2nd+Generation+Motherboard+Replacement/71196) (**DO NOT** remove the battery)
-2. Connect a wire between right pad of the `CR501` to `TP508` as shown in this picture (ignore the additional wires): ![Jumpers](./PW2-PW3.png)
+1. Tear down the `KT2` up to `step 5` as described [here](https://www.ifixit.com/Guide/Kindle+7th+Generation+Motherboard+Replacement/37917)
+2. Connect a wire between test pads `TP1706` and `TM401` as shown in this picture: ![Jumpers](./KT2.png)
 3. Whilst those points are connected, hard reboot the Kindle by holding down the power button for `15 seconds`
 4. Plug the Kindle into your PC
 
@@ -41,4 +41,4 @@ You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
 - [Popcorn](https://www.mobileread.com/forums/showthread.php?t=345655) created by [katadelos](https://www.mobileread.com/forums/member.php?u=308426)
-- Original Test Point Image source - [Neon](https://www.mobileread.com/forums/member.php?u=329187)?
+- Original [Test Point Image](https://www.mobileread.com/forums/showthread.php?t=340387) source

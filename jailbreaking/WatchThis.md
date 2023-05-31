@@ -71,3 +71,7 @@ If you need to reset your device whilst in demo mode
 
 ## Secret Gesture Video
 [this video](https://www.youtube.com/watch?v=JzuIGbGPpig) shows how to perform the misconfiguration bypass gesture
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- [WatchThis](https://www.mobileread.com/forums/showthread.php?t=346037) created by [katadelos](https://www.mobileread.com/forums/member.php?u=308426)

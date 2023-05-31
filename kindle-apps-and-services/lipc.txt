@@ -1,0 +1,858 @@
+com.lab126.todo
+	w 	Str	scheduleToDoItems
+	r	Int	driveAvailInternally	[1]
+	w	Int	disableToDo
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Int	enableToDo
+	w	Str	captivePortalResponse
+	w	Str	isToDoAvailable
+	rw	Str	logLevel	[Current log level=none
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x00000000]
+	w	Int	scheduleToDo
+	w	Int	disableToDoForProfileSwitch
+	w	Str	reportStatus
+	w	Str	demoWifiNotAvailableAlertResponse
+com.lab126.amazonRegistrationService
+	r 	Str	primaryUserId	
+[amzn1.account.xxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+	w	Str	registerWithToken
+	r	Int	isRegistered	[1]
+	w	Str	registerWithPreAuthorizedCode
+	w	Int	deregister
+	rw	Has	registerSecondaryUser	[*NOT SHOWN*]
+	rw	Has	registerPrimaryUser	[*NOT SHOWN*]
+CampaignSync.Invalidate
+com.lab126.wishlist
+	w 	Str	refreshCache
+com.lab126.kindleStatusService
+	w 	Str	logToFile
+	w	Str	recordConfigMetrics
+	w	Str	log
+com.lab126.winmgr.ligl
+	w 	Str	logMask
+com.lab126.bev
+com.lab126.booklet
+	w 	Str	run
+	w	Str	kill
+com.lab126.powerd
+	w 	Int	touchScreenSaverTimeout
+	w	Int	deferSuspend
+	w	Int	wakeUp
+	r	Int	flRawIntensity	[3280]
+	w	Int	rtcWakeup
+	r	Str	state	[active]
+	w	Int	suspendGrace
+	r	Str	battStateInfo	
+[{"battInfo":[{"type":"PRIMARY","cap":51,"charging":false}],"state":"STANDALONE","aggr_batt":51,"usb":false}]
+	w	Int	deferRestart
+	w	Str	shutdownAlertResponse
+	r	Int	battTemperature	[73]
+	w	Int	addSuspendLevels
+	rw	Str	logLevel	[Current log level=none
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	r	Int	battLevel	[51]
+	rw	Int	preventScreenSaver	[0]
+	rw	Str	logMask	[0x00000000]
+	w	Int	sendPendingResume
+	rw	Int	flAuto	[0]
+	rw	Int	flIntensity	[24]
+	r	Int	flMaxIntensity	[25]
+	w	Str	rtcWakeup2
+	w	Int	abortSuspend
+	r	Int	flTurboBrightnessIntensity	[1]
+	w	Int	powerButton
+	w	Int	flStartup
+	r	Str	status	[Powerd state: Active
+Remaining time in this state: 588.597023
+defer_suspend:0
+suspend_grace:0
+prevent_screen_saver:0
+drive_mode_state:1
+PRIMARY BATTERY
+Battery Level: 51%
+Last batt event at: 51%
+Charging: No
+Battery logging: On
+]
+	r	Int	isLowTempState	[0]
+	r	Int	isCharging	[0]
+com.lab126.kaf
+	w 	Str	dumpHeap
+	r	Str	timezoneId	[America/Los_Angeles]
+	w	Str	callInspector
+	w	Str	callCVM
+	w	Int	allocHeap
+	r	Int	heapUsed	[20185]
+	rw	Str	logLevel	[info]
+	w	Str	dumpHeapWithoutGC
+	rw	Int	delayFrameworkStart	[0]
+	r	Int	frameworkStarted	[1]
+	rw	Str	logMask	[crit | error | warn | info (0x7800000)]
+	r	Str	dumpHeapUsage	
+[{"totalMemory":"34865152","maxMemory":"34865152","freeMemory":"14167392"}]
+	w	Str	dumpNativeHeapStats
+com.lab126.winmgr
+	w 	Str	refreshOnTurn
+	r	Str	accelerometer	[U]
+	w	Int	eatTapMode
+	w	Str	liglDebugParams
+	w	Str	defineWipeCurve
+	w	Str	visibleWindows
+	rw	Str	setAccOrientation	[0]
+	rw	Int	passwordDialogEnabled	[0]
+	w	Str	liglFlash
+	rw	Int	liglPause	[0]
+	rw	Str	pageTurnkeyConfig	[Normal]
+	w	Str	setPreference
+	w	Str	getAllWindows
+	r	Str	getActiveAppTitle	
+[L:A_N:application_ID:com.lab126.booklet.home_M:false_PC:TS_RC:true_WT:true_ASR:true_O:U_WTNB:true_WTPB:false]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	r	Int	winmgrReady	[1]
+	w	Str	fakeTap
+	rw	Str	epdcMode	[Y8]
+	rw	Str	debugInfo	[]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Int	grip_enabled	[1]
+	r	Int	isScreenSaverLayerWindowActive	[0]
+	w	Int	extendDamageTimeout
+	rw	Int	chromeState	[0]
+	w	Str	focusChrome
+	rw	Int	ASRMode	[0]
+	r	Str	orientation	[U]
+	w	Str	fakeKeyEvent
+	rw	Int	enableDispalyEvents	[0]
+	rw	Str	orientationLock	[U]
+com.lab126.deviced
+	rw 	Int	usbaudioConnected	[0]
+	w	Int	usbaudioSendEvent
+	w	Int	enable_touch
+com.lab126.grokservice
+	w 	Str	searchRequest
+	r	Str	isLinked	[linked]
+	w	Str	flushCache
+com.amazon.ebook.util.net.certmanutilities
+com.lab126.booklet.home
+	w 	Str	pause
+	w	Str	validateMerch
+	w	Str	load
+WARNING: Failed to get value of getDisplayOptions <0x1>
+	r	Str	getDisplayOptions
+	w	Str	setSortOrder
+	w	Str	setViewMode
+	w	Str	setFilterForGroup
+	w	Int	setFilterId
+	w	Str	go
+	w	Str	unload
+	w	Str	startresult
+	w	Str	deleteOOBE
+com.lab126.imageViewer
+com.lab126.odot
+	w 	Str	queueMessage
+AssetOwnership.SMD.Poll
+	w 	Str	s2dm_message
+	rw	Has	transferProgressNotification	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	refreshCache
+	w	Str	handleToDoItem
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.freetime
+	w 	Str	updateChildrenSubscriptionStatus
+	w	Str	rejectSubscriptionOffer
+	r	Int	subscriptionStatus	[0]
+	w	Str	refreshCache
+com.lab126.transferService
+	rw 	Has	transferProgressNotification	[*NOT SHOWN*]
+com.lab126.JournalingService
+	r 	Int	isEnabled	[1]
+com.lab126.adManager
+	w 	Str	adImpression
+	rw	Str	forceVisibleAdId	[{"adId":"null"}]
+	w	Str	restart
+	w	Str	ingestAdFile
+	w	Str	buttonClicked
+	w	Str	adViewerMessage
+	r	Int	isAdUnitDevice	[1]
+com.lab126.LocalizationServices
+	w 	Str	kllDictionary
+	w	Int	updateContentPack
+	w	Str	refreshCache
+	w	Str	newItemLanguage
+com.lab126.reader.languagelayer.pinyin
+	w 	Str	reset
+com.lab126.pmond
+	w 	Str	mem_warn
+	w	Str	kill
+	r	Str	system_memory_status	[systemMemoryNormal]
+	w	Str	restart
+	w	Str	stop
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	r	Str	summary	
+[------------------------------------------------------------------
+System: Total [502 MB]    Available [270 MB]
+------------------------------------------------------------------
+           name[pid]   -    state   - mem_limit(MB) - mem_curr(MB)
+------------------------------------------------------------------
+        appmgrd[ 1964] -    started -      5.00     -     3.18
+            asr[    0] -    stopped -     29.30     -     0.00
+        browser[    0] -    stopped -    121.00     -     0.00
+   contentpackd[ 2679] -    started -      4.00     -     2.68
+           demd[ 1929] -    started -      4.88     -     1.88
+           dmld[ 3996] -    started -      7.00     -     3.33
+      dynconfig[ 2044] -    started -      5.00     -     1.75
+      ivonattsd[    0] -    stopped -     43.95     -     0.00
+      kfxreader[ 4003] -    started -    200.00     -     9.57
+      locationd[    0] -    stopped -      3.91     -     0.00
+           mysn[    0] -    stopped -    121.00     -     0.00
+         otaupd[    0] -    stopped -     10.00     -     0.00
+          perfd[ 1931] -    started -      3.00     -     1.35
+            rcm[ 1944] -    started -      5.00     -     3.25
+     stackdumpd[ 1951] -    started -      3.00     -     0.63
+         syslog[  895] -    started -      4.88     -     1.14
+           todo[ 1943] -    started -     15.00     -     5.59
+           wand[    0] -    stopped -      5.00     -     0.00
+          wifid[ 2043] -    started -      5.86     -     3.84
+      webreader[ 3013] -    started -    200.00     -    17.13
+         volumd[ 2100] -    started -      4.88     -     2.41
+            tmd[ 1981] -    started -     20.00     -     6.15
+          store[ 4187] -    started -    174.00     -    15.02
+        scanner[ 4083] -    started -     31.25     -     3.38
+         powerd[ 1957] -    started -      4.88     -     3.63
+            phd[ 2074] -    started -      8.00     -     3.38
+      pdfreader[    0] -    stopped -    120.00     -     0.00
+           odac[    0] -    stopped -    121.00     -     0.00
+           mcsd[    0] -    stopped -      5.00     -     0.00
+        kfxview[ 4008] -    started -     30.00     -     6.82
+             kb[ 2678] -    started -     40.00     -     6.81
+    fastmetrics[ 4086] -    started -     10.00     -     5.88
+           dpmd[ 1960] -    started -      5.00     -     3.05
+        deviced[ 1982] -    started -      3.00     -     2.33
+            cvm[ 3356] -    started -    160.00     -   100.71
+            cmd[ 1932] -    started -      5.00     -     3.32
+        blanket[ 2538] -    started -     50.00     -     6.04
+        archive[ 1941] -    started -     10.00     -     3.87
+]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	start_monitoring
+	w	Int	stop_monitoring
+	w	Str	heartbeat_start
+	w	Str	start
+	w	Str	mem_limit
+	w	Str	heartbeat_stop
+com.lab126.DeviceAuthenticationService
+	w 	Int	fetchAuthCookies
+	r	Str	cookies	
+[/var/local/java/prefs/cookies/auth.cookiesamzn1.account.xxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+	w	Int	installCredentials
+	r	Str	authcookies	[session-id=135-5025856-4810245; 
+expires="23 Feb 2043 23:57:55 GMT"; domain=.amazon.com; path=/; secure
+ubid-main=xxx-xxxxxxx-xxxxxxx; expires="23 Feb 2043 23:57:55 GMT"; 
+domain=.amazon.com; path=/; secure
+x-main="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@"; expires="23 Feb 2043 23:57:55 
+GMT"; domain=.amazon.com; path=/; secure
+at-main="Atza|xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; 
+expires="1 Mar 2023 23:57:55 GMT"; domain=.amazon.com; path=/; secure
+sess-at-main="xxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; expires="1 
+Mar 2023 23:57:55 GMT"; domain=.amazon.com; path=/; secure]
+	w	Int	fetchAuthCookiesForRegionalStack
+com.lab126.yjlipclistener
+	w 	Str	disableYJIndexer
+com.lab126.fastMetrics
+	w 	Str	captivePortalResponse
+	w	Str	wifiPopupDone
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	demoWifiNotAvailableAlertResponse
+	w	Str	wirelessOn
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.reader.readingtimer
+	r 	Str	getReadingProgressTypes	
+[["location","page","training","timeLeftInBook","timeLeftInSection","timeLeftInGoal","hidden"]]
+	rw	Str	readingProgressType	[location]
+com.lab126.blanket
+	rw 	Str	unload	[]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	load	[langpicker blankwindow ad_screensaver 
+usb]
+	w	Str	uiQuery
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.btService
+	r 	Int	isAudibleContentAvailable	[0]
+	r	Int	isPfmAudibleSupported	[0]
+	r	Int	isAudibleAvailable	[0]
+com.lab126.archive
+	w 	Str	s2dm_message
+	rw	Has	transferProgressNotification	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	refreshCache
+	w	Str	handleToDoItem
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.quickactions
+	w 	Str	toggleAirplaneMode
+	w	Str	syncAndCheck
+com.lab126.system
+	w 	Str	executeDebugCommand
+	r	Str	displayTemperature	[23
+]
+	r	Str	guid	[xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+	w	Str	enableTimeAutoUpdate
+	r	Str	monoTime	[]
+	w	Str	sendEvent
+	w	Str	disableTimeAutoUpdate
+	w	Str	deleteWaveform
+	r	Str	version	[System Software Version: 
+025-juno_1202_muscat_wario-356962 Wed Sep 25 01:55:27 UTC 2019 
+com.lab126.eink.muscat.os]
+	r	Str	isTimeAutoUpdateEnabled	[true]
+	r	Str	panelCode	[R060_ED060KD1C1]
+	r	Str	waveformversion	[320_R060_AE6C01_ED060KD1C1_TC]
+	w	Str	btDeviceReconfirmed
+	w	Str	updateWaveform
+	w	Str	disableASR
+	r	Str	monoTimeSaved	[]
+	w	Str	openFeedbackApp
+	w	Str	stopVoiceView
+	r	Str	panelWaveformversion	
+[320_R060_AE6C01_ED060KD1C1_TC]
+	w	Str	date
+	r	Str	usid	[xxxxxxxxxxxxxxxx]
+	w	Str	startVoiceView
+	r	Str	orientation	[]
+	w	Str	deviceLocaleSelected
+	r	Str	boardid	[xxxxxxxxxxxxxxxx]
+	w	Str	takeScreenShot
+com.lab126.readnow
+	w 	Str	openBook
+com.amazon.kindle.inputMethod
+	w 	Str	keyboardSetPreeditString
+	w	Str	keyboardReplace
+	w	Str	keyboardGetSurround
+	w	Str	keyboardCommit
+	w	Str	keyboardDelete
+com.lab126.dsus
+	w 	Str	reportVersion
+com.lab126.indexer
+	r 	Int	numberOfItemsToBeIndexed	[0]
+	w	Int	dumpIndexerState
+	w	Int	updateIndexerState
+	r	Str	pauseIndexerTillTimeMilliseconds	[-1]
+	w	Int	pauseIndexerMilliseconds
+	rw	Int	debugTextDumpCount	[0]
+	w	Str	indexAndSearchContent
+	w	Str	pauseIndexerSourceMilliseconds
+com.lab126.extractor.java
+	w 	Str	logExtractors
+	w	Str	delete
+	w	Str	add
+	w	Str	update
+com.lab126.scanner
+	w 	Int	triggerUpdate
+	w	Int	doFullScan
+	rw	Str	logMask	[0x0fff0000]
+	r	Int	fullScanStatus	[0]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Str	reScanFile
+com.lab126.transfer
+	rw 	Has	obliterate	[*NOT SHOWN*]
+	rw	Has	modify	[*NOT SHOWN*]
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	rw	Has	dequeue	[*NOT SHOWN*]
+	w	Str	captivePortalResponse
+	rw	Has	send_status	[*NOT SHOWN*]
+	rw	Has	dump_queues	[*NOT SHOWN*]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Has	request_upload	[*NOT SHOWN*]
+	rw	Has	get_info	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	request_download	[*NOT SHOWN*]
+	w	Str	demoWifiNotAvailableAlertResponse
+AssetOwnership.DeviceSharingUpdated
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.dynconfig
+	rw 	Has	transferProgressNotification	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	handleToDoItem
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.cmd
+	w 	Str	ensureConnection
+	r	Str	activeInterface	[wifi]
+	rw	Str	logLevel	[Current log level=none
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x00000000]
+	rw	Has	interfaceProperties	[*NOT SHOWN*]
+	rw	Has	disableInterfaces	[*NOT SHOWN*]
+	rw	Int	wirelessEnable	[1]
+	rw	Has	availableInterfaces	[*NOT SHOWN*]
+	rw	Int	smsRecvRequired	[0]
+com.lab126.todo.kaf
+	w 	Str	handleToDoItem
+com.lab126.refreshCache
+	w 	Str	refreshCacheReady
+	w	Int	refreshCacheRun
+	w	Str	refreshCacheFailure
+	rw	Has	updateRefreshTime	[*NOT SHOWN*]
+	w	Str	refreshCacheSuccess
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Str	captivePortalResponse
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	refreshCachePrintClients
+	w	Str	demoWifiNotAvailableAlertResponse
+com.lab126.keyboard
+	r 	Int	lang	[0]
+	r	Int	height	[497]
+	rw	Int	dumpWidget	[0]
+	r	Int	id	[0]
+	r	Str	preedit	[]
+	rw	Has	uiQueryHash	[*NOT SHOWN*]
+	r	Int	web	[0]
+	r	Int	flags	[0]
+	r	Str	rescan	[/var/local/system/keyboard.conf]
+	rw	Str	language	[en_US]
+	r	Str	appID	[]
+	rw	Str	languages	[en_US]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Str	setSurround
+	r	Str	bounds	[0:951:1072:497]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	open
+	r	Int	show	[0]
+	w	Str	close
+	r	Int	diacriticalId	[0]
+	r	Str	keyboard_language	[en-US]
+	rw	Str	largeFont	[]
+com.amazon.java.messagingservice
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.readingstreams
+	rw 	Has	performAction	[*NOT SHOWN*]
+	rw	Has	hideContext	[*NOT SHOWN*]
+	rw	Has	recordSetting	[*NOT SHOWN*]
+	rw	Has	showContext	[*NOT SHOWN*]
+	rw	Has	openContext	[*NOT SHOWN*]
+com.lab126.linux.arm.metrics
+com.lab126.tutorialService
+	w 	Str	clearAllTutorialStatus
+com.lab126.IdentityService
+	w 	Str	invalidateAccessToken
+	w	Str	refreshCache
+	rw	Has	accessToken	[*NOT SHOWN*]
+com.lab126.stored
+	w 	Str	processRestart
+	w	Str	refreshCache
+	w	Str	kill
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Str	run
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	transferProgressNotification	[*NOT SHOWN*]
+	r	Str	ready	[1]
+com.lab126.pillow
+	w 	Str	disableEnablePillow
+	w	Str	dismissChrome
+	w	Str	customDialog
+	w	Str	applicationWindow
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Str	activityIndicator
+	w	Str	debugInfo
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	displayChrome
+	w	Str	interrogatePillow
+	rw	Has	interrogatePillowHash	[*NOT SHOWN*]
+	w	Str	pillowAlert
+com.lab126.legalComplianceService
+	r 	Int	gdprValue	[1]
+com.lab126.demoservice
+com.lab126.dpm.apps
+	w 	Int	disableAnnotationsBackup
+	w	Int	disablePublicNotes
+	w	Int	disablePopularHighlights
+com.lab126.wifid
+	rw 	Has	certificateData	[*NOT SHOWN*]
+	w	Str	deleteCertificate
+	rw	Has	cmIntfInfo	[*NOT SHOWN*]
+	r	Str	signalStrength	[5/5
+]
+	rw	Int	enable	[1]
+	w	Int	hotSpotDBDownloadStatus
+	r	Str	711	[********* 2- Connection *********
+2.1 MAC: 74:C2:46:FC:4D:66
+2.2 Wireless: On(1)
+2.3 AP: xxxxxxxxx (xx:xx:xx:xx:xx:xx)
+2.3.1   Signal: 5/5
+2.3.2   Captive: No(0)
+2.3.3   Security: WPA2-PSK
+2.3.4   Channel: 4
+2.6 Country: US
+
+********* 3- Networks *********
+3.1   xxxxxxxxx	0	[WPA2-PSK]	C: [CCMP]	G: [CCMP]	
+(9)	 EAP: [, , ]
+********* 4- Interface *********
+4.1  IP        : 192.168.1.14
+4.2  Netmask   : 255.255.255.0
+4.3  Broadcast :
+4.4  Gateway   : 192.168.1.1
+4.5  Config    : DHCP
+4.6  DNS       : 192.168.1.1,
+4.7  Sponsored    : No(0)
+
+********* 5- DHCP *********
+adding dns 192.168.1.1
+]
+	r	Str	macSecret	[xxxxxxxxxxxxxxxxxxxx]
+	w	Str	cmConnect
+	w	Str	cmCheckConnection
+	r	Int	cmIntfInUse	[1]
+	r	Str	manufacturerCode	[xxxxxxxxxxxxxxxxxxxx]
+	rw	Has	installCertificate	[*NOT SHOWN*]
+	r	Str	macAddress	[xx:xx:xx:xx:xx:xx]
+	rw	Has	profileData	[*NOT SHOWN*]
+	rw	Has	netConfig	[*NOT SHOWN*]
+	w	Str	cmDisconnect
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	r	Int	scanListCount	[2]
+	rw	Has	cmNWProperties	[*NOT SHOWN*]
+	rw	Has	createProfile	[*NOT SHOWN*]
+	r	Str	scanState	[idle]
+	w	Str	cmConnMode
+	r	Str	feelingLuckyProfile	[HOME_021850_2G]
+	w	Str	deleteProfile
+	rw	Has	currentEssid	[*NOT SHOWN*]
+	r	Str	cmState	[CONNECTED]
+	rw	Has	createNetConfig	[*NOT SHOWN*]
+	w	Str	scan
+	rw	Has	scanList	[*NOT SHOWN*]
+	r	Int	profileCount	[1]
+	w	Int	resetSavePasswordPreference
+com.lab126.lxinit
+com.lab126.appmgrd
+	w 	Str	loghistory
+	w	Str	backgroundAppUnLoaded
+	w	Str	load
+	w	Str	goresult
+	w	Str	loadresult
+	w	Str	savecontext
+	w	Int	startdefault
+	w	Str	runresult
+	w	Str	stop
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Int	forward
+	w	Str	unloadresult
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	clearAllContext
+	w	Str	defer
+	w	Str	pauseresult
+	w	Str	start
+	r	Int	activeAppPid	[3356]
+	w	Str	logallapps
+	w	Str	backgroundAppLoaded
+	r	Str	activeApp	[com.lab126.booklet.home]
+	w	Int	backward
+com.lab126.devicemetrics
+	w 	Str	refreshCache
+	w	Int	pushAllMetrics
+	w	Int	pushClickstreamMetrics
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Str	captivePortalResponse
+	w	Str	pushMetricsByClass
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Has	transferProgressHandler	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	pushHighPriorityMetrics
+	w	Str	handleToDoItem
+	w	Str	demoWifiNotAvailableAlertResponse
+DPCService.SettingChanged
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.phd
+	rw 	Str	logMask	[0x0fff0000]
+	w	Str	newSPHSchedule
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.kwis.weblabTreatments
+	rw 	Has	experiments	[*NOT SHOWN*]
+com.lab126.adRotationManager
+	r 	Str	currentAd	
+[{"adID":"xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","unlock_text_color":15,"screensvr_rect":null,"buttons":[{"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","state":"default","id":0,"creative":"screensvr.png","enabled":true,"img-location":{"x":0,"width":1072,"y":0,"height":1448},"img-hotspot":{"x":0,"width":0,"y":0,"height":0}},{"int-uri":"details.html","accessibility":"Up 
+to 80% off Select top reads on 
+Kindle","hint-dismiss":true,"slotId":140,"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png","id":1,"creative":"screensvr_active.png","enabled":true,"img-location":{"x":404,"width":268,"y":683,"height":74},"img-hotspot":{"x":354,"width":368,"y":633,"height":174}}],"filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","active_filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png"}]
+	w	Str	restart
+	r	Str	nextAd	
+[{"adID":"xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","unlock_text_color":15,"screensvr_rect":null,"buttons":[{"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","state":"default","id":0,"creative":"screensvr.png","enabled":true,"img-location":{"x":0,"width":1072,"y":0,"height":1448},"img-hotspot":{"x":0,"width":0,"y":0,"height":0}},{"int-uri":"details.html","accessibility":"Kindle 
+Daily Deals Top eBooks for $4.99 or 
+less","hint-dismiss":true,"slotId":140,"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png","id":1,"creative":"screensvr_active.png","enabled":true,"img-location":{"x":403,"width":267,"y":657,"height":74},"img-hotspot":{"x":353,"width":367,"y":607,"height":174}}],"filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","active_filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png"}]
+	r	Str	startRotationController	[]
+	r	Str	peekNextAd	
+[{"adID":"xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","unlock_text_color":15,"screensvr_rect":null,"buttons":[{"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","state":"default","id":0,"creative":"screensvr.png","enabled":true,"img-location":{"x":0,"width":1072,"y":0,"height":1448},"img-hotspot":{"x":0,"width":0,"y":0,"height":0}},{"int-uri":"details.html","accessibility":"Kindle 
+Daily Deals Top eBooks for $4.99 or 
+less","hint-dismiss":true,"slotId":140,"img-src":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png","id":1,"creative":"screensvr_active.png","enabled":true,"img-location":{"x":403,"width":267,"y":657,"height":74},"img-hotspot":{"x":353,"width":367,"y":607,"height":174}}],"filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr.png","active_filepath":"\/mnt\/us\/system\/.assets\/xxxxxxxxxxxxxxxxxx_xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\/screensvr_active.png"}]
+DeviceMessaging.LanguageLayer.MessageResponse
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.volumd
+	r 	Int	userstoreIsAvailable	[1]
+	r	Int	userstoreTotalSpace	[1042168]
+	w	Int	userstoreDeferUnmountRequest
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	recreateUserstoreResponse
+	w	Int	userstoreReadyToUnMount
+	rw	Int	useUsbForNetwork	[1]
+	r	Int	driveModeState	[0]
+	r	Int	userstoreFreeSpace	[646248]
+com.lab126.sph
+com.lab126.KIWIBridge
+	rw 	Has	uiQueryHash	[*NOT SHOWN*]
+	w	Str	uiQuery
+com.lab126.bookcacher
+	rw 	Has	cacheBook	[*NOT SHOWN*]
+com.lab126.demd
+	rw 	Int	demAppMetricsEmissionStatus	[2]
+	rw	Has	logDemAppMetric	[*NOT SHOWN*]
+	rw	Int	demOsMetricsEmissionStatus	[2]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	logDemOsMetric	[*NOT SHOWN*]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.blanket.ad_screensaver
+	r 	Int	screensaver_showing	[0]
+WARNING: Failed to get value of activeButtonCoordinate <0x102>
+	r	Str	activeButtonCoordinate
+com.lab126.tphv3
+	r 	Int	debugTphv3StillHereCount	[6]
+	r	Int	debugTphv3UdpTphCount	[0]
+	r	Int	debugTphv3State	[2]
+	r	Int	debugTphv3SessionCount	[1]
+	r	Int	debugTphv3Supported	[1]
+	r	Int	debugTphv3SilentPeriod	[27]
+	r	Int	debugTphv3SessionTimeout	[28]
+com.lab126.instantSearch
+	w 	Str	handleSearchItem
+	w	Str	searchRequest
+	w	Int	initializeSearch
+	w	Str	storeSuggestionsRequest
+com.lab126.coverArtService
+	rw 	Has	downloadCoverArt	[*NOT SHOWN*]
+	w	Int	refreshCoverArt
+	rw	Has	getCoverDimensions	[*NOT SHOWN*]
+	rw	Has	downloadCoverArtBatch	[*NOT SHOWN*]
+com.lab126.kwis
+	w 	Str	daemon
+com.lab126.ccat
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	w	Str	setActiveProfile
+CampaignSync.Update
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.contentpackd
+	w 	Str	rebootDevice
+	w	Str	scanFont
+	w	Str	fontUpdateCallback
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	installKeyboard
+	r	Int	fontsMountedState	[1]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.yjff
+com.lab126.linux.arm.connectionutilities
+	w 	Str	wifiPopupDone
+	w	Str	demoWifiNotAvailableAlertResponse
+	w	Str	captivePortalResponse
+	w	Str	wirelessOn
+com.lab126.reader.languagelayer
+	w 	Str	reset
+com.lab126.household
+	r 	Str	activeProfileRole	[ADULT]
+	r	Str	activeProfile	
+[amzn1.account.xxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+	r	Str	activeAdultProfile	
+[amzn1.account.xxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+	w	Str	linkSecondaryAdultToHousehold
+com.lab126.dpmManager
+	r 	Int	isPopularHighlightsDisabled	[0]
+	rw	Str	parentalControlsHint	[]
+	r	Int	isSettingsMenuDisabled	[0]
+	r	Int	isParentalPasswordSet	[0]
+	r	Int	isActiveContentDisabled	[0]
+	r	Int	isExperimentalMenuDisabled	[0]
+	rw	Int	isDiscoveryDisabled	[0]
+	rw	Str	logMask	[0x0fff0000]
+	r	Int	isChangeLanguageDisabled	[0]
+	r	Int	isToggleWirelessDisabled	[0]
+	r	Int	wipeAfterMaxPasscodeAttempts	[0]
+	r	Int	isChangeDictionaryDisabled	[0]
+	r	Int	isFactoryResetDisabled	[0]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+	r	Str	secondaryProxyHost	[]
+	r	Int	isTurnOnPasscodeDisabled	[0]
+	rw	Has	setParentalControlsPassword	[*NOT SHOWN*]
+	r	Int	getControlStatus	[0]
+	r	Int	minPasscodeLength	[1]
+	r	Str	devicePolicyId	[]
+	rw	Int	isArchivedItemsDisabled	[0]
+	r	Int	isSocialNetworksDisabled	[0]
+	r	Int	isToggleAnnotationsBackupDisabled	[0]
+	rw	Int	isKindleStoreDisabled	[0]
+	r	Int	isTurnOffPasscodeDisabled	[0]
+	rw	Has	showAppLockedAlert	[*NOT SHOWN*]
+	r	Int	isMp3PlayerDisabled	[0]
+	rw	Int	isWikipediaLookupDisabled	[0]
+	r	Int	isAnnotationsBackupDisabled	[0]
+	r	Int	isPublicNotesDisabled	[0]
+	r	Int	isMinPasscodeLengthEnabled	[0]
+	r	Str	contactInfo	[Your System Administrator]
+	rw	Int	isBrowserDisabled	[0]
+	r	Int	isManageWifiSettingsDisabled	[0]
+	r	Str	secondaryProxyExcludedHosts	[]
+	r	Int	isTogglePopularHighlightsDisabled	[0]
+	r	Int	maxPasscodeAttempts	[-1]
+	r	Int	isEditPersonalInfoDisabled	[0]
+	w	Str	notifyDeviceControlsStateChange
+	r	Int	isDeregisterDisabled	[0]
+	r	Int	isEditDeviceNameDisabled	[0]
+	r	Int	isEditPasscodeDisabled	[0]
+	r	Str	secondaryProxyPort	[]
+	r	Int	isTogglePublicNotesDisabled	[0]
+	rw	Has	validateParentalControlsPassword	[*NOT 
+SHOWN*]
+com.lab126.KindleIdentity
+	r 	Str	deviceType	[A21RY355YUXQAF]
+	r	Str	GUID	[xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+HouseholdMessage.Updates
+	w 	Str	s2dm_message
+	w	Str	adm_message
+	w	Str	adm_registration
+com.lab126.sharing
+	r 	Int	isSharingEnabled	[0]
+	w	Str	shareBookEvent
+	w	Str	shareBookText
+	w	Str	shareMessageAboutBook
+com.lab126.reader.qa
+	r 	Str	getFontStyles	[["amazon 
+ember","condensed","amazon ember bold","futura","baskerville","helvetica 
+neue lt","bookerly","opendyslexic","caecilia regular","palatino"]]
+	rw	Int	lineSpacing	[1]
+	rw	Int	fontSize	[3]
+	rw	Int	fontBoldness	[0]
+	rw	Str	fontStyle	[bookerly]
+com.lab126.cvm
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, 
+crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, 
+p_error, p_crit, p_none)]
+com.lab126.merchant
+	w 	Str	remove
+	rw	Str	shuffle	[true]
+	w	Str	removeAll
+com.lab126.chromebar
+	w 	Str	activityIndicator
+	w	Str	searchResults
+	w	Str	configureChrome

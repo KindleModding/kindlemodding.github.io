@@ -47,3 +47,6 @@ This guide will briefly go over how to back-up your Kindle's partitions, allowin
 
 {: .highlight}
 If you ever want to back up your Kindle again, you can start from `step 7`, assuming you didn't remove `kterm` or the `backup script`
+
+## Credits
+- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
