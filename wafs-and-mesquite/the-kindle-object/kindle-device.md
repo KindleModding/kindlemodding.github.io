@@ -22,16 +22,16 @@ It also contains certain properties:
 
 ## kindle.device.setSensitivity
 ~~~js
-kindle.device.setSensitivity(automatic, threshold)
+kindle.device.setSensitivity(useThreshold, threshold)
 ~~~
 Sets the "sensitivity" of the eInk display according to a `threshold`. A `threshold` of `100` will cause the Kindle to refresh significantly more than a `threshold` of `0`
 
 Parameters:
 
-| Name      | Type    | Description                                                                                |
-|-----------|---------|--------------------------------------------------------------------------------------------|
-| automatic | Boolean | Whether or not to automatically refresh like normal. If `true`, do not provide `threshold` |
-| threshold | Integer | A number from 0-100 describing how often the eInk panel of the Kindle will "refresh"       |
+| Name         | Type    | Description                                                                                                |
+|--------------|---------|------------------------------------------------------------------------------------------------------------|
+| useThreshold | Boolean | Whether threshold should be used or whether to refresh like normal. If `false`, do not provide `threshold` |
+| threshold    | Integer | A number from 0-100 describing how often the eInk panel of the Kindle will "refresh"                       |
 
 
 ## kindle.device.setOrientation
@@ -139,3 +139,35 @@ Clears any resources cached by the application in memory
 
 {: .highlight}
 Using this with a `Mesquito` app can cause bugs and be generally annoying, avoid its use when possible for `Mesquito` apps
+
+
+## kindle.device.getMPDomain
+~~~js
+kindle.device.getMPDomain()
+~~~
+Gets the marketplace domain.
+
+{: .highlight}
+Fun fact, the firmware reffers to `".amazon.cn"` as the `CHINESE_OBFUSCATED_MARKETPLACE` when returned by this function
+
+
+## kindle.device.getBaiduSearchURL
+~~~js
+kindle.device.getBaiduSearchURL()
+~~~
+Returns the Baidu Search URL I would assume... Returns the following string (at the time of writing):
+~~~
+https://www.baidu.com/s?tn=baiduhome_pg&ie=utf-8&rn=4&wd=
+~~~
+
+Example usage of format in firmware:
+~~~js
+var dynUrlBaiduSearch = kindle.device.getBaiduSearchURL();
+websiteUrl = dynUrlBaiduSearch ? dynUrlBaiduSearch + encodeURIComponent(args.label) : b.strings.goActions[args.domain].url + encodeURIComponent(args.label);
+~~~
+
+## kindle.device.disableSecureApis
+~~~js
+kindle.device.disableSecureApis()
+~~~
+Related to `payment` WAF, seems to disable "secure APIs" on non-Amazon URLs
