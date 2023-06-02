@@ -171,3 +171,41 @@ websiteUrl = dynUrlBaiduSearch ? dynUrlBaiduSearch + encodeURIComponent(args.lab
 kindle.device.disableSecureApis()
 ~~~
 Related to `payment` WAF, seems to disable "secure APIs" on non-Amazon URLs
+
+
+## kindle.device.isInDemoMode
+~~~js
+kindle.device.isInDemoMode()
+~~~
+Returns a Boolean which is `true` if the device is in Demo mode.
+
+
+## kindle.device.getSoftwareVersionNumber
+~~~js
+kindle.device.getSoftwareVersionNumber()
+~~~
+Returns an int representing the firmware's version number.
+IE: `5.15.1.1` is `3924990005`
+
+
+## kindle.device.getSoftwareVersionString
+~~~js
+kindle.device.getSoftwareVersionString()
+~~~
+Returns the string representing the firmware's version number.
+IE: `"1.15.1.1"`
+
+
+## kindle.device.getASRMode
+~~~js
+kindle.device.getASRMode()
+~~~
+Returns a number. What it represents is currently unknown.
+Returns `0` on the Kindle it was tested on.
+
+
+## kindle.device.getCSSPixelsPerInch
+~~~js
+kindle.device.getCSSPixelsPerInch()
+~~~
+Returns the number of CSS Pixels per Inch, presumably.
