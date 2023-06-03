@@ -209,3 +209,19 @@ Returns `0` on the Kindle it was tested on.
 kindle.device.getCSSPixelsPerInch()
 ~~~
 Returns the number of CSS Pixels per Inch, presumably.
+
+
+## kindle.device.getBaiduSearchURL
+~~~js
+kindle.device.getBaiduSearchURL()
+~~~
+Returns the Baidu Search URL I would assume... Returns the following string (at the time of writing):
+~~~
+https://www.baidu.com/s?tn=baiduhome_pg&ie=utf-8&rn=4&wd=
+~~~
+
+Example usage of format in firmware:
+~~~js
+var dynUrlBaiduSearch = kindle.device.getBaiduSearchURL();
+websiteUrl = dynUrlBaiduSearch ? dynUrlBaiduSearch + encodeURIComponent(args.label) : b.strings.goActions[args.domain].url + encodeURIComponent(args.label);
+~~~
