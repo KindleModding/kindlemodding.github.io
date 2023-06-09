@@ -88,7 +88,7 @@ getQueryData()
 
 Taking no arguments, it returns an object representing the GET parameters of the current location.
 IE, the location:
-~~~http
+~~~
 file:///mnt/us/mesquito/index.html?entrypoint=hello&launch=false
 ~~~
 
