@@ -11,6 +11,9 @@ The Kindle has many apps/services which communicated via `LIPC`, which is simila
 {. :highlight}
 LIPC values are wrapped in square brackets (`[]`), these should be excluded when writing to a LIPC entry
 
+{: :warning}
+This entire section is a `WIP` and is `incomplete`
+
 ## How to use
 LIPC can be interacted with through the command line as so:
 ~~~bash

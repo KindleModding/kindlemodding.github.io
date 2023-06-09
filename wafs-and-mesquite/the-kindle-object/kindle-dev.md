@@ -181,3 +181,28 @@ websiteUrl = dynUrlBaiduSearch ? dynUrlBaiduSearch + encodeURIComponent(args.lab
 kindle.dev.disableSecureApis()
 ~~~
 Related to `payment` WAF, seems to disable "secure APIs" on non-Amazon URLs
+
+## kindle.dev.getRegisteredUserId
+~~~js
+kindle.dev.getRegisteredUserId()
+~~~
+Returns a string identifier which is the `userId`, seemingly used to track change in Registration. (Amazon's words, not mine)
+
+
+## kindle.dev.getDSN
+~~~js
+kindle.dev.getDSN()
+~~~
+Returns a string, unknown what this is.
+
+## kindle.dev.getDeviceLocale
+~~~js
+kindle.dev.getDeviceLocale()
+~~~
+Returns a string representing the device's locale, ie: `en_GB`
+
+## kindle.dev.getDeviceTypeString
+~~~js
+kindle.dev.getDeviceTypeString()
+~~~
+Returns a string representing the device's type, ie: `malbec`

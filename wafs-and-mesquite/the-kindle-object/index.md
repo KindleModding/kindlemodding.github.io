@@ -17,3 +17,7 @@ The `kindle` object also has the following properties:
 | Name    | Value   | Description                                           |
 |---------|---------|-------------------------------------------------------|
 | version | `1`     | An int which appears to store the version of the API? |
+
+
+## Secret Dev Stuff
+In the local-development version (the Kindle object is spoofed for local development), the following interesting properties also exist, `isMock` which is `1` and `extensions` which is `{}`

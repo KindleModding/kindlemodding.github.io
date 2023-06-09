@@ -16,9 +16,9 @@ Only `onswipe` and `ontap` work with `Mesquito` due to the store's [`config.xml`
 
 ## kindle.gestures.onswipe
 ~~~js
-kindle.gestures.onswipe(direction)
+kindle.gestures.onswipe(direction, pageX, pageY)
 ~~~
-Triggered whenever the user swipes on the Kindle screen, only has a single string parameter which is the [swipe direction](./enums#direction)
+Triggered whenever the user swipes on the Kindle screen, has 3 parameters, including single string parameter which is the [swipe direction](./enums#direction), and `pageX` and `pageY` parameters indicating the location of the swipe on the page.
 
 
 ## kindle.gestures.onflick
