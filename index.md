@@ -17,8 +17,8 @@ This is the Kindle Modding wiki, an online resource which hopes to consolidate a
 
 Join [Our Discord](https://dsc.gg/kindle-modding)!
 
-[Getting Started With Jailbreaking Your Kindle]()
+[Getting Started With Jailbreaking Your Kindle](./jailbreaking/)
 
-[Mesquito]()
+[Mesquito](./mesquito/)
 
-[KWebBrew]()
+[KWebBrew](https://github.com/KindleModding/KWebBrew/wiki)
