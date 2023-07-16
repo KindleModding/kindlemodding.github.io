@@ -19,9 +19,15 @@ Mesquito is a simple WAF loader designed to replace the Kindle store on Kindles.
 8. When prompted, turn on WiFi
 9. Done!
 
+{: .warning}
+Make sure you turn on Airplane mode to stop the Kindle getting an OTA update that could break Mesquito!
+
 ## Post-Installation
 A collection of Mesquito apps are available [here](https://github.com/KindleModding/KindleModding-Apps)
 Simply download the [latest release](https://github.com/KindleModding/Mesquito/releases/latest) and copy the apps you want to the `apps` folder on your Kindle and re-load Mesquito by `clicking on the 3 dots` > `Home`
 
 ## Development
 See [Developing For Mesquito](../mesquito/development/)
+
+## Screenshot Of Mesquito
+![Mesquito screenshot](./Mesquito.png)
