@@ -9,6 +9,7 @@ title: kindle.chrome
 Functions specific to the titlebar and dialog interfaces.
 
 Has the following parameters:
+
 | Name                    | Value | Dscription                                                                                                                                                         |
 |-------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | isDecanterChromeEnabled | true  | A `boolean` describing whether or not "`decanter chrome`" is enabled. Seemingly related to firmware version as new firmwares have whatever "`decanter chrome`" is. |
