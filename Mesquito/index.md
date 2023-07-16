@@ -30,4 +30,4 @@ Simply download the [latest release](https://github.com/KindleModding/Mesquito/r
 See [Developing For Mesquito](../mesquito/development/)
 
 ## Screenshot Of Mesquito
-![Mesquito screenshot](./Mesquito.png)
+![Mesquito screenshot](./mesquito.png)
