@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Kindle Apps & Services
-nav_order: 5
+nav_order: 100
 has_children: true
 ---
 
 # Kindle Apps & Services
 The Kindle has many apps/services which communicated via `LIPC`, which is similar to `dbus` in many respsects.
 
-{. :highlight}
+{: .highlight}
 LIPC values are wrapped in square brackets (`[]`), these should be excluded when writing to a LIPC entry
 
 {: :warning}
