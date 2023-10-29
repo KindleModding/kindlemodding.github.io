@@ -21,27 +21,29 @@ Which will show a window in which you will be able to see your Kindle's serial n
 ## Choosing a method
 Once you have your model, simply pick a jailbreaking method from this table:
 
-| Model | [WatchThis](WatchThis) (Software) | [KindleBreak](KindleBreak) (Software) | [Popcorn](Popcorn) (Hardware) |
-|-------|:---------------------------------:|:-------------------------------------:|:-----------------------------:|
-| KT3   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |             `any`             |
-| KT4   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
-| KOA1  |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
-| KOA2  |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
-| KOA3  |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
-| PW3   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |             `any`             |
-| PW4   |        `1.13.4` - `15.14.2`       |          `5.10.3` - `5.13.3`          |        `NOT SUPPORTED`        |
-| PW5   |        `1.13.4` - `15.14.2`       |            `NOT SUPPORTED`            |        `NOT SUPPORTED`        |
-| KV    |        `1.13.4` - `15.13.6`       |          `5.10.3` - `5.13.3`          |             `any`             |
-| KT2   |             `5.12.2.2`            |          `5.10.3` - `5.13.3`          |             `any`             |
-| PW2   |             `5.12.2.2`            |          `5.10.3` - `5.13.3`          |             `any`             |
+| Model       | [LanguageBreak](LanguageBreak) (Software)        | [WatchThis](WatchThis) (Software) | [KindleBreak](KindleBreak) (Software) | [Popcorn](Popcorn) (Hardware) |
+|-------------|--------------------------------------------------|-----------------------------------|---------------------------------------|-------------------------------|
+| KT3         | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `any`                         |
+| KT4         | `UNTESTED`                                       | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `NOT SUPPORTED`               |
+| KOA1        | `UNTESTED`                                       | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `NOT SUPPORTED`               |
+| KOA2        | `UNTESTED`                                       | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `NOT SUPPORTED`               |
+| KOA3        | `UNTESTED`                                       | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `NOT SUPPORTED`               |
+| PW3         | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `any`                         |
+| PW4         | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `1.13.4` - `15.14.2`              | `5.10.3` - `5.13.3`                   | `NOT SUPPORTED`               |
+| PW5         | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `1.13.4` - `15.14.2`              | `NOT SUPPORTED`                       | `NOT SUPPORTED`               |
+| KV          | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `1.13.4` - `15.13.6`              | `5.10.3` - `5.13.3`                   | `any`                         |
+| KS (Scribe) | `1.13.4` - `5.16.2.1.1` (`5.16.2.1` recommended) | `NOT SUPPORTED`                   | `NOT SUPPORTED`                       | `NOT SUPPORTED`               |
+| KT2         | `NOT SUPPORTED`                                  | `5.12.2.2`                        | `5.10.3` - `5.13.3`                   | `any`                         |
+| PW2         | `NOT SUPPORTED`                                  | `5.12.2.2`                        | `5.10.3` - `5.13.3`                   | `any`                         |
 
 {: .highlight}
-WatchThis is currently the recommended method, so use it when possible.
+[LanguageBreak](./LanguageBreak) is currently the recommended method, so use it when possible.
 
 {: .warning }
-KindleBreak **DOES NOT** support firmware version `5.12.2.2.2.2` on **ANY MODEL**. Use `WatchThis` instead (if possible).
+KindleBreak **DOES NOT** support firmware version `5.12.2.2.2.2` on **ANY MODEL**. Use `LanguageBreak` or `WatchThis` instead (if possible).
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+- Thanks to [marek](https://www.mobileread.com/forums/member.php?u=340787) for creating `LanguageBreak`
 - Thanks to [katadelos](https://www.mobileread.com/forums/member.php?u=308426) for creating `WatchThis`
 - Thanks to [tryol](https://www.mobileread.com/forums/member.php?u=317940) for creating `KindleBreak`

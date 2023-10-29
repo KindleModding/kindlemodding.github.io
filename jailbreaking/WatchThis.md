@@ -18,7 +18,7 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 ## Jailbreaking Your Kindle
 ### Initial setup
 1. Factory reset your Kindle
-2. On the language seletion screen, select `en_GB` or `English (United Kingdom`).
+2. On the language selection screen, select `en_GB` or `English (United Kingdom`).
 3. Skip Wi-Fi registration by selecting any network and then backing out
 4. Type `;enter_demo` into the Kindle's searchbar an click enter
 5. Reboot the Kindle by holding down the button and selecting the `reboot` option when it appears
@@ -52,6 +52,9 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 12. The device will now reboot into a jailbroken state
 
 You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+
+{: .note}
+WatchThis is unique in the sense that the `HotFix` must be installed before proceeding with other `Post Jailbreak` items
 
 # Troubleshooting
 If you had any issue with the above steps...

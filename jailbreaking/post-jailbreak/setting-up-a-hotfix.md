@@ -12,8 +12,17 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 {: .warning}
 Update `5.15.1.1` and newer **BREAK HOTFIXES**. Do not update even if you have a hotfix installed.
 
+## LanguageBreak Hotfix
+Follow these steps **ONLY** for [LanguageBreak](../LanguageBreak)
+1. Type `;uzb` into the search bar of your Kindle and click enter
+2. Connect the Kindle to your PC
+3. Copy the `update_hotfix_languagebreak.bin` from the LanguageBreak `tar.gz` you extracted during setup to the root of your Kindle
+4. Eject and unplug the Kindle
+5. Enter `;dsts` into the search bar of the Kindle and click enter
+6. Select `Update Your Kindle`
+
 ## WatchThis Hotfix
-Follow these steps **ONLY** for WatchThis
+Follow these steps **ONLY** for [WatchThis](../WatchThis)
 1. Type `;uzb` into the search bar of your Kindle and click enter
 2. Connect the Kindle to your PC
 3. Copy the `update_hotfix_watchthis_custom.bin` from the WatchThis zip you extracted during setupto the root of your Kindle
