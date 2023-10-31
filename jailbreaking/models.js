@@ -1880,7 +1880,7 @@ const kindleModels = [
     "kindletool_name": "KindleOasis3WiFi4G32GBIndia",
     "nicknames": [
       "KOA3",
-      "KPA3G21IN"
+      "KOA3G21IN"
     ],
     "serial_version": 1,
     "serial_snippet": "0WP"
@@ -1947,7 +1947,6 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindlePaperWhite5SignatureEdition",
     "nicknames": [
-      "KPW5SE",
       "PW5SE"
     ],
     "serial_version": 1,
@@ -1980,7 +1979,6 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindlePaperWhite5",
     "nicknames": [
-      "KPW5",
       "PW5"
     ],
     "serial_version": 1,
@@ -2045,7 +2043,6 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindlePaperWhite5SE_2BH",
     "nicknames": [
-      "KPW5SE",
       "PW5SE"
     ],
     "serial_version": 1,
@@ -2078,7 +2075,6 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindlePaperWhite5Kids_2DK",
     "nicknames": [
-      "KPW5",
       "PW5"
     ],
     "serial_version": 1,
