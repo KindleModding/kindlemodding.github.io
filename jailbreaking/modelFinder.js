@@ -36,11 +36,18 @@ function searchForSerial() {
     searchStatus.innerText = "";
 
     // Validate serial number
-    try {
-        serialInfo = getSerialInfo(serialNumber);
-    } catch {
-        searchStatus.style = "color: red;";
-        searchStatus.innerText = "ERROR: Your Kindle serial number is invalid";
+    if (serialNumber.length == 2 || serialNumber.length == 3) { // Allow developers to search serial snippet directly
+        serialInfo = {
+            serial_version: serialNumber.length == 2 ? 0 : 1, // Kinda messy but it works
+            serial_snippet: serialNumber
+        }
+    } else {
+        try {
+            serialInfo = getSerialInfo(serialNumber);
+        } catch {
+            searchStatus.style = "color: red;";
+            searchStatus.innerText = "ERROR: Your Kindle serial number is invalid";
+        }
     }
 
     if (serialInfo === -1) {
