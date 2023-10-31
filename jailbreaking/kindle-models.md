@@ -11,6 +11,9 @@ nav_order: 3
 You can find your serial number by going to `Settings` > `Device Options` > `Device Info`
 Which will show a window in which you will be able to see your Kindle's serial number
 
+{: .highlight }
+You only need to enter the first 8 characters of your serial number, not all 16 characters
+
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <h3>Enter your Kindle's serial number here</h3>
     <p id="searchStatus"></p>
