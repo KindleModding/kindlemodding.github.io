@@ -2255,8 +2255,7 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindleScribe16GB_227",
     "nicknames": [
-      "KS",
-      "KS16"
+      "KS"
     ],
     "serial_version": 1,
     "serial_snippet": "227"
@@ -2304,8 +2303,7 @@ const kindleModels = [
     "jailbreak": "LanguageBreak",
     "kindletool_name": "KindleScribe64GB_23M",
     "nicknames": [
-      "KS",
-      "KS64"
+      "KS"
     ],
     "serial_version": 1,
     "serial_snippet": "23M"
