@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: LanguageBreak
-nav_order: 5
+nav_order: 6
 ---
 
 # BabelBreak

@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: KindleBreak
-nav_order: 4
+nav_order: 5
 ---
 
 # KindleBreak
@@ -13,7 +13,7 @@ nav_order: 4
 - You will also need a PC
 
 {: .warning}
-KindleBreak will **NOT** work on firmware `5.12.2.2.2`
+KindleBreak will **NOT** work on firmware `5.12.2.2`
 
 ## Jailbreaking Your Kindle
 1. On your Kindle, enable `Airplane Mode` if it isn't already on
