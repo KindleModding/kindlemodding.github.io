@@ -1,4 +1,7 @@
 // Gets the Kindle model from serial number
+
+
+
 function getSerialInfo(serial) {    
     if (serial[0] == "G") { // New-style serial number
         if (serial.length < 6) {
@@ -22,6 +25,7 @@ function getSerialInfo(serial) {
         return -2;
     }
 }
+
 
 
 function searchForSerial() {
@@ -59,10 +63,10 @@ function searchForSerial() {
     } else {
         // Search for serial number
         for (const kindle of kindleModels) {
-            if (kindle.serial_version != serialInfo.serial_version) {
+            if (kindle.serial_version < serialInfo.serial_version) {
                 continue; // Skip wrong version Kindle models
             } else {
-                if (kindle.serial_snippet == serialInfo.serial_snippet) {
+                if (Object.keys(kindle.serial_snippets).includes(serialInfo.serial_snippet)) {
                     // Kindle found
                     
                     // Create header
@@ -78,12 +82,12 @@ function searchForSerial() {
                     ]
 
                     const secondaryKindleInfo = [
-                        ["KindleTool Name", kindle.kindletool_name],
+                        ["KindleTool Name", kindle.serial_snippets[serialInfo.serial_snippet]],
                         ["Release Firmware", kindle.release_firmware],
                         ["Last Firmware Update", kindle.last_firmware],
                         ["Kindle Platform Name", kindle.platform],
                         ["Kindle Board Name", kindle.board],
-                        ["Kindle Serial Snippet", kindle.serial_snippet]
+                        ["Kindle Serial Snippet", serialInfo.serial_snippet]
                     ]
 
                     const mainTable = document.createElement("table");
@@ -145,7 +149,7 @@ function searchForSerial() {
 }
 
 
-// Generates table to display
+// Generates the table of all models to display
 function generateTable() {
     const table = document.createElement("table");
     const tableHeader = document.createElement("thead");
