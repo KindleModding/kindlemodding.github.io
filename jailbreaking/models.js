@@ -590,7 +590,7 @@ const kindleModels = [
   },
   {
     "release_year": 2024,
-    "release_firmware": "5.17.0",
+    "release_firmware": "5.16.20",
     "generation_nickname": "KT6",
     "amazon_name": "Kindle (11th Generation) - 2024 Release",
     "last_firmware": "LATEST",
