@@ -184,7 +184,7 @@ function generateTable() {
         const latestFirmware = document.createElement("td");
         const recommendedJailbreak = document.createElement("td");
 
-        kindletoolName.innerText = kindle.kindletool_name;
+        kindletoolName.innerText = kindle.serial_snippets[Object.keys(kindle.serial_snippets)[0]];
         amazonName.innerText = kindle.amazon_name;
         kindleNickname.innerText = kindle.nicknames.join(', ');
         latestFirmware.innerText = kindle.last_firmware;

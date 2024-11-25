@@ -621,7 +621,7 @@ const kindleModels = [
     "board": "Sangria",
     "jailbreak": "",
     "nicknames": [
-      "KT6"
+      "PW6"
     ],
     "serial_version": 1,
     "serial_snippets": {
