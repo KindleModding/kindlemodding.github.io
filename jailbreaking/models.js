@@ -643,7 +643,7 @@ const kindleModels = [
     "generation_nickname": "CS",
     "amazon_name": "Kindle Colorsoft (12th Generation)",
     "last_firmware": "LATEST",
-    "platform": "UNKNOWN",
+    "platform": "Bellatrix4",
     "board": "Seabreeze",
     "jailbreak": "",
     "nicknames": [
