@@ -637,4 +637,21 @@ const kindleModels = [
       '3JS': 'KindlePaperWhite6Unknown_3JS'
     }
   },
+  {
+    "release_year": 2024,
+    "release_firmware": "5.18.0.1.0.1",
+    "generation_nickname": "CS",
+    "amazon_name": "Kindle Colorsoft (12th Generation)",
+    "last_firmware": "LATEST",
+    "platform": "UNKNOWN",
+    "board": "Seabreeze",
+    "jailbreak": "",
+    "nicknames": [
+      "CS"
+    ],
+    "serial_version": 1,
+    "serial_snippets": {
+      '3H7': "KindleColorsoftUnknown_3H7"
+    }
+  }
 ]
