@@ -9,35 +9,22 @@ nav_order: 1
 # Setting Up A Hotfix
 A hotfix allows your Kindle's jailbreak to persist after updating. There are two different hotfixes and which one you need to install depends on which method you used to jailbreak your Kindle.
 
-{: .warning}
-Update `5.15.1.1` and newer **BREAK HOTFIXES**. Do not update even if you have a hotfix installed.
+## Kindle Modding Community Universal Hotfix (recommended)
+1. Download the latest hotfix from [here](https://github.com/KindleModding/Hotfix/releases/latest)
 
-## LanguageBreak Hotfix
-Follow these steps **ONLY** for [LanguageBreak](../LanguageBreak)
-1. Type `;uzb` into the search bar of your Kindle and click enter
-2. Connect the Kindle to your PC
-3. Copy the `update_hotfix_languagebreak.bin` from the LanguageBreak `tar.gz` you extracted during setup to the root of your Kindle
-4. Eject and unplug the Kindle
-5. Enter `;dsts` into the search bar of the Kindle and click enter
-6. Select `Update Your Kindle`
+[Download Hotfix](https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin){: .btn .btn-purple}
 
-## WatchThis Hotfix
-Follow these steps **ONLY** for [WatchThis](../WatchThis)
-1. Type `;uzb` into the search bar of your Kindle and click enter
-2. Connect the Kindle to your PC
-3. Copy the `update_hotfix_watchthis_custom.bin` from the WatchThis zip you extracted during setupto the root of your Kindle
-4. Eject and unplug the Kindle
-5. Enter `;dsts` into the search bar of the Kindle and click enter
-6. Select `Update Your Kindle`
+2. Connect your Kindle to your PC
+3. Copy the `Update_hotfix_universal.bin` to your Kindle
+4. Eject and unplug your Kindle
+5. On your Kindle, go to `Settings` > `Update Your Kindle` to install the hotfix
+6. Once your Kindle has restarted, click on the new `Run Hotfix` "book", this will run the hotfix itself
 
-## Normal Hotfix
-1. Go to [NiLuJe's Snapshots Thread](https://www.mobileread.com/forums/showthread.php?t=225030)
-2. Download the `K5 JailBreak Hotfix`
-3. Extract the zip to a location on your PC
-4. Connect your Kindle to your PC
-5. Copy the `.bin` file from the extracted zip to the root of your Kindle
-6. Eject and unplug your Kindle
-7. On your Kindle, go to `Settings` > `Update Your Kindle` to install the hotfix
+{: .note }
+> You will need to run the hotfix after every update
 
-## Credits
-- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
+
+
+Now that we have our hotfix setup, we can install `KUAL` and `MRPI`
+
+[Install KUAL and MRPI](./installing-kual-mrpi){: .btn .btn-purple}

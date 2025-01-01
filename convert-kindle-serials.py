@@ -201,7 +201,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Bellatrix3",
         "board": "Barolo",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle Basic 4, released October 12 2022 on FW 5.15.0
     {
@@ -213,7 +213,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Bellatrix",
         "board": "Cava",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle PaperWhite 5, released October 27 2021 on FW 5.14.0
     {
@@ -225,7 +225,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Bellatrix",
         "board": "Malbec",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle Oasis 3, released July 24 2019 on FW 5.12.0
     {
@@ -237,7 +237,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Zelda",
         "board": "Stinger",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle Basic 3, released April 10 2019 on FW 5.1x.y
     {
@@ -249,7 +249,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Rex",
         "board": "Moonshine",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle PaperWhite 4, released November 7 2018 on FW 5.10.0.1/5.10.0.2
     {
@@ -261,7 +261,7 @@ generationMap = [
         "last_firmware": "LATEST",
         "platform": "Rex",
         "board": "Jaeger",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle Oasis 2, released winter 2017 on FW 5.9.0.6
     {
@@ -273,7 +273,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Zelda",
         "board": "Cognac",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle Basic 2, released summer 2016 on FW 5.8.0
     {
@@ -285,7 +285,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Heisenberg",
         "board": "Eanab",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle Oasis, released late spring 2016 on FW 5.7.1.1
     {
@@ -297,7 +297,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Duet",
         "board": "Whisky",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle PaperWhite 3, White, appeared w/ FW 5.7.3.1, released summer 2016 on FW 5.7.x?
     {
@@ -309,7 +309,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
         "board": "Muscat",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle PaperWhite 3, released summer 2015 on FW 5.6.1
     {
@@ -321,7 +321,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
         "board": "Muscat",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle Voyage, released fall 2014 on FW 5.5.0
     {
@@ -333,7 +333,7 @@ generationMap = [
         "last_firmware": "5.13.6",
         "platform": "Wario",
         "board": "Icewine",
-        "jailbreak": "LanguageBreak"
+        "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>"
     },
     # Kindle Basic (Pearl, Touch), released fall 2014 on FW 5.6.0
     {
@@ -345,7 +345,7 @@ generationMap = [
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
         "board": "Bourbon",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle PaperWhite 2 (black bezel), released fall 2013 on FW 5.4.0
     {
@@ -357,7 +357,7 @@ generationMap = [
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
         "board": "Pinot",
-        "jailbreak": "WatchThis"
+        "jailbreak": "<a href=\"WatchThis\">WatchThis</a>"
     },
     # Kindle PaperWhite (black bezel), released fall 2012 on FW 5.2.0
     {
@@ -381,7 +381,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Sauza",
-        "jailbreak": "[NiLuJe's K4 JB](https://www.mobileread.com/forums/showthread.php?t=191158)"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
     },
     # Kindle 4 with a silver bezel, released fall 2011
     {
@@ -393,7 +393,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Tequila",
-        "jailbreak": "[NiLuJe's K4 JB](https://www.mobileread.com/forums/showthread.php?t=191158)"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
     },
     # Kindle 5 touch
     {
@@ -417,7 +417,7 @@ generationMap = [
         "last_firmware": "3.4.3",
         "platform": "Luigi",
         "board": "Shasta",
-        "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
     },
     # Kindle DX
     {
@@ -429,7 +429,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "???",
         "board": "Nell/NellSL/NellWW",
-        "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
     },
     # Kindle 2
     {
@@ -441,7 +441,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "Mario/MarioDeprecated",
         "board": "Mario",
-        "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
     },
     # Kindle
     {

@@ -1,11 +1,12 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+grand_parent: Jailbreaking Your Kindle
+parent: Legacy
 title: LanguageBreak
-nav_order: 6
+nav_order: 1
 ---
 
-# BabelBreak
+# LanguageBreak
 [LanguageBreak](https://www.mobileread.com/forums/showthread.php?t=356872) is jailbreak utilising a novel [`langpicker-nativebridge`](https://www.mobileread.com/forums/showthread.php?t=356766) exploit.
 
 ## Prerequisites
@@ -35,7 +36,7 @@ LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
 9. Select the `standard` demo type
 10. Press `Done` at the "sideload content" prompt
 11. Once that is done, you can byass the `misconfiguration` error using the following gesture:
-![gesture](./WatchThis-Gesture.png)
+![gesture](./WatchThis/WatchThis-Gesture.png)
 (tap with two fingers, then swipe left)
 12. In the searchbar, type `;demo` and click enter
 13. Select the "sideload content" option
@@ -54,7 +55,20 @@ LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
 11. Your kindle should reboot and you should see some log message on the screen
 12. The device is now in a jailbroken state
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+### Install LanguageBreak-Specific Hotfix
+{: .note}
+> LanguageBreak is unique in the sense that its own `HotFix` must be installed before proceeding with other `Post Jailbreak` items
+
+1. Type `;uzb` into the search bar of your Kindle and click enter
+2. Connect the Kindle to your PC
+3. Copy the `update_hotfix_languagebreak.bin` from the LanguageBreak `tar.gz` you extracted during setup to the root of your Kindle
+4. Eject and unplug the Kindle
+5. Enter `;dsts` into the search bar of the Kindle and click enter
+6. Select `Update Your Kindle`
+
+You are now ready to check the `Post Jailbreak` section for what to do now.
+
+[Post Jailbreak](../post-jailbreak/){: .btn .btn-purple}
 
 # Troubleshooting
 If you had any issue with the above steps...

@@ -30,6 +30,11 @@ KAUL and MRPI both rely on each other, so you must install them both together
 5. Enter `;log mrpi` into the search bar and click enter
 6. `Hush, little baby...` should show up at the bottom of the screen, you have now installed KUAL and MRPI
 
+
+Now we can disable OTA updates in-case Amazon releases an update which breaks the hotfix (this has happened in the past)
+
+[Disabling OTA Updates](./disable-ota){: .btn .btn-purple}
+
 ## Troubleshooting
 - Verify the location of all the folders and files on the Kindle
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`

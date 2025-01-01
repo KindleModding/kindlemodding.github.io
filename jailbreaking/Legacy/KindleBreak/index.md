@@ -1,8 +1,9 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+grand_parent: Jailbreaking Your Kindle
+parent: Legacy
 title: KindleBreak
-nav_order: 5
+nav_order: 4
 ---
 
 # KindleBreak
@@ -28,7 +29,9 @@ KindleBreak will **NOT** work on firmware `5.12.2.2`
 9. The browser should freeze, crash and then after some time (up to 5 minutes) the Kindle will reboot. After this, it should show an error popup with the message `Application Error` or `Collecting Debug Info`
 10. The device is now in a jailbroken state
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+You are now ready to check the `Post Jailbreak` section for what to do now.
+
+[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

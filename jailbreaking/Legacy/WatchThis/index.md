@@ -1,8 +1,9 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+grand_parent: Jailbreaking Your Kindle
+parent: Legacy
 title: WatchThis
-nav_order: 4
+nav_order: 2
 ---
 
 # WatchThis
@@ -51,10 +52,20 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 11. Select `Help & User Guides` and then select `Get Started`
 12. The device will now reboot into a jailbroken state
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
-
+### WatchThis-Specific Hotfix
 {: .note}
-WatchThis is unique in the sense that the `HotFix` must be installed before proceeding with other `Post Jailbreak` items
+> WatchThis is unique in the sense that its own `HotFix` must be installed before proceeding with other `Post Jailbreak` items
+
+1. Type `;uzb` into the search bar of your Kindle and click enter
+2. Connect the Kindle to your PC
+3. Copy the `update_hotfix_watchthis_custom.bin` from the WatchThis zip you extracted during setupto the root of your Kindle
+4. Eject and unplug the Kindle
+5. Enter `;dsts` into the search bar of the Kindle and click enter
+6. Select `Update Your Kindle`
+
+You are now ready to check the `Post Jailbreak` section for what to do now.
+
+[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
 
 # Troubleshooting
 If you had any issue with the above steps...

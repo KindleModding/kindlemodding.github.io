@@ -1,6 +1,6 @@
 ---
 layout: default
-grand_parent: Jailbreaking Your Kindle
+grand_parent: Legacy
 parent: Popcorn
 title: PW3
 ---
@@ -24,7 +24,9 @@ If everything went well, the device is now in `SDP Mode` and ready to be flashed
 ## Windows
 On Windows, simply locate the folder you extracted earlier, double click on `MFGTool.exe` to run it and then click on `Start` and wait for it to complete.
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+You are now ready to check the `Post Jailbreak` section for what to do now.
+
+[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
 
 
 ## Linux
@@ -36,7 +38,9 @@ sudo imx_usb -c imx_usb_loader/wario
 ~~~
 And wait for it to complete.
 
-You are now ready to check the [`Post Jailbreak`](./post-jailbreak/) section for what to do now.
+You are now ready to check the `Post Jailbreak` section for what to do now.
+
+[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

@@ -53,19 +53,19 @@ color_scheme: dark
 #   - vendor/gems/
 #   - vendor/ruby/
 
-callouts_level: quiet # or loud
+callouts_level: loud # or loud
 callouts:
   highlight:
     color: yellow
   important:
     title: Important
-    color: blue
+    color: purple
   new:
     title: New
     color: green
   note:
     title: Note
-    color: blue
+    color: purple
   warning:
     title: Warning
     color: red

@@ -1,8 +1,9 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+grand_parent: Jailbreaking Your Kindle
+parent: Legacy
 title: Popcorn
-nav_order: 5
+nav_order: 3
 has_children: true
 ---
 

@@ -44,7 +44,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "Mario/MarioDeprecated",
     "board": "Mario",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "K2"
     ],
@@ -61,7 +61,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "Mario/MarioDeprecated",
     "board": "Mario",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "K2",
       "K2I"
@@ -79,7 +79,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "DX"
     ],
@@ -96,7 +96,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "DX",
       "DXI"
@@ -114,7 +114,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "K3",
       "K3G"
@@ -132,7 +132,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "K3",
       "K3W"
@@ -150,7 +150,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "DX",
       "DXG"
@@ -168,7 +168,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "https://www.mobileread.com/forums/showthread.php?t=88004",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
     "nicknames": [
       "K3",
       "K3GB"
@@ -186,7 +186,7 @@ const kindleModels = [
     "last_firmware": "4.1.4",
     "platform": "Yoshi",
     "board": "Tequila",
-    "jailbreak": "[NiLuJe's K4 JB](https://www.mobileread.com/forums/showthread.php?t=191158)",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>",
     "nicknames": [
       "K4",
       "K4S"
@@ -248,7 +248,7 @@ const kindleModels = [
     "last_firmware": "4.1.4",
     "platform": "Yoshi",
     "board": "Sauza",
-    "jailbreak": "[NiLuJe's K4 JB](https://www.mobileread.com/forums/showthread.php?t=191158)",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>",
     "nicknames": [
       "K4",
       "K4B"
@@ -266,7 +266,7 @@ const kindleModels = [
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Pinot",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "PW2",
       "PW2J"
@@ -297,7 +297,7 @@ const kindleModels = [
     "last_firmware": "5.13.6",
     "platform": "Wario",
     "board": "Icewine",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KV"
     ],
@@ -319,7 +319,7 @@ const kindleModels = [
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Bourbon",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KT2",
       "BASIC"
@@ -338,7 +338,7 @@ const kindleModels = [
     "last_firmware": "5.16.2.1.1",
     "platform": "Wario",
     "board": "Muscat",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "PW3"
     ],
@@ -369,7 +369,7 @@ const kindleModels = [
     "last_firmware": "5.16.2.1.1",
     "platform": "Duet",
     "board": "Whisky",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KOA"
     ],
@@ -391,7 +391,7 @@ const kindleModels = [
     "last_firmware": "5.16.2.1.1",
     "platform": "Heisenberg",
     "board": "Eanab",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KT3"
     ],
@@ -410,7 +410,7 @@ const kindleModels = [
     "last_firmware": "5.16.2.1.1",
     "platform": "Zelda",
     "board": "Cognac",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KOA2"
     ],
@@ -441,7 +441,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Rex",
     "board": "Jaeger",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "PW4"
     ],
@@ -479,7 +479,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Rex",
     "board": "Moonshine",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KT4"
     ],
@@ -501,7 +501,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Zelda",
     "board": "Stinger",
-    "jailbreak": "WatchThis",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KOA3",
       "KOA3W32C"
@@ -524,7 +524,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix",
     "board": "Malbec",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "PW5SE"
     ],
@@ -549,7 +549,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix",
     "board": "Cava",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KT5"
     ],
@@ -572,7 +572,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix3",
     "board": "Barolo",
-    "jailbreak": "LanguageBreak",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KS"
     ],
@@ -596,7 +596,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix",
     "board": "Rossini",
-    "jailbreak": "",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "KT6"
     ],
@@ -619,7 +619,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix4",
     "board": "Sangria",
-    "jailbreak": "",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "PW6"
     ],
@@ -645,7 +645,7 @@ const kindleModels = [
     "last_firmware": "LATEST",
     "platform": "Bellatrix4",
     "board": "Seabreeze",
-    "jailbreak": "",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "nicknames": [
       "CS"
     ],

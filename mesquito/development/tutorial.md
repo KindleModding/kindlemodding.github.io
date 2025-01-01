@@ -90,4 +90,4 @@ If you haven't already, copy the `com.mesquito.firstapptutorial` folder to your 
 ![first app screenshot](./firstapp.png)
 
 ## Next steps
-You saw how we can use the WAF API within a Mesquito app to affect the device to an extent, feel free to read the [`kindle object`](../../wafs-and-mesquite/the-kindle-object/index.html) for more information!
+You saw how we can use the WAF API within a Mesquito app to affect the device to an extent, feel free to read the [`kindle object`](../../wafs-and-mesquite/the-kindle-object/) for more information!

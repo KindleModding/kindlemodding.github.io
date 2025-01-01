@@ -2,19 +2,17 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Getting Started
-nav_order: 2
+nav_order: 1
 ---
 
 # Getting Started
 In order to jailbreak your Kindle, you will need to know which Kindle you have and then pick a method to jailbreak it.
 
-## Figuring out which Kindle you have
+## What Kindle Do You Have?
 Unlike Amazon, the Kindle Modding community, such as this Wiki and MobileRead reffers to Kindle models by their nicknames, ie: the `PW4` referring to the `Kindle Paperwhite (10th Generation)`
 
-This can often get somewhat confusing, so to figure out which Kindle you have, simply find the serial number and use this page to see what Kindle you have and what jailbreak method you should use: [Kindle Models](./kindle-models)
-
-## Jailbreaking your Kindle
-Once you have identified what Kindle model you have and the recommended jailbreak method, simply click on the link of find it in the navbar (the left part of this wiki) and follow the instructions there
+This is important to note due to the fact that many Kindle jailbreaks only work on specific models.
+[Kindle Models](./kindle-models){: .btn .btn-purple }
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

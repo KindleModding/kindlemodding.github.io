@@ -188,7 +188,7 @@ function generateTable() {
         amazonName.innerText = kindle.amazon_name;
         kindleNickname.innerText = kindle.nicknames.join(', ');
         latestFirmware.innerText = kindle.last_firmware;
-        recommendedJailbreak.innerText = kindle.jailbreak;
+        recommendedJailbreak.innerHTML = kindle.jailbreak;
 
         tableRow.appendChild(kindletoolName);
         tableRow.appendChild(amazonName);
