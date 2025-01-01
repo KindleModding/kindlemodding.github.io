@@ -10,7 +10,7 @@ nav_order: 3
 
 WinterBreak is a jailbreak which was released on New Year's Day 2025 by [HackerDude](https://www.mobileread.com/forums/member.php?u=330416)
 
-It is based on [Mesquito](../mesquito/)
+It is based on [Mesquito](../../mesquito/)
 
 {: .highlight}
 > Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
