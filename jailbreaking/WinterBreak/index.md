@@ -8,7 +8,7 @@ nav_order: 3
 # WinterBreak
 <a href='https://ko-fi.com/hackerdude' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
-WinterBreak is a jailbreak which was released in 2024 by [HackerDude](https://www.mobileread.com/forums/member.php?u=330416)
+WinterBreak is a jailbreak which was released on New Year's Day 2025 by [HackerDude](https://www.mobileread.com/forums/member.php?u=330416)
 
 It is based on [Mesquito](../mesquito/)
 
