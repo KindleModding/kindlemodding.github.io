@@ -10,7 +10,7 @@ nav_order: 2
 You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (MobileRead Package Installer) to run homebrew on your Kindle.
 
 {: .highlight}
-KAUL and MRPI both rely on each other, so you must install them both together
+KUAL and MRPI both rely on each other, so you must install them both together
 
 ## Prerequisites
 - A PC
