@@ -43,6 +43,7 @@ You are now ready to check the `Post Jailbreak` section for what to do now.
 
 ### Special Thanks To Beta Testers
 - Crystals (Bricked their PW4 testing)
+- mergen3107 (Came up with the "WinterBreak" name)
 - Bomberfish
 - BionicGecko
 - Juliet
@@ -56,5 +57,4 @@ You are now ready to check the `Post Jailbreak` section for what to do now.
 - Human
 - Lux
 - Marek
-- mergen3107
 - terra
