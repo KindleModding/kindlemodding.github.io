@@ -18,6 +18,11 @@ It is based on [Mesquito](../../mesquito/)
 > RIP bricked Kindles during beta-testing
 > RIP the original deadlines
 
+## Prerequisites
+- You will need a PC
+- Your Kindle must be registered
+- Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 8 to 10 (inclusive)
+
 ## Installation Guide
 1. Download the latest WinterBreak release:
 <br/>
@@ -25,7 +30,7 @@ It is based on [Mesquito](../../mesquito/)
 2. Turn on airplane mode on your Kindle
 3. Plug the Kindle into your computer
 4. Extract the contents of the `WinterBreak.tar.gz` file to your Kindle
-    
+
     {: .warning}
     For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
 5. Eject your Kindle from your computer
