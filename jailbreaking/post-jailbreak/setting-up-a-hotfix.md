@@ -22,7 +22,19 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 
 {: .note }
 > You will need to run the hotfix after every update
+>
 
+# Troubleshooting
+
+## Impossible update hotfix
+There is a good chance that after installing an older version of HotFix you immediately disabled OTA updates, so the update file may be ignored!
+
+**Follow these steps to update the HotFix:**
+1. Activate airpline mode
+2. Enable OTA update (KUAL -> Rename OTA binaries -> Restore)
+3. Quickly download HotFix on Kindle and reboot
+4. Update HotFix via Kindle settings
+5. Disable OTA update (KUAL -> Rename OTA binaries -> Rename)
 
 
 Now that we have our hotfix setup, we can install `KUAL` and `MRPI`
