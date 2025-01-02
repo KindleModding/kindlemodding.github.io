@@ -15,8 +15,13 @@ KUAL and MRPI both rely on each other, so you must install them both together
 ## Prerequisites
 - A PC
 - [7-Zip](https://www.7-zip.org/) is recommended to extract the `tar.xz` files
-- Download `KUAL` and `MR Package Installer` from [https://fw.notmarek.com/khf/](https://fw.notmarek.com/khf/)
+- Download `KUAL` and `MR Package Installer` using the provided links
 
+[Download MRPI](https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz){: .btn .btn-purple }
+
+[Download KUAL](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-f190a38-20240104.tar.xz){: .btn .btn-purple }
+<br/>
+(The above MRPI is provided by [Marek](https://fw.notmarek.com/khf/))
 
 ## Installing KUAL+MRPI
 1. Connect your Kindle to your PC
