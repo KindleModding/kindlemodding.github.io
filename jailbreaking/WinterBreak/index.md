@@ -22,9 +22,12 @@ It is based on [Mesquito](../../mesquito/)
 1. Download the latest WinterBreak release:
 <br/>
 [Download WinterBreak](https://github.com/KindleModding/WinterBreak/releases/latest){: .btn .btn-purple}
-2. Turn on aeroplane mode on your Kindle
+2. Turn on airplane mode on your Kindle
 3. Plug the Kindle into your computer
-4. Extract the contents of the `WinterBreak.tar.gz` file to your Kindle ( Note: For Windows / macOS users , Ensure that hidden folders are also copied over )
+4. Extract the contents of the `WinterBreak.tar.gz` file to your Kindle
+    
+    {: .warning}
+    For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
 5. Eject your Kindle from your computer
 6. Reboot your Kindle
 7. Open the Kindle Store on your Kindle
