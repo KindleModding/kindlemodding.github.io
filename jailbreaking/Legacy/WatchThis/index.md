@@ -54,7 +54,7 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 
 ### WatchThis-Specific Hotfix
 {: .note}
-> WatchThis is unique in the sense that its own `HotFix` must be installed before proceeding with other `Post Jailbreak` items
+> WatchThis is unique in the sense that its own `Hotfix` must be installed before proceeding with other `Post Jailbreak` items
 
 1. Type `;uzb` into the search bar of your Kindle and click enter
 2. Connect the Kindle to your PC
