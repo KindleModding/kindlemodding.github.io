@@ -10,6 +10,9 @@ nav_order: 0
 # The Kindle Modding Wiki
 This is the Kindle Modding wiki, an online resource which hopes to consolidate all Kindle Modding knowledge into a centralised resource.
 
+{: .warning}
+Anyone who installed a [Universal Hotfix](/jailbreaking/post-jailbreak/setting-up-a-hotfix.html) version below `v1.2.0` *MUST* install `v1.2.0` or newer due to an OTA persistence bug.
+
 ## Jailbreaking?
 Just want to jailbreak your Kindle to get access to KOReader and other homebrew?
 <br/>
