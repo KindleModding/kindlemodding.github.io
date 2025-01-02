@@ -28,7 +28,7 @@ It is based on [Mesquito](../../mesquito/)
 5. Eject your Kindle from your computer
 6. Reboot your Kindle
 7. Open the Kindle Store on your Kindle
-8. When prompted, click `yes` to turn off aeroplane mode
+8. When prompted, click `yes` to turn off airplane mode
 ![store_aeroplane.png](./store_aeroplane.png)
 
 9. Click on the WinterBreak icon when it loads:
@@ -40,6 +40,21 @@ It is based on [Mesquito](../../mesquito/)
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
 [Post Jailbreak](../post-jailbreak/){: .btn .btn-purple}
+
+## Kindle store encountered an unexpected error
+> Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
+
+![unexpctederror.png](unexpctederror.png)
+
+If an **“Unexpected error” error** occurs when you try to log in to the Kindle Store or **only the Kindle Store home page** is displayed, try the following solution:
+
+1. Factory Reset Kindle
+2. Before logging into your account - plug your Kindle into your PC, move the WinterBrake files to the root of your storage space
+3. Log in account and enter airplane mode as soon as possible
+4. Connect Kindle to PC and delete the cache directory at the path .active_content_sandbox/store/resource/LocalStorage (Skip this step if the LocalStorage directory does not exist)
+5. Reboot Kindle
+6. Open the Kindle Store on your Kindle
+7. When prompted, click `yes` to turn off airplane mode
 
 ### Special Thanks To Beta Testers
 - Crystals (Bricked their PW4 testing)
