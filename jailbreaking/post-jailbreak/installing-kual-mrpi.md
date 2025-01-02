@@ -15,21 +15,8 @@ KUAL and MRPI both rely on each other, so you must install them both together
 ## Prerequisites
 - A PC
 - [7-Zip](https://www.7-zip.org/) is recommended to extract the `tar.xz` files
-- Download `KUAL` and `MR Package Installer` from [NiLuJe's Snapshots Thread](https://www.mobileread.com/forums/showthread.php?t=225030)
+- Download `KUAL` and `MR Package Installer` from [https://fw.notmarek.com/khf/](https://fw.notmarek.com/khf/)
 
-    {: .warning}
-    There are multiple versions of KUAL!<br/>
-    For Firmware `5.9+`, download `KUAL Booklet (coplate)`<br/>
-    For Firmware `<=5.8.x`, download `KUAL Booklet`
-
-{: .warning}
-> Note for users on firmware newer than `5.16.3`
-> <br/>
-> You are on ARMHF, this means that your Kindle requires special packages
-> <br/>
-> Download `MRPI` and `KUAL` from Marek's website, rather than the snapshot's thread for now:
-> <br/>
-> [https://fw.notmarek.com/khf/](https://fw.notmarek.com/khf/)
 
 ## Installing KUAL+MRPI
 1. Connect your Kindle to your PC
