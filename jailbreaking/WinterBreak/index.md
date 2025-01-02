@@ -23,6 +23,9 @@ It is based on [Mesquito](../../mesquito/)
 - Your Kindle must be registered
 - Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 8 to 10 (inclusive)
 
+{: .highlight}
+If you face any issues, please check the [troubleshooting](#troubleshooting) section
+
 ## Installation Guide
 1. Download the latest WinterBreak release:
 <br/>
@@ -49,22 +52,21 @@ You are now ready to check the `Post Jailbreak` section for what to do now.
 
 [Post Jailbreak](../post-jailbreak/){: .btn .btn-purple}
 
+# Troubleshooting
 ## Kindle store encountered an unexpected error
 > Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
 
-![unexpctederror.png](unexpctederror.png)
-
-If an **“Unexpected error” error** occurs when you try to log in to the Kindle Store or **only the Kindle Store home page** is displayed, try the following solution:
+If an **“Unexpected error”** occurs when you try to log in to the Kindle Store or **only the Kindle Store home page** is displayed, try the following solution:
 
 1. Factory Reset Kindle
-2. Before logging into your account - plug your Kindle into your PC, move the WinterBrake files to the root of your storage space
+2. Before registering your Kindle/logging into your account - plug your Kindle into your PC, move the WinterBreak files to the root of your storage space
 3. Log in account and enter airplane mode as soon as possible
 4. Connect Kindle to PC and delete the cache directory at the path .active_content_sandbox/store/resource/LocalStorage (Skip this step if the LocalStorage directory does not exist)
 5. Reboot Kindle
 6. Open the Kindle Store on your Kindle
 7. When prompted, click `yes` to turn off airplane mode
 
-### Special Thanks To Beta Testers
+# Special Thanks To Our Courageous Beta Testers
 - Crystals (Bricked their PW4 testing)
 - mergen3107 (Came up with the "WinterBreak" name)
 - Bomberfish
