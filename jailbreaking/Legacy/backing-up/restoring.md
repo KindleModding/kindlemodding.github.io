@@ -2,7 +2,7 @@
 layout: default
 title: Restoring Your Kindle
 parent: Backing Up
-grand_parent: Jailbreaking Your Kindle
+grand_parent: Legacy
 nav_order: 2
 has_children: true
 ---
