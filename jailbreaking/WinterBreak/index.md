@@ -50,8 +50,11 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 9. Click on the WinterBreak icon when it loads:
 ![winterbreak_launcher](./winterbreak_launcher.png)
 
-10. Wait around 30 seconds, and your Kindle will automatically reboot as shown:
+10. Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"
 ![winterbreak_run](./winterbreak_run.png)
+
+{: .note}
+Older version of WinterBreak would reboot after installing, this is no longer necessary and you can install the hotfix without a reboot.
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
