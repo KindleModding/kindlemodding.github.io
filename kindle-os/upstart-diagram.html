@@ -1,0 +1,376 @@
+<code class="language-mermaid">
+%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
+
+flowchart TD
+	mdpd(mdpd)
+	tee-supplicant(tee-supplicant)
+	rcm(rcm)
+	ace_eventmgr(ace_eventmgr)
+	ace_messaging_service(ace_messaging_service)
+	acedropboxd(acedropboxd)
+	acsbtfd(acsbtfd)
+	appmgrd(appmgrd)
+	archive(archive)
+	asr(asr)
+	asr_bt_reboot(asr_bt_reboot)
+	asr_bt_userstore(asr_bt_userstore)
+	asr_setup(asr_setup)
+	audiomgrd(audiomgrd)
+	battery(battery)
+	battstressd(battstressd)
+	bootactions(bootactions)
+	bootactions_monitor(bootactions_monitor)
+	btmanagerd(btmanagerd)
+	chroot(chroot)
+	clickstream_logging(clickstream_logging)
+	cmd(cmd)
+	console(console)
+	contentpack_fonts_dependency(contentpack_fonts_dependency)
+	contentpackd(contentpackd)
+	cron(cron)
+	dbus(dbus)
+	demd(demd)
+	devcap(devcap)
+	deviced(deviced)
+	display(display)
+	dmld(dmld)
+	dpmd(dpmd)
+	dynconfig(dynconfig)
+	ekart_setup(ekart_setup)
+	fastmetrics(fastmetrics)
+	ffsd(ffsd)
+	filesystems(filesystems)
+	filesystems_keys(filesystems_keys)
+	filesystems_nh(filesystems_nh)
+	filesystems_pdata(filesystems_pdata)
+	filesystems_setup(filesystems_setup)
+	filesystems_userstore(filesystems_userstore)
+	framework(framework)
+	filesystems_var_local(filesystems_var_local)
+	framework_setup(framework_setup)
+	fuelgauge(fuelgauge)
+	home_wait(home_wait)
+	iohwlogs(iohwlogs)
+	ipcservicemanager(ipcservicemanager)
+	ivona_ttsd(ivona_ttsd)
+	juno-acs-helper(juno-acs-helper)
+	kb(kb)
+	kfxreader(kfxreader)
+	kfxview(kfxview)
+	kindle(kindle)
+	lab126(lab126)
+	lab126_gui(lab126_gui)
+	lab126_gui_monitor(lab126_gui_monitor)
+	lab126_gui_setup(lab126_gui_setup)
+	langpicker(langpicker)
+	last_debug_info(last_debug_info)
+	lipcd(lipcd)
+	logmgr(logmgr)
+	migrate_db(migrate_db)
+	minerva_service(minerva_service)
+	minervad(minervad)
+	minervaproxy(minervaproxy)
+	modules(modules)
+	monitor_wand_threads(monitor_wand_threads)
+	mtp(mtp)
+	n_setup(n_setup)
+	network(network)
+	odhcp6c(odhcp6c)
+	ota-update(ota-update)
+	otaupd(otaupd)
+	otav3(otav3)
+	perfd(perfd)
+	phd(phd)
+	pillow(pillow)
+	poll_daemons(poll_daemons)
+	powerd(powerd)
+	prereg(prereg)
+	printklogs(printklogs)
+	progressivedownloads(progressivedownloads)
+	recevent(recevent)
+	tmd(tmd)
+	register_oobe(register_oobe)
+	scanner(scanner)
+	shutdown(shutdown)
+	splash(splash)
+	sshd(sshd)
+	stackdumpd(stackdumpd)
+	stored(stored)
+	stylus(stylus)
+	syslog(syslog)
+	system(system)
+	system_cramfs_loopbacks(system_cramfs_loopbacks)
+	system_monitor(system_monitor)
+	system_setup(system_setup)
+	system_setup_after_shpm(system_setup_after_shpm)
+	tmpfs_scan(tmpfs_scan)
+	todo(todo)
+	touch(touch)
+	usb_audio_setup(usb_audio_setup)
+	usbnet-autostart(usbnet-autostart)
+	usbnetd(usbnetd)
+	vnc(vnc)
+	volumd(volumd)
+	wand(wand)
+	wandwrapper(wandwrapper)
+	webreader(webreader)
+	wfmdelete(wfmdelete)
+	wfmupdate(wfmupdate)
+	whisperstore(whisperstore)
+	wifid(wifid)
+	wifim(wifim)
+	wifis(wifis)
+	wmt(wmt)
+	x(x)
+	x_cleanup(x_cleanup)
+	x_monitor(x_monitor)
+	x_prelaunch(x_prelaunch)
+	x_setup(x_setup)
+	xasr(xasr)
+	xbath(xbath)
+	zram_setup(zram_setup)
+	mcsd(mcsd)
+	playermgr(playermgr)
+	cgroups(cgroups)
+	ttsorchestrator(ttsorchestrator)
+	wi(wi)
+	playermgr_limit(playermgr_limit)
+	gesturetapd(gesturetapd)
+	maruinstall(maruinstall)
+	statusbar(statusbar)
+	kppmainapp(kppmainapp)
+	kindlesyncservice(kindlesyncservice)
+
+
+start_mdpd 	-->|start_mdpd| mdpd
+filesystems_keys 	-->|started| tee-supplicant
+lab126 	-->|started| rcm
+lab126 	-->|started| ace_eventmgr
+ace_eventmgr 	-->|started| ace_messaging_service
+lab126 	-->|started| acedropboxd
+btmanagerd 	-->|started| acsbtfd
+lab126 	-->|started| appmgrd
+lab126 	-->|started| archive
+asr_setup 	-->|start-asr| asr
+lab126_gui 	-->|started| asr_bt_reboot
+winmgr_ready 	-->|winmgr_ready| asr_bt_reboot
+asr_bt_userstore 	-->|trigger_asr_bt_reboot| asr_bt_reboot
+user_store_available 	-->|user_store_available| asr_bt_userstore
+x 	-->|blanket_loaded_langpicker| asr_setup
+audio_device_detected 	-->|audio_device_detected| asr_setup
+langpicker 	-->|langpicker_load_complete| asr_setup
+user_store_available 	-->|user_store_available| asr_setup
+display 	-->|display_ready| battery
+filesystems_userstore 	-->|mounted_userstore| battery
+lab126 	-->|started| battstressd
+x_setup 	-->|x_setup_ready| bootactions
+lab126_gui 	-->|start_bootactions| bootactions
+ekart_setup 	-->|ekart_ready| bootactions
+bootactions 	-->|stopped| bootactions_monitor
+lab126 	-->|started| btmanagerd
+framework_setup 	-->|framework_ready| chroot
+juno-acs-helper 	-->|acs_helper_ready| clickstream_logging
+lab126 	-->|started| cmd
+system 	-->|started| console
+lab126_gui 	-->|started| contentpack_fonts_dependency
+lab126_gui 	-->|started| contentpackd
+system 	-->|started| cron
+devcap_ready 	-->|devcap_ready| dbus
+session_keeper_ready 	-->|session_keeper_ready| dbus
+filesystems_var_local 	-->|session_keeper_skipped| dbus
+dbus 	-->|dbus_ready| demd
+system_setup 	-->|started| devcap
+powerd 	-->|started| deviced
+migrate_db 	-->|mounted_varLocal| display
+modules 	-->|loaded_modules_dependencies| display
+framework_setup 	-->|framework_ready| dmld
+lab126 	-->|started| dpmd
+lab126 	-->|started| dynconfig
+filesystems_userstore 	-->|mounted_userstore| ekart_setup
+x_setup 	-->|x_setup_ready| ekart_setup
+powerd 	-->|started| ekart_setup
+framework_setup 	-->|framework_ready| fastmetrics
+langpicker 	-->|langpicker_ready| ffsd
+system 	-->|started| filesystems
+modules 	-->|loaded_fuse| filesystems
+syslog 	-->|started| filesystems
+filesystems 	-->|started| filesystems_keys
+migrate_db 	-->|mounted_varLocal| filesystems_nh
+filesystems_pdata 	-->|started| filesystems_nh
+filesystems_var_local 	-->|started| filesystems_pdata
+filesystems_userstore 	-->|started| filesystems_setup
+filesystems_var_local 	-->|started| filesystems_setup
+filesystems_nh 	-->|started| filesystems_userstore
+system 	-->|skip_tee_supplicant| filesystems_userstore
+tee-supplicant 	-->|started| filesystems_userstore
+contentpack_fonts_dependency 	-->|contentpack_font_ready| framework
+filesystems_keys 	-->|started| filesystems_var_local
+system 	-->|skip_tee_supplicant| filesystems_var_local
+tee-supplicant 	-->|started| filesystems_var_local
+framework 	-->|started| framework_setup
+filesystems 	-->|started| fuelgauge
+dbus 	-->|dbus_ready| home_wait
+filesystems_var_local 	-->|started| iohwlogs
+system_setup 	-->|started| ipcservicemanager
+asr_setup 	-->|start-asr| ivona_ttsd
+start-ivona 	-->|start-ivona| ivona_ttsd
+framework_setup 	-->|framework_ready| juno-acs-helper
+lab126_gui 	-->|started| kb
+langpicker 	-->|started| kb
+framework_setup 	-->|framework_ready| kfxreader
+framework_setup 	-->|framework_ready| kfxview
+poll_daemons 	-->|started| kindle
+kb 	-->|started| kindle
+pillow 	-->|started| kindle
+cmd 	-->|started| kindle
+system_setup_after_shpm 	-->|started| lab126
+demd 	-->|started| lab126
+n_setup 	-->|n_ready| lab126_gui
+langpicker 	-->|langpicker_ready| lab126_gui
+ekart_setup 	-->|ekart_ready| lab126_gui
+kb 	-->|stopped| lab126_gui_monitor
+framework 	-->|stopped| lab126_gui_monitor
+framework_setup 	-->|stopped| lab126_gui_monitor
+framework_setup 	-->|framework_ready| lab126_gui_setup
+kb 	-->|started| lab126_gui_setup
+pillow 	-->|started| lab126_gui_setup
+x_setup 	-->|x_setup_ready| langpicker
+x 	-->|blanket_loaded_langpicker| langpicker
+bootactions 	-->|bootactions_ready| langpicker
+filesystems_var_local 	-->|started| last_debug_info
+dbus 	-->|started| lipcd
+ace_messaging_service 	-->|started| logmgr
+filesystems_var_local 	-->|migrate_DB| migrate_db
+lab126 	-->|started| minerva_service
+dbus 	-->|dbus_ready| minervad
+minerva_service 	-->|started| minervaproxy
+system_cramfs_loopbacks 	-->|mounted_fs_loopbacks| modules
+wand 	-->|started| monitor_wand_threads
+lab126 	-->|started| mtp
+filesystems_nh 	-->|mounted_nh| n_setup
+system 	-->|started| network
+lab126 	-->|started| otaupd
+lab126 	-->|started| otav3
+ekart_setup 	-->|ekart_ready| otav3
+dbus 	-->|dbus_ready| perfd
+cmd 	-->|started| phd
+lab126_gui 	-->|started| pillow
+start_pillow 	-->|start_pillow| pillow
+framework_setup 	-->|framework_ready| poll_daemons
+lab126 	-->|started| powerd
+migrate_db 	-->|mounted_varLocal| prereg
+filesystems_var_local 	-->|started| printklogs
+framework_setup 	-->|framework_ready| progressivedownloads
+system 	-->|started| recevent
+cmd 	-->|started| tmd
+bootactions 	-->|bootactions_ready| register_oobe
+framework_setup 	-->|framework_ready| scanner
+runlevel 	-->|runlevel_06| shutdown
+lab126_gui 	-->|start_splash| splash
+system 	-->|started| sshd
+lab126 	-->|started| stackdumpd
+framework_setup 	-->|framework_ready| stored
+migrate_db 	-->|mounted_varLocal| stylus
+modules 	-->|loaded_modules_dependencies| stylus
+system 	-->|started| syslog
+startup 	-->|startup| system
+system 	-->|started| system_cramfs_loopbacks
+syslog 	-->|started| system_cramfs_loopbacks
+modules 	-->|stopped| system_monitor
+display 	-->|stopped| system_monitor
+battery 	-->|stopped| system_monitor
+prereg 	-->|stopped| system_monitor
+filesystems 	-->|stopped| system_monitor
+filesystems_var_local 	-->|stopped| system_monitor
+filesystems_pdata 	-->|stopped| system_monitor
+filesystems_userstore 	-->|stopped| system_monitor
+filesystems_keys 	-->|stopped| system_monitor
+filesystems_setup 	-->|stopped| system_monitor
+network 	-->|stopped| system_monitor
+system 	-->|stopped| system_monitor
+battery 	-->|battery_ready| system_setup
+touch 	-->|loaded_touch| system_setup
+modules 	-->|loaded_ppp_async| system_setup
+modules 	-->|loaded_cdc_ncm| system_setup
+modules 	-->|loaded_whitney_button| system_setup
+modules 	-->|loaded_mxc_keyb| system_setup
+modules 	-->|loaded_fakekey| system_setup
+filesystems_setup 	-->|started| system_setup
+system_setup 	-->|started| system_setup_after_shpm
+tmpfs_scan 	-->|tmpfs_scan| tmpfs_scan
+lab126 	-->|started| todo
+migrate_db 	-->|mounted_varLocal| touch
+modules 	-->|loaded_modules_dependencies| touch
+deviced 	-->|started| usb_audio_setup
+lipcd_started 	-->|lipcd_started| usb_audio_setup
+volumd 	-->|started| usbnet-autostart
+usbnetd 	-->|started| usbnet-autostart
+lab126 	-->|started| usbnetd
+x 	-->|lxinit_ready| vnc
+lab126 	-->|started| volumd
+lab126 	-->|started| wandwrapper
+contentpack_fonts_dependency 	-->|contentpack_font_ready| webreader
+framework_setup 	-->|framework_ready| whisperstore
+lab126 	-->|started| wifid
+acsbtfd 	-->|starting| wmt
+wifim 	-->|starting| wmt
+wi 	-->|x_should_start| x
+langpicker 	-->|langpicker_ready| x_cleanup
+x 	-->|stopped| x_monitor
+x_setup 	-->|stopped| x_monitor
+langpicker 	-->|stopped| x_monitor
+mdpd 	-->|start_x| x_prelaunch
+dynconfig 	-->|started| x_prelaunch
+dbus 	-->|started| x_prelaunch
+x 	-->|lxinit_ready| x_setup
+start-xasr 	-->|start-xasr| xasr
+devcap_ready 	-->|devcap_ready| zram_setup
+wand 	-->|started| mcsd
+lab126 	-->|started| playermgr
+system_setup 	-->|started| cgroups
+lab126 	-->|started| ttsorchestrator
+ekart_setup 	-->|ekart_ready| ttsorchestrator
+dynconfig 	-->|started| wi
+dbus 	-->|started| wi
+lab126 	-->|started| playermgr_limit
+dbus 	-->|dbus_ready| gesturetapd
+lab126_gui 	-->|started| statusbar
+langpicker 	-->|started| statusbar
+framework_setup 	-->|framework_ready| kppmainapp
+framework_setup 	-->|framework_ready| kindlesyncservice
+</code>
+
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css"/>
+<style>
+    body {
+        overflow: hidden;
+    }
+    svg {
+        height: 100vh;
+        width: 100vw;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/gh/bumbu/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.init({ theme: 'dark', startOnLoad: false });
+
+    (async () => {
+        await mermaid.run({
+            nodes: document.getElementsByClassName("language-mermaid")
+        });
+        svgPanZoom(document.getElementsByClassName("language-mermaid")[0].children[0], {
+            minZoom: 1,
+            maxZoom: 20,
+            zoomScaleSensitivity: 0.25,
+            customEventsHandler: {
+                init: function(options) {
+                    console.log("Zooming 10...");
+                    options.instance.zoom(10);
+                    options.instance.pan({x: -900, y: 150});
+                }
+            }
+        });
+    })();
+</script>
