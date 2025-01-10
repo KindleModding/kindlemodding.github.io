@@ -13,10 +13,12 @@ parameterEventTypes = jobReferenceEventTypes + ["runlevel"] # Events that have a
 class StartOn:
     eventName: str # started, starting, stopped, stopping, runlevel, the event's name
     eventParam: str # Parameter for specific event types
+    eventExtras: str
 
-    def __init__(self, eventName, eventParam=""):
+    def __init__(self, eventName, eventParam="", eventExtras=""):
         self.eventName = eventName
         self.eventParam = eventParam
+        self.eventExtras = eventExtras
 
 jobs: list[str] = [] # List of job files
 eventRegister: dict[str, str] = {} # event name -> Job name
@@ -54,12 +56,14 @@ def parseStartOn(statementList):
             eventParameter = statementList[i]
             i += 1
 
-        startOnList.append(StartOn(eventName, eventParameter))
-        
         # If it cares about the result
+        eventExtras = ""
         if (i < len(statementList) and 'RESULT' in statementList[i]):
             #print("Result detected")
+            eventExtras = statementList[i]
             i += 1 # Skip the result and move onto the next one
+            
+        startOnList.append(StartOn(eventName, eventParameter, eventExtras))
     return startOnList
 
 #print(parseStartOn("devcap_ready and ( session_keeper_ready or session_keeper_skipped )".split(' ')))
@@ -122,6 +126,10 @@ with open(outPath, 'w', encoding='utf-8') as file:
             else:
                 eventSource = eventRegister.get(startEvent.eventName, startEvent.eventName)
 
-            file.write(f"{eventSource} \t-->|{startEvent.eventName}{parsedParam}| {jobName}\n")
+            eventExtras = ""
+            if (len(startEvent.eventExtras) > 0):
+                eventExtras = " - " + startEvent.eventExtras
+
+            file.write(f"{eventSource} \t-->|{startEvent.eventName}{parsedParam}{eventExtras}| {jobName}\n")
 
     file.write("```")

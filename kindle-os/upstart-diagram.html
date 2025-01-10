@@ -1,6 +1,5 @@
 <code class="language-mermaid">
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
-
 flowchart TD
 	mdpd(mdpd)
 	tee-supplicant(tee-supplicant)
@@ -166,7 +165,7 @@ lab126 	-->|started| battstressd
 x_setup 	-->|x_setup_ready| bootactions
 lab126_gui 	-->|start_bootactions| bootactions
 ekart_setup 	-->|ekart_ready| bootactions
-bootactions 	-->|stopped| bootactions_monitor
+bootactions 	-->|stopped - RESULT!=ok| bootactions_monitor
 lab126 	-->|started| btmanagerd
 framework_setup 	-->|framework_ready| chroot
 juno-acs-helper 	-->|acs_helper_ready| clickstream_logging
@@ -228,9 +227,9 @@ demd 	-->|started| lab126
 n_setup 	-->|n_ready| lab126_gui
 langpicker 	-->|langpicker_ready| lab126_gui
 ekart_setup 	-->|ekart_ready| lab126_gui
-kb 	-->|stopped| lab126_gui_monitor
-framework 	-->|stopped| lab126_gui_monitor
-framework_setup 	-->|stopped| lab126_gui_monitor
+kb 	-->|stopped - RESULT!=ok| lab126_gui_monitor
+framework 	-->|stopped - RESULT!=ok| lab126_gui_monitor
+framework_setup 	-->|stopped - RESULT!=ok| lab126_gui_monitor
 framework_setup 	-->|framework_ready| lab126_gui_setup
 kb 	-->|started| lab126_gui_setup
 pillow 	-->|started| lab126_gui_setup
@@ -276,17 +275,17 @@ system 	-->|started| syslog
 startup 	-->|startup| system
 system 	-->|started| system_cramfs_loopbacks
 syslog 	-->|started| system_cramfs_loopbacks
-modules 	-->|stopped| system_monitor
-display 	-->|stopped| system_monitor
-battery 	-->|stopped| system_monitor
-prereg 	-->|stopped| system_monitor
-filesystems 	-->|stopped| system_monitor
-filesystems_var_local 	-->|stopped| system_monitor
-filesystems_pdata 	-->|stopped| system_monitor
-filesystems_userstore 	-->|stopped| system_monitor
-filesystems_keys 	-->|stopped| system_monitor
-filesystems_setup 	-->|stopped| system_monitor
-network 	-->|stopped| system_monitor
+modules 	-->|stopped - RESULT!=ok| system_monitor
+display 	-->|stopped - RESULT!=ok| system_monitor
+battery 	-->|stopped - RESULT!=ok| system_monitor
+prereg 	-->|stopped - RESULT!=ok| system_monitor
+filesystems 	-->|stopped - RESULT!=ok| system_monitor
+filesystems_var_local 	-->|stopped - RESULT!=ok| system_monitor
+filesystems_pdata 	-->|stopped - RESULT!=ok| system_monitor
+filesystems_userstore 	-->|stopped - RESULT!=ok| system_monitor
+filesystems_keys 	-->|stopped - RESULT!=ok| system_monitor
+filesystems_setup 	-->|stopped - RESULT!=ok| system_monitor
+network 	-->|stopped - RESULT!=ok| system_monitor
 system 	-->|stopped| system_monitor
 battery 	-->|battery_ready| system_setup
 touch 	-->|loaded_touch| system_setup
@@ -316,9 +315,9 @@ acsbtfd 	-->|starting| wmt
 wifim 	-->|starting| wmt
 wi 	-->|x_should_start| x
 langpicker 	-->|langpicker_ready| x_cleanup
-x 	-->|stopped| x_monitor
-x_setup 	-->|stopped| x_monitor
-langpicker 	-->|stopped| x_monitor
+x 	-->|stopped - RESULT!=ok| x_monitor
+x_setup 	-->|stopped - RESULT!=ok| x_monitor
+langpicker 	-->|stopped - RESULT!=ok| x_monitor
 mdpd 	-->|start_x| x_prelaunch
 dynconfig 	-->|started| x_prelaunch
 dbus 	-->|started| x_prelaunch
