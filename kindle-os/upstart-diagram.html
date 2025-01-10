@@ -354,6 +354,9 @@ framework_setup 	-->|framework_ready| kindlesyncservice
 <script src="https://cdn.jsdelivr.net/gh/bumbu/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    import elkLayouts from 'https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk/dist/mermaid-layout-elk.esm.min.mjs';
+    mermaid.registerLayoutLoaders(elkLayouts);
+
     mermaid.init({ theme: 'dark', startOnLoad: false });
 
     (async () => {
