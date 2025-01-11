@@ -21,9 +21,9 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Download the correct KUAL version</h2>
             <div class="stepContent">
-                <a href="https://www.mobileread.com/forums/showthread.php?t=225030#:~:text=A%20%7C%20Upstream-,KUAL%20(coplate),-%7C%20KUAL%2D7202402" class="btn btn-purple">Kual (Coplate) - For Kindles newer than the K5</a>
+                <a href="./Update_KUALBooklet_ALLDEVICES_KS2_install.bin" class="btn btn-purple">Kual (Coplate) - For Kindles newer than the K5</a>
                 <br/>
-                <a href="https://www.mobileread.com/forums/showthread.php?t=225030#:~:text=A%20%7C%20MRPI-,KUAL,-%7C%20KUAL%2Dv2.7.33" class="btn btn-purple">KUAL - For legacy devices</a>
+                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.35-g2d06358-20250103.tar.xz" class="btn btn-purple">KUAL - For legacy devices</a>
             </div>
         </div>
         <div class="step">
