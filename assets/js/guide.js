@@ -10,11 +10,17 @@ class Guide {
         this.syncButtons();
 
         this.guide.getElementsByClassName("buttons")[0].children[0].addEventListener('click', () => {
+            // Prev
             this.scrollToStep((this.currentStep-1) % this.steps.length);
             this.syncButtons();
         });
 
         this.guide.getElementsByClassName("buttons")[0].children[2].addEventListener('click', () => {
+            // Next
+            if (this.currentStep == this.steps.length - 1 && this.endLink !== null) {
+                window.location.href = this.endLink;
+                return;
+            }
             this.scrollToStep((this.currentStep+1) % this.steps.length);
             this.syncButtons();
         });
@@ -29,7 +35,7 @@ class Guide {
         if (this.currentStep == this.steps.length - 1 && this.endText !== null) {
             this.guide.getElementsByClassName("buttons")[0].children[2].classList.remove("btn-green");
             this.guide.getElementsByClassName("buttons")[0].children[2].classList.add("btn-purple");
-            this.guide.getElementsByClassName("buttons")[0].children[2].innerText = "Post Jailbreak";
+            this.guide.getElementsByClassName("buttons")[0].children[2].innerText = this.endText;
         } else {
             this.guide.getElementsByClassName("buttons")[0].children[2].classList.remove("btn-purple");
             this.guide.getElementsByClassName("buttons")[0].children[2].classList.add("btn-green");

@@ -36,38 +36,57 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 <div id="guide">
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
-            <p>Download the latest WinterBreak release:</p>
-            <br/>
-            <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
+            <h2>Download the latest WinterBreak release:</h2>
+            <div class="stepContent">
+                <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
+            </div>
         </div>
         <div class="step">
-            <p>Turn on airplane mode on your Kindle</p>
-            <img src="./airplane_mode.png" />
+            <h2>Airplane Mode</h2>
+            <div class="stepContent">
+                <p>Turn on airplane mode on your Kindle</p>
+                <img src="./airplane_mode.png" />
+            </div>
         </div>
         <div class="step">
-            <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to your Kindle</p>
-            <p class="highlight">
-                For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
-            </p>
-            <img src="./file_list.png" />
+            <h2>Extracting WinterBreak</h2>
+            <div class="stepContent">
+                <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to your Kindle</p>
+                <p class="highlight">
+                    For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
+                </p>
+                <img src="./file_list.png" />
+            </div>
         </div>
         <div class="step">
-            <p>Eject your Kindle from your computer and reboot it</p>
-            <img src="./reboot.png" />
+            <h2>Rebooting</h2>
+            <div class="stepContent">
+                <p>Eject your Kindle from your computer and reboot it</p>
+                <img src="./reboot.png" />
+            </div>
         </div>
         <div class="step">
-            <p>Open the Kindle Store on your Kindle</p>
-            <p>When prompted, click `yes` to turn off airplane mode</p>
-            <img src="./store_aeroplane.png" />
+            <h2>Entering Mesquito</h2>
+            <div class="stepContent">
+                <p>Open the Kindle Store on your Kindle</p>
+                <p>When prompted, click `yes` to turn off airplane mode</p>
+                <img src="./store_aeroplane.png" />
+            </div>
         </div>
         <div class="step">
-            <p>Click on the WinterBreak icon when it loads:</p>
-            <img src="./winterbreak_launcher.png" />
+            <h2>Running WinterBreak</h2>
+            <div class="stepContent">
+                <p>Click on the WinterBreak icon when it loads:</p>
+                <img src="./winterbreak_launcher.png" />
+            </div>
         </div>
         <div class="step">
-            <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
-            <p>Once it does, you can move onto the post-jailbreak stage!</p>
-            <img src="./winterbreak_run.png" />
+            <h2>Done</h2>
+            <div class="stepContent">
+                <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
+                <p>Once it does, you can move onto the post-jailbreak stage!</p>
+                <img src="./winterbreak_run.png" />
+            </div>
         </div>
     </div>
 
@@ -77,7 +96,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <button class="btn btn-green" id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide();</script>
+<script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
 
 # Troubleshooting
 ## Kindle store encountered an unexpected error
