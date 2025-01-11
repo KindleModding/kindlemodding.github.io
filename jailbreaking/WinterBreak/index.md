@@ -150,6 +150,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 <div class="buttons">
     <button class="btn btn-orange" id="prev">Previous Step</button>
+    <span id="stepCounter"></span>
     <button class="btn btn-green" id="next">Next Step</button>
 </div>
 
@@ -157,6 +158,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 <script>
     var currentStep = 0;
     var steps = document.getElementsByClassName("step");
+    syncButtons();
 
     function syncButtons() {
         if (currentStep == steps.length - 1) {
@@ -168,6 +170,8 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             document.getElementById("next").classList.add("btn-green");
             document.getElementById("next").innerText = "Next Step";
         }
+
+        document.getElementById("stepCounter").innerText = `${currentStep+1}/${steps.length}`;
     }
 
     function scrollToStep() {
