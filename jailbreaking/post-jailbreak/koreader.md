@@ -1,9 +1,8 @@
 ---
 layout: default
-grand_parent: Jailbreaking Your Kindle
-parent: Post Jailbreak
 title: KOReader
-nav_order: 4
+parent: Miscellaneous
+nav_order: 1
 ---
 
 # KOReader
