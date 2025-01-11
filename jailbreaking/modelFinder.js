@@ -157,11 +157,11 @@ function generateTable() {
 
     // Create header fields
     const headerLabels = [
-        "KindleTool Name",
         "Amazon Name",
         "Kindle Nickname",
         "Lastest Firmware",
-        "Recommended Jailbreak"
+        "Recommended Jailbreak",
+        "KindleTool Variants"
     ]
 
     for (const headerLabel of headerLabels) {
@@ -178,23 +178,23 @@ function generateTable() {
     for (const kindle of kindleModels) {
         const tableRow = document.createElement("tr");
 
-        const kindletoolName = document.createElement("td");
         const amazonName = document.createElement("td");
         const kindleNickname = document.createElement("td");
         const latestFirmware = document.createElement("td");
         const recommendedJailbreak = document.createElement("td");
+        const kindletoolVariants = document.createElement("td");
 
-        kindletoolName.innerText = kindle.serial_snippets[Object.keys(kindle.serial_snippets)[0]];
         amazonName.innerText = kindle.amazon_name;
         kindleNickname.innerText = kindle.nicknames.join(', ');
         latestFirmware.innerText = kindle.last_firmware;
         recommendedJailbreak.innerHTML = kindle.jailbreak;
+        kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.serial_snippets)}</code>`;
 
-        tableRow.appendChild(kindletoolName);
         tableRow.appendChild(amazonName);
         tableRow.appendChild(kindleNickname);
         tableRow.appendChild(latestFirmware);
         tableRow.appendChild(recommendedJailbreak);
+        tableRow.appendChild(kindletoolVariants);
 
         tableBody.appendChild(tableRow);
     }

@@ -44,7 +44,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "Mario/MarioDeprecated",
     "board": "Mario",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "K2"
     ],
@@ -61,7 +61,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "Mario/MarioDeprecated",
     "board": "Mario",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "K2",
       "K2I"
@@ -79,7 +79,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "DX"
     ],
@@ -96,7 +96,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "DX",
       "DXI"
@@ -114,7 +114,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "K3",
       "K3G"
@@ -132,7 +132,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "K3",
       "K3W"
@@ -150,7 +150,7 @@ const kindleModels = [
     "last_firmware": "2.5.8",
     "platform": "???",
     "board": "Nell/NellSL/NellWW",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "DX",
       "DXG"
@@ -168,7 +168,7 @@ const kindleModels = [
     "last_firmware": "3.4.3",
     "platform": "Luigi",
     "board": "Shasta",
-    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>",
+    "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>",
     "nicknames": [
       "K3",
       "K3GB"
@@ -663,7 +663,7 @@ const kindleModels = [
   },
   {
     "release_year": 2024,
-    "release_firmware": "5.18.0.1.0.1",
+    "release_firmware": "5.18.0",
     "generation_nickname": "CS",
     "amazon_name": "Kindle Colorsoft (12th Generation)",
     "last_firmware": "LATEST",
