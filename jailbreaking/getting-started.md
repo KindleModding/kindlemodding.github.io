@@ -15,7 +15,6 @@ This is important to note due to the fact that many Kindle jailbreaks only work 
 [Kindle Models](./kindle-models){: .btn .btn-purple }
 
 ## Credits
-- Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
 - Thanks to [marek](https://www.mobileread.com/forums/member.php?u=340787) for creating `LanguageBreak`
 - Thanks to [katadelos](https://www.mobileread.com/forums/member.php?u=308426) for creating `WatchThis`
 - Thanks to [tryol](https://www.mobileread.com/forums/member.php?u=317940) for creating `KindleBreak`
