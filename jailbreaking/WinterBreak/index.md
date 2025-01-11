@@ -33,83 +33,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 ## Installation Guide
 
-<style>
-    /* For browsers that support `scrollbar-*` properties */
-    @supports (scrollbar-color: auto) {
-        .stepwrapper {
-            scrollbar-width: thin;
-            scrollbar-color: #369d36 #164116;
-        }
-    }
-
-    /* Otherwise, use `::-webkit-scrollbar-*` pseudo-elements */
-    @supports selector(::-webkit-scrollbar) {
-        .stepwrapper::-webkit-scrollbar {
-            width: .5em;
-        }
-        .stepwrapper::-webkit-scrollbar-thumb {
-            width: .5em;
-        }
-        .stepwrapper::-webkit-scrollbar-track-piece, .stepwrapper::-webkit-scrollbar-button {
-            display: none;
-        }
-    }
-
-    .stepwrapper {
-        width: 100%;
-        background-color: #212025;
-        border-radius: 50px;
-        background: #212025;
-        box-shadow: inset 5px 5px 10px #0d0d0f,
-                    inset -5px -5px 10px #35333b;
-        border-radius: 15px;
-
-        display: flex;
-        flex-direction: row;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
-
-    .step {
-        flex-shrink: 0;
-        flex-grow: 1;
-        flex-basis: 100%;
-        width: 100%;
-        scroll-snap-align: start;
-        scroll-snap-stop: normal;
-        padding: 1em;
-
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .step * {
-        max-width: calc(100% - 2em);
-    }
-
-    .step img {
-        max-width: 100%;
-        max-height: 50vh;
-        object-fit: scale-down;
-    }
-
-    .step p {
-        font-size: 1.5em;
-        margin-bottom: 1em;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: .5em;
-    }
-</style>
-
-<div id="instructions" class="instructions">
+<div id="guide">
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
             <p>Download the latest WinterBreak release:</p>
@@ -146,69 +70,14 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <img src="./winterbreak_run.png" />
         </div>
     </div>
+
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
 </div>
-
-<div class="buttons">
-    <button class="btn btn-orange" id="prev">Previous Step</button>
-    <span id="stepCounter"></span>
-    <button class="btn btn-green" id="next">Next Step</button>
-</div>
-
-
-<script>
-    var currentStep = 0;
-    var steps = document.getElementsByClassName("step");
-    syncButtons();
-
-    function syncButtons() {
-        if (currentStep == steps.length - 1) {
-            document.getElementById("next").classList.remove("btn-green");
-            document.getElementById("next").classList.add("btn-purple");
-            document.getElementById("next").innerText = "Post Jailbreak";
-        } else {
-            document.getElementById("next").classList.remove("btn-purple");
-            document.getElementById("next").classList.add("btn-green");
-            document.getElementById("next").innerText = "Next Step";
-        }
-
-        document.getElementById("stepCounter").innerText = `${currentStep+1}/${steps.length}`;
-    }
-
-    function scrollToStep() {
-        document.getElementById("stepwrapper").scrollTo({
-            top: 0,
-            left: document.getElementById("stepwrapper").scrollLeft + steps[currentStep].getBoundingClientRect().x - document.getElementById("stepwrapper").getBoundingClientRect().x,
-            behavior: 'smooth'
-        });
-    }
-
-    document.getElementById("prev").addEventListener('click', () => {
-        if (currentStep == 0) {
-            currentStep = steps.length - 1;
-        } else {
-            currentStep -= 1;
-        }
-
-        scrollToStep();
-        syncButtons();
-    });
-
-    document.getElementById("next").addEventListener('click', () => {
-        if (currentStep == steps.length-1) {
-            window.location.href = "../post-jailbreak/"
-        } else {
-            currentStep += 1;
-        }
-        
-        scrollToStep();
-        syncButtons();
-    });
-
-    document.getElementById("stepwrapper").addEventListener('scroll', (event) => {
-        currentStep = Math.round((document.getElementById("stepwrapper").scrollLeft / document.getElementById("stepwrapper").scrollWidth) * steps.length);
-        syncButtons();
-    });
-</script>
+<script>new Guide();</script>
 
 # Troubleshooting
 ## Kindle store encountered an unexpected error

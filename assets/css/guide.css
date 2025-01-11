@@ -1,0 +1,73 @@
+/* For browsers that support `scrollbar-*` properties */
+@supports (scrollbar-color: auto) {
+    .stepwrapper {
+        scrollbar-width: thin;
+        scrollbar-color: #369d36 #164116;
+    }
+}
+
+/* Otherwise, use `::-webkit-scrollbar-*` pseudo-elements */
+@supports selector(::-webkit-scrollbar) {
+    .stepwrapper::-webkit-scrollbar {
+        width: .5em;
+    }
+    .stepwrapper::-webkit-scrollbar-thumb {
+        width: .5em;
+    }
+    .stepwrapper::-webkit-scrollbar-track-piece, .stepwrapper::-webkit-scrollbar-button {
+        display: none;
+    }
+}
+
+.stepwrapper {
+    width: 100%;
+    background-color: #212025;
+    border-radius: 50px;
+    background: #212025;
+    box-shadow: inset 5px 5px 10px #0d0d0f,
+                inset -5px -5px 10px #35333b;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.step {
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding: 1em;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step * {
+    max-width: calc(100% - 2em);
+}
+
+.step img {
+    max-width: 100%;
+    max-height: 50vh;
+    object-fit: scale-down;
+}
+
+.step p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .5em;
+}
