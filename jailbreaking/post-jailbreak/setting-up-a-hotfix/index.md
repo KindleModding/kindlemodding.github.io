@@ -13,6 +13,11 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix will not be detected by the Kindle
 
 <div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
             <h2>Download The Hotfix</h2>
@@ -54,7 +59,6 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             </div>
         </div>
     </div>
-
     <div class="buttons">
         <button class="btn btn-orange" id="prev">Previous Step</button>
         <span id="stepCounter"></span>

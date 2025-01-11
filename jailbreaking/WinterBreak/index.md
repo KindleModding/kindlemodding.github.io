@@ -34,6 +34,11 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 ## Installation Guide
 
 <div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
             <h2>Download the latest WinterBreak release:</h2>
@@ -89,7 +94,6 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             </div>
         </div>
     </div>
-
     <div class="buttons">
         <button class="btn btn-orange" id="prev">Previous Step</button>
         <span id="stepCounter"></span>
