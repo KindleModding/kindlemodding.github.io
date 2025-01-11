@@ -60,7 +60,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Now wait whilst KUAL is installed, your Kindle screen turn white and show some icons, after a while you will be returned to your library and see a <code>KUAL</code> book appear in it.</p>
-                <p class="warning">If you see a "Application Error" dialog, you can close it without worry - this is normal behaviour on some modern Kindles</p>
+                <p class="highlight">If you see a "Application Error" dialog, you can close it without worry - this is normal behaviour on some modern Kindles</p>
                 <br/>
                 <img src="./success.png" />
             </div>
@@ -74,9 +74,6 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
     </div>
 </div>
 <script>new Guide("guide", "../disable-ota", "Disabling OTA Updates");</script>
-
-
-[Disabling OTA Updates](./disable-ota){: .btn .btn-purple}
 
 ## Troubleshooting
 - Verify the location of all the folders and files on the Kindle

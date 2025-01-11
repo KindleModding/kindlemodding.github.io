@@ -568,7 +568,7 @@ const kindleModels = [
     "release_year": 2022,
     "release_firmware": "5.16.0",
     "generation_nickname": "KS",
-    "amazon_name": "Kindle Scribe (1st Generation)",
+    "amazon_name": "Kindle Scribe (1st Generation) - 2022 Release",
     "last_firmware": "LATEST",
     "platform": "Bellatrix3",
     "board": "Barolo",
@@ -639,6 +639,30 @@ const kindleModels = [
   },
   {
     "release_year": 2024,
+    "release_firmware": "5.17.0",
+    "generation_nickname": "KS2",
+    "amazon_name": "Kindle Scribe (1st generation) - 2024 Release",
+    "last_firmware": "LATEST",
+    "platform": "Bellatrix3",
+    "board": "Pisco",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "nicknames": [
+      "KS2"
+    ],
+    "serial_version": 1,
+    "serial_snippets": {
+      '3V0': "KindleScribe2Unknown_3V0",
+      '3V1': "KindleScribe2Unknown_3V1",
+      '3X5': "KindleScribe2Unknown_3X5",
+      '3UV': "KindleScribe2Unknown_3UV",
+      '3X4': "KindleScribe2Unknown_3X4",
+      '3X3': "KindleScribe2Unknown_3X3",
+      '41E': "KindleScribe2Unknown_41E",
+      '41D': "KindleScribe2Unknown_41D"
+    }
+  },
+  {
+    "release_year": 2024,
     "release_firmware": "5.18.0.1.0.1",
     "generation_nickname": "CS",
     "amazon_name": "Kindle Colorsoft (12th Generation)",
@@ -651,7 +675,16 @@ const kindleModels = [
     ],
     "serial_version": 1,
     "serial_snippets": {
-      '3H7': "KindleColorsoftUnknown_3H7"
+      '3H9': "KindleColorSoftUnknown_3H9",
+      '3H4': "KindleColorSoftUnknown_3H4",
+      '3HB': "KindleColorSoftUnknown_3HB",
+      '3H6': "KindleColorSoftUnknown_3H6",
+      '3H2': "KindleColorSoftUnknown_3H2",
+      '34X': "KindleColorSoftUnknown_34X",
+      '3H7': "KindleColorSoftUnknown_3H7",
+      '3JT': "KindleColorSoftUnknown_3JT",
+      '3J6': "KindleColorSoftUnknown_3J6",
+      '456': "KindleColorSoftUnknown_456"
     }
   }
 ]
