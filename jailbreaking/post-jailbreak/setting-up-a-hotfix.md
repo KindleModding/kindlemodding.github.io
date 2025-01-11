@@ -24,8 +24,11 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
 6. Once your Kindle has restarted, click on the new `Run Hotfix` "book", this will run the hotfix itself
 
 {: .note }
-> You will need to run the hotfix after every update
+> You will need to run the hotfix book after every update
 >
+
+Now that we have our hotfix setup, we can install `KUAL` and `MRPI`
+[Install KUAL and MRPI](./installing-kual-mrpi){: .btn .btn-purple}
 
 # Troubleshooting
 
@@ -37,8 +40,3 @@ There is a good chance that after installing an older version of Hotfix you disa
 2. Enable OTA update (KUAL -> Rename OTA binaries -> Restore)
 3. Follow the Hotfix installation instructions above
 4. Disable OTA update (KUAL -> Rename OTA binaries -> Rename)
-
-
-Now that we have our hotfix setup, we can install `KUAL` and `MRPI`
-
-[Install KUAL and MRPI](./installing-kual-mrpi){: .btn .btn-purple}
