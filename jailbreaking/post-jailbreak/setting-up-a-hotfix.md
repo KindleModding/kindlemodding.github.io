@@ -28,7 +28,9 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
 >
 
 Now that we have our hotfix setup, we can install `KUAL` and `MRPI`
+
 [Install KUAL and MRPI](./installing-kual-mrpi){: .btn .btn-purple}
+
 
 # Troubleshooting
 
