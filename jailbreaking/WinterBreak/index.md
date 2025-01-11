@@ -204,7 +204,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         syncButtons();
     });
 
-    document.getElementById("stepwrapper").addEventListener('scrollend', (event) => {
+    document.getElementById("stepwrapper").addEventListener('scroll', (event) => {
         currentStep = Math.round((document.getElementById("stepwrapper").scrollLeft / document.getElementById("stepwrapper").scrollWidth) * steps.length);
         syncButtons();
     });
