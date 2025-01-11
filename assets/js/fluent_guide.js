@@ -1,3 +1,10 @@
+/**
+ * The fluent guide system
+ * (basically a glorified carousel)
+ * 
+ * Created by HackerDude
+ */
+
 class Guide {
     constructor(guideID="guide", endLink=null, endText=null) {
         this.guideID = guideID;
