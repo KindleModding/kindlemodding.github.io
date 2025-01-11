@@ -69,3 +69,6 @@ callouts:
   warning:
     title: Warning
     color: red
+
+exclude:
+  - "kindle-apps-and-services/**"
