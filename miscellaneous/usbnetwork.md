@@ -17,7 +17,7 @@ Covering all USBNetwork tools is out of scope for this guide. We will only show 
 - A jailbroken Kindle (w/ KUAL)
 - USBNetwork extension
     - [Download for **soft float firmware** (<=5.16.2.1.1)](https://www.mobileread.com/forums/showthread.php?t=225030) *(named "USBNetwork Hack")*
-    - [Download for **hard float firmware** (<=5.16.3)](https://github.com/notmarek/kindle-usbnetlite/releases/tag/1.0.M)
+    - [Download for **hard float firmware** (=>5.16.3)](https://github.com/notmarek/kindle-usbnetlite/releases/tag/1.0.M)
 - [WinSCP](https://winscp.net/eng/download.php) (or any other client able to connect through SSH) 
 - Cryptography Generator (Public and Private Keys)
 
