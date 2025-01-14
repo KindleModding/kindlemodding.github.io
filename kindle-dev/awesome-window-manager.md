@@ -69,9 +69,12 @@ You will generally only use `application` and `dialog` for this, in conjunction 
 
 ## [PC] (Persistent Chrome)
 
-Used by the window manager to calculate the heights of the "persistent chrome" elements at the top and bottom.
-
+Used by the window manager to determine what to do with the top bar
 It's value takes the same format as [`BARTYPE`](#bartype)
+It can also take the following additional valus:
+| Value | Description                                                                                         |
+|-------|-----------------------------------------------------------------------------------------------------|
+| `N`   | Don't hide the top-bar |
 
 ## [ID] (Identifier)
 This is a simple string giving the identifier of the app, it's value can be anything not containing an underscore (as that is used as a delimiter) and it usually takes an app ID in a format similar to `com.lab126.reader` (reverse domain name)

@@ -79,6 +79,8 @@ int main(int argc, char* argv[]) {
   gtk_init (&argc, &argv);
   
   window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_title(GTK_WINDOW(window), "L:A_N:application_ID:org.kindlemodding.example_gtk_application");
+
   gtk_widget_show(window);
   
   gtk_main();
@@ -102,3 +104,19 @@ meson compile -C builddir
 
 If you run the program on your computer, you should see an empty GTK window:
 ![](./images/first_window.png)
+
+
+## Testing Cross-Compilation
+Now we can compile a version that can run on the Kindle itself:
+```sh
+meson setup --cross-file <meson_crosscompile_path> builddir_<target>
+```
+
+Where your target is the same as before and `<meson_crosscompile_path>` is substituted from the path the SDK installer gave you earlier.
+
+Once it is finished setting up, you can compile it just as you did before:
+```sh
+meson compile -C builddir_<target>
+```
+
+If all the above steps work, then you have succesfully compiled your first application for the Kindle.
