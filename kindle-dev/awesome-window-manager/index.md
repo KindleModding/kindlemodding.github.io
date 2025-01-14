@@ -84,11 +84,9 @@ It's value is any combination of the following:<br/>
 | `T`   | Show the Kindle top bar/status bar on modern firmware                                               |![](./images/pc_examples/T.png) |
 | `S`   | Shows the "search bar"                                                                              |![](./images/pc_examples/S.png) |
 | `B`   | Shows the legacy bottom bar                                                                         |![](./images/pc_examples/B.png) |
-| `N`   | Show no bars                                                                                        |![](./images/pc_examples/N.png) |
+| `N`   | Show no bars (same as if `PC` was ommited entirely)                                                 |![](./images/pc_examples/N.png) |
 
-Omitting this is the same as `N`
-
-Examples of multiple types:
+Examples of combining multiple PC values:
 
 | Value | Image                            |
 |-------|----------------------------------|
