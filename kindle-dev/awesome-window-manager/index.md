@@ -76,7 +76,7 @@ You will generally only use `application` and `dialog` for this, in conjunction 
 
 ## [PC] (Persistent Chrome)
 
-Used by the window manager to determines how to handle window displaying with the bar, the value it takes offsets the window size and position to ensure that particular chrome element can be displayed (hence the name).<br/>
+Used by the window manager to determine how to handle displaying chrome elements on the Kindle such as the top bar and "search bar"<br/>
 It's value is any combination of the following:<br/>
 
 | Value | Description                                                                                         | Example                        |
