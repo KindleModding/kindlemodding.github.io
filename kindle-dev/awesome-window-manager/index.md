@@ -6,6 +6,13 @@ nav_order: 2
 has_children: true
 ---
 
+<style>
+    img {
+        max-height: 30vh;
+        object-fit: scale-down;
+    }
+</style>
+
 # Awesome Window Manager
 As mentioned in the [gtk-tutorial](./gtk-tutorial/), the Kindle uses the `Awesome Window Manager` with some tweaks,this means that every window must have a title which follows a specific format.
 
