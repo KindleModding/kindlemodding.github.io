@@ -55,12 +55,12 @@ sudo apt-get install meson gtk2.0 libgtk2.0-dev
 
 #### 1. Clone the toolchain
 ```sh
-git clone --recursive --depth=1 https://github.com/KindleModding/kmctoolchain.git
+git clone --recursive --depth=1 https://github.com/koreader/koxtoolchain.git
 ```
 
 #### 2. Build the toolchain for your device
 ```sh
-cd kmctoolchain
+cd koxtoolchain
 chmod +x ./gen-tc.sh
 ./gen-tc.sh <target>
 ```
@@ -80,57 +80,19 @@ If you want to support multiple Kindles, you can compile multiple toolchain targ
 {: .note}
 Compilation usually takes around 30-minutes per target on most PCs
 
+## Setting up the SDK
 
-## Obtaining The Kindle rootfs
-In order to link against libraries on the Kindle, we need those libraries themselves, this can be done by extracting a firmware update via `kindletool`.
+The KMC Kindle SDK augments your existing koxtoolchain installation by providing headers and library files used with the Kindle.
 
-### Getting KindleTool
-KindleTool is a utility which allows you to extract Kindle OTA packages as well as create your own.
-
-It is recommended to compile `kindletool` from source to ensure it has the latest model support:
+#### 1. Clone the SDK
 ```sh
-git clone https://github.com/KindleModding/KindleTool
-cd KindleTool
-make
-sudo make install
+git clone --recursive --depth=1 https://github.com/KindleModding/kindle-sdk.git
 ```
 
-Next, you'll need the latest firmware for your target, you can download it from Amazon:<br/>
-[Kindle E-Reader Software Updates](https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW)
-
-{: .warning}
-If you are targeting `armel`/`kindlepw2` and the latest firmware available for that device is `>=5.16.3` then simply use the Kindle Oasis firmware (`15.16.2.1.1`)
-
-### Extracting The Firmware
-Once your firmware is downloaded, make sure you have stored it in a safe place, and use KindleTool to extract it:
+#### 2. Install the SDK for your target
 ```sh
-kindletool extract update_kindle*.bin ./firmware/
+cd kindle-sdk
+chmod +x ./gen-sdk.sh
+./gen-sdk.sh <target>
 ```
-
-Now your OTA file will have been extracted to the `firmware` folder, if you run
-```sh
-ls firmware
-```
-You should see an output similar to:
-```
-mt8110_bellatrix  rootfs.img.gz.sig   update-payload.dat.sig
-rootfs.img.gz     update-payload.dat
-```
-
-Now we will need to extract and mount the Kindle's rootfs:
-```sh
-cd firmware
-gunzip rootfs.img.gz
-```
-Now your `rootfs.img.gz` will be extracted to a `rootfs.img` file, and it can be mounted:
-```sh
-mkdir mnt # Create the mountpoint
-sudo mount -o loop rootfs.img mnt # Mount the firmware
-```
-
-Now run:
-```sh
-cd mnt
-pwd
-```
-To get the path to the Kindle's mounted rootfs, keep this safe as you'll need it in the later steps.
+Where `<target>` is the same as the toolchain you want to install the SDK for.
