@@ -14,7 +14,7 @@ has_children: true
 </style>
 
 # Awesome Window Manager
-As mentioned in the [gtk-tutorial](./gtk-tutorial/), the Kindle uses the `Awesome Window Manager` with some tweaks,this means that every window must have a title which follows a specific format.
+As mentioned in the [gtk-tutorial](../gtk-tutorial/), the Kindle uses the `Awesome Window Manager` with some tweaks,this means that every window must have a title which follows a specific format.
 
 For example, the Kindle store has a window title of:
 ```
