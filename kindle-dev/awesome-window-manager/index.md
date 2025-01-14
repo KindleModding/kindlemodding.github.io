@@ -93,6 +93,8 @@ Examples of combining multiple PC values:
 | `TS`  |![](./images/pc_examples/TS.png)  |
 | `TSB` |![](./images/pc_examples/TSB.png) |
 
+{: .note}
+Window resizing appears to be broken in `TSB`, it is only shown for illustrative purposes and shouldn't be used
 
 ## [ID] (Identifier)
 This is a simple string giving the identifier of the app, it's value can be anything not containing an underscore (as that is used as a delimiter) and it usually takes an app ID in a format similar to `com.lab126.reader` (reverse domain name)
