@@ -71,15 +71,15 @@ Now create a file called `main.cpp` and a folder called `include` under the `src
 
 Now in `main.cpp`, copy the following code:
 ```cpp
-#include <gtk/gtk.h>
+#include <gtk-2.0/gtk/gtk.h>
 
 int main(int argc, char* argv[]) {
   GtkWidget *window;
     
   gtk_init (&argc, &argv);
   
-  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-  gtk_widget_show  (window);
+  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_widget_show(window);
   
   gtk_main();
 
