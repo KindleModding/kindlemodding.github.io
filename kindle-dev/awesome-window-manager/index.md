@@ -69,12 +69,25 @@ You will generally only use `application` and `dialog` for this, in conjunction 
 
 ## [PC] (Persistent Chrome)
 
-Used by the window manager to determine what to do with the top bar
-It's value takes the same format as [`BARTYPE`](#bartype)
-It can also take the following additional valus:
-| Value | Description                                                                                         |
-|-------|-----------------------------------------------------------------------------------------------------|
-| `N`   | Hides the top bar |
+Used by the window manager to determines how to handle window displaying with the bar, the value it takes offsets the window size and position to ensure that particular chrome element can be displayed (hence the name).<br/>
+It's value is any combination of the following:<br/>
+
+| Value | Description                                                                                         | Example                        |
+|-------|-----------------------------------------------------------------------------------------------------|--------------------------------|
+| `T`   | Show the Kindle top bar/status bar on modern firmware                                               |![](./images/pc_examples/T.png) |
+| `S`   | Shows the "search bar"                                                                              |![](./images/pc_examples/S.png) |
+| `B`   | Shows the legacy bottom bar                                                                         |![](./images/pc_examples/B.png) |
+| `N`   | Show no bars                                                                                        |![](./images/pc_examples/N.png) |
+
+Omitting this is the same as `N`
+
+Examples of multiple types:
+
+| Value | Image                            |
+|-------|----------------------------------|
+| `TS`  |![](./images/pc_examples/TS.png)  |
+| `TSB` |![](./images/pc_examples/TSB.png) |
+
 
 ## [ID] (Identifier)
 This is a simple string giving the identifier of the app, it's value can be anything not containing an underscore (as that is used as a delimiter) and it usually takes an app ID in a format similar to `com.lab126.reader` (reverse domain name)
