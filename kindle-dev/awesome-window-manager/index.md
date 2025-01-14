@@ -110,7 +110,6 @@ BARTYPE is used with the`topBar` role type, it describes the bar's positioning a
 | `S`   | Search bar type                                                                                     |
 | `B`   | Bottom bar type -  "added for kpp chrome footer" - It behaves like top bars in terms of persistence |
 | `A`   | Application bar type - Secondary bar for application specific tools                                 |
-| `TS`  |                                                                                                     |
 
 ## [O]rientation - Supported App Orientations
 Sets the application's orientation mask for supported orientations, can be any combination of 4 values (IE: `ULR` or `UDLR`):
