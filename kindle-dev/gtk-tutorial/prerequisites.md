@@ -25,7 +25,9 @@ You will also need the following packages installed on your system for the toolc
 - flex
 - gawk
 - unzip
-- wget (also used by this tutorial)
+- wget
+
+As well as `curl` and `sed` installed for the SDK
 
 And specifically for this tutorial:
 - meson
@@ -38,6 +40,9 @@ And specifically for this tutorial:
 # For the toolchain
 sudo pacman -S base-devel curl git gperf help2man unzip wget
 
+# For the SDK
+sudo pacman -S curl sed
+
 # For this tutorial
 sudo pacman -S meson gtk2
 ```
@@ -46,6 +51,9 @@ sudo pacman -S meson gtk2
 ```sh
 # For the toolchain
 sudo apt-get install build-essential autoconf automake bison flex gawk libtool libtool-bin libncurses-dev curl file git gperf help2man texinfo unzip wget
+
+# For the sdk
+sudo apt-get install curl sed
 
 # For this tutorial
 sudo apt-get install meson gtk2.0 libgtk2.0-dev
