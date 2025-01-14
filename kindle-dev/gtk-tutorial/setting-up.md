@@ -79,7 +79,7 @@ int main(int argc, char* argv[]) {
   gtk_init (&argc, &argv);
   
   window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_title(GTK_WINDOW(window), "L:A_N:application_ID:org.kindlemodding.example_gtk_application");
+  gtk_window_set_title(GTK_WINDOW(window), "L:A_N:application_ID:org.kindlemodding.example-gtk-application_PC:T");
 
   gtk_widget_show(window);
   

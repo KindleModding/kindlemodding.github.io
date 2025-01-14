@@ -106,4 +106,4 @@ chmod +x ./gen-sdk.sh
 Where `<target>` is the same as the toolchain you want to install the SDK for.
 
 ![](./images/sdk_install.png)
-Make a note of the path to the `meson-crosscompile.txt` file, this will be important later!
+Once the SDK has finished installing itself, make a note of the path it returns to the `meson-crosscompile.txt` file, this will be important later!
