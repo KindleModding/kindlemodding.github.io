@@ -34,7 +34,16 @@ Your folder structure should now look something like this:
 4 directories, 4 files
 ```
 
-## Creating the Meson.build file
+## Creating the meson.options file
+Copy the following to your `meson.options` file:
+
+```python
+option('kindle_root_dir', type : 'string', value: '', description: 'The path to the Kindle\'s mounted rootfs (for linking libraries)')
+```
+
+This will tell Meson that your project takes a single parameter: `kindle_root_dir`, we will use this to pass our rootfs path that we got in the last step later.
+
+## Creating the meson.build file
 Copy the following to your `meson.build` file:
 ```python
 project('example_gtk_application', 'cpp', version: 'v1.0.0', default_options: ['cpp_std=c++17'])
@@ -96,12 +105,15 @@ executable('example_gtk_application', sources, include_directories: include_dirs
 
 
 This may look quite daunting, so let's break it down:
+
 ```python
 project('example_gtk_application', 'cpp', version: 'v1.0.0', default_options: ['cpp_std=c++17'])
 ```
+
 The [`project`](https://mesonbuild.com/Reference-manual_functions.html#project) directive is required in all Meson projects and defines metadata about the project we're compiling, in this case, we defined a project called `example_gtk_application` using the `cpp` programming language, with version `v1.0.0` and using `c++17`.
 <br/>
 <br/>
+
 ```python
 # Define dependencies we want
 dependency_names = ['gtk+-2.0']
@@ -109,6 +121,7 @@ dependency_names = ['gtk+-2.0']
 Here we simply define our list of dependencies to be used by the piece of code below:
 <br/>
 <br/>
+
 ```python
 ###
 # Hey, HackerDude here, yep, I made this mess
@@ -157,7 +170,8 @@ The above code seems quite daunting at first, but when you read through it, it's
 8. Finally, [declare a dependency](https://mesonbuild.com/Reference-manual_functions.html#declare_dependency) and add it to the list of dependency objects our program uses
 
 
-Now that we're past that large block of code, the final section is quite easy to understand
+Now that we're past that large chunk of code, the final section is quite easy to understand
+
 ```python
 ###
 # Project definition
@@ -172,6 +186,7 @@ include_dirs = include_directories(
 
 executable('example_gtk_application', sources, include_directories: include_dirs, dependencies: dependencies, cpp_args: '-static-libstdc++', link_args: '-static-libstdc++')
 ```
+
 First we define our [`source_files`](https://mesonbuild.com/Reference-manual_functions.html#files) and [`include_dirs`](https://mesonbuild.com/Reference-manual_functions.html#include_directories) for compilation, and put everything together via an [`executable`](https://mesonbuild.com/Reference-manual_functions.html#executable) call.
 
 The [`executable`](https://mesonbuild.com/Reference-manual_functions.html#executable) function defines a target to compile, with the name `example_gtk_application` using the sources and include directories we specified along with the dependencies derrived using the above code.

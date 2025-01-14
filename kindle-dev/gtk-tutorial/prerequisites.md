@@ -66,6 +66,7 @@ chmod +x ./gen-tc.sh
 ```
 
 Where target should be replaced as follows:
+
 |     TC    |              Supported Devices              |               Target             |
 |:---------:|:-------------------------------------------:|:--------------------------------:|
 |   kindle  |             Kindle 2, DX, DXg, 3            | [not supported by this tutorial] |
