@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Jailbreaking Your Kindle
 title: Recovering From A Reset
 nav_order: 99
 has_children: true
