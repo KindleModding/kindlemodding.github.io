@@ -12,4 +12,3 @@ If you reset your Kindle in a jailbroken state with `OTABlocker`, then your Kind
 1. Follow the [MRPI installation instructions](./post-jailbreak/installing-kual-mrpi/)
 2. Follow the [Disable OTA instructions](./post-jailbreak/disable-ota.md)
 3. Instead of choosing the `Rename` option, use the `Restore` option
-4. You can `now` factory reset your Kindle
