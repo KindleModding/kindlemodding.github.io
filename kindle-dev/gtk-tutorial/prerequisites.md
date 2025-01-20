@@ -50,7 +50,7 @@ sudo pacman -S meson gtk2
 ### For Debian/Ubuntu
 ```sh
 # For the toolchain
-sudo apt-get install build-essential autoconf automake bison flex gawk libtool libtool-bin libncurses-dev curl file git gperf help2man texinfo unzip wget
+sudo apt-get install build-essential autoconf automake bison flex gawk libtool libtool-bin libncurses-dev curl file git gperf help2man texinfo unzip wget libarchive-dev nettle-dev
 
 # For the sdk
 sudo apt-get install curl sed
