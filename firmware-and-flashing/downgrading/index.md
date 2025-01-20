@@ -30,8 +30,8 @@ A jailbroken Kindle is required - You cannot downgrade a Kindle on stock firmwar
 3. Plug your Kindle into your PC and copy the scriplet into the `documents` folder.
 4. Eject and unplug your Kindle.
 5. Navigate your library and click on the "Allow Downgrade" booklet.
-6. Your Kindle should reboot automatically, downgrading is now enabled.
-7. Once rebooted, copy the `update_kindle_*.bin` file to your Kindle root directory. <span style="color: #cf4444">**Do not unplug your Kindle**</span>, hold the power button until your device reboots.
+6. Your Kindle will print text on screen for a couple of seconds and will return to the library menu. Downgrading should be enabled now.
+7. Copy the `update_kindle_*.bin` file to your Kindle root directory. <span style="color: #cf4444">**Do not unplug your Kindle**</span>, hold the power button until your device reboots.
 8. Your Kindle will now install the firmware you copied to it.
 
 ## Post-Downgrading
@@ -40,6 +40,9 @@ Congratulations! Your Kindle has been downgraded.
 
 {: .note}
 Devices using the Universal Hotfix will need to re-install it and re-run the booklet.
+
+{: .note}
+Large jumps in firmware versions might cause your Kindle to display a white screen after downgrading. This can be easily fixed by plugging your Kindle back into your PC, sideload an empty file named `DO_FACTORY_RESTORE` (without extension) into the root directory and force a reboot by holding the power button for 20 or 30 seconds.
 
 {: .warning }
 Keep in mind that not every extension out there was not made for hard float firmware (`>=5.16.3`) or soft float firmware (`<=5.16.2.1.1`), if you make a jump between those two updates, make sure you're installing the correct packages and extensions.
