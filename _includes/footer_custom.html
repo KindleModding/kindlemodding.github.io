@@ -66,6 +66,7 @@
     }
 
     function denyCookies() {
+        document.cookie = "";
         localStorage.setItem("cookieConsent", 'n');
         gtag('consent', 'update', {
             ad_user_data: 'denied',
@@ -77,13 +78,6 @@
     }
 
     function changeCookies() {
-        localStorage.removeItem("cookieConsent", 'n');
-        gtag('consent', 'update', {
-            ad_user_data: 'denied',
-            ad_personalization: 'denied',
-            ad_storage: 'denied',
-            analytics_storage: 'denied'
-        });
         document.getElementById("google_tag_consent").style.display = 'unset';
     }
 </script>
