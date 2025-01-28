@@ -1,0 +1,89 @@
+<div style="bottom: 0;">
+    <p>This site uses third-party cookies from Google<br/>
+    <a onclick="changeCookies();">Click Here</a> to change</p>
+</div>
+
+<!-- Tag Consent Stuff -->
+<style>
+    #google_tag_consent {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding: 2em;
+        width: 100vw;
+        
+        background-color: #45434c;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #google_tag_consent h2 {
+        margin-top: .1em;
+        margin-bottom: .1em;
+    }
+
+    .consent_button_wrapper button {
+        margin: .25em;
+    }
+</style>
+
+<div id="google_tag_consent">
+    <div>
+        <h2>This site uses optional cookies from Google</h2>
+        <p>We use cookies from Google to help improve our services, if you reject these cookies then only the cookies required for this site's function will be used.</p>
+    </div>
+    <div class="consent_button_wrapper">
+        <button onclick="allowCookies();" class="btn btn-purple">Okay!</button>
+        <button onclick="denyCookies();" class="btn">No thanks</button>
+    </div>
+</div>
+
+<script>
+    function gtag() { dataLayer.push(arguments); }
+    if (localStorage.getItem("cookieConsent") === null) {
+        gtag('consent', 'update', {
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+        });
+    } else {
+        document.getElementById("google_tag_consent").style.display = 'none';
+    }
+
+    function allowCookies() {
+        localStorage.setItem("cookieConsent", 'y');
+        gtag('consent', 'update', {
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            ad_storage: 'granted',
+            analytics_storage: 'granted'
+        });
+        document.getElementById("google_tag_consent").style.display = 'none';
+    }
+
+    function denyCookies() {
+        localStorage.setItem("cookieConsent", 'n');
+        gtag('consent', 'update', {
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+        });
+        document.getElementById("google_tag_consent").style.display = 'none';
+    }
+
+    function changeCookies() {
+        localStorage.removeItem("cookieConsent", 'n');
+        gtag('consent', 'update', {
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+        });
+        document.getElementById("google_tag_consent").style.display = 'unset';
+    }
+</script>
