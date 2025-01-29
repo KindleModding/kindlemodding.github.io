@@ -62,7 +62,7 @@ function searchForSerial() {
         searchStatus.innerText = "ERROR: Your Kindle serial number is invalid";
     } else {
         // Search for serial number
-        for (const kindle of kindleModels) {
+        for (const kindle of window.kindleModels) {
             if (kindle.serial_version < serialInfo.serial_version) {
                 continue; // Skip wrong version Kindle models
             } else {
@@ -175,7 +175,7 @@ function generateTable() {
 
 
     const tableBody = document.createElement("tbody");
-    for (const kindle of kindleModels) {
+    for (const kindle of window.kindleModels) {
         const tableRow = document.createElement("tr");
 
         const amazonName = document.createElement("td");
@@ -203,4 +203,7 @@ function generateTable() {
     document.getElementById("fullModelTable").appendChild(table);
 }
 
-generateTable();
+fetch('/models.json').then(response => response.json()).then((data) => {
+    window.kindleModels = data;
+    generateTable();
+});

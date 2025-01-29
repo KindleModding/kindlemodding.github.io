@@ -30,5 +30,4 @@ You only need to enter the first 8 characters of your serial number, not all 16 
 </div>
 
 
-<script src="./models.js"></script>
 <script src="./modelFinder.js"></script>
