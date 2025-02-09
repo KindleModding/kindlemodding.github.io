@@ -1,24 +1,4 @@
-// Kindle model info
-/**
- * release_year - The year this particular model was released (number)
- * release_firmware - The semvar of the firmware this model was originally released with
- * generation_nickname - The community nickname for the Kindle
- * amazon_name - What Amazon calls the Kindle (specifically amazon.co.uk (British))
- * last_firmware - If the Kindle is unsupported, what's the latest firmware available for it (If the Kindle is still supported this field shoudl read "LATEST")
- * platform - The platform/hostname of the Kindle (it is the hostname right?)
- * board - The "board" of the Kindle
- * jailbreak - The jailbreak method for the Kindle
- * kindletool_name - What KindleTool internally calls this Kindle
- * nicknames - an array of additional nicknames for the Kindle, includes generation_nickname and can have additional nicknames for the specific variant (like white/black or storage variants)
- *
- * 
- * serial_version - The version of the serial number snippet, should be 1 for all newly added Kindles
- *      0 - Serial number starts with "B" or "9", the snippet is the 2nd and 3rd characters in the serial
- *      1 - Serial number starts with "G", the snipper is the 3rd, 4th and 4th characters in the serial
- * Note: Serial snippet should ALWAYS be capitalised
- */
-
-const kindleModels = [
+[
   {
     "release_year": 2007,
     "release_firmware": "???",
@@ -85,7 +65,7 @@ const kindleModels = [
     ],
     "serial_version": 0,
     "serial_snippets": {
-      "04": "KindleDXUS",
+      "04": "KindleDXUS"
     }
   },
   {
@@ -286,7 +266,7 @@ const kindleModels = [
       "61": "KindlePaperWhite2WiFi3G4GBBrazil",
       "62": "KindlePaperWhite2WiFi3G4GB",
       "F4": "KindlePaperWhite2Unknown_0xF4",
-      "F9": "KindlePaperWhite2Unknown_0xF9",
+      "F9": "KindlePaperWhite2Unknown_0xF9"
     }
   },
   {
@@ -380,7 +360,7 @@ const kindleModels = [
       "0GR": "KindleOasisWiFi3GInternational",
       "0GS": "KindleOasisUnknown_0GS",
       "0GT": "KindleOasisWiFi3GChina",
-      "0GU": "KindleOasisWiFi3GEurope",
+      "0GU": "KindleOasisWiFi3GEurope"
     }
   },
   {
@@ -490,7 +470,7 @@ const kindleModels = [
       "0WG": "KindleBasic3Unknown_0WG",
       "0WH": "KindleBasic3White",
       "0WJ": "KindleBasic3Unknown_0WJ",
-      "0VB": "KindleBasic3KidsEdition",
+      "0VB": "KindleBasic3KidsEdition"
     }
   },
   {
@@ -513,7 +493,7 @@ const kindleModels = [
       "0WP": "KindleOasis3WiFi4G32GBIndia",
       "0WN": "KindleOasis3WiFi4G32GB",
       "0WM": "KindleOasis3WiFi32GB",
-      "0WL": "KindleOasis3WiFi8GB",
+      "0WL": "KindleOasis3WiFi8GB"
     }
   },
   {
@@ -568,7 +548,7 @@ const kindleModels = [
     "release_year": 2022,
     "release_firmware": "5.16.0",
     "generation_nickname": "KS",
-    "amazon_name": "Kindle Scribe (1st Generation) - 2022 Release",
+    "amazon_name": "Kindle Scribe - 2022 Release",
     "last_firmware": "LATEST",
     "platform": "Bellatrix3",
     "board": "Barolo",
@@ -602,13 +582,13 @@ const kindleModels = [
     ],
     "serial_version": 1,
     "serial_snippets": {
-      '3L5': 'KindleBasic5Unknown_3L5',
-      '3L6': 'KindleBasic5Unknown_3L6',
-      '3L4': 'KindleBasic5Unknown_3L4',
-      '3L3': 'KindleBasic5Unknown_3L3',
-      'A89': 'KindleBasic5Unknown_A89',
-      '3L2': 'KindleBasic5Unknown_3L2',
-      '3KM': 'KindleBasic5Unknown_3KM'
+      "3L5": "KindleBasic5Unknown_3L5",
+      "3L6": "KindleBasic5Unknown_3L6",
+      "3L4": "KindleBasic5Unknown_3L4",
+      "3L3": "KindleBasic5Unknown_3L3",
+      "A89": "KindleBasic5Unknown_A89",
+      "3L2": "KindleBasic5Unknown_3L2",
+      "3KM": "KindleBasic5Unknown_3KM"
     }
   },
   {
@@ -625,23 +605,23 @@ const kindleModels = [
     ],
     "serial_version": 1,
     "serial_snippets": {
-      '349': 'KindlePaperWhite6Unknown_349',
-      '346': 'KindlePaperWhite6Unknown_346',
-      '33X': 'KindlePaperWhite6Unknown_33X',
-      '33W': 'KindlePaperWhite6Unknown_33W',
-      '3HA': 'KindlePaperWhite6Unknown_3HA',
-      '3H5': 'KindlePaperWhite6Unknown_3H5',
-      '3H3': 'KindlePaperWhite6Unknown_3H3',
-      '3H8': 'KindlePaperWhite6Unknown_3H8',
-      '3J5': 'KindlePaperWhite6Unknown_3J5',
-      '3JS': 'KindlePaperWhite6Unknown_3JS'
+      "349": "KindlePaperWhite6Unknown_349",
+      "346": "KindlePaperWhite6Unknown_346",
+      "33X": "KindlePaperWhite6Unknown_33X",
+      "33W": "KindlePaperWhite6Unknown_33W",
+      "3HA": "KindlePaperWhite6Unknown_3HA",
+      "3H5": "KindlePaperWhite6Unknown_3H5",
+      "3H3": "KindlePaperWhite6Unknown_3H3",
+      "3H8": "KindlePaperWhite6Unknown_3H8",
+      "3J5": "KindlePaperWhite6Unknown_3J5",
+      "3JS": "KindlePaperWhite6Unknown_3JS"
     }
   },
   {
     "release_year": 2024,
     "release_firmware": "5.17.0",
     "generation_nickname": "KS2",
-    "amazon_name": "Kindle Scribe (1st generation) - 2024 Release",
+    "amazon_name": "Kindle Scribe - 2024 Release",
     "last_firmware": "LATEST",
     "platform": "Bellatrix3",
     "board": "Pisco",
@@ -651,14 +631,14 @@ const kindleModels = [
     ],
     "serial_version": 1,
     "serial_snippets": {
-      '3V0': "KindleScribe2Unknown_3V0",
-      '3V1': "KindleScribe2Unknown_3V1",
-      '3X5': "KindleScribe2Unknown_3X5",
-      '3UV': "KindleScribe2Unknown_3UV",
-      '3X4': "KindleScribe2Unknown_3X4",
-      '3X3': "KindleScribe2Unknown_3X3",
-      '41E': "KindleScribe2Unknown_41E",
-      '41D': "KindleScribe2Unknown_41D"
+      "3V0": "KindleScribe2Unknown_3V0",
+      "3V1": "KindleScribe2Unknown_3V1",
+      "3X5": "KindleScribe2Unknown_3X5",
+      "3UV": "KindleScribe2Unknown_3UV",
+      "3X4": "KindleScribe2Unknown_3X4",
+      "3X3": "KindleScribe2Unknown_3X3",
+      "41E": "KindleScribe2Unknown_41E",
+      "41D": "KindleScribe2Unknown_41D"
     }
   },
   {
@@ -675,16 +655,16 @@ const kindleModels = [
     ],
     "serial_version": 1,
     "serial_snippets": {
-      '3H9': "KindleColorSoftUnknown_3H9",
-      '3H4': "KindleColorSoftUnknown_3H4",
-      '3HB': "KindleColorSoftUnknown_3HB",
-      '3H6': "KindleColorSoftUnknown_3H6",
-      '3H2': "KindleColorSoftUnknown_3H2",
-      '34X': "KindleColorSoftUnknown_34X",
-      '3H7': "KindleColorSoftUnknown_3H7",
-      '3JT': "KindleColorSoftUnknown_3JT",
-      '3J6': "KindleColorSoftUnknown_3J6",
-      '456': "KindleColorSoftUnknown_456"
+      "3H9": "KindleColorSoftUnknown_3H9",
+      "3H4": "KindleColorSoftUnknown_3H4",
+      "3HB": "KindleColorSoftUnknown_3HB",
+      "3H6": "KindleColorSoftUnknown_3H6",
+      "3H2": "KindleColorSoftUnknown_3H2",
+      "34X": "KindleColorSoftUnknown_34X",
+      "3H7": "KindleColorSoftUnknown_3H7",
+      "3JT": "KindleColorSoftUnknown_3JT",
+      "3J6": "KindleColorSoftUnknown_3J6",
+      "456": "KindleColorSoftUnknown_456"
     }
   }
 ]
