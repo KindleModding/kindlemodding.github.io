@@ -1,4 +1,5 @@
 # Taken from KindleTool
+# Commit 8113b16
 model_tuples = [
 	('Kindle1',						0x01,	'ATVPDKIKX0DER'),
 	('Kindle2US',						0x02,	'A3UN6WX5RRO2AG'),
@@ -42,7 +43,7 @@ model_tuples = [
 	('KindleVoyageWiFi',					0x13,	'A3FE7AD5N5R11'),
 	('KindleVoyageWiFi3G',					0x54,	'A1VHVRSIVA49BF'),
 	('KindleVoyageWiFi3GJapan',				0x2A,	'A2KSI370ME58SV'),
-	('KindleVoyageUnknown_0x4F',				0x4F,	'AEK24W3B90XSI'),
+	('KindleVoyageWiFi3G_0x4F',					0x4F,	'AEK24W3B90XSI'),
 	('KindleVoyageWiFi3GMexico',				0x52,	'A66ZTOXC8UWFP'),
 	('KindleVoyageWiFi3GEurope',				0x53,	'A26JMGYIXWMKGL'),
 	('KindleBasic',						0xC6,	'A2TNPB8EVLW5FA'),
@@ -127,11 +128,11 @@ model_tuples = [
 	('KindlePaperWhite5Unknown_1Q0',			0x700,	'A328XUBPG464LQ'),	# 1Q0?
 	('KindlePaperWhite5',					0x6FF,	'A328XUBPG464LQ'),	# 1PX
 	('KindlePaperWhite5Unknown_1VD',			0x7AD,	'A328XUBPG464LQ'),	# 1VD?
-	('KindlePaperWhite5Unknown_219',			0x829,	'A328XUBPG464LQ'),	# 219?
-	('KindlePaperWhite5Unknown_21A',			0x82A,	'A328XUBPG464LQ'),	# 21A?
+	('KindlePaperWhite5SE_219',				0x829,	'A328XUBPG464LQ'),	# 219
+	('KindlePaperWhite5_21A',				0x82A,	'A328XUBPG464LQ'),	# 21A
 	('KindlePaperWhite5SE_2BH',				0x971,	'A328XUBPG464LQ'),	# 2BH
 	('KindlePaperWhite5Unknown_2BJ',			0x972,	'A328XUBPG464LQ'),	# 2BJ?
-	('KindlePaperWhite5Kids_2DK',				0x9B3,	'A328XUBPG464LQ'),	# 2DK
+	('KindlePaperWhite5_2DK',				0x9B3,	'A328XUBPG464LQ'),	# 2DK
 	('KindleBasic4Unknown_22D',				0x84D,	'A1S35GJCTB6VUN'),	# 22D?
 	('KindleBasic4Unknown_25T',				0x8BB,	'A1S35GJCTB6VUN'),	# 25T?
 	('KindleBasic4Unknown_23A',				0x86A,	'A1S35GJCTB6VUN'),	# 23A?
@@ -144,11 +145,47 @@ model_tuples = [
 	('KindleScribeUnknown_263',				0x8C3,	'A12KI9K1KHHBVF'),	# 263?
 	('KindleScribe16GB_227',				0x847,	'A12KI9K1KHHBVF'),	# 227
 	('KindleScribeUnknown_2BM',				0x975,	'A12KI9K1KHHBVF'),	# 2BM?
-	('KindleScribeUnknown_23L',				0x874,	'A12KI9K1KHHBVF'),	# 23L?
+	('KindleScribe_23L',					0x874,	'A12KI9K1KHHBVF'),	# 23L
 	('KindleScribe64GB_23M',				0x875,	'A12KI9K1KHHBVF'),	# 23M
 	('KindleScribeUnknown_270',				0x8E0,	'A12KI9K1KHHBVF'),	# 270?
+	('KindleBasic5Unknown_3L5',				0xE85,	'A2AJ1N357FEMTV'),	# 3L5?
+	('KindleBasic5Unknown_3L6',				0xE86,	'A2AJ1N357FEMTV'),	# 3L6?
+	('KindleBasic5Unknown_3L4',				0xE84,	'A2AJ1N357FEMTV'),	# 3L4?
+	('KindleBasic5Unknown_3L3',				0xE83,	'A2AJ1N357FEMTV'),	# 3L3?
+	('KindleBasic5Unknown_A89',				0x2909,	'A2AJ1N357FEMTV'),	# A89?
+	('KindleBasic5Unknown_3L2',				0xE82,	'A2AJ1N357FEMTV'),	# 3L2?
+	('KindleBasic5Unknown_3KM',				0xE75,	'A2AJ1N357FEMTV'),	# 3KM
+	('KindlePaperWhite6Unknown_349',			0xC89,	'A1BF5SA90HOYO2'),	# 349?
+	('KindlePaperWhite6Unknown_346',			0xC86,	'A1BF5SA90HOYO2'),	# 346?
+	('KindlePaperWhite6Unknown_33X',			0xC7F,	'A1BF5SA90HOYO2'),	# 33X
+	('KindlePaperWhite6Unknown_33W',			0xC7E,	'A1BF5SA90HOYO2'),	# 33W?
+	('KindlePaperWhite6Unknown_3HA',			0xE2A,	'A1BF5SA90HOYO2'),	# 3HA?
+	('KindlePaperWhite6Unknown_3H5',			0xE25,	'A1BF5SA90HOYO2'),	# 3H5?
+	('KindlePaperWhite6Unknown_3H3',			0xE23,	'A1BF5SA90HOYO2'),	# 3H3?
+	('KindlePaperWhite6Unknown_3H8',			0xE28,	'A1BF5SA90HOYO2'),	# 3H8?
+	('KindlePaperWhite6Unknown_3J5',			0xE45,	'A1BF5SA90HOYO2'),	# 3J5?
+	('KindlePaperWhite6Unknown_3JS',			0xE5A,	'A1BF5SA90HOYO2'),	# 3JS?
+	('KindleScribe2Unknown_3V0',				0xFA0,	'A3TY6T3X94EBV6'),  # 3V0?
+	('KindleScribe2Unknown_3V1',				0xFA1,	'A3TY6T3X94EBV6'),  # 3V1?
+	('KindleScribe2Unknown_3X5',				0xFE5,	'A3TY6T3X94EBV6'),  # 3X5?
+	('KindleScribe2Unknown_3UV',				0xF9D,	'A3TY6T3X94EBV6'),  # 3UV?
+	('KindleScribe2Unknown_3X4',				0xFE4,	'A3TY6T3X94EBV6'),  # 3X4?
+	('KindleScribe2Unknown_3X3',				0xFE3,	'A3TY6T3X94EBV6'),  # 3X3?
+	('KindleScribe2Unknown_41E',				0x102E,	'A3TY6T3X94EBV6'),  # 41E?
+	('KindleScribe2Unknown_41D',				0x102D,	'A3TY6T3X94EBV6'),  # 41D?
+	('KindleColorSoftUnknown_3H9',				0xE29,	'A2CU9ZQDNZFID4'),	# 3H9?
+	('KindleColorSoftUnknown_3H4',				0xE24,	'A2CU9ZQDNZFID4'),	# 3H4?
+	('KindleColorSoftUnknown_3HB',				0xE2B,	'A2CU9ZQDNZFID4'),	# 3HB?
+	('KindleColorSoftUnknown_3H6',				0xE26,	'A2CU9ZQDNZFID4'),	# 3H6?
+	('KindleColorSoftUnknown_3H2',				0xE22,	'A2CU9ZQDNZFID4'),	# 3H2?
+	('KindleColorSoftUnknown_34X',				0xC9F,	'A2CU9ZQDNZFID4'),	# 34X?
+	('KindleColorSoftUnknown_3H7',				0xE27,	'A2CU9ZQDNZFID4'),	# 3H7
+	('KindleColorSoftUnknown_3JT',				0xE5B,	'A2CU9ZQDNZFID4'),	# 3JT?
+	('KindleColorSoftUnknown_3J6',				0xE46,	'A2CU9ZQDNZFID4'),	# 3J6?
+	('KindleColorSoftUnknown_456',				0x10A6,	'A2CU9ZQDNZFID4'),	# 456?
 	('KindleUnknown', 0x00)
 ]
+
 
 
 
@@ -191,12 +228,56 @@ def cammelToSpace(text):
 
 
 generationMap = [
+    {
+        "kindletool_names": ["KindleBasic5"],
+        "release_year": 2024,
+        "release_firmware": "5.16.20",
+        "generation_nicknames": ["KT6"],
+        "amazon_name": "Kindle (11th Generation) - 2024 Release",
+        "last_firmware": "LATEST",
+        "platform": "Bellatrix",
+        "board": "Rossini",
+        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    },
+    {
+        "kindletool_names": ["KindlePaperWhite6"],
+        "release_year": 2024,
+        "release_firmware": "5.17.0",
+        "generation_nicknames": ["PW6"],
+        "amazon_name": "Kindle Paperwhite (12th Generation) - 2024 Release",
+        "last_firmware": "LATEST",
+        "platform": "Bellatrix4",
+        "board": "Sangria",
+        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    },
+    {
+        "kindletool_names": ["KindleScribe2"],
+        "release_year": 2024,
+        "release_firmware": "5.17.0",
+        "generation_nicknames": ["KS2"],
+        "amazon_name": "Kindle Scribe - 2024 Release",
+        "last_firmware": "LATEST",
+        "platform": "Bellatrix3",
+        "board": "Pisco",
+        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    },
+    {
+        "kindletool_names": ["KindleColorSoft"],
+        "release_year": 2024,
+        "release_firmware": "5.18.0",
+        "generation_nicknames": ["CS"],
+        "amazon_name": "Kindle Colorsoft (12th Generation)",
+        "last_firmware": "LATEST",
+        "platform": "Bellatrix4",
+        "board": "Seabreeze",
+        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    },
     # Kindle Scribe, released December 2022 on FW 5.16.0
     {
         "kindletool_names": ["KindleScribe"],
         "release_year": 2022,
         "release_firmware": "5.16.0",
-        "generation_nickname": "KS",
+        "generation_nicknames": ["KS"],
         "amazon_name": "Kindle Scribe (1st Generation)",
         "last_firmware": "LATEST",
         "platform": "Bellatrix3",
@@ -208,7 +289,7 @@ generationMap = [
         "kindletool_names": ["KindleBasic4"],
         "release_year": 2022,
         "release_firmware": "5.15.0",
-        "generation_nickname": "KT5",
+        "generation_nicknames": ["KT5"],
         "amazon_name": "Kindle (11th Generation)",
         "last_firmware": "LATEST",
         "platform": "Bellatrix",
@@ -220,7 +301,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite5"],
         "release_year": 2021,
         "release_firmware": "5.14.0",
-        "generation_nickname": "PW5",
+        "generation_nicknames": ["PW5", "PW5SE"],
         "amazon_name": "Kindle Paperwhite (11th Generation)",
         "last_firmware": "LATEST",
         "platform": "Bellatrix",
@@ -232,7 +313,7 @@ generationMap = [
         "kindletool_names": ["KindleOasis3"],
         "release_year": 2019,
         "release_firmware": "5.12.0",
-        "generation_nickname": "KOA3",
+        "generation_nicknames": ["KOA3", "KOA3W32C"],
         "amazon_name": "Kindle Oasis (10th Generation)",
         "last_firmware": "LATEST",
         "platform": "Zelda",
@@ -244,7 +325,7 @@ generationMap = [
         "kindletool_names": ["KindleBasic3"],
         "release_year": 2019,
         "release_firmware": "5.1x.y",
-        "generation_nickname": "KT4",
+        "generation_nicknames": ["KT4"],
         "amazon_name": "Kindle (10th Generation)",
         "last_firmware": "LATEST",
         "platform": "Rex",
@@ -256,7 +337,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite4", "KindlePW4"],
         "release_year": 2018,
         "release_firmware": "5.10.0.1/5.10.0.2",
-        "generation_nickname": "PW4",
+        "generation_nicknames": ["PW4"],
         "amazon_name": "Kindle Paperwhite (10th Generation)",
         "last_firmware": "LATEST",
         "platform": "Rex",
@@ -268,7 +349,7 @@ generationMap = [
         "kindletool_names": ["KindleOasis2"],
         "release_year": 2017,
         "release_firmware": "5.9.0.6",
-        "generation_nickname": "KOA2",
+        "generation_nicknames": ["KOA2"],
         "amazon_name": "Kindle Oasis (9th Generation)",
         "last_firmware": "5.16.2.1.1",
         "platform": "Zelda",
@@ -280,7 +361,7 @@ generationMap = [
         "kindletool_names": ["KindleBasic2"],
         "release_year": 2016,
         "release_firmware": "5.8.0",
-        "generation_nickname": "KT3",
+        "generation_nicknames": ["KT3"],
         "amazon_name": "Kindle (8th Generation)",
         "last_firmware": "5.16.2.1.1",
         "platform": "Heisenberg",
@@ -292,7 +373,7 @@ generationMap = [
         "kindletool_names": ["KindleOasis"],
         "release_year": 2016,
         "release_firmware": "5.7.1.1",
-        "generation_nickname": "KOA",
+        "generation_nicknames": ["KOA"],
         "amazon_name": "Kindle Oasis (8th Generation)",
         "last_firmware": "5.16.2.1.1",
         "platform": "Duet",
@@ -304,7 +385,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite3White", "KindlePW3White"],
         "release_year": 2016,
         "release_firmware": "5.7.x",
-        "generation_nickname": "PW3",
+        "generation_nicknames": ["PW3"],
         "amazon_name": "Kindle Paperwhite (7th Generation)",
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
@@ -316,7 +397,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite3", "KindlePW3"],
         "release_year": 2015,
         "release_firmware": "5.6.1",
-        "generation_nickname": "PW3",
+        "generation_nicknames": ["PW3"],
         "amazon_name": "Kindle Paperwhite (7th Generation)",
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
@@ -328,7 +409,7 @@ generationMap = [
         "kindletool_names": ["KindleVoyage"],
         "release_year": 2014,
         "release_firmware": "5.5.0",
-        "generation_nickname": "KV",
+        "generation_nicknames": ["KV"],
         "amazon_name": "Kindle Voyage (7th Generation)",
         "last_firmware": "5.13.6",
         "platform": "Wario",
@@ -340,7 +421,7 @@ generationMap = [
         "kindletool_names": ["KindleBasic"],
         "release_year": 2014,
         "release_firmware": "5.5.0",
-        "generation_nickname": "KT2",
+        "generation_nicknames": ["KT2", "BASIC"],
         "amazon_name": "Kindle (7th Generation)",
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
@@ -352,7 +433,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite2"],
         "release_year": 2013,
         "release_firmware": "5.4.0",
-        "generation_nickname": "PW2",
+        "generation_nicknames": ["PW2", "PW2J"],
         "amazon_name": "Kindle Paperwhite (6th Generation)",
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
@@ -364,7 +445,7 @@ generationMap = [
         "kindletool_names": ["KindlePaperWhite"],
         "release_year": 2012,
         "release_firmware": "5.2.0",
-        "generation_nickname": "PW",
+        "generation_nicknames": ["PW", "PWG"],
         "amazon_name": "Kindle Paperwhite (5th Generation)",
         "last_firmware": "5.6.1.1",
         "platform": "Wario",
@@ -376,7 +457,7 @@ generationMap = [
         "kindletool_names": ["Kindle4NonTouchBlack"],
         "release_year": 2012,
         "release_firmware": "???",
-        "generation_nickname": "K4",
+        "generation_nicknames": ["K4", "K4B"],
         "amazon_name": "Kindle (5th Generation)",
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
@@ -388,7 +469,7 @@ generationMap = [
         "kindletool_names": ["Kindle4NonTouch"],
         "release_year": 2011,
         "release_firmware": "???",
-        "generation_nickname": "K4",
+        "generation_nicknames": ["K4", "K4S"],
         "amazon_name": "Kindle (4th Generation)",
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
@@ -400,7 +481,7 @@ generationMap = [
         "kindletool_names": ["Kindle5Touch"],
         "release_year": 2011,
         "release_firmware": "???",
-        "generation_nickname": "KT",
+        "generation_nicknames": ["KT", "K5"],
         "amazon_name": "Kindle Touch (4th Generation)",
         "last_firmware": "5.3.7.3",
         "platform": "Yoshi",
@@ -412,43 +493,43 @@ generationMap = [
         "kindletool_names": ["Kindle3"],
         "release_year": 2010,
         "release_firmware": "???",
-        "generation_nickname": "K3",
+        "generation_nicknames": ["K3", "K3G"],
         "amazon_name": "Kindle Keyboard (3rd Generation)",
         "last_firmware": "3.4.3",
         "platform": "Luigi",
         "board": "Shasta",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
     },
     # Kindle DX
     {
         "kindletool_names": ["KindleDX"],
         "release_year": 2009,
         "release_firmware": "???",
-        "generation_nickname": "DX",
+        "generation_nicknames": ["DX"],
         "amazon_name": "Kindle DX (2nd Generation)",
         "last_firmware": "2.5.8",
         "platform": "???",
         "board": "Nell/NellSL/NellWW",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
     },
     # Kindle 2
     {
         "kindletool_names": ["Kindle2"],
         "release_year": 2009,
         "release_firmware": "???",
-        "generation_nickname": "K2",
+        "generation_nicknames": ["K2"],
         "amazon_name": "Kindle (2nd Generation)",
         "last_firmware": "2.5.8",
         "platform": "Mario/MarioDeprecated",
         "board": "Mario",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">https://www.mobileread.com/forums/showthread.php?t=88004</a>"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
     },
     # Kindle
     {
         "kindletool_names": ["Kindle1"],
         "release_year": 2007,
         "release_firmware": "???",
-        "generation_nickname": "K1",
+        "generation_nicknames": ["K1"],
         "amazon_name": "Kindle (1st Generation)",
         "last_firmware": "1.2.1",
         "platform": "N/A",
@@ -461,6 +542,9 @@ newModelMap = []
 for model in model_tuples:
     modelName   =   model[0]
     modelInt    =   model[1]
+    modelId     =   None
+    if len(model) > 2:
+        modelId     =   model[2]
 
     # Load data for this generation
     foundGeneration = False
@@ -478,29 +562,44 @@ for model in model_tuples:
         print("[ERR] Could not find Kindle:", modelName)
         continue
 
+
+    
     del modelData["kindletool_names"]
-    modelData.update({
-        "kindletool_name": modelName,  # The internal KindleTool name
-        "nicknames": [modelData["generation_nickname"]],             # The community nickname(s) for the Kindle ([PW4-32, PW4LGB] vs PW4)
-        "serial_version": -1,                                        # -1: unknown, 0: old version, 1: base32 version (it's an int godforbid amazon changes it again)
-    })
+    filtered = tuple(filter(lambda x: x["amazon_name"] == modelData["amazon_name"], newModelMap))
+    index = newModelMap.index(filtered[0]) if filtered != () else None
 
-    if (len(hex(modelInt)) < 5): # Models which have 2-digit hex codes (0x01) rather than 3-digit hex codes (0x8E0)
-        modelData["serial_version"] = 0
-        print(modelName, '(old style) -', modelInt)
-        modelData["serial_snippet"] = hex(modelInt).split('x')[-1].upper().rjust(2, '0')
-    else:
-        modelData["serial_version"] = 1
-        serial = int_to_serial(modelInt)
-        newMagicInt = serial_to_int(serial)
-        modelData["serial_snippet"] = serial
+    if (index is None):
+        modelData.update({
+            "generation_nickname": modelData["generation_nicknames"][0],
+            "nicknames": modelData["generation_nicknames"],             # The community nickname(s) for the Kindle ([PW4-32, PW4LGB] vs PW4)
+            "serial_version": -1,                                        # -1: unknown, 0: old version, 1: base32 version (it's an int godforbid amazon changes it again)
+            "serial_snippets": {},
+        })
+        del modelData["generation_nicknames"]
 
-        if (modelInt != newMagicInt):
-            print("[FAIL]", modelName, '-', serial, '|', modelInt, '==', newMagicInt)
+        if (len(hex(modelInt)) < 5): # Models which have 2-digit hex codes (0x01) rather than 3-digit hex codes (0x8E0)
+            modelData["serial_version"] = 0
+            print(modelName, '(old style) -', modelInt)
+            serial = hex(modelInt).split('x')[-1].upper().rjust(2, '0')
+            modelData["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
+            print(f"[OLD] {modelName} - {serial} | {modelInt}")
         else:
-            print("[PASS]", modelName, '-', serial, '|', modelInt, '==', newMagicInt)
+            modelData["serial_version"] = 1
+            serial = int_to_serial(modelInt)
+            newMagicInt = serial_to_int(serial)
+            modelData["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
 
-    newModelMap.append(modelData)
+            if (modelInt != newMagicInt):
+                print("[FAIL]", modelName, '-', serial, '|', modelInt, '==', newMagicInt)
+            else:
+                print("[PASS]", modelName, '-', serial, '|', modelInt, '==', newMagicInt)
+        newModelMap.append(modelData)
+    else:
+        if (newModelMap[index]["serial_version"] == 1):
+            serial = int_to_serial(modelInt)
+        else:
+            serial = hex(modelInt).split('x')[-1].upper().rjust(2, '0')
+        newModelMap[index]["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
 
 with open('./models.json', 'w') as file:
     file.write(json.dumps(newModelMap, indent=2))

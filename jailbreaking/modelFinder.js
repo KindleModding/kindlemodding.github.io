@@ -66,7 +66,7 @@ function searchForSerial() {
             if (kindle.serial_version < serialInfo.serial_version) {
                 continue; // Skip wrong version Kindle models
             } else {
-                if (Object.keys(kindle.serial_snippets).includes(serialInfo.serial_snippet)) {
+                if (Object.keys(kindle.serial_snippets.kindletool_name).includes(serialInfo.serial_snippet)) {
                     // Kindle found
                     
                     // Create header
@@ -82,7 +82,7 @@ function searchForSerial() {
                     ]
 
                     const secondaryKindleInfo = [
-                        ["KindleTool Name", kindle.serial_snippets[serialInfo.serial_snippet]],
+                        ["KindleTool Name", kindle.serial_snippets[serialInfo.serial_snippet].kindletool_name],
                         ["Release Firmware", kindle.release_firmware],
                         ["Last Firmware Update", kindle.last_firmware],
                         ["Kindle Platform Name", kindle.platform],
