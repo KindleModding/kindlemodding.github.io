@@ -66,7 +66,7 @@ function searchForSerial() {
             if (kindle.serial_version < serialInfo.serial_version) {
                 continue; // Skip wrong version Kindle models
             } else {
-                if (Object.keys(kindle.serial_snippets.kindletool_name).includes(serialInfo.serial_snippet)) {
+                if (Object.keys(kindle.serial_snippets).includes(serialInfo.serial_snippet)) {
                     // Kindle found
                     
                     // Create header
