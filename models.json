@@ -223,7 +223,7 @@
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Pinot",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW2",
     "nicknames": [
       "PW2",
@@ -296,7 +296,7 @@
     "last_firmware": "5.13.6",
     "platform": "Wario",
     "board": "Icewine",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KV",
     "nicknames": [
       "KV"
@@ -336,7 +336,7 @@
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Bourbon",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT2",
     "nicknames": [
       "KT2",
@@ -361,7 +361,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Wario",
     "board": "Muscat",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW3",
     "nicknames": [
       "PW3"
@@ -437,7 +437,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Duet",
     "board": "Whisky",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KOA",
     "nicknames": [
       "KOA"
@@ -477,7 +477,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Heisenberg",
     "board": "Eanab",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT3",
     "nicknames": [
       "KT3"
@@ -505,7 +505,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Zelda",
     "board": "Cognac",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KOA2",
     "nicknames": [
       "KOA2"
@@ -581,7 +581,7 @@
     "last_firmware": "LATEST",
     "platform": "Rex",
     "board": "Jaeger",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW4",
     "nicknames": [
       "PW4"
@@ -685,7 +685,7 @@
     "last_firmware": "LATEST",
     "platform": "Rex",
     "board": "Moonshine",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT4",
     "nicknames": [
       "KT4"
@@ -725,7 +725,7 @@
     "last_firmware": "LATEST",
     "platform": "Zelda",
     "board": "Stinger",
-    "jailbreak": "<a href=\"WatchThis\">WatchThis</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KOA3",
     "nicknames": [
       "KOA3",
@@ -766,7 +766,7 @@
     "last_firmware": "LATEST",
     "platform": "Bellatrix",
     "board": "Malbec",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW5",
     "nicknames": [
       "PW5",
@@ -819,7 +819,7 @@
     "last_firmware": "LATEST",
     "platform": "Bellatrix",
     "board": "Cava",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT5",
     "nicknames": [
       "KT5"
@@ -863,7 +863,7 @@
     "last_firmware": "LATEST",
     "platform": "Bellatrix3",
     "board": "Barolo",
-    "jailbreak": "<a href=\"LanguageBreak\">LanguageBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KS",
     "nicknames": [
       "KS"
