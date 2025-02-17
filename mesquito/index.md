@@ -6,7 +6,7 @@ has_children: true
 ---
 
 # Mesquito
-Mesquito is a simple WAF loader designed to replace the Kindle store on Kindles. Mesquito is extremely simple to install and runs on all firmwares `<=5.15.1.1`>
+Mesquito is a simple WAF loader designed to replace the Kindle store on Kindles. Mesquito is extremely simple to install and runs on all firmwares at the time of writing.
 
 ## Installation
 1. Download the latest [release](https://github.com/KindleModding/Mesquito/releases/latest)
