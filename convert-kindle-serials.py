@@ -450,6 +450,18 @@ generationMap = [
         "last_firmware": "5.6.1.1",
         "platform": "Wario",
         "board": "Pinot",
+        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+    },
+    # Kindle 5 touch
+    {
+        "kindletool_names": ["Kindle5Touch"],
+        "release_year": 2011,
+        "release_firmware": "???",
+        "generation_nicknames": ["KT", "K5"],
+        "amazon_name": "Kindle Touch (4th Generation)",
+        "last_firmware": "5.3.7.3",
+        "platform": "Yoshi",
+        "board": "Whitney",
         "jailbreak": "LEGACY"
     },
     # Kindle 4 with a black bezel, released fall 2012
@@ -475,18 +487,6 @@ generationMap = [
         "platform": "Yoshi",
         "board": "Tequila",
         "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
-    },
-    # Kindle 5 touch
-    {
-        "kindletool_names": ["Kindle5Touch"],
-        "release_year": 2011,
-        "release_firmware": "???",
-        "generation_nicknames": ["KT", "K5"],
-        "amazon_name": "Kindle Touch (4th Generation)",
-        "last_firmware": "5.3.7.3",
-        "platform": "Yoshi",
-        "board": "Whitney",
-        "jailbreak": "LEGACY"
     },
     # Kindle 3 (Kindle Keyboard)
     {
