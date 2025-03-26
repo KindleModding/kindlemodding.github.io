@@ -71,4 +71,4 @@ echo "A user won't see this"
 ```
 
 ## Examples
-For more Scriptlet examples or to share your own, please check the `# scriptlets` channel in the [Kindle Modding Community Discord server](https://dsc.gg/kindle-modding).
+For more Scriptlet examples or to share your own, please check the `scriptlets` channel in the [Kindle Modding Community Discord server](https://dsc.gg/kindle-modding).
