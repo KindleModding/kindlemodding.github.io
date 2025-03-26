@@ -21,7 +21,7 @@
 title: Kindle Modding Wiki
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Documentation on the Kindle and Mesquito
+  Documentation on the Kindle hacking and internals
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KindleModding
@@ -52,6 +52,12 @@ color_scheme: dark
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# For dev only
+#exclude:
+#  - kindle-apps-and-services/
+#  - kindle-os
+#  - firmware-and-flashing
 
 callouts_level: loud # or loud
 callouts:
