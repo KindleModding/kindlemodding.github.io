@@ -58,9 +58,16 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             </div>
         </div>
         <div class="step">
+            <h2>Rebooting</h2>
+            <div class="stepContent">
+                <p>Reboot your Kindle</p>
+                <img src="./reboot.png" />
+            </div>
+        </div>
+        <div class="step">
             <h2>Extracting WinterBreak</h2>
             <div class="stepContent">
-                <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to a safe place on your computer</p>
+                <p>Once it has booted, plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to a safe place on your computer</p>
                 <p>Then copy the files to your Kindle (do not extract direcly to the Kindle as this may fail)</p>
                 <p class="highlight">
                     For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
@@ -72,16 +79,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             </div>
         </div>
         <div class="step">
-            <h2>Rebooting</h2>
-            <div class="stepContent">
-                <p>Eject your Kindle from your computer and reboot it</p>
-                <img src="./reboot.png" />
-            </div>
-        </div>
-        <div class="step">
             <h2>Entering Mesquito</h2>
             <div class="stepContent">
-                <p>Open the Kindle Store on your Kindle</p>
+                <p>Eject the Kindle from your computer</p>
+                <p>Open the Kindle Store on your Kindle by clicking on the cart icon on the home screen</p>
                 <p>When prompted, click `yes` to turn off airplane mode</p>
                 <img src="./store_aeroplane.png" />
                 <p>Once Mesquito has loaded you can re-enable Airplane mode.</p>
