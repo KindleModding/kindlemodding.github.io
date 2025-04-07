@@ -766,7 +766,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Malbec",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "PW5",
     "nicknames": [
       "PW5",
@@ -819,7 +819,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Cava",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KT5",
     "nicknames": [
       "KT5"
@@ -863,7 +863,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix3",
     "board": "Barolo",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KS",
     "nicknames": [
       "KS"
@@ -911,7 +911,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Rossini",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KT6",
     "nicknames": [
       "KT6"
@@ -955,7 +955,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix4",
     "board": "Sangria",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak <= 5.17.x</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "PW6",
     "nicknames": [
       "PW6"
@@ -1011,7 +1011,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix3",
     "board": "Pisco",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak <= 5.17.x</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KS2",
     "nicknames": [
       "KS2"
@@ -1059,7 +1059,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix4",
     "board": "Seabreeze",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak <= 5.18.0.1.0.1</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.0.1.0.1</a>",
     "generation_nickname": "CS",
     "nicknames": [
       "CS"

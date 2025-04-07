@@ -23,6 +23,10 @@ It is based on [Mesquito](../../mesquito/)
 > <br/>
 > RIP the original deadlines
 
+{: .warning}
+Mesquio does NOT work on firmware `5.18.1` and beyond.
+
+
 ## Prerequisites
 - You will need a PC
 - Your Kindle must be registered
@@ -76,6 +80,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                 <p>Open the Kindle Store on your Kindle</p>
                 <p>When prompted, click `yes` to turn off airplane mode</p>
                 <img src="./store_aeroplane.png" />
+                <p>Once Mesquito has loaded you can re-enable Airplane mode.</p>
             </div>
         </div>
         <div class="step">
