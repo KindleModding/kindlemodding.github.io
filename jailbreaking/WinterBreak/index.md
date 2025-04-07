@@ -134,7 +134,7 @@ If an **“Unexpected error”** occurs when you try to log in to the Kindle Sto
 - akane
 - BlackNinja
 - Gimzie
-- Human
+- Elaine Roberts
 - Lux
 - Marek
 - terra
