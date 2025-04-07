@@ -66,6 +66,9 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                     For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
                 </p>
                 <img src="./file_list.png" />
+                <p class="highlight">
+                    Replace any files if you are prompted to
+                </p>
             </div>
         </div>
         <div class="step">
