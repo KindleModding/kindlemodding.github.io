@@ -60,7 +60,8 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Extracting WinterBreak</h2>
             <div class="stepContent">
-                <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to your Kindle</p>
+                <p>Plug the Kindle into your computer and extract the contents of the `WinterBreak.tar.gz` file to a safe place on your computer</p>
+                <p>Then copy the files to your Kindle (do not extract direcly to the Kindle as this may fail)</p>
                 <p class="highlight">
                     For Linux/MacOS users, ENSURE the hidden folder `.active_content_sandbox` has been copied to your Kindle
                 </p>
