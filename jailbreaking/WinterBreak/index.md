@@ -35,6 +35,10 @@ Mesquio does NOT work on firmware `5.18.1` and beyond.
 {: .highlight}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
 
+{: .warning}
+If you are on a firmware version prior to 5.18.1 (currently not compatible with Winterbreak), you will need to delete the update file that Amazon attempts to download and apply before you get the chance to block the automatic updates.
+At each step of the process you will need to make sure to delete this file, especially before rebooting.
+
 ## Installation Guide
 
 <div id="guide">
@@ -99,6 +103,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
+                <p>Delete any update bin file if found!</p>
                 <p>Once it does, you can move onto the post-jailbreak stage!</p>
                 <img src="./winterbreak_run.png" />
             </div>
