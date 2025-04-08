@@ -29,6 +29,9 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             <h2>Copy The Hotfix</h2>
             <div class="stepContent">
                 <p>Plug your Kindle into your PC and copy the <code>Update_hotfix_universal.bin</code> file to it</p>
+                <p class="highlight">
+                    Note that if you see any other files on your Kindle ending in `.bin` you must delete them for this to work
+                </p>
                 <img src="./copy_hotfix.png" />
             </div>
         </div>
