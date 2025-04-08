@@ -153,3 +153,5 @@ Remember to delete any automatic update file that might have appeared.
 
 😊
 
+## Credits
+- Written by Bucks
