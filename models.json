@@ -601,7 +601,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Rex",
     "board": "Jaeger",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "PW4",
     "nicknames": [
       "PW4"
@@ -705,7 +705,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Rex",
     "board": "Moonshine",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KT4",
     "nicknames": [
       "KT4"
@@ -745,7 +745,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Zelda",
     "board": "Stinger",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KOA3",
     "nicknames": [
       "KOA3",
