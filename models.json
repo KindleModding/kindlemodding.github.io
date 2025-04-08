@@ -500,6 +500,26 @@
   },
   {
     "release_year": 2017,
+    "release_firmware": "5.7.2.8 (Based on Android 5.1.1?)",
+    "amazon_name": "Kindle x Migu",
+    "last_firmware": "5.7.2.8 (Based on Android 5.1.1?)",
+    "platform": "Heisenberg",
+    "board": "Eanab",
+    "jailbreak": "Runs Android - Try traditional Android JB methods",
+    "generation_nickname": "KM",
+    "nicknames": [
+      "KM"
+    ],
+    "serial_version": 1,
+    "serial_snippets": {
+      "0NG": {
+        "kindletool_name": "UNSUPPORTED",
+        "amazon_model_id": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "release_year": 2017,
     "release_firmware": "5.9.0.6",
     "amazon_name": "Kindle Oasis (9th Generation)",
     "last_firmware": "5.16.2.1.1",
