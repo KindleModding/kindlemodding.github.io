@@ -99,7 +99,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
-                <p>Once it does, you can move onto the post-jailbreak stage!</p>
+                <p>Once it does, turn airplane mode back on and you can move onto the post-jailbreak stage!</p>
+                <div class="highlight">
+                    If you do not see any funky text then make sure Airplane mode is disabled - turn it back on after you see the text though!
+                </div>
                 <img src="./winterbreak_run.png" />
             </div>
         </div>
