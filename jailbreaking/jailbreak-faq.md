@@ -170,9 +170,10 @@ You can do one of the following:
 - Install KOReader
 - [Downgrade your Kindle](https://kindlemodding.org/firmware-and-flashing/downgrading/)
 - [Download some scriplets](https://scriptlets.notmarek.com/)
-- Make extensions
+- [Make and develop more extensions](https://kindlemodding.org/kindle-dev/) 
 - Browse MobileRead or the Kindle Modding Community Discord server for more scriplets and extensions.
 - Install Alpine Linux
+- [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 
 
 ### What does the KFT option in the settings menu do?
 
