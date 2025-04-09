@@ -91,9 +91,9 @@ Unless there's a extension/port for any of them, no.
 Not necessarily.
 
 If you're running hard float firmware, you can launch them with simple [scriplets](https://kindlemodding.org/kindle-dev/scriptlets.html).  
-Specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/)
+Specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
 
-If you're running soft float firmware you can try installing the [KUAL booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/tree/V1.4) extension. You can further customize both the booklet and the [KOR launcher with the coversetter extesnion made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
+A [KUAL booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/releases/) extension is also available to install. You can further customize both the KUAL booklet and the [KOR launcher with the coversetter extension made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
 
 ## Technical
 ---
@@ -132,7 +132,7 @@ Please note that even after following these precautions, it is not guaranteed yo
 If you are, however, running soft float firmware prior to 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake in installing this extension on hard float firmware.**
 
 {: .note}
-You can easily change screensavers with [KOReader](https://koreader.rocks/user_guide/) /(search for the "screensavers" option).
+You can easily change screensavers with [KOReader](https://koreader.rocks/user_guide/) (search for the "screensavers" feature).
 
 ## Jailbreaking
 ---
@@ -157,17 +157,21 @@ Remember to delete any automatic update file that might have appeared.
 
 ### I can't no longer update my Kindle after a factory reset/update!
 
-If you reset your Kindle in a jailbroken state with OTABlocker, then your Kindle may be in a broken state, to fix this, read [this guide](https://kindlemodding.org/firmware-and-flashing/downgrading/).
+If you reset your Kindle in a jailbroken state with `renametobin` enabled, then your Kindle may be in a broken state, to fix this, read [this guide](https://kindlemodding.org/jailbreaking/recovering-from-a-reset.html).
+
+### I kept getting random "KPPMainAppV2" books added to my Kindle library, what should I do!?
+
+Kindles usually generate those books after detecting any kind of error (mostly common after exiting KOReader frameworkless), you can safely delete them. You can also disable the generation of these books by creating an empty file named `DISABLE_CORE_DUMP` to the visible USB storage root of your device.
 
 ### I have successfully jailbroken my device, what now?
 
 You can do one of the following:
 
-- Install KOReader
+- [Install KOReader](https://kindlemodding.org/jailbreaking/post-jailbreak/koreader.html)
 - [Downgrade your Kindle](https://kindlemodding.org/firmware-and-flashing/downgrading/)
 - [Download some scriplets](https://scriptlets.notmarek.com/)
 - [Develop more extensions](https://kindlemodding.org/kindle-dev/) 
-- Browse MobileRead or the Kindle Modding Community Discord server for more scriplets and extensions.
+- Browse [MobileRead](https://www.mobileread.com/forums/forumdisplay.php?f=150) or the Kindle Modding Community Discord Server for more scriplets and extensions.
 - Install Alpine Linux
 - [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 
 
