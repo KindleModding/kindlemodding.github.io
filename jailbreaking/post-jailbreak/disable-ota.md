@@ -131,7 +131,9 @@ Make sure to identify your Kindle's firmware version before proceeding. Differen
                     <p>If you want to factory reset, downgrade or update your Kindle, you will <strong>need</strong> to restore the binary by opening KUAL, selecting <code>Rename OTA Binaries</code> and then selecting <code>Restore</code> instead of rename</p>
                 </div>
                 
-                <p class="highlight">If you want to maintain access to the Kindle Store, check out the guide for <a href="../re-enabling-the-store">Re-enabling the Store</a></p>
+                <p class="highlight">You can now safely turn off Airplane Mode and re-enable WiFi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
+                
+                <p class="highlight">If you want to maintain access to the Kindle Store, check out the guide for <a href="re-enabling-the-store">Re-enabling the Store</a></p>
             </div>
         </div>
     </div>
