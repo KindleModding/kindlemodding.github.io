@@ -159,6 +159,10 @@ Remember to delete any automatic update file that might have appeared.
 
 If you reset your Kindle in a jailbroken state with `renametobin` enabled, then your Kindle may be in a broken state, to fix this, read [this guide](https://kindlemodding.org/jailbreaking/recovering-from-a-reset.html).
 
+### I kept getting random "KPPMainAppV2" books added to my Kindle library, what should I do!?
+
+Kindles usually generate those books after detecting any kind of error (mostly common after exiting KOReader frameworkless), you can safely delete them. You can also disable the generation of these books by creating an empty file named `DISABLE_CORE_DUMP` to the visible USB storage root of your device.
+
 ### I have successfully jailbroken my device, what now?
 
 You can do one of the following:
@@ -167,7 +171,7 @@ You can do one of the following:
 - [Downgrade your Kindle](https://kindlemodding.org/firmware-and-flashing/downgrading/)
 - [Download some scriplets](https://scriptlets.notmarek.com/)
 - [Develop more extensions](https://kindlemodding.org/kindle-dev/) 
-- Browse MobileRead or the Kindle Modding Community Discord server for more scriplets and extensions.
+- Browse [MobileRead](https://www.mobileread.com/forums/forumdisplay.php?f=150) or the Kindle Modding Community Discord Server for more scriplets and extensions.
 - Install Alpine Linux
 - [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 
 
