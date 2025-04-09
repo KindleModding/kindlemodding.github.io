@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Jailbreaking Your Kindle
-title: Kindle Jailbreak F.A.Q
+title: Kindle Jailbreak FAQ
 nav_order: 98
 ---
 
