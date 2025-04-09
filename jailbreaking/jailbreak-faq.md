@@ -90,7 +90,8 @@ Unless there's a extension/port for any of them, no.
 
 Not necessarily.
 
-If you're running hard float firmware, you can launch them with simple [scriplets](https://kindlemodding.org/kindle-dev/scriptlets.html). (BOOKLET SCRIPLETS HERE)
+If you're running hard float firmware, you can launch them with simple [scriplets](https://kindlemodding.org/kindle-dev/scriptlets.html).  
+Specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/)
 
 If you're running soft float firmware you can try installing the [KUAL booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/tree/V1.4) extension. You can further customize both the booklet and the [KOR launcher with the coversetter extesnion made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
 
@@ -117,11 +118,7 @@ As explained in the [Scriplets section](https://kindlemodding.org/kindle-dev/scr
 
 ### How can I check that the automatic updates have been disabled?
 
-Download the following scriplet: (OTA CHECKER SCRIPTLET HERE)
-
-### How can I disable ADs (Special Offers)?
-
-Download the following scriplet: (AD DISABLING SCRIPTLET HERE)
+Download the "Check OTA Status" scriplet from [here](https://scriptlets.notmarek.com/)
 
 ### Is it possible to change screensavers in the native Kindle UI?
 

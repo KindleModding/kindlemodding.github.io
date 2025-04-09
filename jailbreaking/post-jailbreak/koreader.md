@@ -1,71 +1,140 @@
 ---
 layout: default
-title: KOReader
-parent: Miscellaneous
-nav_order: 1
+grand_parent: Jailbreaking Your Kindle
+parent: Post Jailbreak
+title: Installing KOReader
+nav_order: 5
 ---
 
-# KOReader
-*KOReader is a document viewer for E Ink devices. Supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files. It’s available for Kindle, Kobo, PocketBook, Android and desktop Linux.*[*](https://koreader.rocks/)
+# Installing KOReader
 
-Installing KOReader is as easy as just dragging and dropping a couple of folders to your device, but identifying which version you need can be confusing.
-
-{: .highlight }
-Your Kindle must be jailbroken and have MPRI and KUAL installed to be able to run KOReader.
-
-# Downloading 
-
-### For firmware <=5.16.2.1.1
-
-If you're currently running soft float firmware (<=5.16.2.1.1), you can download KOReader from the [official release page](https://github.com/koreader/koreader/releases).
-
-Make sure to download the correct package for your Kindle:
-
-- `kindle-legacy`: K2, DX, K3 (and all their variants).
-- `kindle`: K4, K5, PW1
-- `kindlepw2`: Everything else, starting from the PW2 (i.e., PW2, KV, KT2, PW3, KOA, KT3, KOA2, PW4, KT4, KOA3, PW5, KS).
-
-Once downloaded, go ahead to [Installation](#installation)
-
-### For firmware =>5.16.3
+_KOReader is a document viewer for E Ink devices. Supported formats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files._
 
 {: .note }
-Any device running firmware =>5.16.3 has to download the `kindle-hf` package.
+Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to run KOReader.
 
-{: .highlight }
-As of 10th of January 2025, there aren't stable releases for Kindle hard float firmware (codename kindle-hf), because of this you will need to download a *nightly* build. This guide will be updated as soon as this changes.
+<div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+    <div id="stepwrapper" class="stepwrapper">
+        <div class="step">
+            <h2>Determine your firmware version</h2>
+            <div class="stepContent">
+                <p>Before proceeding, check your Kindle's firmware version by going to:</p>
+                <p><strong>Home → Menu → Settings → Menu → Device Info</strong></p>
+                <p class="highlight">Different firmware versions require different KOReader packages</p>
+            </div>
+        </div>
+        
+<div class="step">
+    <h2>Download KOReader</h2>
+        <div class="stepContent">
+                <p>Download KOReader from the <a href="https://github.com/koreader/koreader/releases" target="_blank">official release page</a></p>
+                <p>Choose the correct package for your Kindle:</p>
+                <div class="version-block">
+                    <p class="version-label">KOReader Packages:</p>
+                <ul>
+                    <li><code>kindle-legacy</code>: K2, DX, K3 (and all variants)</li>
+                    <li><code>kindle</code>: K4, K5, PW1</li>
+                    <li><code>kindlepw2</code>: All newer models (PW2, KV, KT2, PW3, KOA, KT3, KOA2, PW4, KT4, KOA3, PW5, KS) running firmware =< 5.16.2.1.1</li>
+                    <li><code>kindlehf</code>: <b>Any Kindle device</b> running firmware >=5.16.3</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+        
+<div class="step">
+            <h2>Alternative Download Method</h2>
+            <div class="stepContent">
+                <div class="version-block">
+                    <p class="version-label">Firmware >=5.16.3:</p>
+                        <a href="https://scriptlets.notmarek.com/" target="_blank">Marek's KOReader Installer (nightly)</a> Download and copy this scriptlet into the <code>/documents</code> folder on your Kindle, run it from your Library and it will automatically download and install KOReader.
+                    <p class="note">This alternative method might not work for everyone.</p>
+                </div>
+            </div>
+        </div>
 
-For most users, [Marek's nightly build for KOReader](https://fw.notmarek.com/khf/koreader/) seems to work for the majority of users.
+<div class="step">
+            <h2>Connect your Kindle to your computer</h2>
+            <div class="stepContent">
+                <p>Plug your Kindle into your PC via USB cable</p>
+                <p>Wait for your computer to recognize the device</p>
+                <p class="highlight">Make sure your Kindle appears as a storage device on your computer</p>
+            </div>
+        </div>
 
-If you're feeling daring, you can try [KOReader nightly builds](https://build.koreader.rocks/download/nightly/). Click on the most recent build, and download the `koreader-kindlehf` file. Take in mind that these builds might not work for everyone.
+<div class="step">
+            <h2>Install KOReader</h2>
+            <div class="stepContent">
+                <p>Unzip the downloaded file</p>
+                <p>Copy the <code>extensions</code> and <code>koreader</code> folders to the root directory of your Kindle</p>
+                <p class="highlight">When prompted, confirm to merge or replace existing files</p>
+            </div>
+        </div>
 
-Once downloaded, go to [Installation](#installation)
+<div class="step">
+            <h2>Disconnect and Launch</h2>
+            <div class="stepContent">
+                <p>Safely eject and unplug your Kindle</p>
+                <p>Open KUAL (Kindle Unified Application Launcher)</p>
+                <p>Search for the KOReader menu entry and click on it</p>
+                <div class="version-block">
+                <p class="version-label">KOReader Launch Options</p>
+                    <p>When launching KOReader, you may see three options:</p>
+                    <ul>
+                        <li><code>Start KOReader</code>: The designed way to start KOReader</li>
+                        <li><code>Start KOReader (no framework)</code>: Temporarily "kills" the Kindle UI to allocate more resources to KOReader.</li>
+                        <li><code>Start KOReader (ASAP)</code>: Skips a couple of checks and starts KOReader as soon as possible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-If you're feeling particulary adventurous, you can try downloading [Marek's KOReader downloader scriplet](https://cdn.discordapp.com/attachments/1324761128709914646/1324761128940736675/KoreaderInstall.sh?ex=6783df72&is=67828df2&hm=ba8ae764fe5d387f633333c716fc3bfbcbe3eca75ed2f15d445d8ee9237df61f&). You will need to copy this scriplet into the `documents` folder on your Kindle, run the scriplet on your Library, and it will automatically download and install it for you. Take in mind again, that this might not work for everyone.
+<div class="step">
+            <h2>Done</h2>
+            <div class="stepContent">
+                <p>KOReader is now installed on your Kindle!</p>
+                <p>We recommend reading the <a href="https://koreader.rocks/user_guide/" target="_blank">extensive but very helpful guide for KOReader</a></p>
+                <p class="note">
+                    KOReader currently does not support USBMS mode (USB transfer) and will only charge the device, if you want to transfer files you must exit KOReader to do so. 
+                </p>
+                <p class="warning">
+                    If KOReader appears in KUAL but doesn't work when clicked, delete both <code>koreader</code> folders, re-download koreader and make sure you're downloading the right package for your Kindle</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+</div>
 
-## Installation
+<style>
+.version-block {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
 
-- Plug your device into your PC.
-- Unzip the downloaded zip file and copy the `extensions` and `koreader` folders to the Kindle root directory. When prompted, confirm to merge or replace.
-    - If you downloaded Marek's nightly build, you may need to unzip the file two times. 
-- Unplug your Kindle
-- Start KUAL
-- Click on KOReader
+.version-label {
+    font-weight: bold;
+    border-bottom: 1px solid #369d36;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #369d36;
+}
 
-You may see three options to open KOR:
 
-- "`Start KOReader`" opens KOR normally.
-- "`Start KOReader (no framework)`" will *kill* the native GUI first to free up resources and restart it once you've quit.
-- "`Start KOReader (ASAP)`" skips a few checks and will load KOR as soon as possible.
+</style>
 
-Once KOReader is up and running, it is recommended to read the [extensive but very helpful guide for KOReader.](https://koreader.rocks/user_guide/)
-
-## Troubleshooting
-
-If KOReader appears in KUAL but doesn't work when you click on it, delete the two `koreader` folders: the one in the root directory of your Kindle and the one within the `extensions` folder. Then, download the latest KOReader build from [Marek's nightly build](https://fw.notmarek.com/khf/koreader/).
-
-{: .warning }
-Connecting your Kindle into your PC while KOReader is running is advised against, as it's currently broken, unsupported, and it may damage files from your Kindle. If you need to charge your device while KOReader is running, either do it with a charger, or switch your device to USBNet mode first.
+<script>new Guide("guide");</script>
 
 ## Credits
-- Written by Bucks, adapted from the [official KOReader Github installation page](https://github.com/koreader/koreader/wiki/Installation-on-Kindle-devices#err-there-are-four-kindle-packages-to-choose-from-which-do-i-pick).
+
+- Written by Bucks, re-designed to Fluent Style with ntindle and adapted from the [official KOReader Github installation page](https://github.com/koreader/koreader/wiki/Installation-on-Kindle-devices#err-there-are-four-kindle-packages-to-choose-from-which-do-i-pick)
