@@ -37,12 +37,12 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
                 <div class="version-block">
                     <p class="version-label">KOReader Packages:</p>
                     <code>kindle-legacy</code>: K2, DX, K3 (and all variants)
-                    </br>
+                    <br/>
                     <code>kindle</code>: K4, K5, PW1
-                    </br>
+                    <br/>
                     <code>kindlepw2</code>: All newer models (PW2, KV, KT2, PW3, KOA, KT3, KOA2, PW4, KT4, KOA3, PW5, KS) running firmware =< 5.16.2.1.1
-                    </br>
-                    <code>kindlehf</code>: <b>Any Kindle device</b> running firmware >=5.16.3<
+                    <br/>
+                    <code>kindlehf</code>: <b>Any Kindle device</b> running firmware >=5.16.3
                 </div>
         </div>
     </div>
@@ -86,11 +86,11 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
                 <p class="version-label">KOReader Launch Options</p>
                     <p>When launching KOReader, you may see three options:</p>
                     <code>Start KOReader</code>: The designed way to start KOReader
-                    </br>
+                    <br/>
                     <code>Start KOReader (no framework)</code>: Temporarily "kills" the Kindle UI to allocate more resources to KOReader.
-                    </br>
+                    <br/>
                     <code>Start KOReader (ASAP)</code>: Skips a couple of checks and starts KOReader as soon as possible
-                    </br>
+                    <br/>
                 </div>
             </div>
         </div>
