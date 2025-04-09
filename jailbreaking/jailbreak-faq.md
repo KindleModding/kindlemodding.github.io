@@ -85,7 +85,6 @@ Unless there's a extension/port for any of them, no.
 - `"Start KOReader"`: The designed way to start KOReader.
 - `"Start KOReader (no framework)"`: Temporarily "kills" the Kindle UI to allocate more resources to KOReader.
 - `"Start KOReader (ASAP)"`: Skips a couple of checks and starts KOReader as soon as possible.
-- 
 
 ### Do I have to launch KOReader through KUAL?
 
@@ -170,7 +169,7 @@ You can do one of the following:
 - Install KOReader
 - [Downgrade your Kindle](https://kindlemodding.org/firmware-and-flashing/downgrading/)
 - [Download some scriplets](https://scriptlets.notmarek.com/)
-- [Make and develop more extensions](https://kindlemodding.org/kindle-dev/) 
+- [Develop more extensions](https://kindlemodding.org/kindle-dev/) 
 - Browse MobileRead or the Kindle Modding Community Discord server for more scriplets and extensions.
 - Install Alpine Linux
 - [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 
