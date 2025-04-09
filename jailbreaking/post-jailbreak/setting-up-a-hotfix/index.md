@@ -46,7 +46,7 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
         <div class="step">
             <h2>Confirming Hotfix Install</h2>
             <div class="stepContent">
-                <p>If asked, select <code>Update</code></p>
+                <p>If asked, select <code>Update</code>. You can expect this to install the hotfix, as an update.</p>
                 <br/>
                 <img src="./update_dialog.png" />
             </div>
