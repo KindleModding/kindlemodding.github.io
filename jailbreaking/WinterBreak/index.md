@@ -115,6 +115,9 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 </div>
 <script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
 
+## Video Tutorial (updated April 7, 2025)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qtk7ERwlIAk?si=vchafbpFO7YorQej&amp;start=325" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Troubleshooting
 ## Kindle store encountered an unexpected error
 > Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
