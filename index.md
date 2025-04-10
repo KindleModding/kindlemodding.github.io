@@ -11,7 +11,7 @@ nav_order: 0
 This is the Kindle Modding wiki, an online resource which hopes to consolidate all Kindle Modding knowledge into a centralised resource.
 
 {: .warning}
-Anyone who installed a [Universal Hotfix](/jailbreaking/post-jailbreak/setting-up-a-hotfix) version below `v1.2.0` *MUST* install `v1.2.0` or newer due to an OTA persistence bug.
+Anyone who installed a [Universal Hotfix](/jailbreaking/post-jailbreak/setting-up-a-hotfix) version below `v1.2.0` *MUST* install `v1.2.0` or newer due to an OTA persistence bug. This version was released Jan 02, 2025.
 
 ## Jailbreaking?
 Just want to jailbreak your Kindle to get access to KOReader and other homebrew?
