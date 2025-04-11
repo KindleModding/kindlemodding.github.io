@@ -57,4 +57,4 @@ After downgrading, you will need to re-do the post-jailbreak instructions:
 
 
 ## Credits
-- Written by Bucks, adapted from [Neon](https://kindlemodding.gitbook.io/kindlemodding/miscellaneous/downgrading-your-kindle-firmware)
+- Written by Bundlerocks, adapted from [Neon](https://kindlemodding.gitbook.io/kindlemodding/miscellaneous/downgrading-your-kindle-firmware)

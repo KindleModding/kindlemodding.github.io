@@ -28,7 +28,7 @@ Make sure to identify your Kindle's firmware version before proceeding. Differen
                 <p class="highlight">Follow the appropriate instructions for your firmware version in each step below</p>
             </div>
         </div>
-        
+   
         <div class="step">
             <h2>Preparation</h2>
             <div class="stepContent">
@@ -74,7 +74,7 @@ Make sure to identify your Kindle's firmware version before proceeding. Differen
                 
                 <div class="version-block">
                     <p class="version-label">Firmware 5.11.x+:</p>
-                    <p>Copy the <code>renameotabin</code> folder from the zip to the <code>extensions</code> folder on your Kindle</p>
+                    <p>Unzip and copy the <code>renameotabin</code> folder to the <code>extensions</code> folder on your Kindle</p>
                     <p class="highlight">If the extensions folder doesn't exist, you may need to create it first</p>
                 </div>
             </div>
