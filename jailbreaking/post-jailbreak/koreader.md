@@ -40,7 +40,7 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
                     <br/>
                     <code>kindle</code>: K4, K5, PW1
                     <br/>
-                    <code>kindlepw2</code>: All newer models (PW2, KV, KT2, PW3, KOA, KT3, KOA2, PW4, KT4, KOA3, PW5, KS) running firmware =< 5.16.2.1.1
+                    <code>kindlepw2</code>: PW2 and newer models running firmware =< 5.16.2.1.1
                     <br/>
                     <code>kindlehf</code>: <b>Any Kindle device</b> running firmware >=5.16.3
                 </div>
@@ -139,4 +139,4 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
 
 ## Credits
 
-- Written by Bucks, re-designed to Fluent Style with ntindle and adapted from the [official KOReader Github installation page](https://github.com/koreader/koreader/wiki/Installation-on-Kindle-devices#err-there-are-four-kindle-packages-to-choose-from-which-do-i-pick)
+- Written by Bundlerocks, re-designed to Fluent Style with ntindle and adapted from the [official KOReader Github installation page](https://github.com/koreader/koreader/wiki/Installation-on-Kindle-devices#err-there-are-four-kindle-packages-to-choose-from-which-do-i-pick)
