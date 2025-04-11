@@ -64,6 +64,10 @@ This ultimately means that most extensions found on MobileRead/Discord servers w
 
 Yes.
 
+#### Will my books and highlights be deleted after jailbreaking?
+
+No. 
+
 ### How do I read my Amazon ebooks within KOReader?
 
 KOReader currently doesn’t (and likely never will) support the proprietary formats that Amazon converts all ebooks into (KFX, AZW3, and very limited support for MOBI). It is recommended to get all your books as EPUB and store them in a separate folder for easy access.
