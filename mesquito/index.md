@@ -26,6 +26,12 @@ Make sure you turn on Airplane mode to stop the Kindle getting an OTA update tha
 A collection of Mesquito apps are available [here](https://github.com/KindleModding/KindleModding-Apps)
 Simply download the [latest release](https://github.com/KindleModding/Mesquito/releases/latest) and copy the apps you want to the `apps` folder on your Kindle and re-load Mesquito by `clicking on the 3 dots` > `Home`
 
+## Troubleshooting
+- Ensure `.active_content_sandbox` (hidden folder) is being replaced with the one from the `zip`
+- Manually delete `.active_content_sandbox` and `mosquito` folders before extracting. (instead of "replacing" through the prompt) 
+- Check the [Mosquito](https://github.com/KindleModding/Mesquito) github repository. Follow latest instruction and try using `Code > Download ZIP`
+- Note that your version might not yet be supported. As of August 2024 the latest tested firmware was `<= 5.16.21`.
+
 ## Development
 See [Developing For Mesquito](../mesquito/development/)
 
