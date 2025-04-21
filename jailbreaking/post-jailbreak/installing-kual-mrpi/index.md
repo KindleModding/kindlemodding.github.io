@@ -28,7 +28,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
             <div class="stepContent">
                 <a href="./Update_KUALBooklet_ALLDEVICES_KS2_install.bin" class="btn btn-purple">Kual (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</a>
                 <br/>
-                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.35-g2d06358-20250103.tar.xz" class="btn btn-purple">KUAL - For legacy devices</a>
+                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz" class="btn btn-purple">KUAL - For legacy devices</a>
             </div>
         </div>
         <div class="step">
