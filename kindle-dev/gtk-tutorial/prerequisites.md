@@ -61,6 +61,9 @@ sudo apt-get install meson gtk2.0 libgtk2.0-dev
 
 ## Building The Toolchain
 
+{: .note}
+If you don't want to build the toolchain yourself or if you encounter difficulties in building it, use the [pre-built release](https://github.com/koreader/koxtoolchain/releases/latest)
+
 #### 1. Clone the toolchain
 ```sh
 git clone --recursive --depth=1 https://github.com/koreader/koxtoolchain.git
