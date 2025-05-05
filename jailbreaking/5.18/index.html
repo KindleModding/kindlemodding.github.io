@@ -1,69 +1,356 @@
-<style>
-    * {
-        font-family: 'Courier New', Courier, monospace;
-        color: white;
-    }
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5.18.1 Jailbreak Countdown</title>
+    <style>
+      :root {
+        --primary-bg: #121212;
+        --display-bg: #000000;
+        --segment-color: #ff0000;
+        --segment-off-color: #350000;
+        --text-color: #ffffff;
+        --secondary-text: #b0b0b0;
+        --accent-color: #ff3b30;
+        
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
+        color: var(--text-color);
+        background-color: var(--primary-bg);
+        font-synthesis: none;
+        text-rendering: optimizeLegistics;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
 
-    body {
+      @font-face {
+        font-family: 'Seven Segment';
+        src: url('https://cdn.jsdelivr.net/npm/seven-segment-font@1.0.2/SevenSegment.woff2') format('woff2'),
+             url('https://cdn.jsdelivr.net/npm/seven-segment-font@1.0.2/SevenSegment.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
-        background-color: #1d1d3d;
-    }
+      }
 
-    @keyframes bounce {
-        0% {
-            font-size: 11em;
+      body {
+        display: flex;
+        place-items: center;
+        min-width: 320px;
+        min-height: 100vh;
+      }
+
+      #app {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .countdown-container {
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background-color: var(--display-bg);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(255, 0, 0, 0.1);
+      }
+
+      .countdown-display {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        background: var(--display-bg);
+        padding: 2rem;
+        border-radius: 8px;
+      }
+
+      .segment-group {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        position: relative;
+      }
+
+      .digit {
+        width: 5rem;
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Seven Segment', monospace;
+        font-size: 7rem;
+        color: var(--segment-color);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        background: var(--display-bg);
+        padding: 0.5rem;
+        line-height: 1;
+        animation: pulse 2s infinite;
+      }
+
+      .separator {
+        font-family: 'Seven Segment', monospace;
+        font-size: 7rem;
+        color: var(--segment-color);
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        margin: 0 0.5rem;
+        line-height: 1;
+      }
+
+      .label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--secondary-text);
+        letter-spacing: 0.1rem;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+
+      .countdown-text {
+        font-size: 1.5rem;
+        color: var(--accent-color);
+        margin-top: 2.5rem;
+        font-weight: 500;
+        letter-spacing: 0.05rem;
+      }
+
+      .info-section {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        padding: 2rem;
+        text-align: left;
+        margin-bottom: 1em;
+      }
+
+      h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+        font-weight: 600;
+      }
+
+      .placeholder-text {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: var(--secondary-text);
+        margin-bottom: 1.5rem;
+      }
+
+      .placeholder-list {
+        list-style-position: inside;
+        margin-bottom: 1.5rem;
+      }
+
+      .placeholder-list li {
+        margin-bottom: 0.5rem;
+        color: var(--secondary-text);
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      @keyframes pulse {
+        0% { opacity: 1; }
+        50% { opacity: 0.95; }
+        100% { opacity: 1; }
+      }
+
+      @media (max-width: 768px) {
+        .countdown-display {
+          flex-wrap: wrap;
+          gap: 1rem;
         }
-
-        50% {
-            font-size: 10em;
+        
+        .digit {
+          width: 3.5rem;
+          height: 5.5rem;
+          font-size: 5rem;
         }
-
-        100% {
-            font-size: 11em;
+        
+        .separator {
+          font-size: 5rem;
         }
-    }
+        
+        .countdown-text {
+          font-size: 1.2rem;
+        }
+        
+        h3 {
+          font-size: 1.5rem;
+        }
+      }
 
-    #bouncer {
-        font-size: 10em;
-        color: #F00;
-        text-shadow: 0px 0px .15em red;
-        animation: 5s linear infinite running bounce;
-    }
-</style>
+      @media (max-width: 480px) {
+        .container {
+          padding: 1rem;
+        }
+        
+        .countdown-container {
+          padding: 1rem;
+        }
+        
+        .digit {
+          width: 2.5rem;
+          height: 4rem;
+          font-size: 3.5rem;
+        }
+        
+        .separator {
+          font-size: 3.5rem;
+        }
+        
+        .countdown-text {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="countdown-container">
+          <div id="countdown-display" class="countdown-display">
+            <div class="segment-group days">
+              <div class="digit" id="days-tens">9</div>
+              <div class="digit" id="days-ones">9</div>
+              <div class="label">DAYS</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="segment-group hours">
+              <div class="digit" id="hours-tens">9</div>
+              <div class="digit" id="hours-ones">9</div>
+              <div class="label">HOURS</div>
+            </div>
+            <div class="separator">:</div>
+            <div class="segment-group minutes">
+              <div class="digit" id="minutes-tens">0</div>
+              <div class="digit" id="minutes-ones">0</div>
+              <div class="label">MINUTES</div>
+            </div>
+          </div>
+          <h2 id="countdown-text" class="countdown-text">5.18.1 jailbreak is coming in 99 days, 99 hours, 00 minutes</h2>
+        </div>
+        
+        <div class="info-section">
+          <h3>What to Expect</h3>
+          <p class="placeholder-text">
+            - Brick your kindle for FREE!<br>
+            - Hackerdude extending deadline by 518 quadrillion googolplexes<br>
+            - Penguins184 porting twerk run 3d and bundling it with GorkBreak<br>
+          </p>
+          
+          <h3>Features</h3>
+          <ul class="placeholder-list">
+            <li>Untethered jailbreak. It will follow you around wherever you go. RUN AWAY NOW</li>
+            <li>Support for all devices including the latest models if they're running 5.18.7 ONLY</li>
+            <li>Simple 34-click process (one more than languagebreak)</li>
+            <li>download 64gb ram</li>
+            <li>ultimate doom gaming machine</li>
+          </ul>
+          
+          <h3>Requirements</h3>
+          <p class="placeholder-text">
+            - you have a kindle on a nonexistent firmware version
+          </p>
 
-<div style="display: flex; flex-direction: column; width: 100%; min-height: 100%; justify-content: center; align-items: center;">
-<h1>Is 5.18+ Jailbreak Yet?</h1>
-<h1 id="bouncer">NO.</h1>
+          <h3>Advice</h3>
+          <p class="placeholder-text">
+            STAY ON AIRPLANE MODE
+          </p>
+        </div>
 
-<h2>Latest Updates</h2>
-<ul>
-    <li>Next JB will require an internet connection</li>
-    <li>Next JB will only work on 5.18+ Kindles</li>
-    <li>Soon(tm)</li>
-</ul>
+        <div class="info-section">
+            <p>You fell in love with Kindle Jailbreaks? You must be lonely.</p>
+            <img style="max-widh: 100%;" src="./lapwing.jpeg" />
+            <p>Image source: <a href="https://x.com/httwsn/status/1919068681318945194">httwsn on X</a></p>
+        </div>
+      </div>
+    </div>
 
-<br/>
-<br/>
-<br/>
-<br/>
+    <script>
+      class CountdownTimer {
+        constructor() {
+          this.digitElements = {
+            daysTens: document.getElementById('days-tens'),
+            daysOnes: document.getElementById('days-ones'),
+            hoursTens: document.getElementById('hours-tens'),
+            hoursOnes: document.getElementById('hours-ones'),
+            minutesTens: document.getElementById('minutes-tens'),
+            minutesOnes: document.getElementById('minutes-ones')
+          };
+          
+          this.countdownTextElement = document.getElementById('countdown-text');
+          
+          this.days = 99;
+          this.hours = 99;
+          this.minutes = 0;
+          
+          this.updateDisplay();
+          setInterval(() => this.updateCountdown(), 60000);
+        }
+        
+        updateCountdown() {
+          if (this.minutes > 0) {
+            this.minutes--;
+          } else {
+            this.minutes = 59;
+            if (this.hours > 0) {
+              this.hours--;
+            } else {
+              this.hours = 23;
+              if (this.days > 0) {
+                this.days--;
+              }
+            }
+          }
+          
+          this.updateDisplay();
+        }
+        
+        updateDisplay() {
+          const daysTens = Math.floor(this.days / 10);
+          const daysOnes = this.days % 10;
+          const hoursTens = Math.floor(this.hours / 10);
+          const hoursOnes = this.hours % 10;
+          const minutesTens = Math.floor(this.minutes / 10);
+          const minutesOnes = this.minutes % 10;
+          
+          this.digitElements.daysTens.textContent = daysTens;
+          this.digitElements.daysOnes.textContent = daysOnes;
+          this.digitElements.hoursTens.textContent = hoursTens;
+          this.digitElements.hoursOnes.textContent = hoursOnes;
+          this.digitElements.minutesTens.textContent = minutesTens;
+          this.digitElements.minutesOnes.textContent = minutesOnes;
+          
+          const minutesStr = this.minutes < 10 ? `0${this.minutes}` : `${this.minutes}`;
+          this.countdownTextElement.textContent = 
+            `5.18.1 jailbreak is coming in ${this.days} days, ${this.hours} hours, ${minutesStr} minutes`;
+        }
+      }
 
-<h2>Hackerdude Notices</h2>
-<ul>
-    <li>Keep your Kindle on airplane mode or Amazon will patch it</li>
-</ul>
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-<p>You fell in love with Kindle Jailbreaks? You must be lonely.</p>
-<img style="width: 90%;" src="lapwing.jpeg" />
-<p>Image source: <a href="https://x.com/httwsn/status/1919068681318945194">httwsn on X</a></p>
-</div>
-
-<br/>
-<br/>
-
-<div class="tenor-gif-embed" data-postid="15650818" data-share-method="host" data-aspect-ratio="1.03896" data-width="100%"><a href="https://tenor.com/view/gabe-newell-time-crowbar-half-life-gif-15650818">Gabe Newell Time GIF</a>from <a href="https://tenor.com/search/gabe+newell-gifs">Gabe Newell GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const countdownTimer = new CountdownTimer();
+        
+        const digits = document.querySelectorAll('.digit');
+        digits.forEach(digit => {
+          const randomDelay = Math.random() * 2;
+          digit.style.animationDelay = `${randomDelay}s`;
+        });
+      });
+    </script>
+  </body>
+</html>
