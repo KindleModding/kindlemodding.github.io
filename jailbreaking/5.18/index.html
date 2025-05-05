@@ -50,6 +50,8 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        position: relative;
+        overflow: hidden;
       }
 
       .container {
@@ -64,6 +66,7 @@
         background-color: var(--display-bg);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(255, 0, 0, 0.1);
+        position: relative;
       }
 
       .countdown-display {
@@ -163,6 +166,37 @@
         line-height: 1.5;
       }
 
+      /* DVD Logo styles */
+      .dvd-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 50px;
+        background: linear-gradient(45deg, #ff0000, #ff3b30);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: 24px;
+        user-select: none;
+        z-index: 1000;
+      }
+
+      /* Draggable Video styles */
+      .draggable-video {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 300px;
+        cursor: move;
+        z-index: 1001;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
       @keyframes pulse {
         0% { opacity: 1; }
         50% { opacity: 0.95; }
@@ -192,6 +226,10 @@
         h3 {
           font-size: 1.5rem;
         }
+
+        .draggable-video {
+          width: 200px;
+        }
       }
 
       @media (max-width: 480px) {
@@ -216,11 +254,22 @@
         .countdown-text {
           font-size: 1rem;
         }
+
+        .draggable-video {
+          width: 150px;
+        }
+      }
+
+      img {
+        width: 100px;
+        height: 50px;
       }
     </style>
   </head>
   <body>
     <div id="app">
+      <div class="dvd-logo"><img src="https://www.cdnlogo.com/logos/d/22/dvd-video.svg" ></div>
+      <video class="draggable-video" src="https://www.dropbox.com/scl/fi/ipe189r9r6shznkliycg8/Subway-Surfers-Gameplay-1-HD-1080p60FPS.mp4?rlkey=klze7ech4hjy03hfea2tjdw3r&st=ui3r37rx&dl=1" autoplay loop muted></video>
       <div class="container">
         <div class="countdown-container">
           <div id="countdown-display" class="countdown-display">
@@ -342,8 +391,111 @@
         }
       }
 
+      class DVDLogo {
+        constructor() {
+          this.logo = document.querySelector('.dvd-logo');
+          this.container = document.querySelector('#app');
+          this.x = 0;
+          this.y = 0;
+          this.xSpeed = 2;
+          this.ySpeed = 2;
+          this.colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+          this.currentColorIndex = 0;
+          
+          this.animate();
+        }
+        
+        animate() {
+          const containerRect = this.container.getBoundingClientRect();
+          const logoRect = this.logo.getBoundingClientRect();
+          
+          this.x += this.xSpeed;
+          this.y += this.ySpeed;
+          
+          if (this.x + logoRect.width > containerRect.width || this.x < 0) {
+            this.xSpeed = -this.xSpeed;
+            this.changeColor();
+          }
+          
+          if (this.y + logoRect.height > containerRect.height || this.y < 0) {
+            this.ySpeed = -this.ySpeed;
+            this.changeColor();
+          }
+          
+          this.logo.style.transform = `translate(${this.x}px, ${this.y}px)`;
+          requestAnimationFrame(() => this.animate());
+        }
+        
+        changeColor() {
+          this.currentColorIndex = (this.currentColorIndex + 1) % this.colors.length;
+          this.logo.style.background = `linear-gradient(45deg, ${this.colors[this.currentColorIndex]}, ${this.colors[(this.currentColorIndex + 1) % this.colors.length]})`;
+        }
+      }
+
+      class DraggableVideo {
+        constructor() {
+          this.video = document.querySelector('.draggable-video');
+          this.isDragging = false;
+          this.currentX = 0;
+          this.currentY = 0;
+          this.initialX = 0;
+          this.initialY = 0;
+          this.xOffset = 0;
+          this.yOffset = 0;
+
+          this.video.addEventListener('mousedown', e => this.dragStart(e));
+          document.addEventListener('mousemove', e => this.drag(e));
+          document.addEventListener('mouseup', () => this.dragEnd());
+
+          // Touch events
+          this.video.addEventListener('touchstart', e => this.dragStart(e));
+          document.addEventListener('touchmove', e => this.drag(e));
+          document.addEventListener('touchend', () => this.dragEnd());
+        }
+
+        dragStart(e) {
+          if (e.type === 'touchstart') {
+            this.initialX = e.touches[0].clientX - this.xOffset;
+            this.initialY = e.touches[0].clientY - this.yOffset;
+          } else {
+            this.initialX = e.clientX - this.xOffset;
+            this.initialY = e.clientY - this.yOffset;
+          }
+
+          if (e.target === this.video) {
+            this.isDragging = true;
+          }
+        }
+
+        drag(e) {
+          if (this.isDragging) {
+            e.preventDefault();
+
+            if (e.type === 'touchmove') {
+              this.currentX = e.touches[0].clientX - this.initialX;
+              this.currentY = e.touches[0].clientY - this.initialY;
+            } else {
+              this.currentX = e.clientX - this.initialX;
+              this.currentY = e.clientY - this.initialY;
+            }
+
+            this.xOffset = this.currentX;
+            this.yOffset = this.currentY;
+
+            this.video.style.transform = 
+              `translate(${this.currentX}px, ${this.currentY}px)`;
+          }
+        }
+
+        dragEnd() {
+          this.isDragging = false;
+        }
+      }
+
       document.addEventListener('DOMContentLoaded', () => {
         const countdownTimer = new CountdownTimer();
+        const dvdLogo = new DVDLogo();
+        const draggableVideo = new DraggableVideo();
         
         const digits = document.querySelectorAll('.digit');
         digits.forEach(digit => {
