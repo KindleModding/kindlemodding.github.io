@@ -44,6 +44,7 @@
         place-items: center;
         min-width: 320px;
         min-height: 100vh;
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2"><path d="M2 12h20M12 2v20"/></svg>') 12 12, auto;
       }
 
       #app {
@@ -197,10 +198,255 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       }
 
+      /* Pop-up ads style */
+      .popup-ad {
+        position: fixed;
+        background: linear-gradient(135deg, #ff00dd, #00ddff);
+        border: 3px solid #ff00ff;
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 9999;
+        color: white;
+        font-weight: bold;
+        box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+        text-align: center;
+        max-width: 300px;
+        animation: shake 0.5s infinite;
+        cursor: pointer;
+        display: none;
+      }
+
+      .close-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      /* Marquee text */
+      .marquee-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 0;
+        overflow: hidden;
+        z-index: 1000;
+      }
+
+      .marquee-text {
+        white-space: nowrap;
+        animation: marquee 20s linear infinite;
+        display: inline-block;
+        padding-left: 100%;
+      }
+
+      /* Comic cursor */
+      .comic-cursor {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url('https://i.imgur.com/JXetxQh.png');
+        background-size: contain;
+        pointer-events: none;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+        display: none;
+      }
+
+      /* Matrix rain effect */
+      #matrix-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.2;
+      }
+
+      /* Random buttons */
+      .random-button {
+        position: fixed;
+        background: linear-gradient(45deg, #ff3b30, #ff0000);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 998;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        transform: rotate(var(--rotation, 0deg));
+      }
+
+      /* Random cat image */
+      .random-cat {
+        position: fixed;
+        z-index: 997;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+        max-width: 150px;
+        max-height: 150px;
+        opacity: 0.9;
+        transition: transform 0.3s ease;
+        transform-origin: center;
+        animation: cat-dance 3s infinite;
+      }
+
+      .random-cat:hover {
+        transform: scale(1.2) rotate(10deg);
+        z-index: 1002;
+      }
+
+      /* Flying Kindles */
+      .flying-kindle {
+        position: fixed;
+        z-index: 996;
+        width: 100px;
+        filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.7));
+        animation: kindle-fly 15s linear infinite;
+      }
+
+      /* Geocities-style decorations */
+      .geocities-decoration {
+        position: fixed;
+        z-index: 995;
+        max-width: 80px;
+        max-height: 80px;
+        pointer-events: none;
+      }
+
+      /* Fake progress bar */
+      .fake-progress-container {
+        position: fixed;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 500px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.7);
+        border: 2px solid #ff3b30;
+        border-radius: 15px;
+        z-index: 1000;
+        display: none;
+        overflow: hidden;
+      }
+
+      .fake-progress-bar {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(45deg, #ff3b30, #ff0000);
+        transition: width 0.5s ease;
+      }
+
+      .fake-progress-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      /* Comic style explosions */
+      .explosion {
+        position: fixed;
+        z-index: 1002;
+        width: 150px;
+        height: 150px;
+        pointer-events: none;
+        background-image: url('https://i.imgur.com/XTLdGJV.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%);
+        animation: explode 1s forwards;
+        display: none;
+      }
+
+      /* Word Scrambler */
+      .scrambled-text {
+        color: #ff3b30;
+        display: inline;
+        font-weight: bold;
+      }
+
       @keyframes pulse {
         0% { opacity: 1; }
         50% { opacity: 0.95; }
         100% { opacity: 1; }
+      }
+
+      @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-100%); }
+      }
+
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes cat-dance {
+        0% { transform: translateY(0) rotate(0deg); }
+        25% { transform: translateY(-5px) rotate(5deg); }
+        50% { transform: translateY(0) rotate(0deg); }
+        75% { transform: translateY(-5px) rotate(-5deg); }
+        100% { transform: translateY(0) rotate(0deg); }
+      }
+
+      @keyframes kindle-fly {
+        0% { left: -100px; top: 10%; transform: rotate(10deg); }
+        25% { left: 25%; top: 20%; transform: rotate(-5deg); }
+        50% { left: 50%; top: 40%; transform: rotate(15deg); }
+        75% { left: 75%; top: 20%; transform: rotate(-10deg); }
+        100% { left: 120%; top: 30%; transform: rotate(5deg); }
+      }
+
+      @keyframes explode {
+        0% { transform: translate(-50%, -50%) scale(0.1); opacity: 1; }
+        80% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+        100% { transform: translate(-50%, -50%) scale(1.5); opacity: 0; }
+      }
+
+      @keyframes rainbow-text {
+        0% { color: red; }
+        14% { color: orange; }
+        28% { color: yellow; }
+        42% { color: green; }
+        57% { color: blue; }
+        71% { color: indigo; }
+        85% { color: violet; }
+        100% { color: red; }
+      }
+
+      @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
       }
 
       @media (max-width: 768px) {
@@ -264,11 +510,113 @@
         width: 100px;
         height: 50px;
       }
+
+      /* Spinning progress indicator */
+      .spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        border: 10px solid rgba(255, 0, 0, 0.3);
+        border-radius: 50%;
+        border-top: 10px solid #ff0000;
+        animation: spin 2s linear infinite;
+        z-index: 9999;
+        display: none;
+      }
+
+      /* Comic balloon speech */
+      .comic-speech {
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 200px;
+        color: black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+        display: none;
+      }
+
+      .comic-speech:after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        border: 10px solid transparent;
+        border-top-color: white;
+        transform: translateX(-50%);
+      }
+
+      /* Animated 90s visitor counter */
+      .visitor-counter {
+        background: linear-gradient(45deg, #000000, #333333);
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 20px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .visitor-counter::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        background: linear-gradient(45deg, #ff0000, transparent, #ff0000, transparent);
+        background-size: 400% 400%;
+        animation: gradient 3s ease infinite;
+        z-index: -1;
+        filter: blur(10px);
+      }
+
+      .hit-counter {
+        font-family: 'Seven Segment', monospace;
+        font-size: 24px;
+        color: #ff0000;
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+      }
+
+      /* Blinking text */
+      .blink {
+        animation: blink 1s step-end infinite;
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+
+      /* Rainbow text */
+      .rainbow-text {
+        animation: rainbow-text 5s linear infinite;
+      }
     </style>
   </head>
   <body>
+    <canvas id="matrix-canvas"></canvas>
+    <div class="spinner" id="loading-spinner"></div>
+    <div class="comic-cursor" id="comic-cursor"></div>
+    <div class="popup-ad" id="popup-ad">
+      <button class="close-button" onclick="closePopup(this.parentNode)">&times;</button>
+      <h3>CONGRATULATIONS!</h3>
+      <p>You are the 1,000,000th visitor! Click here to claim your FREE Kindle Jailbreak!</p>
+    </div>
+    <div class="comic-speech" id="comic-speech"></div>
+    <div class="explosion" id="explosion"></div>
+    <div class="fake-progress-container" id="fake-progress-container">
+      <div class="fake-progress-bar" id="fake-progress-bar"></div>
+      <div class="fake-progress-text" id="fake-progress-text">Downloading jailbreak... 0%</div>
+    </div>
+
     <div id="app">
-      <div class="dvd-logo"><img src="https://www.cdnlogo.com/logos/d/22/dvd-video.svg" ></div>
+      <div class="dvd-logo"><img src="https://www.cdnlogo.com/logos/d/22/dvd-video.svg"></div>
       <video class="draggable-video" src="https://www.dropbox.com/scl/fi/ipe189r9r6shznkliycg8/Subway-Surfers-Gameplay-1-HD-1080p60FPS.mp4?rlkey=klze7ech4hjy03hfea2tjdw3r&st=ui3r37rx&dl=1" autoplay loop muted></video>
       <div class="container">
         <div class="countdown-container">
@@ -292,14 +640,22 @@
             </div>
           </div>
           <h2 id="countdown-text" class="countdown-text">5.18.1 jailbreak is coming in 99 days, 99 hours, 00 minutes</h2>
+          <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
+            <button id="confetti-button" style="background: #ff3b30; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">CELEBRATE NOW!</button>
+            <button id="cat-button" style="background: #ff3b30; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">SUMMON CAT</button>
+            <button id="fake-download-button" style="background: #ff3b30; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">DOWNLOAD NOW</button>
+          </div>
         </div>
         
         <div class="info-section">
-          <h3>What to Expect</h3>
+          <h3>What to Expect <span class="blink" style="color: #ff0000;">NEW!!!</span></h3>
           <p class="placeholder-text">
             - Brick your kindle for FREE!<br>
             - Hackerdude extending deadline by 518 quadrillion googolplexes<br>
             - Penguins184 porting twerk run 3d and bundling it with GorkBreak<br>
+            - Your kindle will finally make phone calls (to scammers only)<br>
+            - Special firmware that makes your screen smell like <span class="scrambled-text">burnt toast</span><br>
+            - <span class="rainbow-text">SUPER SECRET HACK</span>: Shake your Kindle vigorously for 10 minutes to unlock developer mode
           </p>
           
           <h3>Features</h3>
@@ -309,27 +665,67 @@
             <li>Simple 34-click process (one more than languagebreak)</li>
             <li>download 64gb ram</li>
             <li>ultimate doom gaming machine</li>
+            <li>Makes your Kindle smell like fresh bread when it overheats</li>
+            <li>Turns your Kindle into a TV remote (works only on brands that don't exist)</li>
+            <li>Secret mode that turns text into hieroglyphics</li>
+            <li>Uses <span class="scrambled-text">AI-powered blockchain cloud computing</span> to hack the mainframe</li>
+            <li>Comes with free digital pet that eats your battery and poops in your collections</li>
           </ul>
           
           <h3>Requirements</h3>
           <p class="placeholder-text">
-            - you have a kindle on a nonexistent firmware version
+            - you have a kindle on a nonexistent firmware version<br>
+            - your kindle must have been purchased on a Tuesday during a solar eclipse<br>
+            - you must perform the jailbreak while standing on one foot<br>
+            - you need to have exactly 33.7% battery remaining<br>
+            - your kindle must have been blessed by a tech priest<br>
+            - must have sacrificed at least 3 USB cables to the Kindle gods<br>
+            - your Kindle serial number must contain the digits 5, 1, and 8 in that order<br>
+            - you must recite the entire Amazon Terms of Service backwards while jailbreaking
           </p>
 
           <h3>Advice</h3>
           <p class="placeholder-text">
-            STAY ON AIRPLANE MODE
+            STAY ON AIRPLANE MODE<br>
+            DO NOT BLINK WHILE JAILBREAKING<br>
+            SACRIFICE A USB CABLE TO THE KINDLE GODS<br>
+            IF YOUR KINDLE STARTS SPEAKING IN TONGUES, THAT'S NORMAL<br>
+            APPLY THERMAL PASTE TO YOUR FOREHEAD BEFORE ATTEMPTING<br>
+            MAKE SURE YOUR KINDLE IS NOT LISTENING - THEY ARE ALWAYS LISTENING<br>
+            IF JEFF BEZOS APPEARS IN YOUR MIRROR AT MIDNIGHT, DO NOT MAKE EYE CONTACT
           </p>
         </div>
 
         <div class="info-section">
+            <h3>TESTIMONIALS</h3>
+            <p style="font-style: italic; margin-bottom: 10px;">"I tried this jailbreak and now my Kindle is running Windows 95" - KindleFan518</p>
+            <p style="font-style: italic; margin-bottom: 10px;">"My Kindle gained sentience and filed for divorce" - JailbreakVictim</p>
+            <p style="font-style: italic; margin-bottom: 10px;">"10/10 would brick again" - AmazonEmployee</p>
+            <p style="font-style: italic; margin-bottom: 20px;">"Help I'm trapped in a Kindle factory" - NotJeffBezos</p>
+
             <p>You fell in love with Kindle Jailbreaks? You must be lonely.</p>
-            <img style="max-width: 100%;" src="./lapwing.jpeg" />
+            <img style="max-width: 100%; height: auto;" src="./lapwing.jpeg" />
             <p>Image source: <a href="https://x.com/httwsn/status/1919068681318945194">httwsn on X</a></p>
+            
+            <div class="visitor-counter">
+                <span>Visitors anxiously waiting for jailbreak: </span>
+                <span id="count" class="hit-counter">1337</span>
+            </div>
+        </div>
+        
+        <div class="info-section" id="cat-collection">
+            <h3>Official Jailbreak Support Cats</h3>
+            <p class="placeholder-text">These elite felines are critical to the jailbreak development process. They contribute by walking across keyboards and spilling coffee on development Kindles.</p>
+            <div id="cat-gallery" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px;"></div>
         </div>
       </div>
     </div>
 
+    <div class="marquee-container">
+      <div class="marquee-text">BREAKING NEWS: Kindle jailbreak delayed by another 518 days because someone asked "when jailbreak" in the Discord again • Amazon CEO announces new anti-jailbreak technology: "just don't buy kindles" • Local developer discovers way to run Crysis on Kindle by using a magnifying glass to set it on fire • Kindle users report strange phenomenon where their devices whisper "help me" at 3:18 AM • Cat appointed as new lead jailbreak developer, progress consists of knocking things off tables • Amazon employees found moonlighting as jailbreak developers • Special firmware update now requires blood sacrifice to update • </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       class CountdownTimer {
         constructor() {
@@ -492,17 +888,688 @@
         }
       }
 
+      class MatrixRain {
+        constructor() {
+          this.canvas = document.getElementById('matrix-canvas');
+          this.ctx = this.canvas.getContext('2d');
+          this.canvas.width = window.innerWidth;
+          this.canvas.height = window.innerHeight;
+          
+          this.characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789キルブークジェイルブレイク';
+          this.fontSize = 14;
+          this.columns = Math.floor(this.canvas.width / this.fontSize);
+          this.drops = [];
+          
+          for (let i = 0; i < this.columns; i++) {
+            this.drops[i] = 1;
+          }
+          
+          this.draw();
+          
+          window.addEventListener('resize', () => {
+            this.canvas.width = window.innerWidth;
+            this.canvas.height = window.innerHeight;
+            this.columns = Math.floor(this.canvas.width / this.fontSize);
+            
+            // Reset drops
+            this.drops = [];
+            for (let i = 0; i < this.columns; i++) {
+              this.drops[i] = 1;
+            }
+          });
+        }
+        
+        draw() {
+          this.ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+          this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+          
+          this.ctx.fillStyle = '#0f0';
+          this.ctx.font = `${this.fontSize}px monospace`;
+          
+          for (let i = 0; i < this.drops.length; i++) {
+            const text = this.characters.charAt(Math.floor(Math.random() * this.characters.length));
+            this.ctx.fillText(text, i * this.fontSize, this.drops[i] * this.fontSize);
+            
+            if (this.drops[i] * this.fontSize > this.canvas.height && Math.random() > 0.975) {
+              this.drops[i] = 0;
+            }
+            
+            this.drops[i]++;
+          }
+          
+          requestAnimationFrame(() => this.draw());
+        }
+      }
+
+      class PopupAds {
+        constructor() {
+          this.popupElements = [];
+          this.adTexts = [
+            "CONGRATULATIONS! You are the 1,000,000th visitor! Click to claim your FREE Kindle!",
+            "WARNING: Your Kindle's warranty is about to expire! Click here to extend it for FREE!",
+            "HOT SINGLES IN YOUR AREA want to jailbreak your Kindle!",
+            "URGENT: We've detected suspicious activity on your Kindle. Click to scan now!",
+            "BREAKING: New method discovered to jailbreak ANY Kindle in just 5 seconds!",
+            "AMAZON HATES THIS ONE TRICK: Jailbreak your Kindle with a paperclip!",
+            "YOUR KINDLE MIGHT BE INFECTED with 538 viruses! Scan now!",
+            "SUPER SECRET KINDLE HACK unlocks secret Amazon employee menu!"
+          ];
+          
+          // Create popup every 20-40 seconds
+          setInterval(() => this.createPopup(), Math.random() * 15000 + 15000);
+          
+          // Show first popup after 10 seconds
+          setTimeout(() => this.createPopup(), 10000);
+        }
+        
+        createPopup() {
+          const popup = document.createElement('div');
+          popup.className = 'popup-ad';
+          
+          const closeButton = document.createElement('button');
+          closeButton.className = 'close-button';
+          closeButton.innerHTML = '&times;';
+          closeButton.onclick = () => this.closePopup(popup);
+          
+          const adText = this.adTexts[Math.floor(Math.random() * this.adTexts.length)];
+          popup.innerHTML = `<h3>${adText.split(':')[0]}</h3><p>${adText.split(':')[1] || adText}</p>`;
+          popup.prepend(closeButton);
+          
+          // Random position
+          popup.style.top = `${Math.random() * 70}%`;
+          popup.style.left = `${Math.random() * 70}%`;
+          
+          document.body.appendChild(popup);
+          this.popupElements.push(popup);
+          
+          // Show with a slight delay
+          setTimeout(() => {
+            popup.style.display = 'block';
+          }, 500);
+          
+          // Add random cat image to some popups
+          if (Math.random() > 0.5) {
+            const catImg = document.createElement('img');
+            const catId = Math.floor(Math.random() * 16) + 1;
+            catImg.src = `https://cataas.com/cat/gif?${catId}`;
+            catImg.style.width = '100px';
+            catImg.style.height = 'auto';
+            catImg.style.marginTop = '10px';
+            catImg.style.borderRadius = '5px';
+            popup.appendChild(catImg);
+          }
+          
+          // Auto close after some time
+          setTimeout(() => {
+            if (document.body.contains(popup)) {
+              this.closePopup(popup);
+            }
+          }, 30000);
+        }
+        
+        closePopup(popup) {
+          popup.style.display = 'none';
+          setTimeout(() => {
+            if (document.body.contains(popup)) {
+              document.body.removeChild(popup);
+            }
+            this.popupElements = this.popupElements.filter(p => p !== popup);
+          }, 500);
+        }
+      }
+
+      class RandomButtons {
+        constructor() {
+          this.buttonTexts = ['CLICK ME!', 'FREE JAILBREAK', 'DOWNLOAD NOW', 'WIN!!!', 'SECRET', 'HACK', 'MEOW', 'BOOP'];
+          
+          for (let i = 0; i < 5; i++) {
+            this.createRandomButton();
+          }
+        }
+        
+        createRandomButton() {
+          const button = document.createElement('button');
+          button.className = 'random-button';
+          button.textContent = this.buttonTexts[Math.floor(Math.random() * this.buttonTexts.length)];
+          
+          // Random position
+          button.style.top = `${Math.random() * 100}%`;
+          button.style.left = `${Math.random() * 100}%`;
+          button.style.setProperty('--rotation', `${Math.random() * 360}deg`);
+          
+          button.addEventListener('click', () => {
+            this.buttonClicked(button);
+          });
+          
+          document.body.appendChild(button);
+          
+          // Move the button randomly every few seconds
+          setInterval(() => {
+            button.style.top = `${Math.random() * 100}%`;
+            button.style.left = `${Math.random() * 100}%`;
+            button.style.setProperty('--rotation', `${Math.random() * 360}deg`);
+          }, Math.random() * 5000 + 5000);
+        }
+        
+        buttonClicked(button) {
+          // Show loading spinner
+          const spinner = document.getElementById('loading-spinner');
+          spinner.style.display = 'block';
+          
+          // Hide button
+          button.style.display = 'none';
+          
+          // Show fake progress messages
+          const messages = [
+            "Connecting to jailbreak servers...",
+            "Downloading jailbreak files...",
+            "Bypassing Amazon security...",
+            "Extracting payloads...",
+            "Installing jailbreak...",
+            "ERROR: Connection lost!",
+            "Retrying connection...",
+            "Connection failed!",
+            "Sacrificing USB cable...",
+            "Summoning tech priest...",
+            "Performing ritual..."
+          ];
+          
+          const speech = document.getElementById('comic-speech');
+          speech.style.display = 'block';
+          speech.style.top = `${parseInt(button.style.top) - 100}px`;
+          speech.style.left = `${parseInt(button.style.left)}px`;
+          
+          let messageIndex = 0;
+          const messageInterval = setInterval(() => {
+            if (messageIndex < messages.length) {
+              speech.textContent = messages[messageIndex];
+              messageIndex++;
+            } else {
+              clearInterval(messageInterval);
+              spinner.style.display = 'none';
+              speech.style.display = 'none';
+              button.style.display = 'block';
+              
+              // Show explosion
+              const explosion = document.getElementById('explosion');
+              explosion.style.left = `${parseInt(button.style.left)}px`;
+              explosion.style.top = `${parseInt(button.style.top)}px`;
+              explosion.style.display = 'block';
+              
+              // Trigger confetti on completion
+              confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+              });
+              
+              // Hide explosion after animation
+              setTimeout(() => {
+                explosion.style.display = 'none';
+              }, 1000);
+              
+              // Maybe summon a cat
+              if (Math.random() > 0.5) {
+                createRandomCat();
+              }
+            }
+          }, 1000);
+        }
+      }
+
+      class VisitorCounter {
+        constructor() {
+          this.counterElement = document.getElementById('count');
+          this.count = 1337;
+          
+          setInterval(() => this.updateCounter(), 2000);
+        }
+        
+        updateCounter() {
+          // Random increase between 1-10
+          const increase = Math.floor(Math.random() * 10) + 1;
+          this.count += increase;
+          this.counterElement.textContent = this.count.toLocaleString();
+          
+          // Flash effect
+          this.counterElement.style.color = '#ff9900';
+          setTimeout(() => {
+            this.counterElement.style.color = '#ff0000';
+          }, 500);
+        }
+      }
+
+      class ComicCursor {
+        constructor() {
+          this.cursor = document.getElementById('comic-cursor');
+          this.isVisible = false;
+          this.cursorImages = [
+            'https://i.imgur.com/JXetxQh.png',
+            'https://i.imgur.com/8wEOyeZ.png',
+            'https://i.imgur.com/HQPLcW4.png',
+            'https://i.imgur.com/f7bP7RZ.png',
+            'https://i.imgur.com/3aJKA0W.png'
+          ];
+          this.currentImageIndex = 0;
+          
+          document.addEventListener('mousemove', e => {
+            this.cursor.style.left = `${e.clientX}px`;
+            this.cursor.style.top = `${e.clientY}px`;
+            
+            if (!this.isVisible) {
+              this.isVisible = true;
+              this.cursor.style.display = 'block';
+            }
+          });
+          
+          // Change cursor image every 3 seconds
+          setInterval(() => {
+            this.currentImageIndex = (this.currentImageIndex + 1) % this.cursorImages.length;
+            this.cursor.style.backgroundImage = `url('${this.cursorImages[this.currentImageIndex]}')`;
+          }, 3000);
+          
+          // Hide after 5 seconds of inactivity
+          document.addEventListener('mousestop', () => {
+            setTimeout(() => {
+              this.isVisible = false;
+              this.cursor.style.display = 'none';
+            }, 5000);
+          });
+        }
+      }
+      
+      class WordScrambler {
+        constructor() {
+          this.scrambledElements = document.querySelectorAll('.scrambled-text');
+          this.originalTexts = [];
+          
+          this.scrambledElements.forEach((el, index) => {
+            this.originalTexts[index] = el.textContent;
+          });
+          
+          setInterval(() => this.scrambleWords(), 2000);
+        }
+        
+        scrambleWords() {
+          this.scrambledElements.forEach((el, index) => {
+            const original = this.originalTexts[index];
+            let scrambled = '';
+            
+            for (let i = 0; i < original.length; i++) {
+              if (Math.random() > 0.7) {
+                // Replace with random char
+                const charCode = Math.floor(Math.random() * 26) + 97;
+                scrambled += String.fromCharCode(charCode);
+              } else {
+                scrambled += original[i];
+              }
+            }
+            
+            el.textContent = scrambled;
+            
+            // Reset after a while
+            setTimeout(() => {
+              el.textContent = this.originalTexts[index];
+            }, 1000);
+          });
+        }
+      }
+      
+      class CatManager {
+        constructor() {
+          this.cats = [];
+          this.catGallery = document.getElementById('cat-gallery');
+          
+          // Initial cats for the gallery
+          this.loadInitialCats();
+          
+          // Summon button
+          document.getElementById('cat-button').addEventListener('click', () => {
+            this.createRandomCat();
+            confetti({
+              particleCount: 50,
+              spread: 70,
+              origin: { y: 0.6 },
+              colors: ['#ff0000', '#ff7700', '#ffff00']
+            });
+          });
+        }
+        
+        loadInitialCats() {
+          for (let i = 0; i < 6; i++) {
+            const catId = Math.floor(Math.random() * 100);
+            const catImg = document.createElement('img');
+            catImg.src = `https://cataas.com/cat?${catId}`;
+            catImg.style.width = '150px';
+            catImg.style.height = '150px';
+            catImg.style.objectFit = 'cover';
+            catImg.style.borderRadius = '10px';
+            catImg.style.border = '2px solid #ff3b30';
+            catImg.title = "Jailbreak Support Cat #" + (i + 1);
+            
+            this.catGallery.appendChild(catImg);
+          }
+        }
+        
+        createRandomCat() {
+          const catId = Math.floor(Math.random() * 1000);
+          const catImg = document.createElement('img');
+          catImg.className = 'random-cat';
+          catImg.src = `https://cataas.com/cat?${catId}`;
+          
+          // Random position
+          catImg.style.top = `${Math.random() * 70}%`;
+          catImg.style.left = `${Math.random() * 70}%`;
+          
+          document.body.appendChild(catImg);
+          this.cats.push(catImg);
+          
+          // Add click event to make cat meow
+          catImg.addEventListener('click', () => {
+            const meow = new Audio('https://www.soundjay.com/animals/sounds/cat-meow-1.mp3');
+            meow.play();
+            
+            // Add speech bubble
+            const speech = document.getElementById('comic-speech');
+            speech.textContent = "MEOW! I'll help with the jailbreak!";
+            speech.style.display = 'block';
+            speech.style.top = `${parseInt(catImg.style.top) - 50}px`;
+            speech.style.left = `${parseInt(catImg.style.left)}px`;
+            
+            setTimeout(() => {
+              speech.style.display = 'none';
+            }, 3000);
+            
+            // Add cat to gallery sometimes
+            if (Math.random() > 0.7) {
+              const galleryCat = document.createElement('img');
+              galleryCat.src = catImg.src;
+              galleryCat.style.width = '150px';
+              galleryCat.style.height = '150px';
+              galleryCat.style.objectFit = 'cover';
+              galleryCat.style.borderRadius = '10px';
+              galleryCat.style.border = '2px solid #ff3b30';
+              galleryCat.title = "Newly Recruited Support Cat";
+              
+              this.catGallery.appendChild(galleryCat);
+            }
+          });
+          
+          // Remove cat after some time
+          setTimeout(() => {
+            if (document.body.contains(catImg)) {
+              document.body.removeChild(catImg);
+              this.cats = this.cats.filter(c => c !== catImg);
+            }
+          }, 30000);
+        }
+      }
+      
+      class FakeDownloadManager {
+        constructor() {
+          this.progressBar = document.getElementById('fake-progress-bar');
+          this.progressContainer = document.getElementById('fake-progress-container');
+          this.progressText = document.getElementById('fake-progress-text');
+          this.progress = 0;
+          
+          document.getElementById('fake-download-button').addEventListener('click', () => {
+            this.startFakeDownload();
+          });
+        }
+        
+        startFakeDownload() {
+          this.progressContainer.style.display = 'block';
+          this.progress = 0;
+          this.progressBar.style.width = '0%';
+          this.progressText.textContent = 'Downloading jailbreak... 0%';
+          
+          const interval = setInterval(() => {
+            if (this.progress < 100) {
+              // Random progress increment
+              const increment = Math.floor(Math.random() * 5) + 1;
+              this.progress = Math.min(this.progress + increment, 100);
+              this.progressBar.style.width = `${this.progress}%`;
+              this.progressText.textContent = `Downloading jailbreak... ${this.progress}%`;
+              
+              // Sometimes stall
+              if (Math.random() > 0.9) {
+                clearInterval(interval);
+                this.progressText.textContent = 'Connection stalled...';
+                
+                // Resume after a short pause
+                setTimeout(() => {
+                  const newInterval = setInterval(() => {
+                    if (this.progress < 100) {
+                      const increment = Math.floor(Math.random() * 5) + 1;
+                      this.progress = Math.min(this.progress + increment, 100);
+                      this.progressBar.style.width = `${this.progress}%`;
+                      this.progressText.textContent = `Downloading jailbreak... ${this.progress}%`;
+                    } else {
+                      clearInterval(newInterval);
+                      this.downloadComplete();
+                    }
+                  }, 200);
+                }, 2000);
+              }
+            } else {
+              clearInterval(interval);
+              this.downloadComplete();
+            }
+          }, 200);
+        }
+        
+        downloadComplete() {
+          this.progressText.textContent = 'Download complete!';
+          
+          setTimeout(() => {
+            this.progressContainer.style.display = 'none';
+            
+            // Show explosion
+            const explosion = document.getElementById('explosion');
+            explosion.style.left = '50%';
+            explosion.style.top = '50%';
+            explosion.style.display = 'block';
+            
+            // Trigger confetti
+            confetti({
+              particleCount: 300,
+              spread: 180,
+              origin: { y: 0.6 }
+            });
+            
+            // Hide explosion after animation
+            setTimeout(() => {
+              explosion.style.display = 'none';
+              
+              // Show message
+              alert("CONGRATULATIONS! Your Kindle is now jailbroken in the alternate universe where this is real.");
+              
+              // Sometimes add flying kindles
+              if (Math.random() > 0.5) {
+                this.addFlyingKindle();
+              }
+            }, 1000);
+          }, 2000);
+        }
+        
+        addFlyingKindle() {
+          const kindle = document.createElement('img');
+          kindle.className = 'flying-kindle';
+          kindle.src = 'https://m.media-amazon.com/images/I/61Ww4abGclL._AC_SL1000_.jpg';
+          document.body.appendChild(kindle);
+          
+          // Remove after animation completes
+          setTimeout(() => {
+            if (document.body.contains(kindle)) {
+              document.body.removeChild(kindle);
+            }
+          }, 15000);
+        }
+      }
+      
+      class GeocitiesDecorations {
+        constructor() {
+          this.decorations = [
+            'https://web.archive.org/web/20091027005250/http://www.geocities.com/Area51/Crater/1512/divider.gif',
+            'https://web.archive.org/web/20091027000136/http://www.geocities.com/TimesSquare/Realm/5813/book.gif',
+            'https://web.archive.org/web/20091026234855/http://www.geocities.com/Hollywood/Studio/1554/icons/newgoldsm.gif',
+            'https://web.archive.org/web/20091026213240/http://www.geocities.com/TimesSquare/Arcade/9918/HOTBAR.GIF',
+            'https://web.archive.org/web/20091027010942/http://www.geocities.com/Paris/Rue/1551/fire.gif',
+            'https://web.archive.org/web/20091027013114/http://www.geocities.com/SouthBeach/Palms/2179/mailme.gif'
+          ];
+          
+          // Add a few random decorations
+          for (let i = 0; i < 5; i++) {
+            this.addRandomDecoration();
+          }
+        }
+        
+        addRandomDecoration() {
+          const decoration = document.createElement('img');
+          decoration.className = 'geocities-decoration';
+          decoration.src = this.decorations[Math.floor(Math.random() * this.decorations.length)];
+          
+          // Random position
+          decoration.style.top = `${Math.random() * 90}%`;
+          decoration.style.left = `${Math.random() * 90}%`;
+          
+          document.body.appendChild(decoration);
+        }
+      }
+
+      function closePopup(popup) {
+        popup.style.display = 'none';
+      }
+      
+      function createRandomCat() {
+        const catId = Math.floor(Math.random() * 1000);
+        const catImg = document.createElement('img');
+        catImg.className = 'random-cat';
+        catImg.src = `https://cataas.com/cat?${catId}`;
+        
+        // Random position
+        catImg.style.top = `${Math.random() * 70}%`;
+        catImg.style.left = `${Math.random() * 70}%`;
+        
+        document.body.appendChild(catImg);
+        
+        // Add click event to make cat meow
+        catImg.addEventListener('click', () => {
+          const speech = document.getElementById('comic-speech');
+          speech.textContent = "MEOW! I'm helping with the jailbreak!";
+          speech.style.display = 'block';
+          speech.style.top = `${parseInt(catImg.style.top) - 50}px`;
+          speech.style.left = `${parseInt(catImg.style.left)}px`;
+          
+          setTimeout(() => {
+            speech.style.display = 'none';
+          }, 3000);
+        });
+        
+        // Remove cat after some time
+        setTimeout(() => {
+          if (document.body.contains(catImg)) {
+            document.body.removeChild(catImg);
+          }
+        }, 30000);
+      }
+
       document.addEventListener('DOMContentLoaded', () => {
         const countdownTimer = new CountdownTimer();
         const dvdLogo = new DVDLogo();
         const draggableVideo = new DraggableVideo();
+        const matrixRain = new MatrixRain();
+        const popupAds = new PopupAds();
+        const randomButtons = new RandomButtons();
+        const visitorCounter = new VisitorCounter();
+        const comicCursor = new ComicCursor();
+        const wordScrambler = new WordScrambler();
+        const catManager = new CatManager();
+        const fakeDownloadManager = new FakeDownloadManager();
+        const geocitiesDecorations = new GeocitiesDecorations();
+        
+        // Add confetti button functionality
+        document.getElementById('confetti-button').addEventListener('click', () => {
+          confetti({
+            particleCount: 200,
+            spread: 180,
+            origin: { y: 0.6 }
+          });
+          
+          // Update countdown by random amount
+          const randomDays = Math.floor(Math.random() * 10) - 5;
+          countdownTimer.days += randomDays;
+          if (countdownTimer.days < 0) countdownTimer.days = 99;
+          countdownTimer.updateDisplay();
+          
+          // Show message
+          alert(`CONGRATULATIONS! You just ${randomDays >= 0 ? 'added' : 'removed'} ${Math.abs(randomDays)} days ${randomDays >= 0 ? 'to' : 'from'} the countdown!`);
+        });
         
         const digits = document.querySelectorAll('.digit');
         digits.forEach(digit => {
           const randomDelay = Math.random() * 2;
           digit.style.animationDelay = `${randomDelay}s`;
         });
+        
+        // Easter egg - konami code
+        const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+        let konamiIndex = 0;
+        
+        document.addEventListener('keydown', (e) => {
+          if (e.key === konamiCode[konamiIndex]) {
+            konamiIndex++;
+            if (konamiIndex === konamiCode.length) {
+              // Enable god mode
+              document.body.style.background = 'linear-gradient(45deg, #ff0000, #00ff00, #0000ff)';
+              document.body.style.backgroundSize = '400% 400%';
+              document.body.style.animation = 'gradient 15s ease infinite';
+              
+              // Trigger massive cat explosion
+              for (let i = 0; i < 20; i++) {
+                setTimeout(() => createRandomCat(), i * 200);
+              }
+              
+              alert('GOD MODE ACTIVATED: Your Kindle is now jailbroken. Just kidding, you still have to wait!');
+              
+              konamiIndex = 0;
+            }
+          } else {
+            konamiIndex = 0;
+          }
+        });
+        
+        // Double-click anywhere to create explosion
+        document.addEventListener('dblclick', (e) => {
+          const explosion = document.getElementById('explosion');
+          explosion.style.left = `${e.clientX}px`;
+          explosion.style.top = `${e.clientY}px`;
+          explosion.style.display = 'block';
+          
+          setTimeout(() => {
+            explosion.style.display = 'none';
+          }, 1000);
+          
+          // Small confetti burst
+          confetti({
+            particleCount: 50,
+            spread: 70,
+            origin: { x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight }
+          });
+        });
       });
+
+      // Custom mousestop event
+      (function() {
+        let timeout;
+        document.addEventListener('mousemove', function() {
+          clearTimeout(timeout);
+          timeout = setTimeout(function() {
+            const event = new CustomEvent('mousestop');
+            document.dispatchEvent(event);
+          }, 500);
+        });
+      })();
     </script>
   </body>
 </html>
