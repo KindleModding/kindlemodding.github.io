@@ -29,8 +29,8 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             <h2>Copy The Hotfix</h2>
             <div class="stepContent">
                 <p>Plug your Kindle into your PC and copy the <code>Update_hotfix_universal.bin</code> file to it</p>
-                <p class="highlight">
-                    Note that if you see any other files on your Kindle ending in `.bin` you must delete them for this to work
+                <p class="warning">
+                    If you see any other files on your Kindle ending in <code>.bin</code> or has a similar name to <code>update.bin.tmp.partial</code> you must delete them for this to work.
                 </p>
                 <img src="./copy_hotfix.png" />
             </div>
@@ -55,8 +55,8 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             <h2>Running the hotfix</h2>
             <div class="stepContent">
                 <p>Once the hotfix has installed, you'll need to run it.</p>
-                <p>Run the hotfix by selecting the <code>Run Hotfix</code> or <code>Run Bridge</code> booklet in your library.</p>
-                <p>Once the hotfix is done running, you can install `KUAL` and `MRPI`</p>
+                <p>Run the hotfix by selecting the <code>Run Hotfix</code> booklet in your library.</p>
+                <p>Once the hotfix is done running, you can install <code>KUAL</code> and <code>MRPI</code></p>
                 <p class="note">You will need to run the hotfix booklet after every OTA update</p>
                 <img src="./run_hotfix.png" />
             </div>

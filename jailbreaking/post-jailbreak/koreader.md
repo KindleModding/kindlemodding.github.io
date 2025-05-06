@@ -52,8 +52,8 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.16.3:</p>
-                        <a href="https://scriptlets.notmarek.com/" target="_blank">Marek's KOReader Installer (nightly)</a> Download and copy this scriptlet into the <code>/documents</code> folder on your Kindle, run it from your Library and it will automatically download and install KOReader.
-                    <p class="note">This alternative method might not work for everyone.</p>
+                        <a href="https://scriptlets.notmarek.com/" target="_blank">Marek's KOReader Installer (nightly)</a> Download and copy this scriptlet into the <code>/documents</code> folder on your Kindle, run it from your Library and it will automatically download and install KOReader
+                    <p class="note">This alternative method might not work for everyone</p>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
                     <p>When launching KOReader, you may see three options:</p>
                     <code>Start KOReader</code>: The designed way to start KOReader
                     <br/>
-                    <code>Start KOReader (no framework)</code>: Temporarily "kills" the Kindle UI to allocate more resources to KOReader.
+                    <code>Start KOReader (no framework)</code>: Temporarily "kills" the Kindle UI to allocate more resources to KOReader
                     <br/>
                     <code>Start KOReader (ASAP)</code>: Skips a couple of checks and starts KOReader as soon as possible
                     <br/>
@@ -101,7 +101,7 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
                 <p>KOReader is now installed on your Kindle!</p>
                 <p>We recommend reading the <a href="https://koreader.rocks/user_guide/" target="_blank">extensive but very helpful guide for KOReader</a></p>
                 <p class="note">
-                    KOReader currently does not support USBMS mode (USB transfer) and will only charge the device, if you want to transfer files you must exit KOReader to do so. 
+                    KOReader currently does not support USBMS mode (USB transfer) and will only charge the device, if you want to transfer files you must exit KOReader to do so 
                 </p>
                 <p class="warning">
                     If KOReader appears in KUAL but doesn't work when clicked, delete both <code>koreader</code> folders, re-download koreader and make sure you're downloading the right package for your Kindle</p>
