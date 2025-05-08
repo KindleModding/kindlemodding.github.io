@@ -71,7 +71,10 @@ Yes.
 
 #### Will my books and highlights be deleted after jailbreaking?
 
-No. 
+No.
+
+{: .note}
+if your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not.
 
 ### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
