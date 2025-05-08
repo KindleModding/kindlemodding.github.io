@@ -27,7 +27,7 @@ No.
 
 If you still want to jailbreak, forget all saved internet connections, enable Airplane mode and wait for a new jailbreak method (or patch) to be released. This may take weeks or even months.
 
-If you want to use the Internet in the meantime, be sure to always delete the file named `update.bin.tmp.partial` from your Kindle to avoid even newer and probably unsupported firmware versions.
+If you want to use the Internet in the meantime, be sure to always delete the file named `update.bin.tmp.partial` from your Kindle to avoid even newer unsupported firmware versions.
 
 ### Can I remove my account after jailbreaking?
 
@@ -62,6 +62,10 @@ This ultimately means that most extensions found on MobileRead/Discord servers w
 ---
 
 ### Can I still use the default reader after jailbreaking?
+
+Yes.
+
+#### Can I still sideload books after jailbreaking?
 
 Yes.
 
@@ -153,7 +157,7 @@ Download the "Check OTA Status" scriptlet from [here](https://scriptlets.notmare
 
 ### Is it possible to change screensavers in the native Kindle UI?
 
-Although there are currently no extensions to change the screensavers in hard-float firmware, it is still possible to change them, but it is not recommended as it is very easy to bricked the device.
+Although there are currently no extensions to change the screensavers in hard-float firmware, it is still possible to change them, but it is not recommended as it is very easy to brick the device.
 
 If you still want to change the screensavers, check the details of your default Kindle screensavers inside the `/usr/share/blanket/screensavers` folder, get root writing permissions, and set the custom ones with the same name prefix and settings (bit-depth and resolution). You can either replace them all or add them to the slideshow queue.
 
