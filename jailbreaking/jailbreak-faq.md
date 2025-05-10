@@ -10,7 +10,7 @@ nav_order: 98
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
 {: .note}
-Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc.
+Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: May 5th, 2025)`
 
 ## General/Account
 ---
@@ -23,10 +23,11 @@ It's still possible to jailbreak an unregistered/blacklisted device, but current
 
 ### My Kindle updated to a firmware version that doesn't have any jailbreak method! Can I still jailbreak?
 
-No 🥀.
+No.
 
-If you still want to jailbreak, forget all saved internet connections, enable airplane mode and wait for a new jailbreak method (or patch) to be released. This may take weeks or even months.
-If you want to use the Internet in the meantime, be sure to always delete the file named `update.bin.tmp.partial` from your Kindle to avoid even newer and probably unsupported firmware versions.
+If you still want to jailbreak, forget all saved internet connections, enable Airplane mode and wait for a new jailbreak method (or patch) to be released. This may take weeks or even months.
+
+If you want to use the Internet in the meantime, be sure to always delete the file named `update.bin.tmp.partial` from your Kindle to avoid even newer unsupported firmware versions.
 
 ### Can I remove my account after jailbreaking?
 
@@ -64,19 +65,18 @@ This ultimately means that most extensions found on MobileRead/Discord servers w
 
 Yes.
 
+#### Can I still sideload books after jailbreaking?
+
+Yes.
+
 #### Will my books and highlights be deleted after jailbreaking?
 
-No. 
+No.
 
-### How do I read my Amazon ebooks within KOReader?
+{: .note}
+if your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not.
 
-KOReader currently doesn’t (and likely never will) support the proprietary formats that Amazon converts all ebooks into (KFX, AZW3, and very limited support for MOBI). It is recommended to get all your books as EPUB and store them in a separate folder for easy access.
-
-### How do I read my Libby books?
-
-You cannot use the Libby service within KOReader. You can get the EPUB file from Libby by following [this guide](https://help.libbyapp.com/en-us/6059.htm).
-
-### Will Libby/Readwise/GoodReads/Kindle Unlimited still work after jailbreaking?
+### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
 Yes. Jailbreaking doesn’t interfere with any of these services.
 
@@ -87,6 +87,14 @@ Unless there's a plugin for it, no.
 ### Can I install Android apps on my jailbroken Kindle (Libby, Nook, Webtoon)?
 
 Unless there's a extension/port for any of them, no.
+
+### How do I read my Amazon ebooks within KOReader?
+
+KOReader currently doesn’t (and likely never will) support the proprietary formats that Amazon converts all ebooks into (KFX, AZW3, and very limited support for MOBI). It is recommended to get all your books as EPUB and store them in a separate folder for easy access.
+
+### How do I read my Libby books?
+
+You cannot use the Libby service within KOReader. You can get the EPUB file from Libby by following [this guide](https://help.libbyapp.com/en-us/6059.htm).
 
 ### Where can I download free e-books?
 
@@ -152,11 +160,11 @@ Download the "Check OTA Status" scriptlet from [here](https://scriptlets.notmare
 
 ### Is it possible to change screensavers in the native Kindle UI?
 
-Yes, but it is not recommended at least on hard-float firmware, as it is very easy to brick the device.
+Although there are currently no extensions to change the screensavers in hard-float firmware, it is still possible to change them, but it is not recommended as it is very easy to brick the device.
 
-If you still want to change the screensavers, check the details of your default Kindle screensavers inside the `/usr/share/blanket/screensavers` folder and set the custom ones with the same name prefix and settings (bit-depth and resolution). You can either replace them all or add them to the slideshow queue.
+If you still want to change the screensavers, check the details of your default Kindle screensavers inside the `/usr/share/blanket/screensavers` folder, get root writing permissions, and set the custom ones with the same name prefix and settings (bit-depth and resolution). You can either replace them all or add them to the slideshow queue.
 
-Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export.
+Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export the images.
 
 {: .highlight}
 If you are, however, running soft-float firmware prior to 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake in installing this extension on hard-float firmware.**
@@ -213,7 +221,7 @@ You can do one of the following:
 
 ### What does the KFT option in the settings menu do?
 
-:) 
+<p>¯\_(ツ)_/¯</p>
 
 ## Credits
 - Written by Bundlerocks

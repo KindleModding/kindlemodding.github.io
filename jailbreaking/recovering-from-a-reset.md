@@ -7,7 +7,7 @@ has_children: true
 ---
 
 # Recovering From A Reset
-If you reset your Kindle in a jailbroken state with `OTABlocker`, then your Kindle may be in a broken state, to fix this, perform the following steps:
+If you factory reset your Kindle to a jailbroken state without first disabling `renametobin` ('Restore`), then your Kindle may be in a broken state, to fix this, perform the following steps:
 
 1. Follow the [MRPI installation instructions](./post-jailbreak/installing-kual-mrpi/)
 2. Follow the [Disable OTA instructions](./post-jailbreak/disable-ota.md)
