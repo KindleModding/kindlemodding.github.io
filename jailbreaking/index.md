@@ -11,7 +11,7 @@ Jailbreaking a Kindle:
 - Also allows for the development of custom homebrew to run on the Kindle
 - Why not?
 
-## What Can I do?
+## What can I do?
 As a user, this gives you access to:
 - Custom screensavers
 - Custom fonts on firmwares that do not support it

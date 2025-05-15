@@ -19,7 +19,7 @@ Most of these instructions are subjected to changes due to newer jailbreaks, pat
 
 Winterbreak needs your Kindle to be registered, it also needs a valid, internet-connected WiFi network saved.
 
-It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on firmware below `5.16.2.1.1`. You can find these jailbreaking methods here [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
+It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on firmware below `5.16.2.1.1`. You can find these jailbreaking methods in [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
 
 ### My Kindle updated to a firmware version that doesn't have any jailbreak method! Can I still jailbreak?
 
@@ -45,6 +45,9 @@ Don't forget to re-enable automatic updates first (`Restore` option in `renameto
 ### Will this get my Amazon account banned?
 
 No reports of Amazon accounts being banned after jailbreaking have been reported so far. However, please refrain from telling support that you have modified your device.
+
+### Will this void the warranty on my Kindle device?
+Probably.
 
 ### How do I get the Amazon store back again?
 
@@ -117,8 +120,7 @@ KOReader currently does not support USBMS mode (USB transfer) and will only char
 
 Not necessarily.
 
-You can launch it with simple [scriptlets](https://kindlemodding.org/kindle-dev/scriptlets.html).  
-Specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
+You can launch it with simple [scriptlets](https://kindlemodding.org/kindle-dev/scriptlets.html), specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
 
 A [KUAL booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/releases/) extension is also available to install. You can further customize both the KUAL booklet and the KOR launcher with the [coversetter extension made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
 

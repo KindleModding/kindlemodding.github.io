@@ -10,20 +10,24 @@ nav_order: 0
 # The Kindle Modding Wiki
 This is the Kindle Modding wiki, an online resource which hopes to consolidate all Kindle Modding knowledge into a centralised resource.
 
-{: .warning}
-Anyone who installed a [Universal Hotfix](/jailbreaking/post-jailbreak/setting-up-a-hotfix) version below `v1.2.0` *MUST* install `v1.2.0` or newer due to an OTA persistence bug. This version was released Jan 02, 2025.
-
 ## Jailbreaking?
 Just want to jailbreak your Kindle to get access to KOReader and other homebrew?
-<br/>
+
 [Getting Started With Jailbreaking](/jailbreaking/getting-started){: .btn .btn-purple }
 
 ## Developing?
 Want to develop your own software?
-<br/>
+
 [Getting Started With Development](/kindle-dev){: .btn .btn-purple }
 
+## Questions?
+Got any questions about jailbreaking?
+
+[Kindle Jailbreaking F.A.Q](/jailbreaking/jailbreak-faq.md){: .btn .btn-purple }
+
 ## Community
+Want to join our community?
+
 [Join Our Discord](https://dsc.gg/kindle-modding){: .btn .btn-purple }
 
 ## Useful Links
