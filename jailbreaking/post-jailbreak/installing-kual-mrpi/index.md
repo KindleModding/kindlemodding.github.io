@@ -80,5 +80,6 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
 <script>new Guide("guide", "../disable-ota", "Disabling OTA Updates");</script>
 
 ## Troubleshooting
+- The installation of `Update_KUALBooklet_hotfix_*_install.bin` may fail if there is not enough free space on your Kindle. If you are using the "fill storage" method to block updates, make sure to free up some space before proceeding with these steps.
 - Verify the location of all the folders and files on the Kindle
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`
