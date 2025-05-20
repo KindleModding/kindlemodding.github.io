@@ -16,7 +16,7 @@ WinterBreak is a jailbreak which was released on New Year's Day 2025 by [HackerD
 
 It is based on [Mesquito](../../mesquito/)
 
-{: .highlight}
+{: .note}
 > Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
 >
 > RIP bricked Kindles during beta-testing
@@ -47,7 +47,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Download the latest WinterBreak release:</h2>
             <div class="stepContent">
-                <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
+            <p class="note">
+                    If you find the file <code>update.bin.tmp.partial</code> on your Kindle at any stage of the tutorial, delete it to prevent an automatic update installation
+                </p>
+            <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>    
             </div>
         </div>
         <div class="step">
@@ -75,7 +78,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                 <img src="./file_list.png" />
             </div>
         </div>
-<div class="step">
+        <div class="step">
             <h2>Entering Mesquito</h2>
             <div class="stepContent">
                 <p>Eject the Kindle from your computer</p>
@@ -98,7 +101,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
                 <p>Once it does, turn Airplane mode back on and you can move onto the post-jailbreak stage!</p>
                 <p class="highlight">
-                    If you do not see any funky text then make sure Airplane mode is disabled to avoid any automatic update. Turn it back on after you see the text though!
+                    If you don't see any funky text, ensure Airplane mode is on. Once the text appears, turn it off and delete <code>update.bin.tmp.partial</code> from your device if present
                 </p>
                 <img src="./winterbreak_run.png" />
             </div>
