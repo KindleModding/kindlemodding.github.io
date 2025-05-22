@@ -35,6 +35,9 @@ Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
 {: .highlight}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
 
+{: .note}
+If your Kindle is running a firmware version lower than `5.18.1` and **is not yet registered**, make sure to follow [these steps to prevent your Kindle from automatically updating](../preventing-auto-update/) before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
+
 ## Installation Guide
 
 <div id="guide">
