@@ -61,7 +61,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Firmware <=5.10.x:</p>
-                    <p>Navigate to the <a href="http://127.0.0.1:4000/jailbreaking/jailbreak-faq.html#what-is-the-root-directory">root directory</a> of your Kindle</p>
+                    <p>Navigate to the <a href="https://kindlemodding.org/jailbreaking/jailbreak-faq.html#what-is-the-root-directory">root directory</a> of your Kindle</p>
                     <p>Create a folder called <code>update.bin.tmp.partial</code></p>
                 </div>
                 <div class="version-block">
