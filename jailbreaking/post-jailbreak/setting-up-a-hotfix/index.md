@@ -30,7 +30,7 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             <div class="stepContent">
                 <p>Plug your Kindle into your PC and copy the <code>Update_hotfix_universal.bin</code> file to it</p>
                 <p class="warning">
-                    If you see any other files on your Kindle ending in <code>.bin</code> or has a similar name to <code>update.bin.tmp.partial</code> you must delete them for this to work. <br> Remember to enable Airplane mode to stop this file from downloading
+                    If you see any other files on your Kindle ending in <code>.bin</code> or has a similar name to <code>update.bin.tmp.partial</code> you must delete them for this to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading
                 </p>
                 <img src="./copy_hotfix.png" />
             </div>

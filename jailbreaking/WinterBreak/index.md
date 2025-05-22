@@ -29,7 +29,7 @@ Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
 
 ## Prerequisites
 - You will need a PC
-- Your Kindle must be registered
+- File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 - Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 8 to 10 (inclusive)
 
 {: .highlight}
@@ -101,7 +101,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
                 <p>Once it does, turn Airplane mode back on and you can move onto the post-jailbreak stage!</p>
                 <p class="highlight">
-                    If you don't see any funky text, ensure Airplane mode is on. Once the text appears, turn it off and delete <code>update.bin.tmp.partial</code> from your device if present
+                    If you don't see any funky text, ensure Airplane mode is off. Once the text appears turn it on, if present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
                 </p>
                 <img src="./winterbreak_run.png" />
             </div>
