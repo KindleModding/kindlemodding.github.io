@@ -9,7 +9,7 @@ title: kindle.dev
 Functions which can adjust specific device properties
 
 {: .important}
-Whilst extremely similar to `kindle.device`, it has a few similarities
+Whilst extremely similar to `kindle.device`, it has a few differences.
 
 {: .warning}
 Documentation for `kindle.dev` is incomplete. Information on this page may be innacurate
