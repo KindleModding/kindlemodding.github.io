@@ -69,7 +69,7 @@ Used to indicate progress via a spinner in the title bar.
 <br/>
 
 {: .warning}
-The following section refers to `content windows` these are not currently fully understood, continue with cauton.
+The following section refers to `content windows` these are not currently fully understood, continue with caution.
 
 
 ## kindle.chrome.createContentWindow
