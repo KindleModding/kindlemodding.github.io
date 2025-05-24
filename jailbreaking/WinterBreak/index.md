@@ -36,7 +36,7 @@ Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
 
 {: .note}
-If your Kindle is running a firmware version lower than `5.18.1` and **is not yet registered**, make sure to follow [these steps to prevent your Kindle from automatically updating](../prevent-auto-update/) before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
+If your Kindle is running a firmware version lower than `5.18.1` and **is not yet registered**, make sure to follow [these steps to prevent your Kindle from automatically updating](../prevent-auto-update.html) before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
 
 ## Installation Guide
 
@@ -57,7 +57,7 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
             <h2>Airplane Mode</h2>
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
-                <img src="./airplane_mode.png" />
+                <img src="./airplane_mode.png" /> 
             </div>
         </div>
         <div class="step">
