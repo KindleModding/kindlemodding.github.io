@@ -16,7 +16,7 @@ WinterBreak is a jailbreak which was released on New Year's Day 2025 by [HackerD
 
 It is based on [Mesquito](../../mesquito/)
 
-{: .highlight}
+{: .note}
 > Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
 >
 > RIP bricked Kindles during beta-testing
@@ -31,6 +31,7 @@ Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
 - You will need a PC
 - Your Kindle must be registered
 - Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 8 to 10 (inclusive)
+- File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 
 {: .highlight}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
@@ -85,13 +86,12 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
                 <p>Open the Kindle Store on your Kindle by clicking on the cart icon on the home screen</p>
                 <p>When prompted, click <code>Yes</code> to turn off Airplane mode</p>
                 <img src="./store_aeroplane.png" />
-                <p>Once Mesquito has loaded you can re-enable Airplane mode.</p>
             </div>
         </div>
         <div class="step">
             <h2>Running WinterBreak</h2>
             <div class="stepContent">
-                <p>Click on the WinterBreak icon when it loads:</p>
+                <p>Once Mesquito has loaded, re-enable Airplane mode and click on the WinterBreak icon</p>
                 <img src="./winterbreak_launcher.png" />
             </div>
         </div>
@@ -99,9 +99,10 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
-                <p>Once it does, turn Airplane mode back on and you can move onto the post-jailbreak stage!</p>
-                <p class="highlight">
-                    If you do not see any funky text then make sure Airplane mode is disabled to avoid any automatic update. Turn it back on after you see the text though!
+                <p>If no funky text appears, retry the guide again with Airplane mode off. Once it does, turn Airplane mode back on and continue to the post-jailbreak stage
+                </p>
+                <p class="warning">
+                    If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
                 </p>
                 <img src="./winterbreak_run.png" />
             </div>
