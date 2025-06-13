@@ -40,9 +40,12 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
             </div>
         </div>
         <div class="step">
-            <h2>Extracting KUAL</h2>
+            <h2>Extracting/Copying KUAL</h2>
             <div class="stepContent">
-                <p>Extract the KUAL you downloaded and find the <code>Update_KUALBooklet_*_install.bin</code> file and copy it to your Kindle's <code>mrpackages</code> folder</p>
+                <p>If you downloaded KUAL for legacy devices, extract the .tar.xz file you downloaded to get the <code>Update_KUALBooklet_*_install.bin</code> file</p>
+                <p>The above step does not apply if you downloaded KUAL (Coplate)</p>
+                <br/>
+                <p>Now, find the <code>Update_KUALBooklet_*_install.bin</code> file and copy it to your Kindle's <code>mrpackages</code> folder</p>
                 <br/>
                 <img src="./kual_install_bin.png" />
             </div>
