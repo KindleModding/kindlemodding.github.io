@@ -23,76 +23,120 @@ Filling the Kindle's storage (leaving only 20-50 MB free) prevents the device fr
 
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
 
-### Step-by-Step Tutorial
+<div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+    <div id="stepwrapper" class="stepwrapper">
+        <div class="step">
+            <h2>1. Put Your Kindle in Airplane Mode</h2>
+            <div class="stepContent">
+                <p>Turn on Airplane mode on your Kindle</p>
+                <img src="./Winterbreak/airplane_mode.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>2. Connect Your Kindle to Your Computer via USB</h2>
+            <div class="stepContent">
+                <p>Use a USB cable to connect your Kindle to your computer.</p>
+                <img src="./Prevent/usb-mode.png"/>
+                <p>Wait for the Kindle to appear as a USB drive.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>3. Download the Disk Filler Script</h2>
+            <div class="stepContent">
+                <p>Go to the <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/">Kindle-Filler-Disk GitHub repository</a>.</p>
+                <img src="./Prevent/github-files.png"/>
+                <p>Download the appropriate script for your operating system:</p>
+                <div style="margin-left:2em">
+                    <span><strong>Windows:</strong> <code>kindle_disk_filler.ps1</code></span><br/>
+                    <span><strong>macOS/Linux:</strong> <code>kindle_disk_filler.sh</code></span>
+                </div>
+            </div>
+        </div>
+        <div class="step">
+            <h2>4. Move the Script to Your Kindle</h2>
+            <div class="stepContent">
+                <p>Copy the downloaded script file to the root directory of your Kindle (the main folder you see when you open the Kindle as a USB drive).</p>
+                <img src="./Prevent/root-main.png"/>
+                <span><strong>Windows:</strong> <code>kindle_disk_filler.ps1</code></span><br/>
+                <span><strong>macOS/Linux:</strong> <code>kindle_disk_filler.sh</code></span>
+            </div>
+        </div>
+          <div class="step">
+              <h2>5. Run the Script</h2>
+              <div class="stepContent">
+                <div class="version-block">
+                    <p class="version-label">Windows:</p>
+                    <p>Open File Explorer and navigate to your Kindle drive.</p>
+                    <p>Right-click <code>kindle_disk_filler.ps1</code> and select <strong>Run with PowerShell</strong>.</p>
+                    <p>If you see an execution policy error, open PowerShell in the Kindle drive and run:</p>
+                    <pre><code>powershell -ExecutionPolicy Bypass -File .\kindle_disk_filler.ps1</code></pre>
+                </div>
+                <div class="version-block">
+                    <p class="version-label">macOS/Linux:</p>
+                    <p>Open a terminal in the Kindle drive where <code>kindle_disk_filler.sh</code> is located.</p>
+                    <p>Make it executable if needed:</p>
+                    <pre><code>chmod +x kindle_disk_filler.sh</code></pre>
+                    <p>Run the script:</p>
+                    <pre><code>./kindle_disk_filler.sh</code></pre>
+                </div>
+                <img src="./Prevent/run-script.png"/>
+              </div>     
+            </div>
+        <div class="step">
+            <h2>6. Safely Disconnect and Verify Storage</h2>
+            <div class="stepContent">
+                <p>Eject your Kindle from your computer.</p>
+                <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
+                <p>Check that the available storage is <strong>20 MB or less</strong>.</p>
+                <img src="./Prevent/final.png"/>
+            </div>
+        </div>
+        <div class="step">
+            <h2>7. Register Your Kindle</h2>
+            <div class="stepContent">
+                <p>With storage nearly full, connect to Wi-Fi and register your Kindle to your Amazon account. The device will not be able to download updates due to lack of space.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>8. Enable Airplane Mode Again</h2>
+            <div class="stepContent">
+                <p>Immediately after registration, enable <strong>Airplane Mode</strong> to prevent any update attempts.</p>
+                <p>Proceed with the next jailbreak steps (such as WinterBreak).</p>
+                <p class="highlight">
+                    <strong>Important Note:</strong> After filling your Kindle's storage, check its contents in the <strong>main folder</strong> (root directory) and delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>. These files are automatic update attempts by the Kindle and should be removed to prevent the device from trying to install an update when you free up space.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+</div>
+<style>
+.version-block {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
 
-#### 1. Put Your Kindle in Airplane Mode
-
-- On your Kindle, swipe down from the top to open Quick Actions.
-- Tap the **Airplane Mode** icon to enable it. This will disconnect Wi-Fi and prevent updates during the process.
-
-#### 2. Connect Your Kindle to Your Computer via USB
-
-- Use a USB cable to connect your Kindle to your computer.
-- Wait for the Kindle to appear as a USB drive.
-
-#### 3. Download the Disk Filler Script
-
-- Go to the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/).
-- Download the appropriate script for your operating system:
-  - **Windows:** `kindle_disk_filler.ps1`
-  - **macOS/Linux:** `kindle_disk_filler.sh`
-
-#### 4. Run the Script
-
-##### On Windows:
-
-- Copy `Filler.ps1` to the root directory of your Kindle (the main folder you see when you open the Kindle drive).
-- Open **PowerShell** in the folder containing `Filler.ps1`.  
-  - Tip: In File Explorer, hold **Shift** and right-click in the folder background, then select "Open PowerShell window here".
-  - Or, click the address bar, type `powershell`, and press Enter.
-- If you get an execution policy error, you can bypass it by running:
-  ```powershell
-  powershell -ExecutionPolicy Bypass -File .\Filler.ps1
-  ```
-  Or, for the current session only:
-  ```powershell
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-  .\Filler.ps1
-  ```
-- Follow the on-screen prompts to select how much free space to leave (20 MB is recommended).
-- The script will create files in a folder called `fill_disk` on your Kindle until only the specified free space remains.
-
-##### On macOS/Linux:
-
-- Copy `Filler.sh` to the root directory of your Kindle (the main folder you see when you open the Kindle drive).
-- Open a terminal in the folder containing `Filler.sh`.
-- Make the script executable (if needed):
-  ```sh
-  chmod +x Filler.sh
-  ```
-- Run the script:
-  ```sh
-  ./Filler.sh
-  ```
-- Follow the on-screen prompts to select how much free space to leave (20 MB is recommended).
-- The script will create files in a folder called `fill_disk` on your Kindle until only the specified free space remains.
-
-#### 5. Safely Disconnect and Verify Storage
-
-- Eject your Kindle from your computer.
-- On your Kindle, go to **Settings > Device Options > Device Info** (or similar).
-- Check that the available storage is **20 MB or less**.
-
-#### 6. Register Your Kindle
-
-- With storage nearly full, connect to Wi-Fi and register your Kindle to your Amazon account.
-- The device will not be able to download updates due to lack of space.
-
-#### 7. Enable Airplane Mode Again
-
-- Immediately after registration, enable **Airplane Mode** to prevent any update attempts.
-- Proceed with the next jailbreak steps (such as WinterBreak).
-> **Important Note:** After filling your Kindle's storage, check its contents in the **main folder** (root directory) and delete any files ending with `.bin` or named `update.bin.tmp.partial`. These files are automatic update attempts by the Kindle and should be removed to prevent the device from trying to install an update when you free up space.
+.version-label {
+    font-weight: bold;
+    border-bottom: 1px solid #369d36;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #369d36;
+}
+</style>
+<script>new Guide("guide");</script>
 
 ---
 
@@ -111,7 +155,6 @@ Once you have completed the jailbreak process, you can safely delete the `fill_d
   Or remove individual files as needed.
 
 This will restore your available disk space.
-
 
 ---
 

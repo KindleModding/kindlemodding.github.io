@@ -13,6 +13,8 @@ WAFs should be placed in `/opt/var/local/mesquite`, in its own folder, such as:
 /opt/var/local/mesquite/store
 ~~~
 
+Additionally, they should be declared in `/opt/var/local/appreg.db` so they are launchable.
+
 For example, lets examine the Kindle store's folder structure:
 ~~~
 /opt/var/local/mesquite/store/

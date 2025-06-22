@@ -30,8 +30,6 @@ The Mesquito SDK exposes the `kindle` object so that it can be invoked directly 
 ~~~js
 kindle.appmgr.start("com.lab126.booklet.home"); // "launches" the home app (just goes home)
 ~~~
-For more information, see the [WAF SDK](#) documentation.
-
 
 Additionally, the Mesquito SDK exposes some useful functions:
 ### fetchFile
