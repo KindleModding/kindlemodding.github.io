@@ -10,7 +10,7 @@ nav_order: 98
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
 {: .note}
-Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: May 5th, 2025)`
+Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: May 24th, 2025)`
 
 ## General/Account
 ---
@@ -21,13 +21,19 @@ Winterbreak needs your Kindle to be registered, it also needs a valid, internet-
 
 It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on firmware below `5.16.2.1.1`. You can find these jailbreaking methods in [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
 
-### My Kindle updated to a firmware version that doesn't have any jailbreak method! Can I still jailbreak?
+### My Kindle updated to a firmware version that doesn't have any jailbreak method! Can I still jailbreak it?
 
-No.
+**No**.
 
-If you still want to jailbreak, forget all saved internet connections, enable Airplane mode and wait for a new jailbreak method (or patch) to be released. This may take weeks or even months.
+You'll have to wait for a new jailbreak method (or patch) to be released. **This may take weeks or even months**. To protect your Kindle from automatic updates, **forget** all saved internet connections, enable Airplane mode, and wait.
 
-If you want to use the Internet in the meantime, be sure to always delete the file named `update.bin.tmp.partial` from your Kindle to avoid even newer unsupported firmware versions.
+If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](https://kindlemodding.org/jailbreaking/prevent-auto-update.html).
+
+#### Can I downgrade my Kindle so I can jailbreak it?
+
+**No**.
+
+Your Kindle must be jailbroken first in order to downgrade. This is because Amazon has never provided a way to downgrade on stock firmware.
 
 ### Can I remove my account after jailbreaking?
 
@@ -133,14 +139,14 @@ It's the first directory you see when you plug the device into your computer.
 
 If you have SSH access to the device, this directory can be found at `/mnt/us/`.
 
-### Can I update/restart/downgrade my Kindle after jailbreaking?
+### Can I update/factory reset/downgrade my Kindle after jailbreaking?
 
-Yes, but you must first disable the internet connection and enable automatic updates again (`Restore` option in `renametobin`) to avoid any potential self-blocks or unwanted automatic updates.
+Yes, but you must first enable Airplane mode and enable automatic updates again (`Restore` option in `renametobin`) to avoid any potential self-blocks or unwanted automatic updates.
 
 When updating, ensure that the newer version supports a jailbreak.
 
 {: .highlight}
-After upgrading/resetting/downgrading, re-install the hotfix from scratch. Some extensions and even KUAL may need to be re-installed.
+After updating/factory reset/downgrading, re-install the hotfix from scratch. KUAL and some others extensions *may* need to be re-installed too.
 
 ### How do I downgrade my Kindle?
 

@@ -34,7 +34,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Extracting MRPI</h2>
             <div class="stepContent">
-            <p>Extract the contents of the MRPI you downloaded, and copy the <code>extensions</code> and <code>mrpackages</code> folders to your Kindle</p>
+            <p>Extract the contents of the MRPI tar file you downloaded, and copy the <code>extensions</code> and <code>mrpackages</code> folders to your Kindle</p>
             <br/>
             <img src="./mrpackages_extensions_folders.png" />
             </div>
