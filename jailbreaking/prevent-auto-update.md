@@ -52,8 +52,8 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                 <img src="./Prevent/github-files.png"/>
                 <p>Download the appropriate script for your operating system:</p>
                 <div style="margin-left:2em">
-                    <span><strong>Windows:</strong> <code>kindle_disk_filler.ps1</code></span><br/>
-                    <span><strong>macOS/Linux:</strong> <code>kindle_disk_filler.sh</code></span>
+                    <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
+                    <span><strong>macOS/Linux:</strong> <code>Filler.sh</code></span>
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <div class="stepContent">
                 <p>Copy the downloaded script file to the root directory of your Kindle (the main folder you see when you open the Kindle as a USB drive).</p>
                 <img src="./Prevent/root-main.png"/>
-                <span><strong>Windows:</strong> <code>kindle_disk_filler.ps1</code></span><br/>
-                <span><strong>macOS/Linux:</strong> <code>kindle_disk_filler.sh</code></span>
+                <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
+                <span><strong>macOS/Linux:</strong> <code>Filler.sh</code></span>
             </div>
         </div>
           <div class="step">
@@ -72,17 +72,17 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                 <div class="version-block">
                     <p class="version-label">Windows:</p>
                     <p>Open File Explorer and navigate to your Kindle drive.</p>
-                    <p>Right-click <code>kindle_disk_filler.ps1</code> and select <strong>Run with PowerShell</strong>.</p>
+                    <p>Right-click <code>Filler.ps1</code> and select <strong>Run with PowerShell</strong>.</p>
                     <p>If you see an execution policy error, open PowerShell in the Kindle drive and run:</p>
-                    <pre><code>powershell -ExecutionPolicy Bypass -File .\kindle_disk_filler.ps1</code></pre>
+                    <pre><code>powershell -ExecutionPolicy Bypass -File .\Filler.ps1</code></pre>
                 </div>
                 <div class="version-block">
                     <p class="version-label">macOS/Linux:</p>
-                    <p>Open a terminal in the Kindle drive where <code>kindle_disk_filler.sh</code> is located.</p>
+                    <p>Open a terminal in the Kindle drive where <code>Filler.sh</code> is located.</p>
                     <p>Make it executable if needed:</p>
-                    <pre><code>chmod +x kindle_disk_filler.sh</code></pre>
+                    <pre><code>chmod +x Filler.sh</code></pre>
                     <p>Run the script:</p>
-                    <pre><code>./kindle_disk_filler.sh</code></pre>
+                    <pre><code>./Filler.sh</code></pre>
                 </div>
                 <img src="./Prevent/run-script.png"/>
               </div>     
