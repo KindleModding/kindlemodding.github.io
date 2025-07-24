@@ -17,11 +17,20 @@ Kindle devices can automatically download and install firmware updates when they
 - The device is connected to Wi-Fi, even briefly.
 - The Kindle is rebooted while connected to the internet.
 
-Filling the Kindle's storage (leaving only 20-50 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
+Filling the Kindle's storage (leaving only 50-200 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
 
 ## How to Fill the Kindle's Storage
 
+{: .warning}
+> Delete update-whatever.bin OR update.partial.bin, and turn on Airplane Mode!
+
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
+
+{: .note}
+> The Script will not work on 11th gen kindles and up due to Kindles ussing MTP to connect to comptuers.
+> Please manually fill your kindle by downloading the [zip file](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) below that matches your Kindle's storage. Extract it, then move the files onto the root of your kindle. Leave only 50-200MB of free.
+> If you need help, follow below but ignore Steps 3-5.
+
 
 <div id="guide">
     <div class="buttons">
