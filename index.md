@@ -31,6 +31,8 @@ Want to join our community?
 [Join Our Discord](https://dsc.gg/kindle-modding){: .btn .btn-purple }
 
 ## Useful Links
+[Kindlemodshelf](https://kindlemodshelf.me/)
+
 [Mobileread Forums](https://www.mobileread.com/forums/forumdisplay.php?f=150)
 
 [Kindle Nickname Table](https://wiki.mobileread.com/wiki/Kindle_Serial_Numbers)
