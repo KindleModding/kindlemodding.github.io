@@ -67,7 +67,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.11.x:</p>
                     <p>Unzip and copy the <code>renameotabin</code> folder to the <code>extensions</code> folder on your Kindle</p>
-                    <p class="warning">Delete any file with a name similar to <code>update.bin.tmp.partial</code> from your Kindle to prevent an automatic update</p>
+                    <p class="warning">Delete any file with a name similar to <code>update.bin.tmp.partial</code> or ending in <code>.bin</code> from your Kindle to prevent an automatic update</p>
                 </div>
             </div>
         </div>
