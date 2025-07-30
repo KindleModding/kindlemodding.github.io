@@ -29,6 +29,12 @@ lipc-get-prop <name> <property> # Get a property value
 lipc-get-prop com.lab126.btfd isBtchRunning # Check if BTch is running
 ~~~
 
+## Identifying what process owns a service
+To get the pid of the process that owns/registered a service, the following command can be used (where `name` is the name of the service, such as `com.lab126.btService`):
+~~~bash
+dbus-send --system --print-reply --dest=org.freedesktop.DBus / org.freedesktop.DBus.GetConnectionUnixProcessID string:<name>
+~~~
+Then, you can use `ps -p <pid>` to get the name of the process, or use `ps u -p <pid>` to get the full process command line.
 
 ## List of apps/services
 The following list was obtained via the following command run on the Kindle:
