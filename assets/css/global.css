@@ -1,3 +1,10 @@
+/* Make ads even less intrusive */
+#main-content > main
+{
+    min-height: 75vh;
+}
+
+/* Google consent popup styles */
 body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog, body > div.fc-consent-root > div.fc-dialog-container > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > *
 {
     background-color: #27262B !important;
