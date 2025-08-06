@@ -1,0 +1,106 @@
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog, body > div.fc-consent-root > div.fc-dialog-container > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > *
+{
+    background-color: #27262B !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-faq-contents
+{
+    background-color: #302d36 !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-header.fc-dialog-restricted-content > div > p, body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-header.fc-dialog-restricted-content > h1, body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-stacks.fc-dialog-restricted-content > ul > li > span, body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > button > *, body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-footer.fc-dialog-restricted-content > *, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog > h1, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog > div.fc-help-dialog-contents > div > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > * > *, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > * > div.fc-preference-title > *, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > * > label > *, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-body.fc-dialog-restricted-content > *, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header > div > p, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > * > div.fc-preference-description > ul > *
+{
+    color: white !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > div.fc-faq-contents > ul > li > a > span
+{
+    color: #CCC !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-do-not-consent.fc-secondary-button > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-navigation.fc-dialog-restricted-content > button
+{
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    padding: 0.3em 1em !important;
+    margin: 0 !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    color: #2c84fa !important;
+    text-decoration: none !important;
+    vertical-align: baseline !important;
+    cursor: pointer !important;
+    background-color: #302d36 !important;
+    border-width: 0 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08) !important;
+    appearance: none !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-consent.fc-primary-button > div
+{
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    padding: 0.3em 1em !important;
+    margin: 0 !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    text-decoration: none !important;
+    vertical-align: baseline !important;
+    cursor: pointer !important;
+    border-width: 0 !important;
+    border-radius: 4px !important;
+    appearance: none !important;
+    color: #fff !important;
+    background-color: #5739ce !important;
+    background-image: linear-gradient(#6f55d5, #5739ce) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12) !important;
+}
+
+body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog > div.fc-help-dialog-button-container
+{
+    background-color: #302d36 !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-do-not-consent.fc-secondary-button:hover > div, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog > div.fc-help-dialog-button-container:hover, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-navigation.fc-dialog-restricted-content > button:hover
+{
+    background-color: #2e2b33 !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-do-not-consent.fc-secondary-button:active > div, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog > div.fc-help-dialog-button-container:active, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-navigation.fc-dialog-restricted-content > button:active
+{
+    background-color: #29262e !important;
+    background-image: none !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15) !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-consent.fc-primary-button:hover > div
+{
+    color: #fff !important;
+    background-color: #5132cb !important;
+    background-image: linear-gradient(#6549d2, #5132cb) !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-footer-buttons-container > div.fc-footer-buttons > button.fc-button.fc-cta-consent.fc-primary-button:active > div
+{
+    background-color: #4f31c6 !important;
+    background-image: none !important;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15) !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > button > div
+{
+    background-color: #5739ce !important;
+    background-image: linear-gradient(#6f55d5, #5739ce) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12) !important;
+    border: none !important;
+}
+
+body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > button > div > span.notranslate.faq-section-closed > svg, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header > button > span > svg
+{
+    fill: white !important;
+}
