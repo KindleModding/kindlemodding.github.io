@@ -1,7 +1,19 @@
 [
   {
     "ad_placement": "This models.json is sponsored by KindleTool & Marek",
-    "ad_link": "https://ko-fi.com/notmarek"
+    "ad_link": "https://ko-fi.com/notmarek",
+
+    "release_year": 0,
+    "release_firmware": "",
+    "amazon_name": "",
+    "last_firmware": "",
+    "platform": "",
+    "board": "",
+    "jailbreak": "",
+    "generation_nickname": "",
+    "nicknames": [],
+    "serial_version": 0,
+    "serial_snippets": {}
   },
   {
     "release_year": 2007,
