@@ -1,15 +1,12 @@
 [
   {
-    "ad_placement": "This models.json is sponsored by KindleTool & Marek",
-    "ad_link": "https://ko-fi.com/notmarek",
-
     "release_year": 0,
     "release_firmware": "",
-    "amazon_name": "",
+    "amazon_name": "This models.json is sponsored by KindleTool & Marek",
     "last_firmware": "",
     "platform": "",
     "board": "",
-    "jailbreak": "",
+    "jailbreak": "<a href=\"https://ko-fi.com/notmarek\">https://ko-fi.com/notmarek</a>",
     "generation_nickname": "",
     "nicknames": [],
     "serial_version": 0,
