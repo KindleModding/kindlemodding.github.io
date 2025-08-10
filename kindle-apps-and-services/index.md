@@ -30,9 +30,11 @@ lipc-get-prop com.lab126.btfd isBtchRunning # Check if BTch is running
 ~~~
 
 ## Identifying what process owns a service
-To get the pid of the process that owns/registered a service, the following command can be used (where `name` is the name of the service, such as `com.lab126.btService`):
+To get the pid of the process that owns/registered a service, the following command can be used (where `<name>` is the name of the service, such as `com.lab126.btService`):
 ~~~bash
-dbus-send --system --print-reply --dest=org.freedesktop.DBus / org.freedesktop.DBus.GetConnectionUnixProcessID string:<name>
+dbus-send --system --print-reply --dest=org.freedesktop.DBus / org.freedesktop.DBus.GetConnectionUnixProcessID string:<name> # Longer Command
+
+gdbus call -y -d org.freedesktop.DBus -o / -m org.freedesktop.DBus.GetConnectionUnixProcessID <name> # Slightly Shorter Command
 ~~~
 Then, you can use `ps -p <pid>` to get the name of the process, or use `ps u -p <pid>` to get the full process command line.
 
