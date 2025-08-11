@@ -9,8 +9,7 @@
      function lessAds()
      {
           document.getElementById("ads").children[document.getElementById("ads").children.length - 1].remove();
-
-          localStorage.setItem("ads", document.getElementById("ads").children.length)
+          localStorage.setItem("ads", document.getElementById("ads").children.length);
      }
 
      function addAd()
@@ -59,7 +58,7 @@
      {
           addAd();
           (adsbygoogle = window.adsbygoogle || []).push({});
-          localStorage.setItem("ads", document.getElementById("ads").children.length)
+          localStorage.setItem("ads", document.getElementById("ads").children.length);
      }
 
      if (Number(localStorage.getItem("ads")) === null)
@@ -69,7 +68,7 @@
 
      while (Number(localStorage.getItem("ads")) > document.getElementById("ads").children.length)
      {
-          addAd()
+          addAd();
      }
 </script>
 
