@@ -1,7 +1,7 @@
 /* Make ads even less intrusive */
 #main-content > main
 {
-    min-height: 75vh;
+    min-height: 100vh;
 }
 
 /* Google consent popup styles */
