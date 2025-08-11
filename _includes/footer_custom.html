@@ -9,8 +9,6 @@ crossorigin="anonymous"></script>
 </div>
 
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-
      function lessAds()
      {
           document.getElementById("ads").children[document.getElementById("ads").children.length - 1].remove();
@@ -18,13 +16,7 @@ crossorigin="anonymous"></script>
           localStorage.setItem("ads", document.getElementById("ads").children.length)
      }
 
-     function noAds()
-     {
-          document.getElementById("ads").innerHTML = "";
-          localStorage.setItem("ads", 0);
-     }
-
-     function moreAds()
+     function addAd()
      {
           let advertNode = document.createElement("ins");
           advertNode.classList.add("adsbygoogle");
@@ -48,6 +40,17 @@ crossorigin="anonymous"></script>
           }
 
           document.getElementById("ads").appendChild(advertNode);
+     }
+
+     function noAds()
+     {
+          document.getElementById("ads").innerHTML = "";
+          localStorage.setItem("ads", 0);
+     }
+
+     function moreAds()
+     {
+          addAd();
           (adsbygoogle = window.adsbygoogle || []).push({});
           localStorage.setItem("ads", document.getElementById("ads").children.length)
      }
@@ -56,15 +59,10 @@ crossorigin="anonymous"></script>
      {
           localStorage.setItem("ads", 3);
      }
-
-     while (Number(localStorage.getItem("ads")) < document.getElementById("ads").children.length)
-     {
-          lessAds()
-     }
      
      while (Number(localStorage.getItem("ads")) > document.getElementById("ads").children.length)
      {
-          moreAds()
+          addAd()
      }
 </script>
 
