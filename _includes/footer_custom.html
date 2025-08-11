@@ -15,7 +15,7 @@
 
      function addAd()
      {
-          if (Number(localStorage.getItem("ads")) == 0)
+          if (document.getElementById("ads").children.length == 0)
           {
                const adScript = document.createElement("script");
                adScript.setAttribute("async", "true");
