@@ -4,21 +4,17 @@
 <!-- I'm just building an economy -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4468899728405672"
 crossorigin="anonymous"></script>
-<!-- KMC Footer Single Ad -->
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-4468899728405672"
-data-ad-slot="9487924817"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
+<div id="ads">
+     <!-- KMC Footer Single Ad -->
+     <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4468899728405672"
+     data-ad-slot="9487924817"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4468899728405672"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
+     <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
      data-ad-client="ca-pub-4468899728405672"
@@ -26,21 +22,74 @@ data-full-width-responsive="true"></ins>
      data-matched-content-rows-num="3"
      data-matched-content-columns-num="3"
      data-ad-slot="1868153772"></ins>
+     
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="autorelaxed"
+          data-ad-client="ca-pub-4468899728405672"
+          data-matched-content-ui-type="image_stacked"
+          data-matched-content-rows-num="3"
+          data-matched-content-columns-num="3"
+          data-ad-slot="1868153772"></ins>
+</div>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
+
+     function lessAds()
+     {
+          document.getElementById("ads").children[document.getElementById("ads").children.length - 1].remove();
+
+          localStorage.setItem("ads", document.getElementById("ads").children.length)
+     }
+
+     function noAds()
+     {
+          document.getElementById("ads").innerHTML = "";
+          localStorage.setItem("ads", 0);
+     }
+
+     function moreAds()
+     {
+          let advertNode = document.createElement("ins");
+          advertNode.classList.add("adsbygoogle");
+          advertNode.style.display = 'block';
+          advertNode.setAttribute("data-ad-client", "ca-pub-4468899728405672");
+
+          if (document.getElementById("ads").children.length == 0)
+          {
+               
+               advertNode.setAttribute("data-ad-slot", "9487924817");
+               advertNode.setAttribute("data-ad-format", "auto");
+               advertNode.setAttribute("data-full-width-responsive", "true");
+          }
+          else
+          {
+               advertNode.setAttribute("data-ad-format", "autorelaxed");
+               advertNode.setAttribute("data-matched-content-ui-type", "image_stacked");
+               advertNode.setAttribute("data-matched-content-rows-num", "3");
+               advertNode.setAttribute("data-matched-content-columns-num", "3");
+               advertNode.setAttribute("data-ad-slot", "1868153772");
+          }
+
+          document.getElementById("ads").appendChild(advertNode);
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          localStorage.setItem("ads", document.getElementById("ads").children.length)
+     }
+
+     if (localStorage.getItem("ads") !== null)
+     {
+          while (localStorage.getItem("ads") < document.getElementById("ads").children.length)
+          {
+               lessAds()
+          }
+          
+          while (localStorage.getItem("ads") > document.getElementById("ads").children.length)
+          {
+               moreAds()
+          }
+     }
 </script>
 
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4468899728405672"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-4468899728405672"
-     data-matched-content-ui-type="image_stacked"
-     data-matched-content-rows-num="3"
-     data-matched-content-columns-num="3"
-     data-ad-slot="1868153772"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<button onclick="lessAds()" class="btn">Less Ads</button>
+<button onclick="moreAds()" class="btn">More Ads</button>
+<button onclick="noAds()" class="btn">No Ads</button>
