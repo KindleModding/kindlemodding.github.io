@@ -52,17 +52,17 @@ crossorigin="anonymous"></script>
           localStorage.setItem("ads", document.getElementById("ads").children.length)
      }
 
-     if (localStorage.getItem("ads") === null)
+     if (Number(localStorage.getItem("ads")) === null)
      {
           localStorage.setItem("ads", 3);
      }
 
-     while (localStorage.getItem("ads") < document.getElementById("ads").children.length)
+     while (Number(localStorage.getItem("ads")) < document.getElementById("ads").children.length)
      {
           lessAds()
      }
      
-     while (localStorage.getItem("ads") > document.getElementById("ads").children.length)
+     while (Number(localStorage.getItem("ads")) > document.getElementById("ads").children.length)
      {
           moreAds()
      }
