@@ -2,9 +2,6 @@
 <!-- I'm just doing what comes naturally -->
 <!-- How ba-a-a-ad can I be? -->
 <!-- I'm just building an economy -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4468899728405672"
-crossorigin="anonymous"></script>
-
 <div id="ads">
 </div>
 
@@ -18,6 +15,15 @@ crossorigin="anonymous"></script>
 
      function addAd()
      {
+          if (Number(localStorage.getItem("ads")) == 0)
+          {
+               const adScript = document.createElement("script");
+               adScript.setAttribute("async", "true");
+               adScript.setAttribute("crossorigin", "anonymous");
+               adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4468899728405672"
+               document.body.appendChild(adScript);
+          }
+          
           let advertNode = document.createElement("ins");
           advertNode.classList.add("adsbygoogle");
           advertNode.style.display = 'block';
@@ -59,7 +65,7 @@ crossorigin="anonymous"></script>
      {
           localStorage.setItem("ads", 3);
      }
-     
+
      while (Number(localStorage.getItem("ads")) > document.getElementById("ads").children.length)
      {
           addAd()
