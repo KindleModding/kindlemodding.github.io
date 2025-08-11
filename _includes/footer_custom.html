@@ -63,7 +63,7 @@
 
      if (Number(localStorage.getItem("ads")) === null)
      {
-          localStorage.setItem("ads", 3);
+          localStorage.setItem("ads", 0);
      }
 
      while (Number(localStorage.getItem("ads")) > document.getElementById("ads").children.length)
@@ -72,6 +72,7 @@
      }
 </script>
 
+<p>People wouldn't shut up about it so there are no ads anymore - BUT if you want to put them back and support me you can:</p>
 <button onclick="lessAds()" class="btn">Less Ads</button>
 <button onclick="moreAds()" class="btn">More Ads</button>
 <button onclick="noAds()" class="btn">No Ads</button>
