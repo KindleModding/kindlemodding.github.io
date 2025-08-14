@@ -59,8 +59,9 @@ color_scheme: dark
 #  - kindle-os
 #  - firmware-and-flashing
 
+# The folder
 exclude:
-  - jb.sh # The folder
+  - jb.sh/
 
 callouts_level: loud # or loud
 callouts:
