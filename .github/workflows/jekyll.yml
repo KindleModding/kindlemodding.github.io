@@ -60,17 +60,15 @@ jobs:
           repository: KindleModding/kindle-sdk
           submodules: recursive
           path: kindle-sdk
-      - name: Setup kindle-sdk
+      - name: Setup kindle-sdk + dependencies
         run: |
-            sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev curl
+            sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
             bash ./kindle-sdk/gen-sdk.sh kindlepw2
             bash ./kindle-sdk/gen-sdk.sh kindlehf
-      - name: Install jb.sh dependencies
-        run: sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
       - name: Build jb.sh
         run: |
               cd jb.sh
-              sh ./build.sh
+              LOGGING=true ./build.sh
               cd ..
               cp jb.sh/build/jb.sh ./_site/
       - name: Upload artifact
