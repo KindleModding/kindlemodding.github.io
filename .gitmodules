@@ -1,0 +1,3 @@
+[submodule "jb.sh"]
+	path = jb.sh
+	url = https://github.com/KindleModding/jb.sh.git
