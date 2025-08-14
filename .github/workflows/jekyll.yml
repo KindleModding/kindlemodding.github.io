@@ -67,10 +67,10 @@ jobs:
             bash ./kindle-sdk/gen-sdk.sh kindlehf
       - name: Build jb.sh
         run: |
-              cd jb.sh
+              cd _jb.sh
               LOGGING=true ./build.sh
               cd ..
-              cp jb.sh/build/jb.sh ./_site/
+              cp _jb.sh/build/jb.sh ./_site/
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
