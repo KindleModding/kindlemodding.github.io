@@ -23,10 +23,6 @@ It is based on [Mesquito](../../mesquito/)
 > <br/>
 > RIP the original deadlines
 
-{: .warning}
-Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
-
-
 ## Prerequisites
 - You will need a PC
 - Your Kindle must be registered
@@ -35,9 +31,6 @@ Winterbreak/Mesquito does NOT work on firmware `5.18.1` and beyond.
 
 {: .highlight}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
-
-{: .note}
-If your Kindle is running a firmware version lower than `5.18.1` and **is not yet registered**, make sure to follow [these steps to prevent your Kindle from automatically updating](../prevent-auto-update.html) before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
 
 ## Installation Guide
 
@@ -52,6 +45,12 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
             <h2>Download the latest WinterBreak release:</h2>
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
+                <p class="note">
+                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process
+                </p>
+                <p class="warning">
+                    Winterbreak/Mesquito does NOT work on firmware <code>5.18.1</code> and beyond
+                </p>
             </div>
         </div>
         <div class="step">
@@ -91,7 +90,7 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
         <div class="step">
             <h2>Running WinterBreak</h2>
             <div class="stepContent">
-                <p>Once Mesquito has loaded, re-enable Airplane mode and click on the WinterBreak icon</p>
+                <p>Once Mesquito has loaded, click on the WinterBreak icon</p>
                 <img src="./winterbreak_launcher.png" />
             </div>
         </div>
@@ -99,7 +98,7 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
-                <p>If no funky text appears, retry the guide again with Airplane mode off. Once it does, turn Airplane mode back on and continue to the post-jailbreak stage
+                <p>If no funky text appears, retry the guide again. Once it does, <b>turn Airplane mode back on</b> and continue to the post-jailbreak stage
                 </p>
                 <p class="warning">
                     If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
@@ -117,20 +116,10 @@ If your Kindle is running a firmware version lower than `5.18.1` and **is not ye
 <script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
 
 # Troubleshooting
-## Kindle Store encountered an unexpected error
-> Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
 
 If an **“Unexpected error”** occurs when you try to log in to the Kindle Store or **only the Kindle Store home page** is displayed, try the following solutions:
 
-1. Factory Reset your Kindle
-2. Before registering - plug your Kindle into your PC, move the WinterBreak files to the root of your storage space
-3. Login to your account, and enable Airplane mode as soon as possible
-4. Connect your Kindle into your PC and delete the cache directory at the path `.active_content_sandbox/store/resource/LocalStorage` (skip this step if the `LocalStorage` directory does not exist)
-5. Reboot your Kindle
-6. Open the Kindle Store on your Kindle
-7. When prompted, click `Yes` to turn off Airplane mode
-
-### Alternative solution
+### LocalStorage Replacement
 
 1. After successfully registered, plug your Kindle into your PC and delete the `.active_content_sandbox` folder,  make sure to also delete any files with a name similar to `update.bin.tmp.partial` from your Kindle to prevent an automatic update
 2. Reboot your Kindle
@@ -140,6 +129,18 @@ If an **“Unexpected error”** occurs when you try to log in to the Kindle Sto
 6. Delete the cache directory in the path `.active_content_sandbox/store/resource/LocalStorage`. If this folder has not yet been generated, browse the Kindle Store for another couple of minutes until it is generated. Make sure to always delete the previously mentioned `update.bin.tmp.partial` file, especially before any rebooting
 7. Once deleted, copy the Winterbreak files to your Kindle and reboot
 8. Open the Kindle Store on your Kindle, when prompted, click `Yes` to turn off Airplane mode
+
+### Factory Reset
+> Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
+
+1. Factory Reset your Kindle
+2. Before registering - plug your Kindle into your PC, move the WinterBreak files to the root of your storage space
+3. Login to your account, and enable Airplane mode as soon as possible
+4. Connect your Kindle into your PC and delete the cache directory at the path `.active_content_sandbox/store/resource/LocalStorage` (skip this step if the `LocalStorage` directory does not exist)
+5. Reboot your Kindle
+6. Open the Kindle Store on your Kindle
+7. When prompted, click `Yes` to turn off Airplane mode
+
 
 # Special Thanks To Our Courageous Beta Testers
 - Crystals (Bricked their PW4 testing)

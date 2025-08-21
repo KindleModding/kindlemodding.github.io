@@ -67,7 +67,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.11.x:</p>
                     <p>Unzip and copy the <code>renameotabin</code> folder to the <code>extensions</code> folder on your Kindle</p>
-                    <p class="warning">Delete any file with a name similar to <code>update.bin.tmp.partial</code> from your Kindle to prevent an automatic update</p>
+                    <p class="warning">Delete any file with a name similar to <code>update.bin.tmp.partial</code> or ending in <code>.bin</code> from your Kindle to prevent an automatic update</p>
                 </div>
             </div>
         </div>
@@ -119,7 +119,6 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
                     <p>If you want to factory reset, downgrade or update your Kindle, you will <strong>need</strong> to restore the update binaries by opening KUAL, selecting <code>Rename OTA Binaries</code> and then selecting <code>Restore</code> instead of rename</p>
                 </div>
                 <p class="highlight">You can now safely turn off Airplane Mode and re-enable WiFi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
-                <p class="note">If you want to maintain access to the Kindle Store, check out the guide for <a href="re-enabling-the-store">Re-enabling the Store</a></p>
             </div>
         </div>
     </div>
