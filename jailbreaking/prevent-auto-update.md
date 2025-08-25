@@ -22,14 +22,16 @@ Filling the Kindle's storage (leaving only 50-200 MB free) prevents the device f
 ## How to Fill the Kindle's Storage
 
 {: .warning}
-> Delete update-whatever.bin OR update.partial.bin, and turn on Airplane Mode!
+> Delete `update-whatever.bin` OR `update.partial.bin`, and turn on Airplane Mode!
 
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
 
 {: .note}
-> The Script will not work on 11th gen kindles and up due to Kindles ussing MTP to connect to comptuers.
-> Please manually fill your kindle by downloading the [zip file](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) below that matches your Kindle's storage. Extract it, then move the files onto the root of your kindle. Leave only 50-200MB of free.
-> If you need help, follow below but ignore Steps 3-5.
+> The script will not work on 11th gen Kindles and newer because these devices use MTP to connect to computers
+>
+> If this is your situation, you have two options:
+> 1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide
+> 2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–200 MB of free space
 
 
 <div id="guide">
@@ -43,7 +45,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <h2>1. Put Your Kindle in Airplane Mode</h2>
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
-                <img src="./Winterbreak/airplane_mode.png" />
+                <img src="./WinterBreak/airplane_mode.png" />
             </div>
         </div>
         <div class="step">
@@ -129,6 +131,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
     </div>
 </div>
 <style>
+
 .version-block {
     background-color: #1e1e1e;
     border-radius: 8px;
@@ -145,7 +148,8 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
     color: #369d36;
 }
 </style>
-<script>new Guide("guide");</script>
+
+<script>new Guide("guide", "./getting-started", "Jailbreak");</script>
 
 ---
 

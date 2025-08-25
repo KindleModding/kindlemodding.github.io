@@ -62,7 +62,8 @@ Ensure you've [disabled OTA Updates](../disable-ota) before re-enabling the stor
         <button class="btn btn-green" id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide");</script>
+
+<script>new Guide("guide", "../koreader", "Install KOReader");</script>
 
 ## Troubleshooting
 
