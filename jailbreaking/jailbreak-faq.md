@@ -175,7 +175,7 @@ If you still want to change the screensavers, check the details of your default 
 Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export the images.
 
 {: .highlight}
-If you are, however, running soft-float firmware prior to or on 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake in installing this extension on hard-float firmware.**
+If you are, however, running soft-float firmware prior to or on 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake of installing this extension on hard-float firmware.**
 
 {: .note}
 You can easily change screensavers with [KOReader](https://koreader.rocks/user_guide/) (search for the "screensavers" feature).
