@@ -19,7 +19,7 @@ Most of these instructions are subjected to changes due to newer jailbreaks, pat
 
 Winterbreak needs your Kindle to be registered, it also needs a valid, internet-connected WiFi network saved.
 
-It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on firmware below `5.16.2.1.1`. You can find these jailbreaking methods in [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
+It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on or below firmware `5.16.2.1.1`. You can find these jailbreaking methods in [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
 
 ### My Kindle updated to a firmware version that doesn't have any jailbreak method! Can I still jailbreak it?
 
@@ -61,7 +61,7 @@ Probably.
 
 ### What does soft-float and hard-float firmware means?
 
-After version 5.16.3, Kindles started using hard-float architecture (on-chip floating point unit) for most processing tasks, compared to the soft-float architecture, which emulated in software.
+Starting with version 5.16.3, Kindles started using hard-float architecture (on-chip floating point unit) for most processing tasks, compared to the soft-float architecture, which emulated in software.
 
 While the underlying system appears mostly the same, many internal changes have made a lot of jailbreaking tools and extensions unusable in modern firmware versions.
 
@@ -175,7 +175,7 @@ If you still want to change the screensavers, check the details of your default 
 Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export the images.
 
 {: .highlight}
-If you are, however, running soft-float firmware prior to 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake in installing this extension on hard-float firmware.**
+If you are, however, running soft-float firmware prior to or on 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake in installing this extension on hard-float firmware.**
 
 {: .note}
 You can easily change screensavers with [KOReader](https://koreader.rocks/user_guide/) (search for the "screensavers" feature).
