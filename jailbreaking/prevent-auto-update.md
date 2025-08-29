@@ -17,7 +17,7 @@ Kindle devices can automatically download and install firmware updates when they
 - The device is connected to Wi-Fi, even briefly.
 - The Kindle is rebooted while connected to the internet.
 
-Filling the Kindle's storage (leaving only 50-200 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
+Filling the Kindle's storage (leaving only 20-90 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
 
 ## How to Fill the Kindle's Storage
 
@@ -30,8 +30,8 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
 > The script will not work on 11th gen Kindles and newer because these devices use MTP to connect to computers
 >
 > If this is your situation, you have two options:
-> 1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide
-> 2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–200 MB of free space
+> 1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide (or before doing any rebooting)
+> 2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 20–90 MB of free space
 
 
 <div id="guide">
@@ -103,7 +103,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <div class="stepContent">
                 <p>Eject your Kindle from your computer.</p>
                 <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
-                <p>Check that the available storage is <strong>20 MB or less</strong>.</p>
+                <p>Check that the available storage is <strong>20-90 MB or less</strong>.</p>
                 <img src="./Prevent/final.png"/>
             </div>
         </div>
@@ -155,7 +155,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
 
 ## After Jailbreak: Freeing Up Space
 
-Once you have completed the jailbreak process, you can safely delete the `fill_disk` folder to recover storage space. You may also remove only some of the files if you want to keep the disk nearly full for a while longer.
+Once you have completed the jailbreak process and disabled the OTA Updates, you can safely delete the `fill_disk` folder to recover storage space. You may also remove only some of the files if you want to keep the disk nearly full for a while longer.
 
 - **Windows:**  
   Open File Explorer and navigate to the folder containing `fill_disk`. Delete the `fill_disk` folder, or remove individual files inside it.
