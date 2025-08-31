@@ -1,18 +1,5 @@
 [
   {
-    "release_year": 0,
-    "release_firmware": "",
-    "amazon_name": "This models.json is sponsored by KindleTool & Marek",
-    "last_firmware": "",
-    "platform": "",
-    "board": "",
-    "jailbreak": "<a href=\"https://ko-fi.com/notmarek\">https://ko-fi.com/notmarek</a>",
-    "generation_nickname": "",
-    "nicknames": [],
-    "serial_version": 0,
-    "serial_snippets": {}
-  },
-  {
     "release_year": 2007,
     "release_firmware": "???",
     "amazon_name": "Kindle (1st Generation)",
@@ -1088,7 +1075,7 @@
   {
     "release_year": 2024,
     "release_firmware": "5.18.0",
-    "amazon_name": "Kindle Colorsoft (12th Generation)",
+    "amazon_name": "Kindle Colorsoft (1st Generation)",
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix4",
     "board": "Seabreeze",
@@ -1138,6 +1125,26 @@
       "456": {
         "kindletool_name": "KindleColorSoftUnknown_456",
         "amazon_model_id": "A2CU9ZQDNZFID4"
+      }
+    }
+  },
+  {
+    "release_year": 2025,
+    "release_firmware": "5.18.0",
+    "amazon_name": "Kindle Colorsoft (2nd Generation)",
+    "last_firmware": "Not Yet Discontinued",
+    "platform": "UNKNOWN",
+    "board": "UNKNOWN",
+    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.0.1.0.1</a>",
+    "generation_nickname": "CS2",
+    "nicknames": [
+      "CS2"
+    ],
+    "serial_version": 1,
+    "serial_snippets": {
+      "455": {
+        "kindletool_name": "KindleColorSoft2Unknown_455",
+        "amazon_model_id": "UNKNOWN"
       }
     }
   }
