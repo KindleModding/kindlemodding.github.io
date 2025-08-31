@@ -1125,26 +1125,14 @@
       "456": {
         "kindletool_name": "KindleColorSoftUnknown_456",
         "amazon_model_id": "A2CU9ZQDNZFID4"
-      }
-    }
-  },
-  {
-    "release_year": 2025,
-    "release_firmware": "5.18.0",
-    "amazon_name": "Kindle Colorsoft (2nd Generation)",
-    "last_firmware": "Not Yet Discontinued",
-    "platform": "UNKNOWN",
-    "board": "UNKNOWN",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.0.1.0.1</a>",
-    "generation_nickname": "CS2",
-    "nicknames": [
-      "CS2"
-    ],
-    "serial_version": 1,
-    "serial_snippets": {
+      },
       "455": {
-        "kindletool_name": "KindleColorSoft2Unknown_455",
-        "amazon_model_id": "UNKNOWN"
+        "kindletool_name": "KindleColorSoftUnknown_4EP",
+        "amazon_model_id": "A2CU9ZQDNZFID4"
+      },
+      "4EP": {
+        "kindletool_name": "KindleColorSoftUnknown_4EP",
+        "amazon_model_id": "A2CU9ZQDNZFID4"
       }
     }
   }
