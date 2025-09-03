@@ -186,7 +186,7 @@ You can easily change screensavers with [KOReader](https://koreader.rocks/user_g
 Type `;log` into the search bar, if a message pop ups, you're jailbroken.
 
 ### KUAL stopped working!/I can't no longer launch any of my extensions!
-Verify if your device is still jailbroken by typing `log;` into the search bar.
+Verify if your device is still jailbroken by typing `;log` into the search bar.
 
 - If it prompted any text, [re-install the hotfix and KUAL](https://kindlemodding.org/jailbreaking/post-jailbreak/setting-up-a-hotfix/) from scratch.
 - If not [re-jailbreak](https://kindlemodding.org/jailbreaking/getting-started.html) your device.
