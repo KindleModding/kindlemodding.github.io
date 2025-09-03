@@ -12,7 +12,7 @@
       "K1"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "01": {
         "kindletool_name": "Kindle1",
         "amazon_model_id": "ATVPDKIKX0DER"
@@ -32,7 +32,7 @@
       "K2"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "02": {
         "kindletool_name": "Kindle2US",
         "amazon_model_id": "A3UN6WX5RRO2AG"
@@ -56,7 +56,7 @@
       "DX"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "04": {
         "kindletool_name": "KindleDXUS",
         "amazon_model_id": "A1PA6795UKMFR9"
@@ -85,7 +85,7 @@
       "K3G"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "06": {
         "kindletool_name": "Kindle3WiFi3G",
         "amazon_model_id": "A1VC38T7YXB528"
@@ -114,7 +114,7 @@
       "K4S"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "0E": {
         "kindletool_name": "Kindle4NonTouch",
         "amazon_model_id": "A3R76HOPU0Z2CB"
@@ -135,7 +135,7 @@
       "K5"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "0F": {
         "kindletool_name": "Kindle5TouchWiFi3G",
         "amazon_model_id": "A1IM4EOPHS76S7"
@@ -168,7 +168,7 @@
       "PWG"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "1B": {
         "kindletool_name": "KindlePaperWhiteWiFi3G",
         "amazon_model_id": "A1JYRMDPD0WRC1"
@@ -209,7 +209,7 @@
       "K4B"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "23": {
         "kindletool_name": "Kindle4NonTouchBlack",
         "amazon_model_id": "AMMK0LS9EDNM8"
@@ -230,7 +230,7 @@
       "PW2J"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "5A": {
         "kindletool_name": "KindlePaperWhite2WiFiJapan",
         "amazon_model_id": "A1XFE4LQM16OSW"
@@ -302,7 +302,7 @@
       "KV"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "13": {
         "kindletool_name": "KindleVoyageWiFi",
         "amazon_model_id": "A3FE7AD5N5R11"
@@ -343,7 +343,7 @@
       "BASIC"
     ],
     "serial_version": 0,
-    "serial_snippets": {
+    "device_codes": {
       "C6": {
         "kindletool_name": "KindleBasic",
         "amazon_model_id": "A2TNPB8EVLW5FA"
@@ -367,7 +367,7 @@
       "PW3"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0G1": {
         "kindletool_name": "KindlePaperWhite3WiFi",
         "amazon_model_id": "A21RY355YUXQAF"
@@ -443,7 +443,7 @@
       "KOA"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0GC": {
         "kindletool_name": "KindleOasisWiFi",
         "amazon_model_id": "A2NP90AR02CXEG"
@@ -483,7 +483,7 @@
       "KT3"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0DU": {
         "kindletool_name": "KindleBasic2Unknown_0DU",
         "amazon_model_id": null
@@ -511,7 +511,7 @@
       "KM"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0NG": {
         "kindletool_name": "UNSUPPORTED",
         "amazon_model_id": "UNKNOWN"
@@ -531,7 +531,7 @@
       "KOA2"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0LM": {
         "kindletool_name": "KindleOasis2Unknown_0LM",
         "amazon_model_id": "A2AVNKP6ZINL5"
@@ -607,7 +607,7 @@
       "PW4"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "0PP": {
         "kindletool_name": "KindlePaperWhite4WiFi8GB",
         "amazon_model_id": "AJRLVDTOPT1LE"
@@ -711,7 +711,7 @@
       "KT4"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "10L": {
         "kindletool_name": "KindleBasic3",
         "amazon_model_id": "AHU5VU98ZZYIL"
@@ -752,7 +752,7 @@
       "KOA3W32C"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "11L": {
         "kindletool_name": "KindleOasis3WiFi32GBChampagne",
         "amazon_model_id": "A2NW3VDYR5P8Z0"
@@ -793,7 +793,7 @@
       "PW5SE"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "1LG": {
         "kindletool_name": "KindlePaperWhite5SignatureEdition",
         "amazon_model_id": "A328XUBPG464LQ"
@@ -845,7 +845,7 @@
       "KT5"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "22D": {
         "kindletool_name": "KindleBasic4Unknown_22D",
         "amazon_model_id": "A1S35GJCTB6VUN"
@@ -889,7 +889,7 @@
       "KS"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "27J": {
         "kindletool_name": "KindleScribeUnknown_27J",
         "amazon_model_id": "A12KI9K1KHHBVF"
@@ -937,7 +937,7 @@
       "KT6"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "3L5": {
         "kindletool_name": "KindleBasic5Unknown_3L5",
         "amazon_model_id": "A2AJ1N357FEMTV"
@@ -981,7 +981,7 @@
       "PW6"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "349": {
         "kindletool_name": "KindlePaperWhite6Unknown_349",
         "amazon_model_id": "A1BF5SA90HOYO2"
@@ -1037,7 +1037,7 @@
       "KS2"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "3V0": {
         "kindletool_name": "KindleScribe2Unknown_3V0",
         "amazon_model_id": "A3TY6T3X94EBV6"
@@ -1085,7 +1085,7 @@
       "CS"
     ],
     "serial_version": 1,
-    "serial_snippets": {
+    "device_codes": {
       "3H9": {
         "kindletool_name": "KindleColorSoftUnknown_3H9",
         "amazon_model_id": "A2CU9ZQDNZFID4"

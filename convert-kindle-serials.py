@@ -573,7 +573,7 @@ for model in model_tuples:
             "generation_nickname": modelData["generation_nicknames"][0],
             "nicknames": modelData["generation_nicknames"],             # The community nickname(s) for the Kindle ([PW4-32, PW4LGB] vs PW4)
             "serial_version": -1,                                        # -1: unknown, 0: old version, 1: base32 version (it's an int godforbid amazon changes it again)
-            "serial_snippets": {},
+            "device_codes": {},
         })
         del modelData["generation_nicknames"]
 
@@ -581,13 +581,13 @@ for model in model_tuples:
             modelData["serial_version"] = 0
             print(modelName, '(old style) -', modelInt)
             serial = hex(modelInt).split('x')[-1].upper().rjust(2, '0')
-            modelData["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
+            modelData["device_codes"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
             print(f"[OLD] {modelName} - {serial} | {modelInt}")
         else:
             modelData["serial_version"] = 1
             serial = int_to_serial(modelInt)
             newMagicInt = serial_to_int(serial)
-            modelData["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
+            modelData["device_codes"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
 
             if (modelInt != newMagicInt):
                 print("[FAIL]", modelName, '-', serial, '|', modelInt, '==', newMagicInt)
@@ -599,7 +599,7 @@ for model in model_tuples:
             serial = int_to_serial(modelInt)
         else:
             serial = hex(modelInt).split('x')[-1].upper().rjust(2, '0')
-        newModelMap[index]["serial_snippets"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
+        newModelMap[index]["device_codes"][serial] = { "kindletool_name": modelName, "amazon_model_id": modelId }
 
 with open('./models.json', 'w') as file:
     file.write(json.dumps(newModelMap, indent=2))

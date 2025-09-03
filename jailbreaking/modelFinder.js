@@ -10,7 +10,7 @@ function getSerialInfo(serial) {
 
         return {
             "serial_version": 1,
-            "serial_snippet": serial.substring(3, 6)
+            "device_code": serial.substring(3, 6)
         }
     } else if (serial[0] == "B" || serial[0] == "9") {
         if (serial.length < 4) {
@@ -19,7 +19,7 @@ function getSerialInfo(serial) {
 
         return {
             "serial_version": 0,
-            "serial_snippet": serial.substring(2, 4)
+            "device_code": serial.substring(2, 4)
         }
     } else {
         return -2;
@@ -40,10 +40,10 @@ function searchForSerial() {
     searchStatus.innerText = "";
 
     // Validate serial number
-    if (serialNumber.length == 2 || serialNumber.length == 3) { // Allow developers to search serial snippet directly
+    if (serialNumber.length == 2 || serialNumber.length == 3) { // Allow developers to search device codes directly
         serialInfo = {
             serial_version: serialNumber.length == 2 ? 0 : 1, // Kinda messy but it works
-            serial_snippet: serialNumber
+            device_code: serialNumber
         }
     } else {
         try {
@@ -66,7 +66,7 @@ function searchForSerial() {
             if (kindle.serial_version < serialInfo.serial_version) {
                 continue; // Skip wrong version Kindle models
             } else {
-                if (Object.keys(kindle.serial_snippets).includes(serialInfo.serial_snippet)) {
+                if (Object.keys(kindle.device_codes).includes(serialInfo.device_code)) {
                     // Kindle found
                     
                     // Create header
@@ -82,12 +82,12 @@ function searchForSerial() {
                     ]
 
                     const secondaryKindleInfo = [
-                        ["KindleTool Name", kindle.serial_snippets[serialInfo.serial_snippet].kindletool_name],
+                        ["KindleTool Name", kindle.device_codes[serialInfo.device_code].kindletool_name],
                         ["Release Firmware", kindle.release_firmware],
                         ["Last Firmware Update", kindle.last_firmware],
                         ["Kindle Platform Name", kindle.platform],
                         ["Kindle Board Name", kindle.board],
-                        ["Kindle Serial Snippet", serialInfo.serial_snippet]
+                        ["Kindle Serial Snippet", serialInfo.device_code]
                     ]
 
                     const mainTable = document.createElement("table");
@@ -188,7 +188,7 @@ function generateTable() {
         kindleNickname.innerText = kindle.nicknames.join(', ');
         latestFirmware.innerText = kindle.last_firmware;
         recommendedJailbreak.innerHTML = kindle.jailbreak;
-        kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.serial_snippets)}</code>`;
+        kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.device_codes)}</code>`;
 
         tableRow.appendChild(amazonName);
         tableRow.appendChild(kindleNickname);
