@@ -12,7 +12,7 @@ function getSerialInfo(serial) {
             "serial_version": 1,
             "device_code": serial.substring(3, 6)
         }
-    } else if (serial[0] == "B" || serial[0] == "9") {
+    } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"].includes(serial[0])) {
         if (serial.length < 4) {
             return -1
         }
