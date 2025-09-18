@@ -1,25 +1,42 @@
 ---
 permalink: /404.html
-layout: default
 ---
+{% include head_global.html %}
+
+<link href="/assets/css/global.css" rel="stylesheet">
 
 <style type="text/css" media="screen">
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
   .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
+    margin-bottom: 0;
+  }
+  p
+  {
+    margin-top: 0;
   }
 </style>
 
 <div class="container">
   <h1>404</h1>
+  <p><strong>Page not found</strong></p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <a class="button" href="/">Go Home</a>
 </div>

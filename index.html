@@ -1,0 +1,83 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    {% include head_global.html %}
+
+    <link href="/assets/css/global.css" rel="stylesheet">
+
+    <style>
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 100vw;
+            min-height: 100vh;
+        }
+
+        .landing-section
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttons
+        {
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            max-width: 60vw;
+        }
+
+        .buttons > *
+        {
+            min-width: 0;
+            margin: 1em;
+        }
+
+        @media (max-width: 500px) {
+            .buttons
+            {
+                max-width: unset !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-section card" style="margin-bottom: 3em; margin-top: 2em;">
+        <h1>Kindle Modding Wiki</h1>
+        <p>Welcome to the Kindle Modding Wiki</p>
+        <p>Your one-stop shop for all things related to hacking Kindles</p>
+        <a class="button" href="/jailbreaking/getting-started.html">Get Started</a>
+    </div>
+
+    <div class="landing-section buttons">
+        <a class="card" href="/jailbreaking/getting-started.html">
+            <h2>Get Started</h2>
+            <p>Get started with jailbreaking your Kindle</p>
+        </a>
+
+        <a class="card" href="/internals/">
+            <h2>Hacker Corner</h2>
+            <p>Documentation regarding Kindle internals</p>
+        </a>
+
+        <a class="card" href="/kindle-dev/">
+            <h2>Developer Documentation</h2>
+            <p>Documentation for homebrew developers</p>
+        </a>
+
+        <a class="card" href="https://discord.gg/kindle">
+            <h2>Discord</h2>
+            <p>Join our Discord</p>
+        </a>
+    </div>
+</body>
+</html>

@@ -26,13 +26,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KindleModding
 
-# Build settings
-#theme: minima
-theme: just-the-docs
-color_scheme: dark
-#plugins:
-#  - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -58,20 +51,3 @@ color_scheme: dark
 #  - kindle-apps-and-services/
 #  - kindle-os
 #  - firmware-and-flashing
-
-callouts_level: loud # or loud
-callouts:
-  highlight:
-    color: yellow
-  important:
-    title: Important
-    color: purple
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
-  warning:
-    title: Warning
-    color: red

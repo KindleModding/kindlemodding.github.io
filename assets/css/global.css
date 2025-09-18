@@ -1,8 +1,54 @@
-/* Make ads even less intrusive */
-#main-content > main
+html, body
 {
-    min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
+
+body
+{
+    background: radial-gradient(transparent 50%, white 100%), linear-gradient(0deg, #CCC 2px, transparent 2px), linear-gradient(90deg, #CCC 2px, transparent 2px);
+    background-repeat: repeat;
+    background-size: 48px 48px;
+}
+
+* {
+    font-family: "Libre Baskerville", serif;
+}
+
+button, .button
+{
+    padding: 1em;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.card
+{
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #b3b3b3,
+        -5px -5px 10px #ffffff;
+
+    padding: 1em;
+    transition: box-shadow 0.5s;
+    text-decoration: none;
+    color: unset !important;
+    max-width: calc(90% - 2em);
+}
+
+.card:hover
+{
+    box-shadow:  15px 15px 30px #b3b3b3,
+        -15px -15px 30px #ffffff;
+}
+
+
 
 /* Google consent popup styles */
 body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog, body > div.fc-consent-root > div.fc-dialog-container > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > *
