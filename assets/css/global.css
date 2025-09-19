@@ -67,7 +67,6 @@ a:hover {
 {
     padding: 0.5em;
     width: calc(100% - 1em - 25px);
-    background-color: #EEE;
     transition: box-shadow 0.5s, transform 0.5s;
     position: relative; /* Fixes z-index on summary */
     z-index: 998;
@@ -76,14 +75,14 @@ a:hover {
 
 .navbar .active
 {
-    box-shadow: inset 3px 3px 6px #a8a8a8,
+    box-shadow: inset 3px 3px 6px #bfbfbf,
         inset -3px -3px 6px #ffffff;
 }
 
 .navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
 {
     transform: translateX(0.5em);
-    box-shadow:  5px 5px 10px #a8a8a8,
+    box-shadow:  5px 5px 10px #bfbfbf,
                 -5px -5px 10px #ffffff;
     z-index: 999;
 }
@@ -132,8 +131,13 @@ button, .button
 
 pre
 {
-    font-family: 'Courier New', Courier, monospace;
     border: solid 3px #EEE;
+    overflow: auto;
+}
+
+pre, pre > *
+{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img

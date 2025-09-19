@@ -17,7 +17,7 @@ You only need to enter the first 8 characters of your serial number, not all 16 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <h3>Enter your Kindle's serial number here</h3>
     <p id="searchStatus"></p>
-    <input type="text" id="serialNumber" onchange="searchForSerial()" style="width: 100%; height: 100%; padding: 0.5rem 1rem 0.5rem 2.5rem; font-size: 16px; color: #e6e1e8; background-color: #302d36; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0; border-radius: 0; text-align: center;">
+    <input type="text" id="serialNumber" onchange="searchForSerial()" style="width: 90%; height: 100%; padding: 0.5rem 1rem 0.5rem 2.5rem; font-size: 16px; border: 3px solid #EEE; background: #DDD; text-align: center;">
     <button class="btn" style="margin-top: 0.5em;" onclick="searchForSerial()">Find Model</button>
 </div>
 
