@@ -14,7 +14,9 @@
           {{ content }}
         </div>
 
-        {% include footer.html %}
+        {% if page.landing != true %}
+          {% include footer.html %}
+        {% endif %}
       </div>
     </div>
   </body>

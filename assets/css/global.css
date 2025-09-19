@@ -27,11 +27,9 @@ a:hover {
 
 .pageContent
 {
-    height: 100%;
+    height: 100vh;
     overflow: auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .mainContent
@@ -44,7 +42,7 @@ a:hover {
 
 .navbar
 {
-    max-height: calc(100vh - 0.5em);
+    position: sticky;
     overflow-x: hidden;
     overflow-y: auto;
     width: calc(25vw - 1em);
@@ -52,6 +50,8 @@ a:hover {
     padding-right: 0; /* Space for pushing! */
     background-color: #FFF;
     user-select: none;
+    border-right: solid 3px #EEE;
+    padding-bottom: 0;
 }
 
 .navbar a
@@ -74,10 +74,16 @@ a:hover {
     overflow: hidden;
 }
 
-.navbar a:not(summary > a):not(h1 > a):hover, .navbar summary:hover
+.navbar .active
+{
+    box-shadow: inset 3px 3px 6px #a8a8a8,
+        inset -3px -3px 6px #ffffff;
+}
+
+.navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
 {
     transform: translateX(0.5em);
-    box-shadow:  5px 5px 10px #aaaaaa,
+    box-shadow:  5px 5px 10px #a8a8a8,
                 -5px -5px 10px #ffffff;
     z-index: 999;
 }
@@ -101,11 +107,13 @@ a:hover {
 
 .footer
 {
+    margin-top: 1em;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #FFF;
     align-items: end;
+    border-top: solid 3px #EEE;
 }
 
 
@@ -120,6 +128,18 @@ button, .button
     border-radius: 5px;
     cursor: pointer;
     text-decoration: unset;
+}
+
+pre
+{
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 3px #EEE;
+}
+
+img
+{
+    object-fit: contain;
+    max-height: 50vh;
 }
 
 .card

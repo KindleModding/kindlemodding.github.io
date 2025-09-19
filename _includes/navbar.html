@@ -4,9 +4,9 @@
     </div>
 
     {% assign pages = site.pages | sort: "nav_order" %}
-    {% for page in pages %}
-        {% if page.parent == nil and page.title != nil %}
-            {% include nav_item.html page=page %}
+    {% for item in pages %}
+        {% if item.parent == nil and item.title != nil %}
+            {% include nav_item.html page=item current=page %}
         {% endif %}
     {% endfor %}
 </div>
