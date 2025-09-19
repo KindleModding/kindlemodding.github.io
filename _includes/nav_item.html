@@ -1,0 +1,15 @@
+{% if page.has_children != true %}
+    <a class="{% if item.url == page.url %}active{% endif %}" href="{{include.page.url}}">{{include.page.title}}</a>
+{% else %}
+    <details>
+        <summary><a class="{% if item.url == page.url %}active{% endif %}" href="{{include.page.url}}">{{include.page.title}}</a></summary>
+        <div>
+            {% assign pages = site.pages | sort: "nav_order" %}
+            {% for page in pages %}
+                {% if page.parent == include.page.title and include.page.title != nil %}
+                    {% include nav_item.html page=page %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </details>
+{% endif %}

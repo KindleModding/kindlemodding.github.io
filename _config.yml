@@ -47,7 +47,7 @@ github_username:  KindleModding
 #   - vendor/ruby/
 
 # For dev only
-#exclude:
-#  - kindle-apps-and-services/
-#  - kindle-os
-#  - firmware-and-flashing
+exclude:
+  - kindle-apps-and-services/
+  - kindle-os
+  - firmware-and-flashing

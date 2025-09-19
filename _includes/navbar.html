@@ -1,0 +1,12 @@
+<div class="navbar">
+    <div>
+        <h1><a href="/" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
+    </div>
+
+    {% assign pages = site.pages | sort: "nav_order" %}
+    {% for page in pages %}
+        {% if page.parent == nil and page.title != nil %}
+            {% include nav_item.html page=page %}
+        {% endif %}
+    {% endfor %}
+</div>

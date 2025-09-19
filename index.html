@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     {% include head_global.html %}
 
     <link href="/assets/css/global.css" rel="stylesheet">
@@ -19,6 +18,9 @@
             width: 100%;
             max-width: 100vw;
             min-height: 100vh;
+            background: radial-gradient(transparent 50%, white 100%), linear-gradient(0deg, #CCC 2px, transparent 2px), linear-gradient(90deg, #CCC 2px, transparent 2px);
+            background-repeat: repeat;
+            background-size: 48px 48px;
         }
 
         .landing-section
@@ -64,14 +66,14 @@
             <p>Get started with jailbreaking your Kindle</p>
         </a>
 
-        <a class="card" href="/internals/">
-            <h2>Hacker Corner</h2>
-            <p>Documentation regarding Kindle internals</p>
-        </a>
-
         <a class="card" href="/kindle-dev/">
             <h2>Developer Documentation</h2>
             <p>Documentation for homebrew developers</p>
+        </a>
+        
+        <a class="card" href="/internals/">
+            <h2>Hacker Corner</h2>
+            <p>Documentation regarding Kindle internals</p>
         </a>
 
         <a class="card" href="https://discord.gg/kindle">

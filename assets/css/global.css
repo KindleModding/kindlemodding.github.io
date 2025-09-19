@@ -4,16 +4,110 @@ html, body
     margin: 0;
 }
 
-body
-{
-    background: radial-gradient(transparent 50%, white 100%), linear-gradient(0deg, #CCC 2px, transparent 2px), linear-gradient(90deg, #CCC 2px, transparent 2px);
-    background-repeat: repeat;
-    background-size: 48px 48px;
-}
-
 * {
     font-family: "Libre Baskerville", serif;
 }
+
+a {
+    color: #00F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pageWrapper
+{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.pageContent
+{
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent
+{
+    min-height: 100vh;
+    align-self: center;
+    padding: 0 1em;
+    max-width: 100%;
+}
+
+.navbar
+{
+    max-height: calc(100vh - 0.5em);
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: calc(25vw - 1em);
+    padding: 0.5em;
+    padding-right: 0; /* Space for pushing! */
+    background-color: #FFF;
+    user-select: none;
+}
+
+.navbar a
+{
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #00F;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.navbar a, .navbar summary
+{
+    padding: 0.5em;
+    width: calc(100% - 1em - 25px);
+    background-color: #EEE;
+    transition: box-shadow 0.5s, transform 0.5s;
+    position: relative; /* Fixes z-index on summary */
+    z-index: 998;
+    overflow: hidden;
+}
+
+.navbar a:not(summary > a):not(h1 > a):hover, .navbar summary:hover
+{
+    transform: translateX(0.5em);
+    box-shadow:  5px 5px 10px #aaaaaa,
+                -5px -5px 10px #ffffff;
+    z-index: 999;
+}
+
+.navbar summary > a
+{
+    padding: 0 !important;
+    background-color: unset !important;
+}
+
+.navbar details > div
+{
+    padding-left: 2em;
+}
+
+.navbar details div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    align-items: end;
+}
+
 
 button, .button
 {
@@ -48,6 +142,25 @@ button, .button
         -15px -15px 30px #ffffff;
 }
 
+@media only screen and (max-width: 900px)
+{
+    /* Mobile */
+    .pageWrapper
+    {
+        flex-direction: column;
+    }
+
+    .navbar
+    {
+        width: calc(100% - 1em);
+    }
+
+    /* Let it clip tbh */
+    .navbar a, .navbar summary
+    {
+        width: unset !important;
+    }
+}
 
 
 /* Google consent popup styles */

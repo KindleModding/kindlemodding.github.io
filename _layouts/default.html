@@ -17,10 +17,16 @@
       }
     </script>
 
-    <div id="pageContent" class="pageContent">
-      {{ content }}
-    </div>
+    <div class="pageWrapper">
+      {% include navbar.html %}
 
-    {% include footer.html %}
+      <div class="pageContent">
+        <div class="mainContent">
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+      </div>
+    </div>
   </body>
 </html>
