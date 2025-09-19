@@ -130,16 +130,23 @@ button, .button
     text-decoration: unset;
 }
 
-pre, code
+pre:not(.highlight), code:not(.highlight code)
 {
     background: #EEE;
     overflow: auto;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.highlight
+div.highlight
 {
-    padding: 0.5em 0;
+    width: calc(100% - 2em);
+    overflow: auto;
+    padding: 1em;
+}
+
+.highlight *
+{
+    font-family: 'Courier New', Courier, monospace !important;
 }
 
 img
