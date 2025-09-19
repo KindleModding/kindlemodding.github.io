@@ -6,17 +6,6 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {% include header.html %}
-
-    <script>
-      for (const child of document.getElementById("headerLinks").children) {
-        if (child.getAttribute("nav_name") == "{{ page.nav_name }}") {
-          child.classList.add("active");
-          break;
-        }
-      }
-    </script>
-
     <div class="pageWrapper">
       {% include navbar.html %}
 
