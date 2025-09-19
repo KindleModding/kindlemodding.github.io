@@ -4,7 +4,6 @@ title: Backing Up Your Kindle
 parent: Backing Up
 grand_parent: Legacy
 nav_order: 1
-has_children: true
 ---
 
 # Backing Up Your Kindle

@@ -4,7 +4,6 @@ title: Restoring Your Kindle
 parent: Backing Up
 grand_parent: Legacy
 nav_order: 2
-has_children: true
 ---
 
 # Restoring Your Kindle

@@ -355,7 +355,7 @@ framework_setup 	-->|framework_ready| kindlesyncservice
     import elkLayouts from 'https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk/dist/mermaid-layout-elk.esm.min.mjs';
     mermaid.registerLayoutLoaders(elkLayouts);
 
-    mermaid.init({ theme: 'dark', startOnLoad: false });
+    mermaid.init({ theme: 'default', startOnLoad: false });
 
     (async () => {
         await mermaid.run({
