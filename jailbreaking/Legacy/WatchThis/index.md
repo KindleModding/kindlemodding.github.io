@@ -65,7 +65,7 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
+[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
 
 # Troubleshooting
 If you had any issue with the above steps...

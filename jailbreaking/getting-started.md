@@ -13,12 +13,12 @@ Unlike Amazon, the Kindle Modding community, such as this Wiki and MobileRead re
 
 This is important to note due to the fact that many Kindle jailbreaks only work on specific models.
 
-[Kindle Models](./kindle-models){: .btn .btn-purple }
+[Kindle Models](./kindle-models){: .button .button-purple }
 
 ## Questions about Jailbreaking?
 Before attempting to jailbreak your Kindle, we strongly recommend reading the Kindle Jailbreak F.A.Q as it provides answers to common questions and issues.
 
-[Jailbreaking F.A.Q](./jailbreak-faq.md){: .btn .btn-purple }
+[Jailbreaking F.A.Q](./jailbreak-faq){: .button .button-purple }
 
 
 ## Credits

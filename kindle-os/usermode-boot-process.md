@@ -9,7 +9,7 @@ has_children: true
 The Kindle uses upstart for its usermode boot process.
 
 Below is a diagram generated from all the Kindle's (PW6) upstart services.
-[Fullscreen Version](./upstart-diagram.html){: .btn .btn-purple }
+[Fullscreen Version](./upstart-diagram.html){: .button .button-purple }
 
 <style>
     .language-mermaid svg {

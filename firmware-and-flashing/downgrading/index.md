@@ -53,7 +53,7 @@ Some devices may let you skip the initial device set-up by simply restarting the
 
 After downgrading, you will need to re-do the post-jailbreak instructions:
 
-[Setting Up A Hotfix](../../jailbreaking/post-jailbreak/setting-up-a-hotfix/){: .btn .btn-purple}
+[Setting Up A Hotfix](../../jailbreaking/post-jailbreak/setting-up-a-hotfix/){: .button .button-purple}
 
 
 ## Credits

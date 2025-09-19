@@ -118,6 +118,7 @@ a:hover {
 
 button, .button
 {
+    line-height: 2em;
     padding: 1em;
     background-color: black;
     color: white;
@@ -129,21 +130,54 @@ button, .button
     text-decoration: unset;
 }
 
-pre
+pre, code
 {
-    border: solid 3px #EEE;
+    background: #EEE;
     overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-pre, pre > *
+.highlight
 {
-    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5em 0;
 }
 
 img
 {
     object-fit: contain;
     max-height: 50vh;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 3px solid #EEE;
+    padding: 0.5em;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #EEE;
+}
+
+tr:nth-child(odd) > td
+{
+    border: 3px solid #FFF;
+}
+
+tr:nth-child(odd) > td > pre, tr:nth-child(odd) > td > code
+{
+    background: #FFF;
+}
+
+th
+{
+    background-color: #000;
+    color: #FFF;
 }
 
 .card
@@ -172,6 +206,12 @@ img
     .pageWrapper
     {
         flex-direction: column;
+    }
+
+    .pageContent
+    {
+        min-height: 100vh;
+        height: unset !important;
     }
 
     .navbar
