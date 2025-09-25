@@ -1,0 +1,164 @@
+---
+layout: default
+parent: Jailbreaking Your Kindle
+title: AdBreak
+nav_order: 3
+---
+
+# AdBreak
+
+> If I cannot do great things, I can do small things in a great way.
+> <br/>
+> \- Martin Luther King, Jr.
+
+AdBreak is a jailbreak released on 24/09/2025 by hhhhhhhhh.
+
+It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/ode-to-use-after-free-one-vulnerable.html).
+
+{: .note}
+> Special thanks to Chris Evans (@scarybeasts) for a lot of the exploit code, hackerdude for the modified JB script.
+
+## Prerequisites
+
+- You will need a PC, cable
+- Non-blacklisted, registered, ad-enabled Kindle
+- Firmware 5.18.1 and above (possibly patched post-5.18.5)
+
+{: .highlight}
+If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
+
+## Installation Guide
+
+<div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+    <div id="stepwrapper" class="stepwrapper">
+        <div class="step">
+            <h2>Download the latest AdBreak release:</h2>
+            <div class="stepContent">
+                <a href="https://www.mobileread.com/forums/attachment.php?attachmentid=218255&d=1758739462" class="btn btn-purple">Download</a>
+                <p class="note">
+                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
+                </p>
+                <p class="warning">
+                    Please use WinterBreak on firmware <code>5.18.1</code> and below.
+                </p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Download Ads</h2>
+            <div class="stepContent">
+                Leave your kindle for a while, connected to the internet, so it can download advertisements.<br/><br/> If you press the lock button, an advertisement should be displayed.<br/><br/> If advertisements aren't being downloaded after a while, a factory reset may help. 
+            </div>
+        </div>
+        <div class="step">
+            <h2>Aeroplane Mode<br/><br/></h2>
+            <div class="stepContent">
+                Once you have verified ads are displayed on the lockscreen, enable airplane mode.
+                <br/><br/>
+                <img src="./airplane_mode.png" /> 
+            </div>
+        </div>
+        <div class="step">
+            <h2>View all ads</h2>
+            <div class="stepContent">
+                <p>Click on the top right menu and select "View all ads", which should display multiple "special offers".</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Copy .assets</h2>
+            <div class="stepContent">
+                <p>Plug in the Kindle, open the system folder and and copy the ".assets" folder to your computer.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Unzip AdBreak</h2>
+            <div class="stepContent">
+                <p>Unzip the previously downloaded AdBreak, and place the extracted contents within the ".assets" folder located on your computer.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Run The Replace Script</h2>
+            <div class="stepContent">
+                <div class="version-block">
+                    <p class="version-label">Windows:</p>
+                    <p>Double click on "replace.bat" to run it.</p>
+                </div>
+                <div class="version-block">
+                    <p class="version-label">MacOS/Linux:</p>
+                    <p>Run <code> find . -name 'details.html' -exec cp adbreak.html {} \;</code> using a terminal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Replace Kindle .assets</h2>
+            <div class="stepContent">
+                <p>Delete the original kindle <code>.assets</code> and replace it with your on-PC modified copy.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Jailbreak!</h2>
+            <div class="stepContent">
+                <p>Click on an ad and go through the popups, once you click OK on "Bang!", the jailbreak script should run.</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+</div>
+<script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+
+<style>
+.version-block {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.version-label {
+    font-weight: bold;
+    border-bottom: 1px solid #369d36;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #369d36;
+}
+</style>
+
+## Troubleshooting
+
+### FAQ
+
+- The JB does NOT automatically remove advertisements.
+- No, this is not "UJ"/"Unnamed Jailbreak". That is seperate
+- "Is there a way to make my device add supported?" (see below)
+- It could be possible to reach adbreak by using `.active_content_sandbox` with large junk files and performing a fast restart/battery unplug before the contents get recursively deleted, or rebooting without ejecting.
+
+### Enableing Ads
+
+Taken from Ceoz:
+
+>To make the ads route available you must: (1) set your default Country/Region to one of the supported markets, (2) set a default payment method and default billing address for that region (valid method; enabling ads does not charge), (3) enable Special Offers for your Kindle on your Amazon account, then (4) connect the Kindle to Wi-Fi and wait for ads to sync.
+>Turning off ads later is officially a paid removal (one-time fee shown in your account). If you already have a no ads kindle, it will not charge you to disable it again.
+>Supported regions (ads)
+>
+>US, UK, DE, FR, IT, ES, JP, CN. Your account’s default Country/Region must be set to one of these.
+>Use real details. Match the default billing address on your payment method to the Country/Region you select (Credit cards work just fine)
+>Open Manage Your Content and Devices → Preferences → Country/Region Settings → Change.
+>
+>Enter a valid address for one of the supported countries and Update.
+>
+>Confirm it now shows as your Current country/region.
+>https://www.amazon.com/hz/mycd/preferences/myx#/home/settings/payment
+
+## Special Thanks
+
+- Penguins184: This guide
+- Ceoz: Enable-ad findings
