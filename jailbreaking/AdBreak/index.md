@@ -51,14 +51,13 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Download Ads</h2>
             <div class="stepContent">
-                Leave your kindle for a while, connected to the internet, so it can download advertisements.<br/><br/> If you press the lock button, an advertisement should be displayed.<br/><br/> If advertisements aren't being downloaded after a while, a factory reset may help. 
+                <p>Leave your kindle for a while, connected to the internet, so it can download advertisements.<br/><br/> If you press the lock button, an advertisement should be displayed.<br/><br/> If advertisements aren't being downloaded after a while, a factory reset may help.</p>
             </div>
         </div>
         <div class="step">
-            <h2>Aeroplane Mode<br/><br/></h2>
+            <h2>Aeroplane Mode</h2>
             <div class="stepContent">
-                Once you have verified ads are displayed on the lockscreen, enable airplane mode.
-                <br/><br/>
+                <p>Once you have verified ads are displayed on the lockscreen, enable airplane mode.</p>
                 <img src="./airplane_mode.png" /> 
             </div>
         </div>
@@ -66,18 +65,21 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>View all ads</h2>
             <div class="stepContent">
                 <p>Click on the top right menu and select "View all ads", which should display multiple "special offers".</p>
+                <img src="./view_ads.png" />
             </div>
         </div>
         <div class="step">
             <h2>Copy .assets</h2>
             <div class="stepContent">
                 <p>Plug in the Kindle, open the system folder and and copy the ".assets" folder to your computer.</p>
+                <img src="./copy_assets.png" />
             </div>
         </div>
         <div class="step">
             <h2>Unzip AdBreak</h2>
             <div class="stepContent">
                 <p>Unzip the previously downloaded AdBreak, and place the extracted contents within the ".assets" folder located on your computer.</p>
+                <img src="./copy_adbreak.png" />
             </div>
         </div>
         <div class="step">
@@ -91,18 +93,21 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                     <p class="version-label">MacOS/Linux:</p>
                     <p>Run <code> find . -name 'details.html' -exec cp adbreak.html {} \;</code> using a terminal.</p>
                 </div>
+                <img src="./replacer.png" />
             </div>
         </div>
         <div class="step">
             <h2>Replace Kindle .assets</h2>
             <div class="stepContent">
                 <p>Delete the original kindle <code>.assets</code> and replace it with your on-PC modified copy.</p>
+                <img src="./replace_old_assets.png" />
             </div>
         </div>
         <div class="step">
             <h2>Jailbreak!</h2>
             <div class="stepContent">
-                <p>Click on an ad and go through the popups, once you click OK on "Bang!", the jailbreak script should run.</p>
+                <p>Unplug, click on an ad and go through the popups, once you click OK on "Bang!", the jailbreak script should run.</p>
+                <img src="./demo.png" />
             </div>
         </div>
     </div>
@@ -136,27 +141,33 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 ### FAQ
 
-- The JB does NOT automatically remove advertisements.
-- No, this is not "UJ"/"Unnamed Jailbreak". That is seperate
+- The JB does NOT automatically remove advertisements, see Marek's scriptlet.
+- It will never work on the KS/Kindle Scribe! Ads can NOT be re-enabled there!
+- No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
 - "Is there a way to make my device add supported?" (see below)
 - It could be possible to reach adbreak by using `.active_content_sandbox` with large junk files and performing a fast restart/battery unplug before the contents get recursively deleted, or rebooting without ejecting.
 
-### Enableing Ads
+### Enabling Ads
+(needed for jailbreak, safe to remove later)
 
-Taken from Ceoz:
+- Switch account region  
+   - Go to Manage Your Content and Devices → Preferences → Country/Region Settings → Change.  
+   - Select one of: US, UK, DE, FR, IT, ES, JP, CN  
+   - Use valid details (address, phone, email).
 
->To make the ads route available you must: (1) set your default Country/Region to one of the supported markets, (2) set a default payment method and default billing address for that region (valid method; enabling ads does not charge), (3) enable Special Offers for your Kindle on your Amazon account, then (4) connect the Kindle to Wi-Fi and wait for ads to sync.
->Turning off ads later is officially a paid removal (one-time fee shown in your account). If you already have a no ads kindle, it will not charge you to disable it again.
->Supported regions (ads)
->
->US, UK, DE, FR, IT, ES, JP, CN. Your account’s default Country/Region must be set to one of these.
->Use real details. Match the default billing address on your payment method to the Country/Region you select (Credit cards work just fine)
->Open Manage Your Content and Devices → Preferences → Country/Region Settings → Change.
->
->Enter a valid address for one of the supported countries and Update.
->
->Confirm it now shows as your Current country/region.
->https://www.amazon.com/hz/mycd/preferences/myx#/home/settings/payment
+- Add payment method  
+   - Set a default credit card and billing address matching the chosen region.  
+   - No charge should occur.
+
+- Enable special offers  
+   - In your Amazon account, turn on Special Offers for your Kindle.
+
+- Sync kindle  
+   - Connect to Wi-Fi, eventually ads will appear on lockscreen.
+
+Notes:  
+- If your kindle originally had no ads, re-disabling later is free.  
+- If your kindle is an ads model, disabling normally costs a one-time fee, but can be removed post-jb with a script.  
 
 ## Special Thanks
 
