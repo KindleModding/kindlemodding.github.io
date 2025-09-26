@@ -146,6 +146,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
 - "Is there a way to make my device add supported?" (see below)
 - It could be possible to reach adbreak by using `.active_content_sandbox` with large junk files and performing a fast restart/battery unplug before the contents get recursively deleted, or rebooting without ejecting.
+- On mass storage kindles, if you cannot see the `system` folder, you will have to navigate to the path manually, or disable "hide protected operating system files" (google it). 
 
 ### Enabling Ads
 (needed for jailbreak, safe to remove later)
