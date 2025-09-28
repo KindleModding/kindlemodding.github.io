@@ -106,7 +106,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Jailbreak!</h2>
             <div class="stepContent">
-                <p>Unplug, click on an ad and go through the popups, once you click OK on "Bang!", the jailbreak script should run.</p>
+                <p>Unplug, click on an ad and go through the popups, once you click Close on "Bang!", the jailbreak script should run.</p>
                 <img src="./demo.png" />
             </div>
         </div>
@@ -142,11 +142,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 ### FAQ
 
 - The JB does NOT automatically remove advertisements, see Marek's scriptlet.
-- It will never work on the KS/Kindle Scribe! Ads can NOT be re-enabled there!
+- It will never work on the KS/Kindle Scribe, or the CS/Colorsoft! Ads can NOT be re-enabled there!
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
+- On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Is there a way to make my device ad supported?" (see below)
-- It could be possible to reach adbreak by using `.active_content_sandbox` with large junk files and performing a fast restart/battery unplug before the contents get recursively deleted, or rebooting without ejecting.
-- On mass storage kindles, if you cannot see the `system` folder, you will have to navigate to the path manually, or disable "hide protected operating system files" (google it). 
 
 ### Enabling Ads
 (needed for jailbreak, safe to remove later)
