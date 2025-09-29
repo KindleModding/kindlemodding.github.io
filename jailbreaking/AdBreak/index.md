@@ -44,7 +44,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                     If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
                 </p>
                 <p class="warning">
-                    Please use WinterBreak on firmware <code>5.18.0.2</code> and below.
+                    Please use WinterBreak on firmware <code>5.18.0.2</code> and below.<br/><br/><b>If you are on <code>5.18.5.0.1</code> download AdBreak from the <a href="#regarding-518501">troubleshooting</a> section!</b>
                 </p>
             </div>
         </div>
@@ -107,6 +107,9 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>Jailbreak!</h2>
             <div class="stepContent">
                 <p>Unplug, click on an ad and go through the popups, once you click Close on "Bang!", the jailbreak script should run.</p>
+                <p class="note">
+                    You can safely ignore any "application error" popups, they are irrelevant.
+                </p>
                 <img src="./demo.png" />
             </div>
         </div>
@@ -146,6 +149,10 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
 - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Is there a way to make my device ad supported?" (see below)
+
+### Regarding `5.18.5.0.1`
+
+This is a troublesome version. Try using [this](https://files.catbox.moe/j0mipf.zip) build of adbreak instead. If it fails, wait for an official update. This is a patched build I quickly made adding offsets for said firmware version.
 
 ### Enabling Ads
 (needed for jailbreak, safe to remove later)

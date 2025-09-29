@@ -23,6 +23,12 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
             <h2>Download The Hotfix</h2>
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin" class="btn btn-purple">Download</a>
+                <br/>
+                <a href="https://github.com/KindleModding/Hotfix/releases/download/v2.2.1/Update_hotfix_universal.bin" class="btn btn-purple">Download (Compatibility)</a>
+
+                <p class="warning">
+                    If scriptlets don't work, please redo these steps using the <b>compatibility hotfix!</b>
+                </p>
             </div>
         </div>
         <div class="step">
