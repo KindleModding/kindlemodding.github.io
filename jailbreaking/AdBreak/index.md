@@ -71,7 +71,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Copy .assets</h2>
             <div class="stepContent">
-                <p>Plug in the Kindle, open the system folder and and copy the ".assets" folder to your computer.</p>
+                <p>Plug in the Kindle, open the system folder and copy the ".assets" folder to your computer.</p>
                 <img src="./copy_assets.png" />
             </div>
         </div>
@@ -87,7 +87,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Windows:</p>
-                    <p>Double click on "replace.bat" to run it.</p>
+                    <p>Double-click on "replace.bat" to run it.</p>
                 </div>
                 <div class="version-block">
                     <p class="version-label">MacOS/Linux:</p>
