@@ -149,7 +149,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
 - "Is there a way to make my device ad supported?" (see below)
 
-### Common issues
+### Common Issues
 
 - Can't find the system folder:
     - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
