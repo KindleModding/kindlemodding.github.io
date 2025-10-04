@@ -22,7 +22,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 
 - You will need a PC, cable
 - Non-blacklisted, registered, ad-enabled Kindle
-- Firmware 5.18.1 and above (possibly patched post-5.18.5)
+- Firmware 5.18.1 and above (possibly patched after 5.18.5.0.1)
 
 {: .highlight}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
@@ -39,12 +39,12 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Download the latest AdBreak release:</h2>
             <div class="stepContent">
-                <a href="https://www.mobileread.com/forums/attachment.php?attachmentid=218255&d=1758739462" class="btn btn-purple">Download</a>
+                <a href="https://github.com/htimesnine/AdBreak/releases/download/v1.0.1/adbreak.zip" class="btn btn-purple">Download</a>
                 <p class="note">
                     If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
                 </p>
                 <p class="warning">
-                    Please use WinterBreak on firmware <code>5.18.0.2</code> and below.<br/><br/><b>If you are on <code>5.18.5.0.1</code> download AdBreak from the <a href="#regarding-518501">troubleshooting</a> section!</b>
+                    Please use WinterBreak on firmware <code>5.18.0.2</code> and below.
                 </p>
             </div>
         </div>
@@ -71,7 +71,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Copy .assets</h2>
             <div class="stepContent">
-                <p>Plug in the Kindle, open the system folder and and copy the ".assets" folder to your computer.</p>
+                <p>Plug in the Kindle, open the system folder and copy the ".assets" folder to your computer.</p>
                 <img src="./copy_assets.png" />
             </div>
         </div>
@@ -87,7 +87,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Windows:</p>
-                    <p>Double click on "replace.bat" to run it.</p>
+                    <p>Double-click on "replace.bat" to run it.</p>
                 </div>
                 <div class="version-block">
                     <p class="version-label">MacOS/Linux:</p>
@@ -147,12 +147,14 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - The JB does NOT automatically remove advertisements, see Marek's scriptlet.
 - It will never work on the KS/Kindle Scribe, or the CS/Colorsoft! Ads can NOT be re-enabled there!
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
-- On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Is there a way to make my device ad supported?" (see below)
 
-### Regarding `5.18.5.0.1`
+### Common Issues
 
-This is a troublesome version. Try using [this](https://files.catbox.moe/j0mipf.zip) build of adbreak instead. If it fails, wait for an official update. This is a patched build I quickly made adding offsets for said firmware version.
+- Can't find the system folder:
+    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
+- "Bang!" shows but the jailbreak doesn't run:
+    - Check the .assets folder on the Kindle. "jb.sh" and "patchedUks.sqsh" must be in there.
 
 ### Enabling Ads
 (needed for jailbreak, safe to remove later)
