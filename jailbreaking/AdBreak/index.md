@@ -147,8 +147,14 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - The JB does NOT automatically remove advertisements, see Marek's scriptlet.
 - It will never work on the KS/Kindle Scribe, or the CS/Colorsoft! Ads can NOT be re-enabled there!
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
-- On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Is there a way to make my device ad supported?" (see below)
+
+### Common issues
+
+- Can't find the system folder:
+    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
+- "Bang!" shows but the jailbreak doesn't run:
+    - Check the .assets folder on the Kindle. "jb.sh" and "patchedUks.sqsh" must be in there.
 
 ### Enabling Ads
 (needed for jailbreak, safe to remove later)
