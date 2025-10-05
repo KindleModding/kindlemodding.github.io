@@ -224,6 +224,8 @@ th
     .navbar
     {
         width: calc(100% - 1em);
+        border-right: none;
+        border-bottom: solid 3px #EEE;
     }
 
     /* Let it clip tbh */
