@@ -16,6 +16,9 @@ AdBreak is a jailbreak released on 24/09/2025 by hhhhhhhhh.
 It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/ode-to-use-after-free-one-vulnerable.html).
 
 {: .note}
+> Scribe devices must be using a French account to enable ads
+
+{: .note}
 > Special thanks to Chris Evans (@scarybeasts) for a lot of the exploit code, hackerdude for the modified JB script.
 
 ## Prerequisites
@@ -145,7 +148,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 ### FAQ
 
 - The JB does NOT automatically remove advertisements, see Marek's scriptlet.
-- It will never work on the KS/Kindle Scribe, or the CS/Colorsoft! Ads can NOT be re-enabled there!
+- It will never work on the CS/Colorsoft! Ads can NOT be re-enabled there!
 - No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
 - "Is there a way to make my device ad supported?" (see below)
 
