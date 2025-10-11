@@ -10,7 +10,7 @@ nav_order: 98
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
 {: .note}
-Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: May 24th, 2025)`
+Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: Aug 28, 2025)`
 
 ## General/Account
 ---
@@ -37,18 +37,16 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 ### Can I remove my account after jailbreaking?
 
-Yes, but you will have to log in again if you want to jailbreak from scratch. The jailbreak will still work whether you log back in or log out. 
+Yes, but for Winterbreak, you will have to log in again if you want to jailbreak from scratch. Your Kindle will remain jailbroken whether you log back in or log out.
 
 {: .highlight}
 After unregistering, the Kindle will delete all files located in the documents folder, including the KUAL Launcher booklet and any other scripts that have been transferred. Be sure to back up these files first.
 
 ### Can I un-jailbreak my Kindle?
 
-Yes, perform a factory reset on the device and then install the same firmware update (or higher). 
+Yes, re-enable automatic updates first (`Restore` option in `renametobin`) to avoid an update block. Then, perform a factory reset on the device and install the same firmware update (or a higher version). 
 
-Don't forget to re-enable automatic updates first (`Restore` option in `renametobin`) to avoid an update block. 
-
-### Will this get my Amazon account banned?
+### Will the jailbreak get my Amazon account banned?
 
 No reports of Amazon accounts being banned after jailbreaking have been reported so far. However, please refrain from telling support that you have modified your device.
 
@@ -83,7 +81,7 @@ Yes.
 No.
 
 {: .note}
-if your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not.
+If your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not. Backup your books whenever you can
 
 ### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
@@ -141,7 +139,7 @@ If you have SSH access to the device, this directory can be found at `/mnt/us/`.
 
 ### Can I update/factory reset/downgrade my Kindle after jailbreaking?
 
-Yes, but you must first enable Airplane mode and enable automatic updates again (`Restore` option in `renametobin`) to avoid any potential self-blocks or unwanted automatic updates.
+Yes, but you must first enable Airplane mode and enable automatic updates again (`Restore` option in `renametobin`) to avoid any potential update blocks or unwanted automatic updates.
 
 When updating, ensure that the newer version supports a jailbreak.
 
@@ -188,7 +186,7 @@ You can easily change screensavers with [KOReader](https://koreader.rocks/user_g
 Type `;log` into the search bar, if a message pop ups, you're jailbroken.
 
 ### KUAL stopped working!/I can't no longer launch any of my extensions!
-Verify if your device is still jailbroken by typing `log;` into the search bar.
+Verify if your device is still jailbroken by typing `;log` into the search bar.
 
 - If it prompted any text, [re-install the hotfix and KUAL](https://kindlemodding.org/jailbreaking/post-jailbreak/setting-up-a-hotfix/) from scratch.
 - If not [re-jailbreak](https://kindlemodding.org/jailbreaking/getting-started.html) your device.
@@ -196,7 +194,7 @@ Verify if your device is still jailbroken by typing `log;` into the search bar.
 
 ### I can't no longer update my Kindle after a factory reset/update!
 
-If you reset your Kindle in a jailbroken state with `renametobin` enabled, then your Kindle may be in a broken state, to fix this, read [this guide](https://kindlemodding.org/jailbreaking/recovering-from-a-reset.html).
+If you reset your Kindle in a jailbroken state with renametobin left enabled, your Kindle may be in a locked state. To fix this, read [this guide](https://kindlemodding.org/jailbreaking/recovering-from-a-reset.html).
 
 ### I get a message saying "Failed to remount rootfs RO, waiting"!
 
@@ -204,7 +202,7 @@ This is expected, you can safely reboot your device manually (holding the power 
 
 ### My device hasn't rebooted after the jailbreaking pop-up!
 
-Unless the Kindle displays in small text the message: “You are now ready to install the hotfix”, you can safely reboot and continue with the post-jailbreak instructions. If not, something wrong happened in the jailbreak process.
+If you're using Winterbreak, unless the Kindle displays the message "You are now ready to install the hotfix" in small text, you can safely continue with the post-jailbreak instructions . If it doesn't, something went wrong during the jailbreak process, and you'll have to try again.
 
 {: .highlight}
 Remember to delete any automatic update file that might have appeared.
