@@ -50,6 +50,8 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
                 </p>
                 <p class="warning">
                     Winterbreak/Mesquito does NOT work on firmware <code>5.18.1</code> and beyond
+                    <br/>
+                    Please use <a href="/jailbreaking/AdBreak">AdBreak 5.18.1+</a>
                 </p>
             </div>
         </div>
