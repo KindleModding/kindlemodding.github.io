@@ -83,7 +83,7 @@
 }
 
 .version-block {
-    background-color: #EEE;
+    background-color: var(--background-accent);
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 12px;

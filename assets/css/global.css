@@ -1,3 +1,21 @@
+*
+{
+    --background-colour: #FFF;
+    --background-accent: #EEE;
+    --text-colour: #000;
+
+    --navbar-active-top-shadow: #bfbfbf;
+    --card-top-shadow: #b3b3b3;
+    --card-bottom-shadow: #ffffff;
+
+    --link-colour: #00F;
+    --note-colour: #fffdbb;
+    --warning-colour: #ffbbbb;
+    --highlight-colour: #e1bbff;
+    --button-colour: #000;
+    --button-text-colour: #FFF;
+}
+
 html, body
 {
     padding: 0;
@@ -9,7 +27,7 @@ html, body
 }
 
 a {
-    color: #00F;
+    color: var(--link-colour);
     text-decoration: none;
 }
 
@@ -50,9 +68,9 @@ a:hover {
     width: calc(25vw - 1em);
     padding: 0.5em;
     padding-right: 0; /* Space for pushing! */
-    background-color: #FFF;
+    background-color: var(--background-colour);
     user-select: none;
-    border-right: solid 3px #EEE;
+    border-right: solid 3px var(--background-accent);
     padding-bottom: 0;
 }
 
@@ -60,7 +78,7 @@ a:hover {
 {
     text-overflow: ellipsis;
     text-decoration: none;
-    color: #00F;
+    color: var(--link-colour);
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -77,15 +95,15 @@ a:hover {
 
 .navbar .active
 {
-    box-shadow: inset 3px 3px 6px #bfbfbf,
-        inset -3px -3px 6px #ffffff;
+    box-shadow: inset 3px 3px 6px var(--navbar-active-top-shadow),
+        inset -3px -3px 6px var(--card-bottom-shadow);
 }
 
 .navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
 {
     transform: translateX(0.5em);
-    box-shadow:  5px 5px 10px #bfbfbf,
-                -5px -5px 10px #ffffff;
+    box-shadow:  5px 5px 10px var(--navbar-active-top-shadow),
+                -5px -5px 10px var(--card-bottom-shadow);
     z-index: 999;
 }
 
@@ -112,9 +130,9 @@ a:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #FFF;
+    background-color: var(--background-colour);
     align-items: end;
-    border-top: solid 3px #EEE;
+    border-top: solid 3px var(--background-accent);
 }
 
 
@@ -122,8 +140,8 @@ button, .button
 {
     line-height: 2em;
     padding: 1em;
-    background-color: black;
-    color: white;
+    background-color: var(--button-colour);
+    color: var(--button-text-colour);
     font-size: 1em;
     font-weight: bold;
     border: none;
@@ -134,31 +152,31 @@ button, .button
 
 pre:not(.highlight), code:not(.highlight code)
 {
-    background: #EEE;
+    background: var(--background-accent);
     overflow: auto;
     font-family: 'Courier New', Courier, monospace;
 }
 
 blockquote, .note, .warning, .highlight
 {
-    background: #EEE;
+    background: var(--background-accent);
     padding: 1em;
     border-radius: 5px;
 }
 
 .note
 {
-    background: #fffdbb !important;
+    background: var(--note-colour) !important;
 }
 
 .warning
 {
-    background: #ffbbbb !important;
+    background: var(--warning-colour) !important;
 }
 
 .highlight
 {
-    background: #e1bbff !important;
+    background: var(--highlight-colour) !important;
 }
 
 div.highlight
@@ -190,37 +208,37 @@ table
 
 td
 {
-    border: 3px solid #EEE;
+    border: 3px solid var(--background-accent);
     padding: 0.5em;
 }
 
 tr:nth-child(odd)
 {
-    background-color: #EEE;
+    background-color: var(--background-accent);
 }
 
 tr:nth-child(odd) > td
 {
-    border: 3px solid #FFF;
+    border: 3px solid var(--background-colour);
 }
 
 tr:nth-child(odd) > td > pre, tr:nth-child(odd) > td > code
 {
-    background: #FFF;
+    background: var(--background-colour);
 }
 
 th
 {
-    background-color: #000;
-    color: #FFF;
+    background-color: var(--highlight-colour);
+    color: var(--text-colour);
 }
 
 .card
 {
     border-radius: 5px;
-    background: #ffffff;
-    box-shadow:  5px 5px 10px #b3b3b3,
-        -5px -5px 10px #ffffff;
+    background: var(--background-colour);
+    box-shadow:  5px 5px 10px var(--card-top-shadow),
+        -5px -5px 10px var(--card-bottom-shadow);
 
     padding: 1em;
     transition: box-shadow 0.5s;
@@ -231,8 +249,8 @@ th
 
 .card:hover
 {
-    box-shadow:  15px 15px 30px #b3b3b3,
-        -15px -15px 30px #ffffff;
+    box-shadow:  15px 15px 30px var(--card-top-shadow),
+        -15px -15px 30px var(--card-bottom-shadow);
 }
 
 @media only screen and (max-width: 900px)
@@ -255,7 +273,7 @@ th
     {
         width: calc(100% - 1em);
         border-right: none;
-        border-bottom: solid 3px #EEE;
+        border-bottom: solid 3px var(--background-accent);
     }
 
     /* Let it clip tbh */
