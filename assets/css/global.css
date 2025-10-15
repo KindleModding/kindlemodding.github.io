@@ -21,7 +21,7 @@ a:hover {
 {
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    max-height: 100vh;
     width: 100%;
 }
 
@@ -38,6 +38,8 @@ a:hover {
     align-self: center;
     padding: 0 1em;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar
@@ -157,7 +159,11 @@ img
 
 table
 {
+    max-width: 90vw;
+    overflow-x: auto;
+    display: block;
     border-collapse: collapse;
+    align-self: center;
 }
 
 td
@@ -213,6 +219,8 @@ th
     .pageWrapper
     {
         flex-direction: column;
+        max-height: unset;
+        min-height: 100vh;
     }
 
     .pageContent
