@@ -139,6 +139,28 @@ pre:not(.highlight), code:not(.highlight code)
     font-family: 'Courier New', Courier, monospace;
 }
 
+blockquote, .note, .warning, .highlight
+{
+    background: #EEE;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.note
+{
+    background: #fffdbb !important;
+}
+
+.warning
+{
+    background: #ffbbbb !important;
+}
+
+.highlight
+{
+    background: #e1bbff !important;
+}
+
 div.highlight
 {
     width: calc(100% - 2em);
@@ -245,7 +267,7 @@ th
 
 
 /* Google consent popup styles */
-body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog, body > div.fc-consent-root > div.fc-dialog-container > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > *
+/**body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog, body > div.fc-consent-root > div.fc-help-dialog-container > div.fc-help-dialog, body > div.fc-consent-root > div.fc-dialog-container > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-content > div > div.fc-preferences-container > *
 {
     background-color: #27262B !important;
 }
@@ -350,4 +372,4 @@ body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-d
 body > div.fc-consent-root > div.fc-dialog-container > div.fc-dialog.fc-choice-dialog > div.fc-dialog-content > div > button > div > span.notranslate.faq-section-closed > svg, body > div.fc-consent-root > div.fc-dialog-container > div > div.fc-dialog-header > button > span > svg
 {
     fill: white !important;
-}
+}**/

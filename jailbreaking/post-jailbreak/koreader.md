@@ -115,26 +115,6 @@ Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to ru
     </div>
 </div>
 
-<style>
-.version-block {
-    background-color: #1e1e1e;
-    border-radius: 8px;
-    padding: 12px;
-    margin-bottom: 12px;
-    width: 100%;
-}
-
-.version-label {
-    font-weight: bold;
-    border-bottom: 1px solid #369d36;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    color: #369d36;
-}
-
-
-</style>
-
 <script>new Guide("guide", "../jailbreak-faq", "Jailbreak FAQ");</script>
 
 ## Credits

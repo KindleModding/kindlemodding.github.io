@@ -129,24 +129,6 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
     </div>
 </div>
 
-<style>
-.version-block {
-    background-color: #1e1e1e;
-    border-radius: 8px;
-    padding: 12px;
-    margin-bottom: 12px;
-    width: 100%;
-}
-
-.version-label {
-    font-weight: bold;
-    border-bottom: 1px solid #369d36;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    color: #369d36;
-}
-</style>
-
 <script>new Guide("guide", "re-enabling-the-store", "Re-enable Store");</script>
 
 ## Credits
