@@ -56,4 +56,4 @@ You can see the `manifest.json` file, the `index.html` payload and the `icon.jpg
 ## Finding an icon
 The app icon can be almost any image format, however, a resolution of `512x512` is recommended as Mesquito is optimized for `square` icons.
 
-[The Manifest File](./the-manifest-file.html){: .btn }
+[The Manifest File](./the-manifest-file.html){: .button }

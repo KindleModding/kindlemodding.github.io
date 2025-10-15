@@ -31,7 +31,7 @@ KindleBreak will **NOT** work on firmware `5.12.2.2`
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
+[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

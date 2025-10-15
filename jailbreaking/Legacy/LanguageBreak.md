@@ -70,7 +70,7 @@ LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../post-jailbreak/){: .btn .btn-purple}
+[Post Jailbreak](../post-jailbreak/){: .button .button-purple}
 
 # Troubleshooting
 If you had any issue with the above steps...

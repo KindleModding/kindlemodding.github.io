@@ -63,4 +63,4 @@ For historic reference, previous manifest version numbers were:<br/>
 - Added version keys
 - Added id key
 
-[The Mesquito SDK](./the-mesquito-sdk.html){: .btn }
+[The Mesquito SDK](./the-mesquito-sdk.html){: .button }

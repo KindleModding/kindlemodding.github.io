@@ -44,11 +44,11 @@ Popcorn is quite a sophisticated jailbreak method and requires prior electronics
 ## Next Steps
 Simply select your model and follow the instructions on the page
 
-[PW2](./PW2.html){: .btn }
-[PW3](./PW3.html){: .btn }
-[KT2](./KT2.html){: .btn }
-[KT3](./KT3.html){: .btn }
-[KV](./KV.html){: .btn }
+[PW2](./PW2.html){: .button }
+[PW3](./PW3.html){: .button }
+[KT2](./KT2.html){: .button }
+[KT3](./KT3.html){: .button }
+[KV](./KV.html){: .button }
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

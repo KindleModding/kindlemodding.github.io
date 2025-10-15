@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include head_global.html %}
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="pageWrapper">
+      {% include navbar.html %}
+
+      <div class="pageContent">
+        <div class="mainContent">
+          {{ content }}
+        </div>
+
+        {% if page.landing != true %}
+          {% include footer.html %}
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

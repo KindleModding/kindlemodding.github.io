@@ -26,7 +26,7 @@ On Windows, simply locate the folder you extracted earlier, double click on `MFG
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
+[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
 
 ## Linux
 On Linux, open a new terminal and navigate to the folder which contains the folder named `imx_usb_loader`
@@ -39,7 +39,7 @@ And wait for it to complete.
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .btn .btn-purple}
+[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
