@@ -1,10 +1,10 @@
-*
+html
 {
     --background-colour: #FFF;
     --background-accent: #EEE;
     --text-colour: #000;
 
-    --navbar-active-top-shadow: #bfbfbf;
+    --navbar-active-top-shadow: #0e0e0e;
     --card-top-shadow: #b3b3b3;
     --card-bottom-shadow: #ffffff;
 
@@ -16,14 +16,56 @@
     --button-text-colour: #FFF;
 }
 
+.dark-mode
+{
+    --background-colour: #222;
+    --background-accent: #444;
+    --text-colour: #FFF;
+
+    --navbar-active-top-shadow: #0e0e0e;
+    --card-top-shadow: #0e0e0e;
+    --card-bottom-shadow: #363636;
+
+    --link-colour: rgb(0, 170, 255);
+    --note-colour: #fffdbb;
+    --warning-colour: #ffbbbb;
+    --highlight-colour: #e1bbff;
+    --button-colour: #333;
+    --button-text-colour: #FFF;
+}
+
+.dark-mode th, .dark-mode .highlight, .dark-mode .note, .dark-mode .warning
+{
+    color: #000 !important; /* Yeah */
+}
+
+.dark-mode .highlight code, .dark-mode .note code, .dark-mode .warning code
+{
+    background-color: var(--background-accent) !important;
+    color: #FFF !important; /* Yeah */
+}
+
+.dark-mode .stepwrapper
+{
+    background-color: #151515 !important;
+}
+
 html, body
 {
     padding: 0;
     margin: 0;
+    background-color: var(--background-colour);
+    color: var(--text-colour);
 }
 
-* {
+h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
+{
     font-family: "Libre Baskerville", serif;
+}
+
+*
+{
+    font-family: sans-serif;
 }
 
 a {
