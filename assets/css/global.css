@@ -65,29 +65,29 @@ html
 
 ::view-transition-new(root) {
     mask: url('https://media.tenor.com/cyORI7kwShQAAAAi/shigure-ui-dance.gif') center / 0 no-repeat;
-    animation: scale 3s;
+    animation: scale 1.5s;
     animation-fill-mode: both;
 }
 
 ::view-transition-old(root)
 {
-    animation: scale 3s;
+    animation: scale 1.5s;
     animation-fill-mode: both;
 }
 
 @keyframes scale {
-0% {
-    mask-size: 0;
-}
-10% {
-    mask-size: 50vmax;
-}
-90% {
-    mask-size: 50vmax;
-}
-100% {
-    mask-size: 2000vmax;
-}
+    0% {
+        mask-size: 0;
+    }
+    10% {
+        mask-size: 50vmax;
+    }
+    90% {
+        mask-size: 50vmax;
+    }
+    100% {
+        mask-size: 2000vmax;
+    }
 }
 
 .dark-theme .info, .dark-theme .note, .dark-theme .warning
