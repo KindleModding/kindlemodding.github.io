@@ -2,6 +2,7 @@ html
 {
     --background-colour: #FFF;
     --background-accent: #EEE;
+    --background-second-accent: #CCC;
     --code-background-colour: #EEE;
     --text-colour: #000;
 
@@ -20,8 +21,9 @@ html
 .dark-theme
 {
     --background-colour: #222;
-    --background-accent: #444;
-    --code-background-colour: #EEE;
+    --background-accent: #353535;
+    --background-second-accent: #111;
+    --code-background-colour: #181818;
     --text-colour: #FFF;
 
     --navbar-active-top-shadow: #0e0e0e;
@@ -29,16 +31,35 @@ html
     --card-bottom-shadow: #363636;
 
     --link-colour: rgb(0, 170, 255);
-    --note-colour: #fffdbb99;
-    --warning-colour: #F229;
-    --highlight-colour: rgb(169 89 255 / 85%);
+    --note-colour: #f6f6f65c;
+    --warning-colour: #5a0c0cb5;
+    --highlight-colour: rgb(78 41 118 / 45%);
     --button-colour: #000;
     --button-text-colour: #FFF;
 }
 
-.dark-theme th, .dark-theme .info, .dark-theme .note, .dark-theme .warning
+/* For browsers that support `scrollbar-*` properties */
+@supports (scrollbar-color: auto) {
+    * {
+        scrollbar-color: var(--text-colour) var(--background-colour);
+        scrollbar-width: thin;
+    }
+}
+  
+/* Otherwise, use `::-webkit-scrollbar-*` pseudo-elements */
+@supports selector(::-webkit-scrollbar) {
+    *::-webkit-scrollbar {
+        width: 5px;
+        background: var(--background-colour);
+    }
+    *::-webkit-scrollbar-thumb {
+        background: var(--text-colour);
+    }
+}
+
+.dark-theme .info, .dark-theme .note, .dark-theme .warning
 {
-    color: #000 !important; /* Yeah */
+    /*color: #000 !important; /* Yeah */
 }
 
 .dark-theme .stepwrapper
@@ -187,13 +208,18 @@ button, .button
 pre:not(.info), code:not(.info code)
 {
     background: var(--code-background-colour);
-    color: #000;
+    color: var(--text-colour);
     overflow: auto;
 }
 
 code
 {
     font-family: 'Courier New', Courier, monospace;
+}
+
+pre.highlight
+{
+    padding: 1em;
 }
 
 blockquote, .note, .warning, .info
@@ -245,9 +271,9 @@ table
     align-self: center;
 }
 
-td
+th, td
 {
-    border: 3px solid var(--background-accent);
+    border: 3px solid var(--background-second-accent);
     padding: 0.5em;
 }
 
@@ -256,19 +282,9 @@ tr:nth-child(odd)
     background-color: var(--background-accent);
 }
 
-tr:nth-child(odd) > td
-{
-    border: 3px solid var(--background-colour);
-}
-
-/*tr:nth-child(odd) > td > pre, tr:nth-child(odd) > td > code
-{
-    background: var(--background-colour);
-}*/
-
 th
 {
-    background-color: var(--highlight-colour);
+    background-color: var(--background-second-accent);
     color: var(--text-colour);
 }
 
