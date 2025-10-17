@@ -20,15 +20,14 @@ html
 
 .dark-theme
 {
-    --background-colour: #222;
-    --background-accent: #353535;
-    --background-second-accent: #111;
-    --code-background-colour: #181818;
+    --background-colour: #111;
+    --background-accent: #252525;
+    --background-second-accent: #000;
+    --code-background-colour: #080808;
     --text-colour: #FFF;
 
-    --navbar-active-bottom-shadow: #0e0e0e;
     --card-top-shadow-colour-colour: #0e0e0e;
-    --card-top-shadow-colour: #363636;
+    --card-top-shadow-colour: #252525;
 
     --link-colour: rgb(0, 170, 255);
     --note-colour: #f6f6f65c;
@@ -175,7 +174,8 @@ a:hover {
 {
     padding: 0.5em;
     width: calc(100% - 1em - 25px);
-    transition: box-shadow 0.5s, transform 0.5s;
+    transition: background-colour 0.5s;
+    background-color: var(--background-colour);
     position: relative; /* Fixes z-index on summary */
     z-index: 998;
     overflow: hidden;
@@ -183,15 +183,12 @@ a:hover {
 
 .navbar .active
 {
-    box-shadow: inset 3px 3px 6px var(--navbar-active-bottom-shadow),
-        inset -3px -3px 6px var(--card-top-shadow-colour);
+    background-color: var(--background-accent);
 }
 
 .navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
 {
-    transform: translateX(0.5em);
-    box-shadow:  5px 5px 10px var(--navbar-active-bottom-shadow),
-                -5px -5px 10px var(--card-top-shadow-colour);
+    background-color: var(--background-accent);
     z-index: 999;
 }
 
@@ -246,7 +243,7 @@ button:hover, .button:hover, .btn:hover
     box-shadow:  15px 15px 20px var(--navbar-active-bottom-shadow);
 }
 
-pre:not(.info), code:not(.info code)
+pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
 {
     background: var(--code-background-colour);
     color: var(--text-colour);

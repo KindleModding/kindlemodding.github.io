@@ -4,7 +4,7 @@ grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Prerequisites
 nav_order: 1
-has_children: true
+has_children: false
 ---
 
 # Prerequisites

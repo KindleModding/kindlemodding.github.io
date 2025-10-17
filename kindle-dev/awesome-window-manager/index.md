@@ -3,7 +3,7 @@ layout: default
 parent: Kindle Development
 title: Awesome Window Manager
 nav_order: 2
-has_children: true
+has_children: false
 ---
 
 <style>

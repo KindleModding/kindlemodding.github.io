@@ -4,7 +4,7 @@ grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Setting Up The Project
 nav_order: 2
-has_children: true
+has_children: false
 ---
 
 # Setting Up The Project
