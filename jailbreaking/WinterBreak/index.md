@@ -45,7 +45,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Download the latest WinterBreak release:</h2>
             <div class="stepContent">
-                <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
+                <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="button">Download</a>
                 <p class="note">                    
                     To prevent your Kindle from automatically updating during the jailbreak process, it is <b>critical</b> you follow <a href="../prevent-auto-update/">this guide</a> before continuing, whether your device is registered or not
                 </p>

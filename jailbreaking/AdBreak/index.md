@@ -42,7 +42,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
         <div class="step">
             <h2>Download the latest AdBreak release:</h2>
             <div class="stepContent">
-                <a href="https://github.com/htimesnine/AdBreak/releases/download/v1.0.1/adbreak.zip" class="btn btn-purple">Download</a>
+                <a href="https://github.com/htimesnine/AdBreak/releases/download/v1.0.1/adbreak.zip" class="button">Download</a>
                 <p class="note">
                     If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
                 </p>

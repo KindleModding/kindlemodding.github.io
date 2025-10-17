@@ -6,9 +6,9 @@ html
     --code-background-colour: #EEE;
     --text-colour: #000;
 
-    --navbar-active-top-shadow: #0e0e0e;
-    --card-top-shadow: #b3b3b3;
-    --card-bottom-shadow: #ffffff;
+    --navbar-active-bottom-shadow: #0e0e0e;
+    --card-top-shadow-colour-colour: #b3b3b3;
+    --card-top-shadow-colour: #ffffff;
 
     --link-colour: #00F;
     --note-colour: #fffdbb;
@@ -26,15 +26,15 @@ html
     --code-background-colour: #181818;
     --text-colour: #FFF;
 
-    --navbar-active-top-shadow: #0e0e0e;
-    --card-top-shadow: #0e0e0e;
-    --card-bottom-shadow: #363636;
+    --navbar-active-bottom-shadow: #0e0e0e;
+    --card-top-shadow-colour-colour: #0e0e0e;
+    --card-top-shadow-colour: #363636;
 
     --link-colour: rgb(0, 170, 255);
     --note-colour: #f6f6f65c;
-    --warning-colour: #5a0c0cb5;
+    --warning-colour: #672f2fb5;
     --highlight-colour: rgb(78 41 118 / 45%);
-    --button-colour: #000;
+    --button-colour: #003946;
     --button-text-colour: #FFF;
 }
 
@@ -150,15 +150,15 @@ a:hover {
 
 .navbar .active
 {
-    box-shadow: inset 3px 3px 6px var(--navbar-active-top-shadow),
-        inset -3px -3px 6px var(--card-bottom-shadow);
+    box-shadow: inset 3px 3px 6px var(--navbar-active-bottom-shadow),
+        inset -3px -3px 6px var(--card-top-shadow-colour);
 }
 
 .navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
 {
     transform: translateX(0.5em);
-    box-shadow:  5px 5px 10px var(--navbar-active-top-shadow),
-                -5px -5px 10px var(--card-bottom-shadow);
+    box-shadow:  5px 5px 10px var(--navbar-active-bottom-shadow),
+                -5px -5px 10px var(--card-top-shadow-colour);
     z-index: 999;
 }
 
@@ -191,7 +191,7 @@ a:hover {
 }
 
 
-button, .button
+button, .button, .btn
 {
     line-height: 2em;
     padding: 1em;
@@ -203,6 +203,13 @@ button, .button
     border-radius: 5px;
     cursor: pointer;
     text-decoration: unset;
+    box-shadow:  5px 5px 10px var(--navbar-active-bottom-shadow);
+    transition: box-shadow 0.5s;
+}
+
+button:hover, .button:hover, .btn:hover
+{
+    box-shadow:  15px 15px 20px var(--navbar-active-bottom-shadow);
 }
 
 pre:not(.info), code:not(.info code)
@@ -292,8 +299,8 @@ th
 {
     border-radius: 5px;
     background: var(--background-colour);
-    box-shadow:  5px 5px 10px var(--card-top-shadow),
-        -5px -5px 10px var(--card-bottom-shadow);
+    box-shadow:  5px 5px 10px var(--card-top-shadow-colour-colour),
+        -5px -5px 10px var(--card-top-shadow-colour);
 
     padding: 1em;
     transition: box-shadow 0.5s;
@@ -304,8 +311,8 @@ th
 
 .card:hover
 {
-    box-shadow:  15px 15px 30px var(--card-top-shadow),
-        -15px -15px 30px var(--card-bottom-shadow);
+    box-shadow:  15px 15px 30px var(--card-top-shadow-colour-colour),
+        -15px -15px 30px var(--card-top-shadow-colour);
 }
 
 @media only screen and (max-width: 900px)

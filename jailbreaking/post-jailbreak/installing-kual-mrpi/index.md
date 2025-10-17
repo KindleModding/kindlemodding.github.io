@@ -19,17 +19,17 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Download MRPI</h2>
             <div class="stepContent">
-                <a href="https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz" class="btn btn-purple">MRPI</a>
+                <a href="https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz" class="button">MRPI</a>
                 <p>This version of MRPI is provided by <a href="https://fw.notmarek.com/khf/">Marek</a></p>
             </div>
         </div>
         <div class="step">
             <h2>Download the correct KUAL version</h2>
             <div class="stepContent">
-                <a href="./Update_KUALBooklet_HDRepack.bin" class="btn btn-purple">Kual (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</a>
+                <a href="./Update_KUALBooklet_HDRepack.bin" class="button">Kual (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</a>
                 <p>The above version of KUAL is provided by HackerDude</p>
                 <br/>
-                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz" class="btn btn-purple">KUAL - For legacy devices</a>
+                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz" class="button">KUAL - For legacy devices</a>
             </div>
         </div>
         <div class="step">
