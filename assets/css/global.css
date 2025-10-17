@@ -6,6 +6,7 @@ html
     --code-background-colour: #EEE;
     --text-colour: #000;
 
+    --heading-colour: #333;
     --navbar-active-bottom-shadow: #0e0e0e;
     --card-top-shadow-colour-colour: #b3b3b3;
     --card-top-shadow-colour: #ffffff;
@@ -29,11 +30,12 @@ html
     --card-top-shadow-colour-colour: #0e0e0e;
     --card-top-shadow-colour: #252525;
 
+    --heading-colour: #00d0ff;
     --link-colour: rgb(0, 170, 255);
-    --note-colour: #f6f6f65c;
+    --note-colour: #ffffff2b;
     --warning-colour: #672f2fb5;
     --highlight-colour: rgb(78 41 118 / 45%);
-    --button-colour: #003946;
+    --button-colour: #0089a8;
     --button-text-colour: #FFF;
 }
 
@@ -89,11 +91,6 @@ html
     }
 }
 
-.dark-theme .info, .dark-theme .note, .dark-theme .warning
-{
-    /*color: #000 !important; /* Yeah */
-}
-
 .dark-theme .stepwrapper
 {
     background-color: #151515 !important;
@@ -110,7 +107,8 @@ html, body
 
 h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
 {
-    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    color: var(--heading-colour);
 }
 
 a {
@@ -265,6 +263,7 @@ blockquote, .note, .warning, .info
     background: var(--background-accent);
     padding: 1em;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px #000000A8;
 }
 
 .note

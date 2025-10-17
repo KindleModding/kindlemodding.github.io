@@ -2,7 +2,7 @@
 @supports (scrollbar-color: auto) {
     .stepwrapper {
         scrollbar-width: thin;
-        scrollbar-color: #369d36 #164116;
+        scrollbar-color: #208199 #163441;
     }
 }
 
@@ -92,8 +92,8 @@
 
 .version-label {
     font-weight: bold;
-    border-bottom: 1px solid #369d36;
+    border-bottom: 1px solid var(--heading-colour);
     padding-bottom: 5px;
     margin-bottom: 10px;
-    color: #369d36;
+    color: var(--heading-colour);
 }
