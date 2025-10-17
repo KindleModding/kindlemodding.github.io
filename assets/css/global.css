@@ -223,7 +223,7 @@ a:hover {
 button, .button, .btn
 {
     line-height: 2em;
-    padding: 1em;
+    padding: 0.75em 1em;
     background-color: var(--button-colour);
     color: var(--button-text-colour);
     font-size: 1em;
