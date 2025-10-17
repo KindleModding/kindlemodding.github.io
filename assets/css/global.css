@@ -32,9 +32,9 @@ html
 
     --heading-colour: #00d0ff;
     --link-colour: rgb(0, 170, 255);
-    --note-colour: #ffffff2b;
+    --note-colour: var(--background-accent);
     --warning-colour: #672f2fb5;
-    --highlight-colour: rgb(78 41 118 / 45%);
+    --highlight-colour: rgba(175, 90, 25, 0.45);
     --button-colour: #0089a8;
     --button-text-colour: #FFF;
 }
