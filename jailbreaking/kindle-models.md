@@ -2,10 +2,11 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Kindle Models
-nav_order: 2
+nav_order: 1
 ---
 
 # Kindle Models
+Identify your Kindle model and the jailbreak method best suited for it
 
 {: .info }
 You can find your serial number by going to `Settings` > `Device Options` > `Device Info`
