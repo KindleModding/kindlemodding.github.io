@@ -10,7 +10,7 @@ html
     --card-bottom-shadow-colour: #b3b3b3;
     --card-top-shadow-colour: #ffffff;
 
-    --heading-colour: #007fbf;
+    --heading-colour: #000;
     --link-colour: #007fbf;
     --note-colour: #fffdbb;
     --warning-colour: #ffbbbb;
@@ -30,7 +30,7 @@ html
     --card-bottom-shadow-colour: #000000A8;
     --card-top-shadow-colour: #252525;
 
-    --heading-colour: #00d0ff;
+    --heading-colour: #FFF;
     --link-colour: rgb(0, 170, 255);
     --note-colour: var(--background-accent);
     --warning-colour: #672f2fb5;
