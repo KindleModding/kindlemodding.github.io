@@ -146,7 +146,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 - Switch account region  
    - Go to Manage Your Content and Devices → Preferences → Country/Region Settings → Change.  
-   - Select one of: US, UK, DE, FR, IT, ES, JP, CN  
+   - Select one of: US, UK, DE, FR, IT, ES, JP, CN, AU  
    - Use valid details (address, phone, email).
 
 - Add payment method  
