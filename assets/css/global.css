@@ -151,7 +151,6 @@ a:hover {
     overflow-y: auto;
     width: calc(25vw - 1em);
     padding: 0.5em;
-    padding-right: 0; /* Space for pushing! */
     background-color: var(--background-colour);
     user-select: none;
     border-right: solid 3px var(--background-accent);
