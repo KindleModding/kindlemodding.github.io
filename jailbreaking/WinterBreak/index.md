@@ -26,7 +26,8 @@ It is based on [Mesquito](../../mesquito/)
 ## Prerequisites
 - You will need a PC
 - Your Kindle must be registered
-- Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 8 to 10 (inclusive)
+- Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 5 to 7 (inclusive)
+- Your Kindle's storage must be almost full, with only 20-90 MB of free space remaining to avoid automatic updates
 - File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 
 {: .highlight}
@@ -45,8 +46,8 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <h2>Download the latest WinterBreak release:</h2>
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="btn btn-purple">Download</a>
-                <p class="note">
-                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process
+                <p class="note">                    
+                    To prevent your Kindle from automatically updating during the jailbreak process, it is <b>critical</b> you follow <a href="../prevent-auto-update/">this guide</a> before continuing, whether your device is registered or not
                 </p>
                 <p class="warning">
                     Winterbreak/Mesquito does NOT work on firmware <code>5.18.1</code> and beyond
