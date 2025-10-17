@@ -2,7 +2,7 @@
 layout: default
 parent: Kindle OS
 title: React Native
-has_children: true
+has_children: false
 ---
 
 # React Native

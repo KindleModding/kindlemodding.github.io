@@ -2,7 +2,7 @@
 layout: default
 parent: Kindle OS
 title: Java
-has_children: true
+has_children: false
 ---
 
 # Java
