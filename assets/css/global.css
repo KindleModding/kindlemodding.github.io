@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
 a {
     color: var(--link-colour);
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -264,6 +265,7 @@ blockquote, .note, .warning, .info
     padding: 1em;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #000000A8;
+    margin: 0;
 }
 
 .note
@@ -327,7 +329,7 @@ th
 
 .card
 {
-    border-radius: 5px;
+    border-radius: 2px;
     background: var(--background-colour);
     box-shadow:  5px 5px 10px var(--card-bottom-shadow-colour),
         -5px -5px 10px var(--card-top-shadow-colour);
