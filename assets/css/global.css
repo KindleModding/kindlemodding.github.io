@@ -1,6 +1,6 @@
 html
 {
-    --background-colour: #FFF;
+    --background-colour: #fffffb;
     --background-accent: #EEE;
     --background-second-accent: #CCC;
     --code-background-colour: #EEE;
@@ -10,11 +10,12 @@ html
     --card-bottom-shadow-colour: #b3b3b3;
     --card-top-shadow-colour: #ffffff;
 
-    --link-colour: #00F;
+    --heading-colour: #007fbf;
+    --link-colour: #007fbf;
     --note-colour: #fffdbb;
     --warning-colour: #ffbbbb;
     --highlight-colour: #e1bbff;
-    --button-colour: #000;
+    --button-colour: #007fbf;
     --button-text-colour: #FFF;
 }
 
