@@ -265,7 +265,8 @@ blockquote, .note, .warning, .info
     padding: 1em;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #000000A8;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .note
@@ -331,8 +332,7 @@ th
 {
     border-radius: 2px;
     background: var(--background-colour);
-    box-shadow:  5px 5px 10px var(--card-bottom-shadow-colour),
-        -5px -5px 10px var(--card-top-shadow-colour);
+    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
 
     padding: 1em;
     transition: box-shadow 0.5s;
@@ -343,8 +343,7 @@ th
 
 .card:hover
 {
-    box-shadow:  15px 15px 30px var(--card-bottom-shadow-colour),
-        -15px -15px 30px var(--card-top-shadow-colour);
+    box-shadow: 0px 0px 24px 6px var(--card-bottom-shadow-colour);
 }
 
 @media only screen and (max-width: 900px)
