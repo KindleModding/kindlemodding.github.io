@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/ThatHackerDudeFromCyberspace/kramdown-syntax_tree_sitter
-  revision: 97262f1a215327dfff8df6b375073745074fb9b3
-  specs:
-    kramdown-syntax_tree_sitter (0.6.0)
-      kramdown (~> 2.0)
-      rake (~> 13.0)
-      rutie (~> 0.0.4)
-
 GEM
   specs:
     addressable (2.8.7)
@@ -70,7 +61,6 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.2)
     rouge (4.6.0)
-    rutie (0.0.4)
     safe_yaml (1.0.5)
     sass-embedded (1.91.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
@@ -86,7 +76,6 @@ DEPENDENCIES
   base64
   bigdecimal
   jekyll
-  kramdown-syntax_tree_sitter!
 
 BUNDLED WITH
    2.7.2
