@@ -58,6 +58,7 @@ html
 }
 
 /** We do some tomfoolery */
+/** Inspired by: https://theme-toggle.rdsx.dev/ */
 :root {
     view-transition-name: root;
 }
