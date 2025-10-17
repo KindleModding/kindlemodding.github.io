@@ -139,9 +139,10 @@ a:hover {
     min-height: 100vh;
     align-self: center;
     padding: 0 1em;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
+    max-width: min(100%, 1000px);
+    margin: 0px auto;
 }
 
 .navbar
