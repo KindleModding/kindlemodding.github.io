@@ -219,7 +219,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     background-color: var(--background-colour);
-    align-items: end;
+    align-items: center;
+    padding: 1em;
     border-top: solid 3px var(--background-accent);
 }
 
