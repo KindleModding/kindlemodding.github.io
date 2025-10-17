@@ -10,7 +10,7 @@ nav_order: 2
 [WatchThis](https://www.mobileread.com/forums/showthread.php?t=346037) is a jailbreak utilising a `demo payload` exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../getting-started.html) with WatchThis
+- Please check that your Kindle is [compatible](../kindle-models.html) with WatchThis
 - You will also need a PC
 
 {: .warning}

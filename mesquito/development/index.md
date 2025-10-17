@@ -20,4 +20,4 @@ Mesquito also includes its own polyfill, and whilst the polyfill works extremely
 {: .info}
 A fix for the `LIPC` limitation is being worked on.
 
-[Getting Started](./getting-started.html){: .button }
+[Getting Started](./kindle-models.html){: .button }

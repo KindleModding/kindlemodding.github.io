@@ -10,7 +10,7 @@ nav_order: 4
 [KindleBreak](https://www.mobileread.com/forums/showthread.php?t=338268) is jailbreak utilising the [`KindleDrip`](https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08) webkit exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../getting-started.html) with KindleBreak
+- Please check that your Kindle is [compatible](../kindle-models.html) with KindleBreak
 - You will also need a PC
 
 {: .warning}

@@ -12,7 +12,7 @@ nav_order: 1
 [LanguageBreak](https://www.mobileread.com/forums/showthread.php?t=356872) is jailbreak utilising a novel [`langpicker-nativebridge`](https://www.mobileread.com/forums/showthread.php?t=356766) exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../getting-started.html) with LanguageBreak
+- Please check that your Kindle is [compatible](../kindle-models.html) with LanguageBreak
 - You will also need a PC
 
 {: .warning}
