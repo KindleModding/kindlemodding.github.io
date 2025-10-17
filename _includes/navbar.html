@@ -44,9 +44,16 @@
         document.getElementById("theme-selector").value = localStorage.getItem("theme");
         document.getElementById("theme-selector").addEventListener('input', (event) => {
             localStorage.setItem("theme", document.getElementById("theme-selector").value);
-            document.startViewTransition(() => {
-                refreshTheme();;
-            });
+            if (document.startViewTransition)
+            {
+                document.startViewTransition(() => {
+                    refreshTheme();;
+                });
+            }
+            else
+            {
+                refreshTheme();
+            }
         });
         refreshTheme();
     </script>
