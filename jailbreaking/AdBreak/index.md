@@ -15,16 +15,10 @@ AdBreak is a jailbreak released on 24/09/2025 by hhhhhhhhh.
 
 It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/ode-to-use-after-free-one-vulnerable.html).
 
-{: .note}
-> Scribe devices must be using a French account to enable ads
-
-{: .note}
-> Special thanks to Chris Evans (@scarybeasts) for a lot of the exploit code, hackerdude for the modified JB script.
-
 ## Prerequisites
 
-- You will need a PC, cable
-- Non-blacklisted, registered, ad-enabled Kindle
+- You will need a PC & Cable
+- A registered Kindle [with ads enabled](#enabling-ads)
 - Firmware 5.18.1 and above (possibly patched after 5.18.5.0.1)
 
 {: .info}
@@ -127,13 +121,6 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 ## Troubleshooting
 
-### FAQ
-
-- The JB does NOT automatically remove advertisements, see Marek's scriptlet.
-- It will never work on the CS/Colorsoft! Ads can NOT be re-enabled there!
-- No, this is not "UJ"/"Unnamed Jailbreak". That is separate.
-- "Is there a way to make my device ad supported?" (see below)
-
 ### Common Issues
 
 - Can't find the system folder:
@@ -141,29 +128,25 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 - "Bang!" shows but the jailbreak doesn't run:
     - Check the .assets folder on the Kindle. "jb.sh" and "patchedUks.sqsh" must be in there.
 
-### Enabling Ads
-(needed for jailbreak, safe to remove later)
+<h3 id="enabling-ads">Enabling Ads</h3>
+
+{: .note}
+Ads can be disabled afterwards - enabling them is **NOT** permanent
 
 - Switch account region  
    - Go to Manage Your Content and Devices → Preferences → Country/Region Settings → Change.  
    - Select one of: US, UK, DE, FR, IT, ES, JP, CN, AU  
    - Use valid details (address, phone, email).
-
 - Add payment method  
    - Set a default credit card and billing address matching the chosen region.  
    - No charge should occur.
-
 - Enable special offers  
    - In your Amazon account, turn on Special Offers for your Kindle.
-
 - Sync kindle  
    - Connect to Wi-Fi, eventually ads will appear on lockscreen.
-
-Notes:  
-- If your kindle originally had no ads, re-disabling later is free.  
-- If your kindle is an ads model, disabling normally costs a one-time fee, but can be removed post-jb with a script.  
-
-## Special Thanks
-
-- Penguins184: This guide
+   
+## Special Thanks To
+- [Chris Evans (@scarybeasts)](https://x.com/scarybeasts) for a lot of the exploit code
+- [Hackerdude](https://hackerdude.tech) for the modified JB script.
 - Ceoz: Enable-ad findings
+- Penguins184: This guide
