@@ -215,7 +215,7 @@ a:hover {
 .footer
 {
     margin-top: 1em;
-    width: 100%;
+    width: calc(100% - 2em);
     display: flex;
     flex-direction: column;
     background-color: var(--background-colour);
