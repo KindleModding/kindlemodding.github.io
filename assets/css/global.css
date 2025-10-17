@@ -7,8 +7,7 @@ html
     --text-colour: #000;
 
     --heading-colour: #333;
-    --navbar-active-bottom-shadow: #0e0e0e;
-    --card-top-shadow-colour-colour: #b3b3b3;
+    --card-bottom-shadow-colour: #b3b3b3;
     --card-top-shadow-colour: #ffffff;
 
     --link-colour: #00F;
@@ -27,7 +26,7 @@ html
     --code-background-colour: #181818;
     --text-colour: #FFF;
 
-    --card-top-shadow-colour-colour: #0e0e0e;
+    --card-bottom-shadow-colour: #000000A8;
     --card-top-shadow-colour: #252525;
 
     --heading-colour: #00d0ff;
@@ -330,7 +329,7 @@ th
 {
     border-radius: 5px;
     background: var(--background-colour);
-    box-shadow:  5px 5px 10px var(--card-top-shadow-colour-colour),
+    box-shadow:  5px 5px 10px var(--card-bottom-shadow-colour),
         -5px -5px 10px var(--card-top-shadow-colour);
 
     padding: 1em;
@@ -342,7 +341,7 @@ th
 
 .card:hover
 {
-    box-shadow:  15px 15px 30px var(--card-top-shadow-colour-colour),
+    box-shadow:  15px 15px 30px var(--card-bottom-shadow-colour),
         -15px -15px 30px var(--card-top-shadow-colour);
 }
 
