@@ -61,7 +61,7 @@ Used to indicate progress via a spinner in the title bar.
 | timeout | Integer | The maximum amount of time to show the spinner, units unknown, possible milliseconds? `todo: confirm` |
 | delay   | Integer | The time to wait to start spinning `todo: confirm`                                                    |
 
-{: .highlight}
+{: .info}
 `timeout` and `delay` are still needed even if `state` is `stop` as `JSObjectChrome::setSpinnerState expects three arguments` despite the fact that they are ignored when `state` is `stop`.
 
 <br/>

@@ -12,5 +12,5 @@ These legacy jailbreak methods are no-longer recommended in favour for simpler m
 <br/>
 These are kept here for historical purposes.
 
-{: .highlight}
+{: .info}
 The majority of this information was taken from [Neon](https://www.mobileread.com/forums/member.php?u=329187)'s [original wiki](https://kindlemodding.gitbook.io/kindlemodding)

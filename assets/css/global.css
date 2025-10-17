@@ -2,6 +2,7 @@ html
 {
     --background-colour: #FFF;
     --background-accent: #EEE;
+    --code-background-colour: #EEE;
     --text-colour: #000;
 
     --navbar-active-top-shadow: #0e0e0e;
@@ -20,6 +21,7 @@ html
 {
     --background-colour: #222;
     --background-accent: #444;
+    --code-background-colour: #EEE;
     --text-colour: #FFF;
 
     --navbar-active-top-shadow: #0e0e0e;
@@ -27,22 +29,16 @@ html
     --card-bottom-shadow: #363636;
 
     --link-colour: rgb(0, 170, 255);
-    --note-colour: #fffdbb;
-    --warning-colour: #ffbbbb;
-    --highlight-colour: #e1bbff;
+    --note-colour: #fffdbb99;
+    --warning-colour: #F229;
+    --highlight-colour: rgb(169 89 255 / 85%);
     --button-colour: #000;
     --button-text-colour: #FFF;
 }
 
-.dark-theme th, .dark-theme .highlight, .dark-theme .note, .dark-theme .warning
+.dark-theme th, .dark-theme .info, .dark-theme .note, .dark-theme .warning
 {
     color: #000 !important; /* Yeah */
-}
-
-.dark-theme .highlight code, .dark-theme .note code, .dark-theme .warning code
-{
-    background-color: var(--background-accent) !important;
-    color: #FFF !important; /* Yeah */
 }
 
 .dark-theme .stepwrapper
@@ -52,6 +48,7 @@ html
 
 html, body
 {
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     background-color: var(--background-colour);
@@ -61,11 +58,6 @@ html, body
 h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
 {
     font-family: "Libre Baskerville", serif;
-}
-
-*
-{
-    font-family: sans-serif;
 }
 
 a {
@@ -192,14 +184,19 @@ button, .button
     text-decoration: unset;
 }
 
-pre:not(.highlight), code:not(.highlight code)
+pre:not(.info), code:not(.info code)
 {
-    background: var(--background-accent);
+    background: var(--code-background-colour);
+    color: #000;
     overflow: auto;
+}
+
+code
+{
     font-family: 'Courier New', Courier, monospace;
 }
 
-blockquote, .note, .warning, .highlight
+blockquote, .note, .warning, .info
 {
     background: var(--background-accent);
     padding: 1em;
@@ -216,19 +213,19 @@ blockquote, .note, .warning, .highlight
     background: var(--warning-colour) !important;
 }
 
-.highlight
+.info
 {
     background: var(--highlight-colour) !important;
 }
 
-div.highlight
+div.info
 {
     width: calc(100% - 2em);
     overflow: auto;
     padding: 1em;
 }
 
-.highlight *
+.info *
 {
     font-family: 'Courier New', Courier, monospace !important;
 }
@@ -264,10 +261,10 @@ tr:nth-child(odd) > td
     border: 3px solid var(--background-colour);
 }
 
-tr:nth-child(odd) > td > pre, tr:nth-child(odd) > td > code
+/*tr:nth-child(odd) > td > pre, tr:nth-child(odd) > td > code
 {
     background: var(--background-colour);
-}
+}*/
 
 th
 {

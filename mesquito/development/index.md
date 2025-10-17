@@ -17,7 +17,7 @@ Mesquito also includes its own polyfill, and whilst the polyfill works extremely
 
 (The reason for this is that a polyfill can add modern web APIs to your application, it does *not* add modern language features - see Babel/SWC).
 
-{: .highlight}
+{: .info}
 A fix for the `LIPC` limitation is being worked on.
 
 [Getting Started](./getting-started.html){: .button }

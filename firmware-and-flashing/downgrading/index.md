@@ -47,7 +47,7 @@ Large jumps in firmware versions might cause your Kindle to display a white scre
 {: .warning }
 Keep in mind that not every extension out there was not made for hard float firmware (`>=5.16.3`) or soft float firmware (`<=5.16.2.1.1`), if you make a jump between those two updates, make sure you're installing the correct packages and extensions.
 
-{: .highlight }
+{: .info }
 Some devices may let you skip the initial device set-up by simply restarting the device. But if your device keeps prompting the set-up, do it quickly (skipping Wi-Fi), and then delete the partial OTA download located in your Kindle root directory.
 
 

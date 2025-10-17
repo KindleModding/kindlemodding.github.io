@@ -30,7 +30,7 @@ It is based on [Mesquito](../../mesquito/)
 - Your Kindle's storage must be almost full, with only 20-90 MB of free space remaining to avoid automatic updates
 - File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 
-{: .highlight}
+{: .info}
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
 
 ## Installation Guide

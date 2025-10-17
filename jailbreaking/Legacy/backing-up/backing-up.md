@@ -44,7 +44,7 @@ This guide will briefly go over how to back-up your Kindle's partitions, allowin
 9. Plug the Kindle back into your computer
 10. There should be a `backups` folder, this contains your Kindle's system images, make sure you copy it to a safe location!
 
-{: .highlight}
+{: .info}
 If you ever want to back up your Kindle again, you can start from `step 7`, assuming you didn't remove `kterm` or the `backup script`
 
 ## Credits

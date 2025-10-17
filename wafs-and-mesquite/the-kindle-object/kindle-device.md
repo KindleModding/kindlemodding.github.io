@@ -69,7 +69,7 @@ Parameters:
 | logMsg   | String | The data to be logged                                                    |
 | logLevel | String | The log leve, valid values are: `info`, `warn`, `error`, `debug`, `perf` |
 
-{: .highlight}
+{: .info}
 Heads Up: Kindle logs **ARE** sent to Amazon, so be careful
 
 
@@ -137,7 +137,7 @@ kindle.device.clearCache()
 ~~~
 Clears any resources cached by the application in memory
 
-{: .highlight}
+{: .info}
 Using this with a `Mesquito` app can cause bugs and be generally annoying, avoid its use when possible for `Mesquito` apps
 
 
@@ -147,7 +147,7 @@ kindle.device.getMPDomain()
 ~~~
 Gets the marketplace domain.
 
-{: .highlight}
+{: .info}
 Fun fact, the firmware reffers to `".amazon.cn"` as the `CHINESE_OBFUSCATED_MARKETPLACE` when returned by this function
 
 

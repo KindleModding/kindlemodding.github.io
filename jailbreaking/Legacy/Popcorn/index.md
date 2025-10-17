@@ -18,7 +18,7 @@ Popcorn is a *hardware* jailbreak which works on any firmware on supported hardw
 > - PW2
 > - KT3
 
-{: .highlight}
+{: .info}
 The Kindle Voyage (KV) is compatible with `WatchThis` on every firmware released for it. It is not recommended to use `Popcorn` when possible.
 
 {: .warning}

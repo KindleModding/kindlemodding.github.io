@@ -39,7 +39,7 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 Yes, but for Winterbreak, you will have to log in again if you want to jailbreak from scratch. Your Kindle will remain jailbroken whether you log back in or log out.
 
-{: .highlight}
+{: .info}
 After unregistering, the Kindle will delete all files located in the documents folder, including the KUAL Launcher booklet and any other scripts that have been transferred. Be sure to back up these files first.
 
 ### Can I un-jailbreak my Kindle?
@@ -143,7 +143,7 @@ Yes, but you must first enable Airplane mode and enable automatic updates again 
 
 When updating, ensure that the newer version supports a jailbreak.
 
-{: .highlight}
+{: .info}
 After updating/factory reset/downgrading, re-install the hotfix from scratch. KUAL and some others extensions *may* need to be re-installed too.
 
 ### How do I downgrade my Kindle?
@@ -172,7 +172,7 @@ If you still want to change the screensavers, check the details of your default 
 
 Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export the images.
 
-{: .highlight}
+{: .info}
 If you are, however, running soft-float firmware prior to or on 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake of installing this extension on hard-float firmware.**
 
 {: .note}
@@ -204,7 +204,7 @@ This is expected, you can safely reboot your device manually (holding the power 
 
 If you're using Winterbreak, unless the Kindle displays the message "You are now ready to install the hotfix" in small text, you can safely continue with the post-jailbreak instructions . If it doesn't, something went wrong during the jailbreak process, and you'll have to try again.
 
-{: .highlight}
+{: .info}
 Remember to delete any automatic update file that might have appeared.
 
 ### I kept getting random "KPPMainAppV2" books added to my Kindle library, what should I do!?
