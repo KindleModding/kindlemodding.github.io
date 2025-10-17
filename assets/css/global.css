@@ -8,7 +8,6 @@ html
 
     --heading-colour: #333;
     --card-bottom-shadow-colour: #b3b3b3;
-    --card-top-shadow-colour: #ffffff;
 
     --heading-colour: #000;
     --link-colour: #007fbf;
@@ -27,8 +26,7 @@ html
     --code-background-colour: #181818;
     --text-colour: #FFF;
 
-    --card-bottom-shadow-colour: #000000A8;
-    --card-top-shadow-colour: #252525;
+    --card-bottom-shadow-colour: #000000B8;
 
     --heading-colour: #FFF;
     --link-colour: rgb(0, 170, 255);
@@ -233,13 +231,13 @@ button, .button, .btn
     border-radius: 5px;
     cursor: pointer;
     text-decoration: unset;
-    box-shadow:  5px 5px 10px var(--navbar-active-bottom-shadow);
+    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
     transition: box-shadow 0.5s;
 }
 
 button:hover, .button:hover, .btn:hover
 {
-    box-shadow:  15px 15px 20px var(--navbar-active-bottom-shadow);
+    box-shadow: 0px 0px 20px 3px var(--card-bottom-shadow-colour);
 }
 
 pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
@@ -264,8 +262,8 @@ blockquote, .note, .warning, .info
 {
     background: var(--background-accent);
     padding: 1em;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px #000000A8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
     margin-left: 0;
     margin-right: 0;
 }
@@ -331,7 +329,7 @@ th
 
 .card
 {
-    border-radius: 2px;
+    border-radius: 3px;
     background: var(--background-colour);
     box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
 
