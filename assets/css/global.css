@@ -16,7 +16,7 @@ html
     --button-text-colour: #FFF;
 }
 
-.dark-mode
+.dark-theme
 {
     --background-colour: #222;
     --background-accent: #444;
@@ -30,22 +30,22 @@ html
     --note-colour: #fffdbb;
     --warning-colour: #ffbbbb;
     --highlight-colour: #e1bbff;
-    --button-colour: #333;
+    --button-colour: #000;
     --button-text-colour: #FFF;
 }
 
-.dark-mode th, .dark-mode .highlight, .dark-mode .note, .dark-mode .warning
+.dark-theme th, .dark-theme .highlight, .dark-theme .note, .dark-theme .warning
 {
     color: #000 !important; /* Yeah */
 }
 
-.dark-mode .highlight code, .dark-mode .note code, .dark-mode .warning code
+.dark-theme .highlight code, .dark-theme .note code, .dark-theme .warning code
 {
     background-color: var(--background-accent) !important;
     color: #FFF !important; /* Yeah */
 }
 
-.dark-mode .stepwrapper
+.dark-theme .stepwrapper
 {
     background-color: #151515 !important;
 }
