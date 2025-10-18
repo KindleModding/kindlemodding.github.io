@@ -240,6 +240,11 @@ button:hover, .button:hover, .btn:hover
     box-shadow: 0px 0px 20px 3px var(--card-bottom-shadow-colour);
 }
 
+pre
+{
+    overflow: auto;
+}
+
 pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
 {
     padding: 0.25em;
