@@ -1,21 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% include head_global.html %}
+    {{ partial "head_global.html" . }}
 
     <title>{{ .Title }}</title>
   </head>
   <body>
     <div class="pageWrapper">
-      {% include navbar.html %}
 
       <div class="pageContent">
         <div class="mainContent">
-          {{ .Content }}
+          {{ block "page" . }}{{ end }}
         </div>
 
         {% if page.landing != true %}
-          {% include footer.html %}
+          {{ partial "footer.html" . }}
         {% endif %}
       </div>
     </div>

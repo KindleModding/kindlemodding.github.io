@@ -3,12 +3,15 @@
         <h1 style="color: var(--text-colour) !important;"><a href="/" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
     </div>
 
-    {% assign pages = site.pages | sort: "nav_order" %}
-    {% for item in pages %}
-        {% if item.parent == nil and item.title != nil %}
-            {% include nav_item.html page=item current=page %}
-        {% endif %}
-    {% endfor %}
+    {{ range sort .Site.Pages "nav_order" }}
+        {{ if .parent == nil and $page.title != nil }}
+            {{ $ctx := dict 
+                "page" .
+                "current" $current
+            }}
+            {{ partial nav_item $ctx }}
+        {{ endif }}
+    {{ endfor }}
 
     <details>
         <summary>Settings</summary>
