@@ -7,7 +7,7 @@ nav_order: 1
 ---
 
 # LanguageBreak
-<a href='https://ko-fi.com/notmarek' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+<a href='https://ko-fi.com/notmarek' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_dark.png' border='0' alt='Buy Me a Coffee at ko-fi.com'></a>
 
 [LanguageBreak](https://www.mobileread.com/forums/showthread.php?t=356872) is jailbreak utilising a novel [`langpicker-nativebridge`](https://www.mobileread.com/forums/showthread.php?t=356766) exploit.
 
