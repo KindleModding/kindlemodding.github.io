@@ -3,7 +3,7 @@
   <head>
     {% include head_global.html %}
 
-    <title>{{ page.title }}</title>
+    <title>{{ .Title }}</title>
   </head>
   <body>
     <div class="pageWrapper">
@@ -11,7 +11,7 @@
 
       <div class="pageContent">
         <div class="mainContent">
-          {{ content }}
+          {{ .Content }}
         </div>
 
         {% if page.landing != true %}
