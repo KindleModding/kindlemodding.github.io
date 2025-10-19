@@ -1,9 +1,9 @@
 baseURL = 'https://kindlemodding.org/'
 languageCode = 'en-gb'
 title = 'Kindle Modding Wiki'
-disableKinds = ['taxonomy']
-uglyURLs = true
-disablePathToLower = true
+disableKinds = ['taxonomy'] # We don't use this lol
+uglyURLs = true # We do this to preserve legacy .html links
+disablePathToLower = true # Preserve case of paths
 
 [markup]
   [markup.goldmark]
