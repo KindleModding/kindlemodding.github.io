@@ -20,18 +20,19 @@ Filling the Kindle's storage (leaving only 20-90 MB free) prevents the device fr
 
 ## How to Fill the Kindle's Storage
 
-{: .warning}
-> Delete `update-whatever.bin` OR `update.partial.bin`, and turn on Airplane Mode!
+<blockquote class="warning">
+Delete `update-whatever.bin` OR `update.partial.bin`, and turn on Airplane Mode!
+</blockquote>
 
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
 
-{: .note}
-> The script will not work on 11th gen Kindles and newer because these devices use MTP to connect to computers
->
-> If this is your situation, you have two options:
-> 1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide (or before doing any rebooting)
-> 2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 20–90 MB of free space
+<blockquote class="note">
+The script will not work on 11th gen Kindles and newer because these devices use MTP to connect to computers
 
+If this is your situation, you have two options:
+1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide (or before doing any rebooting)
+2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 20–90 MB of free space
+</blockquote>
 
 <div id="guide">
     <div class="buttons">

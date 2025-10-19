@@ -19,8 +19,9 @@ You can easily install downloaded Kindle Updates
 ## Update Links
 
 
-{: .info}
-> Note that `K1`, `K2`, `DX` and `K3` are not included in the table as they require different firmwares based on serial numbers, please see [the Amazon page](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW) for those models
+<blockquote class="info">
+Note that `K1`, `K2`, `DX` and `K3` are not included in the table as they require different firmwares based on serial numbers, please see [the Amazon page](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW) for those models
+</blockquote>
 
 This table contains the last jailbreakable firmware for each Kindle as a link. Note that Kindles which cannot be jailbroken (>`PW5`) or particularly old devices (<`PW3`) simply have links to the latest firmwares **at the time of writing**. Always make sure what you're downloading before you update!
 

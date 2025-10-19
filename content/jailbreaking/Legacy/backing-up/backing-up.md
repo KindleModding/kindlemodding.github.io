@@ -9,16 +9,17 @@ nav_order: 1
 # Backing Up Your Kindle
 This guide will briefly go over how to back-up your Kindle's partitions, allowing you to recover it if it becomes bricked.
 
-{: .warning}
-> This only works on Kindle's which are 8th generation or **OLDER**, such as:
-> - PW2
-> - PW3
-> - KT2
-> - KT3
-> - KV
-> - KOA
-> 
-> This is because newer devices such as the KT4/PW4 have different partition layouts as well as *secure boot*,  making it impossible to resture backed up partitions.
+<blockquote class="warning">
+This only works on Kindle's which are 8th generation or **OLDER**, such as:
+- PW2
+- PW3
+- KT2
+- KT3
+- KV
+- KOA
+
+This is because newer devices such as the KT4/PW4 have different partition layouts as well as *secure boot*,  making it impossible to resture backed up partitions.
+</blockquote>
 
 ## Prerequisites
 - A computer
@@ -44,8 +45,9 @@ This guide will briefly go over how to back-up your Kindle's partitions, allowin
 9. Plug the Kindle back into your computer
 10. There should be a `backups` folder, this contains your Kindle's system images, make sure you copy it to a safe location!
 
-{: .info}
+<blockquote class="info">
 If you ever want to back up your Kindle again, you can start from `step 7`, assuming you didn't remove `kterm` or the `backup script`
+</blockquote>
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

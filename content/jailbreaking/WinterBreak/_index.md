@@ -16,12 +16,12 @@ WinterBreak is a jailbreak which was released on New Year's Day 2025 by [HackerD
 
 It is based on [Mesquito](../../mesquito/)
 
-{: .note}
-> Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
->
-> RIP bricked Kindles during beta-testing
-> <br/>
-> RIP the original deadlines
+<blockquote class="note">
+Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
+RIP bricked Kindles during beta-testing
+<br/>
+RIP the original deadlines
+</blockquote>
 
 ## Prerequisites
 - You will need a PC
@@ -30,8 +30,9 @@ It is based on [Mesquito](../../mesquito/)
 - Your Kindle's storage must be almost full, with only 20-90 MB of free space remaining to avoid automatic updates
 - File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 
-{: .info}
+<blockquote class="info">
 If you face any issues, please check the [troubleshooting](#troubleshooting) section
+</blockquote>
 
 ## Installation Guide
 

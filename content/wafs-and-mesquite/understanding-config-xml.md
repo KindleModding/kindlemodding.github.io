@@ -181,8 +181,9 @@ This is a single tag which tells the Kindle which file to load when the WAF is l
 </kindle:permissions>
 ~~~
 
-{: .info}
+<blockquote class="info">
 Yes, that spelling mistake is indeed in the firmware
+</blockquote>
 
 This tag serves to request certain special permissions from the Kindle, below is a list of all known permissions:
 
@@ -237,8 +238,9 @@ Other example from `browser` WAF:
 
 This section appears to handle Kindle networking, allowing you to set proxy overrides for a specific WAF, network headers, as well as setting an `errorPage` for when loads fail.
 
-{: .info}
+<blockquote class="info">
 `enableCaching` does not appear to handle the actual caching of the WAF itself
+</blockquote>
 
 
 ## Cookiejar

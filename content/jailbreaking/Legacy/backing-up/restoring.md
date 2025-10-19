@@ -9,16 +9,17 @@ nav_order: 2
 # Restoring Your Kindle
 If your Kindle becomes bricked and you have a [backup](./backing-up.html), then you can restore it as so:
 
-{: .warning}
-> This only works on Kindle's which are 8th generation or **OLDER**, such as:
-> - PW2
-> - PW3
-> - KT2
-> - KT3
-> - KV
-> - KOA
-> 
-> This is because newer devices such as the KT4/PW4 have different partition layouts as well as *secure boot*,  making it impossible to resture backed up partitions.
+<blockquote class="warning">
+This only works on Kindle's which are 8th generation or **OLDER**, such as:
+- PW2
+- PW3
+- KT2
+- KT3
+- KV
+- KOA
+
+This is because newer devices such as the KT4/PW4 have different partition layouts as well as *secure boot*,  making it impossible to resture backed up partitions.
+</blockquote>
 
 ## Prerequisites
 - A computer
@@ -33,8 +34,9 @@ If your Kindle becomes bricked and you have a [backup](./backing-up.html), then 
 4. Once you see `uboot >`, boot into `DIAGS` by entering the command: `boom 0xE41000`
 5. Once you are in `DIAGS`, export the userpace partition by running the `usb export` command
 6. Then, copy your `RootFS` image file to the Kindle. Make sure you name it `rootfs.img`
-    {: .warning}
+    <blockquote class="warning">
     DO NOT FLASH THE KINDLE OR WRITE THE IMAGE TO IT DIRECTLY. Simply copy the image file to the Kindle
+</blockquote>
 8. Eject **BUT DO NOT UNPLUG** your Kindle
 9. Exit `DIAGS` mode by entering `x` at the prompt and enter a shell using the following command: `exit login`
 10. Now we will flash your `RootFS` image on the Kindle, simply run the following command: `dd if=/mnt/us/rootfs.img of=/dev/mmcblk0p1 bs=4096`

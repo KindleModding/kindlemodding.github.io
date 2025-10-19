@@ -10,19 +10,22 @@ has_children: true
 # Popcorn
 Popcorn is a *hardware* jailbreak which works on any firmware on supported hardware.
 
-{: .warning}
-> Popcorn only works on the following models:
-> - PW3
-> - KV
-> - KT2
-> - PW2
-> - KT3
+<blockquote class="warning">
+Popcorn only works on the following models:
+- PW3
+- KV
+- KT2
+- PW2
+- KT3
+</blockquote>
 
-{: .info}
+<blockquote class="info">
 The Kindle Voyage (KV) is compatible with `WatchThis` on every firmware released for it. It is not recommended to use `Popcorn` when possible.
+</blockquote>
 
-{: .warning}
+<blockquote class="warning">
 Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
+</blockquote>
 
 ## Prerequisites
 - A PC running Linux or Windows (MacOS is not currently supported)
@@ -44,10 +47,12 @@ Popcorn is quite a sophisticated jailbreak method and requires prior electronics
 ## Next Steps
 Simply select your model and follow the instructions on the page
 
-[PW2](./PW2.html){: .button }
+[PW2](./PW2.html)<blockquote class="button">
 [PW3](./PW3.html){: .button }
-[KT2](./KT2.html){: .button }
+</blockquote>
+[KT2](./KT2.html)<blockquote class="button">
 [KT3](./KT3.html){: .button }
+</blockquote>
 [KV](./KV.html){: .button }
 
 ## Credits

@@ -61,8 +61,9 @@ sudo apt-get install meson gtk2.0 libgtk2.0-dev
 
 ## Building The Toolchain
 
-{: .note}
+<blockquote class="note">
 If you don't want to build the toolchain yourself or if you encounter difficulties in building it, use the [pre-built release](https://github.com/koreader/koxtoolchain/releases/latest)
+</blockquote>
 
 #### 1. Clone the toolchain
 ```sh
@@ -85,11 +86,13 @@ Where target should be replaced as follows:
 | kindlepw2 | Kindle PW2 & everything since on FW <5.16.3 |             kindlepw2            |
 |  kindlehf |          Any Kindle on FW >= 5.16.3         |              kindlehf            |
 
-{: .note}
+<blockquote class="note">
 If you want to support multiple Kindles, you can compile multiple toolchain targets just by running `./gen-tc.sh <other_target>` and the new toolchain be added to your `~/x-tools` directory
+</blockquote>
 
-{: .note}
+<blockquote class="note">
 Compilation usually takes around 30-minutes per target on most PCs
+</blockquote>
 
 ## Setting up the SDK
 

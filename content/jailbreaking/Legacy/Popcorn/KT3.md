@@ -7,11 +7,13 @@ title: KT3
 
 # KT3
 
-{: .warning}
+<blockquote class="warning">
 Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
+</blockquote>
 
-{: .info}
+<blockquote class="info">
 Make sure you have followed the [initial Popcorn instructions](./)
+</blockquote>
 
 ## Performing the Jailbreak
 1. Tear down the `KT3` up to `4:48` as shown [here](https://youtu.be/LVt2hyPBrnA)
@@ -23,8 +25,9 @@ If everything went well, the device is now in `SDP Mode` and ready to be flashed
 
 ## Windows
 
-{: .warning}
+<blockquote class="warning">
 The `KT3` uses a different set of jailbreak files for Windows than other models. Make sure you have downloaded the correct files.
+</blockquote>
 
 On Windows, simply locate the folder you extracted earlier, double click on `MFGTool.exe` to run it and then click on `Start` and wait for it to complete.
 

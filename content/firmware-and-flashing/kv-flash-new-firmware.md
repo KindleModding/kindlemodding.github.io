@@ -8,8 +8,7 @@ nav_order: 3
 # Forcing KV to run 5.14+
 Thanks to [`katadelos`](https://www.mobileread.com/forums/showthread.php?t=343385) for figuring this out.
 
-{: .warning}
-This is **extremely advanced** and can brick your Kindle Voyage. This is also highly experimental. There will be little support if things go wrong as there are few people who can even help you recover if this goes wrong.
+<p class="warning">This is **extremely advanced** and can brick your Kindle Voyage. This is also highly experimental. There will be little support if things go wrong as there are few people who can even help you recover if this goes wrong.</p>
 
 <br/>
 In terms of hardware, like iPhones, the PW3 and KV are almost identical. They have an identical partition layout, meaning that it is possible to cross-flash the firmware from one device to another.
@@ -18,11 +17,9 @@ In fact, even the [KT2 with 256MB of ram can run 5.14+](https://www.reddit.com/r
 <br/>
 This can theoretically be done to any device in the Wario hardware family (PW2, PW3, KT2, KV) **EXCEPT** for the PW2 as it has a slightly smaller RootFS than the rest, as [Neon found out, unfortunately](https://www.mobileread.com/forums/showthread.php?t=348801). Whilst it is theoretically possible, modifications to the image are needed.
 
-{: .warning}
-By following this guide, I bear no responsibility if you break your Kindle, caused a house fire, or accidentally open up a wormhole to the 818th dimension. You have been warned!
+<p class="warning">By following this guide, I bear no responsibility if you break your Kindle, caused a house fire, or accidentally open up a wormhole to the 818th dimension. You have been warned!</p>
 
-{: .warning}
-This should **ONLY** be attempted on Kindle Voyages with `512MB RAM`. Even then, caution should be used as there is presumably a reason `5.14.1` did not ship on the Voyage...
+<p class="warning">This should **ONLY** be attempted on Kindle Voyages with `512MB RAM`. Even then, caution should be used as there is presumably a reason `5.14.1` did not ship on the Voyage...</p>
 
 ## Prerequisites
 - A Kindle Voyage
@@ -52,8 +49,7 @@ This should **ONLY** be attempted on Kindle Voyages with `512MB RAM`. Even then,
     usb export
     ~~~
 7. **COPY** the `rootfs.img` file to the Kindle
-    {: .warning}
-    DO NOT FLASH THE IMAGE ONTO THE KINDLE. Simply copy it to the device via your preffered file manager.
+    <p class="warning">DO NOT FLASH THE IMAGE ONTO THE KINDLE. Simply copy it to the device via your preffered file manager.</p>
 8. Eject the Kindle from the PC **BUT DO NOT UNPLUG IT**
 9. Exit USB Export mode by entering `x` at the prompt
 10. Exit `DIAGS` mode and enter a shell by running:
@@ -71,8 +67,7 @@ This should **ONLY** be attempted on Kindle Voyages with `512MB RAM`. Even then,
 
 If everything works, the Kindle should boot to whichever firmware you flashed.
 
-{: .warning}
-If your Kindle does not boot, try flashing it again
+<p class="warning">If your Kindle does not boot, try flashing it again</p>
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

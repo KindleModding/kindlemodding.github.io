@@ -9,8 +9,9 @@ nav_order: 1
 # Setting Up A Hotfix
 A hotfix allows your Kindle's jailbreak to persist after updating. There are two different hotfixes and which one you need to install depends on which method you used to jailbreak your Kindle.
 
-{: .info}
+<blockquote class="info">
 If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix will not be detected by the Kindle
+</blockquote>
 
 <div id="guide">
     <div class="buttons">

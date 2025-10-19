@@ -9,8 +9,9 @@ nav_order: 98
 
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
-{: .note}
+<blockquote class="note">
 Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br>`(Last updated: Aug 28, 2025)`
+</blockquote>
 
 ## General/Account
 ---
@@ -39,8 +40,9 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 Yes, but for Winterbreak, you will have to log in again if you want to jailbreak from scratch. Your Kindle will remain jailbroken whether you log back in or log out.
 
-{: .info}
+<blockquote class="info">
 After unregistering, the Kindle will delete all files located in the documents folder, including the KUAL Launcher booklet and any other scripts that have been transferred. Be sure to back up these files first.
+</blockquote>
 
 ### Can I un-jailbreak my Kindle?
 
@@ -80,8 +82,9 @@ Yes.
 
 No.
 
-{: .note}
+<blockquote class="note">
 If your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not. Backup your books whenever you can
+</blockquote>
 
 ### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
@@ -143,8 +146,9 @@ Yes, but you must first enable Airplane mode and enable automatic updates again 
 
 When updating, ensure that the newer version supports a jailbreak.
 
-{: .info}
+<blockquote class="info">
 After updating/factory reset/downgrading, re-install the hotfix from scratch. KUAL and some others extensions *may* need to be re-installed too.
+</blockquote>
 
 ### How do I downgrade my Kindle?
 
@@ -172,11 +176,13 @@ If you still want to change the screensavers, check the details of your default 
 
 Please note that even after following these precautions, it is not guaranteed your device won’t brick, especially if you're using GIMP to export the images.
 
-{: .info}
+<blockquote class="info">
 If you are, however, running soft-float firmware prior to or on 5.16.2.1.1 you can install [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). **Please do not make the mistake of installing this extension on hard-float firmware.**
+</blockquote>
 
-{: .note}
+<blockquote class="note">
 You can easily change screensavers with [KOReader](https://koreader.rocks/user_guide/) (search for the "screensavers" feature).
+</blockquote>
 
 ## Jailbreaking
 ---
@@ -204,8 +210,9 @@ This is expected, you can safely reboot your device manually (holding the power 
 
 If you're using Winterbreak, unless the Kindle displays the message "You are now ready to install the hotfix" in small text, you can safely continue with the post-jailbreak instructions . If it doesn't, something went wrong during the jailbreak process, and you'll have to try again.
 
-{: .info}
+<blockquote class="info">
 Remember to delete any automatic update file that might have appeared.
+</blockquote>
 
 ### I kept getting random "KPPMainAppV2" books added to my Kindle library, what should I do!?
 

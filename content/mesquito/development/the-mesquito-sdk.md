@@ -16,14 +16,14 @@ All apps that use `waf: true` **MUST** have the following lines in their `head`:
 The `polyfill.min.js` allows you to use somewhat modern web features in your app. Whilst the `sdk.js` allows you to utilise Mesquito's SDK and access special Kindle JS functions.
 It is also important to set a `title` for your app in HTML so that it appears in the title bar.
 
-{: .info}
-> If your app `does not` use Mesquito-specific features, it is recommented you instead use KWebBrew's files so that the app can function on both Mesquito and KWebBrew (as Mesquito is backwards-compatible with KWebBrew apps)
->
-> Simply add the following to your `head` instead:
-> ~~~html
-> <script src="file:///mnt/us/kwebbrew/polyfill.min.js"></script>
-> <script src="file:///mnt/us/kwebbrew/sdk.js"></script>
-> ~~~
+<blockquote class="info">
+If your app `does not` use Mesquito-specific features, it is recommented you instead use KWebBrew's files so that the app can function on both Mesquito and KWebBrew (as Mesquito is backwards-compatible with KWebBrew apps)
+Simply add the following to your `head` instead:
+~~~html
+<script src="file:///mnt/us/kwebbrew/polyfill.min.js"></script>
+<script src="file:///mnt/us/kwebbrew/sdk.js"></script>
+~~~
+</blockquote>
 
 ## SDK Functionality
 The Mesquito SDK exposes the `kindle` object so that it can be invoked directly in scripts as so:
@@ -144,8 +144,9 @@ window.mesquito.menuItems = [
 
 This serves as an object which allows your app to add custom menu items to the Kindle's menu (under the `three dots`).
 
-{: .info}
+<blockquote class="info">
 As mentioned earlier, `window.mesquito.updateNavigation()` must be called to update the actual state of the navbar.
+</blockquote>
 
 
 ### window.mesquito.onKindleButton

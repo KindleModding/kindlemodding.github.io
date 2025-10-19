@@ -8,11 +8,9 @@ title: kindle.gestures
 # kindle.gestures
 A set of overridable functions which are called when the user performs a gesture, configured [here](../understanding-config-xml.html#gestures) in the `config.xml` file.
 
-{: .warning}
-This section of the documentation is UNFINISHED.
+<p class="warning">This section of the documentation is UNFINISHED.</p>
 
-{: .warning}
-Only `onswipe` and `ontap` work with `Mesquito` due to the store's [`config.xml`](../understanding-config-xml) file
+<p class="warning">Only `onswipe` and `ontap` work with `Mesquito` due to the store's [`config.xml`](../understanding-config-xml) file</p>
 
 ## kindle.gestures.onswipe
 ~~~js

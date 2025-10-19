@@ -8,8 +8,9 @@ has_children: true
 # Kindle Apps & Services
 The Kindle has many apps/services which communicated via `LIPC`, which is similar to `dbus` in many respsects.
 
-{: .info}
+<blockquote class="info">
 LIPC values are wrapped in square brackets (`[]`), these should be excluded when writing to a LIPC entry
+</blockquote>
 
 {: :warning}
 This entire section is a `WIP` and is `incomplete`

@@ -46,5 +46,6 @@ callback(property, json)
 ~~~
 The property value is a string of the `eventType` whilst the `json` value stores the data which is sent with an event.
 
-{: .warning}
+<blockquote class="warning">
 This page a `WIP`, a list of possible callbacks is being worked on at the moment
+</blockquote>

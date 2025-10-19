@@ -7,14 +7,17 @@ title: KV
 
 # KV
 
-{: .warning}
+<blockquote class="warning">
 Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
+</blockquote>
 
-{: .info}
+<blockquote class="info">
 Make sure you have followed the [initial Popcorn instructions](./)
+</blockquote>
 
-{: .warning}
+<blockquote class="warning">
 The Kindle Voyage (KV) supports `WatchThis` on its latest firmware. It is not recommented that you use `Popcorn` instead of `WatchThis`
+</blockquote>
 
 ## Performing the Jailbreak
 1. Tear down the `KV` up to `step 5` as described [here](https://www.ifixit.com/Guide/Kindle+Voyage+Screen+Replacement/37464)

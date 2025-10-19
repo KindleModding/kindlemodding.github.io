@@ -8,8 +8,9 @@ nav_order: 4
 
 # Re-enabling the Store
 
-{: .warning }
+<blockquote class="warning">
 Ensure you've [disabled OTA Updates](../disable-ota) before re-enabling the store.<br/><br/>This is <b>WinterBreak-Only</b>, and it does not apply to AdBreak.
+</blockquote>
 
 <div id="guide">
     <div class="buttons">
