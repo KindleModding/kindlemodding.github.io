@@ -22,7 +22,7 @@
             </div>
         </details>
     {{- else -}}
-        <a class="{{ if eq .page.Path .RelRef }}active{{ end }}" href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a>
+        <a class="{{ if eq .page.Path .current.Path }}active{{ end }}" href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a>
     {{- end -}}
 {{- end -}}
 

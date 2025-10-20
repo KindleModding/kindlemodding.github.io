@@ -258,6 +258,11 @@ pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
     overflow: auto;
 }
 
+pre
+{
+    margin: 0;
+}
+
 code
 {
     font-family: 'Courier New', Courier, monospace;
