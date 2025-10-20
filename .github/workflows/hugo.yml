@@ -4,7 +4,7 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Deploy Hugo Site
 
 on:
   # Runs on pushes targeting the default branch
@@ -35,22 +35,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          ruby-version: '3.4.5' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
+          hugo-version: 'latest'
+          extended: true
       - uses: actions/cache@v4
         id: cache
         with:
           path: |
-            ./_site/jb.sh
+            ./static/jb.sh
           key: ${{ runner.os }}-${{ hashFiles('_jb.sh/**') }}
       - uses: actions/checkout@v4
         if: steps.cache.outputs.cache-hit != 'true'
@@ -75,10 +69,14 @@ jobs:
               cd _jb.sh
               LOGGING=true ./build.sh
               cd ..
-              cp _jb.sh/build/jb.sh ./_site/
+              cp _jb.sh/build/jb.sh ./static/
+      - name: Build with Hugo
+        run: hugo --minify
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
 
   # Deployment job
   deploy:
