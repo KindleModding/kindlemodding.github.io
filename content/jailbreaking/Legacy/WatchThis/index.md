@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: WatchThis
-nav_order: 2
+weight: 2
 ---
 
 # WatchThis

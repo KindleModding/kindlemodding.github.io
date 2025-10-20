@@ -3,7 +3,7 @@ layout: default
 title: Backing Up
 grand_parent: Jailbreaking Your Kindle
 parent: Legacy
-nav_order: 7
+weight: 7
 has_children: true
 ---
 

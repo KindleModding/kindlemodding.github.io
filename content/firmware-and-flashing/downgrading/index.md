@@ -2,7 +2,7 @@
 layout: default
 parent: Firmware and Flashing
 title: Downgrading Your Kindle
-nav_order: 2
+weight: 2
 ---
 
 # Downgrading Your Kindle

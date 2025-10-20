@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 1
+weight: 1
 title: Kindle SDK
 parent: Kindle Development
 ---

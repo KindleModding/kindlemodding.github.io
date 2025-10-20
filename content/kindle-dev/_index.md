@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle Development
-nav_order: 3
+weight: 3
 has_children: true
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Post Jailbreak
 parent: Jailbreaking Your Kindle
-nav_order: 5
+weight: 5
 has_children: true
 ---
 

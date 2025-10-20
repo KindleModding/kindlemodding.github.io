@@ -2,7 +2,7 @@
 layout: default
 title: Legacy
 parent: Jailbreaking Your Kindle
-nav_order: 100
+weight: 100
 has_children: true
 ---
 

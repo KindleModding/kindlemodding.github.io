@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle OS
-nav_order: 6
+weight: 6
 has_children: true
 ---
 

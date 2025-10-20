@@ -2,7 +2,7 @@
 layout: default
 parent: Firmware and Flashing
 title: Manually Downloading Firmware Update Files
-nav_order: 1
+weight: 1
 ---
 
 # Manually Downloading Firmware Update Files

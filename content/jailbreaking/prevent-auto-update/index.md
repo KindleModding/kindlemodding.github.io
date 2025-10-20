@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Prevent Automatic Updates
-nav_order: 99
+weight: 99
 ---
 
 # Preventing Automatic Updates by Filling Kindle Storage
@@ -52,7 +52,7 @@ If this is your situation, you have two options:
             <h2>2. Connect Your Kindle to Your Computer via USB</h2>
             <div class="stepContent">
                 <p>Use a USB cable to connect your Kindle to your computer.</p>
-                <img src="./Prevent/usb-mode.png"/>
+                <img src="./usb-mode.png"/>
                 <p>Wait for the Kindle to appear as a USB drive.</p>
             </div>
         </div>
@@ -60,7 +60,7 @@ If this is your situation, you have two options:
             <h2>3. Download the Disk Filler Script</h2>
             <div class="stepContent">
                 <p>Go to the <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/">Kindle-Filler-Disk GitHub repository</a>.</p>
-                <img src="./Prevent/github-files.png"/>
+                <img src="./github-files.png"/>
                 <p>Download the appropriate script for your operating system:</p>
                 <div style="margin-left:2em">
                     <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
@@ -72,7 +72,7 @@ If this is your situation, you have two options:
             <h2>4. Move the Script to Your Kindle</h2>
             <div class="stepContent">
                 <p>Copy the downloaded script file to the root directory of your Kindle (the main folder you see when you open the Kindle as a USB drive).</p>
-                <img src="./Prevent/root-main.png"/>
+                <img src="./root-main.png"/>
                 <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
                 <span><strong>macOS/Linux:</strong> <code>Filler.sh</code></span>
             </div>
@@ -95,7 +95,7 @@ If this is your situation, you have two options:
                     <p>Run the script:</p>
                     <pre><code>./Filler.sh</code></pre>
                 </div>
-                <img src="./Prevent/run-script.png"/>
+                <img src="./run-script.png"/>
               </div>     
             </div>
         <div class="step">
@@ -104,7 +104,7 @@ If this is your situation, you have two options:
                 <p>Eject your Kindle from your computer.</p>
                 <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
                 <p>Check that the available storage is <strong>20-90 MB or less</strong>.</p>
-                <img src="./Prevent/final.png"/>
+                <img src="./final.png"/>
             </div>
         </div>
         <div class="step">

@@ -3,15 +3,41 @@
         <h1 style="color: var(--text-colour) !important;"><a href="/" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
     </div>
 
-    {{ range sort .Site.Pages "nav_order" }}
-        {{ if .parent == nil and $page.title != nil }}
-            {{ $ctx := dict 
+{{- define "nav_item" -}}
+    {{- if .page.IsSection -}}
+        <details {{ if strings.Contains .current.Path .page.Path }}open{{ end }}>
+            <summary class="{{if eq .page.Path .current.Path}}active{{end}}"><a href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a></summary>
+            <div>
+                {{- $page := .page -}}
+                {{- $current := .current -}}
+                {{- $targetSection := index (split $page.Path "/" | last 1) 0 -}}
+                {{- range sort site.AllPages "Weight" -}}
+                    {{- $pageSection := index (split .Path "/" | last 2) 0 -}}
+                    {{- if and (ne .Path $page.Path) (eq $pageSection $targetSection) (gt (.Path | strings.Count "/") 1) -}}
+                        {{- $ctx := dict 
+                            "page" .
+                            "current" $current
+                        -}}
+                        {{ template "nav_item" $ctx }}
+                    {{- end -}}
+                {{- end -}}
+            </div>
+        </details>
+    {{- else -}}
+        <a class="{{ if eq .page.Path .RelRef }}active{{ end }}" href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a>
+    {{- end -}}
+{{- end -}}
+
+    {{- $current := page -}}
+    {{- range sort site.AllPages "Weight" -}}
+        {{- if and .IsSection (eq (.Path | strings.Count "/") 1) -}}
+            {{- $ctx := dict 
                 "page" .
                 "current" $current
-            }}
-            {{ partial nav_item $ctx }}
-        {{ endif }}
-    {{ endfor }}
+            -}}
+            {{ template "nav_item" $ctx }}
+        {{- end -}}
+    {{- end -}}
 
     <details>
         <summary>Settings</summary>

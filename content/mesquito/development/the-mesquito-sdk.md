@@ -3,7 +3,7 @@ layout: default
 grand_parent: Mesquito
 parent: Developing For Mesquito
 title: The Mesquito SDK
-nav_order: 3
+weight: 3
 ---
 
 # Mesquito SDK

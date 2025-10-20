@@ -2,7 +2,7 @@
 layout: default
 parent: Firmware and Flashing
 title: Forcing KV to run 5.14+
-nav_order: 3
+weight: 3
 ---
 
 # Forcing KV to run 5.14+

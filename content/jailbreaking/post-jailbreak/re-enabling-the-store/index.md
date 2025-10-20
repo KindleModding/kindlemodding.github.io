@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Re-enabling the Store
-nav_order: 4
+weight: 4
 ---
 
 # Re-enabling the Store

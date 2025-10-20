@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firmware and Flashing
-nav_order: 2
+weight: 2
 has_children: true
 ---
 

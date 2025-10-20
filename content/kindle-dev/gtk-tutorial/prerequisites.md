@@ -3,7 +3,7 @@ layout: default
 grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Prerequisites
-nav_order: 1
+weight: 1
 has_children: false
 ---
 

@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: LanguageBreak
-nav_order: 1
+weight: 1
 ---
 
 # LanguageBreak

@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Setting Up A Hotfix
-nav_order: 1
+weight: 1
 ---
 
 # Setting Up A Hotfix

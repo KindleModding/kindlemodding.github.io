@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Kindle Models
-nav_order: 1
+weight: 1
 ---
 
 # Kindle Models

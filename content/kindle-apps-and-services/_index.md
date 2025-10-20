@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle Apps & Services
-nav_order: 100
+weight: 100
 has_children: true
 ---
 

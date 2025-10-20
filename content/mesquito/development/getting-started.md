@@ -3,7 +3,7 @@ layout: default
 grand_parent: Mesquito
 parent: Developing For Mesquito
 title: Getting Started
-nav_order: 1
+weight: 1
 ---
 
 # Getting Started

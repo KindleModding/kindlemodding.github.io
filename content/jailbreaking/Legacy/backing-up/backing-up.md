@@ -3,7 +3,7 @@ layout: default
 title: Backing Up Your Kindle
 parent: Backing Up
 grand_parent: Legacy
-nav_order: 1
+weight: 1
 ---
 
 # Backing Up Your Kindle

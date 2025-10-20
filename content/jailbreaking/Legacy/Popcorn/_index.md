@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: Popcorn
-nav_order: 3
+weight: 3
 has_children: true
 ---
 

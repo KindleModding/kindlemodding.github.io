@@ -3,7 +3,7 @@ layout: default
 grand_parent: Mesquito
 parent: Developing For Mesquito
 title: The Manifest File
-nav_order: 2
+weight: 2
 ---
 
 # The Manifest File

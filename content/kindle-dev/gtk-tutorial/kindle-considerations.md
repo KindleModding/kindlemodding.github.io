@@ -3,7 +3,7 @@ layout: default
 grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Kindle Considerations
-nav_order: 3
+weight: 3
 ---
 
 # Kindle Considerations

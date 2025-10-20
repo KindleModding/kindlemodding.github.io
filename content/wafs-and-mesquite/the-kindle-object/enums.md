@@ -3,7 +3,7 @@ layout: default
 grand_parent: WAFs & Mesquite
 parent: The Kindle Object
 title: Enums
-nav_order: 1
+weight: 1
 ---
 
 # Enums

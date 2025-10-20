@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: AdBreak
-nav_order: 3
+weight: 3
 ---
 
 # AdBreak

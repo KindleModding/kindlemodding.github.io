@@ -2,7 +2,7 @@
 layout: default
 parent: WAFs & Mesquite
 title: Understanding config.xml
-nav_order: 1
+weight: 1
 ---
 
 # Understanding config.xml

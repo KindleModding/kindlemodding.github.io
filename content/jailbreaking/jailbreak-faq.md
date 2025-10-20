@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Kindle Jailbreak FAQ
-nav_order: 98
+weight: 98
 ---
 
 # Frequently Asked Questions

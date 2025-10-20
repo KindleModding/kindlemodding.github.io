@@ -3,7 +3,7 @@ layout: default
 grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Installing KUAL & MRPI
-nav_order: 2
+weight: 2
 ---
 
 # Installing KUAL and MRPI

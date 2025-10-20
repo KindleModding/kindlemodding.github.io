@@ -2,7 +2,7 @@
 layout: default
 parent: WAFs & Mesquite
 title: The Kindle Object
-nav_order: 2
+weight: 2
 has_children: true
 ---
 

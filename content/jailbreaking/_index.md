@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Jailbreaking Your Kindle
-nav_order: 1
+weight: 1
 has_children: true
 ---
 

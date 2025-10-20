@@ -3,7 +3,7 @@ layout: default
 grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Setting Up The Project
-nav_order: 2
+weight: 2
 has_children: false
 ---
 

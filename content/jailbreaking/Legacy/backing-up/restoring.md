@@ -3,7 +3,7 @@ layout: default
 title: Restoring Your Kindle
 parent: Backing Up
 grand_parent: Legacy
-nav_order: 2
+weight: 2
 ---
 
 # Restoring Your Kindle
