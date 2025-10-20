@@ -1,0 +1,91 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Hugo Site
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - uses: actions/cache@v4
+        id: cache
+        with:
+          path: |
+            ./static/jb.sh
+          key: ${{ runner.os }}-${{ hashFiles('_jb.sh/**') }}
+      - uses: actions/checkout@v4
+        if: steps.cache.outputs.cache-hit != 'true'
+        with:
+          repository: KindleModding/kindle-sdk
+          submodules: recursive
+          path: kindle-sdk
+      - name: Download Kindle toolchains
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+              wget -q https://github.com/KindleModding/koxtoolchain/releases/latest/download/kindlepw2.tar.gz -O - | tar -xzf - -C ~
+              wget -q https://github.com/KindleModding/koxtoolchain/releases/latest/download/kindlehf.tar.gz -O - | tar -xzf - -C ~
+      - name: Setup kindle-sdk + dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+            sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
+            bash ./kindle-sdk/gen-sdk.sh kindlepw2
+            bash ./kindle-sdk/gen-sdk.sh kindlehf
+      - name: Build jb.sh
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+              cd _jb.sh
+              LOGGING=true ./build.sh
+              cd ..
+              cp _jb.sh/build/jb.sh ./static/
+      - name: Build with Hugo
+        run: hugo --minify
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

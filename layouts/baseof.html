@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "head_global.html" . }}
+
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    <div class="pageWrapper">
+      {{ partial "navbar" }}
+
+      <div class="pageContent">
+        <div class="mainContent">
+          {{ block "page" . }}{{ end }}
+        </div>
+
+        {{- if ne .Params.landing true -}}
+          {{ partial "footer.html" . }}
+        {{- end -}}
+      </div>
+    </div>
+  </body>
+</html>
