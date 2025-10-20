@@ -10,10 +10,8 @@
             <div>
                 {{- $page := .page -}}
                 {{- $current := .current -}}
-                {{- $targetSection := index (split $page.Path "/" | last 1) 0 -}}
                 {{- range sort site.AllPages "Weight" -}}
-                    {{- $pageSection := index (split .Path "/" | last 2) 0 -}}
-                    {{- if and (ne .Path $page.Path) (eq $pageSection $targetSection) (gt (.Path | strings.Count "/") 1) -}}
+                    {{- if (eq .Parent $page) -}}
                         {{- $ctx := dict 
                             "page" .
                             "current" $current
