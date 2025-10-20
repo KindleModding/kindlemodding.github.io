@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: WatchThis
 weight: 2

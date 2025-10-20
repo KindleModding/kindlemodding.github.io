@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: WAFs & Mesquite
 parent: The Kindle Object
 title: Enums
 weight: 1

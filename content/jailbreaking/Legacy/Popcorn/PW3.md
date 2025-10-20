@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Legacy
 parent: Popcorn
 title: PW3
 ---

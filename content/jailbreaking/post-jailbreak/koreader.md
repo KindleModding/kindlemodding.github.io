@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Installing KOReader
 weight: 5

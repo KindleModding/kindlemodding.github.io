@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Disabling OTA Updates
 weight: 3

@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Mesquito
 parent: Developing For Mesquito
 title: Tutorial - Your First WAF
 weight: 4

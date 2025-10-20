@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Setting Up The Project
 weight: 2

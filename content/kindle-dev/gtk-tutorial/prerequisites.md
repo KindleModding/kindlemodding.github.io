@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: Kindle Development
 parent: GTK Tutorial
 title: Prerequisites
 weight: 1

@@ -1,6 +1,5 @@
 ---
 layout: default
-grand_parent: WAFs & Mesquite
 parent: The Kindle Object
 title: kindle.device
 ---

@@ -2,7 +2,6 @@
 layout: default
 title: Backing Up Your Kindle
 parent: Backing Up
-grand_parent: Legacy
 weight: 1
 ---
 
