@@ -11,7 +11,7 @@
                 {{- $page := .page -}}
                 {{- $current := .current -}}
                 {{- range sort site.AllPages "Weight" -}}
-                    {{- if (eq .Parent $page) -}}
+                    {{- if eq .Parent $page -}}
                         {{- $ctx := dict 
                             "page" .
                             "current" $current

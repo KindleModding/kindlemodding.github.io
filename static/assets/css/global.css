@@ -23,7 +23,7 @@ html
     --background-colour: #111;
     --background-accent: #252525;
     --background-second-accent: #000;
-    --code-background-colour: #181818;
+    --code-background-colour: #272822;
     --text-colour: #FFF;
 
     --card-bottom-shadow-colour: #000000B8;
@@ -243,6 +243,11 @@ button:hover, .button:hover, .btn:hover
 pre
 {
     overflow: auto;
+}
+
+div.highlight
+{
+    background: var(--code-background-colour);
 }
 
 pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)

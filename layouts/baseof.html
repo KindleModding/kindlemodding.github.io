@@ -14,9 +14,9 @@
           {{ block "page" . }}{{ end }}
         </div>
 
-        {% if page.landing != true %}
+        {{- if ne .Params.landing true -}}
           {{ partial "footer.html" . }}
-        {% endif %}
+        {{- end -}}
       </div>
     </div>
   </body>
