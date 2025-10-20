@@ -28,7 +28,7 @@ It's still possible to jailbreak an unregistered/blacklisted device, but current
 
 You'll have to wait for a new jailbreak method (or patch) to be released. **This may take weeks or even months**. To protect your Kindle from automatic updates, **forget** all saved internet connections, enable Airplane mode, and wait.
 
-If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](https://kindlemodding.org/jailbreaking/prevent-auto-update.html).
+If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](https://kindlemodding.org/jailbreaking/prevent-auto-update).
 
 #### Can I downgrade my Kindle so I can jailbreak it?
 

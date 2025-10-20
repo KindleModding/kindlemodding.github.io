@@ -40,7 +40,7 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
             <div class="stepContent">
                 <a href="https://github.com/htimesnine/AdBreak/releases/download/v1.0.1/adbreak.zip" class="button">Download</a>
                 <p class="note">
-                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update.html">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
+                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
                 </p>
                 <p class="warning">
                     Please use WinterBreak on firmware <code>5.18.0.2</code> and below.
