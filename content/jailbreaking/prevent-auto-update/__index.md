@@ -46,7 +46,7 @@ If this is your situation, you have two options:
             <h2>1. Put Your Kindle in Airplane Mode</h2>
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
-                <img src="./WinterBreak/airplane_mode.png" />
+                <img src="../WinterBreak/airplane_mode.png" />
             </div>
         </div>
         <div class="step">
