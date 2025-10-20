@@ -44,7 +44,7 @@ jobs:
         id: cache
         with:
           path: |
-            ./static/jb.sh
+            _jb.sh/build/jb.sh
           key: ${{ runner.os }}-${{ hashFiles('_jb.sh/**') }}
       - uses: actions/checkout@v4
         if: steps.cache.outputs.cache-hit != 'true'
@@ -69,7 +69,8 @@ jobs:
               cd _jb.sh
               LOGGING=true ./build.sh
               cd ..
-              cp _jb.sh/build/jb.sh ./static/
+      - name: Copy jb.sh to static folder
+        run: cp _jb.sh/build/jb.sh ./static/
       - name: Build with Hugo
         run: hugo --minify
       - name: Upload artifact
