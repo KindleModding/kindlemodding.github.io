@@ -4,6 +4,7 @@ parent: Kindle Development
 title: Awesome Window Manager
 weight: 2
 has_children: false
+slug: index
 ---
 
 <style>

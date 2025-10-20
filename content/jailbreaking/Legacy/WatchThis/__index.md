@@ -4,6 +4,7 @@ grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: WatchThis
 weight: 2
+slug: index
 ---
 
 # WatchThis

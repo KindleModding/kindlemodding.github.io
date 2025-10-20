@@ -3,6 +3,7 @@ layout: default
 parent: Firmware and Flashing
 title: Downgrading Your Kindle
 weight: 2
+slug: index
 ---
 
 # Downgrading Your Kindle

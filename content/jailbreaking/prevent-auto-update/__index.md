@@ -3,6 +3,7 @@ layout: default
 parent: Jailbreaking Your Kindle
 title: Prevent Automatic Updates
 weight: 99
+slug: index
 ---
 
 # Preventing Automatic Updates by Filling Kindle Storage

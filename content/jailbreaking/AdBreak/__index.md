@@ -3,6 +3,7 @@ layout: default
 parent: Jailbreaking Your Kindle
 title: AdBreak
 weight: 3
+slug: index
 ---
 
 # AdBreak

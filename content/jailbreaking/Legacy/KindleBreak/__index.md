@@ -4,6 +4,7 @@ grand_parent: Jailbreaking Your Kindle
 parent: Legacy
 title: KindleBreak
 weight: 4
+slug: index
 ---
 
 # KindleBreak

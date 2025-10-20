@@ -2,10 +2,13 @@ baseURL = 'https://kindlemodding.org/'
 languageCode = 'en-gb'
 title = 'Kindle Modding Wiki'
 disableKinds = ['taxonomy'] # We don't use this lol
-uglyURLs = false
+uglyURLs = true
 disablePathToLower = true
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[permalinks]
+  page = ":contentbasename"

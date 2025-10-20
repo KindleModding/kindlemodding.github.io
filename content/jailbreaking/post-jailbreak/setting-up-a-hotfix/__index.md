@@ -4,6 +4,7 @@ grand_parent: Jailbreaking Your Kindle
 parent: Post Jailbreak
 title: Setting Up A Hotfix
 weight: 1
+slug: index
 ---
 
 # Setting Up A Hotfix

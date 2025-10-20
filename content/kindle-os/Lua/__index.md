@@ -3,6 +3,7 @@ layout: default
 parent: Kindle OS
 title: Lua
 has_children: false
+slug: index
 ---
 
 # Lua

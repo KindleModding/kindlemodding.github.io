@@ -3,6 +3,7 @@ layout: default
 parent: Jailbreaking Your Kindle
 title: WinterBreak
 weight: 4
+slug: index
 ---
 
 # WinterBreak
