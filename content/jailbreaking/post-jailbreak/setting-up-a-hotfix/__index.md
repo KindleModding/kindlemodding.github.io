@@ -27,7 +27,6 @@ If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix 
                 <a href="https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin" class="button">Download</a>
                 <br/>
                 <a href="https://github.com/KindleModding/Hotfix/releases/download/v2.2.1/Update_hotfix_universal.bin" class="button">Download (Compatibility)</a>
-
                 <p class="warning">
                     If scriptlets don't work, please redo these steps using the <b>compatibility hotfix!</b>
                 </p>
