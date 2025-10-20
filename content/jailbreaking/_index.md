@@ -28,7 +28,7 @@ Please be aware of the risks of jailbreaking before you jailbreak your Kindle in
 Always jailbreak at your own risk.
 If you don't know what you are doing or are unsure, don't do it.
 
-[Getting Started](./kindle-models.html){: .button}
+[Getting Started](./kindle-models){: .button}
 
 ## Credits
 Parts of this page were adapted from [Reddit](https://www.reddit.com/r/kindle/comments/1hrwytr/comment/m516ft5/)

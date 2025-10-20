@@ -195,7 +195,7 @@ Type `;log` into the search bar, if a message pop ups, you're jailbroken.
 Verify if your device is still jailbroken by typing `;log` into the search bar.
 
 - If it prompted any text, [re-install the hotfix and KUAL](https://kindlemodding.org/jailbreaking/post-jailbreak/setting-up-a-hotfix/) from scratch.
-- If not [re-jailbreak](https://kindlemodding.org/jailbreaking/kindle-models.html) your device.
+- If not [re-jailbreak](https://kindlemodding.org/jailbreaking/kindle-models) your device.
 - If everything else failed, factory reset your device and start the jailbreak from scratch. 
 
 ### I can't no longer update my Kindle after a factory reset/update!
