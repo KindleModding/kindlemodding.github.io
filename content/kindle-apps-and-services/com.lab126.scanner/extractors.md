@@ -167,7 +167,7 @@ This object is then passed to the `scanner_post_change` function provided by `li
 Note that:
 - The `cdeKey` entry is set to the `sha1` hash of the file's path
 - The `diskUsage` and `contentSize` fields represent the size of the file on the disk
-- For flexibility, `sh_integration` extracts icons to a `.sdr` folder, however, this is not convention - extractors typically extract to 
+- For flexibility, `sh_integration` extracts icons to a `.sdr` folder, however, this is not convention - extractors typically place icons in `/mnt/us/system/thumbnails/`, for example: `/mnt/us/system/thumbnails/thumbnail_B005EM8O5W_EBSP_portrait.jpg`
 
 ### SCANNER_DELETE
 The `scanner_event` file looks like:
