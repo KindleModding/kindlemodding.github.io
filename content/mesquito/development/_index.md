@@ -19,5 +19,3 @@ Mesquito also includes its own polyfill, and whilst the polyfill works extremely
 <blockquote class="info">
 A fix for the `LIPC` limitation is being worked on.
 </blockquote>
-
-[Getting Started](./kindle-models){: .button }

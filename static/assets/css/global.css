@@ -156,6 +156,8 @@ a:hover {
     user-select: none;
     border-right: solid 3px var(--background-accent);
     padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar a

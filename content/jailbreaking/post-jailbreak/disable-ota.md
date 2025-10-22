@@ -34,7 +34,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
                 </div>
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.11.x:</p>
-                    <p>Download the <a href="https://www.mobileread.com/forums/showpost.php?p=4076733&postcount=25">renameotabin</a> extension from MobileRead forums</p>
+                    <p>Download the <a href="./renameotabin.zip">renameotabin</a> extension</p>
                 </div>
             </div>
         </div>
