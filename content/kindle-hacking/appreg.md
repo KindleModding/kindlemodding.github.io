@@ -204,7 +204,7 @@ As the name suggests, this table is responsible for associating specific kinds o
 | com.lab126.booklet.reader |	downloadHandlerClass |	com.amazon.ebook.booklet.reader.impl.todo.handler.ContentToDoHandler |
 | com.lab126.booklet.reader |	downloadHandlerPath |	/opt/amazon/ebook/lib/ReaderSDK-impl.jar |
 | com.lab126.booklet.reader |	extend-start |	Y |
-| com.lab126.booklet.reader |	grip |-suppression	supported |
+| com.lab126.booklet.reader |	grip-suppression |	supported |
 | com.lab126.booklet.reader |	jar |	/opt/amazon/ebook/booklet/Reader.jar |
 | com.lab126.booklet.reader |	lipcId |	com.lab126.booklet.reader |
 | com.lab126.booklet.reader |	maxGoTime |	30 |
