@@ -69,9 +69,7 @@ Arguments are passed to the script in the same way they would with a shell, so:
 Where the command is defined with a sh file as:
 ```sh
 echo $1
-echo $2<blockquote class="note">
-    We use
-    </blockquote>
+echo $2
 echo $3
 ```
 
