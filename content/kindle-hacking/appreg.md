@@ -23,28 +23,50 @@ It is also used to determine what application to launch when opening a booklet.
 
 | handlerId | interface | contentId | defaultAssoc |
 | --------- | --------- | --------- | ------------ |
-| com.lab126.adRotationManager |	kaf-service |	none
-| com.lab126.purchaseManager |	kaf-service |	none
-| com.lab126.todo.handler.PurchaseConfirmation |	todo |	TP:legacy.SET.PRCH
-| com.amazon.kindle.booklet.ad |	application |	none
-| com.lab126.adManager |	kaf-service |	none
-| com.lab126.todo.handler.AdReset |	todo |	TP:legacy.SET.ADRS
-| com.lab126.todo.handler.AdPackage |	todo |	TP:legacy.DOWNLOAD.ADPK
-| com.lab126.todo.handler.AdPackage |	todo |	TP:legacy.REMOVE.ADPK
-| com.lab126.sdk.addressbook |	kaf-service |	none
-| com.lab126.booklet.oobe.tutorial |	application |	none
-| com.amazon.kindle.audiblehandler |	download |	MT:audio/vnd.audible.aax
-| com.lab126.booklet.audiblePlayer |	application |	MT:audio/vnd.audible.aax
-| com.lab126.booklet.audiblePlayer |	application |	MT:audio/audible
-| com.lab126.booklet.audiblePlayer |	application |	MT:audio/mpeg
-| com.lab126.booklet.audiblePlayer |	detail |	MT:audio/vnd.audible.aax
-| com.lab126.booklet.audiblePlayer |	detail |	MT:audio/audible
-| com.lab126.booklet.audiblePlayer |	detail |	MT:audio/mpeg
-| org.kindlemodding.hd_extractor |	extractor |	GL:*.DO_NOT_DELETE
-| com.lab126.audible.extractor |	extractor |	GL:*.aax
-| com.lab126.generic.extractor |	extractor |	GL:*.txt
-| com.lab126.mobi.extractor |	extractor |	GL:*.mobi
-| com.lab126.mobi8.extractor |	extractor |	GL:*.azw3
+| com.lab126.adRotationManager	|	kaf-service	|	none	|	false
+| com.lab126.purchaseManager	|	kaf-service	|	none	|	false
+| com.lab126.todo.handler.PurchaseConfirmation	|	todo	|	TP:legacy.SET.PRCH	|	false
+| com.amazon.kindle.booklet.ad	|	application	|	none	|	false
+| com.lab126.adManager	|	kaf-service	|	none	|	false
+| com.lab126.todo.handler.AdReset	|	todo	|	TP:legacy.SET.ADRS	|	false
+| com.lab126.todo.handler.AdPackage	|	todo	|	TP:legacy.DOWNLOAD.ADPK	|	false
+| com.lab126.todo.handler.AdPackage	|	todo	|	TP:legacy.REMOVE.ADPK	|	false
+| com.lab126.sdk.addressbook	|	kaf-service	|	none	|	false
+| com.lab126.booklet.oobe.tutorial	|	application	|	none	|	false
+| com.lab126.audible.WSMarketplaceService	|	kaf-service	|	none	|	false
+
+| handlerId | interface | contentId | defaultAssoc |
+| --------- | --------- | --------- | ------------ |
+| com.lab126.audible.extractor	|	extractor	|	GL:*.aax	|	true
+| com.lab126.generic.extractor	|	extractor	|	GL:*.txt	|	true
+| com.lab126.mobi.extractor	|	extractor	|	GL:*.mobi	|	true
+| com.lab126.mobi.extractor	|	extractor	|	GL:*.pobi	|	true
+| com.lab126.mobi.extractor	|	extractor	|	GL:*.prc	|	true
+| com.lab126.mobi.extractor	|	extractor	|	GL:*.azw	|	true
+| com.lab126.mobi8.extractor	|	extractor	|	GL:*.azw3	|	true
+| com.lab126.pdf.extractor	|	extractor	|	GL:*.pdf	|	true
+| com.lab126.topaz.extractor	|	extractor	|	GL:*.tpz	|	true
+| com.lab126.topaz.extractor	|	extractor	|	GL:*.azw1	|	true
+| com.lab126.yj.extractor	|	extractor	|	GL:*.yj	|	true
+| com.lab126.yj.extractor	|	extractor	|	GL:*.azw8	|	true
+| com.lab126.yj.extractor	|	extractor	|	GL:*.kfx	|	true
+| org.kindlemodding.hd_extractor	|	extractor	|	GL:*.DO_NOT_DELETE	|	true
+| com.lab126.generic.extractor	|	extractor	|	GL:*.run_persistence	|	true
+| com.notmarek.shell_integration.extractor	|	extractor	|	GL:*.sh	|	true
+| com.lab126.generic.extractor	|	extractor	|	GL:*.run_hotfix	|	true
+
+| handlerId | interface | contentId | defaultAssoc |
+| --------- | --------- | --------- | ------------ |
+| com.lab126.booklet.reader	|	application	|	MT:application/pdf	|	true
+| com.lab126.booklet.test	|	application	|	MT:application/x-amazon-testrunner	|	true
+| com.lab126.booklet.reader	|	application	|	MT:application/x-kfx-ebook	|	true
+| com.lab126.booklet.reader	|	application	|	MT:application/x-mobi8-ebook	|	true
+| com.lab126.booklet.reader	|	application	|	MT:application/x-mobipocket-ebook	|	true
+| com.lab126.booklet.periodicals	|	application	|	MT:application/x-mobipocket-subscription	|	true
+| com.lab126.booklet.periodicals	|	application	|	MT:application/x-mobipocket-subscription-feed	|	true
+| com.lab126.booklet.periodicals	|	application	|	MT:application/x-mobipocket-subscription-magazine	|	true
+| com.lab126.booklet.reader	|	application	|	MT:application/x-topaz-ebook	|	true
+
 
 ## handlerIds
 `handlerIds` is a table with a single column, `handlerId`:

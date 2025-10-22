@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Kindle Apps & Services
+draft: true
 title: <TITLE>
 draft: true
 ---
