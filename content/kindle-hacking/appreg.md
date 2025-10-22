@@ -171,7 +171,9 @@ The purpose of this table is unknown, it holds values similar to `extenstions`
 | run_hotfix |	MT:kindlemodding/run_hotfix |
 
 ## properties
-As the name suggests, this table is responsible for associating specific kinds of properties with handlers
+As the name suggests, this table is responsible for associating specific kinds of properties with handlers.  
+
+<p class="note">This table also stores dconf values (see below)</p>
 
 ### Properties for sh_integration
 | handlerId | name | value |
@@ -234,3 +236,14 @@ As the name suggests, this table is responsible for associating specific kinds o
 | com.lab126.booklet.reader |	searchbar-mode |	transient |
 | com.lab126.booklet.reader |	supportedOrientation |	URL |
 | com.lab126.booklet.reader |	whisper-touch |	supported |
+
+### dconf
+Configuration values from what is known as `dconf` is stored in teh `appreg.db` file under properties with the `dcc` or `dcd` `handlerId`:
+
+| handlerId | name | value |
+| --------- | ---- | ----- |
+| dcc   |	wan.proxy.non_proxy_hosts.http  |	*.amazon.com.au|*.amazon.com|*.images-amazon.com|*.amazon.co.uk|*.amazon.de|*.amazon.fr|*.amazon.es|*.amazon.it|*.amazon.co.jp|*.amazon.ca|*.amazon.com.br|*.amazon.cn|*.amazon.in|*.amazon.eu|*.amazon.com.mx
+| dcc   |	wan.proxy.non_proxy_hosts.https |	*.amazon.com.au|*.amazon.com|*.images-amazon.com|*.amazon.co.uk|*.amazon.de|*.amazon.fr|*.amazon.es|*.amazon.it|*.amazon.co.jp|*.amazon.ca|*.amazon.com.br|*.amazon.cn|*.amazon.in|*.amazon.eu|*.amazon.com.mx
+| dcd   |	url.kindlestore.kcw.metrics |	/mn/kcw/workflow/log-metrics
+| dcd   |	url.store   |	https://www.amazon.com/gp/digital/juno/index.html
+| dcd   |	url.unifiedsearch.kindlestore.voltron   |	$WEBSITE/kindle-dbs/ekws/?action=search&query=$SEARCH_TERM&locale=$LOCALE&page=$OFFSET&size=$SIZE&styleCode=$STYLE_CODE
