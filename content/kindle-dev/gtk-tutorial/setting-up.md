@@ -3,7 +3,6 @@ layout: default
 parent: GTK Tutorial
 title: Setting Up The Project
 weight: 2
-has_children: false
 ---
 
 # Setting Up The Project

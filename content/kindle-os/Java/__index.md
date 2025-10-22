@@ -2,7 +2,6 @@
 layout: default
 parent: Kindle OS
 title: Java
-has_children: false
 slug: index
 ---
 

@@ -3,7 +3,6 @@ layout: default
 parent: GTK Tutorial
 title: Prerequisites
 weight: 1
-has_children: false
 ---
 
 # Prerequisites

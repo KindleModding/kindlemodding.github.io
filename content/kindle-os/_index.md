@@ -2,7 +2,6 @@
 layout: default
 title: Kindle OS
 weight: 6
-has_children: true
 ---
 
 # Kindle OS

@@ -2,7 +2,6 @@
 layout: default
 title: Jailbreaking Your Kindle
 weight: 1
-has_children: true
 ---
 
 # Jailbreaking Your Kindle

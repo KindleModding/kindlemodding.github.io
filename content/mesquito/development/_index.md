@@ -2,7 +2,6 @@
 layout: default
 parent: Mesquito
 title: Developing For Mesquito
-has_children: true
 ---
 
 # Developing For Mesquito

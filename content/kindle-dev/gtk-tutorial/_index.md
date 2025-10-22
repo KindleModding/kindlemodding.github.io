@@ -3,7 +3,6 @@ layout: default
 parent: Kindle Development
 title: GTK Tutorial
 weight: 1
-has_children: true
 ---
 
 # GTK Tutorial

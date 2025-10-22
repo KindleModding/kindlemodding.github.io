@@ -2,7 +2,6 @@
 layout: default
 title: Mesquito
 weight: 4
-has_children: true
 ---
 
 # Mesquito

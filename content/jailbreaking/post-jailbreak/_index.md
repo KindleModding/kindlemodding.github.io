@@ -3,7 +3,6 @@ layout: default
 title: Post Jailbreak
 parent: Jailbreaking Your Kindle
 weight: 5
-has_children: true
 ---
 
 # Post Jailbreak

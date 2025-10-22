@@ -3,7 +3,6 @@ layout: default
 parent: Legacy
 title: Popcorn
 weight: 3
-has_children: true
 ---
 
 # Popcorn

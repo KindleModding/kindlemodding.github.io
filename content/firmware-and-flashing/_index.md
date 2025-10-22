@@ -2,7 +2,6 @@
 layout: default
 title: Firmware and Flashing
 weight: 2
-has_children: true
 ---
 
 # Firmware and Flashing

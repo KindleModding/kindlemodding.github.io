@@ -2,7 +2,6 @@
 layout: default
 title: Kindle Development
 weight: 3
-has_children: true
 ---
 
 # Kindle Development

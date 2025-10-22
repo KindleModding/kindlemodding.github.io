@@ -2,7 +2,6 @@
 layout: default
 title: Kindle Apps & Services
 weight: 100
-has_children: true
 ---
 
 # Kindle Apps & Services

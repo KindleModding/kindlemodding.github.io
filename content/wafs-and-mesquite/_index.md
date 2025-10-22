@@ -2,7 +2,6 @@
 layout: default
 title: WAFs & Mesquite
 weight: 5
-has_children: true
 ---
 
 # WAFs & Mesquite

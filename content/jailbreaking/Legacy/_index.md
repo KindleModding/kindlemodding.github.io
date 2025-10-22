@@ -3,7 +3,6 @@ layout: default
 title: Legacy
 parent: Jailbreaking Your Kindle
 weight: 100
-has_children: true
 ---
 
 # Legacy

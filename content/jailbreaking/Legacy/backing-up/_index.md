@@ -3,7 +3,6 @@ layout: default
 title: Backing Up
 parent: Legacy
 weight: 7
-has_children: true
 ---
 
 # Backing Up

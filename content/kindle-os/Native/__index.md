@@ -2,7 +2,6 @@
 layout: default
 parent: Kindle OS
 title: Native
-has_children: false
 slug: index
 ---
 
