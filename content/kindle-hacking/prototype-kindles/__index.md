@@ -34,7 +34,6 @@ slug: index
     <img alt="scam.net's prototype Kindle" src="./IMG_9057.webp">
     <img src="./O1CN014oweOv2D4hpKiehVr_!!4611686018427387660-0-fleamarket.jpg_790x10000Q90.jpg_.avif">
     <img src="./O1CN017FK5u01DfLDHq8ARM_!!0-fleamarket.jpg_790x10000Q90.jpg_.avif">
-    <img src="./O1CN01ApE9sZ1DfLKTEenGO_!!4611686018427384195-0-fleamarket.jpg_790x10000Q90.jpg_.avif">
     <img src="./O1CN01qej44H1mfoAxziYB7_!!0-fleamarket.jpg_Q90.jpg_.avif">
     <img src="./O1CN01RUOSDE1DfLC3KqDk2_!!0-fleamarket.jpg_790x10000Q90.jpg_.avif">
     <img src="./O1CN01xy80es1DfLAhBovhp_!!0-fleamarket.jpg_790x10000Q90.jpg_.avif">
@@ -48,4 +47,8 @@ This is where utilities such as `screenControl` came from!
 Developer firmware comes with the `/app/tools` folder which contains internal-use tools from `lab126` - most interestingly, the firmware comes bundled with `kterm`.
 
 ## Developer Firmware Downloads
-[scribe_diags_full_dump.7z](./scribe_diags_full_dump.7z)
+
+[scribe_diags_full_dump.7z](./scribe_diags_full_dump.7z) - Dumped by `Ygjsz`
+
+[usr_local_recreation.tar.gz](./usr_local_recreation.tar.gz) - Dumped by `scam.net`
+[PW5_Dev_5.14.0_3741660014_initialdumpfromlinux.img.xz](PW5_Dev_5.14.0_3741660014_initialdumpfromlinux.img.xz) - Dumped by `scam.net`
