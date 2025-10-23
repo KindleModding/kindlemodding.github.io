@@ -34,6 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          lfs: true
           submodules: recursive
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
