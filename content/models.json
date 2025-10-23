@@ -161,7 +161,7 @@
     "last_firmware": "5.6.1.1",
     "platform": "Wario",
     "board": "Pinot",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW",
     "nicknames": [
       "PW",
@@ -223,7 +223,7 @@
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Pinot",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW2",
     "nicknames": [
       "PW2",
@@ -296,7 +296,7 @@
     "last_firmware": "5.13.6",
     "platform": "Wario",
     "board": "Icewine",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KV",
     "nicknames": [
       "KV"
@@ -336,7 +336,7 @@
     "last_firmware": "5.12.2.2",
     "platform": "Wario",
     "board": "Bourbon",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT2",
     "nicknames": [
       "KT2",
@@ -361,7 +361,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Wario",
     "board": "Muscat",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "PW3",
     "nicknames": [
       "PW3"
@@ -437,7 +437,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Duet",
     "board": "Whisky",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KOA",
     "nicknames": [
       "KOA"
@@ -477,7 +477,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Heisenberg",
     "board": "Eanab",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KT3",
     "nicknames": [
       "KT3"
@@ -525,7 +525,7 @@
     "last_firmware": "5.16.2.1.1",
     "platform": "Zelda",
     "board": "Cognac",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>",
     "generation_nickname": "KOA2",
     "nicknames": [
       "KOA2"
@@ -601,7 +601,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Rex",
     "board": "Jaeger",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "PW4",
     "nicknames": [
       "PW4"
@@ -705,7 +705,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Rex",
     "board": "Moonshine",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "KT4",
     "nicknames": [
       "KT4"
@@ -745,7 +745,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Zelda",
     "board": "Stinger",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "KOA3",
     "nicknames": [
       "KOA3",
@@ -786,7 +786,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Malbec",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "PW5",
     "nicknames": [
       "PW5",
@@ -839,7 +839,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Cava",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "KT5",
     "nicknames": [
       "KT5"
@@ -883,7 +883,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix3",
     "board": "Barolo",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "KS",
     "nicknames": [
       "KS"
@@ -931,7 +931,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix",
     "board": "Rossini",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "KT6",
     "nicknames": [
       "KT6"
@@ -975,7 +975,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix4",
     "board": "Sangria",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"AdBreak\">AdBreak 5.18.1+</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>",
     "generation_nickname": "PW6",
     "nicknames": [
       "PW6"
@@ -1031,7 +1031,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix3",
     "board": "Pisco",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.1</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a>",
     "generation_nickname": "KS2",
     "nicknames": [
       "KS2"
@@ -1079,7 +1079,7 @@
     "last_firmware": "Not Yet Discontinued",
     "platform": "Bellatrix4",
     "board": "Seabreeze",
-    "jailbreak": "<a href=\"WinterBreak\">WinterBreak < 5.18.0.2</a>",
+    "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.0.2</a>",
     "generation_nickname": "CS",
     "nicknames": [
       "CS"
