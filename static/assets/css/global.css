@@ -288,7 +288,7 @@ code
     font-family: 'Courier New', Courier, monospace;
 }
 
-pre.highlight
+.highlight pre
 {
     padding: 1em;
 }
