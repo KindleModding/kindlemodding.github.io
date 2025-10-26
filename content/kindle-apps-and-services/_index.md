@@ -52,7 +52,7 @@ If you need read/write access to hash properties and events, it may be easier to
 
 ## Implementation details
 
-DBus is built upon _methods_, which can be have parameters and return values, and _signals_, which are broadcasts (with optional extra data, but no return values).
+DBus is built upon _methods_, which can have parameters and return values, and _signals_, which are broadcasts (with optional extra data, but no return values).
 
 LIPC's fundamental objects are _properties_ and _events_, which are built upon those DBus concepts. All LIPC operations happen on DBus's system bus. Just like DBus connections can request a specific name with `dbus_bus_request_name`, this can be done for a connection to request an LIPC service name.
 
@@ -60,7 +60,7 @@ LIPC's fundamental objects are _properties_ and _events_, which are built upon t
 
 An LIPC event has a source service, an event name, and an optional list of int/string parameters.
 
-LIPC events are identical to DBus signals with a specific format. The path is always `/default`, a name set to `interface.member`, where `interface` is the LIPC service name and `member` is the LIPC event name.
+LIPC events are identical to DBus signals with a specific format. The path is always `/default` and the name set to `interface.member`, where `interface` is the LIPC service name and `member` is the LIPC event name.
 
 Events can have `int32` or `string` DBus types as the payload.
 
