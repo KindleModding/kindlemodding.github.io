@@ -856,3 +856,35 @@ com.lab126.chromebar
 	w 	Str	activityIndicator
 	w	Str	searchResults
 	w	Str	configureChrome
+com.lab126.btfd
+	r 	Int	isAudibleAvailable	[1]
+	w	Int	triggerBTscan
+	r	Int	hasNeverPaired	[1]
+	w	Str	Unbond
+	w	Str	Bond
+	w	Str	Disconnect
+	w	Str	ensureBTconnection
+	r	Int	isBtchQueuedOrRunning	[0]
+	rw	Has	BTplaybackData	[*NOT SHOWN*]
+	r	Int	isBtchRunning	[0]
+	r	Int	BTstate	[1]
+	w	Str	btPopupDone
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Int	PairUserConfirmation
+	rw	Has	ListPaired	[*NOT SHOWN*]
+	w	Int	DumpStateInfo
+	rw	Str	logMask	[0x0fff0000]
+WARNING: Failed to get value of BTconnectedDevName <0xd>
+	r	Str	BTconnectedDevName
+	w	Str	BTenable
+	rw	Has	BTmetadata	[*NOT SHOWN*]
+	w	Int	BTflightMode
+	w	Int	DiscoverA2DP
+	w	Str	Connect
+	rw	Has	ListConnected	[*NOT SHOWN*]
+	w	Str	BLEenable
+	w	Str	BLEdisable
+	r	Int	currentBTOperatingMode	[2]
+	rw	Has	ListDiscovered	[*NOT SHOWN*]
