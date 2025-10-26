@@ -13,9 +13,8 @@ slug: index
 - Please check that your Kindle is [compatible](../../kindle-models) with KindleBreak
 - You will also need a PC
 
-<blockquote class="warning">
-KindleBreak will **NOT** work on firmware `5.12.2.2`
-</blockquote>
+> [!WARNING]
+> KindleBreak will **NOT** work on firmware `5.12.2.2`
 
 ## Jailbreaking Your Kindle
 1. On your Kindle, enable `Airplane Mode` if it isn't already on

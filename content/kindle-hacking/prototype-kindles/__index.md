@@ -4,9 +4,8 @@ slug: index
 ---
 
 # Prototype Kindles
-<blockquote class="note">
-    Special thanks to scam.net, Marek and Ygjsz for researching and obtaining some of these devices
-</blockquote>
+> [!NOTE]
+> Special thanks to scam.net, Marek and Ygjsz for researching and obtaining some of these devices
 
 <style>
 .prototypes

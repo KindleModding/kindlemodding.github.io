@@ -53,11 +53,10 @@ For example, `/app/kpp_app_cmds.json` on stock firmware:
 }
 ```
 
-<blockquote class="note">
-We use ;log as the MRPI installation command because previous versions of Kindle firmware contained it as a stock command that we overwrote.
-<br/>
-Nowadays, the command is added to the list of commands and installed entirely from the hotfix
-</blockquote>
+> [!NOTE]
+> We use ;log as the MRPI installation command because previous versions of Kindle firmware contained it as a stock command that we overwrote.
+> <br/>
+> Nowadays, the command is added to the list of commands and installed entirely from the hotfix
 
 As you can imagine, when you type a debug command in the search bar and hit enter, it checks if it exists in this file, and if it does, it runs it.  
 Arguments are passed to the script in the same way they would with a shell, so:

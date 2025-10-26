@@ -22,9 +22,8 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 - A registered Kindle [with ads enabled](#enabling-ads)
 - Firmware 5.18.1 and above (possibly patched after 5.18.5.0.1)
 
-<blockquote class="info">
-If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
-</blockquote>
+> [!INFO]
+> If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
 
 ## Installation Guide
 
@@ -132,9 +131,8 @@ If you face any issues, please check the [troubleshooting](#troubleshooting) sec
 
 <h3 id="enabling-ads">Enabling Ads</h3>
 
-<blockquote class="note">
-Ads can be disabled afterwards - enabling them is **NOT** permanent
-</blockquote>
+> [!NOTE]
+> Ads can be disabled afterwards - enabling them is **NOT** permanent
 
 - Switch account region  
    - Go to Manage Your Content and Devices → Preferences → Country/Region Settings → Change.  

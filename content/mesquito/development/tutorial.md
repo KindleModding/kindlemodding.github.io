@@ -80,9 +80,8 @@ button {
 }
 ~~~
 
-<blockquote class="warning">
-You should **NEVER** use relative units when developing for a Kindle, as pixel units are more consistent accross models
-</blockquote>
+> [!WARNING]
+> You should **NEVER** use relative units when developing for a Kindle, as pixel units are more consistent accross models
 
 ## Testing it out
 If you haven't already, copy the `com.mesquito.firstapptutorial` folder to your `apps` folder, reload Mesquito by clicking on the `three dots` and then `Home`, and open your app:

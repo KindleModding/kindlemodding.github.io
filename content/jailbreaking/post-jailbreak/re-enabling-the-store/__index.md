@@ -8,9 +8,8 @@ slug: index
 
 # Re-enabling the Store
 
-<blockquote class="warning">
-Ensure you've [disabled OTA Updates](../disable-ota) before re-enabling the store.<br/><br/>This is <b>WinterBreak-Only</b>, and it does not apply to AdBreak.
-</blockquote>
+> [!WARNING]
+> Ensure you've [disabled OTA Updates](../disable-ota) before re-enabling the store.<br/><br/>This is <b>WinterBreak-Only</b>, and it does not apply to AdBreak.
 
 <div id="guide">
     <div class="buttons">

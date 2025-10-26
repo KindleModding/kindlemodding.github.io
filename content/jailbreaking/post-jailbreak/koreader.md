@@ -9,9 +9,8 @@ weight: 5
 
 _KOReader is a document viewer for E Ink devices. Supported formats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files._
 
-<blockquote class="note">
-Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to run KOReader.
-</blockquote>
+> [!NOTE]
+> Your Kindle must be jailbroken and have MRPI and KUAL installed to be able to run KOReader.
 
 <div id="guide">
     <div class="buttons">

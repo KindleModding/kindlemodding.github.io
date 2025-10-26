@@ -8,9 +8,8 @@ slug: index
 
 # Downgrading Your Kindle
 
-<blockquote class="warning">
-A jailbroken Kindle is required - You cannot downgrade a Kindle on stock firmware
-</blockquote>
+> [!WARNING]
+> A jailbroken Kindle is required - You cannot downgrade a Kindle on stock firmware
 
 
 ## Before You Start
@@ -40,21 +39,17 @@ A jailbroken Kindle is required - You cannot downgrade a Kindle on stock firmwar
 
 Congratulations! Your Kindle has been downgraded.
 
-<blockquote class="note">
-Devices using the Universal Hotfix will need to re-install it and re-run the booklet.
-</blockquote>
+> [!NOTE]
+> Devices using the Universal Hotfix will need to re-install it and re-run the booklet.
 
-<blockquote class="note">
-Large jumps in firmware versions might cause your Kindle to display a white screen after downgrading. This can be easily fixed by plugging your Kindle back into your PC, sideload an empty file named `DO_FACTORY_RESTORE` (without extension) into the root directory and force a reboot by holding the power button for 20 or 30 seconds.
-</blockquote>
+> [!NOTE]
+> Large jumps in firmware versions might cause your Kindle to display a white screen after downgrading. This can be easily fixed by plugging your Kindle back into your PC, sideload an empty file named `DO_FACTORY_RESTORE` (without extension) into the root directory and force a reboot by holding the power button for 20 or 30 seconds.
 
-<blockquote class="warning">
-Keep in mind that not every extension out there was not made for hard float firmware (`>=5.16.3`) or soft float firmware (`<=5.16.2.1.1`), if you make a jump between those two updates, make sure you're installing the correct packages and extensions.
-</blockquote>
+> [!NOTE]
+> Keep in mind that not every extension out there was not made for hard float firmware (`>=5.16.3`) or soft float firmware (`<=5.16.2.1.1`), if you make a jump between those two updates, make sure you're installing the correct packages and extensions.
 
-<blockquote class="info">
-Some devices may let you skip the initial device set-up by simply restarting the device. But if your device keeps prompting the set-up, do it quickly (skipping Wi-Fi), and then delete the partial OTA download located in your Kindle root directory.
-</blockquote>
+> [!INFO]
+> Some devices may let you skip the initial device set-up by simply restarting the device. But if your device keeps prompting the set-up, do it quickly (skipping Wi-Fi), and then delete the partial OTA download located in your Kindle root directory.
 
 
 After downgrading, you will need to re-do the post-jailbreak instructions:
