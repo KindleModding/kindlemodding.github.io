@@ -9,6 +9,8 @@ disablePathToLower = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      [markup.goldmark.parser.attribute]
+        block = true
 
 [permalinks]
   page = ":contentbasename"

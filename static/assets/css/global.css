@@ -325,11 +325,6 @@ div.info
     padding: 1em;
 }
 
-.info *
-{
-    font-family: 'Courier New', Courier, monospace !important;
-}
-
 img
 {
     object-fit: contain;

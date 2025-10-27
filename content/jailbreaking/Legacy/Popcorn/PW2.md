@@ -6,13 +6,11 @@ title: PW2
 
 # PW2
 
-<blockquote class="warning">
-Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
-</blockquote>
+> [!WARNING]
+> Popcorn is quite a sophisticated jailbreak method and requires prior electronics experience. It is not recommended to use Popcorn unless you have prior electronics experience *especially* if a software jailbreak such as `WatchThis` is available for it.
 
-<blockquote class="info">
-Make sure you have followed the [initial Popcorn instructions](./)
-</blockquote>
+> [!INFO]
+> Make sure you have followed the [initial Popcorn instructions](./)
 
 ## Performing the Jailbreak
 1. Tear down the `PW2` up to `step 4` as described [here](https://www.ifixit.com/Guide/Kindle+Paperwhite+2nd+Generation+Motherboard+Replacement/71196) (**DO NOT** remove the battery)

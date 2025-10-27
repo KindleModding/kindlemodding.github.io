@@ -1,0 +1,15 @@
+{{ $classForAlertType := dict
+"note" "note"
+"info" "info"
+"warning" "warning"
+}}
+
+{{ if eq .Type "alert" }}
+<blockquote class="{{ or (index $classForAlertType .AlertType) "info" }}">
+    {{ .Text }}
+</blockquote>
+{{ else }}
+<blockquote>
+    {{ .Text }}
+</blockquote>
+{{ end }}

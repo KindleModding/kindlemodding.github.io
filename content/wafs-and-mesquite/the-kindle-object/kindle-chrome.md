@@ -13,9 +13,8 @@ Has the following parameters:
 |-------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | isDecanterChromeEnabled | true  | A `boolean` describing whether or not "`decanter chrome`" is enabled. Seemingly related to firmware version as new firmwares have whatever "`decanter chrome`" is. |
 
-<blockquote class="warning">
-This page is a `WIP` and should be considered `incomplete`
-</blockquote>
+> [!WARNING]
+> This page is a `WIP` and should be considered `incomplete`
 
 
 ## kindle.chrome.setTitleBar
@@ -24,9 +23,8 @@ kindle.chrome.setTitleBar(centerText, leftText)
 ~~~
 Seemingly accepts 2 string arguments, purpose is unknown, possibly `deprecated` in modern Kindle firmware versions
 
-<blockquote class="warning">
-`DO NOT` use this in `Mesquite` applications, that is what the [`SDK`](../../mesquito/development/the-mesquito-sdk.html) is for
-</blockquote>
+> [!WARNING]
+> `DO NOT` use this in `Mesquite` applications, that is what the [`SDK`](../../mesquito/development/the-mesquito-sdk.html) is for
 
 
 ## kindle.chrome.createHeader
@@ -62,17 +60,15 @@ Used to indicate progress via a spinner in the title bar.
 | timeout | Integer | The maximum amount of time to show the spinner, units unknown, possible milliseconds? `todo: confirm` |
 | delay   | Integer | The time to wait to start spinning `todo: confirm`                                                    |
 
-<blockquote class="info">
-`timeout` and `delay` are still needed even if `state` is `stop` as `JSObjectChrome::setSpinnerState expects three arguments` despite the fact that they are ignored when `state` is `stop`.
-</blockquote>
+> [!INFO]
+> `timeout` and `delay` are still needed even if `state` is `stop` as `JSObjectChrome::setSpinnerState expects three arguments` despite the fact that they are ignored when `state` is `stop`.
 
 <br/>
 <br/>
 <br/>
 
-<blockquote class="warning">
-The following section refers to `content windows` these are not currently fully understood, continue with caution.
-</blockquote>
+> [!WARNING]
+> The following section refers to `content windows` these are not currently fully understood, continue with caution.
 
 
 ## kindle.chrome.createContentWindow

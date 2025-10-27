@@ -68,9 +68,8 @@ Parameters:
 | logMsg   | String | The data to be logged                                                    |
 | logLevel | String | The log leve, valid values are: `info`, `warn`, `error`, `debug`, `perf` |
 
-<blockquote class="info">
-Heads Up: Kindle logs **ARE** sent to Amazon, so be careful
-</blockquote>
+> [!INFO]
+> Heads Up: Kindle logs **ARE** sent to Amazon, so be careful
 
 
 ## kindle.device.getLab126SessionToken
@@ -117,9 +116,8 @@ kindle.device.clearCookies()
 ~~~
 Clears the application's cookie jar
 
-<blockquote class="warning">
-Using this function on Mesquito will clear **ALL** cookies accross **ALL** Mesquito apps and get your app **PERMANENTLY BLACKLISTED** by Mesquito. `You have been warned.`
-</blockquote>
+> [!WARNING]
+> Using this function on Mesquito will clear **ALL** cookies accross **ALL** Mesquito apps and get your app **PERMANENTLY BLACKLISTED** by Mesquito. `You have been warned.`
 
 
 ## kindle.device.clearApplicationCache
@@ -128,9 +126,8 @@ kindle.device.clearApplicationCache()
 ~~~
 Clears the application's HTML cache
 
-<blockquote class="warning">
-Using this function on Mesquito has the chance of breaking `Mesquito` and will get your app **PERMANENTLY BLACKLISTED** by Mesquito. `You have been warned.`
-</blockquote>
+> [!WARNING]
+> Using this function on Mesquito has the chance of breaking `Mesquito` and will get your app **PERMANENTLY BLACKLISTED** by Mesquito. `You have been warned.`
 
 
 ## kindle.device.clearCache
@@ -139,9 +136,8 @@ kindle.device.clearCache()
 ~~~
 Clears any resources cached by the application in memory
 
-<blockquote class="info">
-Using this with a `Mesquito` app can cause bugs and be generally annoying, avoid its use when possible for `Mesquito` apps
-</blockquote>
+> [!INFO]
+> Using this with a `Mesquito` app can cause bugs and be generally annoying, avoid its use when possible for `Mesquito` apps
 
 
 ## kindle.device.getMPDomain
@@ -150,9 +146,8 @@ kindle.device.getMPDomain()
 ~~~
 Gets the marketplace domain.
 
-<blockquote class="info">
-Fun fact, the firmware reffers to `".amazon.cn"` as the `CHINESE_OBFUSCATED_MARKETPLACE` when returned by this function
-</blockquote>
+> [!INFO]
+> Fun fact, the firmware reffers to `".amazon.cn"` as the `CHINESE_OBFUSCATED_MARKETPLACE` when returned by this function
 
 
 ## kindle.device.getBaiduSearchURL

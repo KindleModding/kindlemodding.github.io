@@ -17,12 +17,11 @@ As a user, this gives you access to:
 - Homebrew such as apps, games and more
 - [Downgrading your firmware](../firmware-and-flashing/downgrading)
 
-<blockquote class="warning">
-Please be aware of the risks of jailbreaking before you jailbreak your Kindle including, but not limited to:
-- Potentially voiding the Kindle's waranty
-- Bricking (permanently breaking) the device
-- Security Risks
-</blockquote>
+> [!WARNING]
+> Please be aware of the risks of jailbreaking before you jailbreak your Kindle including, but not limited to:
+> - Potentially voiding the Kindle's waranty
+> - Bricking (permanently breaking) the device
+> - Security Risks
 
 Always jailbreak at your own risk.
 If you don't know what you are doing or are unsure, don't do it.

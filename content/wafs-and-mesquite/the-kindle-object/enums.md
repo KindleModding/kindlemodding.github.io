@@ -8,9 +8,8 @@ weight: 1
 # Enums
 Many of the Kindle Object API calls rely on or return certain strings. The meaning of these strings is detailed in this page.
 
-<blockquote class="info">
-The majority of this information was taken from the firmware from `/opt/var/local/mesquite` (in the `sqsh` file)
-</blockquote>
+> [!INFO]
+> The majority of this information was taken from the firmware from `/opt/var/local/mesquite` (in the `sqsh` file)
 
 
 ## connectionPromptLevels

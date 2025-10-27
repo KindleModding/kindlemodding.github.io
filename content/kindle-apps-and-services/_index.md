@@ -7,13 +7,11 @@ weight: 100
 # Kindle Apps & Services
 The Kindle has many apps/services which communicate via `LIPC`, a custom IPC system based on DBus.
 
-<blockquote class="info">
-LIPC values are wrapped in square brackets (`[]`), these should be excluded when writing to a LIPC entry
-</blockquote>
+> [!INFO]
+> LIPC values are wrapped in square brackets (`[]`), these should be excluded when writing to a LIPC entry
 
-<blockquote class="warning">
-This entire section is a `WIP` and is `incomplete`
-</blockquote>
+> [!WARNING]
+> This entire section is a `WIP` and is `incomplete`
 
 ## How to use
 LIPC can be interacted with through the command line as so:

@@ -13,9 +13,8 @@ slug: index
 - Please check that your Kindle is [compatible](../../kindle-models) with WatchThis
 - You will also need a PC
 
-<blockquote class="warning">
-WatchThis will erase all the data on your Kindle, so be sure to back up any local files you wish to keep
-</blockquote>
+> [!WARNING]
+> WatchThis will erase all the data on your Kindle, so be sure to back up any local files you wish to keep
 
 ## Jailbreaking Your Kindle
 ### Initial setup
@@ -45,9 +44,8 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 7. Create a folder called `goodreads` in `.demo`, leave it empty
 8. Now eject and unplug your Kindle, and then select `Done` at the prompt to install the jailbreak
 
-    <blockquote class="warning">
-    If an `application error` occurs, hold down the power button for 15 seconds or longer to `hard-reboot` the device, and then enter demo mode again and select `sideload content`, do not copy the files again.
-</blockquote>
+> [!WARNING]
+> If an `application error` occurs, hold down the power button for 15 seconds or longer to `hard-reboot` the device, and then enter demo mode again and select `sideload content`, do not copy the files again.
 
 9. Exit demo mode
 10. **ONLY** if you are jailbreaking a `KT2` or `PW2` press the store button. For all other models, enter `;dsts` into the search bar
@@ -56,9 +54,8 @@ WatchThis will erase all the data on your Kindle, so be sure to back up any loca
 
 ### WatchThis-Specific Hotfix
 
-<blockquote class="note">
-WatchThis is unique in the sense that its own `Hotfix` must be installed before proceeding with other `Post Jailbreak` items
-</blockquote>
+> [!NOTE]
+> WatchThis is unique in the sense that its own `Hotfix` must be installed before proceeding with other `Post Jailbreak` items
 
 1. Type `;uzb` into the search bar of your Kindle and click enter
 2. Connect the Kindle to your PC

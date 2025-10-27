@@ -35,9 +35,8 @@ Scriptlets can be given an Icon via the `# Icon: ` flag, the value can either be
 echo "Hello, World!"
 ```
 
-<blockquote class="warning">
-Note that some converters use the wrong filetype when generating the base64 string, ensure the filetype matches the actual data
-</blockquote>
+> [!WARNING]
+> Note that some converters use the wrong filetype when generating the base64 string, ensure the filetype matches the actual data
 
 ### Hooks
 The `# UseHooks` flag allows Scriptlets to have functions that are called when certain events happen to the Scriptlet, as opposed to the entire script being called once when it is ran:  

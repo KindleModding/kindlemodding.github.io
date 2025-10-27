@@ -14,9 +14,8 @@ weight: 1
 - Please check that your Kindle is [compatible](../../kindle-models) with LanguageBreak
 - You will also need a PC
 
-<blockquote class="warning">
-LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
-</blockquote>
+> [!WARNING]
+> LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
 
 ## Jailbreaking Your Kindle
 
@@ -59,9 +58,8 @@ LanguageBreak will **NOT** work on firmwares newer than `5.16.2.1.1`
 
 ### Install LanguageBreak-Specific Hotfix
 
-<blockquote class="note">
-LanguageBreak is unique in the sense that its own `Hotfix` must be installed before proceeding with other `Post Jailbreak` items
-</blockquote>
+> [!NOTE]
+> LanguageBreak is unique in the sense that its own `Hotfix` must be installed before proceeding with other `Post Jailbreak` items
 
 1. Type `;uzb` into the search bar of your Kindle and click enter
 2. Connect the Kindle to your PC
