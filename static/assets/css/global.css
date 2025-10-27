@@ -145,6 +145,25 @@ a:hover {
     margin: 0px auto;
 }
 
+.mainContent details
+{
+    border-radius: 3px;
+    background-color: var(--background-accent);
+    padding: 1em;
+}
+
+.mainContent details p:last-child
+{
+    /* Inside a collapsible details element, the default margin on a final paragraph looks bad :( */
+    margin-bottom: 0;
+}
+
+.mainContent details:open summary {
+    padding-bottom: 0.5em;
+    border-bottom: solid 3px var(--background-second-accent);
+    margin-bottom: 1em;
+}
+
 .navbar
 {
     position: sticky;
@@ -269,7 +288,7 @@ code
     font-family: 'Courier New', Courier, monospace;
 }
 
-pre.highlight
+.highlight pre
 {
     padding: 1em;
 }
