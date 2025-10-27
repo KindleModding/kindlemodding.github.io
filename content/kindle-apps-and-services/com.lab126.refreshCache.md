@@ -1,6 +1,5 @@
 ---
 layout: default
-draft: true
 title: com.lab126.refreshCache
 ---
 
