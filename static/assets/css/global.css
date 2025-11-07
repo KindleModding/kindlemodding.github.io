@@ -94,13 +94,81 @@ html
     background-color: #151515 !important;
 }
 
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+}
+
 html, body
 {
     font-family: sans-serif;
-    padding: 0;
-    margin: 0;
     background-color: var(--background-colour);
     color: var(--text-colour);
+}
+
+p
+{
+    margin-top: 1.5ex;
+    margin-bottom: 1.5ex;
+}
+
+h1 { font-size: 28pt; }
+h2 { font-size: 22pt; }
+h3 { font-size: 16pt; }
+h4 { font-size: 14pt; }
+h5 { font-size: 13pt; }
+h6 { font-size: 12pt; }
+
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.5ex;
+    margin-top: 1.8ex;
+}
+
+ol, ul
+{
+    margin-left: 2.0em;
+    margin-top: 1.2ex;
+    margin-bottom: 1.2ex;
+}
+
+li
+{
+    margin-top: 1.2ex;
+    margin-bottom: 1.2ex;
+}
+
+li:first-child
+{
+    margin-top: 0;
+}
+
+li:last-child
+{
+    margin-bottom: 0;
+}
+
+blockquote
+{
+    margin-top: 2.0ex;
+    margin-bottom: 2.0ex;
+}
+
+blockquote > :first-child
+{
+    margin-top: 0;
+}
+
+blockquote > :last-child
+{
+    margin-bottom: 0;
+}
+
+table + table
+{
+    margin-top: 2.0ex;
 }
 
 h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
@@ -109,14 +177,23 @@ h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
     color: var(--heading-colour);
 }
 
-a {
+a
+{
     color: var(--link-colour);
     text-decoration: none;
     font-weight: bold;
+    font-size: inherit;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+hr
+{
+    height: 3px;
+    background: var(--background-accent);
+    border: none;
 }
 
 .pageWrapper
@@ -129,20 +206,21 @@ a:hover {
 
 .pageContent
 {
-    height: 100vh;
+    min-height: 100vh;
     overflow: auto;
-    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .mainContent
 {
-    min-height: 100vh;
+    flex-grow: 1;
     align-self: center;
     padding: 0 1em;
-    display: flex;
-    flex-direction: column;
-    max-width: min(100%, 1000px);
-    margin: 0px auto;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
 }
 
 .mainContent details
@@ -166,63 +244,60 @@ a:hover {
 
 .navbar
 {
-    position: sticky;
     overflow-x: hidden;
-    overflow-y: auto;
-    width: calc(25vw - 1em);
+    overflow-y: visible;
     padding: 0.5em;
     background-color: var(--background-colour);
     user-select: none;
     border-right: solid 3px var(--background-accent);
     padding-bottom: 0;
+    width: min-content;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
 
+.navbar > a, .navbar > details
+{
+    flex-shrink: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.navbar h1
+{
+    margin: 10px 20px 12px 5px;
+    font-size: 22pt;
+    white-space: nowrap;
+}
+
 .navbar a
 {
-    text-overflow: ellipsis;
     text-decoration: none;
     color: var(--link-colour);
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
-.navbar a, .navbar summary
+.navbar > a, .navbar details > summary, .navbar details > div > a
 {
     padding: 0.5em;
-    width: calc(100% - 1em - 25px);
     transition: background-colour 0.5s;
     background-color: var(--background-colour);
-    position: relative; /* Fixes z-index on summary */
-    z-index: 998;
-    overflow: hidden;
 }
 
-.navbar .active
+.navbar > a.active, .navbar details > summary.active, .navbar details > div > a.active
 {
     background-color: var(--background-accent);
 }
 
-.navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
+.navbar > a:not(.active):hover, .navbar details > summary:not(.active):hover, .navbar details > div > a:not(.active):hover
 {
     background-color: var(--background-accent);
-    z-index: 999;
-}
-
-.navbar summary > a
-{
-    padding: 0 !important;
-    background-color: unset !important;
 }
 
 .navbar details > div
 {
     padding-left: 2em;
-}
 
-.navbar details div
-{
     display: flex;
     flex-direction: column;
 }
@@ -230,7 +305,6 @@ a:hover {
 .footer
 {
     margin-top: 1em;
-    width: calc(100% - 2em);
     display: flex;
     flex-direction: column;
     background-color: var(--background-colour);
@@ -242,45 +316,23 @@ a:hover {
 
 button, .button, .btn
 {
-    line-height: 2em;
+    display: inline-block;
     padding: 0.75em 1em;
     background-color: var(--button-colour);
     color: var(--button-text-colour);
     font-size: 1em;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     text-decoration: unset;
-    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
+    box-shadow: 0px 0px 12px 0px var(--card-bottom-shadow-colour);
     transition: box-shadow 0.5s;
 }
 
 button:hover, .button:hover, .btn:hover
 {
-    box-shadow: 0px 0px 20px 3px var(--card-bottom-shadow-colour);
-}
-
-pre
-{
-    overflow: auto visible;
-}
-
-div.highlight
-{
-    background: var(--code-background-colour);
-}
-
-pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
-{
-    background: var(--code-background-colour);
-    color: var(--text-colour);
-    overflow: auto visible;
-}
-
-pre
-{
-    margin: 0;
+    box-shadow: 0px 0px 20px 2px var(--card-bottom-shadow-colour);
 }
 
 code
@@ -288,17 +340,26 @@ code
     font-family: 'Courier New', Courier, monospace;
 }
 
-.highlight pre
+pre:has(code)
 {
+    background: var(--code-background-colour);
+    color: var(--text-colour);
+    overflow: auto visible;
+    border-radius: 8px;
+}
+
+pre > code
+{
+    display: inline-block;
     padding: 1em;
 }
 
 blockquote, .note, .warning, .info
 {
     background: var(--background-accent);
-    padding: 1em;
-    border-radius: 3px;
-    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
+    padding: 0.8em;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px 0px var(--card-bottom-shadow-colour);
     margin-left: 0;
     margin-right: 0;
 }
@@ -335,18 +396,18 @@ table
 {
     max-width: 90vw;
     overflow-x: auto;
-    display: block;
-    border-collapse: collapse;
-    align-self: center;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 th, td
 {
-    border: 3px solid var(--background-second-accent);
+    border: 2px solid var(--background-second-accent);
     padding: 0.5em;
 }
 
-tr:nth-child(odd)
+table > tbody > tr:nth-child(odd) > *
 {
     background-color: var(--background-accent);
 }
@@ -357,17 +418,45 @@ th
     color: var(--text-colour);
 }
 
+table > * > tr > *:not(:last-child)
+{
+    border-right: none;
+}
+
+table > *:not(:last-child) > tr > *, table > *:last-child > tr:not(:last-child) > *
+{
+    border-bottom: none;
+}
+
+table > *:first-child > tr:first-child > *:first-child
+{
+    border-top-left-radius: 8px;
+}
+
+table > *:first-child > tr:first-child > *:last-child
+{
+    border-top-right-radius: 8px;
+}
+
+table > *:last-child > tr:last-child > *:first-child
+{
+    border-bottom-left-radius: 8px;
+}
+
+table > *:last-child > tr:last-child > *:last-child
+{
+    border-bottom-right-radius: 8px;
+}
+
 .card
 {
     border-radius: 3px;
     background: var(--background-colour);
     box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
 
-    padding: 1em;
     transition: box-shadow 0.5s;
     text-decoration: none;
     color: unset !important;
-    max-width: calc(90% - 2em);
 }
 
 .card:hover
@@ -393,15 +482,10 @@ th
 
     .navbar
     {
-        width: calc(100% - 1em);
+        width: 100%;
+        box-sizing: border-box;
         border-right: none;
         border-bottom: solid 3px var(--background-accent);
-    }
-
-    /* Let it clip tbh */
-    .navbar a, .navbar summary
-    {
-        width: unset !important;
     }
 }
 
