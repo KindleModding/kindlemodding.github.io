@@ -319,16 +319,16 @@ button, .button, .btn
     font-size: 1em;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     text-decoration: unset;
-    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
+    box-shadow: 0px 0px 12px 0px var(--card-bottom-shadow-colour);
     transition: box-shadow 0.5s;
 }
 
 button:hover, .button:hover, .btn:hover
 {
-    box-shadow: 0px 0px 20px 3px var(--card-bottom-shadow-colour);
+    box-shadow: 0px 0px 20px 2px var(--card-bottom-shadow-colour);
 }
 
 code
@@ -354,8 +354,8 @@ blockquote, .note, .warning, .info
 {
     background: var(--background-accent);
     padding: 0.8em;
-    border-radius: 3px;
-    box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px 0px var(--card-bottom-shadow-colour);
     margin-left: 0;
     margin-right: 0;
 }
