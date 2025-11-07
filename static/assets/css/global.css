@@ -166,6 +166,11 @@ blockquote > :last-child
     margin-bottom: 0;
 }
 
+table + table
+{
+    margin-top: 2.0ex;
+}
+
 h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
 {
     font-weight: bold;
