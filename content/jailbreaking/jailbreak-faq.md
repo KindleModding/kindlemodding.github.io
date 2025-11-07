@@ -37,7 +37,7 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 ### Can I remove my account after jailbreaking?
 
-Yes, but for Winterbreak, you will have to log in again if you want to jailbreak from scratch. Your Kindle will remain jailbroken whether you log back in or log out.
+Yes, but for WinterBreak, you will have to log in again if you want to jailbreak from scratch. Your Kindle will remain jailbroken whether you log back in or log out.
 
 > [!INFO]
 > After unregistering, the Kindle will delete all files located in the documents folder, including the KUAL Launcher booklet and any other scripts that have been transferred. Be sure to back up these files first.
@@ -202,7 +202,7 @@ This is expected, you can safely reboot your device manually (holding the power 
 
 ### My device hasn't rebooted after the jailbreaking pop-up!
 
-If you're using Winterbreak, unless the Kindle displays the message "You are now ready to install the hotfix" in small text, you can safely continue with the post-jailbreak instructions . If it doesn't, something went wrong during the jailbreak process, and you'll have to try again.
+If you're using WinterBreak, unless the Kindle displays the message "You are now ready to install the hotfix" in small text, you can safely continue with the post-jailbreak instructions. If it doesn't, something went wrong during the jailbreak process and you'll have to try again.
 
 > [!INFO]
 > Remember to delete any automatic update file that might have appeared.
