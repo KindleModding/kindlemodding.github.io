@@ -10,7 +10,7 @@ slug: index
 A hotfix allows your Kindle's jailbreak to persist after updating. There are two different hotfixes and which one you need to install depends on which method you used to jailbreak your Kindle.
 
 > [!INFO]
-> If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix will not be detected by the Kindle
+> If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix will not be detected by the Kindle.
 
 <div id="guide">
     <div class="buttons">
@@ -32,9 +32,9 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
         <div class="step">
             <h2>Copy The Hotfix</h2>
             <div class="stepContent">
-                <p>Plug your Kindle into your PC and copy the <code>Update_hotfix_universal.bin</code> file to it</p>
+                <p>Plug your Kindle into your PC and copy the <code>Update_hotfix_universal.bin</code> file to it.</p>
                 <p class="warning">
-                   If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for the hotfix to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading
+                   If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for the hotfix to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading.
                 </p>
                 <img src="./copy_hotfix.png" />
             </div>
@@ -42,7 +42,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
         <div class="step">
             <h2>Install The Hotfix</h2>
             <div class="stepContent">
-                <p>Eject the Kindle and unplug it, then open settings, click on the three dots, and select <code>Update Your Kindle</code></p>
+                <p>Eject the Kindle and unplug it, then open settings, click on the three dots, and select <code>Update your Kindle</code>.</p>
                 <br/>
                 <img src="./update_settings.png" />
             </div>
@@ -50,7 +50,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
         <div class="step">
             <h2>Confirming Hotfix Install</h2>
             <div class="stepContent">
-                <p>If asked, select <code>Update</code>. You can expect this to install the hotfix, as an update.</p>
+                <p>If asked, select <code>Update</code>. You can expect this to install the hotfix, as an update. This will involve your Kindle rebooting a few times.</p>
                 <br/>
                 <img src="./update_dialog.png" />
             </div>
@@ -58,10 +58,9 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
         <div class="step">
             <h2>Running the hotfix</h2>
             <div class="stepContent">
-                <p>Once the hotfix has installed, you'll need to run it.</p>
-                <p>Run the hotfix by selecting the <code>Run Hotfix</code> booklet in your library.</p>
-                <p>Once the hotfix is done running, you can install <code>KUAL</code> and <code>MRPI</code></p>
-                <p class="note">You will need to run the hotfix booklet after every OTA update</p>
+                <p>Once the hotfix has installed, you'll need to run it. Run the hotfix by selecting the <code>Run Hotfix</code> booklet in your library.</p>
+                <p>Once the hotfix is done running, you can move on to installing <code>KUAL</code> and <code>MRPI</code></p>
+                <p class="note">You will need to run the hotfix booklet after every OTA update.</p>
                 <img src="./run_hotfix.png" />
             </div>
         </div>

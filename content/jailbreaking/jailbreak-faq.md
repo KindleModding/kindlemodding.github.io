@@ -15,9 +15,9 @@ We recommend reading this article before or after jailbreaking your Kindle devic
 ## General/Account
 ---
 
-### Can I jailbreak my Kindle with Winterbreak if my device is unregistered/blacklisted?
+### Can I jailbreak my Kindle with WinterBreak if my device is unregistered/blacklisted?
 
-Winterbreak needs your Kindle to be registered, it also needs a valid, internet-connected WiFi network saved.
+WinterBreak needs your Kindle to be registered, it also needs a valid, internet-connected WiFi network saved.
 
 It's still possible to jailbreak an unregistered/blacklisted device, but currently, the only jailbreaking methods for those devices work on or below firmware `5.16.2.1.1`. You can find these jailbreaking methods in [Legacy Jailbreaks](https://kindlemodding.org/jailbreaking/Legacy/).
 
@@ -81,7 +81,7 @@ Yes.
 No.
 
 > [!NOTE]
-> If your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not. Backup your books whenever you can
+> If your device has been in Airplane mode for a long period of time, there is a possibility that [Amazon will delete all sideloaded books](https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409) from your device after reconnecting to WiFi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not. Back up your books whenever you can.
 
 ### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
@@ -116,15 +116,15 @@ You cannot use the Libby service within KOReader. You can get the EPUB file from
 - `"Start KOReader (no framework)"`: Temporarily "kills" the Kindle UI to allocate more resources to KOReader.
 - `"Start KOReader (ASAP)"`: Skips a couple of checks and starts KOReader as soon as possible.
 
-### I can't no longer transfer files through USB while I am on KOReader!
+### I can no longer transfer files through USB while I am on KOReader!
 
-KOReader currently does not support USBMS mode (USB transfer) and will only charge the device, if you want to transfer files you must exit KOReader to do so. 
+KOReader currently does not support USBMS mode (USB transfer) and will only charge the device. If you want to transfer files you must exit KOReader to do so.
 
 ### Do I have to launch KOReader through KUAL?
 
 Not necessarily.
 
-You can launch it with simple [scriptlets](https://kindlemodding.org/kindle-dev/scriptlets.html), specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
+You can launch it with simple [scriptlets](https://kindlemodding.org/kindle-dev/scriptlets.html). Specifically, Marek has a launcher that is available [here](https://scriptlets.notmarek.com/).
 
 A [KUAL booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/releases/) extension is also available to install. You can further customize both the KUAL booklet and the KOR launcher with the [coversetter extension made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
 
@@ -154,11 +154,11 @@ When updating, ensure that the newer version supports a jailbreak.
 
 [Read and follow this guide](https://kindlemodding.org/firmware-and-flashing/downloading-updates.html).
 
-Find your exact model, find the download link and re-type the numbers to get the firmware version you want.
+Find your exact model, find the download link, and re-type the numbers to get the firmware version you want.
 
 ### How do I use Scriptlets (.sh)?
 
-As explained in the [Scriptlets section](https://kindlemodding.org/kindle-dev/scriptlets.html#siptlets), copy the scriptlet file into the documents folder (`/documents`). Once you're in the library view mode on Kindle, simply click on it.
+As explained in the [Scriptlets section](https://kindlemodding.org/kindle-dev/scriptlets.html), copy the scriptlet file into the documents folder (`/documents`). Once you're in the library view mode on Kindle, simply click on it.
 
 ### How can I check that the automatic updates have been disabled after using `renametobin`?
 
@@ -183,16 +183,16 @@ Please note that even after following these precautions, it is not guaranteed yo
 
 ### How can I check if my device is jailbroken?
 
-Type `;log` into the search bar, if a message pop ups, you're jailbroken.
+Type `;log` into the search bar. If a message pops up, you're jailbroken.
 
-### KUAL stopped working!/I can't no longer launch any of my extensions!
+### KUAL stopped working! / I can't launch any of my extensions!
 Verify if your device is still jailbroken by typing `;log` into the search bar.
 
 - If it prompted any text, [re-install the hotfix and KUAL](https://kindlemodding.org/jailbreaking/post-jailbreak/setting-up-a-hotfix/) from scratch.
 - If not [re-jailbreak](https://kindlemodding.org/kindle-models) your device.
 - If everything else failed, factory reset your device and start the jailbreak from scratch. 
 
-### I can't no longer update my Kindle after a factory reset/update!
+### I can't update my Kindle after a factory reset/update!
 
 If you reset your Kindle in a jailbroken state with renametobin left enabled, your Kindle may be in a locked state. To fix this, read [this guide](https://kindlemodding.org/jailbreaking/recovering-from-a-reset.html).
 
@@ -223,7 +223,7 @@ You can do one of the following:
 - [Develop more extensions](https://kindlemodding.org/kindle-dev/) 
 - Browse [MobileRead](https://www.mobileread.com/forums/forumdisplay.php?f=150) or the Kindle Modding Community Discord Server for more scriplets and extensions.
 - Install Alpine Linux
-- [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 
+- [Support WinterBreak & the Wiki ❤️](https://ko-fi.com/hackerdude)
 
 ### What does the KFT option in the settings menu do?
 
