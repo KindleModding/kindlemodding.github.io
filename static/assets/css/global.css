@@ -201,18 +201,21 @@ hr
 
 .pageContent
 {
-    height: 100vh;
+    min-height: 100vh;
     overflow: auto;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .mainContent
 {
-    min-height: 100vh;
+    flex-grow: 1;
     align-self: center;
     padding: 0 1em;
-    max-width: min(100%, 1000px);
-    margin: 0px auto;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
 }
 
 .mainContent details
