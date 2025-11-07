@@ -341,6 +341,7 @@ pre:has(code)
     background: var(--code-background-colour);
     color: var(--text-colour);
     overflow: auto visible;
+    border-radius: 8px;
 }
 
 pre > code
@@ -391,18 +392,18 @@ table
 {
     max-width: 90vw;
     overflow-x: auto;
-    display: block;
-    border-collapse: collapse;
-    align-self: center;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 th, td
 {
-    border: 3px solid var(--background-second-accent);
+    border: 2px solid var(--background-second-accent);
     padding: 0.5em;
 }
 
-tr:nth-child(odd)
+table > tbody > tr:nth-child(odd) > *
 {
     background-color: var(--background-accent);
 }
@@ -411,6 +412,36 @@ th
 {
     background-color: var(--background-second-accent);
     color: var(--text-colour);
+}
+
+table > * > tr > *:not(:last-child)
+{
+    border-right: none;
+}
+
+table > *:not(:last-child) > tr > *, table > *:last-child > tr:not(:last-child) > *
+{
+    border-bottom: none;
+}
+
+table > *:first-child > tr:first-child > *:first-child
+{
+    border-top-left-radius: 8px;
+}
+
+table > *:first-child > tr:first-child > *:last-child
+{
+    border-top-right-radius: 8px;
+}
+
+table > *:last-child > tr:last-child > *:first-child
+{
+    border-bottom-left-radius: 8px;
+}
+
+table > *:last-child > tr:last-child > *:last-child
+{
+    border-bottom-right-radius: 8px;
 }
 
 .card
