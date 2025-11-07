@@ -312,7 +312,7 @@ hr
 
 button, .button, .btn
 {
-    line-height: 2em;
+    display: inline-block;
     padding: 0.75em 1em;
     background-color: var(--button-colour);
     color: var(--button-text-colour);
