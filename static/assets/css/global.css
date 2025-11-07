@@ -331,35 +331,21 @@ button:hover, .button:hover, .btn:hover
     box-shadow: 0px 0px 20px 3px var(--card-bottom-shadow-colour);
 }
 
-pre
+code
 {
-    overflow: auto visible;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-div.highlight
-{
-    background: var(--code-background-colour);
-}
-
-pre:not(.info):not(.highlight), code:not(.info code):not(.highlight code)
+pre:has(code)
 {
     background: var(--code-background-colour);
     color: var(--text-colour);
     overflow: auto visible;
 }
 
-pre
+pre > code
 {
-    margin: 0;
-}
-
-code
-{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.highlight pre
-{
+    display: inline-block;
     padding: 1em;
 }
 
