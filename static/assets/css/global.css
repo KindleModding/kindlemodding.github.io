@@ -94,13 +94,76 @@ html
     background-color: #151515 !important;
 }
 
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+}
+
 html, body
 {
     font-family: sans-serif;
-    padding: 0;
-    margin: 0;
     background-color: var(--background-colour);
     color: var(--text-colour);
+}
+
+p
+{
+    margin-top: 1.5ex;
+    margin-bottom: 1.5ex;
+}
+
+h1 { font-size: 28pt; }
+h2 { font-size: 22pt; }
+h3 { font-size: 16pt; }
+h4 { font-size: 14pt; }
+h5 { font-size: 13pt; }
+h6 { font-size: 12pt; }
+
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.5ex;
+    margin-top: 1.8ex;
+}
+
+ol, ul
+{
+    margin-left: 2.0em;
+    margin-top: 1.2ex;
+    margin-bottom: 1.2ex;
+}
+
+li
+{
+    margin-top: 1.2ex;
+    margin-bottom: 1.2ex;
+}
+
+li:first-child
+{
+    margin-top: 0;
+}
+
+li:last-child
+{
+    margin-bottom: 0;
+}
+
+blockquote
+{
+    margin-top: 2.0ex;
+    margin-bottom: 2.0ex;
+}
+
+blockquote > :first-child
+{
+    margin-top: 0;
+}
+
+blockquote > :last-child
+{
+    margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
@@ -109,14 +172,23 @@ h1, h2, h3, h4, h5, h6, h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *
     color: var(--heading-colour);
 }
 
-a {
+a
+{
     color: var(--link-colour);
     text-decoration: none;
     font-weight: bold;
+    font-size: inherit;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+hr
+{
+    height: 3px;
+    background: var(--background-accent);
+    border: none;
 }
 
 .pageWrapper
@@ -139,8 +211,6 @@ a:hover {
     min-height: 100vh;
     align-self: center;
     padding: 0 1em;
-    display: flex;
-    flex-direction: column;
     max-width: min(100%, 1000px);
     margin: 0px auto;
 }
@@ -296,7 +366,7 @@ code
 blockquote, .note, .warning, .info
 {
     background: var(--background-accent);
-    padding: 1em;
+    padding: 0.8em;
     border-radius: 3px;
     box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
     margin-left: 0;
