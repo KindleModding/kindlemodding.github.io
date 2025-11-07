@@ -450,11 +450,9 @@ table > *:last-child > tr:last-child > *:last-child
     background: var(--background-colour);
     box-shadow: 0px 0px 16px 3px var(--card-bottom-shadow-colour);
 
-    padding: 1em;
     transition: box-shadow 0.5s;
     text-decoration: none;
     color: unset !important;
-    max-width: calc(90% - 2em);
 }
 
 .card:hover
