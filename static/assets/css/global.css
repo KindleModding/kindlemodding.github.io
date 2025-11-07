@@ -203,7 +203,7 @@ hr
 {
     height: 100vh;
     overflow: auto;
-    width: 100%;
+    flex-grow: 1;
 }
 
 .mainContent
@@ -236,63 +236,60 @@ hr
 
 .navbar
 {
-    position: sticky;
     overflow-x: hidden;
-    overflow-y: auto;
-    width: calc(25vw - 1em);
+    overflow-y: visible;
     padding: 0.5em;
     background-color: var(--background-colour);
     user-select: none;
     border-right: solid 3px var(--background-accent);
     padding-bottom: 0;
+    width: min-content;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
 
+.navbar > a, .navbar > details
+{
+    flex-shrink: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.navbar h1
+{
+    margin: 10px 20px 12px 5px;
+    font-size: 22pt;
+    white-space: nowrap;
+}
+
 .navbar a
 {
-    text-overflow: ellipsis;
     text-decoration: none;
     color: var(--link-colour);
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
-.navbar a, .navbar summary
+.navbar > a, .navbar details > summary, .navbar details > div > a
 {
     padding: 0.5em;
-    width: calc(100% - 1em - 25px);
     transition: background-colour 0.5s;
     background-color: var(--background-colour);
-    position: relative; /* Fixes z-index on summary */
-    z-index: 998;
-    overflow: hidden;
 }
 
-.navbar .active
+.navbar > a.active, .navbar details > summary.active, .navbar details > div > a.active
 {
     background-color: var(--background-accent);
 }
 
-.navbar a:not(.active):not(summary > a):not(h1 > a):hover, .navbar summary:not(.active):hover
+.navbar > a:not(.active):hover, .navbar details > summary:not(.active):hover, .navbar details > div > a:not(.active):hover
 {
     background-color: var(--background-accent);
-    z-index: 999;
-}
-
-.navbar summary > a
-{
-    padding: 0 !important;
-    background-color: unset !important;
 }
 
 .navbar details > div
 {
     padding-left: 2em;
-}
 
-.navbar details div
-{
     display: flex;
     flex-direction: column;
 }
@@ -300,7 +297,6 @@ hr
 .footer
 {
     margin-top: 1em;
-    width: calc(100% - 2em);
     display: flex;
     flex-direction: column;
     background-color: var(--background-colour);
@@ -478,15 +474,10 @@ table > *:last-child > tr:last-child > *:last-child
 
     .navbar
     {
-        width: calc(100% - 1em);
+        width: 100%;
+        box-sizing: border-box;
         border-right: none;
         border-bottom: solid 3px var(--background-accent);
-    }
-
-    /* Let it clip tbh */
-    .navbar a, .navbar summary
-    {
-        width: unset !important;
     }
 }
 
