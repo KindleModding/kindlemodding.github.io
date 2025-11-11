@@ -20,7 +20,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 
 - You will need a PC & Cable
 - A registered Kindle [with ads enabled](#enabling-ads)
-- Firmware 5.18.1 and above (possibly patched after 5.18.5.0.1)
+- Firmware 5.18.1 - 5.18.5.0.1
 
 > [!INFO]
 > If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
