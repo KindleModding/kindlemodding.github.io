@@ -35,7 +35,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Extracting MRPI</h2>
             <div class="stepContent">
-            <p>Extract the contents of the MRPI tar file you downloaded, and copy the <code>extensions</code> and <code>mrpackages</code> folders to your Kindle</p>
+            <p>Extract the contents of the MRPI tar file you downloaded, and copy the <code>extensions</code> and <code>mrpackages</code> folders to your Kindle.</p>
             <br/>
             <img src="./mrpackages_extensions_folders.png" />
             </div>
@@ -43,10 +43,10 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Extracting/Copying KUAL</h2>
             <div class="stepContent">
-                <p>If you downloaded KUAL for legacy devices, extract the .tar.xz file you downloaded to get the <code>Update_KUALBooklet_*_install.bin</code> file</p>
-                <p>The above step does not apply if you downloaded KUAL (Coplate)</p>
+                <p>If you downloaded KUAL for legacy devices, extract the .tar.xz file you downloaded to get the <code>Update_KUALBooklet_*_install.bin</code> file.</p>
+                <p>The above step does not apply if you downloaded KUAL (Coplate).</p>
                 <br/>
-                <p>Now, find the <code>Update_KUALBooklet_*_install.bin</code> file and copy it to your Kindle's <code>mrpackages</code> folder</p>
+                <p>Now, find the <code>Update_KUALBooklet_*_install.bin</code> file and copy it to your Kindle's <code>mrpackages</code> folder.</p>
                 <br/>
                 <img src="./kual_install_bin.png" />
             </div>
@@ -60,7 +60,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Running MRPI</h2>
             <div class="stepContent">
-                <p>On your Kindle, type <code>;log mrpi</code> into the search bar and hit enter</p>
+                <p>On your Kindle, type <code>;log mrpi</code> into the search bar and hit enter. It may take a second for the Kindle to appear to be doing anything.</p>
                 <br/>
                 <img src="./run_dispatch.png" />
             </div>
@@ -68,8 +68,8 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Done</h2>
             <div class="stepContent">
-                <p>Now wait whilst KUAL is installed, your Kindle screen turns white and shows some icons, after a while you will be returned to your library and see a <code>KUAL</code> book appear in it.</p>
-                <p class="highlight">If you see a "Application Error" dialog, you can close it without worry - this is normal behaviour on some modern Kindles</p>
+                <p>While KUAL is installing, your Kindle screen may turn white and show some icons. After a while you will be returned to your library and see a book titled <code>KUAL</code> has been added. <strong>If you do not see this book,</strong> look at the Troubleshooting steps below.</p>
+                <p class="highlight">If you see a "Application Error" dialog, you can close it without worry - this is normal behaviour on some modern Kindles.</p>
                 <br/>
                 <img src="./success.png" />
             </div>
@@ -86,4 +86,4 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
 ## Troubleshooting
 - The installation of `Update_KUALBooklet_hotfix_*_install.bin` may fail if there is not enough free space on your Kindle. If you are using the "fill storage" method to block updates, make sure to free up some space before proceeding with these steps.
 - Verify the location of all the folders and files on the Kindle
-- Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`
+- Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle while connected to your PC. Then go to `Settings` > `Update Your Kindle`, wait for it to reboot, and then resume from `Step 5 - Eject and unplug your Kindle`.
