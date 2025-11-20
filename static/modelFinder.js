@@ -29,7 +29,7 @@ function getSerialInfo(serial) {
 
 
 function searchForSerial() {
-    serialNumber = document.getElementById("serialNumber").value;
+    let serialNumber = document.getElementById("serialNumber").value;
     // First remove any spaces in the serial number and make it uppercase
     serialNumber = serialNumber.toUpperCase().replaceAll(' ', '');
     console.log("Searching for", serialNumber);
@@ -40,6 +40,7 @@ function searchForSerial() {
     searchStatus.innerText = "";
 
     // Validate serial number
+    let serialInfo;
     if (serialNumber.length == 2 || serialNumber.length == 3) { // Allow developers to search device codes directly
         serialInfo = {
             serial_version: serialNumber.length == 2 ? 0 : 1, // Kinda messy but it works

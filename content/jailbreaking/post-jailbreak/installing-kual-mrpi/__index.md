@@ -37,7 +37,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
             <div class="stepContent">
             <p>Extract the contents of the MRPI tar file you downloaded, and copy the <code>extensions</code> and <code>mrpackages</code> folders to your Kindle</p>
             <br/>
-            <img src="./mrpackages_extensions_folders.png" />
+            <img src="./mrpackages_extensions_folders.png" alt="File explorer showing mrpackages and extensions folders copied to Kindle" />
             </div>
         </div>
         <div class="step">
@@ -48,13 +48,13 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
                 <br/>
                 <p>Now, find the <code>Update_KUALBooklet_*_install.bin</code> file and copy it to your Kindle's <code>mrpackages</code> folder</p>
                 <br/>
-                <img src="./kual_install_bin.png" />
+                <img src="./kual_install_bin.png" alt="File explorer showing KUAL install file in mrpackages folder" />
             </div>
         </div>
         <div class="step">
             <h2>Eject and unplug your Kindle</h2>
             <div class="stepContent">
-                <img src="./eject.png" />
+                <img src="./eject.png" alt="Operating system eject dialog for Kindle device" />
             </div>
         </div>
         <div class="step">
@@ -62,7 +62,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
             <div class="stepContent">
                 <p>On your Kindle, type <code>;log mrpi</code> into the search bar and hit enter</p>
                 <br/>
-                <img src="./run_dispatch.png" />
+                <img src="./run_dispatch.png" alt="Kindle search bar with ;log mrpi command entered" />
             </div>
         </div>
         <div class="step">
@@ -71,7 +71,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
                 <p>Now wait whilst KUAL is installed, your Kindle screen turns white and shows some icons, after a while you will be returned to your library and see a <code>KUAL</code> book appear in it.</p>
                 <p class="highlight">If you see a "Application Error" dialog, you can close it without worry - this is normal behaviour on some modern Kindles</p>
                 <br/>
-                <img src="./success.png" />
+                <img src="./success.png" alt="Kindle library showing KUAL booklet successfully installed" />
             </div>
         </div>    
     </div>

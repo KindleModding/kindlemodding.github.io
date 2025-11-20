@@ -62,25 +62,25 @@ It is based on [Mesquito](../../mesquito/)
             <h2>Airplane Mode</h2>
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
-                <img src="./airplane_mode.png" /> 
+                <img src="./airplane_mode.png" alt="Screenshot showing Airplane mode toggle in Kindle settings" />
             </div>
         </div>
         <div class="step">
             <h2>Rebooting</h2>
             <div class="stepContent">
                 <p>Reboot your Kindle</p>
-                <img src="./reboot.png" />
+                <img src="./reboot.png" alt="Screenshot showing the reboot option in Kindle menu" />
             </div>
         </div>
         <div class="step">
             <h2>Extracting WinterBreak</h2>
             <div class="stepContent">
                 <p>Once it has booted, plug the Kindle into your computer and extract the contents of the <code>WinterBreak.tar.gz</code> file to a safe place on your computer</p>
-                <p>Then copy the files to your Kindle (do not extract direcly to the Kindle as this may fail). Replace any files if you are prompted to</p>
+                <p>Then copy the files to your Kindle (do not extract directly to the Kindle as this may fail). Replace any files if you are prompted to</p>
                 <p class="highlight">
                     For Linux/MacOS users, ENSURE the hidden folder <code>.active_content_sandbox</code> has been copied to your Kindle
                 </p>
-                <img src="./file_list.png" />
+                <img src="./file_list.png" alt="File explorer showing WinterBreak files copied to Kindle root directory" />
             </div>
         </div>
 <div class="step">
@@ -89,14 +89,14 @@ It is based on [Mesquito](../../mesquito/)
                 <p>Eject the Kindle from your computer</p>
                 <p>Open the Kindle Store on your Kindle by clicking on the cart icon on the home screen</p>
                 <p>When prompted, click <code>Yes</code> to turn off Airplane mode</p>
-                <img src="./store_aeroplane.png" />
+                <img src="./store_aeroplane.png" alt="Kindle Store prompt asking to turn off Airplane mode" />
             </div>
         </div>
         <div class="step">
             <h2>Running WinterBreak</h2>
             <div class="stepContent">
                 <p>Once Mesquito has loaded, click on the WinterBreak icon</p>
-                <img src="./winterbreak_launcher.png" />
+                <img src="./winterbreak_launcher.png" alt="Mesquito loader interface showing WinterBreak icon" />
             </div>
         </div>
         <div class="step">
@@ -108,7 +108,7 @@ It is based on [Mesquito](../../mesquito/)
                 <p class="warning">
                     If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
                 </p>
-                <img src="./winterbreak_run.png" />
+                <img src="./winterbreak_run.png" alt="Kindle screen showing WinterBreak jailbreak success message" />
             </div>
         </div>
     </div>

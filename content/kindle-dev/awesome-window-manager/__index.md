@@ -21,7 +21,7 @@ For example, the Kindle store has a window title of:
 L:A_N:application_PC:TS_ID:com.lab126.store
 ```
 
-Window titles are actually a key-value store, seperated by an `_` character, this means the above title, would translate roughly to pseudo-JSON as:
+Window titles are actually a key-value store, separated by an `_` character, this means the above title, would translate roughly to pseudo-JSON as:
 ```json
 {
     "L":"A",

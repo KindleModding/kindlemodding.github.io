@@ -56,28 +56,28 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
             <h2>Aeroplane Mode</h2>
             <div class="stepContent">
                 <p>Once you have verified ads are displayed on the lockscreen, enable airplane mode.</p>
-                <img src="./airplane_mode.png" /> 
+                <img src="./airplane_mode.png" alt="Screenshot showing Airplane mode toggle in Kindle settings" />
             </div>
         </div>
         <div class="step">
             <h2>View all ads</h2>
             <div class="stepContent">
                 <p>Click on the top right menu and select "View all ads", which should display multiple "special offers".</p>
-                <img src="./view_ads.png" />
+                <img src="./view_ads.png" alt="Kindle menu showing View all ads option" />
             </div>
         </div>
         <div class="step">
             <h2>Copy .assets</h2>
             <div class="stepContent">
                 <p>Plug in the Kindle, open the system folder and copy the ".assets" folder to your computer.</p>
-                <img src="./copy_assets.png" />
+                <img src="./copy_assets.png" alt="File explorer showing .assets folder in Kindle system directory" />
             </div>
         </div>
         <div class="step">
             <h2>Unzip AdBreak</h2>
             <div class="stepContent">
                 <p>Unzip the previously downloaded AdBreak, and place the extracted contents within the ".assets" folder located on your computer.</p>
-                <img src="./copy_adbreak.png" />
+                <img src="./copy_adbreak.png" alt="File explorer showing AdBreak files copied into .assets folder" />
             </div>
         </div>
         <div class="step">
@@ -91,14 +91,14 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
                     <p class="version-label">MacOS/Linux:</p>
                     <p>Run <code> find . -name 'details.html' -exec cp adbreak.html {} \;</code> using a terminal.</p>
                 </div>
-                <img src="./replacer.png" />
+                <img src="./replacer.png" alt="Terminal window running the replace script" />
             </div>
         </div>
         <div class="step">
             <h2>Replace Kindle .assets</h2>
             <div class="stepContent">
                 <p>Delete the original kindle <code>.assets</code> and replace it with your on-PC modified copy.</p>
-                <img src="./replace_old_assets.png" />
+                <img src="./replace_old_assets.png" alt="File explorer showing modified .assets folder being copied to Kindle" />
             </div>
         </div>
         <div class="step">
@@ -108,7 +108,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
                 </p>
-                <img src="./demo.png" />
+                <img src="./demo.png" alt="Kindle screen showing AdBreak jailbreak demonstration with Bang! popup" />
             </div>
         </div>
     </div>

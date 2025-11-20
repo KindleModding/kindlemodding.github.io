@@ -6,7 +6,6 @@ html
     --code-background-colour: #EEE;
     --text-colour: #000;
 
-    --heading-colour: #333;
     --card-bottom-shadow-colour: #b3b3b3;
 
     --heading-colour: #000;
@@ -282,7 +281,7 @@ hr
 .navbar > a, .navbar details > summary, .navbar details > div > a
 {
     padding: 0.5em;
-    transition: background-colour 0.5s;
+    transition: background-color 0.5s;
     background-color: var(--background-colour);
 }
 
@@ -337,6 +336,21 @@ button:hover, .button:hover, .btn:hover
     box-shadow: 0px 0px 20px 2px var(--card-bottom-shadow-colour);
 }
 
+.btn-orange
+{
+    background-color: #ff8c00;
+}
+
+.btn-green
+{
+    background-color: #28a745;
+}
+
+.btn-purple
+{
+    background-color: #6f42c1;
+}
+
 code
 {
     font-family: 'Courier New', Courier, monospace;
@@ -377,6 +391,11 @@ blockquote, .note, .warning, .info
 }
 
 .info
+{
+    background: var(--highlight-colour) !important;
+}
+
+.highlight
 {
     background: var(--highlight-colour) !important;
 }

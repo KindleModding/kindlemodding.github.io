@@ -62,7 +62,7 @@
             }
         }
 
-        themes = ["light", "dark"]
+        const themes = ["light", "dark"]
         if (!themes.includes(localStorage.getItem("theme")))
         {
             localStorage.setItem("theme", "dark");
@@ -74,7 +74,7 @@
             if (document.startViewTransition)
             {
                 document.startViewTransition(() => {
-                    refreshTheme();;
+                    refreshTheme();
                 });
             }
             else

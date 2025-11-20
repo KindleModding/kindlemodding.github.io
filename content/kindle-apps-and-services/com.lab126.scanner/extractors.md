@@ -98,7 +98,7 @@ The `handler` is a function that takes a pointer to a `scanner_event` object
 The `SCANNER_ADD` event type is the most important event, it is triggered when the scanner detects a new file in the userstore.  
 
 
-For example, when `Kterm.sh` is copied to `/mnt/us`, the `sh_integration` extractor recieves the following `scanner_event`
+For example, when `Kterm.sh` is copied to `/mnt/us`, the `sh_integration` extractor receives the following `scanner_event`
 
 ```c
 .event_type=0

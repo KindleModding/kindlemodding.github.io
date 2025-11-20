@@ -33,13 +33,13 @@ Sends a message through the Kindle's internal LIPC messaging system, `message` i
 | eventType | switchViewMode | String | The event to send                                       |
 | eventData | fullscreen     | String | The data sent with the corresponding event              |
 
-## kindle.messaging.recieveMessage
+## kindle.messaging.receiveMessage
 ~~~js
-kindle.messaging.recieveMessage(eventType, callback)
+kindle.messaging.receiveMessage(eventType, callback)
 ~~~
 Registers a `callback` function for a specific `eventType` if a LIPC message is sent to the WAF.
 
-The `callback` recieves a `property` and `json` (or `string`) argument, ie:
+The `callback` receives a `property` and `json` (or `string`) argument, ie:
 ~~~js
 callback(property, json)
 ~~~

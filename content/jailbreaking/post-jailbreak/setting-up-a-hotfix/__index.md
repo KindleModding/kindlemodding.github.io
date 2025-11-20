@@ -36,7 +36,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
                 <p class="warning">
                    If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for the hotfix to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading
                 </p>
-                <img src="./copy_hotfix.png" />
+                <img src="./copy_hotfix.png" alt="File explorer showing hotfix file copied to Kindle root directory" />
             </div>
         </div>
         <div class="step">
@@ -44,7 +44,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
             <div class="stepContent">
                 <p>Eject the Kindle and unplug it, then open settings, click on the three dots, and select <code>Update Your Kindle</code></p>
                 <br/>
-                <img src="./update_settings.png" />
+                <img src="./update_settings.png" alt="Kindle settings menu showing Update Your Kindle option" />
             </div>
         </div>
         <div class="step">
@@ -52,7 +52,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
             <div class="stepContent">
                 <p>If asked, select <code>Update</code>. You can expect this to install the hotfix, as an update.</p>
                 <br/>
-                <img src="./update_dialog.png" />
+                <img src="./update_dialog.png" alt="Kindle update confirmation dialog" />
             </div>
         </div>
         <div class="step">
@@ -62,7 +62,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
                 <p>Run the hotfix by selecting the <code>Run Hotfix</code> booklet in your library.</p>
                 <p>Once the hotfix is done running, you can install <code>KUAL</code> and <code>MRPI</code></p>
                 <p class="note">You will need to run the hotfix booklet after every OTA update</p>
-                <img src="./run_hotfix.png" />
+                <img src="./run_hotfix.png" alt="Kindle library showing Run Hotfix booklet" />
             </div>
         </div>
     </div>

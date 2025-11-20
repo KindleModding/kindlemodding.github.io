@@ -44,14 +44,14 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <h2>1. Put Your Kindle in Airplane Mode</h2>
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
-                <img src="../WinterBreak/airplane_mode.png" />
+                <img src="../WinterBreak/airplane_mode.png" alt="Screenshot showing Airplane mode toggle in Kindle settings" />
             </div>
         </div>
         <div class="step">
             <h2>2. Connect Your Kindle to Your Computer via USB</h2>
             <div class="stepContent">
                 <p>Use a USB cable to connect your Kindle to your computer.</p>
-                <img src="./usb-mode.png"/>
+                <img src="./usb-mode.png" alt="Kindle displaying USB drive mode screen" />
                 <p>Wait for the Kindle to appear as a USB drive.</p>
             </div>
         </div>
@@ -59,7 +59,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <h2>3. Download the Disk Filler Script</h2>
             <div class="stepContent">
                 <p>Go to the <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/">Kindle-Filler-Disk GitHub repository</a>.</p>
-                <img src="./github-files.png"/>
+                <img src="./github-files.png" alt="GitHub repository page showing Filler script files" />
                 <p>Download the appropriate script for your operating system:</p>
                 <div style="margin-left:2em">
                     <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
@@ -71,7 +71,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <h2>4. Move the Script to Your Kindle</h2>
             <div class="stepContent">
                 <p>Copy the downloaded script file to the root directory of your Kindle (the main folder you see when you open the Kindle as a USB drive).</p>
-                <img src="./root-main.png"/>
+                <img src="./root-main.png" alt="File explorer showing Filler script in Kindle root directory" />
                 <span><strong>Windows:</strong> <code>Filler.ps1</code></span><br/>
                 <span><strong>macOS/Linux:</strong> <code>Filler.sh</code></span>
             </div>
@@ -94,7 +94,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                     <p>Run the script:</p>
                     <pre><code>./Filler.sh</code></pre>
                 </div>
-                <img src="./run-script.png"/>
+                <img src="./run-script.png" alt="Terminal window showing Filler script execution" />
               </div>     
             </div>
         <div class="step">
@@ -103,7 +103,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                 <p>Eject your Kindle from your computer.</p>
                 <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
                 <p>Check that the available storage is <strong>20-90 MB or less</strong>.</p>
-                <img src="./final.png"/>
+                <img src="./final.png" alt="Kindle device info screen showing limited available storage" />
             </div>
         </div>
         <div class="step">

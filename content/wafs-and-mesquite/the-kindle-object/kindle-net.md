@@ -47,7 +47,7 @@ kindle.net.confirmSSLException(confirm, callback)
 ~~~
 Method for handling an invalid SSL certificate
 
-Accepts/Cancels last invalid certificate exception recieved depending on argument `confirm` whether it is `'yes'` or `'no'`.
+Accepts/Cancels last invalid certificate exception received depending on argument `confirm` whether it is `'yes'` or `'no'`.
 
 Callback method is optional, it is unknown if any parameters are passed to it.
 
@@ -83,7 +83,7 @@ kindle.net.registerHttpErrorListener(onHttpError)
 ~~~
 
 Registers a callback for http errors.
-The `onHttpError` function will recieve the following arguments:
+The `onHttpError` function will receive the following arguments:
 
 | Name            | Description                                                                                             |
 |-----------------|---------------------------------------------------------------------------------------------------------|
