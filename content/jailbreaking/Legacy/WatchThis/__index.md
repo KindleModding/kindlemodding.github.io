@@ -66,7 +66,7 @@ slug: index
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
+[Post Jailbreak](../../post-jailbreak/)
 
 # Troubleshooting
 If you had any issue with the above steps...

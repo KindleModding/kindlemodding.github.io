@@ -31,7 +31,7 @@ slug: index
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-[Post Jailbreak](../../post-jailbreak/){: .button .button-purple}
+[Post Jailbreak](../../post-jailbreak/)
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
