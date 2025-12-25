@@ -1,5 +1,5 @@
 # Taken from KindleTool
-# Commit 952c1fe
+# Commit 8d16fdd
 model_tuples = [
 	('Kindle1',						0x01,	'ATVPDKIKX0DER'),
 	('Kindle2US',						0x02,	'A3UN6WX5RRO2AG'),
@@ -185,6 +185,18 @@ model_tuples = [
 	('KindleColorSoftUnknown_456',				0x10A6,	'A2CU9ZQDNZFID4'),	# 456?
 	('KindleColorSoftUnknown_455',				0x10A5,	'A2CU9ZQDNZFID4'),	# 455?
 	('KindleColorSoftUnknown_4EP',				0x11D7,	'A2CU9ZQDNZFID4'),	# 4EP?
+	('KindleScribe3Unknown_4PG',				0x12F0,	'A2PZKJK345L1G8'),	# 4PG?
+	('KindleScribe3Unknown_4PE',				0x12EE,	'A2PZKJK345L1G8'),	# 4PE?
+	('KindleScribe3Unknown_4PL',				0x12F4,	'A2PZKJK345L1G8'),	# 4PL?
+	('KindleScribe3Unknown_4F8',				0x11E8,	'A2PZKJK345L1G8'),	# 4F8?
+	('KindleScribe3Unknown_4FA',				0x11EA,	'A2PZKJK345L1G8'),	# 4FA
+	('KindleScribe3Unknown_454',				0x10A4,	'A2PZKJK345L1G8'),	# 454?
+	('KindleScribeColorSoftUnknown_4VX',			0x13BF,	'A3PXY43G91LWNT'),	# 4VX?
+	('KindleScribeColorSoftUnknown_4PF',			0x12EF,	'A3PXY43G91LWNT'),	# 4PF?
+	('KindleScribeColorSoftUnknown_4PH',			0x12F1,	'A3PXY43G91LWNT'),	# 4PH
+	('KindleScribeColorSoftUnknown_4F9',			0x11E9,	'A3PXY43G91LWNT'),	# 4F9?
+	('KindleScribeColorSoftUnknown_4FB',			0x11EB,	'A3PXY43G91LWNT'),	# 4FB?
+	('KindleScribeColorSoftUnknown_46P',			0x10D7,	'A3PXY43G91LWNT'),	# 46P?
 	('KindleUnknown', 0x00),
 ]
 
@@ -233,6 +245,28 @@ def cammelToSpace(text):
 
 
 generationMap = [
+    {
+        "kindletool_names": ["KindleScribeColorSoft"],
+        "release_year": 2025,
+        "release_firmware": "5.19.x",
+        "generation_nicknames": ["KSC"],
+        "amazon_name": "Kindle Scribe Colorsoft (1st Generation)",
+        "last_firmware": "Not Yet Discontinued",
+        "platform": "Bellatrix6?",
+        "board": "Calvados",
+        "jailbreak": "None Available",
+    },
+    {
+        "kindletool_names": ["KindleScribe3"],
+        "release_year": 2025,
+        "release_firmware": "5.19.x",
+        "generation_nicknames": ["KS3"],
+        "amazon_name": "Kindle Scribe (3rd Generation)",
+        "last_firmware": "Not Yet Discontinued",
+        "platform": "Bellatrix5?",
+        "board": "Paloma",
+        "jailbreak": "None Available",
+    },
     {
         "kindletool_names": ["KindleBasic5"],
         "release_year": 2024,
