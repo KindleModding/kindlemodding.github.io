@@ -54,8 +54,7 @@ Congratulations! Your Kindle has been downgraded.
 
 After downgrading, you will need to re-do the post-jailbreak instructions:
 
-[Setting Up A Hotfix](../../jailbreaking/post-jailbreak/setting-up-a-hotfix/){: .button .button-purple}
-
+<a class="button button-purple" href="../../jailbreaking/post-jailbreak/setting-up-a-hotfix/">Setting Up A Hotfix</a>
 
 ## Credits
 - Written by Bundlerocks, adapted from [Neon](https://kindlemodding.gitbook.io/kindlemodding/miscellaneous/downgrading-your-kindle-firmware)

@@ -8,7 +8,7 @@ weight: 1
 The Kindle uses upstart for its usermode boot process.
 
 Below is a diagram generated from all the Kindle's (PW6) upstart services.
-[Fullscreen Version](./upstart-diagram.html){: .button .button-purple }
+<a class="button button-purple" href="./upstart-diagram.html">Fullscreen Version</a>
 
 <style>
     .language-mermaid svg {
