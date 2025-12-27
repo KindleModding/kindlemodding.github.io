@@ -28,8 +28,10 @@ Simply download the [latest release](https://github.com/KindleModding/Mesquito/r
 ## Development
 See [Developing For Mesquito](../mesquito/development/)
 
+##Mesquitone Mesqutio on jailbroken 5.18.1
+check it out [here] (https://github.com/HackerAUG/Mesqutione)
+
 ## Screenshot Of Mesquito
 ![Mesquito screenshot](../mesquito/mesquito.png)
 
-##Mesquitone Mesqutio on jailbroken 5.18.1
-check it out [here] (https://github.com/HackerAUG/Mesqutione)
+
