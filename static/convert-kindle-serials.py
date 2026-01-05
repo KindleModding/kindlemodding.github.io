@@ -1,5 +1,5 @@
 # Taken from KindleTool
-# Commit 8113b16
+# Commit 708d71a
 model_tuples = [
 	('Kindle1',						0x01,	'ATVPDKIKX0DER'),
 	('Kindle2US',						0x02,	'A3UN6WX5RRO2AG'),
@@ -183,10 +183,29 @@ model_tuples = [
 	('KindleColorSoftUnknown_3JT',				0xE5B,	'A2CU9ZQDNZFID4'),	# 3JT?
 	('KindleColorSoftUnknown_3J6',				0xE46,	'A2CU9ZQDNZFID4'),	# 3J6?
 	('KindleColorSoftUnknown_456',				0x10A6,	'A2CU9ZQDNZFID4'),	# 456?
-	('KindleUnknown', 0x00)
+	('KindleColorSoftUnknown_455',				0x10A5,	'A2CU9ZQDNZFID4'),	# 455?
+	('KindleColorSoftUnknown_4EP',				0x11D7,	'A2CU9ZQDNZFID4'),	# 4EP?
+    ('ValidKindleUnknown_53C',					0x1463,	'A1956ZWD74DEPW'),	# 53C?
+	('ValidKindleUnknown_KVR',					0x4FB9,	'A2C8F0TJH71TA1'),	# KVR?
+	('KindleScribe3Unknown_4PG',				0x12F0,	'A2PZKJK345L1G8'),	# 4PG?
+	('KindleScribe3Unknown_4PE',				0x12EE,	'A2PZKJK345L1G8'),	# 4PE?
+	('KindleScribe3Unknown_4PL',				0x12F4,	'AC66OWFZXI53A'),	# 4PL?
+	('KindleScribe3Unknown_4F8',				0x11E8,	'A2PZKJK345L1G8'),	# 4F8?
+	('KindleScribe3Unknown_4FA',				0x11EA,	'A2PZKJK345L1G8'),	# 4FA
+	('KindleScribe3Unknown_454',				0x10A4,	'A2PZKJK345L1G8'),	# 454?
+	('KindleScribeColorSoftUnknown_4VX',			0x13BF,	'A3PXY43G91LWNT'),	# 4VX?
+	('KindleScribeColorSoftUnknown_4PF',			0x12EF,	'A3PXY43G91LWNT'),	# 4PF?
+	('KindleScribeColorSoftUnknown_4PH',			0x12F1,	'A3PXY43G91LWNT'),	# 4PH
+	('KindleScribeColorSoftUnknown_4F9',			0x11E9,	'A3PXY43G91LWNT'),	# 4F9?
+	('KindleScribeColorSoftUnknown_4FB',			0x11EB,	'A3PXY43G91LWNT'),	# 4FB?
+	('KindleScribeColorSoftUnknown_46P',			0x10D7,	'A3PXY43G91LWNT'),	# 46P?
+	('KindleUnknown', 0x00),
 ]
 
-
+# Janky Solution to add the kindle x Migu to match the manually updated json.
+lineToInsertAfter = list(filter(lambda x: x[0] == "KindleBasic2White", model_tuples))[0]
+itemToInsert = ('UNSUPPORTED', 0x2d0, 'UNKNOWN')
+model_tuples.insert(model_tuples.index(lineToInsertAfter) + 1, itemToInsert)
 
 
 import json
@@ -202,7 +221,7 @@ def sn_ord(char):
 def serial_to_int(sn):
     return ((sn_ord(sn[0]) << 10) + (sn_ord(sn[1]) << 5) + sn_ord(sn[2]))
 
-def get_index(sn_int, factor):  
+def get_index(sn_int, factor):
     return (sn_int >> factor), (sn_int - ((sn_int >> factor) << factor))
 
 def int_to_serial(sn_int):
@@ -229,15 +248,37 @@ def cammelToSpace(text):
 
 generationMap = [
     {
+        "kindletool_names": ["KindleScribeColorSoft"],
+        "release_year": 2025,
+        "release_firmware": "5.19.x",
+        "generation_nicknames": ["KSC"],
+        "amazon_name": "Kindle Scribe Colorsoft (1st Generation)",
+        "last_firmware": "Not Yet Discontinued",
+        "platform": "Platcs8",
+        "board": "Calvados",
+        "jailbreak": "None Available",
+    },
+    {
+        "kindletool_names": ["KindleScribe3"],
+        "release_year": 2025,
+        "release_firmware": "5.19.x",
+        "generation_nicknames": ["KS3"],
+        "amazon_name": "Kindle Scribe (3rd Generation)",
+        "last_firmware": "Not Yet Discontinued",
+        "platform": "Platpa6",
+        "board": "Paloma",
+        "jailbreak": "None Available",
+    },
+    {
         "kindletool_names": ["KindleBasic5"],
         "release_year": 2024,
         "release_firmware": "5.16.20",
         "generation_nicknames": ["KT6"],
         "amazon_name": "Kindle (11th Generation) - 2024 Release",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix",
         "board": "Rossini",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>",
     },
     {
         "kindletool_names": ["KindlePaperWhite6"],
@@ -245,10 +286,10 @@ generationMap = [
         "release_firmware": "5.17.0",
         "generation_nicknames": ["PW6"],
         "amazon_name": "Kindle Paperwhite (12th Generation) - 2024 Release",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix4",
         "board": "Sangria",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>",
     },
     {
         "kindletool_names": ["KindleScribe2"],
@@ -256,21 +297,21 @@ generationMap = [
         "release_firmware": "5.17.0",
         "generation_nicknames": ["KS2"],
         "amazon_name": "Kindle Scribe - 2024 Release",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix3",
         "board": "Pisco",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a>",
     },
     {
         "kindletool_names": ["KindleColorSoft"],
         "release_year": 2024,
         "release_firmware": "5.18.0",
         "generation_nicknames": ["CS"],
-        "amazon_name": "Kindle Colorsoft (12th Generation)",
-        "last_firmware": "LATEST",
+        "amazon_name": "Kindle Colorsoft (1st Generation)",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix4",
         "board": "Seabreeze",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>",
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.0.2</a>",
     },
     # Kindle Scribe, released December 2022 on FW 5.16.0
     {
@@ -279,10 +320,10 @@ generationMap = [
         "release_firmware": "5.16.0",
         "generation_nicknames": ["KS"],
         "amazon_name": "Kindle Scribe (1st Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix3",
         "board": "Barolo",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>"
     },
     # Kindle Basic 4, released October 12 2022 on FW 5.15.0
     {
@@ -291,10 +332,10 @@ generationMap = [
         "release_firmware": "5.15.0",
         "generation_nicknames": ["KT5"],
         "amazon_name": "Kindle (11th Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix",
         "board": "Cava",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>"
     },
     # Kindle PaperWhite 5, released October 27 2021 on FW 5.14.0
     {
@@ -303,10 +344,10 @@ generationMap = [
         "release_firmware": "5.14.0",
         "generation_nicknames": ["PW5", "PW5SE"],
         "amazon_name": "Kindle Paperwhite (11th Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix",
         "board": "Malbec",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>"
     },
     # Kindle Oasis 3, released July 24 2019 on FW 5.12.0
     {
@@ -315,10 +356,10 @@ generationMap = [
         "release_firmware": "5.12.0",
         "generation_nicknames": ["KOA3", "KOA3W32C"],
         "amazon_name": "Kindle Oasis (10th Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Zelda",
         "board": "Stinger",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"
     },
     # Kindle Basic 3, released April 10 2019 on FW 5.1x.y
     {
@@ -327,10 +368,10 @@ generationMap = [
         "release_firmware": "5.1x.y",
         "generation_nicknames": ["KT4"],
         "amazon_name": "Kindle (10th Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
         "board": "Moonshine",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"
     },
     # Kindle PaperWhite 4, released November 7 2018 on FW 5.10.0.1/5.10.0.2
     {
@@ -339,10 +380,22 @@ generationMap = [
         "release_firmware": "5.10.0.1/5.10.0.2",
         "generation_nicknames": ["PW4"],
         "amazon_name": "Kindle Paperwhite (10th Generation)",
-        "last_firmware": "LATEST",
+        "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
         "board": "Jaeger",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"
+    },
+    # Kindle x Migu, released 2017 on FW 5.7.2.8 (Based on Android 5.1.1?)
+    {
+        "kindletool_names": ["UNSUPPORTED"],
+        "release_year": 2017,
+        "release_firmware": "5.7.2.8 (Based on Android 5.1.1?)",
+        "generation_nicknames": ["KM"],
+        "amazon_name": "Kindle x Migu",
+        "last_firmware": "5.7.2.8 (Based on Android 5.1.1?)",
+        "platform": "Heisenberg",
+        "board": "Eanab",
+        "jailbreak": "Runs Android - Try traditional Android JB methods"
     },
     # Kindle Oasis 2, released winter 2017 on FW 5.9.0.6
     {
@@ -354,7 +407,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Zelda",
         "board": "Cognac",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle Basic 2, released summer 2016 on FW 5.8.0
     {
@@ -366,7 +419,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Heisenberg",
         "board": "Eanab",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle Oasis, released late spring 2016 on FW 5.7.1.1
     {
@@ -378,7 +431,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Duet",
         "board": "Whisky",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle PaperWhite 3, White, appeared w/ FW 5.7.3.1, released summer 2016 on FW 5.7.x?
     {
@@ -390,7 +443,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
         "board": "Muscat",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle PaperWhite 3, released summer 2015 on FW 5.6.1
     {
@@ -402,7 +455,7 @@ generationMap = [
         "last_firmware": "5.16.2.1.1",
         "platform": "Wario",
         "board": "Muscat",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle Voyage, released fall 2014 on FW 5.5.0
     {
@@ -414,7 +467,7 @@ generationMap = [
         "last_firmware": "5.13.6",
         "platform": "Wario",
         "board": "Icewine",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle Basic (Pearl, Touch), released fall 2014 on FW 5.6.0
     {
@@ -426,7 +479,7 @@ generationMap = [
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
         "board": "Bourbon",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle PaperWhite 2 (black bezel), released fall 2013 on FW 5.4.0
     {
@@ -438,7 +491,7 @@ generationMap = [
         "last_firmware": "5.12.2.2",
         "platform": "Wario",
         "board": "Pinot",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle PaperWhite (black bezel), released fall 2012 on FW 5.2.0
     {
@@ -450,7 +503,7 @@ generationMap = [
         "last_firmware": "5.6.1.1",
         "platform": "Wario",
         "board": "Pinot",
-        "jailbreak": "<a href=\"WinterBreak\">WinterBreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak</a>"
     },
     # Kindle 5 touch
     {
@@ -462,7 +515,7 @@ generationMap = [
         "last_firmware": "5.3.7.3",
         "platform": "Yoshi",
         "board": "Whitney",
-        "jailbreak": "LEGACY"
+        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=225030\">K5 JailBreak (5.0.x - 5.4.4.2)</a>"
     },
     # Kindle 4 with a black bezel, released fall 2012
     {
@@ -554,7 +607,7 @@ for model in model_tuples:
                 foundGeneration = True
                 modelData = generation.copy()
                 break
-        
+
         if (foundGeneration):
             break
 
@@ -563,7 +616,7 @@ for model in model_tuples:
         continue
 
 
-    
+
     del modelData["kindletool_names"]
     filtered = tuple(filter(lambda x: x["amazon_name"] == modelData["amazon_name"], newModelMap))
     index = newModelMap.index(filtered[0]) if filtered != () else None

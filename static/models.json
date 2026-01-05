@@ -1135,5 +1135,85 @@
         "amazon_model_id": "A2CU9ZQDNZFID4"
       }
     }
+  },
+  {
+    "release_year": 2025,
+    "release_firmware": "5.19.x",
+    "amazon_name": "Kindle Scribe (3rd Generation)",
+    "last_firmware": "Not Yet Discontinued",
+    "platform": "Platpa6",
+    "board": "Paloma",
+    "jailbreak": "None Available",
+    "generation_nickname": "KS3",
+    "nicknames": [
+      "KS3"
+    ],
+    "serial_version": 1,
+    "device_codes": {
+      "4PG": {
+        "kindletool_name": "KindleScribe3Unknown_4PG",
+        "amazon_model_id": "A2PZKJK345L1G8"
+      },
+      "4PE": {
+        "kindletool_name": "KindleScribe3Unknown_4PE",
+        "amazon_model_id": "A2PZKJK345L1G8"
+      },
+      "4PL": {
+        "kindletool_name": "KindleScribe3Unknown_4PL",
+        "amazon_model_id": "AC66OWFZXI53A"
+      },
+      "4F8": {
+        "kindletool_name": "KindleScribe3Unknown_4F8",
+        "amazon_model_id": "A2PZKJK345L1G8"
+      },
+      "4FA": {
+        "kindletool_name": "KindleScribe3Unknown_4FA",
+        "amazon_model_id": "A2PZKJK345L1G8"
+      },
+      "454": {
+        "kindletool_name": "KindleScribe3Unknown_454",
+        "amazon_model_id": "A2PZKJK345L1G8"
+      }
+    }
+  },
+  {
+    "release_year": 2025,
+    "release_firmware": "5.19.x",
+    "amazon_name": "Kindle Scribe Colorsoft (1st Generation)",
+    "last_firmware": "Not Yet Discontinued",
+    "platform": "Platcs8",
+    "board": "Calvados",
+    "jailbreak": "None Available",
+    "generation_nickname": "KSC",
+    "nicknames": [
+      "KSC"
+    ],
+    "serial_version": 1,
+    "device_codes": {
+      "4VX": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_4VX",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      },
+      "4PF": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_4PF",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      },
+      "4PH": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_4PH",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      },
+      "4F9": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_4F9",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      },
+      "4FB": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_4FB",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      },
+      "46P": {
+        "kindletool_name": "KindleScribeColorSoftUnknown_46P",
+        "amazon_model_id": "A3PXY43G91LWNT"
+      }
+    }
   }
 ]
