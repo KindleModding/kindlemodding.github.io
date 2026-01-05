@@ -21,7 +21,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
             <div class="stepContent">
                 <p>Before proceeding, check your Kindle's firmware version by going to:</p>
                 <p><strong>Home → Menu → Settings → Device options → Device Info</strong></p>
-                <p class="highlight">Follow the appropriate instructions for your firmware version in each each following step.</p>
+                <p class="highlight">Follow the appropriate instructions for your firmware version in each following step.</p>
             </div>
         </div>  
 
