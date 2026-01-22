@@ -5,7 +5,7 @@ parent: Kindle Development
 ---
 
 # Scriptlets
-As part of the Universal Hotfix released with Winterbreak, a method of running programs was introduced: Scriptlets  
+As part of the Universal Hotfix released with WinterBreak, a method of running programs was introduced: Scriptlets
 
 Scriptlets are handled by the [SH_Integration](https://github.com/KindleModding/sh_integration).  
 Essentially, any `.sh` file in the Kindle's `documents` folder (`/mnt/us/documents`) will be indexed as though it were a book and get added to the library.  

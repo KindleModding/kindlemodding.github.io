@@ -53,7 +53,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
             </div>
         </div>
         <div class="step">
-            <h2>Aeroplane Mode</h2>
+            <h2>Airplane Mode</h2>
             <div class="stepContent">
                 <p>Once you have verified ads are displayed on the lockscreen, enable airplane mode.</p>
                 <img src="./airplane_mode.png" /> 
