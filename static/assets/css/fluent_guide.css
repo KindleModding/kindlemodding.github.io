@@ -1,12 +1,73 @@
-/* For browsers that support `scrollbar-*` properties */
+/*
+    Fluent Guide
+    Slideshow Styling
+*/
+
+
+html {
+    --background-colour: #f5f5dc;
+    --background-accent: #e8e8d8;
+    --background-second-accent: #d0d0c0;
+    --code-background-colour: #e8e8d8;
+    --text-colour: #1a1a1a;
+    --text-muted: #4a4a4a;
+    --text-light: #6a6a6a;
+
+    --heading-colour: #1a1a1a;
+    --card-bottom-shadow-colour: rgba(0, 0, 0, 0.1);
+
+    --link-colour: #1a1a1a;
+    --link-hover-colour: #4a4a4a;
+    --note-colour: #e8e8d8;
+    --warning-colour: #f0e0d0;
+    --highlight-colour: #d8d8c0;
+    --button-bg: #f5f5dc;
+    --button-hover-bg: #e8e8d8;
+    --button-text: #1a1a1a;
+    --button-border: #1a1a1a;
+
+    --border-colour: #d0d0c0;
+    --dot-colour: rgba(180, 180, 160, 0.4);
+
+    --font-heading: "Libre Baskerville", Georgia, serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "Courier New", Courier, monospace;
+}
+
+.dark-theme,
+[data-theme="dark"] {
+    --background-colour: #1a1a1a;
+    --background-accent: #252525;
+    --background-second-accent: #333333;
+    --code-background-colour: #252525;
+    --text-colour: #e8e8e8;
+    --text-muted: #b0b0b0;
+    --text-light: #888888;
+
+    --heading-colour: #e8e8e8;
+    --card-bottom-shadow-colour: rgba(0, 0, 0, 0.4);
+
+    --link-colour: #e8e8e8;
+    --link-hover-colour: #b0b0b0;
+    --note-colour: #252525;
+    --warning-colour: #3d2525;
+    --highlight-colour: #333333;
+    --button-bg: #1a1a1a;
+    --button-hover-bg: #333333;
+    --button-text: #e8e8e8;
+    --button-border: #e8e8e8;
+
+    --border-colour: #333333;
+    --dot-colour: rgba(60, 60, 60, 0.5);
+}
+
 @supports (scrollbar-color: auto) {
     .stepwrapper {
+        scrollbar-color: var(--text-light) var(--background-accent);
         scrollbar-width: thin;
-        scrollbar-color: #208199 #163441;
     }
 }
 
-/* Otherwise, use `::-webkit-scrollbar-*` pseudo-elements */
 @supports selector(::-webkit-scrollbar) {
     .stepwrapper::-webkit-scrollbar {
         width: .5em;
@@ -33,10 +94,11 @@
 .step {
     flex-shrink: 0;
     flex-grow: 1;
-    flex-basis: calc(100% - 2em);
-    width: calc(100% - 2em);
+    flex-basis: 100%;
+    width: 100%;
     scroll-snap-align: start;
     scroll-snap-stop: normal;
+    border-radius: 12px;
     padding: 1em;
 
     display: flex;
@@ -44,6 +106,11 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    border: 4px solid rgb(255, 255, 255, 0.4);
+}
+
+body.light-theme .step {
+    border: 4px solid rgb(0, 0, 0) !important;
 }
 
 .step > h2 {
@@ -68,6 +135,7 @@
     max-width: 100%;
     max-height: 50vh;
     object-fit: scale-down;
+    border-radius: 12px;
 }
 
 .step p {
@@ -82,8 +150,16 @@
     margin-bottom: .5em;
 }
 
-.version-block {
-    background-color: var(--background-accent);
+body.light-theme .version-block {
+    background-color: rgba(0, 0, 0, 0.035);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+body.dark-theme .version-block {
+    background-color: rgba(255, 255, 255, 0.035);
     border-radius: 8px;
     padding: 12px;
     margin-bottom: 12px;
