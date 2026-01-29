@@ -1,9 +1,5 @@
-// Gets the Kindle model from serial number
-
-
-
 function getSerialInfo(serial) {    
-    if (serial[0] == "G") { // New-style serial number
+    if (serial[0] == "G") { 
         if (serial.length < 6) {
             return -1
         }
@@ -30,8 +26,7 @@ function getSerialInfo(serial) {
 
 function searchForSerial() {
     serialNumber = document.getElementById("serialNumber").value;
-    // First remove any spaces in the serial number and make it uppercase
-    serialNumber = serialNumber.toUpperCase().replaceAll(' ', '');
+    serialNumber = serialNumber.toUpperCase().replaceAll(" ", "");
     console.log("Searching for", serialNumber);
 
     const searchResultDiv = document.getElementById("searchResult");
@@ -39,10 +34,9 @@ function searchForSerial() {
     searchResultDiv.innerHTML = "";
     searchStatus.innerText = "";
 
-    // Validate serial number
-    if (serialNumber.length == 2 || serialNumber.length == 3) { // Allow developers to search device codes directly
+    if (serialNumber.length == 2 || serialNumber.length == 3) { 
         serialInfo = {
-            serial_version: serialNumber.length == 2 ? 0 : 1, // Kinda messy but it works
+            serial_version: serialNumber.length == 2 ? 0 : 1,
             device_code: serialNumber
         }
     } else {
@@ -73,7 +67,7 @@ function searchForSerial() {
                     const kindleInfoDisplay = [
                         ["Kindle Name", kindle.amazon_name],
                         ["Released", kindle.release_year.toString()],
-                        ["Kindle Nickname(s)", kindle.nicknames.join(', ')],
+                        ["Kindle Nickname(s)", kindle.nicknames.join(", ")],
                         ["Recommended Jailbreak", kindle.jailbreak]
                     ]
 
@@ -88,9 +82,9 @@ function searchForSerial() {
 
                     const mainTable = document.createElement("table");
                     for (const kindleInfo of kindleInfoDisplay) {
-                        const row = document.createElement('tr');
-                        const header = document.createElement('th');
-                        const field = document.createElement('td');
+                        const row = document.createElement("tr");
+                        const header = document.createElement("th");
+                        const field = document.createElement("td");
                         
                         header.style = "text-align: right;";
 
@@ -106,9 +100,9 @@ function searchForSerial() {
 
                     const secondaryTable = document.createElement("table");
                     for (const kindleInfo of secondaryKindleInfo) {
-                        const row = document.createElement('tr');
-                        const header = document.createElement('td');
-                        const field = document.createElement('td');
+                        const row = document.createElement("tr");
+                        const header = document.createElement("td");
+                        const field = document.createElement("td");
                         
                         header.style = "text-align: right;";
 
@@ -124,7 +118,7 @@ function searchForSerial() {
                     searchResultDiv.appendChild(mainTable);
 
                     /*
-                    const secondaryHeader = document.createElement('h4');
+                    const secondaryHeader = document.createElement("h4");
                     secondaryHeader.innerText = "Additional Info";
 
                     searchResultDiv.appendChild(secondaryHeader);
@@ -139,20 +133,16 @@ function searchForSerial() {
             }
         }
 
-        // Made it to the end, model not found, contact Bluebotlabz
         searchStatus.style = "color: red; font-size: 1.2em;";
         searchStatus.innerText = "ERROR: Serial Number Not Found! Please Open a GitHub Issue.";
     }
 }
 
-
-// Generates the table of all models to display
 function generateTable() {
     const table = document.createElement("table");
     const tableHeader = document.createElement("thead");
     const headerRow = document.createElement("tr");
 
-    // Create header fields
     const headerLabels = [
         "Amazon Name",
         "Kindle Nickname",
@@ -162,7 +152,7 @@ function generateTable() {
     ]
 
     for (const headerLabel of headerLabels) {
-        const headerField = document.createElement('th');
+        const headerField = document.createElement("th");
         headerField.innerText = headerLabel;
 
         headerRow.appendChild(headerField);
@@ -182,7 +172,7 @@ function generateTable() {
         const kindletoolVariants = document.createElement("td");
 
         amazonName.innerText = kindle.amazon_name;
-        kindleNickname.innerText = kindle.nicknames.join(', ');
+        kindleNickname.innerText = kindle.nicknames.join("", "");
         latestFirmware.innerText = kindle.last_firmware;
         recommendedJailbreak.innerHTML = kindle.jailbreak;
         kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.device_codes)}</code>`;
@@ -200,7 +190,7 @@ function generateTable() {
     document.getElementById("fullModelTable").appendChild(table);
 }
 
-fetch('/models.json').then(response => response.json()).then((data) => {
+fetch("/models.json").then(response => response.json()).then((data) => {
     window.kindleModels = data;
     generateTable();
 });
