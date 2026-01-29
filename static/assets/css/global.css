@@ -1365,10 +1365,6 @@ aside > a:not(.active):hover {
     .button-group {
         flex-direction: column;
     }
-
-    .btn {
-        width: 100%;
-    }
 }
 
 @media (prefers-reduced-motion: reduce) {

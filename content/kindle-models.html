@@ -19,7 +19,7 @@ Identify your Kindle model and the jailbreak method best suited for it.
             </div>
             <div class="modal-body">
                 <p style="font-size: 1.2em; margin-top: 0;">Please enter the first 8 characters of your Kindle's serial number below: </p>
-                <input type="text" id="serialNumber" maxlength="8" placeholder="Enter Serial Number" oninput="searchForSerial()">
+                <input type="text" id="serialNumber" maxlength="8" placeholder="Enter Serial Number" oninput="searchForSerial()" autocomplete="off">
 
                 <p id="searchStatus"></p>
                 <div id="searchResult">
@@ -47,6 +47,11 @@ Identify your Kindle model and the jailbreak method best suited for it.
 
 <div>
 <h2>All Kindle Models</h2>
+
+<blockquote class="caution">
+    Firmwares 5.18.6 and onwards have no current Kindle Jailbreaks!
+</blockquote>
+
 <div id="fullModelTable" style="overflow: auto;"></div>
 </div>
 
