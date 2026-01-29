@@ -63,7 +63,7 @@ slug: index
     </div>
 </div>
 
-<script>new Guide("guide", "../koreader", "Install KOReader");</script>
+<script>new Guide("guide", "../koreader.html", "Install KOReader");</script>
 
 ## Troubleshooting
 
