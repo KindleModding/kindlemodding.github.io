@@ -106,6 +106,11 @@ html {
     to { opacity: 1; }
 }
 
+@keyframes modalEntry {
+    from { opacity: 0; transform: scale(0.95) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
 .theme-transitioning * {
     transition: none !important;
 }
@@ -1199,6 +1204,110 @@ aside > a:not(.active):hover {
 .stagger-children > *:nth-child(6) { animation-delay: 250ms; }
 .stagger-children > *:nth-child(7) { animation-delay: 300ms; }
 .stagger-children > *:nth-child(8) { animation-delay: 350ms; }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    padding: 1.5rem;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-container {
+    background-color: var(--background-colour);
+    border: 3px solid var(--button-border);
+    box-shadow: 12px 12px 0 var(--card-bottom-shadow-colour);
+    width: 100%;
+    max-width: 650px;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    animation: modalEntry 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid var(--border-colour);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.modal-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-colour);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+    min-width: unset; 
+}
+
+.modal-close-btn:hover {
+    color: var(--text-light);
+    transform: rotate(90deg);
+    box-shadow: none !important;
+}
+
+.modal-body {
+    padding: 2rem;
+    overflow-y: auto;
+    font-family: var(--font-body);
+}
+
+.modal-footer {
+    padding: 1.5rem 2rem;
+    border-top: 2px solid var(--border-colour);
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--background-accent);
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+.modal-body::-webkit-scrollbar-thumb {
+    background: var(--text-light);
+    border: 2px solid var(--background-colour);
+}
+
+.firmware-input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
+    font-family: "Libre Baskerville", serif;
+    border: 3px solid var(--text-color);
+    background-color: var(--background-accent);
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    transition: all 0.2s ease;
+}
+
+.firmware-input:focus {
+    outline: none;
+    box-shadow: 4px 4px 0 var(--text-color);
+    transform: translateX(-2px) translateY(-2px);
+}
 
 @media only screen and (max-width: 900px) {
     .pageWrapper {

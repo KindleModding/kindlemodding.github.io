@@ -49,35 +49,31 @@ function searchForSerial() {
         try {
             serialInfo = getSerialInfo(serialNumber);
         } catch {
-            searchStatus.style = "color: red;";
-            searchStatus.innerText = "ERROR: Your Kindle serial number is invalid";
+            searchStatus.style = "color: red; font-size: 1.2em;";
+            searchStatus.innerText = "ERROR: Serial Number Invalid!";
         }
     }
 
     if (serialInfo === -1) {
-        searchStatus.style = "color: red;";
-        searchStatus.innerText = "ERROR: Your Kindle serial number is too short";
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Too Short!";
     } else if (serialInfo === -2) {
-        searchStatus.style = "color: red;";
-        searchStatus.innerText = "ERROR: Your Kindle serial number is invalid";
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Invalid!";
     } else {
-        // Search for serial number
         for (const kindle of window.kindleModels) {
             if (kindle.serial_version < serialInfo.serial_version) {
-                continue; // Skip wrong version Kindle models
+                continue; 
             } else {
                 if (Object.keys(kindle.device_codes).includes(serialInfo.device_code)) {
-                    // Kindle found
-                    
-                    // Create header
-                    const header = document.createElement('h3');
+                    const header = document.createElement("h3");
                     header.innerText = "Kindle Found:";
                     searchResultDiv.appendChild(header);
 
                     const kindleInfoDisplay = [
                         ["Kindle Name", kindle.amazon_name],
                         ["Released", kindle.release_year.toString()],
-                        ["Kindle Nickname(s)", kindle.nicknames.join(', ')], // First element of kindle.nicknames should ALWAYS be the generational nickname
+                        ["Kindle Nickname(s)", kindle.nicknames.join(', ')],
                         ["Recommended Jailbreak", kindle.jailbreak]
                     ]
 
@@ -127,7 +123,7 @@ function searchForSerial() {
 
                     searchResultDiv.appendChild(mainTable);
 
-                    // Additional info
+                    /*
                     const secondaryHeader = document.createElement('h4');
                     secondaryHeader.innerText = "Additional Info";
 
@@ -136,6 +132,7 @@ function searchForSerial() {
 
                     searchStatus.style = "color: green;";
                     searchStatus.innerText = "Kindle found!"
+                    */
 
                     return;
                 }
@@ -143,8 +140,8 @@ function searchForSerial() {
         }
 
         // Made it to the end, model not found, contact Bluebotlabz
-        searchStatus.style = "color: red;";
-        searchStatus.innerText = "ERROR: Your Kindle serial number could not be found, please open a GitHub issue";
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Not Found! Please Open a GitHub Issue.";
     }
 }
 
