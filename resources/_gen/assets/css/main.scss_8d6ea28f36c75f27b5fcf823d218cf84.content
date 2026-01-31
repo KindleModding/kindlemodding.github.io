@@ -31,20 +31,20 @@ html {
   --background-accent: #252525;
   --background-second-accent: #333333;
   --code-background-colour: #252525;
-  --text-colour: #e8e8e8;
+  --text-colour: #FFF;
   --text-muted: #b0b0b0;
   --text-light: #888888;
-  --heading-colour: #e8e8e8;
+  --heading-colour: #FFF;
   --card-bottom-shadow-colour: rgba(0, 0, 0, 0.4);
-  --link-colour: #e8e8e8;
+  --link-colour: #FFF;
   --link-hover-colour: #b0b0b0;
   --note-colour: #252525;
   --warning-colour: #3d2525;
   --highlight-colour: #333333;
   --button-bg: #1a1a1a;
   --button-hover-bg: #333333;
-  --button-text: #e8e8e8;
-  --button-border: #e8e8e8;
+  --button-text: #FFF;
+  --button-border: #FFF;
   --border-colour: #333333;
   --dot-colour: rgba(60, 60, 60, 0.5);
 }
