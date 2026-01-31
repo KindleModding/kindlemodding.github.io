@@ -175,8 +175,15 @@ body.dark-theme .version-block {
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
   animation: slideInLeft 0.4s ease-out;
+}
+
+.navbar h1 {
+  margin: 10px 20px 12px 5px;
+  font-size: 18pt;
+  white-space: nowrap;
+  font-family: var(--font-heading) !important;
+  font-weight: 400 !important;
 }
 
 .navbar details {
@@ -188,72 +195,32 @@ body.dark-theme .version-block {
 
 .navbar details summary {
   padding: 0.4em 0.5em;
-  font-size: 0.9em;
   background: transparent;
   border: none;
 }
 
-.navbar details > div,
-.navbar details > ul {
+.navbar details > div {
   display: flex;
   flex-direction: column;
   padding-left: 1em;
   border-left: 2px solid var(--border-colour);
-  margin-left: 0.5em;
+  margin-left: 0.8em;
   margin-top: 0.25em;
   background: transparent;
 }
 
-.navbar details > div > a,
-.navbar details > summary > a {
+.navbar a {
   padding: 0.35em 0.5em;
-  font-size: 0.88em;
   font-weight: 400;
   color: var(--text-muted);
-  transition: color 0.25s ease, padding-left 0.2s ease;
-}
-
-.navbar details > div > a:hover,
-.navbar details > summary:hover,
-.navbar details > summary:hover > a {
-  color: var(--text-colour);
-  text-decoration: none;
-  padding-left: 0.75em;
-}
-
-.navbar details > div > a.active,
-.navbar details > summary > a:hover {
-  color: var(--heading-colour);
-  font-weight: 500;
-}
-
-.navbar > a, .navbar > details {
-  flex-shrink: 0;
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
-.navbar h1 {
-  margin: 10px 20px 12px 5px;
-  font-size: 18pt;
-  white-space: nowrap;
-  font-family: var(--font-heading) !important;
-  font-weight: 400 !important;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: var(--text-colour);
 }
 
 .navbar > a {
   padding: 0.5em;
-  transition: background-color 0.25s ease, color 0.25s ease, padding-left 0.2s ease;
   background-color: transparent;
-  font-size: 0.9em;
 }
 
-.navbar > a.active {
+.navbar a.active {
   background-color: var(--background-accent);
   color: var(--heading-colour);
 }
@@ -262,6 +229,22 @@ body.dark-theme .version-block {
   background-color: var(--background-accent);
   padding-left: 0.75em;
   text-decoration: none;
+}
+
+.navbar details > div > a:hover,
+.navbar details > summary:hover,
+.navbar details > summary:hover > a {
+  color: var(--text-colour);
+  text-decoration: none;
+  padding-left: 0.75em;
+  color: var(--heading-colour);
+  font-weight: 500;
+}
+
+.navbar > a, .navbar > details {
+  flex-shrink: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 @media only screen and (max-width: 900px) {

@@ -11,68 +11,10 @@
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
     animation: slideInLeft 0.4s ease-out;
 }
 
-.navbar details {
-    background: transparent;
-    border: none;
-    border-left: none;
-    box-shadow: none;
-}
-
-.navbar details summary {
-    padding: 0.4em 0.5em;
-    font-size: 0.9em;
-    background: transparent;
-    border: none;
-}
-
-.navbar details > div,
-.navbar details > ul {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1em;
-    border-left: 2px solid var(--border-colour);
-    margin-left: 0.5em;
-    margin-top: 0.25em;
-    background: transparent;
-}
-
-.navbar details > div > a,
-.navbar details > summary > a
-{
-    padding: 0.35em 0.5em;
-    font-size: 0.88em;
-    font-weight: 400;
-    color: var(--text-muted);
-    transition: color 0.25s ease, padding-left 0.2s ease;
-}
-
-.navbar details > div > a:hover,
-.navbar details > summary:hover,
-.navbar details > summary:hover > a
-{
-    color: var(--text-colour);
-    text-decoration: none;
-    padding-left: 0.75em;
-}
-
-.navbar details > div > a.active,
-.navbar details > summary > a:hover
-{
-    color: var(--heading-colour);
-    font-weight: 500;
-}
-
-.navbar > a, .navbar > details
-{
-    flex-shrink: 0;
-    min-width: 0;
-    overflow-wrap: anywhere;
-}
-
+// "KindleModding"
 .navbar h1 {
     margin: 10px 20px 12px 5px;
     font-size: 18pt;
@@ -81,19 +23,50 @@
     font-weight: 400 !important;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: var(--text-colour);
+// Sections in the navbar
+.navbar details
+{
+    background: transparent;
+    border: none;
+    border-left: none;
+    box-shadow: none;
 }
 
+// The text in the section dropdown
+.navbar details summary
+{
+    padding: 0.4em 0.5em;
+    background: transparent;
+    border: none;
+}
+
+// Section contents
+.navbar details > div
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    border-left: 2px solid var(--border-colour); // The section line
+    margin-left: 0.8em;
+    margin-top: 0.25em;
+    background: transparent;
+}
+
+// Anchor tags in the navbar
+.navbar a
+{
+    padding: 0.35em 0.5em;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+// Anchor tags at the top level of the navbar
 .navbar > a {
     padding: 0.5em;
-    transition: background-color 0.25s ease, color 0.25s ease, padding-left 0.2s ease;
     background-color: transparent;
-    font-size: 0.9em;
 }
 
-.navbar > a.active {
+.navbar a.active {
     background-color: var(--background-accent);
     color: var(--heading-colour);
 }
@@ -103,6 +76,24 @@
     background-color: var(--background-accent);
     padding-left: 0.75em;
     text-decoration: none;
+}
+
+.navbar details > div > a:hover,
+.navbar details > summary:hover,
+.navbar details > summary:hover > a
+{
+    color: var(--text-colour);
+    text-decoration: none;
+    padding-left: 0.75em;
+    color: var(--heading-colour);
+    font-weight: 500;
+}
+
+.navbar > a, .navbar > details
+{
+    flex-shrink: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 
