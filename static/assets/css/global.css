@@ -581,8 +581,14 @@ details summary::before {
     text-align: center;
 }
 
+details > summary:hover::before
+{
+    color: var(--text-color);
+}
+
 details[open] > summary::before {
     transform: rotate(90deg);
+    color: var(--text-color);
 }
 
 details summary:hover {
@@ -646,6 +652,7 @@ aside details > ul {
 }
 
 .navbar details > div > a,
+.navbar details > summary > a,
 .sidebar details > div > a,
 nav details > div > a,
 aside details > div > a {
@@ -657,6 +664,8 @@ aside details > div > a {
 }
 
 .navbar details > div > a:hover,
+.navbar details > summary:hover,
+.navbar details > summary:hover > a,
 .sidebar details > div > a:hover,
 nav details > div > a:hover,
 aside details > div > a:hover {
@@ -666,6 +675,7 @@ aside details > div > a:hover {
 }
 
 .navbar details > div > a.active,
+.navbar details > summary > a:hover,
 .sidebar details > div > a.active,
 nav details > div > a.active,
 aside details > div > a.active {
