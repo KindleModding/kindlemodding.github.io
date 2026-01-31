@@ -152,7 +152,7 @@ code {
     font-family: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
     background-color: var(--code-background-colour) !important;
     padding: 0.25em 0.6em;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 0.88em;
     font-weight: 400;
     letter-spacing: -0.01em;
@@ -165,7 +165,7 @@ pre {
     background: var(--code-background-colour);
     color: var(--text-colour);
     overflow-x: auto;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid var(--border-colour);
     margin: 1.5em 0;
     transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -490,7 +490,7 @@ input, textarea, select {
     background-color: var(--background-colour);
     color: var(--text-colour);
     border: 2px solid var(--border-colour);
-    border-radius: 8px;
+    border-radius: 4px;
     transition: 
         border-color 0.25s ease, 
         box-shadow 0.25s ease,
@@ -694,7 +694,7 @@ textarea {
     text-transform: none;
     letter-spacing: 0;
     font-weight: 400;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: 
         background-color 0.25s ease,
         border-color 0.25s ease,
@@ -784,7 +784,7 @@ textarea {
     background-color: var(--background-colour);
     color: var(--text-colour);
     margin-bottom: 2rem;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: all 0.2s ease;
 }
 
