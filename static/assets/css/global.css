@@ -614,20 +614,14 @@ details details {
     margin-left: 0.5em;
 }
 
-.navbar details,
-.sidebar details,
-nav details,
-aside details {
+.navbar details {
     background: transparent;
     border: none;
     border-left: none;
     box-shadow: none;
 }
 
-.navbar details summary,
-.sidebar details summary,
-nav details summary,
-aside details summary {
+.navbar details summary {
     padding: 0.4em 0.5em;
     font-size: 0.9em;
     background: transparent;
@@ -635,13 +629,7 @@ aside details summary {
 }
 
 .navbar details > div,
-.sidebar details > div,
-nav details > div,
-aside details > div,
-.navbar details > ul,
-.sidebar details > ul,
-nav details > ul,
-aside details > ul {
+.navbar details > ul {
     display: flex;
     flex-direction: column;
     padding-left: 1em;
@@ -652,10 +640,8 @@ aside details > ul {
 }
 
 .navbar details > div > a,
-.navbar details > summary > a,
-.sidebar details > div > a,
-nav details > div > a,
-aside details > div > a {
+.navbar details > summary > a
+{
     padding: 0.35em 0.5em;
     font-size: 0.88em;
     font-weight: 400;
@@ -665,20 +651,16 @@ aside details > div > a {
 
 .navbar details > div > a:hover,
 .navbar details > summary:hover,
-.navbar details > summary:hover > a,
-.sidebar details > div > a:hover,
-nav details > div > a:hover,
-aside details > div > a:hover {
+.navbar details > summary:hover > a
+{
     color: var(--text-colour);
     text-decoration: none;
     padding-left: 0.75em;
 }
 
 .navbar details > div > a.active,
-.navbar details > summary > a:hover,
-.sidebar details > div > a.active,
-nav details > div > a.active,
-aside details > div > a.active {
+.navbar details > summary > a:hover
+{
     color: var(--heading-colour);
     font-weight: 500;
 }
@@ -786,7 +768,7 @@ textarea {
     box-sizing: border-box;
 }
 
-.navbar, .sidebar, aside {
+.navbar {
     overflow-x: hidden;
     overflow-y: auto;
     padding: 0.75em;
@@ -803,15 +785,14 @@ textarea {
     animation: slideInLeft 0.4s ease-out;
 }
 
-.navbar > a, .navbar > details,
-.sidebar > a, .sidebar > details,
-aside > a, aside > details {
+.navbar > a, .navbar > details
+{
     flex-shrink: 0;
     min-width: 0;
     overflow-wrap: anywhere;
 }
 
-.navbar h1, .sidebar h1, aside h1 {
+.navbar h1 {
     margin: 10px 20px 12px 5px;
     font-size: 18pt;
     white-space: nowrap;
@@ -819,26 +800,25 @@ aside > a, aside > details {
     font-weight: 400 !important;
 }
 
-.navbar a, .sidebar a, aside a {
+.navbar a {
     text-decoration: none;
     color: var(--text-colour);
 }
 
-.navbar > a, .sidebar > a, aside > a {
+.navbar > a {
     padding: 0.5em;
     transition: background-color 0.25s ease, color 0.25s ease, padding-left 0.2s ease;
     background-color: transparent;
     font-size: 0.9em;
 }
 
-.navbar > a.active, .sidebar > a.active, aside > a.active {
+.navbar > a.active {
     background-color: var(--background-accent);
     color: var(--heading-colour);
 }
 
-.navbar > a:not(.active):hover,
-.sidebar > a:not(.active):hover,
-aside > a:not(.active):hover {
+.navbar > a:not(.active):hover
+{
     background-color: var(--background-accent);
     padding-left: 0.75em;
 }
@@ -1331,7 +1311,7 @@ aside > a:not(.active):hover {
         height: unset;
     }
 
-    .navbar, .sidebar, aside {
+    .navbar {
         width: 100%;
         min-width: unset;
         box-sizing: border-box;
@@ -1363,7 +1343,7 @@ aside > a:not(.active):hover {
         left: 1rem;
     }
     
-    .navbar, .sidebar, aside {
+    .navbar {
         min-width: unset;
     }
 
