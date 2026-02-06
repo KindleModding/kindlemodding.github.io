@@ -14,6 +14,38 @@
     animation: slideInLeft 0.4s ease-out;
 }
 
+.navbar details summary::-webkit-details-marker {
+    display: none;
+}
+
+.navbar details summary::before {
+    content: "›";
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: transform 0.25s ease;
+    color: var(--text-muted);
+    width: 1em;
+    text-align: center;
+}
+
+.navbar details > summary:hover::before
+{
+    color: var(--text-color);
+}
+
+.navbar details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.navbar details[open] summary {
+    color: var(--heading-colour);
+}
+
+.navbar details details {
+    margin-left: 0.5em;
+}
+
 // "KindleModding"
 .navbar h1 {
     margin: 10px 20px 12px 5px;
@@ -26,18 +58,30 @@
 // Sections in the navbar
 .navbar details
 {
-    background: transparent;
     border: none;
     border-left: none;
     box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 // The text in the section dropdown
 .navbar details summary
 {
-    padding: 0.4em 0.5em;
+    //padding: 0.4em 0.5em;
     background: transparent;
     border: none;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.95em;
+    color: var(--text-muted);
+    transition: color 0.25s ease, background-color 0.25s ease;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
 
 // Section contents
@@ -52,37 +96,43 @@
     background: transparent;
 }
 
-// Anchor tags in the navbar
-.navbar a
-{
-    padding: 0.35em 0.5em;
+// Anchor tags at the top level of the navbar
+.navbar a {
+    background-color: transparent;
     font-weight: 400;
     color: var(--text-muted);
 }
 
-// Anchor tags at the top level of the navbar
-.navbar > a {
+.navbar > a,
+.navbar details > summary,
+.navbar details > div > a
+{
     padding: 0.5em;
-    background-color: transparent;
-}
-
-.navbar a.active {
-    background-color: var(--background-accent);
-    color: var(--heading-colour);
 }
 
 .navbar > a:not(.active):hover
 {
-    background-color: var(--background-accent);
     padding-left: 0.75em;
     text-decoration: none;
+}
+
+.navbar details summary:hover,
+.navbar a:hover {
+    color: var(--link-hover-colour);
+    background-color: var(--background-accent);
+}
+
+.navbar .active,
+.navbar .active a {
+    background-color: var(--background-accent);
+    color: var(--heading-colour) !important;
+    font-weight: 500;
 }
 
 .navbar details > div > a:hover,
 .navbar details > summary:hover,
 .navbar details > summary:hover > a
 {
-    color: var(--text-colour);
     text-decoration: none;
     padding-left: 0.75em;
     color: var(--heading-colour);
