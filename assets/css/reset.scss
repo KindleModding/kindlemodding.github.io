@@ -59,7 +59,7 @@ h1 em, h2 em, h3 em, h4 em, h5 em, h6 em,
 a {
     color: var(--link-colour);
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: normal;
     font-size: inherit;
     transition: color 0.25s ease, transform 0.2s ease;
 }
@@ -67,6 +67,7 @@ a {
 a:hover {
     color: var(--link-hover-colour);
     text-decoration: underline;
+    font-weight: bold;
 }
 
 ol, ul {
