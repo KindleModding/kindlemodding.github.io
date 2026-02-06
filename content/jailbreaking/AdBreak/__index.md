@@ -4,6 +4,7 @@ parent: Jailbreaking Your Kindle
 title: AdBreak
 weight: 3
 slug: index
+kofi: https://ko-fi.com/penguins186
 ---
 
 # AdBreak
