@@ -21,7 +21,6 @@
 .navbar details summary::before {
     content: "›";
     display: inline-block;
-    font-size: 1.1em;
     font-weight: 600;
     transition: transform 0.25s ease;
     color: var(--text-muted);
