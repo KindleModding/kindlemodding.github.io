@@ -1,5 +1,9 @@
 <div class="footer" role="contentinfo">
      <span></span>
      <a style="margin: 0.5em;" href="https://github.com/KindleModding/kindlemodding.github.io">GitHub</a>
-     <a style="margin: 0.5em;" href="https://ko-fi.com/hackerdude">Donate!</a>
+     {{- with .Params.kofi -}}
+          <a style="margin: 0.5em;" href="{{.}}">Donate!</a>
+     {{- else -}}
+          <a style="margin: 0.5em;" href="https://ko-fi.com/hackerdude">Donate!</a>
+     {{- end -}}
 </div>
