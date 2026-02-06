@@ -327,15 +327,19 @@ blockquote cite::before {
     animation: fadeInScale 0.4s ease-out;
 }
 
-table {
+.tableWrapper {
     max-width: 100%;
     width: 100%;
     overflow-x: auto;
+    animation: fadeIn 0.4s ease-out;
+}
+
+table
+{
+    width: 100%;
     display: table;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 1.5em 0;
-    animation: fadeIn 0.4s ease-out;
 }
 
 table + table {
