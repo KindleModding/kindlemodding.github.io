@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
     letter-spacing: -0.02em;
     animation: fadeIn 0.5s ease-out;
+    overflow-wrap: anywhere;
 }
 
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 *,

@@ -14,7 +14,7 @@ kindle.messaging.sendMessage(id, eventType, eventData)
 
 Sends a message through the Kindle's internal LIPC messaging system, `message` which is an object
 
-| Name        | Example Value                                                                                                         | Type   | Dscription                                              |
+| Name        | Example Value                                                                                                         | Type   | Description                                              |
 |-------------|-----------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------|
 | id          | com.lab126.chromebar                                                                                                  | String | The ID used to determine the app to send the message to |
 | eventType   | configureChrome                                                                                                       | String | The event to send                                       |
@@ -27,7 +27,7 @@ kindle.messaging.sendStringMessage(id, eventType, eventData)
 
 Sends a message through the Kindle's internal LIPC messaging system, `message` is a `String`
 
-| Name      | Example Value  | Type   | Dscription                                              |
+| Name      | Example Value  | Type   | Description                                              |
 |-----------|----------------|--------|---------------------------------------------------------|
 | id        | com.lab126.mfa | String | The ID used to determine the app to send the message to |
 | eventType | switchViewMode | String | The event to send                                       |
