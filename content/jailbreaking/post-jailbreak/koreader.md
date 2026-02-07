@@ -24,14 +24,14 @@ _KOReader is a document viewer for E Ink devices. Supported formats include EPUB
             <div class="stepContent">
                 <p>Before proceeding, check your Kindle's firmware version by going to:</p>
                 <p><strong>Home → Menu → Settings → Menu → Device Info</strong></p>
-                <p class="highlight">Different firmware versions require different KOReader packages</p>
+                <p class="highlight">Different firmware versions require different KOReader packages.</p>
             </div>
         </div>
         
 <div class="step">
     <h2>Download KOReader</h2>
         <div class="stepContent">
-                <p>Download KOReader from the <a href="https://github.com/koreader/koreader/releases" target="_blank">official release page</a></p>
+                <p>Download KOReader from the <a href="https://github.com/koreader/koreader/releases" target="_blank">official release page.</a></p>
                 <p>Choose the correct package for your Kindle:</p>
                 <div class="version-block">
                     <p class="version-label">KOReader Packages:</p>
@@ -51,8 +51,8 @@ _KOReader is a document viewer for E Ink devices. Supported formats include EPUB
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.16.3:</p>
-                        <a href="https://scriptlets.notmarek.com/" target="_blank">Marek's KOReader Installer (nightly)</a> Download and copy this scriptlet into the <code>/documents</code> folder on your Kindle, run it from your Library and it will automatically download and install KOReader
-                    <p class="note">This alternative method might not work for everyone</p>
+                        <a href="https://scriptlets.notmarek.com/" target="_blank">Marek's KOReader Installer (nightly)</a> Download and copy this scriptlet into the <code>/documents</code> folder on your Kindle, run it from your Library and it will automatically download and install KOReader.
+                    <p class="note">This alternative method might not work for everyone.</p>
                 </div>
             </div>
         </div>
@@ -60,27 +60,27 @@ _KOReader is a document viewer for E Ink devices. Supported formats include EPUB
 <div class="step">
             <h2>Connect your Kindle to your computer</h2>
             <div class="stepContent">
-                <p>Plug your Kindle into your PC via USB cable</p>
-                <p>Wait for your computer to recognize the device</p>
-                <p class="highlight">Make sure your Kindle appears as a storage device on your computer</p>
+                <p>Plug your Kindle into your PC via USB cable.</p>
+                <p>Wait for your computer to recognize the device.</p>
+                <p class="highlight">Make sure your Kindle appears as a storage device on your computer.</p>
             </div>
         </div>
 
 <div class="step">
             <h2>Install KOReader</h2>
             <div class="stepContent">
-                <p>Unzip the downloaded file</p>
-                <p>Copy the <code>extensions</code> and <code>koreader</code> folders to the root directory of your Kindle</p>
-                <p class="highlight">When prompted, confirm to merge or replace existing files</p>
+                <p>Unzip the downloaded file.</p>
+                <p>Copy the <code>extensions</code> and <code>koreader</code> folders to the root directory of your Kindle.</p>
+                <p class="highlight">When prompted, confirm to merge or replace existing files.</p>
             </div>
         </div>
 
 <div class="step">
             <h2>Disconnect and Launch</h2>
             <div class="stepContent">
-                <p>Safely eject and unplug your Kindle</p>
-                <p>Open KUAL (Kindle Unified Application Launcher)</p>
-                <p>Search for the KOReader menu entry and click on it</p>
+                <p>Safely eject and unplug your Kindle.</p>
+                <p>Open KUAL (Kindle Unified Application Launcher).</p>
+                <p>Search for the KOReader menu entry and click on it.</p>
                 <div class="version-block">
                 <p class="version-label">KOReader Launch Options</p>
                     <p>When launching KOReader, you may see three options:</p>
@@ -98,12 +98,12 @@ _KOReader is a document viewer for E Ink devices. Supported formats include EPUB
             <h2>Done</h2>
             <div class="stepContent">
                 <p>KOReader is now installed on your Kindle!</p>
-                <p>We recommend reading the <a href="https://koreader.rocks/user_guide/" target="_blank">extensive but very helpful guide for KOReader</a></p>
+                <p>We recommend reading the <a href="https://koreader.rocks/user_guide/" target="_blank">extensive but very helpful guide for KOReader.</a></p>
                 <p class="note">
-                    KOReader currently does not support USBMS mode (USB transfer) and will only charge the device, if you want to transfer files you must exit KOReader to do so 
+                    KOReader currently does not support USBMS mode (USB transfer) and will only charge the device. If you want to transfer files you must exit KOReader to do so.
                 </p>
                 <p class="warning">
-                    If KOReader appears in KUAL but doesn't work when clicked, delete both <code>koreader</code> folders, re-download koreader and make sure you're downloading the right package for your Kindle</p>
+                    If KOReader appears in KUAL but doesn't work when clicked, delete both <code>koreader</code> folders, re-download koreader, and make sure you're downloading the right package for your Kindle.</p>
             </div>
         </div>
     </div>
