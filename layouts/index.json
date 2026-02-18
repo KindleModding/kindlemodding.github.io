@@ -1,0 +1,5 @@
+{{- $.Store.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- $.Store.Add "index" (dict "title" .Title "permalink" .Permalink "summary" .Summary "content" .Plain) -}}
+{{- end -}}
+{{- $.Store.Get "index" | jsonify -}}
