@@ -9,7 +9,7 @@ Functions specific to the titlebar and dialog interfaces.
 
 Has the following parameters:
 
-| Name                    | Value | Dscription                                                                                                                                                         |
+| Name                    | Value | Description                                                                                                                                                         |
 |-------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | isDecanterChromeEnabled | true  | A `boolean` describing whether or not "`decanter chrome`" is enabled. Seemingly related to firmware version as new firmwares have whatever "`decanter chrome`" is. |
 
@@ -40,7 +40,7 @@ kindle.chrome.createDialog(uri, width, height, modal)
 ~~~
 Creates a dialog visible on the Kindle. Exact usage is currently unknown.
 
-| Name   | Type    | Dscription                                                             |
+| Name   | Type    | Description                                                             |
 |--------|---------|------------------------------------------------------------------------|
 | uri    | String  | The URI to the dialog to display, unknown if it can be to a local file |
 | width  | Integer | The width of the dialog, in pixels                                     |
@@ -54,7 +54,7 @@ kindle.chrome.setSpinnerState(state, timeout, delay)
 ~~~
 Used to indicate progress via a spinner in the title bar.
 
-| Name    | Type    | Dscription                                                                                            |
+| Name    | Type    | Description                                                                                            |
 |---------|---------|-------------------------------------------------------------------------------------------------------|
 | state   | String  | Either `start` or `stop` to start or stop displaying the spinner respectively.                        |
 | timeout | Integer | The maximum amount of time to show the spinner, units unknown, possible milliseconds? `todo: confirm` |
