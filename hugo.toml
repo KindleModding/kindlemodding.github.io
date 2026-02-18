@@ -5,6 +5,9 @@ disableKinds = ['taxonomy'] # We don't use this lol
 uglyURLs = true
 disablePathToLower = true
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
