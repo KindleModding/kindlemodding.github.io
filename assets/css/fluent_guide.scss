@@ -51,7 +51,7 @@
     border: 4px solid rgb(255, 255, 255, 0.4);
 }
 
-body.light-theme .step {
+.light-theme .step {
     border: 4px solid rgb(0, 0, 0) !important;
 }
 
@@ -92,7 +92,7 @@ body.light-theme .step {
     margin-bottom: .5em;
 }
 
-body.light-theme .version-block {
+.light-theme .version-block {
     background-color: rgba(0, 0, 0, 0.035);
     border-radius: 5px;
     padding: 12px;
@@ -100,7 +100,7 @@ body.light-theme .version-block {
     width: 100%;
 }
 
-body.dark-theme .version-block {
+.dark-theme .version-block {
     background-color: rgba(255, 255, 255, 0.035);
     border-radius: 5px;
     padding: 12px;

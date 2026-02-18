@@ -11,7 +11,6 @@
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    animation: slideInLeft 0.4s ease-out;
 }
 
 .navbar details summary::-webkit-details-marker {
@@ -52,6 +51,7 @@
     white-space: nowrap;
     font-family: var(--font-heading) !important;
     font-weight: 400 !important;
+    animation: none;
 }
 
 // Sections in the navbar
@@ -155,7 +155,7 @@
         box-sizing: border-box;
         border-right: none;
         border-bottom: 2px solid var(--border-colour);
-        animation: fadeIn 0.4s ease-out;
+
     }
 }
 
