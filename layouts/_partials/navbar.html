@@ -3,6 +3,11 @@
         <h1 style="color: var(--text-colour) !important;"><a href="/" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
     </div>
 
+    <div class="search-container" >
+        <input type="text" id="search-input" placeholder="Search..." style="width: 100%; padding: 0.5em; border-radius: 4px; border: 1px solid var(--background-second-accent); background-color: var(--background-accent); color: var(--text-colour); box-sizing: border-box;">
+        <div id="search-results"></div>
+    </div>
+
 {{- define "nav_item" -}}
     {{- if .page.IsSection -}}
         <details {{ if strings.Contains .current.Path .page.Path }}open{{ end }}>
@@ -36,6 +41,8 @@
             {{ template "nav_item" $ctx }}
         {{- end -}}
     {{- end -}}
+
+
 
     <details>
         <summary>Settings</summary>
