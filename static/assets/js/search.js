@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let searchIndex = [];
   const searchInput = document.getElementById("search-input");
   const searchResults = document.getElementById("search-results");
+  let results = []
 
   if (!searchInput || !searchResults) return;
 
@@ -11,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
       searchIndex = data;
     })
     .catch((error) => console.error("Error fetching search index:", error));
-
 
   searchInput.addEventListener("input", handleSearchInteraction);
 
@@ -23,41 +23,49 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const results = searchIndex.filter((item) => {
+    results = searchIndex.filter((item) => {
       return (
-        (item.t && item.t.toLowerCase().includes(query)) ||
-        (item.c && item.c.toLowerCase().includes(query))
+        item.t.toLowerCase().includes(query) ||
+        item.c.toLowerCase().includes(query)
       );
     });
 
-    displayResults(results);
+    displayResults();
   }
 
-  document.addEventListener("click", (e) => {
+  
+  document.addEventListener("mousedown", (e) => {
     if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
       searchResults.style.display = "none";
     } else {
       // If input is not empty search again
-      handleSearchInteraction(e);
+      displayResults();
     }
   });
 
-  function displayResults(results) {
+  searchInput.addEventListener("focusin", (e) => {
+    displayResults();
+  });
+
+  searchInput.addEventListener("focusout", (e) => {
+    searchResults.style.display = "none";
+  });
+
+
+  function displayResults() {
     if (results.length === 0) {
-      searchResults.innerHTML =
-        '<div style="padding: 0.5em; color: var(--text-colour);">No results found</div>';
+      searchResults.innerHTML = `<div style="padding: 0.5em; color: var(--text-colour);">No results found</div>`;
     } else {
       const ul = document.createElement("ul");
-      const query = searchInput.value.trim();
-      results.slice(0, 10).forEach((result) => {
+      results.forEach((result) => {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        a.href = result.a + "#:~:text=" + encodeURIComponent(query);
+        a.href = result.a;
         a.textContent = result.t;
         li.appendChild(a);
         ul.appendChild(li);
       });
-      searchResults.innerHTML = "";
+      searchResults.innerHTML = ``;
       searchResults.appendChild(ul);
     }
     searchResults.style.display = "block";
