@@ -48,10 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
         '<div style="padding: 0.5em; color: var(--text-colour);">No results found</div>';
     } else {
       const ul = document.createElement("ul");
+      const query = searchInput.value.trim();
       results.slice(0, 10).forEach((result) => {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        a.href = result.a;
+        a.href = result.a + "#:~:text=" + encodeURIComponent(query);
         a.textContent = result.t;
         li.appendChild(a);
         ul.appendChild(li);
