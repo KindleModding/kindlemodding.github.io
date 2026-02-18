@@ -452,7 +452,7 @@ textarea {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    animation: fadeIn 0.5s ease-out;
+
 }
 
 .mainContent {
@@ -473,7 +473,7 @@ textarea {
     padding: 1.5em;
     border-top: 2px solid var(--border-colour);
     transition: background-color 0.3s ease, border-color 0.3s ease;
-    animation: fadeIn 0.4s ease-out;
+
 }
 
 .slideshow, .carousel, .swiper, [class*="slide"]:not(.slide-in-left) {
