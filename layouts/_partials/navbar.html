@@ -3,6 +3,11 @@
         <h1 style="color: var(--text-colour) !important;"><a href="/" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
     </div>
 
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <div id="search-results"></div>
+    </div>
+
 {{- define "nav_item" -}}
     {{- if .page.IsSection -}}
         <details {{ if strings.Contains .current.Path .page.Path }}open{{ end }}>
@@ -46,35 +51,13 @@
     </details>
 
     <script>
-        function refreshTheme()
-        {
-            document.body.classList.remove("dark-theme");
-            document.body.classList.remove("light-theme");
-
-            switch (localStorage.getItem("theme"))
-            {
-                case "light":
-                    document.body.classList.add("light-theme");
-                    break;
-                case "dark":
-                    document.body.classList.add("dark-theme");
-                    break;
-            }
-        }
-
-        themes = ["light", "dark"]
-        if (!themes.includes(localStorage.getItem("theme")))
-        {
-            localStorage.setItem("theme", "dark");
-        }
-
         document.getElementById("theme-selector").value = localStorage.getItem("theme");
         document.getElementById("theme-selector").addEventListener('input', (event) => {
             localStorage.setItem("theme", document.getElementById("theme-selector").value);
             if (document.startViewTransition)
             {
                 document.startViewTransition(() => {
-                    refreshTheme();;
+                    refreshTheme();
                 });
             }
             else
@@ -82,7 +65,6 @@
                 refreshTheme();
             }
         });
-        refreshTheme();
     </script>
 
     <ins class="adsbygoogle"

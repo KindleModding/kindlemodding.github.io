@@ -19,17 +19,18 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Download MRPI</h2>
             <div class="stepContent">
-                <a href="https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz" class="button">MRPI</a>
+                <button onclick="document.location=`https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz`;">MRPI</button>
                 <p>This version of MRPI is provided by <a href="https://fw.notmarek.com/khf/">Marek</a></p>
             </div>
         </div>
         <div class="step">
             <h2>Download the correct KUAL version</h2>
             <div class="stepContent">
-                <a href="./Update_KUALBooklet_HDRepack.bin" class="button">Kual (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</a>
+                <button onclick="document.location=`./Update_KUALBooklet_HDRepack.bin`;">KUAL (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</button>
                 <p>The above version of KUAL is provided by HackerDude</p>
                 <br/>
-                <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz" class="button">KUAL - For legacy devices</a>
+                <button onclick="document.location=`https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz`;">KUAL - For legacy devices</button>
+                <button onclick="document.location=`https://github.com/KindleTweaks/PEKI`;" style="margin-top: 10px;">PEKI - Follow this guide instead if Coplate is broken</button>
             </div>
         </div>
         <div class="step">
@@ -81,9 +82,10 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <button class="btn btn-green" id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../disable-ota", "Disabling OTA Updates");</script>
+<script>new Guide("guide", "../disable-ota.html", "Disabling OTA Updates");</script>
 
 ## Troubleshooting
+
 - The installation of `Update_KUALBooklet_hotfix_*_install.bin` may fail if there is not enough free space on your Kindle. If you are using the "fill storage" method to block updates, make sure to free up some space before proceeding with these steps.
 - Verify the location of all the folders and files on the Kindle
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`

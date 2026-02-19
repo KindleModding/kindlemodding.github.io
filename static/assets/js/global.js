@@ -18,3 +18,46 @@ const registerServiceWorker = async () => {
 };
 
 registerServiceWorker();
+
+//Modal Functions
+function showDialog(id) {
+    const modal = document.getElementById(id);
+    if (!modal) {
+        console.error(`Modal with ID "${id}" not found!`);
+        return;
+    }
+
+    const overlay = modal.closest(".modal-overlay");
+    if (overlay) {
+        overlay.classList.add("active");
+        document.body.style.overflow = "hidden";
+
+        const escHandler = (e) => {
+            if (e.key === "Escape") {
+                closeDialog(id);
+                window.removeEventListener("keydown", escHandler);
+            }
+        };
+        window.addEventListener("keydown", escHandler);
+    }
+}
+
+function closeDialog(id) {
+    const modal = document.getElementById(id);
+    if (!modal) return;
+
+    const overlay = modal.closest(".modal-overlay");
+    if (overlay) {
+        overlay.classList.remove("active");
+        document.body.style.overflow = ""; 
+    }
+}
+
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("modal-overlay")) {
+        const activeModal = e.target.querySelector(".modal-container");
+        if (activeModal) {
+            closeDialog(activeModal.id);
+        }
+    }
+});

@@ -4,6 +4,7 @@ parent: Jailbreaking Your Kindle
 title: AdBreak
 weight: 3
 slug: index
+kofi: https://ko-fi.com/penguins186
 ---
 
 # AdBreak
@@ -150,4 +151,4 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 - [Chris Evans (@scarybeasts)](https://x.com/scarybeasts) for a lot of the exploit code
 - [Hackerdude](https://hackerdude.tech) for the modified JB script.
 - Ceoz: Enable-ad findings
-- Penguins184: This guide
+- [Penguins184](https://ko-fi.com/penguins186): This guide

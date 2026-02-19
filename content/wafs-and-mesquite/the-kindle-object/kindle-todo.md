@@ -29,7 +29,7 @@ The `contentId` is in the format `action.type`, so in this case, it would be `RE
 
 ### Attributes
 
-| Name     | Value    | Dscription                                                                                             |
+| Name     | Value    | Description                                                                                             |
 |----------|----------|--------------------------------------------------------------------------------------------------------|
 | priority | 1        | An integer which dictates the priority of a TODO item                                                  |
 | type     | WISHLIST | What type of action to perform                                                                         |

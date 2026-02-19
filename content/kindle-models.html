@@ -5,49 +5,53 @@ weight: 0
 ---
 
 <h1>Kindle Models</h1>
-<p>Identify your Kindle model and the jailbreak method best suited for it</p>
 
 <blockquote class="info">
-You can find your serial number by going to `Settings` > `Device Options` > `Device Info`
-</blockquote>
-Which will show a window in which you will be able to see your Kindle's serial number
-
-<blockquote class="info">
-You only need to enter the first 8 characters of your serial number, not all 16 characters
+Identify your Kindle model and the jailbreak method best suited for it.
 </blockquote>
 
-<style>
-    #searchResult
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+<button onclick="showDialog(`find-jb`)">Find Your Jailbreak</button>
 
-    input[type=text]
-    {
-        width: 90%;
-        height: 100%;
-        padding: 0.5em;
-        font-size: 16px;
-        border: 3px solid #EEE;
-        text-align: center;
-    }
-</style>
+<div class="modal-overlay">
+        <div id="find-jb" class="modal-container">
+            <div class="modal-header">
+                <h2>Find My Jailbreak</h2>
+            </div>
+            <div class="modal-body">
+                <p style="font-size: 1.2em; margin-top: 0;">Please enter the first 8 characters of your Kindle's serial number below: </p>
+                <input type="text" id="serialNumber" maxlength="8" placeholder="Enter Serial Number" oninput="searchForSerial()" autocomplete="off">
 
+                <p id="searchStatus"></p>
+                <div id="searchResult">
+                    
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button onclick="searchForSerial()" style="margin-right: 10px;">Search</button>
+                <button onclick="closeDialog(`find-jb`)">Close</button>
+            </div>
+        </div>
+    </div>
+
+<!--
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <h3>Enter your Kindle's serial number here</h3>
     <p id="searchStatus"></p>
     <input type="text" id="serialNumber"  maxlength="20" spellcheck="false" placeholder="Enter Serial Number..." title="Enter the Kindle serial number without spaces" oninput="searchForSerial()">
-    <button class="btn" style="margin-top: 0.5em;" onclick="searchForSerial()">Find Model</button>
+    <button class="button" style="margin-top: 0.5em;" onclick="searchForSerial()">Find Model</button>
 </div>
 
 <div id="searchResult">
 </div>
+-->
 
 <div>
 <h2>All Kindle Models</h2>
+
+<blockquote class="caution">
+    Firmwares 5.18.6 and onwards have no current Kindle Jailbreaks!
+</blockquote>
+
 <div id="fullModelTable" style="overflow: auto;"></div>
 </div>
 
