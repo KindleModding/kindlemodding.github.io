@@ -37,20 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("mousedown", (e) => {
     if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
       searchResults.style.display = "none";
-    } else {
-      // If input is not empty search again
-      displayResults();
     }
   });
 
   searchInput.addEventListener("focusin", (e) => {
     displayResults();
   });
-
-  searchInput.addEventListener("focusout", (e) => {
-    searchResults.style.display = "none";
-  });
-
 
   function displayResults() {
     if (results.length === 0) {
