@@ -41,6 +41,11 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+      - name: Install Dart Sass
+        run: |
+          wget https://github.com/sass/dart-sass/releases/download/1.97.3/dart-sass-1.97.3-linux-x64.tar.gz
+          tar -xzf dart-sass-1.97.3-linux-x64.tar.gz
+          echo "$PWD/dart-sass" >> $GITHUB_PATH
       - uses: actions/cache@v4
         id: cache
         with:
@@ -91,3 +96,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
