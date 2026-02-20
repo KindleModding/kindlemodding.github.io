@@ -273,6 +273,7 @@ blockquote cite::before {
 .warning {
     background: rgba(234, 179, 8, 0.12);
     border-left-color: #eab308;
+    animation: warning 2s ease 0s infinite normal forwards;
 }
 
 .dark-theme .warning,
@@ -306,6 +307,7 @@ blockquote cite::before {
 .caution {
     background: rgba(239, 68, 68, 0.1);
     border-left-color: #ef4444;
+    animation: warning 2s ease 0s infinite normal forwards;
 }
 
 .dark-theme .caution,
@@ -889,5 +891,20 @@ textarea {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+    }
+}
+
+
+@keyframes warning {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
