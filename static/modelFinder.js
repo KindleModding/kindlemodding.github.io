@@ -172,7 +172,7 @@ function generateTable() {
         const kindletoolVariants = document.createElement("td");
 
         amazonName.innerText = kindle.amazon_name;
-        kindleNickname.innerText = kindle.nicknames.join("", "");
+        kindleNickname.innerText = kindle.nicknames.join(", ");
         latestFirmware.innerText = kindle.last_firmware;
         recommendedJailbreak.innerHTML = kindle.jailbreak;
         kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.device_codes)}</code>`;
