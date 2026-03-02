@@ -53,7 +53,7 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
         <div class="step">
             <h2>Extract & Copy</h2>
             <div class="stepContent">
-                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy all of the files within into your Kindle's root.</p>
+                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy all of the files within the innermost folder into your Kindle's root.</p>
                 <img src="./copy_assets.png" /> 
             </div>
         </div>
