@@ -19,7 +19,7 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
 
 - You will need a PC & Cable
 - For firmware versions 5.16.4 - 5.18.6, supported models are PW5, PW5SE, KT5, KOA3 and KOA3W32C
-- If you have a blacklisted PW6 or KT6, it may work for 5.16.4-5.17.1.0.4
+- If you have a blacklisted PW6 or KT6, it may work for 5.16.4 - 5.17.1.0.4
 
 <blockquote class="note">
     This works on blacklisted Kindles!
