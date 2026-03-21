@@ -126,7 +126,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 ### Common Issues
 
 - Can't find the system folder:
-    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
+    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://web.archive.org/web/20250928174006/https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Bang!" shows but the jailbreak doesn't run:
     - Check the .assets folder on the Kindle. "jb.sh" and "patchedUks.sqsh" must be in there.
 
