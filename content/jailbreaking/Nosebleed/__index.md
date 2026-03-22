@@ -18,8 +18,8 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
 ## Prerequisites
 
 - You will need a PC & Cable
-- Be on PW5, PW5SE, KT5 (possibly KOA3, KOA3W32C)
-- Firmwares 5.16.4 - 5.18.6
+- For firmware versions 5.16.4 - 5.18.6, supported models are PW5, PW5SE, KT5, KOA3 and KOA3W32C
+- If you have a blacklisted PW6 or KT6, it may work for 5.16.4 - 5.17.1.0.4
 
 <blockquote class="note">
     This works on blacklisted Kindles!
@@ -39,21 +39,21 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
             <div class="stepContent">
                 <a href="./nosebleed.zip" class="button">Download</a>
                 <p class="warning">
-                    This will only work on mass storage Kindles (listed in the prerequisites section.)
+                    This will only work on some Kindles (listed in the prerequisites section.)
                 </p>
             </div>
         </div>
         <div class="step">
-            <h2>Aeroplane mode</h2>
+            <h2>Prevent updates</h2>
             <div class="stepContent">
-                <p>Enable Aeroplane mode on your Kindle now to prevent updates.</p>
-                <img src="./airplane_mode.png" /> 
+                <p>Ensure your Kindle is filled and there is no space to automatically update. The jailbreak process involves connecting to the Internet.</p>
+                <a href="../prevent-auto-update" class="button">Preventing updates</a>
             </div>
         </div>
         <div class="step">
             <h2>Extract & Copy</h2>
             <div class="stepContent">
-                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy all of the files within the innermost folder into your Kindle's root.</p>
+                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy the three files within to your Kindle's root (top folder when connected).</p>
                 <img src="./copy_assets.png" /> 
             </div>
         </div>
