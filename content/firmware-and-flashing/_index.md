@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firmware and Flashing
-weight: 2
+weight: 3
 ---
 
 # Firmware and Flashing
