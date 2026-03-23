@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle Hacking
-weight: 7
+weight: 8
 ---
 
 # Kindle Hacking
