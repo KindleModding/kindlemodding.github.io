@@ -1,4 +1,4 @@
-baseURL = 'https://kindlemodding.org/'
+baseURL = 'https://kindlemodding-github-io.pages.dev/'
 languageCode = 'en-gb'
 title = 'Kindle Modding Wiki'
 disableKinds = ['taxonomy'] # We don't use this lol
