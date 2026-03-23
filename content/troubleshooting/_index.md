@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshooting Kindle issues
+title: Troubleshooting Kindle Issues
 weight: 2
 ---
 
