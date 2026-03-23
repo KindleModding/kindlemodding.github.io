@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle Development
-weight: 3
+weight: 4
 ---
 
 # Kindle Development
