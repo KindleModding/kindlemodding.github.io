@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kindle OS
-weight: 6
+weight: 7
 ---
 
 # Kindle OS
