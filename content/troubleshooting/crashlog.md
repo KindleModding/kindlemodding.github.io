@@ -1,7 +1,8 @@
 ---
+layout: default
+parent: Troubleshooting Kindle Issues
 title: Disabling Crash Logs
-type: docs
-prev: docs/Database/
+weight: 1
 ---
 
 Every now and then, you may see random files appearing on your homescreen called "KPPMainApp" or "Mesquite" which can become quite annoying. While sometimes there is an underlying issue that you should fix, it is possible to disable them.
