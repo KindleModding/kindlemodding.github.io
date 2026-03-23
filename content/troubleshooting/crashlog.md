@@ -21,4 +21,5 @@ Every now and then, you may see random files appearing on your homescreen called
 2. Run the command ```touch /mnt/us/DISABLE_CORE_DUMP```
 
 ## Credits
+- [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this page
 - [GreenCat777](https://github.com/GreenCat-777) - Wrote the Scriptlet
