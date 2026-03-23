@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Troubleshooting Kindle issues
-weight: 100
+weight: 2
 ---
 
 # Placeholder
