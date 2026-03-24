@@ -4,6 +4,7 @@ parent: Troubleshooting Kindle Issues
 title: Application Error Popup
 weight: 3
 ---
+
 # Application Error Popup
 A scary error with a less scary meaning. 
 
