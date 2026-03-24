@@ -9,7 +9,7 @@ weight: 1
 Every now and then, you may see random files appearing on your homescreen called "KPPMainApp" or "Mesquite" which can become quite annoying. While sometimes there is an underlying issue that you should fix, it is possible to disable them.
 
 ## Method 1 - With a Scriptlet
-1. GreenCat777 has provided a scriptlet that does it all for you! You can download it [here](/assets/disable_crash_logs.sh).
+1. GreenCat777 has provided a scriptlet that does it all for you! You can download it [here](./assets/disable_crash_logs.sh).
 
 ## Method 2 - With a Computer
 1. Connect your Kindle to your computer.
