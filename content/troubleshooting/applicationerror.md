@@ -1,9 +1,10 @@
 ---
+layout: default
+parent: Troubleshooting Kindle Issues
 title: Application Error Popup
-type: docs
-prev: docs/Database/
+weight: 3
 ---
-
+# Application Error Popup
 A scary error with a less scary meaning. 
 
 ## Should I be worried 
