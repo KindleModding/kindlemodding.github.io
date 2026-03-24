@@ -2,7 +2,7 @@
 layout: default
 parent: Troubleshooting Kindle Issues
 title: Application Error Popup
-weight: 3
+weight: 1
 ---
 
 # Application Error Popup
