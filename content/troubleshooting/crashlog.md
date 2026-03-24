@@ -2,7 +2,7 @@
 layout: default
 parent: Troubleshooting Kindle Issues
 title: Disabling Crash Logs
-weight: 1
+weight: 3
 ---
 
 # Disabling Crash Logs
