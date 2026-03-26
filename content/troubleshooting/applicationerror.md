@@ -8,7 +8,7 @@ weight: 1
 # Application Error Popup
 
 ## Explanation 
-The error will only be visible on application launch, e.g. an invalid appreg entry, which could occur for example in an Illusion app if you don't copy the folder and only the .sh (or if the app has no config XML)
+The error will only be visible on application launch, like an invalid [appreg entry](../kindle-hacking/appreg), which could occur for example in an Illusion app if you don't copy the folder and only the .sh (or if the app has no config XML)
 
 If the app itself has an error it'll just tweak out. It'll look wrong because there's a bug or crash
 
