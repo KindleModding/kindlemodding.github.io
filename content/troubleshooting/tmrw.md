@@ -1,3 +1,2 @@
-<p class="tip">
-    Also avalible on [KindleForge](https://github.com/KindleTweaks/KindleForge)!
-</p>
+> [!TIP]
+> Also avalible on [KindleForge](https://github.com/KindleTweaks/KindleForge)!
