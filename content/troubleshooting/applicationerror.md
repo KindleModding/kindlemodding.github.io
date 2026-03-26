@@ -18,5 +18,5 @@ By the way you see this most often in Illusion apps due to user error (not copyi
 Also this shouldn't appear in AdBreak but you should document collecting debug info which is the popup that occurs when a process (mesquite) crashes (the exploit in AdBreak does that). However if it does pop up in Adbreak or the Hotfix don't be worried, it's common behavior.
 
 ## Credits 
-- [Penguins184](https://github.com/penguins184) - Explanation
-- [GreenCat777](https://github.com/GreenCat-777) - Polishing up the page
+- [Penguins184](https://github.com/penguins184) - Wrote the Page 
+- [GreenCat777](https://github.com/GreenCat-777) & [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Polishing up the page
