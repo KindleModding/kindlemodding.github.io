@@ -9,7 +9,7 @@ weight: 2
 > [!TIP]
 > Also avalible on [KindleForge](https://github.com/KindleTweaks/KindleForge)!
 
-OTA Blocking is one of the most important steps when it comes to jailbreaking, and if you're like me you want to make sure that you did it right. 
+OTA Blocking is one of the most important steps when it comes to jailbreaking, and you may want to make sure that you did it right. 
 
 ## Traditional Method
 1. Download the [Check OTA Status Script](https://github.com/neura-neura/Check-OTA-status/releases/latest/download/Check.OTA.status_current.sh) by neura
