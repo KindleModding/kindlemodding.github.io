@@ -18,6 +18,8 @@ OTA Blocking is one of the most important steps when it comes to jailbreaking, a
 4. Check the output. Note that the comment about Airplane Mode means that you should turn on Airplane Mode to enable OTA's, enabling Airplane Mode on its own will **not** reenable OTA's.
 
 ## [BinaryRenamer](https://www.mobileread.com/forums/showthread.php?p=4380046) Script
+> [!IMPORTANT]
+> This is a separate OTA blocking app.
 1. Open KUAL
 2. Open the BinaryRenamer menu.
 3. If the OTA button says "Restore OTA Updates" then OTA's are blocked.
