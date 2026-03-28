@@ -24,4 +24,4 @@ OTA Blocking is one of the most important steps when it comes to jailbreaking, a
 
 ## Credit
 - [neura](https://github.com/neura-neura) - Made the OTA Status Checker script
-- Julia - Wrote [BinaryRenamer](https://www.mobileread.com/forums/showthread.php?p=4380046)
+- [Julia](https://github.com/juliazero) - Wrote [BinaryRenamer](https://www.mobileread.com/forums/showthread.php?p=4380046)
