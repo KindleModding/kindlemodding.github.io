@@ -22,7 +22,7 @@ OTA Blocking is one of the most important steps when it comes to jailbreaking, a
 2. Open the BinaryRenamer menu.
 3. If the OTA button says "Restore OTA Updates" then OTA's are blocked.
 
-## Credit
+## Credits
 - [neura](https://github.com/neura-neura) - Made the [OTA Status Checker](https://github.com/neura-neura/Check-OTA-status) script
 - [Julia](https://github.com/juliazero) - Wrote [BinaryRenamer](https://www.mobileread.com/forums/showthread.php?p=4380046)
 - [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this Page
