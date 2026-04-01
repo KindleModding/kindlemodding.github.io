@@ -11,7 +11,7 @@ If you don't have ads enabled and would like to use [AdBreak](../jailbreaking/Ad
 
 # In-Depth Guide
 > [!IMPORTANT]
-> If you have any issues along the way, there is different troubleshooting steps listed in the table of contents and linked at the end of some lines.
+> If you have any issues along the way, check the linked troubleshooting section.
 
 1. Go to https://amazon.com
 2. On mobile, click on your account, click "See all options", and click on "Devices"
