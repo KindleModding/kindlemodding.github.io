@@ -46,7 +46,7 @@ Otherwise, AdBreak is unfortunately not supported for your device.
 This is a known issue that happens to some Kindles. There isn't an exact solution, but here is some things to try:
 1. Factory resetting your Kindle
 2. Creating a new Amazon account, enabling ads from there, deregistering your Kindle, and logging in with your new account
-3. You can try waiting it out, try restarting your Kindle after an hour
+3. You can try waiting it out, try restarting your Kindle after an hour.
 If all else fails, try opening a support thread in [KMC](https://discord.com/invite/wDbbZTF5QF).
 
 # I get an error saying "There was an error loading this page"
