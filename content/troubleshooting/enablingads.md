@@ -1,10 +1,13 @@
 ---
+layout: default
+parent: Troubleshooting Kindle Issues
 title: Enabling Ads
-type: docs
-prev: docs/Database/
+weight: 4
 ---
 
-If you don't have ads enabled and would like to use [AdBreak](https://www.mobileread.com/forums/showthread.php?p=4539164#post4539164), this guide is for you!
+# Enabling Ads
+
+If you don't have ads enabled and would like to use [AdBreak](../jailbreaking/AdBreak/), this guide is for you!
 
 # In-Depth Guide
 > [!IMPORTANT]
