@@ -24,6 +24,7 @@ OTA Blocking is one of the most important steps when it comes to jailbreaking, a
 3. If the OTA button says "Restore OTA Updates" then OTA's are blocked.
 
 ## Credits
-- [neura](https://github.com/neura-neura) - Made the [OTA Status Checker](https://github.com/neura-neura/Check-OTA-status) script
+- [neura](https://github.com/neura-neura) - Made the [OTA Status Checker](https://github.com/neura-neura/Check-OTA-status) Script
 - [Julia](https://github.com/juliazero) - Wrote [BinaryRenamer](https://www.mobileread.com/forums/showthread.php?p=4380046)
+- [Penguins184](https://github.com/penguins184) - Help With Formatting
 - [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this Page
