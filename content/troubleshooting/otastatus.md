@@ -6,8 +6,7 @@ weight: 2
 ---
 
 # Checking OTA Status
-> [!TIP]
-> Also avalible on [KindleForge](https://github.com/KindleTweaks/KindleForge)!
+<p class="tip">Also avalible on [KindleForge](https://github.com/KindleTweaks/KindleForge)!</p>
 
 OTA Blocking is one of the most important steps when it comes to jailbreaking, and you may want to make sure that you did it right. 
 
