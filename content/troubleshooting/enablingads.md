@@ -7,7 +7,7 @@ weight: 4
 
 # Enabling Ads
 
-If you don't have ads enabled and would like to use [AdBreak](../jailbreaking/AdBreak/), this guide is for you!
+If you don't have ads enabled and would like to use [AdBreak](../jailbreaking/AdBreak/), you will need to turn on the ads (or "special offers") in order to jailbreak.
 
 # In-Depth Guide
 > [!IMPORTANT]
