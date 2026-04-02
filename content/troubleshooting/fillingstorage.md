@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Troubleshooting Kindle Issues
-title: Filling Dtorage On an MTP Kindle
+title: Filling Storage On an MTP Kindle
 weight: 5
 ---
 > [!WARNING]
