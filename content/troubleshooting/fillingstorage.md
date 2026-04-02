@@ -1,10 +1,13 @@
 ---
-title: Filling Storage to Prevent Automatic Updates on your MTP Kindle
-type: docs
-prev: docs/Database/
+layout: default
+parent: Troubleshooting Kindle Issues
+title: Filling Dtorage On an MTP Kindle
+weight: 5
 ---
 > [!WARNING]
 > In order to properly prevent updates, it is recommended that you fill your storage to at or below 100mb.
+
+# Filling Storage On an MTP Kindle 
 
 You have to fill the storage on your Kindle during jailbreaking in order to prevent updates that can ruin your jailbreak. This guide covers the 3 methods of doing so.
 
