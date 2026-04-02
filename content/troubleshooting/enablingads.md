@@ -37,7 +37,7 @@ This is quite common likely due to the fact that disabling ads creates a transac
 If you do not have a valid form of payment, things can get complicated. Previously, it was possible to bypass this using a [Demo Card](https://developer.mastercard.com/mastercard-send/documentation/implementation/sandbox-test-cards/), but Amazon being Amazon, has seemingly patched this method. Now, you need a valid US account with a payment method to enable ads. If you don't have one, you now have 2 options.
 
 1. Use a card from a relative or close friend (obviously with permission)
-2. Find some other (legal) method of getting around this, maybe with a demo card that Amazon hasn't patched yet (for legal reasons we have a limited amount of assistance we can provide with this step)
+2. Find some other (legal) method of getting around this, maybe with a demo card that Amazon hasn't patched yet.
 
 ### I'm on a Kindle Colorsoft/Scribe!
 On a 2022 Scribe, you can check out [this guide](https://discord.com/channels/1083603487025274911/1424197898995761255/1424197898995761255) by señor capo in the Kindle Modding Discord server.
