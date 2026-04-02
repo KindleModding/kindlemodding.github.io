@@ -34,7 +34,7 @@ If you are getting the error,"Something went wrong, please try again later," cha
 
 ### I get a request to add a payment method when trying to enable ads.
 This is quite common likely due to the fact that disabling ads creates a transaction. If you have a valid form of payment you can attatch that. But reports have also surfaced that it might have to be a valid **US** form of payment to enable ads.
-If you do not have a valid form of payment, things can get complicated. Previously, it was possible to bypass this using a [Demo Card](https://developer.mastercard.com/mastercard-send/documentation/implementation/sandbox-test-cards/), but Amazon being Amazon, has seemingly patched this method. Now, you need a valid US account with a payment method to enable ads. If you don't have one, you now have 2 options.
+If you do not have a valid form of payment, things can get complicated. Previously, it was possible to bypass this using a [Demo Card](https://developer.mastercard.com/mastercard-send/documentation/implementation/sandbox-test-cards/), but Amazon, has seemingly patched this method. Now, you need a valid US account with a payment method to enable ads. If you don't have one, you now have 2 options.
 
 1. Use a card from a relative or close friend (obviously with permission)
 2. Find some other (legal) method of getting around this, maybe with a demo card that Amazon hasn't patched yet.
