@@ -18,6 +18,8 @@ You have to fill the storage on your Kindle during jailbreaking in order to prev
 2. Follow the instructions in the [README](https://github.com/jannikac/mtp-filler#usage).
 3. Follow the instructions on screen to fill your Kindle's storage, note that it may take a while depending on how much storage you need to fill.
 
+<p class="tip">For methods 2 and 3, it can be useful to put the files in a dedicated folder as to not clutter everything.</p>
+
 ## Method 2 - Use premade filler files
 1. Download one of the premade .zip files from [here](https://github.com/iiroak/Kindle-Filler-Disk/tree/main/MTP)
 2. Transfer enough of the files to your Kindle to fill the storage.
@@ -25,8 +27,6 @@ You have to fill the storage on your Kindle during jailbreaking in order to prev
 ## Method 3 - Use Random Junk Files
 1. Find any random files, preferably larger ones or use a [dummy file generator](https://pinetools.com/random-file-generator)
 2. Simply copy them to your Kindle
-
-<p class="tip">For methods 2 and 3, it can be useful to put the files in a dedicated folder as to not clutter everything.</p>
 
 ## Credits
 - [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this Page
