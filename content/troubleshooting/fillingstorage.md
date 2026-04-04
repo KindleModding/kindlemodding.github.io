@@ -11,13 +11,15 @@ weight: 5
 
 You have to fill the storage on your Kindle during jailbreaking in order to prevent updates that can ruin your jailbreak. This guide covers the 3 methods of doing so.
 
-## Method 1 - hhhhhhhhh's Powershell Script (Windows Only)
-1. Download the script [here](../assets/kindle_fill.ps1)
-2. Right click the file in file manager and press `Run With Powershell`
-3. Follow the instructions
+## Method 1 - Universal Script
+> [!WARNING]
+> This tool is not created nor maintained by the Kindle Modding Organization
+1. Download the tool from the [Releases](https://github.com/jannikac/mtp-filler/releases/latest) section on the project's GitHub.
+2. Follow the instructions in the [README](https://github.com/jannikac/mtp-filler#usage).
+3. Follow the instructions on screen to fill your Kindle's storage, note that it may take a while depending on how much storage you need to fill.
 
 ## Method 2 - Use premade filler files
-1. Download one of the files from [here](https://github.com/iiroak/Kindle-Filler-Disk/tree/main/MTP)
+1. Download one of the premade .zip files from [here](https://github.com/iiroak/Kindle-Filler-Disk/tree/main/MTP)
 2. Transfer enough of the files to your Kindle to fill the storage.
 
 ## Method 3 - Use Random Junk Files
@@ -28,4 +30,5 @@ You have to fill the storage on your Kindle during jailbreaking in order to prev
 > For methods 2 and 3, it can be useful to put the files in a dedicated folder as to not clutter everything.
 
 ## Credits
-- hhhhhhhhh - MTP Filler Script
+- [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this Page
+- [jannikac](https://github.com/jannikac) - Made the Universal Script
