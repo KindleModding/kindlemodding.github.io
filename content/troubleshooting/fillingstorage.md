@@ -26,8 +26,7 @@ You have to fill the storage on your Kindle during jailbreaking in order to prev
 1. Find any random files, preferably larger ones or use a [dummy file generator](https://pinetools.com/random-file-generator)
 2. Simply copy them to your Kindle
 
-> [!TIP]
-> For methods 2 and 3, it can be useful to put the files in a dedicated folder as to not clutter everything.
+<p class="tip">For methods 2 and 3, it can be useful to put the files in a dedicated folder as to not clutter everything.</p>
 
 ## Credits
 - [MonkeyInPrivite](https://github.com/MonkeyInPrivite) - Wrote this Page
