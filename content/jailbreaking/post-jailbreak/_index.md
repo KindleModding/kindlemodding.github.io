@@ -11,6 +11,4 @@ Once you have jailbroken your Kindle, there are still some extremely important s
 > [!WARNING]
 > Turn on Airplane mode now so your Kindle doesn't automatically update to latest firmware before applying OTArenamer!
 
-<button onclick="document.location=`/jailbreaking/post-jailbreak/setting-up-a-hotfix`;">
-    Setup a Hotfix
-</button>
+<a class="button" href="/jailbreaking/post-jailbreak/setting-up-a-hotfix">Setup a Hotfix</a>
