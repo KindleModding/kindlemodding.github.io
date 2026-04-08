@@ -14,9 +14,9 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 
 <div id="guide">
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
@@ -67,9 +67,9 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
         </div>
     </div>
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
 </div>
 <script>new Guide("guide", "../installing-kual-mrpi", "Installing KUAL & MRPI");</script>
