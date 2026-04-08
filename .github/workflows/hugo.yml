@@ -41,6 +41,11 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+      - name: Install Dart Sass
+        run: |
+          wget https://github.com/sass/dart-sass/releases/download/1.97.3/dart-sass-1.97.3-linux-x64.tar.gz
+          tar -xzf dart-sass-1.97.3-linux-x64.tar.gz
+          echo "$PWD/dart-sass" >> $GITHUB_PATH
       - uses: actions/cache@v4
         id: cache
         with:
@@ -61,7 +66,8 @@ jobs:
       - name: Setup kindle-sdk + dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-            sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
+            sudo apt update
+            sudo apt install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
             bash ./kindle-sdk/gen-sdk.sh kindlepw2
             bash ./kindle-sdk/gen-sdk.sh kindlehf
       - name: Build jb.sh
@@ -91,3 +97,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

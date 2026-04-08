@@ -1,0 +1,166 @@
+.navbar {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0.75em;
+    background-color: var(--background-colour);
+    user-select: none;
+    border-right: 2px solid var(--border-colour);
+    padding-bottom: 0;
+    width: min-content;
+    min-width: 220px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar details summary::-webkit-details-marker {
+    display: none;
+}
+
+.navbar details summary::before {
+    content: "›";
+    display: inline-block;
+    font-weight: 600;
+    transition: transform 0.25s ease;
+    color: var(--text-muted);
+    width: 1em;
+    text-align: center;
+}
+
+.navbar details > summary:hover::before
+{
+    color: var(--text-color);
+}
+
+.navbar details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.navbar details[open] summary {
+    color: var(--heading-colour);
+}
+
+.navbar details details {
+    margin-left: 0.5em;
+}
+
+// "KindleModding"
+.navbar h1 {
+    margin: 10px 20px 12px 5px;
+    font-size: 18pt;
+    white-space: nowrap;
+    font-family: var(--font-heading) !important;
+    font-weight: 400 !important;
+    animation: none;
+}
+
+// Sections in the navbar
+.navbar details
+{
+    border: none;
+    border-left: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+// The text in the section dropdown
+.navbar details summary
+{
+    //padding: 0.4em 0.5em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.95em;
+    color: var(--text-muted);
+    transition: color 0.25s ease, background-color 0.25s ease;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+// Section contents
+.navbar details > div
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    border-left: 2px solid var(--border-colour); // The section line
+    margin-left: 0.8em;
+    margin-top: 0.25em;
+    background: transparent;
+}
+
+// Anchor tags at the top level of the navbar
+.navbar a {
+    background-color: transparent;
+    font-weight: 400;
+    color: var(--text-muted);
+    text-decoration: none !important;
+}
+
+.navbar > a,
+.navbar details > summary,
+.navbar details > div > a
+{
+    padding: 0.5em;
+}
+
+.navbar > a:not(.active):hover
+{
+    padding-left: 0.75em;
+    text-decoration: none;
+}
+
+.navbar details summary:hover,
+.navbar a:hover {
+    color: var(--link-hover-colour);
+    background-color: var(--background-accent);
+}
+
+.navbar .active,
+.navbar .active a {
+    background-color: var(--background-accent);
+    color: var(--heading-colour) !important;
+    font-weight: 500;
+}
+
+.navbar details > div > a:hover,
+.navbar details > summary:hover,
+.navbar details > summary:hover > a
+{
+    text-decoration: none;
+    padding-left: 0.75em;
+    transition: padding 0.4s ease;
+    color: var(--heading-colour);
+    font-weight: 500;
+}
+
+.navbar > a, .navbar > details
+{
+    flex-shrink: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        width: 100%;
+        min-width: unset;
+        box-sizing: border-box;
+        border-right: none;
+        border-bottom: 2px solid var(--border-colour);
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        min-width: unset;
+    }
+}

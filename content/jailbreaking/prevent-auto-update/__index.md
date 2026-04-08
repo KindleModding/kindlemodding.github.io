@@ -130,7 +130,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
     </div>
 </div>
 
-<script>new Guide("guide", "./getting-started", "Jailbreak");</script>
+<script>new Guide("guide", "/jailbreaking/", "Jailbreak");</script>
 
 ---
 

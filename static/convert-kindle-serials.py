@@ -356,7 +356,7 @@ generationMap = [
         "release_firmware": "5.12.0",
         "generation_nicknames": ["KOA3", "KOA3W32C"],
         "amazon_name": "Kindle Oasis (10th Generation)",
-        "last_firmware": "Not Yet Discontinued",
+        "last_firmware": "5.18.2",
         "platform": "Zelda",
         "board": "Stinger",
         "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"
@@ -368,7 +368,7 @@ generationMap = [
         "release_firmware": "5.1x.y",
         "generation_nicknames": ["KT4"],
         "amazon_name": "Kindle (10th Generation)",
-        "last_firmware": "Not Yet Discontinued",
+        "last_firmware": "5.18.1",
         "platform": "Rex",
         "board": "Moonshine",
         "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"
@@ -380,7 +380,7 @@ generationMap = [
         "release_firmware": "5.10.0.1/5.10.0.2",
         "generation_nicknames": ["PW4"],
         "amazon_name": "Kindle Paperwhite (10th Generation)",
-        "last_firmware": "Not Yet Discontinued",
+        "last_firmware": "5.18.1",
         "platform": "Rex",
         "board": "Jaeger",
         "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1+</a>"

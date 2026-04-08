@@ -14,7 +14,7 @@ kindle.dconfig.getValue(key)
 ~~~
 Returns a string representing whatever configuration value exists for `key`, known keyvalue pairs are as so:
 
-| Key                           | Value                                                | Dscription                                                                                                                                                                                                                      |
+| Key                           | Value                                                | Description                                                                                                                                                                                                                      |
 |-------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | url.store                     | https://www.amazon.co.uk/gp/digital/juno/index.html  | Seemingly the URL which the store WAF uses                                                                                                                                                                                      |
 | amz.cor                       | GB                                                   | Something todo with CORS???                                                                                                                                                                                                     |

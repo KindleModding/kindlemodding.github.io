@@ -1,0 +1,11 @@
+[
+{{- $index := 0 -}}
+{{- range .Site.AllPages -}}
+    {
+        "t": {{ .LinkTitle | jsonify }},
+        "a": "{{ .RelPermalink }}",
+        "c": {{ replace (replace (.RawContent | plainify | jsonify ) "\n" "\\n") "\r" "" }}
+    }{{- if lt $index (sub (len .Site.AllPages) 1) -}},{{- end -}}
+    {{- $index = add $index 1}}
+{{- end -}}
+]
