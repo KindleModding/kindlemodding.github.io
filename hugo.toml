@@ -5,6 +5,16 @@ disableKinds = ['taxonomy'] # We don't use this lol
 uglyURLs = true
 disablePathToLower = true
 
+[outputFormats.search_index]
+  MediaType              = "application/json"
+  BaseName               = "search_index"
+  IsHTML                 = false
+  IsPlainText            = true
+  Rel                    = "search_index"
+
+[outputs]
+  home                   = [ "html", "search_index"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

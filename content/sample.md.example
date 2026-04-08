@@ -1,0 +1,47 @@
+# Sample Page
+
+## Sample Page
+
+### Sample Page
+
+*Theme By Penguins184*
+
+**Theme By Penguins184**
+
+***Theme By Penguins184***
+
+<p class="note">
+    This Is a Note.
+</p>
+
+<p class="tip">
+    This Is a Tip.
+</p>
+
+<p class="important">
+    This Is Important.
+</p>
+
+<p class="warning">
+    This Is a Warning.
+</p>
+
+<p class="caution">
+    Take Caution!
+</p>
+
+<button onclick="showDialog(`sample-modal`)">Sample Modal</button>
+
+<div class="modal-overlay">
+        <div id="sample-modal" class="modal-container">
+            <div class="modal-header">
+                <h2>Sample Modal</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem Ipsum, ...</p>
+            </div>
+        <div class="modal-footer">
+            <button onclick="closeDialog(`sample-modal`)">Close</button>
+        </div>
+    </div>
+</div>

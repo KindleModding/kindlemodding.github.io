@@ -4,6 +4,7 @@ parent: Jailbreaking Your Kindle
 title: AdBreak
 weight: 3
 slug: index
+kofi: https://ko-fi.com/penguins186
 ---
 
 # AdBreak
@@ -125,7 +126,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 ### Common Issues
 
 - Can't find the system folder:
-    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
+    - On mass storage kindles, **if you cannot see the `system` folder**, you will have to navigate to the path manually, or follow [this](https://web.archive.org/web/20250928174006/https://kb.blackbaud.com/knowledgebase/Article/41890) guide to see protected system folders. 
 - "Bang!" shows but the jailbreak doesn't run:
     - Check the .assets folder on the Kindle. "jb.sh" and "patchedUks.sqsh" must be in there.
 
@@ -150,4 +151,4 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 - [Chris Evans (@scarybeasts)](https://x.com/scarybeasts) for a lot of the exploit code
 - [Hackerdude](https://hackerdude.tech) for the modified JB script.
 - Ceoz: Enable-ad findings
-- Penguins184: This guide
+- [Penguins184](https://ko-fi.com/penguins186): This guide

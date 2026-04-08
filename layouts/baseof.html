@@ -3,9 +3,36 @@
   <head>
     {{ partial "head_global.html" . }}
 
+    <script>
+        function refreshTheme()
+        {
+            document.documentElement.classList.remove("dark-theme");
+            document.documentElement.classList.remove("light-theme");
+
+            switch (localStorage.getItem("theme"))
+            {
+                case "light":
+                    document.documentElement.classList.add("light-theme");
+                    break;
+                case "dark":
+                    document.documentElement.classList.add("dark-theme");
+                    break;
+            }
+        }
+
+        const themes = ["light", "dark"];
+        if (!themes.includes(localStorage.getItem("theme")))
+        {
+            localStorage.setItem("theme", "dark");
+        }
+        
+        refreshTheme();
+    </script>
+
     <title>{{ .Title }}</title>
   </head>
   <body>
+
     <div class="pageWrapper">
       {{ partial "navbar" }}
 
