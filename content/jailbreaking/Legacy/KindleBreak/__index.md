@@ -31,7 +31,7 @@ slug: index
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-<a class="button button-purple" href="../../post-jailbreak/">Post Jailbreak</a>
+<a class="button" href="../../post-jailbreak/">Post Jailbreak</a>
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
