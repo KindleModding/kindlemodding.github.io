@@ -33,9 +33,9 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
 
 <div id="guide">
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
@@ -122,9 +122,9 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
         </div>
     </div>
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
 </div>
 

@@ -19,18 +19,18 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
         <div class="step">
             <h2>Download MRPI</h2>
             <div class="stepContent">
-                <button onclick="document.location=`https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz`;">MRPI</button>
+                <a class="button" href="./kual-mrinstaller-khf.tar.xz">MRPI</a>
                 <p>This version of MRPI is provided by <a href="https://fw.notmarek.com/khf/">Marek</a></p>
             </div>
         </div>
         <div class="step">
             <h2>Download the correct KUAL version</h2>
             <div class="stepContent">
-                <button onclick="document.location=`./Update_KUALBooklet_HDRepack.bin`;">KUAL (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</button>
+                <a class="button" href="./Update_KUALBooklet_HDRepack.bin">KUAL (Coplate) - For Kindles newer than the K5 (any kindle released after 2012)</a>
                 <p>The above version of KUAL is provided by HackerDude</p>
                 <br/>
-                <button onclick="document.location=`https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-v2.7.37-gfcb45b5-20250419.tar.xz`;">KUAL - For legacy devices</button>
-                <button onclick="document.location=`https://github.com/KindleTweaks/PEKI`;" style="margin-top: 10px;">PEKI - Follow this guide instead if Coplate is broken</button>
+                <a class="button" href="./KUAL-v2.7.37-gfcb45b5-20250419.tar.xz">KUAL - For legacy devices</a>
+                <a class="button" href="https://github.com/KindleTweaks/PEKI" style="margin-top: 10px;">PEKI - Follow this guide instead if Coplate is broken</a>
             </div>
         </div>
         <div class="step">
@@ -89,3 +89,5 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
 - The installation of `Update_KUALBooklet_hotfix_*_install.bin` may fail if there is not enough free space on your Kindle. If you are using the "fill storage" method to block updates, make sure to free up some space before proceeding with these steps.
 - Verify the location of all the folders and files on the Kindle
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`
+- Make sure you have around `500 MB` of free space available
+- Try restarting the Kindle if the `;log mrpi` command is not responding

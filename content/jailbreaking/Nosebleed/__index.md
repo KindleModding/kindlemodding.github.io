@@ -29,9 +29,9 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
 
 <div id="guide">
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
@@ -80,9 +80,9 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
         </div>
     </div>
     <div class="buttons">
-        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <button id="prev">Previous Step</button>
         <span id="stepCounter"></span>
-        <button class="btn btn-green" id="next">Next Step</button>
+        <button id="next">Next Step</button>
     </div>
 </div>
 <script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>

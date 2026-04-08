@@ -66,7 +66,8 @@ jobs:
       - name: Setup kindle-sdk + dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-            sudo apt-get install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
+            sudo apt update
+            sudo apt install -y zlib1g-dev libarchive-dev nettle-dev meson aria2
             bash ./kindle-sdk/gen-sdk.sh kindlepw2
             bash ./kindle-sdk/gen-sdk.sh kindlehf
       - name: Build jb.sh
