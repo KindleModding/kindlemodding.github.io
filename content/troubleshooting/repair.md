@@ -6,15 +6,19 @@ weight: 6
 ---
 
 # Unbricking a Kindle
-<p class="caution">This guide will only cover simple bootloops, more complex bricks or "hard bricks" are usually much more complex and unknown. Please ask in the Kindle Modding Server for support if this is your scenario.</p>
-Sometimes things go wrong when jailbreaking or messing around. Here is a known method of fixing most bricks.
-## Prerequisites
-- **Patience**
 
+<p class="caution">This guide will only cover simple bootloops, more complex bricks or "hard bricks" are usually much more complex and unknown. Please ask in the Kindle Modding Server for support if this is your scenario.</p>
+
+Sometimes things go wrong when jailbreaking or messing around. Here is a known method of fixing most bricks.
+
+## Prerequisites
+
+- **Patience**
 - Preferably a PC, but a Mac can work
 - Decent technical experience (don't worry, I'll try to make it easy)
 - A cable that supports data transfer
 - *Potential experience with soldering and/or disassembling devices* **(worst-case scenario)**
+
 ## Is it actually bricked?
 First, lets figure out if your Kindle is actually bricked  
 
@@ -28,11 +32,13 @@ You have a few options now:
 2. If you are comfortable with doing so, open up your Kindle and unplug the battery. Then just plug it back in.  
   
 Unless the physics that apply everywhere else on Earth are suspended in your house, your Kindle should have now restarted.
+
 ## Accessing your Kindle with a Computer
 > [!IMPORTANT]  
 > If you are not able to access your Kindle with a computer, you will have to continue to the [advanced steps](#advanced-steps).
 
 Now, we need to gain access to your Kindle's filesystem with a computer!
+
 ### PC Instructions 
 1. Grab a data supported USB cable
 2. Plug in your Kindle to your computer
@@ -47,6 +53,7 @@ Now, we need to gain access to your Kindle's filesystem with a computer!
 
 If your Kindle is MTP, you will need to install either the [Amazon Send to Kindle App](https://www.amazon.com/sendtokindle/mac?&linkCode=ll2&tag=ter000-20&linkId=07f7c7db67889bf36e836471c479526e&la) or [OpenMTP](https://openmtp.ganeshrvel.com/).
 You should now be able to follow the PC instructions.
+
 ## Advanced Steps
 > [!CAUTION]
 > **Follow these steps at your own risk**
