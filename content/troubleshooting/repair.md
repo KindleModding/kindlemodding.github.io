@@ -10,6 +10,7 @@ weight: 6
 Sometimes things go wrong when jailbreaking or messing around. Here is a known method of fixing most bricks.
 ## Prerequisites
 - **Patience**
+
 - Preferably a PC, but a Mac can work
 - Decent technical experience (don't worry, I'll try to make it easy)
 - A cable that supports data transfer
