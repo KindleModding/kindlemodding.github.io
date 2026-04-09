@@ -51,7 +51,7 @@ This is a known issue that happens to some Kindles. There isn't an exact solutio
 If all else fails, try opening a support thread in [KMC](https://discord.com/invite/wDbbZTF5QF).
 
 ### I get an error saying "There was an error loading this page"
-1. [Fill your Kindle's Storage]
+1. [Fill your Kindle's Storage](../../jailbreaking/prevent-auto-update)
 2. Disable Airplane Mode
 3. Go back into "View all ads"
 If it still doesn't show, your network is likely blocking it in some way.
