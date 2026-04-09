@@ -319,7 +319,7 @@ generationMap = [
         "release_year": 2022,
         "release_firmware": "5.16.0",
         "generation_nicknames": ["KS"],
-        "amazon_name": "Kindle Scribe (1st Generation)",
+        "amazon_name": "Kindle Scribe - 2022 Release",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix3",
         "board": "Barolo",
@@ -331,11 +331,11 @@ generationMap = [
         "release_year": 2022,
         "release_firmware": "5.15.0",
         "generation_nicknames": ["KT5"],
-        "amazon_name": "Kindle (11th Generation)",
+        "amazon_name": "Kindle (11th Generation) - 2022 Release",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix",
         "board": "Cava",
-        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a><br/><br/><a href=\"/jailbreaking/Nosebleed\">Nosebleed 5.18.6</a>"
     },
     # Kindle PaperWhite 5, released October 27 2021 on FW 5.14.0
     {
@@ -347,7 +347,7 @@ generationMap = [
         "last_firmware": "Not Yet Discontinued",
         "platform": "Bellatrix",
         "board": "Malbec",
-        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a>"
+        "jailbreak": "<a href=\"/jailbreaking/WinterBreak\">WinterBreak < 5.18.1</a><br/><br/><a href=\"/jailbreaking/AdBreak\">AdBreak 5.18.1 - 5.18.5.0.1</a><br/><br/><a href=\"/jailbreaking/Nosebleed\">Nosebleed 5.18.6</a>"
     },
     # Kindle Oasis 3, released July 24 2019 on FW 5.12.0
     {
