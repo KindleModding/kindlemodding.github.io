@@ -6,8 +6,8 @@ weight: 6
 ---
 
 # Unbricking a Kindle
-
-Sometimes things go wrong when jailbreaking or messing around. This aims to fix a simple bootloop.
+<p class="caution">This guide will only cover simple bootloops, more complex bricks or "hard bricks" are usually much more complex and unknown. Please ask in the Kindle Modding Server for support if this is your scenario.</p>
+Sometimes things go wrong when jailbreaking or messing around. Here is a known method of fixing most bricks.
 ## Prerequisites
 - **Patience**
 - Preferably a PC, but a Mac can work
