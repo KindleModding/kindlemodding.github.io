@@ -15,9 +15,8 @@ Sometimes things go wrong when jailbreaking or messing around. Here is a known m
 
 - **Patience**
 - Preferably a PC, but a Mac can work
-- Decent technical experience (don't worry, I'll try to make it easy)
+- Decent technical experience
 - A cable that supports data transfer
-- *Potential experience with soldering and/or disassembling devices* **(worst-case scenario)**
 
 ## Is it actually bricked?
 First, lets figure out if your Kindle is actually bricked  
