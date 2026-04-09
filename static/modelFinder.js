@@ -146,7 +146,7 @@ function generateTable() {
     const headerLabels = [
         "Amazon Name",
         "Kindle Nickname",
-        "Lastest Firmware",
+        "Latest Firmware",
         "Recommended Jailbreak",
         "KindleTool Variants"
     ]
