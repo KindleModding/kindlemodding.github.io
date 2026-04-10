@@ -1,13 +1,13 @@
 ---
 layout: default
 parent: Legacy
-title: K2 Jailbreak
+title: NiLuJe K2/DX/DXG/K3 Jailbreak
 weight: 1
 slug: index
 ---
 
-# K2 Jailbreak
-The K2 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
+# NiLuJe K2/DX/DXG/K3
+The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
 - Please check that your Kindle is [compatible](../../kindle-models) with the K2 Jailbreak

@@ -551,7 +551,7 @@ generationMap = [
         "last_firmware": "3.4.3",
         "platform": "Luigi",
         "board": "Shasta",
-        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXG-Jailbreak/\">NiLuJe K2/DX/DXG/3 Jailbreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle DX
     {
@@ -563,7 +563,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "???",
         "board": "Nell/NellSL/NellWW",
-        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXG-Jailbreak/\">NiLuJe K2/DX/DXG/3 Jailbreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle 2
     {
@@ -575,7 +575,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "Mario/MarioDeprecated",
         "board": "Mario",
-        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXG-Jailbreak/\">NiLuJe K2/DX/DXG/3 Jailbreak</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle
     {
