@@ -118,7 +118,6 @@
 
 .stepwrapper, .step, .step-wrapper, [class*="step"] {
     background-color: var(--background-colour);
-    transition: background-color 0.3s ease;
     animation: fadeInUp 0.5s ease-out;
     box-shadow: none !important;
 }

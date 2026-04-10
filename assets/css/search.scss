@@ -15,7 +15,6 @@
     background-color: var(--background-accent);
     color: var(--text-colour);
     border-radius: 4px;
-    transition: all 0.2s ease;
     box-sizing: border-box;
 
     &:focus {
@@ -73,7 +72,6 @@
         text-decoration: none;
         color: var(--text-colour);
         font-size: 0.9em;
-        transition: background-color 0.2s ease;
 
         &:hover {
             background-color: var(--background-accent);
