@@ -4,7 +4,9 @@ parent: Jailbreaking Your Kindle
 title: AdBreak
 weight: 3
 slug: index
-kofi: https://ko-fi.com/penguins186
+params:
+    description: "AdBreak is a Kindle jailbreak for 5.18.1 - 5.18.5.0.1"
+    kofi: https://ko-fi.com/penguins186
 ---
 
 # AdBreak
