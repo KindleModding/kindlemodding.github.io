@@ -116,7 +116,7 @@ The K2 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobilerea
         <button class="btn btn-green" id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "/jailbreaking/post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+<script>new Guide("guide", "/jailbreaking/post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
 
 <script>
 const jbDevices = [
