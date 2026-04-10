@@ -4,8 +4,7 @@ parent: Legacy
 title: NiLuJe K5 Jailbreak
 weight: 1
 slug: index
-params:
-    description: "A jailbreak for the now-discontinued K5 Kindle"
+description: A jailbreak for the now-discontinued K5 Kindle
 ---
 
 # NiLuJe K5 Jailbreak
