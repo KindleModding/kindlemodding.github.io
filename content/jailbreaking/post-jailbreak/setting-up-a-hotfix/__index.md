@@ -10,7 +10,7 @@ slug: index
 A hotfix allows your Kindle's jailbreak to persist after updating. There are two different hotfixes and which one you need to install depends on which method you used to jailbreak your Kindle.
 
 > [!INFO]
-> If you installed OTARenamer, make sure to uninstall it beforehand or the hotfix will not be detected by the Kindle
+> If you have blocked the updates using `renametobin` (set to `Rename`), make sure to revert it beforehand (by selecting `Restore`), or you will not be able to install the hotfix through the Settings menu
 
 <div id="guide">
     <div class="buttons">
@@ -25,7 +25,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
                 <a href="https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin" class="button">Download</a>
                 <br/>
                 <p class="warning">
-                    If scriptlets don't work, please redo these steps using the <b>compatibility hotfix!</b>
+                    If scriptlets don't work, please re-do these steps using the <b>compatibility hotfix!</b>
                 </p>
             </div>
         </div>

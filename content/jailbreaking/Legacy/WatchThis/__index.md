@@ -24,7 +24,7 @@ slug: index
 4. Type `;enter_demo` into the Kindle's searchbar an click enter
 5. Reboot the Kindle by holding down the button and selecting the `reboot` option when it appears
 6. The device should now boot into demo mode, if it doesn't, check the [Troubleshooting](#troubleshooting) section
-7. Skip WiFi setup and enter fake information when prompted
+7. Skip Wi-Fi setup and enter fake information when prompted
 8. Skip searching for a demo payload
 9. Select the `standard` demo type
 10. Press `Done` at the "sideload content" prompt
