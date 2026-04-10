@@ -1,5 +1,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <link rel="shortcut icon" href="https://kindlemodding.org/favicon.ico"  type="image/x-icon">
+  
+<meta property="og:title" content="KindleModding - {{.Title}}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{  .Permalink }}" />
+{{- with .Params.description -}}
+<meta name="description" content="{{.}}" />
+<meta property="og:description" content="{{.}}" />
+{{- end -}}
+{{- with .Params.image -}}
+  <meta property="og:image" content="{{ absURL . }}" />
+{{- else -}}
+  <meta property="og:image" content="{{absURL "logo.png"}}" />
+{{- end -}}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 

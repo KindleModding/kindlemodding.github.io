@@ -4,6 +4,8 @@ parent: Jailbreaking Your Kindle
 title: WinterBreak
 weight: 4
 slug: index
+params:
+    image: /jailbreaking/WinterBreak/logo.png
 ---
 
 # WinterBreak

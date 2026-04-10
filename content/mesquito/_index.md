@@ -2,6 +2,9 @@
 layout: default
 title: Mesquito
 weight: 4
+params:
+    description: The annoying WAF loader
+    image: /mesquito/mesquito.png
 ---
 
 # Mesquito
@@ -26,7 +29,7 @@ A collection of Mesquito apps are available [here](https://github.com/KindleModd
 Simply download the [latest release](https://github.com/KindleModding/Mesquito/releases/latest) and copy the apps you want to the `apps` folder on your Kindle and re-load Mesquito by `clicking on the 3 dots` > `Home`
 
 ## Development
-See [Developing For Mesquito](../mesquito/development/)
+See [Developing For Mesquito](/mesquito/development/)
 
 ## Screenshot Of Mesquito
-![Mesquito screenshot](../mesquito/mesquito.png)
+![Mesquito screenshot](/mesquito/mesquito.png)

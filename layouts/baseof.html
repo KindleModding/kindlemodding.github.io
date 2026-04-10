@@ -3,10 +3,6 @@
   <head>
     {{ partial "head_global.html" . }}
 
-    {{- with .Params.description -}}
-    <meta name="description" content="{{.}}" />
-    {{- end -}}
-
     <script>
         function refreshTheme()
         {
@@ -33,7 +29,7 @@
         refreshTheme();
     </script>
 
-    <title>{{ .Title }}</title>
+    <title>KindleModding - {{ .Title }}</title>
   </head>
   <body>
 
