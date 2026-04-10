@@ -17,7 +17,7 @@ Kindle devices can automatically download and install firmware updates when they
 - The device is connected to Wi-Fi, even briefly.
 - The Kindle is rebooted while connected to the internet.
 
-Filling the Kindle's storage (leaving only 20-90 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
+Filling the Kindle's storage (leaving only 50-90 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
 
 ## How to Fill the Kindle's Storage
 
@@ -26,12 +26,10 @@ Filling the Kindle's storage (leaving only 20-90 MB free) prevents the device fr
 
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
 
-> [!NOTE]
-> The script will not work on 11th gen Kindles and newer because these devices use MTP to connect to computers
-
-> If this is your situation, you have two options:
-> 1. Delete any stray files ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code> manually at every step of the Jailbreak guide (or before doing any rebooting)
-> 2. Manually fill your Kindle. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 20–90 MB of free space
+> [!WARNING]
+> This script will not work on 11th generation Kindles and newer, as these devices use MTP (Media Transfer Protocol) instead of standard USB storage when connected to a computer
+>
+> You will need to manually fill your Kindle with "dummy" files. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–90 MB of free space
 
 <div id="guide">
     <div class="buttons">
@@ -102,23 +100,18 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <div class="stepContent">
                 <p>Eject your Kindle from your computer.</p>
                 <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
-                <p>Check that the available storage is <strong>20-90 MB or less</strong>.</p>
+                <p>Check that the available storage is <strong>50-90 MB or less</strong>.</p>
                 <img src="./final.png"/>
             </div>
-        </div>
+        </div>     
         <div class="step">
-            <h2>7. Register Your Kindle</h2>
+            <h2>7. Continue with Jailbreak</h2>
             <div class="stepContent">
-                <p>With storage nearly full, connect to Wi-Fi and register your Kindle to your Amazon account. The device will not be able to download updates due to lack of space.</p>
-            </div>
-        </div>
-        <div class="step">
-            <h2>8. Enable Airplane Mode Again</h2>
-            <div class="stepContent">
-                <p>Immediately after registration, enable <strong>Airplane Mode</strong> to prevent any update attempts.</p>
-                <p>Proceed with the next jailbreak steps (such as WinterBreak).</p>
-                <p class="highlight">
-                    <strong>Important Note:</strong> After filling your Kindle's storage, check its contents in the <strong>main folder</strong> (root directory) and delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>. These files are automatic update attempts by the Kindle and should be removed to prevent the device from trying to install an update when you free up space.
+                <p>With storage nearly full, you can now connect to Wi-Fi and register your Kindle to your Amazon account.</p> 
+                <p>The Kindle will not be able to fully download the update due to a lack of space.</p>
+                <p>You can either perform a <a href="/kindle-models.html">Jailbreak suitable for your device</a> or wait for the next jailbreak to be released.</p> 
+                <p class="info">
+                  Always make sure to delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>
                 </p>
             </div>
         </div>

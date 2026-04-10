@@ -7,7 +7,7 @@ weight: 3
 
 # Disabling OTA Updates
 
-Kindles automatically update when connected to WiFi, which despite a `hotfix`, can often cause instabilities on jailbroken systems or outright remove the jailbreak.
+Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, can often cause instabilities on jailbroken systems or outright remove the jailbreak.
 
 <div id="guide">
     <div class="buttons">
@@ -118,7 +118,7 @@ Kindles automatically update when connected to WiFi, which despite a `hotfix`, c
                     <p class="version-label">Firmware >=5.11.x:</p>
                     <p>If you want to factory reset, downgrade or update your Kindle, you will <strong>need</strong> to restore the update binaries by opening KUAL, selecting <code>Rename OTA Binaries</code> and then selecting <code>Restore</code> instead of rename</p>
                 </div>
-                <p class="highlight">You can now safely turn off Airplane Mode and re-enable WiFi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
+                <p class="highlight">You can now safely turn off Airplane Mode and re-enable Wi-Fi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
             </div>
         </div>
     </div>

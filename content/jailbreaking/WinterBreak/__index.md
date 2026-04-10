@@ -28,8 +28,8 @@ It is based on [Mesquito](../../mesquito/)
 ## Prerequisites
 - You will need a PC
 - Your Kindle must be registered
-- Your Kindle must have a valid, internet-connected WiFi network saved to it that it can connect to during steps 5 to 7 (inclusive)
-- Your Kindle's storage must be almost full, with only 20-90 MB of free space remaining to avoid automatic updates
+- Your Kindle must have a valid, internet-connected Wi-Fi network saved that it can connect to during steps 5–7 (inclusive)
+- Your Kindle's storage must be almost full, with only 50-90 MB of free space remaining to [avoid automatic updates](../prevent-auto-update/)
 - File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
 
 > [!INFO]
@@ -126,17 +126,17 @@ If an **“Unexpected error”** occurs when you try to log in to the Kindle Sto
 
 ### LocalStorage Replacement
 
-1. After successfully registered, plug your Kindle into your PC and delete the `.active_content_sandbox` folder,  make sure to also delete any files with a name similar to `update.bin.tmp.partial` from your Kindle to prevent an automatic update
+1. After successfully **registering and filling the Kindle's storage**, plug your Kindle into your PC and delete the `.active_content_sandbox` folder.
 2. Reboot your Kindle
-3. Disable Airplane mode and connect to a WiFi connection
-4. Browse the regular Kindle Store for a couple of minutes to generate the files needed for Winterbreak to work, browse the book categories and download a free sample of any book
-5. After a couple of minutes, enable Airplane mode and plug your Kindle into your PC again
-6. Delete the cache directory in the path `.active_content_sandbox/store/resource/LocalStorage`. If this folder has not yet been generated, browse the Kindle Store for another couple of minutes until it is generated. Make sure to always delete the previously mentioned `update.bin.tmp.partial` file, especially before any rebooting
-7. Once deleted, copy the Winterbreak files to your Kindle and reboot
+3. Disable Airplane mode and connect to a Wi-Fi connection
+4. Browse the regular Kindle Store for a couple of minutes to generate the files needed for Winterbreak, browse the book categories and download a free sample of any book
+5. Enable Airplane mode and plug your Kindle into your PC again
+6. Delete the cache directory in the path `.active_content_sandbox/store/resource/LocalStorage`. If this folder has not yet been generated, browse the Kindle Store for another couple of minutes until it is generated.
+7. Once deleted, copy the Winterbreak files to your Kindle, delete any stray `update-bin-whatever.bin` or `update.bin.tmp.partial` files and reboot
 8. Open the Kindle Store on your Kindle, when prompted, click `Yes` to turn off Airplane mode
 
 ### Factory Reset
-> Faced this error and found a solution [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
+> Solution by: [DiabloSat](https://github.com/progzone122) & [Rexathion1](https://github.com/Rexathion1)
 
 1. Factory Reset your Kindle
 2. Before registering - plug your Kindle into your PC, move the WinterBreak files to the root of your storage space
