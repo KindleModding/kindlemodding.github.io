@@ -1,23 +1,28 @@
 function getSerialInfo(serial) {    
-    if (serial[0] == "G") { 
-        if (serial.length < 6) {
-            return -1
+    if (serial.length == 2 || serial.length == 3)
+        return {
+            serial_version: serial.length == 2 ? 0 : 1,
+            device_code: serial
         }
+        
+    if (serial[0] == "G") { 
+        if (serial.length < 6)
+            return -1
 
         return {
             "serial_version": 1,
             "device_code": serial.substring(3, 6)
         }
     } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"].includes(serial[0])) {
-        if (serial.length < 4) {
+        if (serial.length < 4)
             return -1
-        }
 
         return {
             "serial_version": 0,
             "device_code": serial.substring(2, 4)
         }
-    } else {
+    }
+    else {
         return -2;
     }
 }
@@ -25,7 +30,7 @@ function getSerialInfo(serial) {
 
 
 function searchForSerial() {
-    serialNumber = document.getElementById("serialNumber").value;
+    let serialNumber = document.getElementById("serialNumber").value;
     serialNumber = serialNumber.toUpperCase().replaceAll(" ", "");
     console.log("Searching for", serialNumber);
 
@@ -34,18 +39,12 @@ function searchForSerial() {
     searchResultDiv.innerHTML = "";
     searchStatus.innerText = "";
 
-    if (serialNumber.length == 2 || serialNumber.length == 3) { 
-        serialInfo = {
-            serial_version: serialNumber.length == 2 ? 0 : 1,
-            device_code: serialNumber
-        }
-    } else {
-        try {
-            serialInfo = getSerialInfo(serialNumber);
-        } catch {
-            searchStatus.style = "color: red; font-size: 1.2em;";
-            searchStatus.innerText = "ERROR: Serial Number Invalid!";
-        }
+    let serialInfo = -2;
+    try {
+        serialInfo = getSerialInfo(serialNumber);
+    } catch {
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Invalid!";
     }
 
     if (serialInfo === -1) {
@@ -116,25 +115,17 @@ function searchForSerial() {
                     }
 
                     searchResultDiv.appendChild(mainTable);
-
-                    /*
-                    const secondaryHeader = document.createElement("h4");
-                    secondaryHeader.innerText = "Additional Info";
-
-                    searchResultDiv.appendChild(secondaryHeader);
-                    searchResultDiv.appendChild(secondaryTable);
-
-                    searchStatus.style = "color: green;";
-                    searchStatus.innerText = "Kindle found!"
-                    */
-
+                    
                     return;
                 }
             }
         }
 
         searchStatus.style = "color: red; font-size: 1.2em;";
-        searchStatus.innerHTML = "ERROR: Serial Number Not Found! Please Open a <a style=\"color: red;\" href=\"https://github.com/KindleModding/kindlemodding.github.io\">GitHub Issue.</a>";
+        if (serialNumber.length < 4)
+            searchStatus.innerText = "ERROR: Serial Number Too Short!";
+        else
+            searchStatus.innerHTML = "ERROR: Serial Number Not Found! Please Open a <a style=\"color: red;\" href=\"https://github.com/KindleModding/kindlemodding.github.io\">GitHub Issue.</a>";
     }
 }
 

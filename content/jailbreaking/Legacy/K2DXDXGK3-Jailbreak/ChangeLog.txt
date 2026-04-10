@@ -1,0 +1,3809 @@
+2021-11-14 23:28  NiLuJe
+
+	* [r18833] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (httpie hotfix)
+
+2021-11-14 15:58  NiLuJe
+
+	* [r18829] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-10-27 18:30  NiLuJe
+
+	* [r18797] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries (requests hotfix)
+
+2021-10-26 21:36  NiLuJe
+
+	* [r18795] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-09-02 18:32  NiLuJe
+
+	* [r18721] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-09-02 10:27  NiLuJe
+
+	* [r18717] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-08-09 18:32  NiLuJe
+
+	* [r18689] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-06-18 18:19  NiLuJe
+
+	* [r18575] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-05-17 04:25  NiLuJe
+
+	* [r18509] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update: the great GCC 11 update)
+
+2021-04-14 18:19  NiLuJe
+
+	* [r18435] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries
+
+2021-04-05 15:14  NiLuJe
+
+	* [r18392] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries (numpy hotfix)
+
+2021-04-04 14:09  NiLuJe
+
+	* [r18386] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-03-15 00:46  NiLuJe
+
+	* [r18286] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-03-10 19:50  NiLuJe
+
+	* [r18245] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-02-27 06:29  NiLuJe
+
+	* [r18219] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Python 2.7 hotfix)
+
+2021-02-21 03:12  NiLuJe
+
+	* [r18190] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2021-01-29 03:28  NiLuJe
+
+	* [r18137] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (busybox & requests hotfix)
+
+2021-01-28 18:52  NiLuJe
+
+	* [r18128] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-12-16 01:58  NiLuJe
+
+	* [r18009] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-11-14 13:10  NiLuJe
+
+	* [r17940] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-11-06 21:03  NiLuJe
+
+	* [r17915] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-21 12:30  NiLuJe
+
+	* [r17883] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-11 13:05  NiLuJe
+
+	* [r17853] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (requests hotfix)
+
+2020-10-10 23:46  NiLuJe
+
+	* [r17851] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-10-10 15:47  NiLuJe
+
+	* [r17847] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries
+
+2020-10-01 20:54  NiLuJe
+
+	* [r17821] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-09-27 20:58  NiLuJe
+
+	* [r17805] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-09-07 10:57  NiLuJe
+
+	* [r17754] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-08-20 17:50  NiLuJe
+
+	* [r17718] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-08-03 03:32  NiLuJe
+
+	* [r17684] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (more polished zlib-ng fixes, unbreak HTTPie)
+
+2020-08-02 15:18  NiLuJe
+
+	* [r17679] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (hotfix the hotfix of the hotfix of the hotfix of
+	  the zlib-ng hotfix ;p)
+
+2020-08-01 20:09  NiLuJe
+
+	* [r17672] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * X-TC:
+	  * Refresh binaries (zlib hotfix)
+
+2020-07-31 23:13  NiLuJe
+
+	* [r17648] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-13 20:55  NiLuJe
+
+	* [r17508] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-05 00:39  NiLuJe
+
+	* [r17466] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-06-02 01:48  NiLuJe
+
+	* [r17441] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-18 20:05  NiLuJe
+
+	* [r17349] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-13 02:19  NiLuJe
+
+	* [r17279] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-05-01 21:37  NiLuJe
+
+	* [r17174] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-04-06 04:25  NiLuJe
+
+	* [r17028] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-03-10 15:28  NiLuJe
+
+	* [r16952] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-02-11 03:08  NiLuJe
+
+	* [r16858] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix gdb)
+
+2020-02-10 16:58  NiLuJe
+
+	* [r16851] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2020-02-04 18:01  NiLuJe
+
+	* [r16835] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-11-25 22:32  NiLuJe
+
+	* [r16737] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2019-11-23 23:12  NiLuJe
+
+	* [r16715] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-11-14 23:29  NiLuJe
+
+	* [r16672] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries:
+	  * Fix some readline & Python 2 EoL shenanigans.
+
+2019-11-14 15:43  NiLuJe
+
+	* [r16658] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-11 21:21  NiLuJe
+
+	* [r16572] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-06 19:37  NiLuJe
+
+	* [r16535] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-10-01 02:33  NiLuJe
+
+	* [r16517] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-09-15 22:01  NiLuJe
+
+	* [r16474] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-09-02 11:12  NiLuJe
+
+	* [r16438] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-08-14 18:50  NiLuJe
+
+	* [r16309] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (complete bs4 support)
+
+2019-08-14 11:31  NiLuJe
+
+	* [r16306] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-30 22:02  NiLuJe
+
+	* [r16286] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-20 15:56  NiLuJe
+
+	* [r16237] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-12 02:33  NiLuJe
+
+	* [r16160] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Make sure we deref hardlinks when creating tarballs that might be
+	  unpacked on vfat...
+
+2019-07-12 01:38  NiLuJe
+
+	* [r16157] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Switch from hard copies to hard links for most move/copy operations
+	  in the packaging scripts.
+	  Should hopefully make rebuilding the snapshots a tiny bit faster with
+	  no adverse affects ;).
+
+2019-07-11 04:37  NiLuJe
+
+	* [r16144] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries (Fix Python 3)
+
+2019-07-10 17:21  NiLuJe
+
+	* [r16139] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-07-07 03:50  NiLuJe
+
+	* [r16071] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-06-06 00:29  NiLuJe
+
+	* [r16027] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries to fix IM & gdb
+
+2019-06-03 12:40  NiLuJe
+
+	* [r15983] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-04-30 14:17  NiLuJe
+
+	* [r15920] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-04-20 02:53  NiLuJe
+
+	* [r15898] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-04-06 05:00  NiLuJe
+
+	* [r15860] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-03-10 18:16  NiLuJe
+
+	* [r15828] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-02-21 16:49  NiLuJe
+
+	* [r15788] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2019-02-01 23:32  NiLuJe
+
+	* [r15759] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2019-01-03 16:20  NiLuJe
+
+	* [r15706] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix wand)
+
+2019-01-03 04:29  NiLuJe
+
+	* [r15700] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-12-09 22:43  NiLuJe
+
+	* [r15585] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-11-22 05:26  NiLuJe
+
+	* [r15562] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-11-09 16:42  NiLuJe
+
+	* [r15529] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-11-08 23:12  NiLuJe
+
+	* [r15516] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh KindleTool binaries
+
+2018-09-28 02:00  NiLuJe
+
+	* [r15470] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (better requests fix, and actually ship OpenSSH..
+	  ;D)
+
+2018-09-27 19:23  NiLuJe
+
+	* [r15463] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Unbreak requests)
+
+2018-09-10 20:17  NiLuJe
+
+	* [r15434] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (unbreak Python's SQLite module)
+
+2018-09-10 02:10  NiLuJe
+
+	* [r15423] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries... (the great gold to bfd switch...)
+
+2018-08-31 21:04  NiLuJe
+
+	* [r15370] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * A few tar invocations were missing a root:root override
+
+2018-08-22 14:30  NiLuJe
+
+	* [r15338] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-25 00:05  NiLuJe
+
+	* [r15265] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-24 06:29  NiLuJe
+
+	* [r15253] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (unbreak dropbear)
+
+2018-07-24 00:33  NiLuJe
+
+	* [r15249] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (dropbear CFLAGS fix)
+
+2018-07-23 16:11  NiLuJe
+
+	* [r15247] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-20 14:41  NiLuJe
+
+	* [r15235] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-07-02 18:41  NiLuJe
+
+	* [r15128] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-06-21 23:03  NiLuJe
+
+	* [r15108] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-06-21 16:34  NiLuJe
+
+	* [r15100] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh KindleTool & FBInk binaries (proper version tags)
+
+2018-06-21 15:00  NiLuJe
+
+	* [r15092] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Updated TC)
+
+2018-06-02 16:58  NiLuJe
+
+	* [r15011] src/3.1-uninstall.sh, src/build-updates.sh,
+	  src/linkjail/bin/linkjail, src/linkjail/bin/unlinkjail:
+	  
+	  Kindle Hacks:
+	  * Use grep -q instead of IO reidrections where applicable
+
+2018-05-30 22:35  NiLuJe
+
+	* [r14989] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2018-05-16 00:40  NiLuJe
+
+	* [r14940] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2018-05-14 15:27  NiLuJe
+
+	* [r14902] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2017-11-25 04:49  NiLuJe
+
+	* [r14389] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Fix MRPI binaries
+
+2017-11-25 04:41  NiLuJe
+
+	* [r14387] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update FBGrab & KindleTool binaries
+
+2016-07-30 15:34  NiLuJe
+
+	* [r13408] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-07-11 18:12  NiLuJe
+
+	* [r13353] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool
+
+2016-07-08 19:54  NiLuJe
+
+	* [r13338] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool builds
+
+2016-07-08 16:35  NiLuJe
+
+	* [r13336] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-06-21 02:49  NiLuJe
+
+	* [r13309] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (TC update)
+
+2016-06-20 13:40  NiLuJe
+
+	* [r13306] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-05-18 16:37  NiLuJe
+
+	* [r13265] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update TC)
+
+2016-04-24 13:53  NiLuJe
+
+	* [r13216] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-04-17 23:32  NiLuJe
+
+	* [r13188] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 5.3 2016.04)
+
+2016-04-11 15:04  NiLuJe
+
+	* [r13156] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-04-04 21:29  NiLuJe
+
+	* [r13104] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Fix K3 sscanf mess, part II
+
+2016-04-04 18:39  NiLuJe
+
+	* [r13102] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries to fix the sscanf mess, part I
+
+2016-04-03 17:04  NiLuJe
+
+	* [r13099] src/linkjail/bin/kindletool:
+	  
+	  KIndle Hacks:
+	  * Refresh binaries
+
+2016-03-02 20:43  NiLuJe
+
+	* [r13003] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * refresh binaries (initial GDB import)
+
+2016-02-21 00:10  NiLuJe
+
+	* [r12956] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-02-14 01:23  NiLuJe
+
+	* [r12903] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 5.2 2015.11-2)
+
+2016-02-07 18:12  NiLuJe
+
+	* [r12851] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2016-01-18 03:13  NiLuJe
+
+	* [r12798] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (downgrade TC to 2015.11, for some strange reason I
+	  don't have time to investigate, my 2016.01 builds are utterly
+	  broken...)
+
+2016-01-16 20:41  NiLuJe
+
+	* [r12795] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update TC)
+
+2015-12-04 18:48  NiLuJe
+
+	* [r12672] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-28 00:59  NiLuJe
+
+	* [r12659] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-20 19:02  NiLuJe
+
+	* [r12644] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-14 21:14  NiLuJe
+
+	* [r12632] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaires (TC update).
+	  The Kobo set is incomplete because sourceforge went down during the
+	  build, and is currently still down...
+
+2015-11-13 17:06  NiLuJe
+
+	* [r12624] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-06 21:03  NiLuJe
+
+	* [r12603] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (stop playing with FT's new TT stem darkening)
+
+2015-11-06 11:28  NiLuJe
+
+	* [r12589] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-11-05 16:24  NiLuJe
+
+	* [r12580] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-31 18:46  NiLuJe
+
+	* [r12573] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix dropbear interactive logins)
+
+2015-10-27 18:56  NiLuJe
+
+	* [r12558] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-22 16:23  NiLuJe
+
+	* [r12546] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-16 18:15  NiLuJe
+
+	* [r12526] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2015-10-10 13:30  NiLuJe
+
+	* [r12507] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-10-03 21:06  NiLuJe
+
+	* [r12491] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (hopefully unbreaks FT overrides on legacy devices)
+
+2015-10-03 15:47  NiLuJe
+
+	* [r12487] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-27 14:01  NiLuJe
+
+	* [r12478] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-26 13:22  NiLuJe
+
+	* [r12465] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-25 22:32  NiLuJe
+
+	* [r12464] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-25 21:43  NiLuJe
+
+	* [r12463] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (kindletool update)
+
+2015-09-24 18:45  NiLuJe
+
+	* [r12450] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (nano fixes)
+
+2015-09-24 15:00  NiLuJe
+
+	* [r12441] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-20 00:16  NiLuJe
+
+	* [r12428] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaris (TC Update)
+
+2015-09-11 01:36  NiLuJe
+
+	* [r12385] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-09-05 02:01  NiLuJe
+
+	* [r12335] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (the great mmap enfixening!)
+
+2015-08-28 17:34  NiLuJe
+
+	* [r12304] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * refresh binaries
+
+2015-08-20 16:50  NiLuJe
+
+	* [r12267] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-16 10:33  NiLuJe
+
+	* [r12203] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2015-08-15 13:31  NiLuJe
+
+	* [r12176] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-15 09:46  NiLuJe
+
+	* [r12172] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-08-14 09:39  NiLuJe
+
+	* [r12137] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-07-30 06:39  NiLuJe
+
+	* [r12103] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-07-27 03:04  NiLuJe
+
+	* [r12097] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-07-25 18:36  NiLuJe
+
+	* [r12086] src/linkjail/bin/kindletool:
+	  
+	  And a final round of VSN keyword pruning...
+
+2015-07-25 18:30  NiLuJe
+
+	* [r12084] src/update-adds.tar.gz:
+	  
+	  Fix some more nonsensical keywords on binary files...
+
+2015-07-25 17:45  NiLuJe
+
+	* [r12080] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-06-17 01:45  NiLuJe
+
+	* [r12038] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update IM to fix a ScreenSavers regression)
+
+2015-06-13 14:57  NiLuJe
+
+	* [r12025] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-06-05 22:17  NiLuJe
+
+	* [r12019] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  • Refresh binaries
+
+2015-05-31 01:14  NiLuJe
+
+	* [r12014] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-05-25 18:33  NiLuJe
+
+	* [r12003] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-05-07 22:32  NiLuJe
+
+	* [r11963] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (updated TC)
+
+2015-05-01 02:02  NiLuJe
+
+	* [r11924] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2015-04-28 19:31  NiLuJe
+
+	* [r11910] src/build-updates.sh:
+	  
+	  The great shebang enfixening!
+
+2015-03-11 00:58  NiLuJe
+
+	* [r11729] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-03-07 16:23  NiLuJe
+
+	* [r11725] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-03-07 01:28  NiLuJe
+
+	* [r11720] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-02-26 19:01  NiLuJe
+
+	* [r11698] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix fc-scan)
+
+2015-02-26 14:07  NiLuJe
+
+	* [r11689] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Avoid pigz for device-facing tarballs, based on the same
+	  compatibility concerns as with lbzip2...
+
+2015-02-26 13:36  NiLuJe
+
+	* [r11688] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix Python)
+
+2015-02-26 02:23  NiLuJe
+
+	* [r11684] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh bianries...
+	  (LTO, AKA, The Breakening!)
+
+2015-02-25 15:00  NiLuJe
+
+	* [r11663] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  • Resync binaries
+
+2015-02-23 22:30  NiLuJe
+
+	* [r11620] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Parallelize compression in buildscripts... (lbzip2, pigz & threaded
+	  xz)
+
+2015-02-23 21:03  NiLuJe
+
+	* [r11616] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-02-23 02:18  NiLuJe
+
+	* [r11604] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * refresh binaries (fix readline)
+
+2015-02-22 20:47  NiLuJe
+
+	* [r11589] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (misc zsh support)
+
+2015-02-22 14:25  NiLuJe
+
+	* [r11576] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-02-20 06:30  NiLuJe
+
+	* [r11558] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix strace)
+
+2015-02-19 23:37  NiLuJe
+
+	* [r11554] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (strace w/ libunwind, Python & SQLite3 w/ readline)
+
+2015-02-18 21:19  NiLuJe
+
+	* [r11541] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (widec ncurses)
+
+2015-02-17 23:35  NiLuJe
+
+	* [r11537] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 4.9 2015.02)
+
+2015-02-12 19:10  NiLuJe
+
+	* [r11501] src/linkjail/bin/kindletool:
+	  
+	  KUAL Extensions:
+	  * MRPI:
+	  * Tweak binary handling. Only install the relevant ones.
+
+2015-02-12 18:23  NiLuJe
+
+	* [r11499] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries
+
+2015-01-31 19:58  NiLuJe
+
+	* [r11464] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-01-17 20:34  NiLuJe
+
+	* [r11432] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2015-01-07 23:20  NiLuJe
+
+	* [r11355] README:
+	  
+	  Kobo Hacks:
+	  * KoboStuff:
+	  * Add a readme
+
+2015-01-05 23:16  NiLuJe
+
+	* [r11332] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-12-18 13:05  NiLuJe
+
+	* [r11252] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaires (updated TC)
+
+2014-11-28 20:46  NiLuJe
+
+	* [r11172] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-25 21:29  NiLuJe
+
+	* [r11168] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-22 18:45  NiLuJe
+
+	* [r11135] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-17 18:33  NiLuJe
+
+	* [r11115] README:
+	  
+	  KUAl extensions:
+	  * MR Installer:
+	  * Forgot the credits file for the binaries
+
+2014-11-15 21:03  NiLuJe
+
+	* [r11085] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-14 18:47  NiLuJe
+
+	* [r11072] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-08 15:52  NiLuJe
+
+	* [r11054] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-07 19:57  NiLuJe
+
+	* [r11046] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-11-05 18:09  NiLuJe
+
+	* [r11032] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-10-25 15:20  NiLuJe
+
+	* [r11007] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-10-25 00:45  NiLuJe
+
+	* [r10999] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  • JailBreak:
+	  • Tag v0.13.N
+	  • Python:
+	  • Tag v0.11.N
+	  • ScreenSavers;
+	  • Tag v0.45.N
+	  • Fonts:
+	  • Tag v5.14.N
+	  • USBNetwork:
+	  • Tag v0.55.N
+
+2014-10-25 00:05  NiLuJe
+
+	* [r10996] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-10-18 02:31  NiLuJe
+
+	* [r10971] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-10-08 23:05  NiLuJe
+
+	* [r10963] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-10-08 20:07  NiLuJe
+
+	* [r10961] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (introduce strace & friends)
+
+2014-10-06 17:00  NiLuJe
+
+	* [r10950] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-09-27 15:33  NiLuJe
+
+	* [r10933] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-09-05 19:38  NiLuJe
+
+	* [r10916] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-09-02 01:25  NiLuJe
+
+	* [r10893] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-08-26 20:45  NiLuJe
+
+	* [r10864] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2014-08-26 20:00  NiLuJe
+
+	* [r10861] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh bianries (Fix Python SQLite)
+
+2014-08-26 13:17  NiLuJe
+
+	* [r10855] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix Python sqlite3 & 3rd-party modules)
+
+2014-08-26 03:51  NiLuJe
+
+	* [r10853] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Python w/ SQLite3, DropBear KeepAlive + PuTTy fix)
+
+2014-08-22 21:00  NiLuJe
+
+	* [r10841] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (updated TC)
+
+2014-08-13 18:50  NiLuJe
+
+	* [r10829] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-08-12 03:49  NiLuJe
+
+	* [r10827] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-30 04:32  NiLuJe
+
+	* [r10783] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Updated TC, first GCC 4.9 builds)
+
+2014-07-28 18:08  NiLuJe
+
+	* [r10778] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-28 01:52  NiLuJe
+
+	* [r10774] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-27 20:24  NiLuJe
+
+	* [r10766] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries ;).
+
+2014-07-26 21:30  NiLuJe
+
+	* [r10751] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-24 18:31  NiLuJe
+
+	* [r10726] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-12 22:55  NiLuJe
+
+	* [r10711] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-05 15:12  NiLuJe
+
+	* [r10693] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-07-01 00:15  NiLuJe
+
+	* [r10686] src/3.0-install.sh, src/3.1-install.sh, src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Make the few inlined libotautils copy easier to spot
+	  * I *hope* I didn't break logging on some weird K4 systems by removing
+	  redundant constants from the logging code, but it works on my device.
+
+2014-06-30 23:59  NiLuJe
+
+	* [r10685] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-06-27 01:27  NiLuJe
+
+	* [r10681] src/3.0-install.sh, src/3.1-install.sh, src/3.1-uninstall.sh,
+	  src/build-updates.sh, src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Move everyone to LibOTAUtils
+
+2014-06-24 23:14  NiLuJe
+
+	* [r10663] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  • JailBreak:
+	  • Allow building on OS X
+
+2014-06-24 23:01  NiLuJe
+
+	* [r10662] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  • More portability fixes for the build scripts
+
+2014-06-22 04:06  NiLuJe
+
+	* [r10650] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-06-18 22:18  NiLuJe
+
+	* [r10617] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-06-06 17:30  NiLuJe
+
+	* [r10585] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-05-26 09:33  NiLuJe
+
+	* [r10562] src/3.1-uninstall.sh:
+	  
+	  Kindle Hacks
+	  • Proper logging on full uninstall
+
+2014-05-18 01:10  NiLuJe
+
+	* [r10554] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-05-10 04:32  NiLuJe
+
+	* [r10531] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-04-26 21:15  NiLuJe
+
+	* [r10498] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (minor updates, and the whole FT w/ HB thing)
+
+2014-04-11 13:08  NiLuJe
+
+	* [r10460] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  KUAL Extensions:
+	  * gawk:
+	  * Tag v1.3.N
+	  Kindle Touch Hacks:
+	  * JailBreak:
+	  * Tag v1.10.N
+	  * USBNetwork:
+	  * Tag v0.16.N
+	  * ScreenSavers:
+	  * Tag v0.17.N
+	  * Python:
+	  * Tag v0.10.N
+	  * Fonts:
+	  * Tag v0.8.N
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.12.N
+	  * ScreenSavers:
+	  * Tag v0.43.N
+	  * Fonts:
+	  * Tag v5.13.N
+	  * USBNetwork:
+	  * Tag v0.54.N
+	  * Python:
+	  * Tag v0.10.N
+
+2014-04-11 12:12  NiLuJe
+
+	* [r10459] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 2014.04)
+
+2014-03-25 06:25  NiLuJe
+
+	* [r10435] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2014-03-15 23:23  NiLuJe
+
+	* [r10420] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Updated TC)
+
+2014-03-06 22:40  NiLuJe
+
+	* [r10402] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (bump FT, FC, IM, KindleTool; dropbear)
+
+2014-02-14 17:27  NiLuJe
+
+	* [r10328] src/build-updates.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * Use Update_*.bin package filenames instead of update_*.bin,
+	  to avoid triggering the recovery updater on boot. (thanks, dsmid ;))
+
+2014-02-14 16:58  NiLuJe
+
+	* [r10327] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Update TC)
+
+2014-01-24 23:51  NiLuJe
+
+	* [r10320] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  • Refresh binaries (updated TC)
+
+2014-01-09 22:55  NiLuJe
+
+	* [r10300] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (updated TC)
+
+2013-12-23 14:32  NiLuJe
+
+	* [r10248] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-12-10 19:05  NiLuJe
+
+	* [r10218] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-12-08 02:49  NiLuJe
+
+	* [r10213] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-12-03 19:47  NiLuJe
+
+	* [r10194] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Update FT, FC, DB, LA, Python)
+
+2013-11-30 18:26  NiLuJe
+
+	* [r10186] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-11-28 19:49  NiLuJe
+
+	* [r10182] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update FT, FC, silence an OpenSSH warning on the
+	  PW2)
+
+2013-11-23 17:53  NiLuJe
+
+	* [r10161] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Switch to --exclude-vcs everywhere
+
+2013-11-23 16:47  NiLuJe
+
+	* [r10158] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Add PW2 binaries)
+
+2013-11-20 15:20  NiLuJe
+
+	* [r10120] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix KindleTool)
+
+2013-11-19 23:48  NiLuJe
+
+	* [r10119] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Hopefully, fix OpenSSH on FW >= 5.3.9)
+
+2013-11-18 19:39  NiLuJe
+
+	* [r10115] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2013-11-16 17:16  NiLuJe
+
+	* [r10097] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-11-12 17:59  NiLuJe
+
+	* [r10067] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (again, mostly for KindleTool)
+
+2013-11-11 15:18  NiLuJe
+
+	* [r10064] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (mostly for KindleTool)
+
+2013-11-11 00:40  NiLuJe
+
+	* [r10058] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries...
+
+2013-11-10 23:42  NiLuJe
+
+	* [r10056] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-11-10 17:08  NiLuJe
+
+	* [r10047] README:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool credits (OpenSSL -> nettle)
+
+2013-11-01 00:56  NiLuJe
+
+	* [r10015] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-10-17 18:34  NiLuJe
+
+	* [r9971] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (TC update)
+
+2013-10-11 22:19  NiLuJe
+
+	* [r9945] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-09-25 16:03  NiLuJe
+
+	* [r9888] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-09-25 02:06  NiLuJe
+
+	* [r9877] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * USBNet:
+	  * Bundle OpenSSL. (OpenSSH's ssh segfaults during the hostkey exchange
+	  on FW 2.x otherwise)
+
+2013-09-24 21:49  NiLuJe
+
+	* [r9865] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Fonts:
+	  * Update FT & FC binaries (update ft & fc)
+	  * USBNet:
+	  * Bundle the full OpenSSH suite (client & co)
+	  * Bundle sshfs (thanks to twobob for the push ;p)
+
+2013-09-20 13:56  NiLuJe
+
+	* [r9843] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries, mainyl for an FT update that fix glyph cropping
+	  for emboldened font
+
+2013-09-18 12:54  NiLuJe
+
+	* [r9811] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 4.8 2013.09)
+
+2013-09-18 11:45  NiLuJe
+
+	* [r9809] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * Make our kh_msg eips prints *really* edge-to-edge ;)
+
+2013-08-16 23:34  NiLuJe
+
+	* [r9734] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 2013.08)
+
+2013-08-12 05:26  NiLuJe
+
+	* [r9707] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Commit slightly saner binaries
+
+2013-08-12 04:09  NiLuJe
+
+	* [r9704] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Binary refreshes, without the crazy FT patch.
+
+2013-08-02 21:00  NiLuJe
+
+	* [r9645] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaires (cleaner PYTHONHOME patch)
+
+2013-08-02 19:57  NiLuJe
+
+	* [r9642] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (fix Python ssl & pyexpat modules)
+
+2013-07-31 15:16  NiLuJe
+
+	* [r9621] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Linaro 4.8-2013.07-1)
+
+2013-07-29 23:23  NiLuJe
+
+	* [r9570] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries, fix fc-scan
+
+2013-07-24 16:23  NiLuJe
+
+	* [r9539] src/build-updates.sh, src/linkjail/bin/libkh[DEL]:
+	  
+	  Kindle Hacks:
+	  * Move libkh to a common directory, so I don't have eleventy copies to
+	  maintain
+
+2013-07-18 17:09  NiLuJe
+
+	* [r9529] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-07-18 15:49  NiLuJe
+
+	* [r9525] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries
+
+2013-07-14 16:15  NiLuJe
+
+	* [r9505] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries. (Go back to ARM instruction set on the K5,
+	  Tweak IM to be less memory hungry (q8, CacheShift 3)).
+
+2013-07-13 18:21  NiLuJe
+
+	* [r9486] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (Bump to TC Linaro 2013.07)
+
+2013-07-04 22:24  NiLuJe
+
+	* [r9428] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries (update FC snapshot)
+
+2013-07-02 17:24  NiLuJe
+
+	* [r9409] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * refresh binaries (update ft, fc & libarchive)
+
+2013-07-02 03:39  NiLuJe
+
+	* [r9401] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries. Link ImageMagick (libpng) & Python against a
+	  static zlib to avoid symbol versioning issues.
+	  (it broke opening PNG files for IM, which in turn broke the pinfo
+	  support in the ScreenSavers hack).
+
+2013-06-25 01:25  NiLuJe
+
+	* [r9334] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries
+
+2013-06-24 23:18  NiLuJe
+
+	* [r9330] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Fonts:
+	  * Get rid of the bci_new ft lib, now that it's redundant
+	  (FT dropped support for OLD_INTERNALS, and I can't
+	  reproduce any of the issues that led me to using it in the first
+	  place)
+
+2013-06-24 20:15  NiLuJe
+
+	* [r9325] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Make all build scripts automatically bomb out on non 0 return codes,
+	  so I can safely catch
+	  snafus during my full rebuilds...
+
+2013-06-24 20:09  NiLuJe
+
+	* [r9324] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update OpenSSH
+
+2013-06-24 19:39  NiLuJe
+
+	* [r9322] src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * Make the uninstall hint in the info.txt a little bit clearer,
+	  following a suggestion
+	  by mitakka
+	  (http://www.mobileread.com/forums/showpost.php?p=2447890&postcount=3026)
+
+2013-06-23 21:58  NiLuJe
+
+	* [r9314] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update ALL THE THINGS!
+
+2013-04-26 16:52  NiLuJe
+
+	* [r9096] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Detect the Brazilian 3G PaperWhite as such
+
+2013-01-29 15:47  NiLuJe
+
+	* [r9049] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Resync libkh with libkh5 (PW detect)
+
+2013-01-27 03:54  NiLuJe
+
+	* [r9045] README:
+	  
+	  Kindle Hacks:
+	  * Update KindleTool copyright years
+
+2013-01-19 20:58  NiLuJe
+
+	* [r9035] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (updated TC)
+
+2012-11-15 22:58  NiLuJe
+
+	* [r8952] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * TC update. (Bump FT, FC, KT, coreutils, mosh, htop)
+
+2012-11-09 14:31  NiLuJe
+
+	* [r8885] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Add 5.3 to the version detect code
+
+2012-11-07 17:18  NiLuJe
+
+	* [r8870] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * Add Python to the whitelists
+
+2012-10-25 18:27  NiLuJe
+
+	* [r8762] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Detect the UK 3G PW
+
+2012-10-18 16:37  NiLuJe
+
+	* [r8720] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Don't add a suffix to the uninstaller files.
+
+2012-10-16 15:21  NiLuJe
+
+	* [r8700] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Propagate the latest S/N matching changes
+
+2012-10-15 22:55  NiLuJe
+
+	* [r8697] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Fix a stupid bug in model detection via S/N matching:
+	  The S/N aren't in base16, they're in base32hex!
+	  (at the very least, I might need some more data to confirm that...)
+
+2012-10-12 03:41  NiLuJe
+
+	* [r8688] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Update binaries (Update TC, FT, FC, KT, mosh)
+
+2012-10-04 02:06  NiLuJe
+
+	* [r8655] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * Update S/N based model detection logic to handle the US PW ids
+
+2012-09-26 17:25  NiLuJe
+
+	* [r8637] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Follow pdurrant's advice, and handle the 3.2.1/legacy jailbreaks the
+	  other way around,
+	  now that the newer firmware versions are more widely spread.
+
+2012-09-22 18:23  NiLuJe
+
+	* [r8623] ChangeLog[DEL]:
+	  
+	  Kindle Hacks:
+	  * Move ChangeLog generation to the packaging script
+
+2012-09-20 02:31  NiLuJe
+
+	* [r8598] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-20 01:56  NiLuJe
+
+	* [r8596] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-20 01:42  NiLuJe
+
+	* [r8592] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * USBNet:
+	  * Actually add the little C helper ;)
+
+2012-09-19 21:38  NiLuJe
+
+	* [r8583] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-19 21:18  NiLuJe
+
+	* [r8580] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-19 00:04  NiLuJe
+
+	* [r8572] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-18 22:58  NiLuJe
+
+	* [r8565] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries (updated libarchive & freetype)
+
+2012-09-16 20:48  NiLuJe
+
+	* [r8556] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL :)
+
+2012-09-16 20:30  NiLuJe
+
+	* [r8554] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-16 20:10  NiLuJe
+
+	* [r8550] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-16 17:53  NiLuJe
+
+	* [r8542] src/linkjail/bin/kindletool:
+	  
+	  Kindle Hacks:
+	  * Refresh binaries for an experiment in FT libs...
+
+2012-09-16 03:58  NiLuJe
+
+	* [r8538] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-16 03:42  NiLuJe
+
+	* [r8535] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-16 01:11  NiLuJe
+
+	* [r8525] README[ADD]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Add a credits file for kindletool
+	  * Update MR Thread
+
+2012-09-16 01:02  NiLuJe
+
+	* [r8524] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-09-15 21:49  NiLuJe
+
+	* [r8516] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.11.N
+
+2012-09-15 21:40  NiLuJe
+
+	* [r8515] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix it (Handle ash's default IFS behaviour properly)
+
+2012-09-15 20:17  NiLuJe
+
+	* [r8510] src/linkjail/bin/kindletool[ADD]:
+	  
+	  Kindle Hacks:
+	  * Refresh K3 binaries (updated TC)
+	  * ScreenSavers:
+	  * Updated coreutils
+	  * USBNetwork:
+	  * Updated KindleTool
+	  * Updated htop
+	  * Updated busybox
+	  * Updated OpenSSH
+	  * Updated lsof
+	  * Fonts:
+	  * Updated FreeType
+	  * Updated FontConfig
+
+2012-09-14 21:16  NiLuJe
+
+	* [r8496] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix a few typos
+
+2012-09-14 17:46  NiLuJe
+
+	* [r8493] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Deprecate the whitelist, and use a mostly accurate autodetection
+	  method
+	  that doesn't involve unpacking the update.
+	  (requires updated kindletool binaries that I have yet to build ;))
+
+2012-09-12 22:43  NiLuJe
+
+	* [r8475] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-18 16:22  NiLuJe
+
+	* [r8223] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-18 15:01  NiLuJe
+
+	* [r8218] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-16 04:04  NiLuJe
+
+	* [r8192] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-16 03:17  NiLuJe
+
+	* [r8188] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-16 01:58  NiLuJe
+
+	* [r8183] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-07 05:09  NiLuJe
+
+	* [r8137] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-06-06 21:31  NiLuJe
+
+	* [r8134] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-04-29 23:45  NiLuJe
+
+	* [r8084] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Use kindletool to build installs, too, I'm stupid.
+
+2012-04-28 21:59  NiLuJe
+
+	* [r8079] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Oops, forgot the update_ prefix when building with kindletool...
+
+2012-04-28 21:47  NiLuJe
+
+	* [r8078] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Update buildscripts to use kindletool (if possible) if it's
+	  installed (in $PATH)
+
+2012-04-27 02:31  NiLuJe
+
+	* [r8072] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Whitelist jarextractor (thanks to dhdurgee @ MR for reporting this)
+
+2012-03-07 00:08  NiLuJe
+
+	* [r7979] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-03-03 01:59  NiLuJe
+
+	* [r7973] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-03-02 23:56  NiLuJe
+
+	* [r7967] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2012-01-09 02:33  NiLuJe
+
+	* [r7870] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * Restore usage of proper options syntax for tar, we never know how
+	  buggy the Kindle's one might be ;)
+
+2012-01-09 02:23  NiLuJe
+
+	* [r7869] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * Check for failures after extracting our custom directory in /tmp...
+	  (Not sure if we caught failures here before, because of a full tmpfs
+	  for example).
+
+2011-11-29 19:53  NiLuJe
+
+	* [r7775] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JB/Fonts/SS:
+	  * Update whitelist
+
+2011-11-19 01:19  NiLuJe
+
+	* [r7740] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Update whitelist
+	  * USBNetwork:
+	  * Add note about having to tweak the HW address when using multiple
+	  Kindles
+
+2011-10-19 02:28  NiLuJe
+
+	* [r7677] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-10-19 02:08  NiLuJe
+
+	* [r7675] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-10-19 01:59  NiLuJe
+
+	* [r7674] src/linkjail/bin/linkjail, src/linkjail/bin/unlinkjail:
+	  
+	  Kindle Hacks:
+	  * Quiet some kh_msg down when in verbose mode to cut down on the
+	  flood.
+
+2011-10-19 01:28  NiLuJe
+
+	* [r7672] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * libkh:
+	  * Add a note regarding late eips prints on Kill runlevels.
+
+2011-10-19 00:15  NiLuJe
+
+	* [r7670] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-10-19 00:14  NiLuJe
+
+	* [r7669] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.10.N
+	  * Fonts:
+	  * Tag v4.9.N
+	  * ScreenSavers:
+	  * Tag v0.25.N
+	  * USBnetwork:
+	  * Tag v0.35.N
+
+2011-10-19 00:11  NiLuJe
+
+	* [r7668] src/linkjail/bin/libkh:
+	  
+	  Kindle Hacks:
+	  * USBNetwork:
+	  * Use libkh
+
+2011-10-19 00:01  NiLuJe
+
+	* [r7667] src/linkjail/bin/libkh[CPY], src/linkjail/bin/linkjail,
+	  src/linkjail/bin/unlinkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Use libkh
+
+2011-10-14 16:24  NiLuJe
+
+	* [r7637] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Update MR Thread
+
+2011-10-11 16:03  NiLuJe
+
+	* [r7633] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-10-11 16:02  NiLuJe
+
+	* [r7632] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak, Fonts, ScreenSavers:
+	  * Update whitelist
+
+2011-10-06 02:11  NiLuJe
+
+	* [r7629] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak, Fonts & ScreenSavers:
+	  * Update JB whitelist
+
+2011-09-20 04:32  NiLuJe
+
+	* [r7601] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-20 04:30  NiLuJe
+
+	* [r7600] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Note to self: stop having bright ideas at 6 AM.
+	  Latest key inconsistency check is pretty much unreachable.
+	  *facepalm*
+
+2011-09-17 23:58  NiLuJe
+
+	* [r7596] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-17 22:38  NiLuJe
+
+	* [r7593] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Also warn users during install if the keys are in an inconsistent
+	  state
+	  (ie. after a failed/incomplete uninstall of some jailbreak versions)
+	  * x-compile:
+	  * Bump FT
+
+2011-09-10 18:24  NiLuJe
+
+	* [r7574] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-10 18:23  NiLuJe
+
+	* [r7573] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Hey, it works even better if I actually build the archive *before*
+	  trying to package it...
+	  *facepalm* (Fix 3.0-3.2 packages...).
+
+2011-09-10 18:19  NiLuJe
+
+	* [r7572] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-10 17:56  NiLuJe
+
+	* [r7570] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.9.N
+	  * Fonts:
+	  * Tag v0.4.8.N
+	  * ScreenSavers:
+	  * Tag v0.24.N
+	  * Update MR thread
+
+2011-09-10 17:14  NiLuJe
+
+	* [r7568] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Warn the user in a visible way if another jailbreak is found during
+	  install.
+
+2011-09-05 14:43  NiLuJe
+
+	* [r7553] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-05 14:42  NiLuJe
+
+	* [r7552] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Don't rely on blind luck and/or a race condition
+	  (not exactly sure, can't figure out in which order find matches
+	  stuff...)
+	  for the 3.2.1 exploit.
+	  Thanks again to serge_levin for reviewing these commits and pointing
+	  out the
+	  flaws ;).
+
+2011-09-05 01:52  NiLuJe
+
+	* [r7550] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-05 01:52  NiLuJe
+
+	* [r7549] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Don't break the 3.2.1 exploit by trying to be shiny ;p.
+
+2011-09-04 18:47  NiLuJe
+
+	* [r7548] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-09-04 18:44  NiLuJe
+
+	* [r7547] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.8.N
+	  * Update MR thread for new JB instructions.
+
+2011-09-04 18:30  NiLuJe
+
+	* [r7546] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Use yifanlu's & serge_levin newest exploit for FW 3.2.1, thanks!
+	  (http://yifan.lu/p/kindle-jailbreak /
+	  http://www.mobileread.com/forums/showpost.php?p=1725629&postcount=151)
+
+2011-08-25 17:49  NiLuJe
+
+	* [r7540] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-08-25 17:31  NiLuJe
+
+	* [r7537] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Update whitelist (and put the blank last line back, *sigh*)
+	  * ScreenSavers & Fonts:
+	  * Update fallback whitelist
+
+2011-08-22 00:53  NiLuJe
+
+	* [r7533] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2011-07-02 15:06  NiLuJe
+
+	* [r7496] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Update Tool:
+	  * Tag v0.12
+	  * Hacks:
+	  * Use update tool 0.12
+
+2011-05-09 04:20  NiLuJe
+
+	* [r7453] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JB & co:
+	  * Update whielist/fallback whitelist.
+
+2011-05-03 18:10  NiLuJe
+
+	* [r7450] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-05-03 18:10  NiLuJe
+
+	* [r7449] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix the whitelist once again for a stupid mistake...
+	  Thanks to kindle-hopes on MR for pointing that out ;).
+
+2011-04-20 17:02  NiLuJe
+
+	* [r7433] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-04-20 17:01  NiLuJe
+
+	* [r7432] src/build-updates.sh, src/linkjail/info.txt:
+	  
+	  Kindle Hacks:
+	  * Tag JB v0.7.N, SS v0.22.N, Fonts v4.6.N
+
+2011-04-20 16:57  NiLuJe
+
+	* [r7431] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * When checking an update file name against the whitelist,
+	  don't always assume it will be in the form name_*.bin...
+	  (ie. with that extra underscore there). Fix a bunch of
+	  hacks, most notably yifanlu's 3.1 on K2 stuff ;).
+	  Thanks to tekkasit on MR for the report :).
+
+2011-04-19 02:51  NiLuJe
+
+	* [r7421] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-04-19 02:38  NiLuJe
+
+	* [r7419] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * Update whitelist
+
+2011-04-11 02:55  NiLuJe
+
+	* [r7401] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JB, SS, Fonts:
+	  * Update whitelist
+
+2011-04-10 00:44  NiLuJe
+
+	* [r7400] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Add KindleNote devkeys to the whitelist
+	  * Fonts & ScreenSavers:
+	  * Update whitelist
+
+2011-03-23 01:19  NiLuJe
+
+	* [r7379] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-03-23 01:18  NiLuJe
+
+	* [r7378] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Forgot to update whitelist md5sum... >_<"
+
+2011-03-23 01:08  NiLuJe
+
+	* [r7377] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-03-23 01:08  NiLuJe
+
+	* [r7376] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix the dos2unix sed script to work with busybox's crappy sed
+	  implementation
+	  * Fonts & ScreenSavers:
+	  * Update whitelist
+	  * USBNetwork:
+	  * Do a dos2unix run on the config file before source'ing it
+
+2011-03-22 19:09  NiLuJe
+
+	* [r7375] src/linkjail/bin/linkjail, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Update whitelist with Sir ALex's latst hacks.
+	  * Try to fix broken DOS line endings in the whitelist...
+	  (FIXME: busybox's sed doesn't handle that script. Fix it, or use tr)
+
+2011-03-07 21:15  NiLuJe
+
+	* [r7362] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+	  * Update MR Thread
+
+2011-03-01 15:12  NiLuJe
+
+	* [r7328] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-03-01 14:52  NiLuJe
+
+	* [r7326] src/3.1-install.sh, src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Update whitelist (with Sir Alex requests)
+	  * Made the install process custom config checksum tests way more
+	  robust.
+	  * Fonts & ScreenSavers:
+	  * Use a smaller fallback whitelist
+
+2011-03-01 14:02  NiLuJe
+
+	* [r7325] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-03-01 14:02  NiLuJe
+
+	* [r7324] src/3.1-uninstall.sh, src/build-updates.sh,
+	  src/linkjail/info.txt, src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Immediately switch back to default keys instead of waiting for a
+	  reboot.
+	  * Tag v0.6.N
+	  * Update MR Thread
+
+2011-02-28 19:37  NiLuJe
+
+	* [r7321] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-02-28 19:37  NiLuJe
+
+	* [r7320] src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Oops, forgot to update the checksums in the install script after the
+	  whitelist update.
+	  * Fonts/ScreenSavers:
+	  * Update fallback whitelist.
+
+2011-02-28 16:11  NiLuJe
+
+	* [r7319] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-02-28 16:10  NiLuJe
+
+	* [r7318] src/linkjail/etc/whitelist:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Add duokan uninstall to the whitelist
+
+2011-02-28 15:41  NiLuJe
+
+	* [r7317] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-02-28 14:48  NiLuJe
+
+	* [r7315] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-02-28 14:47  NiLuJe
+
+	* [r7314] src/linkjail/bin/linkjail:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix whitelist parsing... The Kindle's shell doesn't play nice
+	  with unquoted wildcard matches in a test, so use a case switch
+	  instead.
+	  * Fonts & SCreenSavers:
+	  * Fix the update trap tests. (Same issue as the jailbreak).
+
+2011-02-27 20:09  NiLuJe
+
+	* [r7313] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CL
+
+2011-02-27 16:37  NiLuJe
+
+	* [r7308] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Fix stupid typo. Damn head cold.
+
+2011-02-27 16:34  NiLuJe
+
+	* [r7307] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Tag v0.5.N
+	  * Update MR Thread.
+
+2011-02-27 16:30  NiLuJe
+
+	* [r7306] src/3.0-install.sh, src/3.1-install.sh:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * In addition to the new key-switch method, do continue
+	  to use the previous 3.0.x only simple key method for the K3 jailbreak.
+
+2011-02-27 16:23  NiLuJe
+
+	* [r7305] src/3.0-install.sh[CPY], src/3.0-jb-sig[DEL],
+	  src/3.1-install.sh[CPY], src/3.1-uninstall.sh[CPY],
+	  src/build-updates.sh, src/linkjail[ADD], src/linkjail-init[ADD],
+	  src/linkjail/bin[ADD], src/linkjail/bin/linkjail[ADD],
+	  src/linkjail/bin/unlinkjail[ADD], src/linkjail/etc[ADD],
+	  src/linkjail/etc/pubhack.key[ADD], src/linkjail/etc/whitelist[ADD],
+	  src/linkjail/info.txt[ADD]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Use yifanlu's exploit for FW 3.1 compatiblity
+	  * Semi-smart key switch based on a hack whitelist (when running on FW
+	  3.1)
+
+2010-11-20 00:29  NiLuJe
+
+	* [r7240] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-20 00:28  NiLuJe
+
+	* [r7238] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-19 22:46  NiLuJe
+
+	* [r7236] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-19 02:03  NiLuJe
+
+	* [r7216] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-19 02:01  NiLuJe
+
+	* [r7214] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-16 04:46  NiLuJe
+
+	* [r7196] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Udate MR Thread
+	  * Update ChangeLogs
+
+2010-11-11 07:33  NiLuJe
+
+	* [r7158] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-11 04:54  NiLuJe
+
+	* [r7156] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-11 04:25  NiLuJe
+
+	* [r7154] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-11-11 02:19  NiLuJe
+
+	* [r7148] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-11-10 21:59  NiLuJe
+
+	* [r7140] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+	  * Update MR Thread, in preparation of release.
+
+2010-10-25 21:51  NiLuJe
+
+	* [r7048] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-25 20:53  NiLuJe
+
+	* [r7046] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-19 20:51  NiLuJe
+
+	* [r7003] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update MR Thread for jb release.
+
+2010-10-19 04:06  NiLuJe
+
+	* [r7001] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Update ChangeLog
+
+2010-10-19 03:57  NiLuJe
+
+	* [r6999] src/2.5-install.sh[ADD], src/2.5-install.sh.sig[ADD],
+	  src/3.0-jailbreak.dat[ADD], src/3.0-jailbreak.dat.sig[ADD],
+	  src/3.0-jb-sig[ADD], src/build-updates.sh, src/install.sh[DEL],
+	  src/install.sh.sig[DEL]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * New jb method for FW 3.x, works on 3.0.3 :)
+	  * Tag v0.4.N
+
+2010-10-18 21:45  NiLuJe
+
+	* [r6996] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-18 20:33  NiLuJe
+
+	* [r6993] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-18 20:31  NiLuJe
+
+	* [r6991] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-18 05:00  NiLuJe
+
+	* [r6987] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-09 21:24  NiLuJe
+
+	* [r6956] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-04 23:00  NiLuJe
+
+	* [r6941] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLog
+
+2010-10-04 20:31  NiLuJe
+
+	* [r6938] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-02 03:33  NiLuJe
+
+	* [r6928] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-02 03:12  NiLuJe
+
+	* [r6926] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-10-01 16:27  NiLuJe
+
+	* [r6923] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-30 21:15  NiLuJe
+
+	* [r6914] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+	  * Packager:
+	  * Package the font packager
+
+2010-09-30 16:53  NiLuJe
+
+	* [r6910] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update Cls
+	  * Update MR Thread
+
+2010-09-29 20:43  NiLuJe
+
+	* [r6905] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-28 19:14  NiLuJe
+
+	* [r6901] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-28 16:18  NiLuJe
+
+	* [r6896] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-27 22:23  NiLuJe
+
+	* [r6893] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-27 18:20  NiLuJe
+
+	* [r6888] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-26 14:49  NiLuJe
+
+	* [r6884] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-26 01:47  NiLuJe
+
+	* [r6879] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-25 22:41  NiLuJe
+
+	* [r6873] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-24 00:52  NiLuJe
+
+	* [r6855] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-23 23:17  NiLuJe
+
+	* [r6848] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-09-21 23:56  NiLuJe
+
+	* [r6826] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-21 23:32  NiLuJe
+
+	* [r6822] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-21 20:38  NiLuJe
+
+	* [r6812] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-21 18:17  NiLuJe
+
+	* [r6806] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-21 15:34  NiLuJe
+
+	* [r6800] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update Cls.
+	  * Update MR Thread.
+
+2010-09-19 23:39  NiLuJe
+
+	* [r6777] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update MR thread
+	  * Update CLs
+
+2010-09-19 23:37  NiLuJe
+
+	* [r6776] src/2.5-jailbreak.dat[ADD], src/build-updates.sh,
+	  src/install.sh[ADD], src/install.sh.sig[ADD]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * I'm stupid. Restore/fix fw 2.x jailbreak method.
+	  * Tag v0.3.N
+
+2010-09-18 23:57  NiLuJe
+
+	* [r6768] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-18 21:16  NiLuJe
+
+	* [r6766] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-09-18 21:07  NiLuJe
+
+	* [r6764] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-09-18 21:05  NiLuJe
+
+	* [r6763] src/2.5-jailbreak.dat[DEL],
+	  src/3.0-jailbreak-uninstall.sh[DEL], src/3.0-jailbreak.sh[DEL],
+	  src/build-updates.sh, src/install.sh[DEL], src/install.sh.sig[DEL]:
+	  
+	  Kindle Hacks:
+	  * JealBreak:
+	  * Rofl. It works.
+	  * Update MR thread.
+
+2010-09-18 20:39  NiLuJe
+
+	* [r6761] src/build-updates.sh, src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Another really stupid K3 jailbreak idea...
+
+2010-09-08 01:16  NiLuJe
+
+	* [r6704] src/3.0-jailbreak-uninstall.sh[ADD],
+	  src/3.0-jailbreak.sh[ADD], src/build-updates.sh, src/uninstall.sh:
+	  
+	  Kindle Hacks:
+	  * Initial Kindle FW 3.x jailbreak script.
+	  Thanks to ecostin @MR for the discovery ;).
+	  (http://www.mobileread.com/forums/showthread.php?t=97745)
+
+2010-09-08 00:59  NiLuJe
+
+	* [r6703] src/2.5-jailbreak.dat, src/490480060-490488060.ffs[DEL],
+	  src/490480060-490488060.ffs.sig[DEL], src/build-updates.sh,
+	  src/install.sh, src/install.sh.sig:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Finish cleanup & fix build script.
+
+2010-09-08 00:56  NiLuJe
+
+	* [r6702] src/2.5-jailbreak.dat, src/3.0-jailbreak.dat[DEL],
+	  src/3.0-jailbreak.dat.sig[DEL], src/490480060-490488060.ffs,
+	  src/490480060-490488060.ffs.sig, src/_dkinstall.sh[DEL],
+	  src/_dkinstall.sh.sig[DEL], src/build-updates.sh, src/install.sh[CPY],
+	  src/install.sh.sig[CPY], src/kindle_update_tool.py,
+	  src/rootfs_md5_list.tar.gz[DEL], src/rootfs_md5_list.tar.gz.sig[DEL],
+	  src/update-patches.tar.gz[DEL], src/update-patches.tar.gz.sig[DEL]:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Move stuff around a bit to cleanup in preparation of the new
+	  fw 3.0 jb method.
+
+2010-08-30 15:07  NiLuJe
+
+	* [r6688] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Jailbreak:
+	  * And resync with latest packager.
+
+2010-08-30 15:05  NiLuJe
+
+	* [r6687] src/3.0-jailbreak.dat[ADD], src/3.0-jailbreak.dat.sig[ADD],
+	  src/490480060-490488060.ffs[ADD],
+	  src/490480060-490488060.ffs.sig[ADD], src/build-updates.sh,
+	  src/rootfs_md5_list.tar.gz[ADD], src/rootfs_md5_list.tar.gz.sig[ADD],
+	  src/update-patches.tar.gz[ADD], src/update-patches.tar.gz.sig[ADD]:
+	  
+	  Kindle Hacks:
+	  * Jailbreak:
+	  * Add remnants of my failed FW 3.x jailbreak attempts. :(
+
+2010-08-30 00:45  NiLuJe
+
+	* [r6685] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-08-30 00:43  NiLuJe
+
+	* [r6683] src/build-updates.sh:
+	  
+	  Kindle Hacks:
+	  * Use variables instead of having to repeat the name of the hack
+	  multiple times
+
+2010-08-26 14:52  NiLuJe
+
+	* [r6674] src/build-updates.sh, src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Jailbreak:
+	  * Add (untested) support for Kindle 3 WiFi
+
+2010-08-23 22:19  NiLuJe
+
+	* [r6658] src/build-updates.sh, src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * JailBreak:
+	  * Initial (untested) K3 support
+	  * Tag v0.2.N
+
+2010-08-11 03:22  NiLuJe
+
+	* [r6633] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-08-10 22:38  NiLuJe
+
+	* [r6631] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-10 21:32  NiLuJe
+
+	* [r6629] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-10 21:28  NiLuJe
+
+	* [r6627] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-10 21:19  NiLuJe
+
+	* [r6624] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-08-07 03:54  NiLuJe
+
+	* [r6615] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-07 03:49  NiLuJe
+
+	* [r6613] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-07 01:58  NiLuJe
+
+	* [r6608] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-08-06 23:23  NiLuJe
+
+	* [r6602] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-28 21:28  NiLuJe
+
+	* [r6576] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-07-28 21:23  NiLuJe
+
+	* [r6574] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-20 20:28  NiLuJe
+
+	* [r6563] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-20 20:12  NiLuJe
+
+	* [r6561] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-20 20:12  NiLuJe
+
+	* [r6560] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Fonts & SS:
+	  * *sigh* Trap official updates too. (case issue)
+
+2010-07-20 00:18  NiLuJe
+
+	* [r6554] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-19 23:19  NiLuJe
+
+	* [r6552] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLog
+
+2010-07-19 22:50  NiLuJe
+
+	* [r6550] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-18 04:52  NiLuJe
+
+	* [r6530] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-12 04:39  NiLuJe
+
+	* [r6520] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-11 22:51  NiLuJe
+
+	* [r6516] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-09 18:15  NiLuJe
+
+	* [r6482] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-09 15:46  NiLuJe
+
+	* [r6480] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Yep. KDX Graphite support works.
+
+2010-07-09 04:31  NiLuJe
+
+	* [r6479] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-09 04:31  NiLuJe
+
+	* [r6478] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * DXg support... Take three.
+
+2010-07-08 22:14  NiLuJe
+
+	* [r6477] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * DXG support, take two. (probably won't work either).
+
+2010-07-08 20:05  NiLuJe
+
+	* [r6475] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-08 20:04  NiLuJe
+
+	* [r6474] src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Add Kindle DX Graphite support (And hopefully actually working...
+	  ^^)
+
+2010-07-07 23:56  NiLuJe
+
+	* [r6467] src/build-updates.sh, src/kindle_update_tool.py:
+	  
+	  Kindle Hacks:
+	  * Let's try a DXg jailbreak...
+
+2010-07-05 03:32  NiLuJe
+
+	* [r6463] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLog
+
+2010-07-05 02:49  NiLuJe
+
+	* [r6460] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs for the quick fix releases (v3.3.N & v0.6.N).
+	  Forgot to zero-pad the kill init level var. *sigh*
+
+2010-07-04 23:09  NiLuJe
+
+	* [r6457] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update ChangeLogs
+
+2010-07-03 21:18  NiLuJe
+
+	* [r6437] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Update CLs
+
+2010-07-01 18:36  NiLuJe
+
+	* [r6418] ChangeLog:
+	  
+	  Kindle Hacks:
+	  * Tweak ChangeLog gen
+
+2010-07-01 18:33  NiLuJe
+
+	* [r6417] ChangeLog[ADD]:
+	  
+	  Kindle Hacks:
+	  * Add a full ChangeLog :)
+
+2010-07-01 18:20  NiLuJe
+
+	* [r6416] src/build-updates.sh, update_jailbreak_k2i_install.bin[DEL],
+	  update_jailbreak_k2i_uninstall.bin[DEL]:
+	  
+	  Kindle:
+	  * Hacks:
+	  * Add info.txt file for Fonts & SS hacks to their respective
+	  custom folder, with a link to the MR posts.
+	  * Add Id svn keywords to each custom shell scripts
+
+2010-07-01 18:07  NiLuJe
+
+	* [r6415] src/build-updates.sh:
+	  
+	  Kindle:
+	  * Make zip from a SVN checkout to avoid issue like with the first
+	  release...
+	  * Use dx/dxi instead of k3/k3i to avoid confusion with the new DX
+	  graphite and
+	  the probably upcoming 'real' k3.
+	  * Fonts:
+	  * USB Watchdog:
+	  * Sleep for 10 seconds to let everything settle (and give us a
+	  chance to do a physical reset if things go wrong)
+
+2010-06-20 23:52  NiLuJe
+
+	* [r6388] .[ADD], src[ADD], src/2.5-jailbreak.dat[ADD],
+	  src/_dkinstall.sh[ADD], src/_dkinstall.sh.sig[ADD],
+	  src/build-updates.sh[ADD], src/kindle_update_tool.py[ADD],
+	  src/uninstall.sh[ADD], src/update-adds.tar.gz[ADD],
+	  update_jailbreak_k2i_install.bin[ADD],
+	  update_jailbreak_k2i_uninstall.bin[ADD]:
+	  
+	  Kindle:
+	  * Initial import of my patched-up versions of the most common Kindle
+	  hacks
+	  * Jailbreak (cf.
+	  http://www.mobileread.com/forums/showpost.php?p=963004&postcount=2)
+	  * Based on Clarknova's version, so, without overwriting the original
+	  key
+	  * With an uninstaller, just in case ;)
+	  * Screen Savers (cf.
+	  http://www.mobileread.com/forums/showpost.php?p=963004&postcount=2)
+	  * Based on Clarknova's version
+	  * But using the same concept as the new unicode fonts hack: bind
+	  mounts! :)
+	  * It _should_ support both k2 & kDX with the same scripts
+	  * User-visible backup
+	  * Emergency script aware
+	  * The customizing of the version tag is use-controlled (nothing by
+	  default)
+	  * Fonts/Unicode (cf.
+	  http://www.the-ebook.org/forum/viewtopic.php?t=11259)
+	  * Based on Boroda's version
+	  * So, bind mounts, YAY!, meaning you can switch fonts without
+	  reinstalling the hack!
+	  * User-visible backups
+	  * Emergency script aware
+	  * User-controlled customizing of the version tag (nothing by default)
+	  (NOTE: Shit may happen if you use overly long version strings)
+

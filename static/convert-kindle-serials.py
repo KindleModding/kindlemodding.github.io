@@ -515,7 +515,7 @@ generationMap = [
         "last_firmware": "5.3.7.3",
         "platform": "Yoshi",
         "board": "Whitney",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=225030\">K5 JailBreak (5.0.x - 5.4.4.2)</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/KindleBreak/\">KindleBreak (5.10.3 - 5.13.3)</a><br/><br/><a href=\"/jailbreaking/Legacy/K5-Jailbreak/\">K5 JailBreak (5.0.x - 5.4.4.2)</a>"
     },
     # Kindle 4 with a black bezel, released fall 2012
     {
@@ -527,7 +527,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Sauza",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K4-Jailbreak/\">NiLuJe K4 Jailbreak</a>"
     },
     # Kindle 4 with a silver bezel, released fall 2011
     {
@@ -539,7 +539,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Tequila",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K4-Jailbreak/\">NiLuJe K4 Jailbreak</a>"
     },
     # Kindle 3 (Kindle Keyboard)
     {
@@ -551,7 +551,7 @@ generationMap = [
         "last_firmware": "3.4.3",
         "platform": "Luigi",
         "board": "Shasta",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle DX
     {
@@ -563,7 +563,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "???",
         "board": "Nell/NellSL/NellWW",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle 2
     {
@@ -575,7 +575,7 @@ generationMap = [
         "last_firmware": "2.5.8",
         "platform": "Mario/MarioDeprecated",
         "board": "Mario",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=88004\">NiLuJe Kindle Hacks</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/\">NiLuJe K2/DX/DXG/K3 Jailbreak</a>"
     },
     # Kindle
     {
