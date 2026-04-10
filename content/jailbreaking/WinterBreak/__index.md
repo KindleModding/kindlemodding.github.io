@@ -132,7 +132,7 @@ If an **“Unexpected error”** occurs when you try to log in to the Kindle Sto
 4. Browse the regular Kindle Store for a couple of minutes to generate the files needed for Winterbreak, browse the book categories and download a free sample of any book
 5. Enable Airplane mode and plug your Kindle into your PC again
 6. Delete the cache directory in the path `.active_content_sandbox/store/resource/LocalStorage`. If this folder has not yet been generated, browse the Kindle Store for another couple of minutes until it is generated.
-7. Once deleted, copy the Winterbreak files to your Kindle, delete any stray `update-bin-whatever.bin` file and reboot
+7. Once deleted, copy the Winterbreak files to your Kindle, delete any stray `update-bin-whatever.bin` or `update.bin.tmp.partial` files and reboot
 8. Open the Kindle Store on your Kindle, when prompted, click `Yes` to turn off Airplane mode
 
 ### Factory Reset
