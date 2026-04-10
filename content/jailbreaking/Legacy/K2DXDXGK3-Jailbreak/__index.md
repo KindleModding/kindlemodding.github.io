@@ -49,7 +49,7 @@ The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](http
             <div class="stepContent">
                 <p>Plug your Kindle into your PC and copy the <code>Update_jailbreak_0.13.N_[whatever]_install.bin</code> file to it</p>
                 <p class="warning">
-                   If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for the hotfix to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading
+                   If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for this to work.
                 </p>
             </div>
         </div>
@@ -62,7 +62,14 @@ The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](http
         <div class="step">
             <h2>Install the jailbreak</h2>
             <div class="stepContent">
-                <p>Eject and unplug your Kindle</p>
+                <p>Navigate to:</p>
+                <p><code>[HOME]</code> -> <code>[MENU]</code> -> <code>Settings</code> -> <code>[MENU]</code> -> Update Your Kindle</p>
+                <br>
+                <p>Once your Kindle has rebooted, you are jailbroken</p>
+                <br>
+                <p class="note">
+                    Error <code>U006</code> is normal on firmware <code>2.x</code>, ignore it.
+                </p>
             </div>
         </div>
     </div>
@@ -75,6 +82,9 @@ The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](http
 <script>new Guide("guide", "/jailbreaking/post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
 
 <script>
+/**
+ * NOTE: The min_firmware is INCLUSIVE, the max_firmware is EXCLUSIVE
+ */
 const jbDevices = [
     {
         "device_code": "02",
@@ -173,19 +183,19 @@ const jbDevices = [
             {
                 "url": "./Update_jailbreak_0.13.N_k3g_install.bin",
                 "min_firmware": [3, 3],
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             },
             {
                 "url": "Update_jailbreak_0.13.N_k3g-3.0-to-3.2_install.bin",
                 "min_firmware": [3, 0],
-                "max_firmware": [3, 2]
+                "max_firmware": [3, 3]
             }
         ],
         "uninstallers": [
             {
                 "url": "./Update_jailbreak_0.13.N_k3g_uninstall.bin",
                 "min_firmware": null,
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             }
         ]
     },
@@ -196,19 +206,19 @@ const jbDevices = [
             {
                 "url": "./Update_jailbreak_0.13.N_k3w_install.bin",
                 "min_firmware": [3, 3],
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             },
             {
                 "url": "Update_jailbreak_0.13.N_k3w-3.0-to-3.2_install.bin",
                 "min_firmware": [3, 0],
-                "max_firmware": [3, 2]
+                "max_firmware": [3, 3]
             }
         ],
         "uninstallers": [
             {
                 "url": "./Update_jailbreak_0.13.N_k3w_uninstall.bin",
                 "min_firmware": null,
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             }
         ]
     },
@@ -219,19 +229,19 @@ const jbDevices = [
             {
                 "url": "./Update_jailbreak_0.13.N_k3gb_install.bin",
                 "min_firmware": [3, 3],
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             },
             {
                 "url": "Update_jailbreak_0.13.N_k3gb-3.0-to-3.2_install.bin",
                 "min_firmware": [3, 0],
-                "max_firmware": [3, 2]
+                "max_firmware": [3, 3]
             }
         ],
         "uninstallers": [
             {
                 "url": "./Update_jailbreak_0.13.N_k3gb_uninstall.bin",
                 "min_firmware": null,
-                "max_firmware": [3, 4, 3]
+                "max_firmware": [3, 4, 4]
             }
         ]
     }
@@ -248,6 +258,23 @@ function compareFirmwareVersions(a, b)
         }
     }
     return a.length - b.length; // If comparables are the same then go by length
+}
+
+function subtractFirmware(firm)
+{
+    const newFirm = [];
+    for (el of firm)
+        newFirm.push(el);
+
+    let targetIndex = newFirm.length-1;
+    while (targetIndex > 0 && newFirm[targetIndex] == 0)
+        targetIndex--;
+
+    if (newFirm[targetIndex] == 0)
+        return 0
+
+    newFirm[targetIndex]--;
+    return newFirm;
 }
 
 function generateTable()
@@ -284,11 +311,11 @@ function generateTable()
             td_device_code.innerText = device.device_code;
 
             if (installer.min_firmware != null && installer.max_firmware != null)
-                td_firmware_version.innerText = installer.min_firmware.join(".") + ' - ' + installer.max_firmware.join(".");
+                td_firmware_version.innerText = installer.min_firmware.join(".") + ' - ' + subtractFirmware(installer.max_firmware).join(".");
             else if (installer.min_firmware != null)
                 td_firmware_version.innerText = ">=" + installer.min_firmware.join(".");
             else if (installer.max_firmware != null)
-                td_firmware_version.innerText = "<=" + installer.max_firmware.join(".");
+                td_firmware_version.innerText = "<=" + subtractFirmware(installer.max_firmware).join(".");
             else
                 td_firmware_version.innerText = "Any";
 
@@ -414,6 +441,7 @@ function search()
                 continue;
             }
             
+            console.log("\n\n")
             for (let j=0; j < jbDevices[i].installers.length; j++)
             {
                 const installer = jbDevices[i].installers[j];
@@ -422,12 +450,25 @@ function search()
                         firmwareArray == null ||
                         (
                             (installer.min_firmware == null || compareFirmwareVersions(firmwareArray, installer.min_firmware) >= 0) && 
-                            (installer.max_firmware == null || compareFirmwareVersions(firmwareArray, installer.max_firmware) <= 0)
+                            (installer.max_firmware == null || compareFirmwareVersions(firmwareArray, installer.max_firmware) < 0)
                         )
                     )
                 )
                 {
                     targetIndices.push(actualIndex);
+                }
+
+                console.log(firmwareArray);
+                if (installer.min_firmware != null)
+                {
+                    console.log(installer.min_firmware);
+                    console.log(compareFirmwareVersions(firmwareArray, installer.min_firmware));
+                }
+
+                if (installer.max_firmware != null)
+                {
+                    console.log(installer.max_firmware);
+                    console.log(compareFirmwareVersions(firmwareArray, installer.max_firmware));
                 }
                 allFirmwareTargetIndices.push(actualIndex);
                 actualIndex++;
