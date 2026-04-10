@@ -515,7 +515,7 @@ generationMap = [
         "last_firmware": "5.3.7.3",
         "platform": "Yoshi",
         "board": "Whitney",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=225030\">K5 JailBreak (5.0.x - 5.4.4.2)</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/KindleBreak/\">KindleBreak (5.10.3 - 5.13.3)</a><br/><br/><a href=\"/jailbreaking/Legacy/K5-Jailbreak/\">K5 JailBreak (5.0.x - 5.4.4.2)</a>"
     },
     # Kindle 4 with a black bezel, released fall 2012
     {
