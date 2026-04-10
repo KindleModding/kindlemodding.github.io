@@ -91,3 +91,4 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
 - Try copying the `Update_KUALBooklet_hotfix_*_install.bin` file to the root of your Kindle when connected to your PC, and then go to `Settings` > `Update Your Kindle`, then resume from `step 5`
 - Make sure you have around `500 MB` of free space available
 - Try restarting the Kindle if the `;log mrpi` command is not responding
+- Ensure that the file does not have any special characters such as brackets in it, some browsers may rename files adding `(1)` or other additional suffixes to the file name and these should be removed before copying to the Kindle
