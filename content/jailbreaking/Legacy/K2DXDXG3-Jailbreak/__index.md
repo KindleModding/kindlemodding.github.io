@@ -45,68 +45,24 @@ The K2 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobilerea
             </div>
         </div>
         <div class="step">
-            <h2>Download Ads</h2>
+            <h2>Copy Installer</h2>
             <div class="stepContent">
-                <p>Leave your kindle for a while, connected to the internet, so it can download advertisements.<br/><br/> If you press the lock button, an advertisement should be displayed.<br/><br/> If advertisements aren't being downloaded after a while, a factory reset may help.</p>
-            </div>
-        </div>
-        <div class="step">
-            <h2>Aeroplane Mode</h2>
-            <div class="stepContent">
-                <p>Once you have verified ads are displayed on the lockscreen, enable airplane mode.</p>
-                <img src="./airplane_mode.png" /> 
-            </div>
-        </div>
-        <div class="step">
-            <h2>View all ads</h2>
-            <div class="stepContent">
-                <p>Click on the top right menu and select "View all ads", which should display multiple "special offers".</p>
-                <img src="./view_ads.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Copy .assets</h2>
-            <div class="stepContent">
-                <p>Plug in the Kindle, open the system folder and copy the ".assets" folder to your computer.</p>
-                <img src="./copy_assets.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Unzip AdBreak</h2>
-            <div class="stepContent">
-                <p>Unzip the previously downloaded AdBreak, and place the extracted contents within the ".assets" folder located on your computer.</p>
-                <img src="./copy_adbreak.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Run The Replace Script</h2>
-            <div class="stepContent">
-                <div class="version-block">
-                    <p class="version-label">Windows:</p>
-                    <p>Double-click on "replace.bat" to run it.</p>
-                </div>
-                <div class="version-block">
-                    <p class="version-label">MacOS/Linux:</p>
-                    <p>Run <code> find . -name 'details.html' -exec cp adbreak.html {} \;</code> using a terminal.</p>
-                </div>
-                <img src="./replacer.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Replace Kindle .assets</h2>
-            <div class="stepContent">
-                <p>Delete the original kindle <code>.assets</code> and replace it with your on-PC modified copy.</p>
-                <img src="./replace_old_assets.png" />
-            </div>
-        </div>
-        <div class="step">
-            <h2>Jailbreak!</h2>
-            <div class="stepContent">
-                <p>Unplug, click on an ad and go through the popups, once you click Close on "Bang!", the jailbreak script should run.</p>
-                <p class="note">
-                    You can safely ignore any "application error" popups, they are irrelevant.
+                <p>Plug your Kindle into your PC and copy the <code>Update_jailbreak_0.13.N_[whatever]_install.bin</code> file to it</p>
+                <p class="warning">
+                   If you see any other files on your Kindle ending in <code>.bin</code>, or have a similar name to <code>update.bin.tmp.partial</code>, you must delete them for the hotfix to work. <br> Remember to enable Airplane mode to prevent any automatic updates from downloading
                 </p>
-                <img src="./demo.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Eject & Unplug</h2>
+            <div class="stepContent">
+                <p>Eject and unplug your Kindle</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Install the jailbreak</h2>
+            <div class="stepContent">
+                <p>Eject and unplug your Kindle</p>
             </div>
         </div>
     </div>
