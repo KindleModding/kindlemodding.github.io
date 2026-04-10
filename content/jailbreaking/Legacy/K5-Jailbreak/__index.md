@@ -1,13 +1,13 @@
 ---
 layout: default
 parent: Legacy
-title: NiLuJe K4 Jailbreak
+title: NiLuJe K5 Jailbreak
 weight: 1
 slug: index
 ---
 
-# NiLuJe K4 Jailbreak
-The NiLuJe K4 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
+# NiLuJe K5 Jailbreak
+The NiLuJe K5 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
 - Please check that your Kindle is [compatible](../../kindle-models) with the K2 Jailbreak
