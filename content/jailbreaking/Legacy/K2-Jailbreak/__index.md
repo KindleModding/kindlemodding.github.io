@@ -1,0 +1,385 @@
+---
+layout: default
+parent: Legacy
+title: K2 Jailbreak
+weight: 1
+slug: index
+---
+
+# K2 Jailbreak
+The K2 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
+
+## Prerequisites
+- Please check that your Kindle is [compatible](../../kindle-models) with the K2 Jailbreak
+- You will also need a PC
+
+## Installation Guide
+<div id="guide">
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+    <div id="stepwrapper" class="stepwrapper">
+        <div class="step">
+            <h2>Download Installation File</h2>
+            <div class="stepContent">
+                <div style="display: flex; flex-direction: row; margin-bottom: 1em; width: 100%;">
+                    <input required style="flex: 2; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Kindle Serial"/>
+                    <input required style="flex: 1; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Software Version"/>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Amazon Name</th>
+                            <th>Kindle Nickname</th>
+                            <th>Device Code</th>
+                            <th>Firmware Version</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Download Ads</h2>
+            <div class="stepContent">
+                <p>Leave your kindle for a while, connected to the internet, so it can download advertisements.<br/><br/> If you press the lock button, an advertisement should be displayed.<br/><br/> If advertisements aren't being downloaded after a while, a factory reset may help.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Aeroplane Mode</h2>
+            <div class="stepContent">
+                <p>Once you have verified ads are displayed on the lockscreen, enable airplane mode.</p>
+                <img src="./airplane_mode.png" /> 
+            </div>
+        </div>
+        <div class="step">
+            <h2>View all ads</h2>
+            <div class="stepContent">
+                <p>Click on the top right menu and select "View all ads", which should display multiple "special offers".</p>
+                <img src="./view_ads.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Copy .assets</h2>
+            <div class="stepContent">
+                <p>Plug in the Kindle, open the system folder and copy the ".assets" folder to your computer.</p>
+                <img src="./copy_assets.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Unzip AdBreak</h2>
+            <div class="stepContent">
+                <p>Unzip the previously downloaded AdBreak, and place the extracted contents within the ".assets" folder located on your computer.</p>
+                <img src="./copy_adbreak.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Run The Replace Script</h2>
+            <div class="stepContent">
+                <div class="version-block">
+                    <p class="version-label">Windows:</p>
+                    <p>Double-click on "replace.bat" to run it.</p>
+                </div>
+                <div class="version-block">
+                    <p class="version-label">MacOS/Linux:</p>
+                    <p>Run <code> find . -name 'details.html' -exec cp adbreak.html {} \;</code> using a terminal.</p>
+                </div>
+                <img src="./replacer.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Replace Kindle .assets</h2>
+            <div class="stepContent">
+                <p>Delete the original kindle <code>.assets</code> and replace it with your on-PC modified copy.</p>
+                <img src="./replace_old_assets.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Jailbreak!</h2>
+            <div class="stepContent">
+                <p>Unplug, click on an ad and go through the popups, once you click Close on "Bang!", the jailbreak script should run.</p>
+                <p class="note">
+                    You can safely ignore any "application error" popups, they are irrelevant.
+                </p>
+                <img src="./demo.png" />
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-orange" id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button class="btn btn-green" id="next">Next Step</button>
+    </div>
+</div>
+<script>new Guide("guide", "/jailbreaking/post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+
+<script>
+const jbDevices = [
+    {
+        "device_code": "02",
+        "nickname": "K2",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k2_install.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k2_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ]
+    },
+    {
+        "nickname": "K2I",
+        "device_code": "03",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k2i_install.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k2i_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ]
+    },
+    {
+        "nickname": "DX",
+        "device_code": "04",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dx_install.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dx_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ]
+    },
+    {
+        "nickname": "DXI",
+        "device_code": "05",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dxi_install.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dxi_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ]
+    },
+    {
+        "nickname": "DXG",
+        "device_code": "09",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dxg_install.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_dxg_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": null
+            }
+        ]
+    },
+    {
+        "nickname": "K3G",
+        "device_code": "06",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3g_install.bin",
+                "min_firmware": [3, 3],
+                "max_firmware": [3, 4, 3]
+            },
+            {
+                "url": "Update_jailbreak_0.13.N_k3g-3.0-to-3.2_install.bin",
+                "min_firmware": [3, 0],
+                "max_firmware": [3, 2]
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3g_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": [3, 4, 3]
+            }
+        ]
+    },
+    {
+        "nickname": "K3W",
+        "device_code": "08",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3w_install.bin",
+                "min_firmware": [3, 3],
+                "max_firmware": [3, 4, 3]
+            },
+            {
+                "url": "Update_jailbreak_0.13.N_k3w-3.0-to-3.2_install.bin",
+                "min_firmware": [3, 0],
+                "max_firmware": [3, 2]
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3w_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": [3, 4, 3]
+            }
+        ]
+    },
+    {
+        "nickname": "K3GB",
+        "device_code": "0A",
+        "installers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3gb_install.bin",
+                "min_firmware": [3, 3],
+                "max_firmware": [3, 4, 3]
+            },
+            {
+                "url": "Update_jailbreak_0.13.N_k3gb-3.0-to-3.2_install.bin",
+                "min_firmware": [3, 0],
+                "max_firmware": [3, 2]
+            }
+        ],
+        "uninstallers": [
+            {
+                "url": "./Update_jailbreak_0.13.N_k3gb_uninstall.bin",
+                "min_firmware": null,
+                "max_firmware": [3, 4, 3]
+            }
+        ]
+    }
+]
+
+function compareFirmwareVersions(a, b)
+{
+    toCompare = Math.min(a.length, b.length);
+    for (let i=0; i < toCompare; i++)
+    {
+        if (a[i] != b[i])
+        {
+            return a[i] - b[i];
+        }
+    }
+    return a.length - b.length; // If comparables are the same then go by length
+}
+
+fetch("/models.json").then(response => response.json()).then((data) => {
+    window.kindleModels = data;
+    const table = document.getElementById("table");
+    for (const device of jbDevices)
+    {
+        let amazon_name = "";
+        for (const model of window.kindleModels)
+        {
+            if (model.serial_version != 0)
+                continue
+
+            if (Object.keys(model.device_codes).includes(device.device_code))
+            {
+                amazon_name = model.amazon_name;
+            }
+        }
+
+        for (const installer of device.installers)
+        {
+            const row = document.createElement("tr");
+            const td_amazon_name = document.createElement("td");
+            const td_nickname = document.createElement("td");
+            const td_device_code = document.createElement("td");
+            const td_firmware_version = document.createElement("td");
+            const td_download_links = document.createElement("td");
+            const installer_link = document.createElement("a");
+            const uninstaller_link = document.createElement("a");
+
+            td_amazon_name.innerText = amazon_name;
+            td_nickname.innerText = device.nickname;
+            td_device_code.innerText = device.device_code;
+
+            if (installer.min_firmware != null && installer.max_firmware != null)
+                td_firmware_version.innerText = installer.min_firmware.join(".") + ' - ' + installer.max_firmware.join(".");
+            else if (installer.min_firmware != null)
+                td_firmware_version.innerText = ">=" + installer.min_firmware.join(".");
+            else if (installer.max_firmware != null)
+                td_firmware_version.innerText = "<=" + installer.max_firmware.join(".");
+            else
+                td_firmware_version.innerText = "Any";
+
+            installer_link.innerText = "Installer";
+            installer_link.setAttribute("href", installer.url);
+
+            uninstaller_link.innerText = "Uninstaller";
+            for (const uninstaller of device.uninstallers)
+            {
+                if ((uninstaller.min_firmware == null || compareFirmwareVersions(uninstaller.min_firmware, installer.min_firmware) <= 0)
+                    && (uninstaller.max_firmware == null || compareFirmwareVersions(uninstaller.max_firmware, installer.max_firmware) >= 0))
+                {
+                    uninstaller_link.setAttribute("href", uninstaller.url);
+                    break;
+                }
+            }
+            td_download_links.appendChild(installer_link);
+            td_download_links.appendChild(document.createElement("br"));
+            td_download_links.appendChild(uninstaller_link);
+
+            row.appendChild(td_amazon_name);
+            row.appendChild(td_nickname);
+            row.appendChild(td_device_code);
+            row.appendChild(td_firmware_version);
+            row.appendChild(td_download_links);
+            table.appendChild(row);
+        }
+    }
+});
+</script>
+
+## Credits
+```
+  kindletool: KindleTool, Copyright (C) 2011-2015  Yifan Lu, licensed under the GNU General Public License version 3+ (http://www.gnu.org/licenses/gpl.html).
+(https://github.com/NiLuJe/KindleTool/)
+
+    |
+    |->   libarchive, Copyright (C) Tim Kientzle, licensed under the New BSD License (http://www.opensource.org/licenses/bsd-license.php)
+    |   (http://libarchive.github.com/)
+    |
+    |->   GMP, GNU MP Library, Copyright 1991-2013 Free Software Foundation, Inc.,
+    |   licensed under the GNU Lesser General Public License version 3+ (http://www.gnu.org/licenses/lgpl.html).
+    |   (http://gmplib.org/)
+    |
+    `->   nettle, Copyright (C) 2001-2013 Niels Möller,
+        licensed under the GNU Lesser General Public License version 2.1+ (https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).
+        (http://www.lysator.liu.se/~nisse/nettle)
+
+  libz: zlib, Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler,
+        Licensed under the zlib license (http://zlib.net/zlib_license.html)
+        (http://zlib.net/)
+```
