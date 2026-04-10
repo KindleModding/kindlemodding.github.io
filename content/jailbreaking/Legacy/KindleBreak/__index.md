@@ -18,7 +18,7 @@ slug: index
 
 ## Jailbreaking Your Kindle
 1. On your Kindle, enable `Airplane Mode` if it isn't already on
-2. Download [`jb-kindlebreak.zip`](https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/Touch/jb-kindlebreak.zip) `MD5: 0215C36CC1E3AD8136A67DAEBE369452`
+2. Download [`jb-kindlebreak.zip`](./jb-kindlebreak.zip) `MD5: 0215C36CC1E3AD8136A67DAEBE369452`
 3. Plug your Kindle into your computer
 4. Extract the `jb-kindlebreak.zip` file to the root of your Kindle as so:
 ![jb, jb.sh and other files next to the documents folder](KindleBreak-Files.png "Like This")
