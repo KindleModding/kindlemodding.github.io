@@ -1,18 +1,26 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="shortcut icon" href="https://kindlemodding.org/favicon.ico"  type="image/x-icon">
   
-<meta property="og:title" content="KindleModding - {{.Title}}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{  .Permalink }}" />
-{{- with .Params.description -}}
-<meta name="description" content="{{.}}" />
-<meta property="og:description" content="{{.}}" />
+<meta name="twitter:site" content="Kindle Modding Wiki">
+
+<meta property="og:title" content="KindleModding - {{.Title}}">
+<meta name="twitter:title" content="KindleModding - {{.Title}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{  .Permalink }}">
+{{- with .Summary -}}
+<meta name="description" content="{{.}}">
+<meta property="og:description" content="{{.}}">
+<meta name="twitter:description" content="{{.}}">
 {{- end -}}
 {{- with .Params.image -}}
-  <meta property="og:image" content="{{ absURL . }}" />
+  <meta property="og:image" content="{{ absURL . }}">
+  <meta name="twitter:image:src" content="{{ absURL . }}">
+  <meta name="twitter:card" content="summary_large_image">
 {{- else -}}
-  <meta property="og:image" content="{{absURL "logo.png"}}" />
+  <meta property="og:image" content="{{absURL "logo.png"}}">
+  <meta name="twitter:card" content="summary">
 {{- end -}}
+<meta name="theme-color" content="#5865F2">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

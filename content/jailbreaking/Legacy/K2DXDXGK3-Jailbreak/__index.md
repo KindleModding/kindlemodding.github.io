@@ -4,7 +4,7 @@ parent: Legacy
 title: NiLuJe K2/DX/DXG/K3 Jailbreak
 weight: 1
 slug: index
-description: A jailbreak for the now-discontinued K2, DX, DXG and K3 Kindles
+summary: A jailbreak for the now-discontinued K2, DX, DXG and K3 Kindles
 ---
 
 # NiLuJe K2/DX/DXG/K3 Jailbreak

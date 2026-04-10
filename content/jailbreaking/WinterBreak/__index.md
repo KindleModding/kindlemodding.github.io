@@ -4,7 +4,7 @@ parent: Jailbreaking Your Kindle
 title: WinterBreak
 weight: 4
 slug: index
-description: WinterBreak is a Kindle jailbreak created by HackerDude based on Mesquito
+summary: WinterBreak is a Kindle jailbreak created by HackerDude based on Mesquito
 params:
     image: /jailbreaking/WinterBreak/logo.png
 ---
