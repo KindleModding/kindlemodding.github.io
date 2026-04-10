@@ -25,9 +25,10 @@ The K2 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobilerea
             <h2>Download Installation File</h2>
             <div class="stepContent">
                 <div style="display: flex; flex-direction: row; margin-bottom: 1em; width: 100%;">
-                    <input required style="flex: 2; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Kindle Serial"/>
-                    <input required style="flex: 1; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Software Version"/>
+                    <input id="serial_input" required style="flex: 2; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Kindle Serial"/>
+                    <input id="version_input" required style="flex: 1; margin: 1em;" pattern="([0-9]\.?)+" type="text" placeholder="Software Version"/>
                 </div>
+                <p id="searchStatus"></p>
                 <table>
                     <thead>
                         <tr>
@@ -293,9 +294,10 @@ function compareFirmwareVersions(a, b)
     return a.length - b.length; // If comparables are the same then go by length
 }
 
-fetch("/models.json").then(response => response.json()).then((data) => {
-    window.kindleModels = data;
+function generateTable()
+{
     const table = document.getElementById("table");
+    const newChildren = [];
     for (const device of jbDevices)
     {
         let amazon_name = "";
@@ -356,10 +358,157 @@ fetch("/models.json").then(response => response.json()).then((data) => {
             row.appendChild(td_device_code);
             row.appendChild(td_firmware_version);
             row.appendChild(td_download_links);
-            table.appendChild(row);
+            newChildren.push(row);
         }
     }
+    table.replaceChildren(...newChildren);
+}
+
+fetch("/models.json").then(response => response.json()).then((data) => {
+    window.kindleModels = data;
+    generateTable();
 });
+
+function getSerialInfo(serial) {    
+    if (serial.length == 2 || serial.length == 3)
+        return {
+            serial_version: serial.length == 2 ? 0 : 1,
+            device_code: serial
+        }
+        
+    if (serial[0] == "G") { 
+        if (serial.length < 6)
+            return -1
+
+        return {
+            "serial_version": 1,
+            "device_code": serial.substring(3, 6)
+        }
+    } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"].includes(serial[0])) {
+        if (serial.length < 4)
+            return -1
+
+        return {
+            "serial_version": 0,
+            "device_code": serial.substring(2, 4)
+        }
+    }
+    else {
+        return -2;
+    }
+}
+
+function search()
+{
+    const serialNumber = document.getElementById("serial_input").value;
+    const firmwareString = document.getElementById("version_input").value;
+    let firmwareArray = firmwareString.split('.');
+    if (firmwareString.slice(-1) == ".")
+    {
+        firmwareArray = null;
+    }
+    else
+    {
+        if (firmwareArray.length != 0 && firmwareArray[0].length != 0)
+        {
+            for (let i=0; i < firmwareArray.length; i++)
+            {
+                try {
+                    firmwareArray[i] = Number(firmwareArray[i]);
+                } catch {
+                    firmwareArray = null;
+                    break;
+                }
+            }
+        }
+        else
+        {
+            firmwareArray = null;
+        }
+    }
+    const serialInfo = getSerialInfo(serialNumber.toUpperCase().replaceAll(" ", ""));
+
+    const searchStatus = document.getElementById("searchStatus");
+    searchStatus.innerText = "";
+    
+    for (const child of document.getElementById("table").children)
+    {
+        child.style = "";
+    }
+    if (serialNumber.length == 0)
+    {
+        return;
+    }
+    
+    if (serialInfo === -1) {
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Too Short!";
+    } else if (serialInfo === -2) {
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: Serial Number Invalid!";
+    } else {
+        const targetIndices = [];
+        const allFirmwareTargetIndices = [];
+        let actualIndex = 0;
+        for (let i=0; i < jbDevices.length; i++)
+        {
+            if (jbDevices[i].device_code != serialInfo.device_code)
+            {
+                actualIndex++;
+                continue;
+            }
+            
+            for (let j=0; j < jbDevices[i].installers.length; j++)
+            {
+                const installer = jbDevices[i].installers[j];
+                if (
+                    (
+                        firmwareArray == null ||
+                        (
+                            (installer.min_firmware == null || compareFirmwareVersions(firmwareArray, installer.min_firmware) >= 0) && 
+                            (installer.max_firmware == null || compareFirmwareVersions(firmwareArray, installer.max_firmware) <= 0)
+                        )
+                    )
+                )
+                {
+                    targetIndices.push(actualIndex);
+                }
+                allFirmwareTargetIndices.push(actualIndex);
+                actualIndex++;
+            }
+        }
+
+        const table = document.getElementById("table");
+        const tableChildren = table.children;
+
+        console.log(targetIndices);
+        console.log(allFirmwareTargetIndices);
+        for (let i=0; i < tableChildren.length; i++)
+        {
+            if (targetIndices.length == 0 && allFirmwareTargetIndices.length == 0)
+                tableChildren[i].style = "";
+            else if (
+                targetIndices.includes(i) || 
+                (targetIndices.length == 0 && allFirmwareTargetIndices.includes(i))
+            )
+                tableChildren[i].style = "";
+            else
+                tableChildren[i].style = "display: none;";
+        }
+
+        if (targetIndices.length == 0 && allFirmwareTargetIndices.length == 0)
+        {
+            searchStatus.style = "color: red; font-size: 1.2em;";
+            if (serialNumber.length < 4)
+                searchStatus.innerText = "ERROR: Serial Number Too Short!";
+            else
+                searchStatus.innerHTML = "ERROR: Serial Number Not Found! Please Open a <a style=\"color: red;\" href=\"https://github.com/KindleModding/kindlemodding.github.io\">GitHub Issue.</a>";
+        }
+    }
+}
+
+document.getElementById("serial_input").addEventListener("input", search);
+document.getElementById("version_input").addEventListener("input", search);
 </script>
 
 ## Credits
