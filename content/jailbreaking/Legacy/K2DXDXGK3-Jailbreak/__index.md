@@ -6,7 +6,7 @@ weight: 1
 slug: index
 ---
 
-# NiLuJe K2/DX/DXG/K3
+# NiLuJe K2/DX/DXG/K3 Jailbreak
 The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
@@ -509,6 +509,7 @@ document.getElementById("version_input").addEventListener("input", search);
 </script>
 
 ## Credits
+- Created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 ```
   kindletool: KindleTool, Copyright (C) 2011-2015  Yifan Lu, licensed under the GNU General Public License version 3+ (http://www.gnu.org/licenses/gpl.html).
 (https://github.com/NiLuJe/KindleTool/)

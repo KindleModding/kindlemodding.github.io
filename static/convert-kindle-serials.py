@@ -527,7 +527,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Sauza",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K4-Jailbreak/\">NiLuJe K4 Jailbreak</a>"
     },
     # Kindle 4 with a silver bezel, released fall 2011
     {
@@ -539,7 +539,7 @@ generationMap = [
         "last_firmware": "4.1.4",
         "platform": "Yoshi",
         "board": "Tequila",
-        "jailbreak": "<a href=\"https://www.mobileread.com/forums/showthread.php?t=191158\">NiLuJe's K4 JB</a>"
+        "jailbreak": "<a href=\"/jailbreaking/Legacy/K4-Jailbreak/\">NiLuJe K4 Jailbreak</a>"
     },
     # Kindle 3 (Kindle Keyboard)
     {
