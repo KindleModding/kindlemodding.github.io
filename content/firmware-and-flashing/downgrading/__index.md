@@ -13,7 +13,7 @@ slug: index
 <p>
 
 <p class="note">
-<strong>Newer</strong> Kindle models <em>might</em> not be able to downgrade below<code>5.18.x</code> or across versions within the <code>5.18.x</code> branch, due to Amazon's bootloader hardening. Any additional information about this would be appreciated
+Some Kindle models <em>might</em> not be able to downgrade below<code>5.18.x</code> or across versions within the <code>5.18.x</code> branch, due to Amazon's bootloader hardening. Any additional information about this would be appreciated
 <p>
 
 ## Before You Start
