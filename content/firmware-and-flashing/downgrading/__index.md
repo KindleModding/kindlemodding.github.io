@@ -9,12 +9,12 @@ slug: index
 # Downgrading Your Kindle
 
 <p class="important">
-<strong>Downgrading is only possible on a jailbroken Kindle</strong>
+<strong>Downgrading is only possible on a jailbroken Kindle.</strong> This means that if your device is not jailbroken, you will not be able to downgrade. You can either jailbreak your device if your current firmare version has any method available, or wait for a compatible one to be released
 <p>
 
-<p class="caution">
-Devices updated to firmware version 5.18.1 or later can no longer be downgraded due to Amazon's bootloader hardening.
-</p>
+<p class="note">
+Some Kindle models <em>might</em> not be able to downgrade below<code>5.18.x</code> or across versions within the <code>5.18.x</code> branch, due to Amazon's bootloader hardening. Any additional information about this would be appreciated
+<p>
 
 ## Before You Start
 
@@ -37,6 +37,10 @@ Devices updated to firmware version 5.18.1 or later can no longer be downgraded 
 6. Your Kindle will print text on screen for a couple of seconds and will return to the library menu. Downgrading should be enabled now.
 7. Copy the `update_kindle_*.bin` file to your Kindle root directory. <span style="color: #cf4444">**Do not eject or unplug your Kindle**</span>, hold the power button until your device restarts.
 8. Your Kindle will now install the firmware you copied to it.
+
+<p class="note">
+Since firmware <code>5.18.x</code>, some Kindle models may reject the downgrade and return to the UI. You can retry by transferring the <code>.bin</code> file again and rebooting with a closer firmware downgrade. If the downgrade fails again, you will have to wait for a new downgrade method
+</p>
 
 ## Post-Downgrading
 
