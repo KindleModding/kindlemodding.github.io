@@ -25,7 +25,7 @@ The NiLuJe K4 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mo
         <div class="step">
             <h2>Download Jailbreak File</h2>
             <div class="stepContent">
-                <a class="button" href="./kindle-k4-jailbreak-1.8.N.zip">kindle-k4-jailbreak-1.8.N.zip</a>
+                <a class="button" href="./K4-Jailbreak.zip">K4-Jailbreak.zip</a>
             </div>
         </div>
         <div class="step">
