@@ -43,7 +43,7 @@ The `# UseHooks` flag allows Scriptlets to have functions that are called when c
 ```sh
 #!/bin/sh
 # Name: Test For Evnets
-# Author: HackerDude
+# Author: Hackerdude
 # UseHooks
 
 on_install() {
@@ -64,7 +64,7 @@ By default, the script's stdout and stderr are both piped to FBink to display on
 ```sh
 #!/bin/sh
 # Name: Silent Script
-# Author: HackerDude
+# Author: Hackerdude
 # DontUseFBInk
 
 echo "A user won't see this"

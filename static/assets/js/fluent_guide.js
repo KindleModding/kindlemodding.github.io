@@ -2,7 +2,7 @@
  * The fluent guide system
  * (basically a glorified carousel)
  * 
- * Created by HackerDude
+ * Created by Hackerdude (https://hackerdude.tech)
  */
 
 class Guide {
