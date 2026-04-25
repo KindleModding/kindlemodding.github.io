@@ -78,6 +78,10 @@ jobs:
               cd ..
       - name: Copy jb.sh to static folder
         run: cp _jb.sh/build/jb.sh ./static/
+      - name: Generate models.json
+        run: |
+              cd static
+              python models_json_generator.py
       - name: Build with Hugo
         run: hugo --minify
       - name: Upload artifact
