@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!searchInput || !searchResults) return;
 
-  fetch("/search_index.json")
+  fetch(`${baseUrl}search_index.json`)
     .then((response) => response.json())
     .then((data) => {
       searchIndex = data;
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     displayResults();
   }
 
-  
+
   document.addEventListener("mousedown", (e) => {
     if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
       searchResults.style.display = "none";

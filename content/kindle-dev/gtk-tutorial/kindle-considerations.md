@@ -9,4 +9,4 @@ weight: 3
 There are some important things to consider when writing GUI-based applications on the Kindle
 
 ## Window Title
-See: Awesome Window Manager
+See: [Awesome Window Manager](../awesome-window-manager/)

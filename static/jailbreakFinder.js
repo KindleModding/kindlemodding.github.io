@@ -3,7 +3,7 @@ const readLander = localStorage.getItem("readLander");
 if(!readLander) {
     showDialog(
         "Halt!",
-        `We have detected <b>you have not</b> read the <a href="/jailbreaking/">jailbreaking lander</a> informational page yet, and are trying to find your jailbreak.<br>Please head over there now, and the warning will clear. <p class="caution"><b>Do NOT expect any support otherwise.</b></p>`
+        `We have detected <b>you have not</b> read the <a href="${baseUrl}jailbreaking/">jailbreaking lander</a> informational page yet, and are trying to find your jailbreak.<br>Please head over there now, and the warning will clear. <p class="caution"><b>Do NOT expect any support otherwise.</b></p>`
     );
 };
 
@@ -192,7 +192,7 @@ let text = document.querySelector("#classification");
 let tip = document.querySelector("#tip"); 
 
 function fillResults() { //This tickles my brain
-    fetch("/jailbreaks.json").then(response => response.json()).then((data) => {
+    fetch(`${baseUrl}jailbreaks.json`).then(response => response.json()).then((data) => {
         const matches = data.filter(jb => {
             if(!jb.models.includes(window.info.model)) return false;
             if(jb.registration && window.info.blacklisted) return false;
@@ -215,9 +215,9 @@ function fillResults() { //This tickles my brain
         let next = document.querySelector(":not(.hidden).card > .buttons > #next");
 
         if(matches.length > 0) {
-            text.innerHTML = `We have determined you should use <b><a href="${matches[0].url}">${matches[0].name}</a></b>!<br/>Please press on a link or click "Finish" to get started.`;
-            
-            let others = []; matches.forEach((match, i) => i === 0 ? "" : others.push(`<a href="${match.url}">${match.name}</a>`));
+            text.innerHTML = `We have determined you should use <b><a href="${baseUrl}${matches[0].url}">${matches[0].name}</a></b>!<br/>Please press on a link or click "Finish" to get started.`;
+
+            let others = []; matches.forEach((match, i) => i === 0 ? "" : others.push(`<a href="${baseUrl}${match.url}">${match.name}</a>`));
             tip.innerHTML = others.length > 0 ? `Alternatively, you can also attempt ${others.join(", ")} if preferred/something went wrong.` : "This is the <i>only</i> jailbreak applicable to this firmware and model combination. Be careful!";
 
             next.onclick = () => { document.location = matches[0].url; };
@@ -230,6 +230,6 @@ function fillResults() { //This tickles my brain
     });
 };
 
-fetch("/models.json").then(response => response.json()).then((data) => {
+fetch(`${baseUrl}models.json`).then(response => response.json()).then((data) => {
     window.kindleModels = data;
 });

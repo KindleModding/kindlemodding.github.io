@@ -10,7 +10,7 @@ slug: index
 [KindleBreak](https://www.mobileread.com/forums/showthread.php?t=338268) is jailbreak utilising the [`KindleDrip`](https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08) webkit exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../jailbreak-wizard) with KindleBreak
+- Please check that your Kindle is [compatible](../../../jailbreak-wizard.html) with KindleBreak
 - You will also need a PC
 
 > [!WARNING]
@@ -31,7 +31,7 @@ slug: index
 
 You are now ready to check the `Post Jailbreak` section for what to do now.
 
-<a class="button" href="./post-jailbreak/">Post Jailbreak</a>
+<a class="button" href="../post-jailbreak/">Post Jailbreak</a>
 
 ## Credits
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)
