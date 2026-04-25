@@ -465,7 +465,9 @@ textarea {
 
 .footer .adsbygoogle
 {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     overflow-x: clip;
     margin-top: 1.5em;
