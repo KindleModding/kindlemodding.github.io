@@ -452,6 +452,7 @@ textarea {
     box-sizing: border-box;
     padding-bottom: 1em;
     min-height: 100vh;
+    flex-shrink: 0;
 }
 
 .footer {
