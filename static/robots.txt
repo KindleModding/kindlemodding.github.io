@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://kindlemodding.org/sitemap.xml
