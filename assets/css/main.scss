@@ -460,7 +460,20 @@ textarea {
     align-items: center;
     padding: 1.5em;
     border-top: 2px solid var(--border-colour);
+    overflow-x: clip;
+}
 
+.footer .adsbygoogle
+{
+    display: block;
+    width: 100%;
+    overflow-x: clip;
+    margin-top: 1.5em;
+}
+
+.footer .adsbygoogle[data-ad-status="unfilled"]
+{
+    display: none;
 }
 
 .slideshow, .carousel, .swiper, [class*="slide"]:not(.slide-in-left) {
