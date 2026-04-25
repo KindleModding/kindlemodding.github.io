@@ -97,22 +97,19 @@ params:
             <h1 style="color: var(--text-colour) !important;">Kindle Modding Wiki</h1>
             <p>Welcome to the Kindle Modding Wiki!</p>
             <p>Your one-stop shop for all things related to hacking Kindles.</p>
-            <a class="button" href="/jailbreaking">Get Started</a>
+            <a class="button" href="./jailbreaking">Get Started</a>
         </div>
     </div>
-
     <div class="landing-section buttons">
-        <a class="card" href="/kindle-dev/">
+        <a class="card" href="./kindle-dev">
             <h2 style="color: var(--text-colour) !important;">Developer Documentation</h2>
             <p>Documentation for homebrew developers</p>
         </a>
-
     <div class="landing-section buttons">
-        <a class="card" href="jailbreaking/jailbreak-faq.html">
+        <a class="card" href="./jailbreaking/jailbreak-faq.html">
             <h2 style="color: var(--text-colour) !important;">Jailbreak F.A.Q</h2>
             <p>Frequently Asked Questions</p>
         </a>
-
         <a class="card" href="http://discord.kindlemodding.org/">
             <h2 style="color: var(--text-colour) !important;">Discord</h2>
             <p>Join our Discord</p>

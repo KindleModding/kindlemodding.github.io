@@ -35,7 +35,7 @@ You will need to install KUAL (Kindle Unified Application Launcher) and MRPI (Mo
                     </tr>
                     <tr>
                         <td>K4 and older</td>
-                        <td>Download, place in documents folder and move onto <a href="../koreader.html">Installing KOReader</a></td>
+                        <td>Download, place in documents folder and move onto <a href="../../../whats-next/getting-koreader/">Installing KOReader</a></td>
                         <td><a href="./KUAL-KDK-1.0.azw2">KUAL-KDK-1.0.azw2</a></td>
                     </tr>
                 </tbody>

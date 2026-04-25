@@ -10,7 +10,7 @@ slug: index
 [WatchThis](https://www.mobileread.com/forums/showthread.php?t=346037) is a jailbreak utilising a `demo payload` exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../jailbreak-wizard) with WatchThis
+- Please check that your Kindle is [compatible](../../../jailbreak-wizard.html) with WatchThis
 - You will also need a PC
 
 > [!WARNING]

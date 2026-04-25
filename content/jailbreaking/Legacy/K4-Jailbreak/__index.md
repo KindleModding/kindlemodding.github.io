@@ -11,7 +11,7 @@ summary: A jailbreak for the now-discontinued K4 Kindle
 The NiLuJe K4 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../jailbreak-wizard) with the K2 Jailbreak
+- Please check that your Kindle is [compatible](../../../jailbreak-wizard.html) with the K2 Jailbreak
 - You will also need a PC
 
 ## Installation Guide
@@ -79,7 +79,7 @@ The NiLuJe K4 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mo
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "/jailbreaking/Legacy/post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
+<script>new Guide("guide", "../post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
 
 ## Credits
 - Created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
