@@ -9,7 +9,7 @@ html, body {
     font-size: 11pt;
     font-weight: 400;
     line-height: 1.6;
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
     background-color: var(--background-colour);
     color: var(--text-colour);
@@ -17,6 +17,14 @@ html, body {
     background-image: radial-gradient(var(--dot-colour) 1px, transparent 1px);
     background-size: 20px 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-y: clip;
+}
+
+@media only screen and (max-width: 900px) {
+    html, body
+    {
+        overflow-y: auto;
+    }
 }
 
 p {
