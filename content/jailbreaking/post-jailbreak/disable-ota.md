@@ -21,7 +21,7 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
             <div class="stepContent">
                 <p>Before proceeding, check your Kindle's firmware version by going to:</p>
                 <p><strong>Home → Menu → Settings → Device options → Device Info</strong></p>
-                <p class="highlight">Follow the appropriate instructions for your firmware version in each step below</p>
+                <p class="important">Follow the appropriate instructions for your firmware version in each step below</p>
             </div>
         </div>  
 
@@ -66,7 +66,7 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
                 <div class="version-block">
                     <p class="version-label">Firmware >=5.11.x:</p>
                     <p>Unzip and copy the <code>renameotabin</code> folder to the <code>extensions</code> folder on your Kindle</p>
-                    <p class="warning">The <code>renameotabin</code> folder containing usable files may be nested inside another <code>renameotabin</code> folder. Copy over the inner-most folder.</p>
+                    <p class="note">The <code>renameotabin</code> folder containing the usable files may be nested inside another <code>renameotabin</code> folder. Copy over the inner-most folder</p>
                     <p class="warning">Delete any file with a name similar to <code>update.bin.tmp.partial</code> or ending in <code>.bin</code> from your Kindle to prevent an automatic update</p>
                 </div>
             </div>
@@ -101,7 +101,7 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
                     <p>Open <code>KUAL</code> (Kindle Unified Application Launcher)</p>
                     <p>Select <code>Rename OTA Binaries</code> from the menu</p>
                     <p>Select <code>Rename</code></p>
-                    <p class="highlight">Your Kindle will now reboot automatically</p>
+                    <p>Your Kindle should reboot automatically</p>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
                     <p class="version-label">Firmware >=5.11.x:</p>
                     <p>If you want to factory reset, downgrade or update your Kindle, you will <strong>need</strong> to restore the update binaries by opening KUAL, selecting <code>Rename OTA Binaries</code> and then selecting <code>Restore</code> instead of rename</p>
                 </div>
-                <p class="highlight">You can now safely turn off Airplane Mode and re-enable Wi-Fi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
+                <p class="tip">You can now safely turn off Airplane Mode and re-enable Wi-Fi. Your Kindle will connect to the internet but will not download or install OTA updates.</p>
             </div>
         </div>
     </div>

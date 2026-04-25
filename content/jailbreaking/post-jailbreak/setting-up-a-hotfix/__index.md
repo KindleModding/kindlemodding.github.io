@@ -27,9 +27,6 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin" class="button">Download</a>
                 <br/>
-                <p class="warning">
-                    If scriptlets don't work, please re-do these steps using the <b>compatibility hotfix!</b>
-                </p>
             </div>
         </div>
         <div class="step">
