@@ -17,20 +17,21 @@ Kindle devices can automatically download and install firmware updates when they
 - The device is connected to Wi-Fi, even briefly.
 - The Kindle is rebooted while connected to the internet.
 
-Filling the Kindle's storage (leaving only 50-90 MB free) prevents the device from downloading and installing updates, as the update process requires more free space.
+Filling the Kindle's storage with dummy files (leaving only 50-90 MB free) prevents the device from downloading and installing updates, as the update process requires more free space (update files take up to 300MB in space).
 
-## How to Fill the Kindle's Storage
+## Filling Your Kindle's Storage
 
-> [!WARNING]
-> Delete `update-whatever.bin` OR `update.partial.bin`, and turn on Airplane Mode!
+<p class="note">
+Starting with the Kindle 11th generation released in 2024 and the Kindle Scribe released in 2022 (on recent firmware), Kindle devices use MTP (Media Transfer Protocol), while older models use the standard USB protocol.<br><strong>Follow the corresponding guide for your device</strong>.
+<br><br>
+<a href="../../kindle-models.html">Identify your Kindle model generation here</a>
+</p>
 
-You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
+<p class="caution">
+Delete any file named <code>update-whatever.bin</code> OR <code>update.partial.bin</code>, and turn on Airplane Mode!
+</p>
 
-> [!WARNING]
-> This script will not work on 11th generation Kindles and newer, as these devices use MTP (Media Transfer Protocol) instead of standard USB storage when connected to a computer
->
-> You will need to manually fill your Kindle with "dummy" files. Download the [Filler files](https://github.com/bastianmarin/Kindle-Filler-Disk/tree/main/MTP/) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–90 MB of free space
-
+<h2>Kindle-Filler-Disk (non-MTP Kindles)</h2>
 <div id="guide">
     <div class="buttons">
         <button id="prev">Previous Step</button>
@@ -43,6 +44,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <div class="stepContent">
                 <p>Turn on Airplane mode on your Kindle</p>
                 <img src="../WinterBreak/airplane_mode.png" />
+                <p><em>This guide only works on non-MTP Kindles</em></p>
             </div>
         </div>
         <div class="step">
@@ -92,11 +94,17 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                     <p>Run the script:</p>
                     <pre><code>./Filler.sh</code></pre>
                 </div>
-                <img src="./run-script.png"/>
               </div>     
             </div>
         <div class="step">
-            <h2>6. Safely Disconnect and Verify Storage</h2>
+            <h2>6. Select the Storage Amount</h2>
+            <div class="stepContent">
+                <p>Select the numbered option corresponding to how much storage you want to fill on your device.</p>
+                <img src="./run-script.png"/>
+            </div>
+        </div>
+        <div class="step">
+            <h2>7. Safely Disconnect and Verify Storage</h2>
             <div class="stepContent">
                 <p>Eject your Kindle from your computer.</p>
                 <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
@@ -105,7 +113,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             </div>
         </div>     
         <div class="step">
-            <h2>7. Continue with Jailbreak</h2>
+            <h2>8. Continue with Jailbreak</h2>
             <div class="stepContent">
                 <p>With storage nearly full, you can now connect to Wi-Fi and register your Kindle to your Amazon account.</p> 
                 <p>The Kindle will not be able to fully download the update due to a lack of space.</p>
@@ -125,24 +133,94 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
 
 <script>new Guide("guide", "/jailbreaking/", "Jailbreak");</script>
 
+<br>
+<h2>MTP-Filler (MTP Kindles)</h2>
+
+
+<div id="guide2">
+    <div class="buttons">
+        <button id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button id="next">Next Step</button>
+    </div>
+    <div id="stepwrapper" class="stepwrapper">
+        <div class="step">
+            <h2>1. Put Your Kindle in Airplane Mode</h2>
+            <div class="stepContent">
+                <p>Turn on Airplane mode on your Kindle</p>
+                <img src="../WinterBreak/airplane_mode.png" />
+                <p><em>This guide only works on MTP Kindles</em></p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>2. Connect Your Kindle to Your Computer via USB</h2>
+            <div class="stepContent">
+                <p>Use a USB cable to connect your Kindle to your computer.</p>
+                <img src="./usb-mode.png"/>
+                <p>Wait for the Kindle to appear as a USB drive.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>3. Download the MTP Filler Script</h2>
+            <div class="stepContent">
+                <p>Go to the <a href="https://github.com/jannikac/mtp-filler/releases/latest">MTP-Filler GitHub Releases page</a> and download the appropriate script for your operating system</p>
+                <img src="./github-files2.png"/>
+                <div style="margin-left:2em">
+                <br>
+                    <span><strong>Windows:</strong> <code>mtp-filler-*.exe</code></span><br/>
+                    <span><strong>macOS:</strong> <code>mtp-filler-*-macos-arm64</code> (M-series) or <code>mtp-filler-v*-macos-x86_64</code> (Intel)</span><br/>
+                    <span><strong>Linux:</strong> <code>mtp-filler-*-linux-x86_64 </code></span>
+                </div>
+            </div>
+        </div>
+        <div class="step">
+            <h2>4. Run the Script</h2>
+            <div class="stepContent">
+                <p>Locate the script file and double-click it to open. Your Kindle should be automatically detected.</p>
+                <img src="./run-script2.png"/>
+                <p>If you're on MacOS or Linux, you might have to make it executable first. Open a terminal and navigate where the script is located, execute <code>chmod +x ./mtp-filler</code> and run the script with <code>./mtp-filler</code>.
+            </div>
+        </div>
+          <div class="step">
+              <h2>5. Type the Storage Amount</h2>
+              <div class="stepContent">
+              <p>Type the storage you want to leave on the device in binary units (MB would be MiB) and click the <code>Write to Device</code> button.</p>
+            <img src="./type-storage.png"/>
+            <p>If you face any issues with this script, please read the <a href="https://github.com/jannikac/mtp-filler#troubleshooting">troubleshooting section</a> from the repository
+              </div>     
+            </div>
+        <div class="step">
+            <h2>6. Safely Disconnect and Verify Storage</h2>
+            <div class="stepContent">
+                <p>Eject your Kindle from your computer.</p>
+                <p>On your Kindle, go to <strong>Settings &gt; Device Options &gt; Device Info</strong> (or similar).</p>
+                <p>Check that the available storage is <strong>50-90 MB or less</strong>.</p>
+                <img src="./final.png"/>
+            </div>
+        </div>     
+        <div class="step">
+            <h2>8. Continue with Jailbreak</h2>
+            <div class="stepContent">
+                <p>With storage nearly full, you can now connect to Wi-Fi and register your Kindle to your Amazon account.</p> 
+                <p>The Kindle will not be able to fully download the update due to a lack of space.</p>
+                <p>You can either perform a <a href="/kindle-models.html">Jailbreak suitable for your device</a> or wait for the next jailbreak to be released.</p> 
+                <p class="info">
+                  Always make sure to delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="prev">Previous Step</button>
+        <span id="stepCounter"></span>
+        <button id="next">Next Step</button>
+    </div>
+</div>
+
+<script>new Guide("guide2", "/jailbreaking/", "Jailbreak");</script>
+
 ---
 
 ## After Jailbreak: Freeing Up Space
 
-Once you have completed the jailbreak process and disabled the OTA Updates, you can safely delete the `fill_disk` folder to recover storage space. You may also remove only some of the files if you want to keep the disk nearly full for a while longer.
-
-- **Windows:**  
-  Open File Explorer and navigate to the folder containing `fill_disk`. Delete the `fill_disk` folder, or remove individual files inside it.
-
-- **Linux / macOS:**  
-  Open a terminal in the folder containing `fill_disk` and run:
-  ```sh
-  rm -rf fill_disk
-  ```
-  Or remove individual files as needed.
-
-This will restore your available disk space.
-
----
-
-For more scripts and detailed guides, visit the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/).
+Once you have completed the jailbreak process and [disabled the OTA Updates](../post-jailbreak/disable-ota), you can safely delete the `fill_disk` folder or any other file generated by the scripts to recover storage space. You may also remove only some of the files if you want to keep the disk nearly full for a while longer.

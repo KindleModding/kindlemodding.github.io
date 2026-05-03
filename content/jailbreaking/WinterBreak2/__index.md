@@ -17,7 +17,7 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
 
 Unlike WinterBreak, WinterBreak2 uses the Kindle's built-in Experimental Browser instead of the Kindle Store, which means:
 - **Your Kindle does NOT need to be registered with Amazon**
-- **It works on blastlisted devices** (devices where the Kindle Store exploit has been blocked)
+- **It works on blacklisted devices** (devices where the Kindle Store exploit has been blocked)
 
 > [!NOTE]
 > WinterBreak2 only works on firmware versions **< 5.16.4**.
