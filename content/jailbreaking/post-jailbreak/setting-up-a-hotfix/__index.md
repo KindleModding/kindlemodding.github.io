@@ -9,9 +9,6 @@ slug: index
 # Setting Up A Hotfix
 A hotfix allows your Kindle's jailbreak to persist after updating. There are two different hotfixes and which one you need to install depends on which method you used to jailbreak your Kindle.
 
-> [!INFO]
-> If you have blocked the updates using `renametobin` (set to `Rename`), make sure to revert it beforehand (by selecting `Restore`), or you will not be able to install the hotfix through the Settings menu
-
 > [!WARNING]
 > This is not necessary for some types of legacy jailbreaks, check the corresponding page
 
@@ -74,13 +71,17 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 </div>
 <script>new Guide("guide", "../installing-kual-mrpi", "Installing KUAL & MRPI");</script>
 
-# Troubleshooting
+## Troubleshooting
 
-## Hotfix Won't Install
-There is a good chance that after installing an older version of Hotfix you disabled OTA updates, meaning the Hotfix update file will be ignored!
+- Verify that all folders and files are in the correct locations on your Kindle
+- Ensure that the files do not have any special characters such as brackets in it, some browsers may rename files adding (1) or other additional suffixes to the file name and these should be removed before copying to the Kindle
 
-**Follow these steps to update the Hotfix:**
-1. Activate airplane mode
+### Hotfix Won't Install
+There is a good chance that, after installing an older version of the Hotfix, you disabled OTA updates. As a result, the Hotfix update file may be ignored.
+
+Follow these steps to update the Hotfix. **These instructions apply only if you have already [blocked OTA updates](../disable-ota)**.
+
+1. Activate Airplane mode
 2. Enable OTA update (KUAL -> Rename OTA binaries -> Restore)
 3. Follow the Hotfix installation instructions above
 4. Disable OTA update (KUAL -> Rename OTA binaries -> Rename)
