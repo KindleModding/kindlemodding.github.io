@@ -10,11 +10,11 @@ slug: index
 [KindleBreak](https://www.mobileread.com/forums/showthread.php?t=338268) is jailbreak utilising the [`KindleDrip`](https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08) webkit exploit.
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../kindle-models) with KindleBreak
+- Your Kindle must be running a firmware version between `5.10.3` and `5.13.3` (inclusive)
 - You will also need a PC
 
 > [!WARNING]
-> KindleBreak will **NOT** work on firmware `5.12.2.2`
+> KindleBreak will **NOT** work on firmware `5.12.2.2.2`
 
 ## Jailbreaking Your Kindle
 1. On your Kindle, enable `Airplane Mode` if it isn't already on

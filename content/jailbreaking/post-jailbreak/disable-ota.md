@@ -131,6 +131,15 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
 
 <script>new Guide("guide", "re-enabling-the-store", "Re-enable Store");</script>
 
+<h2>Verify That Automatic Updates Are Disabled</h2>
+
+After completing the previous steps, you can verify whether your device has truly blocked automatic updates by running a simple scriplet.
+
+- Download the [Check OTA Status scriplet](https://github.com/neura-neura/Check-OTA-status/releases/latest)
+- Copy it to the `documents` folder on your Kindle
+- Unplug your Kindle
+- Navigate your Library and click the "Check OTA Status" booklet
+
 ## Credits
 
 - Original guide written by [Neon](https://www.mobileread.com/forums/member.php?u=329187)

@@ -10,7 +10,7 @@ weight: 98
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
 <p class="important">
-Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br><code>(Last updated: Apr 09, 2026)</code>
+Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br><code>(Last updated: May 2, 2026)</code>
 </p>
 
 ## General/Account
@@ -20,9 +20,10 @@ Most of these instructions are subjected to changes due to newer jailbreaks, pat
 
 **No**.
 
-You'll have to wait for a new jailbreak method (or patch) to be released. **This may take weeks or even months**. To protect your Kindle from automatic updates, **forget** all saved internet connections, enable Airplane mode, and wait.
+You'll have to wait for a new jailbreak method to be released. **This may take weeks or even months**. 
+To protect your Kindle from automatic updates, **forget** all saved internet connections, enable Airplane mode, and patiently wait.
 
-If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](https://kindlemodding.org/jailbreaking/prevent-auto-update).
+If you want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](https://kindlemodding.org/jailbreaking/prevent-auto-update).
 
 #### Can I downgrade my Kindle so I can jailbreak it?
 
@@ -32,28 +33,31 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 ### Can I jailbreak my Kindle if my device is unregistered/blacklisted?
 
-[Nosebleed Jailbreak](../jailbreaking/Nosebleed) reportedly, works for some blacklisted devices.
+There are a couple of jailbreaks that work for blacklisted Kindles. **Make sure your device meets the criteria listed in the prerequisites section for each jailbreak**.
 
-For devices on firmware `5.16.2.1.1` or below, you can try any of the jailbreaking methods listed in [Legacy Jailbreaks](../jailbreaking/Legacy/).
+- [Any of the Legacy Jailbreaks](../jailbreaking/Legacy/) for devices on firmware `5.16.2.1.1` or below
+- [Winterbreak2](../jailbreaking/WinterBreak2/)
+- [Nosebleed Jailbreak](../jailbreaking/Nosebleed)
 
 ### Can I deregister my Kindle after jailbreaking?
 
 Yes, your Kindle will remain jailbroken whether you log back in or log out.
 
-However, deregistering will delete all files within the documents folder, including the KUAL launcher booklet and any other scriplets transferred to the device, which may partially break extensions. Be sure to back up all your files first.
+However, deregistering will delete all files within the documents folder, **including the KUAL launcher booklet** and any other scriplets transferred to the device, this may partially break your extensions. Be sure to back up all your files first.
 
 ### Can I un-jailbreak my Kindle?
 
 Yes, re-enable automatic updates first (`Restore` option in `renametobin`) to avoid an update block. Then, perform a factory reset on the device and install the same firmware update (or any higher version).
 
-### Will the jailbreak get my Amazon account banned?
+### Will jailbreaking my Kindle get my Amazon account banned?
 
 No reports of Amazon accounts being banned after jailbreaking have been reported so far. However, **please refrain** from telling support that you have modified your device.
 
 ### Will this void the warranty on my Kindle device?
+
 Probably.
 
-### How do I get the Amazon store back again?
+### How do I get the Amazon store back again after jailbreaking with Winterbreak?
 
 [Read and follow this guide](https://kindlemodding.org/jailbreaking/post-jailbreak/re-enabling-the-store/).
 
@@ -63,7 +67,7 @@ Starting with version 5.16.3, Kindles started using hard-float architecture (on-
 
 While the underlying system appears mostly the same, many internal changes have made a lot of jailbreaking tools and extensions unusable in modern firmware versions.
 
-This ultimately means that most extensions found on MobileRead/Discord servers won't work on hard-float firmware or viceversa unless explicitly stated (i.e NiLuJe's Screensaverhack).
+This ultimately means that most extensions found on MobileRead/Discord servers won't work on hard-float firmware or viceversa unless explicitly stated (i.e NiLuJe's Screensaverhack only works on soft-float firmware).
 
 ## Apps and eBooks
 ---
@@ -80,14 +84,13 @@ Yes.
 
 No.
 
-<p class="warning">
+<p class="tip">
 If your device has been in Airplane mode for a long period of time, there is a possibility that <a href="https://www.mobileread.com/forums/showpost.php?p=4419300&postcount=409">Amazon will delete all sideloaded books</a> from your device after reconnecting to Wi-Fi due to an internal book tag. This can happen regardless of whether your device is jailbroken or not. Backup your books whenever you can
-
 </p>
 
 ### Will Libby/Readwise/GoodReads/Kindle Unlimited/Send To Kindle still work after jailbreaking?
 
-Yes. Jailbreaking doesn’t interfere with any of these services.
+Yes. Jailbreaking doesn't interfere with any of these services.
 
 #### Can I use those applications within KOReader?
 
@@ -101,16 +104,16 @@ Unless there's a extension/port for any of them, no.
 
 KOReader currently doesn’t (and likely never will) support the proprietary formats that Amazon converts all ebooks into (KFX, AZW3, and very limited support for MOBI). It is recommended to get all your books as EPUB and store them in a separate folder for easy access.
 
-### How do I read my Libby books?
-
-You cannot use the Libby service within KOReader. You can get the EPUB file from Libby by following [this guide](https://help.libbyapp.com/en-us/6059.htm).
-
 ### Where can I download free e-books?
 
 **You can Google this.**
 
 ## KOReader
 ---
+
+### How do I read my Libby books in KOReader?
+
+You cannot use the Libby service within KOReader. You can get the EPUB file from Libby by following [this guide](https://help.libbyapp.com/en-us/6059.htm).
 
 ### What is the difference between the three KOReader launch options?
 
@@ -146,7 +149,7 @@ Yes, but you must first enable Airplane mode and enable automatic updates again 
 When updating, ensure that the newer version supports a jailbreak.
 
 <p class="note">
-After updating/factory reset/downgrading, reinstall the hotfix from scratch. KUAL and some others extensions <strong>may</strong> need to be reinstalled too.
+After updating/factory reset/downgrading, make sure to reinstall the hotfix from scratch. KUAL and some others extensions <strong>may</strong> need to be reinstalled too.
 </p>
 
 ### How do I downgrade my Kindle?
@@ -159,7 +162,7 @@ After updating/factory reset/downgrading, reinstall the hotfix from scratch. KUA
 
 Find your exact model, find the download link and re-type the numbers to get the firmware version you want.
 
-### How do I use Scriptlets (.sh)?
+### How do I install and use Scriptlets (.sh files)?
 
 As explained in the [Scriptlets section](https://kindlemodding.org/kindle-dev/scriptlets.html#siptlets), copy the scriptlet file into the documents folder (`/documents`). Once you're in the library view mode on Kindle, simply click on it.
 
@@ -167,18 +170,9 @@ As explained in the [Scriptlets section](https://kindlemodding.org/kindle-dev/sc
 
 Download the "Check OTA Status" scriptlet from [here](https://scriptlets.notmarek.com/)
 
-### Is it possible to change screensavers in the native Kindle UI?
+### How can I set a custom screensaver?
 
-There are currently no extensions to change the screensavers in hard-float firmware. If you're running on soft-float firmware it is still possible to change them with the [NiLuJe's screensaver hack](https://www.mobileread.com/forums/showthread.php?t=195474). Keep in mind that this extension may not work on some final soft-float firmware versions.
-
-<p class="caution">
-<strong>Please do not make the mistake of installing this extension under hard-float firmware</strong>
-
-</p>
-
-<p class="note">
-You can easily change screensavers with <a href="https://koreader.rocks/user_guide/">KOReader</a> (search for the "screensavers" feature)
-</p>
+[Look at the KOReader Guide and search for the screensaver guide](https://koreader.rocks/user_guide/). Manually replacing the screensavers/using NiLuJe's screensaver hack for the Kindle Native UI is not recommended. It is highly dangerous as the Kindle is very specific around image formatting and type and making a mistake could easily lead to your device become inoperable.
 
 ## Jailbreaking
 ---
@@ -212,11 +206,11 @@ Remember to delete any automatic update file that might have appeared.
 
 ### I kept getting random "KPPMainAppV2" books added to my Kindle library, what should I do!?
 
-Kindles usually generate those books after detecting any kind of error (mostly common after exiting KOReader frameworkless), you can safely delete them. You can also disable the generation of these books by creating an empty file named `DISABLE_CORE_DUMP` to the visible USB storage root of your device.
+Kindles usually generate those books after detecting any kind of error (mostly common after exiting KOReader frameworkless), you can safely delete them. You can also disable the generation of these books by creating an empty file named `DISABLE_CORE_DUMP` to the visible USB storage root of your device. The already existing logs can also be safely deleted.
 
 This is also the case for the "Collecting Debug Info" message.
 
-### I have successfully jailbroken my device, what now?
+### I have successfully jailbroken my device, what do I do now?
 
 You can do one of the following:
 
