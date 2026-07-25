@@ -4,6 +4,9 @@ title: Creating a Package
 weight: 0
 ---
 
+# Example Package
+An example package is available at [https://github.com/KindleModding/example_kpm_package](https://github.com/KindleModding/example_kpm_package) for additional information. It is recommended that you read through the files in this package to gain an understanding for the structure of a KPM package.
+
 # Creating a Package
 A KPM package can be created using the [`kpm-helper.py`](https://github.com/KindleModding/KPM/blob/main/kpm-helper.py) script:
 ```sh
