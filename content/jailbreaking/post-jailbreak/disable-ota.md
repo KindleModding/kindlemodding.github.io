@@ -10,7 +10,7 @@ weight: 3
 Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, can often cause instabilities on jailbroken systems or outright remove the jailbreak.
 
 > [!WARNING]
-> You may skip this if you jailbroke using Winterbreak or Springbreak
+> You may skip this if you jailbroke using Winterbreak, Springbreak, or Sanctuary. OTA updates have already been blocked for you.
 
 <div id="guide">
     <div class="buttons">

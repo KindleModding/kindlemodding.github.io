@@ -13,7 +13,8 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 > If you have blocked the updates using `renametobin` (set to `Rename`), make sure to revert it beforehand (by selecting `Restore`), or you will not be able to install the hotfix through the Settings menu
 
 > [!WARNING]
-> This is not necessary for some types of legacy jailbreaks, check the corresponding page
+> You may skip this if you jailbroke using Winterbreak, Springbreak, or Sanctuary. The hotfix has already been installed for you.  
+> This is also not necessary for some types of legacy jailbreaks, check the corresponding page.
 
 <div id="guide">
     <div class="buttons">

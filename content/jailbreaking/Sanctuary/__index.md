@@ -41,10 +41,10 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
         <div class="step">
             <h2>Navigate to your kindle's browser.</h2>
             <div class="stepContent">
-              <p>On your Kindle, open the <b>Browser</b></p>
-                <p>You can find it under: <code>3 Dots → Browser</code></p>
+              <p>On your Kindle, open the <b>Web Browser</b> (<code>3 Dots → Web Browser</code>)</p>
                 <p>Then, navigate to the following URL:</p>
                 <p><code>http://sanctuary.skyvincent.com/scroll</code></p>
+                <p>Ensure that the URL starts with <code>http</code>, not <code>https</code></p>  
                 <img src = "./browser.png">
             </div>
         </div>
@@ -63,7 +63,8 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
         <div class="step">
             <h2>Navigate to the primary page, and scan ports</h2>
             <div class="stepContent">
-                <p>In your browser, navigate to <p><code>http://sanctuary.skyvincent.com/</code></p></p>
+                <p>In your browser, navigate to:</p>
+                <p><code>http://sanctuary.skyvincent.com/</code></p>
                 <p>Once the page has loaded, port scanning will start. This can take up to 20 minutes, but requires no interaction.</p>
                 <p>Once an ID has appeared, proceed to the next step.</p>
                 <p class="note">
@@ -77,6 +78,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
             <div class="stepContent">
                 <p>The ID will be displayed in a text box, and you must type the <b>exact</b> ID into the box below it.</p>
                 <p>The website automatically capitalizes the letters for you, so there is no need to manually capitalize while typing.</p>
+                <p>Any "0"s that may appear in the ID are zeroes. The only characters the ID can contain are <code>0123456789ABCDEF</code>.</p>
                 <img src="./id.png">
             </div>
         </div>
@@ -92,6 +94,9 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
             <div class="stepContent">
                 <p>Ensure "Downloads Done" appears at the top of the webpage.</p>
                 <p>Also, notifications indicating that <code>appreg.db</code>, <code>appreg.db.bak</code>, and <code>privesc.sh</code> downloaded should have appeared.</p>
+                <p class="note">
+                    You may only see one or two popups confirming the downloads.  This is normal and expected if multiple downloads completed before the dialog was dismissed, and does not mean that the download was unsuccessful.
+                </p>
                 <img src="./success.png">
             </div>
         </div>
