@@ -155,8 +155,14 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
         <div class="step">
             <h2>Complete</h2>
             <div class="stepContent">
-                <p>You're done (at this stage, if you installed scriptlers and don't see them, you may also want to reboot)! Wait... so why is there a step here?<br>SpringBreak is shipped on a <b>new</b> jailbreak stack (called <code>hdnext</code>). The Hotfix is pre-installed for you! You can commence by downloading KUAL directly.<br><br>...Additionally, you get a new <i>package manager</i> called KPM. To try out the basics on your device, use <code>;kpm update</code> and <code>;kpm install koreader</code>.</p>
-                <p>This new technology also means you do not need to rename OTA binaries, nor re-enable the store. All you need to do is get KUAL.</p>
+                <p>You're almost done!
+                    1) Double check that you don't have any update files.
+                    2) Remove filler files you used for preventing updates. This new JB method blocks them for you.
+                    3) Restart your Kindle after unplugging it from USB!
+                    
+You can now copy scriplets (.sh files) to documents and they should show up in Kindle menu once you unplug.
+                                      
+<br>SpringBreak is shipped on a <b>new</b> jailbreak stack (called <code>hdnext</code>). The Hotfix is pre-installed and the store is re-enabled for you! You can commence by downloading KUAL directly.<br><br>...Additionally, you get a new <i>package manager</i> called KPM. To try out the basics on your device, use <code>;kpm update</code> and <code>;kpm install koreader</code>.</p>
             </div>
         </div>
     </div>
