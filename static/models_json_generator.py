@@ -336,6 +336,7 @@ generationMap = [
         "platform": "Bellatrix",
         "board": "Rossini",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
             JB("AdBreak 5.18.1 - 5.18.5.0.1", "/jailbreaking/AdBreak"),
         ),
@@ -350,6 +351,7 @@ generationMap = [
         "platform": "Bellatrix4",
         "board": "Sangria",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
             JB("AdBreak 5.18.1 - 5.18.5.0.1", "/jailbreaking/AdBreak"),
         ),
@@ -364,6 +366,7 @@ generationMap = [
         "platform": "Bellatrix3",
         "board": "Pisco",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
         ),
     },
@@ -377,6 +380,7 @@ generationMap = [
         "platform": "Bellatrix4",
         "board": "Seabreeze",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
         ),
     },
@@ -391,6 +395,7 @@ generationMap = [
         "platform": "Bellatrix3",
         "board": "Barolo",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
             JB("AdBreak 5.18.1 - 5.18.5.0.1", "/jailbreaking/AdBreak"),
@@ -407,10 +412,9 @@ generationMap = [
         "platform": "Bellatrix",
         "board": "Cava",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
-            JB("AdBreak 5.18.1 - 5.18.5.0.1", "/jailbreaking/AdBreak"),
-            JB("Nosebleed 5.18.6", "/jailbreaking/Nosebleed"),
             JB("SpringBreak 5.19.2(.0.1)", "/jailbreaking/SpringBreak"),
         ),
     },
@@ -425,10 +429,9 @@ generationMap = [
         "platform": "Bellatrix",
         "board": "Malbec",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
-            JB("AdBreak 5.18.1 - 5.18.5.0.1", "/jailbreaking/AdBreak"),
-            JB("Nosebleed 5.18.6", "/jailbreaking/Nosebleed"),
             JB("SpringBreak 5.19.2(.0.1)", "/jailbreaking/SpringBreak"),
         ),
     },
@@ -443,9 +446,9 @@ generationMap = [
         "platform": "Zelda",
         "board": "Stinger",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
-            JB("AdBreak 5.18.1+", "/jailbreaking/AdBreak"),
         ),
     },
     # Kindle Basic 3, released April 10 2019 on FW 5.1x.y
@@ -459,9 +462,9 @@ generationMap = [
         "platform": "Rex",
         "board": "Moonshine",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
-            JB("AdBreak 5.18.1", "/jailbreaking/AdBreak"),
             JB("SpringBreak 5.18.1.1.1", "/jailbreaking/SpringBreak"),
         ),
     },
@@ -476,9 +479,9 @@ generationMap = [
         "platform": "Rex",
         "board": "Jaeger",
         "jailbreak": produce_jb_links(
+            JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
             JB("WinterBreak < 5.18.1", "/jailbreaking/WinterBreak"),
-            JB("AdBreak 5.18.1", "/jailbreaking/AdBreak"),
             JB("SpringBreak 5.18.1.1.1", "/jailbreaking/SpringBreak"),
         ),
     },
