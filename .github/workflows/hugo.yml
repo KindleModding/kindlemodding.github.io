@@ -46,19 +46,8 @@ jobs:
           wget https://github.com/sass/dart-sass/releases/download/1.97.3/dart-sass-1.97.3-linux-x64.tar.gz
           tar -xzf dart-sass-1.97.3-linux-x64.tar.gz
           echo "$PWD/dart-sass" >> $GITHUB_PATH
-      - uses: actions/cache@v4
-        id: cache
-        with:
-          path: |
-            _jb.sh/build/jb.sh
-          key: ${{ runner.os }}-${{ hashFiles('_jb.sh/**') }}
-      - name: Build jb.sh
-        if: steps.cache.outputs.cache-hit != 'true'
-        uses: ./_jb.sh/.github/actions/build
-        with:
-          working-directory: ./_jb.sh
-      - name: Copy jb.sh to static folder
-        run: cp _jb.sh/build/jb.sh ./static/
+      - name: Download latest jb.sh release
+        run: wget https://github.com/KindleModding/jb.sh/releases/latest/download/jb.sh -O ./static/jb.sh
       - name: Generate models.json
         run: python static/models_json_generator.py
       - name: Build with Hugo

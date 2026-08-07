@@ -6,3 +6,4 @@ vendor
 .bundle
 public/
 resources/
+static/jb.sh
