@@ -4,7 +4,7 @@
         "url": "/jailbreaking/WinterBreak2/",
         "registration": false,
         "ads": false,
-        "models": ["PW1", "PW2", "KV", "KT2", "PW3", "KOA", "KT3", "KOA2", "PW4", "KT4", "KOA3", "PW5", "KT5", "KS"],
+        "models": ["PW", "PW2", "KV", "KT2", "PW3", "KOA", "KT3", "KOA2", "PW4", "KT4", "KOA3", "PW5", "KT5", "KS"],
         "firmwares": [{
             "models": ["all"],
             "min": "5.6.1.1",
