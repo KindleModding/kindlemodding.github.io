@@ -211,8 +211,8 @@ function fillResults() { //This tickles my brain
             let others = []; matches.forEach((match, i) => i === 0 ? "" : others.push(`<a href="${match.url}">${match.name}</a>`));
             tip.innerHTML = others.length > 0 ? `Alternatively, you can also attempt ${others.join(", ")} if preferred/something went wrong.` : "This is the <i>only</i> jailbreak applicable to this firmware and model combination. Be careful!";
 
-            next.setAttribute("onclick", `document.location = "${matches[0].url}"`);
-            next.removeAttribute("disabled");
+next.onclick = () => { document.location = matches[0].url; };
+next.removeAttribute("disabled");
         } else {
             text.innerHTML = "Unfortunately, <b>no jailbreaks</b> are available at the moment.";
             tip.innerText = "Please wait and check back until a jailbreak for your model and firmware combination is released! :)"
