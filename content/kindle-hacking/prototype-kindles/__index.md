@@ -1,6 +1,7 @@
 ---
 title: Prototype Kindles
 slug: index
+weight: 4
 ---
 
 # Prototype Kindles

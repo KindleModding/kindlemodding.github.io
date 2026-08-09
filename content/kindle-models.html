@@ -66,21 +66,6 @@ summary: Determine the appropriate jailbreak for your combination of circumstanc
     }
 </style>
 
-<!-- Legacy table -->
-<div class="modal-overlay">
-    <div id="models-table" class="modal-container">
-        <div class="modal-header">
-            <h2>Models Table (for Developers)</h2>
-        </div>
-        <div class="modal-body">
-            <div id="fullModelTable" style="overflow: auto;"></div> <!-- Populated by JS -->
-        </div>
-        <div class="modal-footer">
-            <button onclick="closeDialog(`models-table`);">Close</button>
-        </div>
-    </div>
-</div>
-
 <div class="container">
     <div class="card" id="home">
         <h1>Jailbreaking Wizard</h1>
@@ -95,14 +80,8 @@ summary: Determine the appropriate jailbreak for your combination of circumstanc
 
         <p id="status">Waiting for Input...</p>
 
-        <div id="btncontainer" style="display: flex; justify-content: space-between;">
-            <div class="buttons" style="justify-content: flex-start !important;">
-                <button onclick="showDialog(`models-table`);">Models (Dev)</button>
-            </div>
-
-            <div class="buttons">
-                <button disabled>Previous</button> <button id="next" onclick="nav('#firmware');" disabled>Next</button>
-            </div>
+        <div class="buttons">
+            <button disabled>Previous</button> <button id="next" onclick="nav('#firmware');" disabled>Next</button>
         </div>
     </div>
 

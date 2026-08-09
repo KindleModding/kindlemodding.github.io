@@ -1,5 +1,6 @@
 ---
-title: appreg.db
+title: Appreg.db
+weight: 2
 ---
 
 # appreg.db

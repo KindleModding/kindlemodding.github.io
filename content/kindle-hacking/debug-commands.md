@@ -1,5 +1,6 @@
 ---
 title: Debug Commands
+weight: 3
 ---
 
 # Debug Commands

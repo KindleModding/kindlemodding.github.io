@@ -44,7 +44,7 @@ function getSerialInfo(serial) {
 
 function searchForSerial() {
     let serial = document.getElementById("serial").value;
-    let next = document.querySelector(":not(.hidden).card > #btncontainer > .buttons > #next"); //Trickery since a lot of steps require the same UI elements. Not my finest work... But when life gives you new CSS3 selectors make slop
+    let next = document.querySelector(":not(.hidden).card > .buttons > #next"); //Trickery since a lot of steps require the same UI elements. Not my finest work... But when life gives you new CSS3 selectors make slop
 
     serial = serial.toUpperCase().replaceAll(" ", "");
     console.log("Searching for", serial);
@@ -211,8 +211,8 @@ function fillResults() { //This tickles my brain
             let others = []; matches.forEach((match, i) => i === 0 ? "" : others.push(`<a href="${match.url}">${match.name}</a>`));
             tip.innerHTML = others.length > 0 ? `Alternatively, you can also attempt ${others.join(", ")} if preferred/something went wrong.` : "This is the <i>only</i> jailbreak applicable to this firmware and model combination. Be careful!";
 
-next.onclick = () => { document.location = matches[0].url; };
-next.removeAttribute("disabled");
+            next.onclick = () => { document.location = matches[0].url; };
+            next.removeAttribute("disabled");
         } else {
             text.innerHTML = "Unfortunately, <b>no jailbreaks</b> are available at the moment.";
             tip.innerText = "Please wait and check back until a jailbreak for your model and firmware combination is released! :)"
@@ -221,60 +221,6 @@ next.removeAttribute("disabled");
     });
 };
 
-//Old table (for Developers)
-function generateTable() {
-    const table = document.createElement("table");
-    const tableHeader = document.createElement("thead");
-    const headerRow = document.createElement("tr");
-
-    const headerLabels = [
-        "Amazon Name",
-        "Kindle Nickname",
-        "Latest Firmware",
-        "Recommended Jailbreak",
-        "KindleTool Variants"
-    ]
-
-    for (const headerLabel of headerLabels) {
-        const headerField = document.createElement("th");
-        headerField.innerText = headerLabel;
-
-        headerRow.appendChild(headerField);
-    }
-    tableHeader.appendChild(headerRow);
-    table.appendChild(tableHeader);
-
-
-    const tableBody = document.createElement("tbody");
-    for (const kindle of window.kindleModels) {
-        const tableRow = document.createElement("tr");
-
-        const amazonName = document.createElement("td");
-        const kindleNickname = document.createElement("td");
-        const latestFirmware = document.createElement("td");
-        const recommendedJailbreak = document.createElement("td");
-        const kindletoolVariants = document.createElement("td");
-
-        amazonName.innerText = kindle.amazon_name;
-        kindleNickname.innerText = kindle.nicknames.join(", ");
-        latestFirmware.innerText = kindle.last_firmware;
-        recommendedJailbreak.innerHTML = kindle.jailbreak;
-        kindletoolVariants.innerHTML = `<code>${JSON.stringify(kindle.device_codes)}</code>`;
-
-        tableRow.appendChild(amazonName);
-        tableRow.appendChild(kindleNickname);
-        tableRow.appendChild(latestFirmware);
-        tableRow.appendChild(recommendedJailbreak);
-        tableRow.appendChild(kindletoolVariants);
-
-        tableBody.appendChild(tableRow);
-    }
-
-    table.appendChild(tableBody);
-    document.getElementById("fullModelTable").appendChild(table);
-}
-
 fetch("/models.json").then(response => response.json()).then((data) => {
     window.kindleModels = data;
-    generateTable();
 });
