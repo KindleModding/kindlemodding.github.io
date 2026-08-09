@@ -108,7 +108,7 @@ function validateFirmware() {
     firmware.value = firmware.value.replace(/[^0-9.]/g, ""); //Don't allow non-numbers/dots.
 
     let value = firmware.value; //The above assignment will not work without new value references
-    let validation = /^\d{1,2}(\.\d{1,2}){1,5}$/; //Fun regexp I made up
+    let validation = /^\d{1,2}(\.\d{1,2}){1,5}$/; //Fun regexp I made up (X.XX.[XX.XX.XX.XX] Format)
 
     if(validation.test(value) && parseInt(value.split(".")[0]) <= 5) { //Cheap fix for 8.15.6 people
         status.style = "color: green; font-size: 1.2em;";
