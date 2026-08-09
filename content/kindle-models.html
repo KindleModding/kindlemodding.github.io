@@ -1,55 +1,177 @@
 ---
 layout: default
-title: Kindle Models
+title: Find my Jailbreak
 weight: 0
-summary: Identify your Kindle model and the jailbreak method best suited for it.
+summary: Determine the appropriate jailbreak for your combination of circumstances.
 ---
 
-<h1>Kindle Models</h1>
+<!-- We LOVE Inline CSS -->
+<style>
+    .container {
+        min-width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-<blockquote class="info">
-Identify your Kindle model and the jailbreak method best suited for it.
-</blockquote>
+    .card {
+        padding: 2em 1em;
+        text-align: center;
+        margin: 2em;
+    }
 
-<button onclick="showDialog(`find-jb`)">Find Your Jailbreak</button>
+    /* Lander Styles */
+    .card h1
+    {
+        font-size: 24pt;
+        margin: 0;
+        margin-bottom: 1.5ex;
+    }
 
+    .card h2
+    {
+        font-size: 18pt;
+        margin: 0;
+        margin-bottom: 1.2ex;
+    }
+
+    .card p
+    {
+        font-size: 12pt;
+        margin: 0;
+        margin-bottom: 2.5ex;
+    }
+
+    .card > :last-child
+    {
+        margin-bottom: 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+<!-- Legacy table -->
 <div class="modal-overlay">
-        <div id="find-jb" class="modal-container">
-            <div class="modal-header">
-                <h2>Find My Jailbreak</h2>
-            </div>
-            <div class="modal-body">
-                <p style="font-size: 1.2em; margin-top: 0;">Please enter the first 8 characters of your Kindle's serial number below: </p>
-                <input type="text" id="serialNumber" maxlength="8" placeholder="Enter Serial Number" oninput="searchForSerial()" autocomplete="off">
+    <div id="models-table" class="modal-container">
+        <div class="modal-header">
+            <h2>Models Table (for Developers)</h2>
+        </div>
+        <div class="modal-body">
+            <div id="fullModelTable" style="overflow: auto;"></div> <!-- Populated by JS -->
+        </div>
+        <div class="modal-footer">
+            <button onclick="closeDialog(`models-table`);">Close</button>
+        </div>
+    </div>
+</div>
 
-                <p id="searchStatus"></p>
-                <div id="searchResult">
-                    
-                </div>
+<div class="container">
+    <div class="card" id="home">
+        <h1>Jailbreaking Wizard</h1>
+
+        <p>Let's get started with finding the most appropriate jailbreak for you!<br>Please enter the first 8 digits of your serial below:</p>
+       
+        <div class="note">
+            Your serial number can be found in<br/><code>Three Dots > Settings > Device options > Device info</code>.
+        </div>
+
+        <input type="text" id="serial" placeholder="G093 KM..." maxlength="8" oninput="searchForSerial();" autocomplete="off">
+
+        <p id="status">Waiting for Input...</p>
+
+        <div id="btncontainer" style="display: flex; justify-content: space-between;">
+            <div class="buttons" style="justify-content: flex-start !important;">
+                <button onclick="showDialog(`models-table`);">Models (Dev)</button>
             </div>
-            <div class="modal-footer">
-                <button onclick="closeDialog(`find-jb`)">Close</button>
+
+            <div class="buttons">
+                <button disabled>Previous</button> <button id="next" onclick="nav('#firmware');" disabled>Next</button>
             </div>
         </div>
     </div>
 
-<!--
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-    <h3>Enter your Kindle's serial number here</h3>
-    <p id="searchStatus"></p>
-    <input type="text" id="serialNumber"  maxlength="20" spellcheck="false" placeholder="Enter Serial Number..." title="Enter the Kindle serial number without spaces" oninput="searchForSerial()">
-    <button class="button" style="margin-top: 0.5em;" onclick="searchForSerial()">Find Model</button>
+    <div class="card hidden" id="firmware">
+        <h1>Jailbreaking Wizard</h1>
+
+        <p>Now, please enter your <b>firmware version</b>.</p>
+
+        <div class="note">
+            Your firmware version can be found in<br/><code>Three Dots > Settings > Device options > Device info</code>.
+        </div>
+
+        <input type="text" id="version" placeholder="5.17.3..." maxlength="16" oninput="validateFirmware();" autocomplete="off"> <!-- Usually, X.XX.[XX.XX.XX.XX]-->
+
+        <p id="status">Waiting for Input...</p>
+
+        <div class="buttons">
+            <button onclick="nav('#home');">Previous</button> <button id="next" onclick="nav('#blacklisted');" disabled>Next</button>
+        </div>
+    </div>
+
+    <div class="card hidden" id="blacklisted">
+        <h1>Jailbreaking Wizard</h1>
+
+        <p>Can your Kindle be registered?</p>
+
+        <div class="note">
+            (Try registering your Kindle. Amazon can <b>blacklist</b> them, which can break some jailbreaks.)
+        </div>
+
+        <select id="registered" onchange="isBlacklisted();">
+            <option value="--">Please Select</option>
+            <option value="1">Yes, my Kindle can be connected to an Amazon account.</option>
+            <option value="2">No, my Kindle cannot be registered to Amazon's servers.</option>
+        </select>
+
+        <div class="buttons">
+            <button onclick="nav('#firmware');">Previous</button> <button id="next" onclick="nav('#ads');" disabled>Next</button>
+        </div>
+    </div>
+
+    <div class="card hidden" id="ads">
+        <h1>Jailbreaking Wizard</h1>
+
+        <p>Does your Kindle display advertisements on the lockscreen?</p>
+
+        <div class="note">
+            Amazon sells an <b>ad-free</b> and an <b>ad-supported</b> version on their website. Check which one you have.
+        </div>
+
+        <select id="edition" onchange="hasAds();">
+            <option value="--">Please Select</option>
+            <option value="1">Yes, my Kindle has advertisements on the Lockscreen.</option>
+            <option value="2">No, my Kindle displays photography/book covers on the Lockscreen.</option>
+        </select>
+
+        <div class="buttons">
+            <button onclick="nav('#blacklisted');">Previous</button> <button id="next" onclick="nav('#results');" disabled>Next</button>
+        </div>
+    </div>
+
+    <div class="card hidden" id="results">
+        <h1>Jailbreaking Wizard</h1>
+
+        <p id="classification">Loading...</p>
+
+        <div class="tip" id="tip">
+            Loading...
+        </div>
+
+        <div class="buttons">
+            <button onclick="nav('#ads');">Previous</button> <button id="next">Finish</button> <!-- Onclick filled programmatically. -->
+        </div>
+    </div>
 </div>
 
-<div id="searchResult">
-</div>
--->
-
-<div>
-<h2>All Kindle Models</h2>
-
-<div id="fullModelTable" style="overflow: auto;"></div>
-</div>
-
-
-<script src="./modelFinder.js"></script>
+<script src="./jailbreakFinder.js"></script>

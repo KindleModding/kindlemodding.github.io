@@ -1,0 +1,202 @@
+[
+    {
+        "name": "WinterBreak2",
+        "url": "/jailbreaking/WinterBreak2/",
+        "registration": false,
+        "ads": false,
+        "models": ["PW1", "PW2", "KV", "KT2", "PW3", "KOA", "KT3", "KOA2", "PW4", "KT4", "KOA3", "PW5", "KT5", "KS"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.6.1.1",
+            "max": "5.16.3",
+            "outliers": {
+                "accepted": ["5.16.5"],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "Nosebleed",
+        "url": "/jailbreaking/Nosebleed/",
+        "registration": false,
+        "ads": false,
+        "models": ["KT5", "PW5", "KOA3", "PW6", "KT6"],
+        "firmwares": [{ 
+            "models": ["KT5", "PW5", "KOA3"],
+            "min": "5.16.4",
+            "max": "5.18.6",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }, { 
+            "models": ["PW6", "KT6"],
+            "min": "5.16.4",
+            "max": "5.17.1.0.4",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "Sanctuary",
+        "url": "/jailbreaking/Sanctuary",
+        "registration": false,
+        "ads": false,
+        "models": ["PW4", "KT4", "KOA3", "PW5", "KT5", "KS", "KT6", "PW6", "KS2", "CS"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.16.4",
+            "max": "5.18.3",
+            "outliers": {
+                "accepted": [],
+                "denied": ["5.16.5"]
+            }
+        }]
+    },
+    {
+        "name": "WinterBreak",
+        "url": "/jailbreaking/WinterBreak/",
+        "registration": true,
+        "ads": false,
+        "models": ["PW", "PW2", "KV", "KT2", "PW3", "KOA", "KT3", "KOA2", "PW4", "KT4", "KOA3", "PW5", "KT5", "KS", "KT6", "PW6", "KS2", "CS"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.6.1.1",
+            "max": "5.18.0.2",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }] 
+    },
+    {
+        "name": "SpringBreak",
+        "url": "/jailbreaking/SpringBreak",
+        "registration": true,
+        "ads": false,
+        "models": ["KT5", "PW5", "KT4", "PW4"],
+        "firmwares": [{
+            "models": ["KT5", "PW5"],
+            "min": "5.18.1",
+            "max": "5.19.2.0.1",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }, {
+            "models": ["KT4", "PW4"],
+            "min": "5.18.1",
+            "max": "5.18.1.1.1",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "AdBreak",
+        "url": "/jailbreaking/AdBreak/",
+        "registration": true,
+        "ads": true,
+        "models": ["PW4", "KT4", "KOA3", "PW5", "KT5", "KS", "KT6", "PW6"],
+        "firmwares": [{
+            "models": ["KOA3", "PW5", "KT5", "KS", "KT6", "PW6"],
+            "min": "5.18.1",
+            "max": "5.18.5.0.1",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }, {
+            "models": ["PW4", "KT4"],
+            "min": "5.18.1",
+            "max": "5.18.1",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "NiLuJe K2/DX/DXG/K3 Jailbreak",
+        "url": "/jailbreaking/Legacy/K2DXDXGK3-Jailbreak/",
+        "registration": false,
+        "ads": false,
+        "models": ["K2", "DX", "K3"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "2.0.0",
+            "max": "4.0.0",
+            "outliers": {
+                "accepted": [],
+                "denied": [] 
+            }
+        }]
+    },
+    {
+        "name": "NiLuJe K4 Jailbreak",
+        "url": "/jailbreaking/Legacy/K4-Jailbreak/",
+        "registration": false,
+        "ads": false,
+        "models": ["K4"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "2.0.0",
+            "max": "5.0.0",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "NiLuJe K5 Jailbreak",
+        "url": "/jailbreaking/Legacy/K5-Jailbreak/",
+        "registration": false,
+        "ads": false,
+        "models": ["KT"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.0.0",
+            "max": "5.4.4.2",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "LEGACY",
+        "url": "/jailbreaking/Legacy/index.html",
+        "registration": false,
+        "ads": false,
+        "models": ["K1"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "0.0.0",
+            "max": "2.0.0",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "Android Jailbreak Methods",
+        "url": "https://www.mobileread.com/forums/showthread.php?p=4087697",
+        "registration": false,
+        "ads": false,
+        "models": ["KM"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "0.0.0",
+            "max": "999.0.0",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    }
+]
