@@ -2,13 +2,14 @@ window.info = {};
 let current = document.querySelector("#home");
 
 function nav(target) {
-    if(target === "#results") fillResults();
     current.classList.add("hidden");
-    
+
     const el = document.querySelector(target);
     el.classList.remove("hidden");
 
     current = el;
+
+    if (target === "#results") fillResults();
 };
 
 //Helpers, taken from original modelFinder.js. Step 1
