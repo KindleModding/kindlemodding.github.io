@@ -39,7 +39,7 @@ Here are some important things to note before you begin. This information applie
 
 ---
 
-<h2>With that out of the way,</h2> You can begin the process <a href="/kindle-models.html">here</a>. When the wizard identifies which jailbreak you should use, it will also notify you to <b><a href=""></a></b> fill up the Kindle to temporarily prevent automatic updates, and I am reiterating this. Knowing all of this information, it is far more likely you will have a safer and more enjoyable jailbreaking experience! :)
+<h2>With that out of the way,</h2> You can begin the process <a href="/jailbreak-wizard.html">here</a>. When the wizard identifies which jailbreak you should use, it will also notify you to <b><a href=""></a></b> fill up the Kindle to temporarily prevent automatic updates, and I am reiterating this. Knowing all of this information, it is far more likely you will have a safer and more enjoyable jailbreaking experience! :)
 
 Also, for those who are curious (<b>or do not actually know what a jailbreak can lead to</b>), here is a list of some jailbreaking pro's-and-con's, just to get an idea of what's in store. 
 

@@ -30,7 +30,7 @@ WinterBreak is a jailbreak which was released on New Year's Day 2025 by [Hackerd
 
 - A PC, Cable, Kindle.
 - Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
-- A registered, supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- A registered, supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
 - You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 

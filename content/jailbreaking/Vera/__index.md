@@ -21,7 +21,7 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
 ## Prerequisites
 
 - A Kindle
-- A supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- A supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
 - You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 

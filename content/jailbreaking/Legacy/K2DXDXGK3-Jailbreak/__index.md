@@ -11,7 +11,7 @@ summary: A jailbreak for the now-discontinued K2, DX, DXG and K3 Kindles
 The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../kindle-models) with the K2 Jailbreak
+- Please check that your Kindle is [compatible](../../jailbreak-wizard) with the K2 Jailbreak
 - You will also need a PC
 
 ## Installation Guide
