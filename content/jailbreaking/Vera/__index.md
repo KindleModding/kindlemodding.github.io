@@ -14,7 +14,7 @@ kofi: https://ko-fi.com/yubaix
 > <br/>
 > \- Stanisław Lem
 
-Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix).
+Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix), [sparklerfish](https://ko-fi.com/sparklerfish).
 
 It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
 
