@@ -17,7 +17,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
 ## Prerequisites
 
 - A PC, Kindle.
-- A supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- A supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
 - You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 
