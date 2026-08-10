@@ -20,7 +20,7 @@
         "url": "/jailbreaking/Vera",
         "registration": false,
         "ads": false,
-        "models": ["PW5", "KT5", "KT6", "PW6", "CS"],
+        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
         "firmwares": [{
             "models": ["all"],
             "min": "5.17.0",
