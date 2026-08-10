@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Prevent Automatic Updates
-weight: 99
+weight: 1
 slug: index
 ---
 

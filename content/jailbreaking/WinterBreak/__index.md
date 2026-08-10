@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: WinterBreak
-weight: 5
+weight: 7
 slug: index
 summary: WinterBreak is a Kindle jailbreak created by Hackerdude based on Mesquito
 params:
@@ -20,8 +20,6 @@ params:
 
 WinterBreak is a jailbreak which was released on New Year's Day 2025 by [Hackerdude](https://hackerdude.tech)
 
-It is based on [Mesquito](../../mesquito/)
-
 > [!NOTE]
 > Special thanks to Marek, NiLuJe, Katadelos and all the beta-testers during the development of this jailbreak.
 > RIP bricked Kindles during beta-testing
@@ -29,14 +27,15 @@ It is based on [Mesquito](../../mesquito/)
 > RIP the original deadlines
 
 ## Prerequisites
-- You will need a PC
-- Your Kindle must be registered
-- Your Kindle must have a valid, internet-connected Wi-Fi network saved that it can connect to during steps 5–7 (inclusive)
-- Your Kindle's storage must be almost full, with only 50-90 MB of free space remaining to [avoid automatic updates](../prevent-auto-update/)
-- File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
+
+- A PC, Cable, Kindle.
+- Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
+- A registered, supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 > [!INFO]
-> If you face any issues, please check the [troubleshooting](#troubleshooting) section
+> If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit.
 
 ## Installation Guide
 
@@ -48,16 +47,23 @@ It is based on [Mesquito](../../mesquito/)
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
+            <h2>Before Jailbreaking...</h2>
+            <div class="stepContent">
+                <div class="caution">
+                    <b>Warning!</b><br>
+                    Jailbreaking often involves connecting to the Internet.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                </div>
+                <p>If you have done the above, please commence to the next step.</p>
+            </div>
+        </div>
+        <div class="step">
             <h2>Download the latest WinterBreak release:</h2>
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/WinterBreak/releases/latest/download/WinterBreak.tar.gz" class="button">Download</a>
-                <p class="note">                    
-                    To prevent your Kindle from automatically updating during the jailbreak process, it is <b>critical</b> you follow <a href="../prevent-auto-update/">this guide</a> before continuing, whether your device is registered or not
-                </p>
                 <p class="warning">
-                    Winterbreak/Mesquito does NOT work on firmware <code>5.18.1</code> and beyond
+                    Winterbreak/Mesquito does NOT work on firmware <code>5.18.1</code> and beyond.
                     <br/>
-                    Please use <a href="/jailbreaking/AdBreak">AdBreak 5.18.1+</a>
                 </p>
             </div>
         </div>
@@ -105,14 +111,8 @@ It is based on [Mesquito](../../mesquito/)
         <div class="step">
             <h2>Done</h2>
             <div class="stepContent">
-                <p>Wait around 30 seconds, and your Kindle will say something along the lines of "Now you are ready to install the hotfix"</p>
+                <p>Wait around 30 seconds, and your Kindle will spew text and restart the GUI.</p>
                 <p>If no funky text appears, retry the guide again.</p>
-                <p class="warning">
-                    Once it does, <b>turn Airplane mode back on</b> before continuing to the post-jailbreak stage, to prevent an automatic update.
-                </p>
-                <p class="warning">
-                    If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
-                </p>
                 <img src="./winterbreak_run.png" />
             </div>
         </div>
@@ -123,7 +123,7 @@ It is based on [Mesquito](../../mesquito/)
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/installing-kual-mrpi", "Installing KUAL & MRPI");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 # Troubleshooting
 

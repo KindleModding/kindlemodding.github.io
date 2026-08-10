@@ -60,7 +60,7 @@ The NiLuJe K5 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mo
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "/jailbreaking/post-jailbreak/setting-up-a-hotfix/", "Setting up a hotfix");</script>
+<script>new Guide("guide", "/jailbreaking/Legacy/post-jailbreak/setting-up-a-hotfix/", "Setting up a hotfix");</script>
 
 ## Credits
 - Created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)

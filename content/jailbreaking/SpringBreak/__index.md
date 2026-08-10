@@ -2,10 +2,12 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: SpringBreak
-weight: 1
+weight: 3
 slug: index
 kofi: https://ko-fi.com/penguins186
 ---
+
+
 
 # SpringBreak
 
@@ -19,12 +21,14 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
 
 ## Prerequisites
 
-- A PC, Cable
-- A Registered `KT5`, `PW5(SE)`, `KT4`, or `PW4`, running `5.19.2(.0.1)` or `5.18.1.1.1`
-- Patience, Wi-Fi connection.
+- A PC, Cable, Kindle.
+- Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
+- A registered, supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 > [!INFO]
-> If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums.
+> If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit.
 
 ## Installation Guide
 
@@ -40,7 +44,7 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/SpringBreak/releases/latest/download/springbreak.zip" class="button">Download</a>
                 <p class="note">
-                    <b>Filler files may make this process FAIL.</b> This process creates thousands of nested folders to work on your Kindle, if there is not enough space it won't work! Preferably, leave more space and don't use Wi-Fi. Also, do it fast.
+                    On the contrary to other jailbreaks, <b>Filler files may make this process FAIL.</b> This process creates thousands of nested folders to work on your Kindle, if there is not enough space it won't work! Preferably, leave more space and don't use Wi-Fi. Also, do it fast. <b>Nethertheless, read <a href="/jailbreaking">this</a> before you start.</b>
                 </p>
                 <p class="tip">
                     On MacOS, you do not need to do this. The command you will run later in this guide does it automatically!
@@ -152,19 +156,6 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
                 <img src="./cleaning.png">
             </div>
         </div>
-        <div class="step">
-            <h2>Complete</h2>
-            <div class="stepContent">
-                <p>You're almost done!
-                    1) Double check that you don't have any update files.
-                    2) Remove filler files you used for preventing updates. This new JB method blocks them for you.
-                    3) Restart your Kindle after unplugging it from USB!
-                    
-You can now copy scriplets (.sh files) to documents and they should show up in Kindle menu once you unplug.
-                                      
-<br>SpringBreak is shipped on a <b>new</b> jailbreak stack (called <code>hdnext</code>). The Hotfix is pre-installed and the store is re-enabled for you! You can commence by downloading KUAL directly.<br><br>...Additionally, you get a new <i>package manager</i> called KPM. To try out the basics on your device, use <code>;kpm update</code> and <code>;kpm install koreader</code>.</p>
-            </div>
-        </div>
     </div>
     <div class="buttons">
         <button id="prev">Previous Step</button>
@@ -172,7 +163,7 @@ You can now copy scriplets (.sh files) to documents and they should show up in K
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/installing-kual-mrpi", "Installing KUAL & MRPI");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 ## Troubleshooting
 
