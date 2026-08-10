@@ -29,7 +29,7 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
         <div class="step">
             <h2>Update Sources</h2>
             <div class="stepContent">
-                <p>Run <code>;kpm update</code> in the searchbar on the homescreen.</p><br><p>You will see some text at the top of the screen, before you're returned to the homepage.</p>
+                <p>Run <code>;kpm update</code> in the searchbar on the homescreen (and press return/enter).</p><br><p>You will see some text at the top of the screen, before you're returned to the homepage.</p>
                 <img src="update.png">
             </div>
         </div>

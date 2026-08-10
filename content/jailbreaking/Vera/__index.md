@@ -81,7 +81,7 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
             </div>
         </div>
         <div class="step">
-            <h2>Confirm Download + Exit Browser</h2>
+            <h2>Download Both Books + Exit Browser</h2>
             <div class="stepContent">
                 <p>If the previous step was done correctly, some highlighted text containing "Download" should appear."</p>
                 <p>Click the text, then click "Ok" to confirm the download.</p>
