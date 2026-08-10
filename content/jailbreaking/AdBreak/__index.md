@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: AdBreak
-weight: 2
+weight: 4
 slug: index
 summary: AdBreak is a Kindle jailbreak for 5.18.1 - 5.18.5.0.1
 kofi: https://ko-fi.com/penguins186
@@ -21,12 +21,14 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
 
 ## Prerequisites
 
-- You will need a PC & Cable
-- A registered Kindle [with ads enabled](#enabling-ads)
-- Firmware 5.18.1 - 5.18.5.0.1
+- A PC, Cable, Kindle.
+- Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
+- A registered, ad-enabled, supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 > [!INFO]
-> If you face any issues, please check the [troubleshooting](#troubleshooting) section. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
+> If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit. It also includes details on how you could possibly re-enable ads on a kindle which does not have them at present.
 
 ## Installation Guide
 
@@ -38,15 +40,20 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
+            <h2>Before Jailbreaking...</h2>
+            <div class="stepContent">
+                <div class="caution">
+                    <b>Warning!</b><br>
+                    Jailbreaking often involves connecting to the Internet.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                </div>
+                <p>If you have done the above, please commence to the next step.</p>
+            </div>
+        </div>
+        <div class="step">
             <h2>Download the latest AdBreak release:</h2>
             <div class="stepContent">
-                <a href="https://github.com/htimesnine/AdBreak/releases/download/v1.0.1/adbreak.zip" class="button">Download</a>
-                <p class="note">
-                    If your Kindle is <b>is not yet registered</b>, make sure to follow <a href="../prevent-auto-update">these steps to prevent your Kindle from automatically updating</a> before registering your device with Amazon. This will help you avoid an automatic firmware update during the registration process.
-                </p>
-                <p class="warning">
-                    Please use WinterBreak on firmware <code>5.18.0.2</code> and below.
-                </p>
+                <a href="https://github.com/KindleModding/AdBreak/releases/latest/download/adbreak.zip" class="button">Download</a>
             </div>
         </div>
         <div class="step">
@@ -111,7 +118,6 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
                 </p>
-                <p class="warning"><b>Ensure Airplane mode is still enabled</b> (turn it back on if it's off) before continuing to the post-jailbreak stage, to prevent an automatic update.</p>
                 <img src="./demo.png" />
             </div>
         </div>
@@ -122,7 +128,7 @@ It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/o
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 ## Troubleshooting
 

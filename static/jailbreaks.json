@@ -16,6 +16,22 @@
         }]
     },
     {
+        "name": "Véra",
+        "url": "/jailbreaking/Vera",
+        "registration": false,
+        "ads": false,
+        "models": ["PW5", "KT5", "KT6", "PW6", "CS"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.17.0",
+            "max": "5.19.6",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
         "name": "Nosebleed",
         "url": "/jailbreaking/Nosebleed/",
         "registration": false,

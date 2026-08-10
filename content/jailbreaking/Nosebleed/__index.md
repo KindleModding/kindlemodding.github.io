@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Nosebleed
-weight: 3
+weight: 5
 slug: index
 kofi: https://ko-fi.com/penguins186
 adfree: true
@@ -10,20 +10,22 @@ adfree: true
 
 # Nosebleed
 
-> Unc orders you [penguins] to spell
+> Success is a process, a quality of mind and way of being, an outgoing affirmation of life.
 > <br/>
-> \- hhhhhhhhh
+> \- Alex Noble
 
 Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
 
 ## Prerequisites
 
-- You will need a PC & Cable
-- For firmware versions 5.16.4 - 5.18.6, supported models are PW5, PW5SE, KT5, KOA3 and KOA3W32C
-- If you have a blacklisted PW6 or KT6, it may work for 5.16.4 - 5.17.1.0.4
+- A PC, Cable, Kindle.
+- Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
+- A supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 <blockquote class="note">
-    This works on blacklisted Kindles!
+    If you face any difficulty in following these guides,make a ticket in the KindleModding Discord support forums/Community Reddit.
 </blockquote>
 
 ## Installation Guide
@@ -36,19 +38,20 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
-            <h2>Download the latest Nosebleed release:</h2>
+            <h2>Before Jailbreaking...</h2>
             <div class="stepContent">
-                <a href="./nosebleed.zip" class="button">Download</a>
-                <p class="warning">
-                    This will only work on some Kindles (listed in the prerequisites section.)
-                </p>
+                <div class="caution">
+                    <b>Warning!</b><br>
+                    Jailbreaking often involves connecting to the Internet.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                </div>
+                <p>If you have done the above, please commence to the next step.</p>
             </div>
         </div>
         <div class="step">
-            <h2>Prevent updates</h2>
+            <h2>Download the latest Nosebleed release:</h2>
             <div class="stepContent">
-                <p>Ensure your Kindle is filled and there is no space to automatically update. The jailbreak process involves connecting to the Internet.</p>
-                <a href="../prevent-auto-update" class="button">Preventing updates</a>
+                <a href="./nosebleed.zip" class="button">Download</a>
             </div>
         </div>
         <div class="step">
@@ -83,10 +86,6 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
             <h2>Done</h2>
             <div class="stepContent">
                 <p>Once the jailbreak has completed, continue to the post-jailbreak stage.</p>
-                <p class="warning"><b>Turn Airplane mode on now</b> to prevent your Kindle from automatically updating before blocking OTA updates.</p>
-                <p class="warning">
-                    If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
-                </p>
             </div>
         </div>
     </div>
@@ -96,7 +95,7 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 ## Special Thanks To
 

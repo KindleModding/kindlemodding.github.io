@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Sanctuary
-weight: 5
+weight: 6
 slug: index
 ---
 
@@ -16,8 +16,10 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
 
 ## Prerequisites
 
-- A Kindle (works on blacklisted and unregistered devices), running firmware 5.16.4 to 5.18.3 (inclusive) running chromium (see step 2).
-- Patience, Wi-Fi connection.
+- A PC, Kindle.
+- A supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 > [!INFO]
 > If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums.
@@ -32,10 +34,14 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
-            <h2>Prevent updates</h2>
+            <h2>Before Jailbreaking...</h2>
             <div class="stepContent">
-                <p>Ensure your Kindle is filled and there is no space to automatically update. The jailbreak process involves connecting to the Internet.</p>
-                <a href="../prevent-auto-update" class="button">Preventing updates</a>
+                <div class="caution">
+                    <b>Warning!</b><br>
+                    Jailbreaking often involves connecting to the Internet.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                </div>
+                <p>If you have done the above, please commence to the next step.</p>
             </div>
         </div>
         <div class="step">
@@ -126,15 +132,6 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
                 <img src="./jailbreak.png">
             </div>
         </div>
-        <div class="step">
-            <h2>Complete</h2>
-            <div class="stepContent">
-                <p>You're done with the initial jailbreak!</p>
-                <p> A package manager named KPM is included. You can use <code>;kpm update</code> and <code>;kpm install koreader</code> in the search bar.</p>
-                <p> The Hotfix is pre-installed for you! You can commence by downloading KUAL directly.</p>
-                <p> Renaming OTA binaries and re-enabling the store have also already been done, so those steps can be skipped.
-            </div>
-        </div>
     </div>
     <div class="buttons">
         <button id="prev">Previous Step</button>
@@ -142,7 +139,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/installing-kual-mrpi", "Installing KUAL & MRPI");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 ## Troubleshooting
 

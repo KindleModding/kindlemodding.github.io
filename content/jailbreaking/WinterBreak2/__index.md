@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: WinterBreak2
-weight: 6
+weight: 8
 slug: index
 summary: WinterBreak2 is a browser-based Kindle jailbreak that works without Amazon registration, created by Scam.Net and Penguins184
 ---
@@ -13,27 +13,18 @@ summary: WinterBreak2 is a browser-based Kindle jailbreak that works without Ama
 > <br/>
 > \- Arthur C. Clarke
 
-WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.com/KindleModding/Winterbreak2) and [Penguins184](https://github.com/penguins184). It was made as an alternative to [WinterBreak](../WinterBreak/) / [Mesquito](../../mesquito/) for situations where those methods are problematic.
-
-Unlike WinterBreak, WinterBreak2 uses the Kindle's built-in Experimental Browser instead of the Kindle Store, which means:
-- **Your Kindle does NOT need to be registered with Amazon**
-- **It works on blastlisted devices** (devices where the Kindle Store exploit has been blocked)
-
-> [!NOTE]
-> WinterBreak2 only works on firmware versions **< 5.16.4**.
-> <br/>
-> If your firmware newer than 5.16.4, you will need to use a different jailbreak method.
-> 5.16.4 is not supported, but 5.16.5 may work.
+WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.com/KindleModding/Winterbreak2) and [Penguins184](https://github.com/penguins184). 
 
 ## Prerequisites
-- You will need a PC
-- Your Kindle must be on firmware **below 5.16.4**
-- Your Kindle must have a valid, internet-connected Wi-Fi network saved
-- Your Kindle's storage must be almost full, with only 50-90 MB of free space remaining to [avoid automatic updates](../prevent-auto-update/)
-- File archiver software to unzip files ([7-zip](https://www.7-zip.org/) or [WinRar](https://www.win-rar.com/start.html?&L=0) for Windows)
+
+- A PC, Cable, Kindle.
+- Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
+- A supported model and firmware, as you have been led here by the <b><a href="/kindle-models.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A Wi-Fi connection.
 
 > [!INFO]
-> If you face any issues, please check the [troubleshooting](#troubleshooting) section
+> If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit.
 
 ## Installation Guide
 
@@ -45,19 +36,20 @@ Unlike WinterBreak, WinterBreak2 uses the Kindle's built-in Experimental Browser
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
+            <h2>Before Jailbreaking...</h2>
+            <div class="stepContent">
+                <div class="caution">
+                    <b>Warning!</b><br>
+                    Jailbreaking often involves connecting to the Internet.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                </div>
+                <p>If you have done the above, please commence to the next step.</p>
+            </div>
+        </div>
+        <div class="step">
             <h2>Download the latest WinterBreak2 release:</h2>
             <div class="stepContent">
                 <a href="https://github.com/KindleModding/Winterbreak2/releases/latest/download/wb2.zip" class="button">Download</a>
-                <p class="note">
-                    To prevent your Kindle from automatically updating during the jailbreak process, it is <b>critical</b> you follow <a href="../prevent-auto-update/">this guide</a> before continuing
-                </p>
-                <p class="warning">
-                    WinterBreak2 only works on firmware versions <b>below 5.16.4</b>
-                    <br/>
-                    For firmware 5.16.4 &ndash; 5.18.0.2, use <a href="/jailbreaking/WinterBreak">WinterBreak</a>
-                    <br/>
-                    For firmware 5.18.1+, use <a href="/jailbreaking/AdBreak">AdBreak</a>
-                </p>
             </div>
         </div>
         <div class="step">
@@ -96,12 +88,7 @@ Unlike WinterBreak, WinterBreak2 uses the Kindle's built-in Experimental Browser
         <div class="step">
             <h2>Done</h2>
             <div class="stepContent">
-                <p class="warning">
-                    Once the jailbreak has completed, <b>turn Airplane mode on</b> before continuing to the post-jailbreak stage, to prevent an automatic update.
-                </p>
-                <p class="warning">
-                    If present, delete the <code>update.bin.tmp.partial</code> file from your device to prevent an automatic update
-                </p>
+                <p>You are done! Commence with the next section.</p>
             </div>
         </div>
     </div>
@@ -111,7 +98,7 @@ Unlike WinterBreak, WinterBreak2 uses the Kindle's built-in Experimental Browser
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../post-jailbreak/setting-up-a-hotfix", "Setting Up A Hotfix");</script>
+<script>new Guide("guide", "../whats-next", "What's Next?");</script>
 
 # Troubleshooting
 
