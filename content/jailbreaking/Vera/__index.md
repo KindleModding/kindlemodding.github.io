@@ -14,9 +14,9 @@ kofi: https://ko-fi.com/yubaix
 > <br/>
 > \- Stanisław Lem
 
-Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix), [sparklerfish](https://ko-fi.com/sparklerfish).
+Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix) and [sparklerfish](https://ko-fi.com/sparklerfish).
 
-It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
+It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
 
 ## Prerequisites
 
@@ -75,7 +75,7 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
                 <p>Once you are on the website, choose your device from the selectable options if prompted.</p>
                 <p>Then, select your firmware from the dropdown box.</p>
                 <p class="note">
-                    If your firmware does not appear in the dropdown box, but is above 5.17 and below 5.19.6, it is recommended to try the nearest firmware listed below your current firmware. This is not guaranteed to work, and it is recommended to join the discord server for support if this occurs.
+                    If your firmware does not appear in the dropdown box, but is above 5.17 and below 5.19.6, it is recommended to try the nearest firmware listed below/above your current firmware. This is not guaranteed to work, and it is recommended to join the discord server for support if this occurs.
                 </p>
                 <img src="./sitedownload.png"> 
             </div>
@@ -83,6 +83,9 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
         <div class="step">
             <h2>Download Both Books + Exit Browser</h2>
             <div class="stepContent">
+                <p class="warning">
+                    Wait 2-3 seconds after closing your browser in order to ensure that you click the correct book on the next step.
+                </p>
                 <p>If the previous step was done correctly, some highlighted text containing "Download" should appear."</p>
                 <p>Click the text, then click "Ok" to confirm the download.</p>
                 <p>After downloading the book, click the "Download Font Calibration Book" and confirm the download for that as well.</p>
@@ -133,8 +136,12 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
             <div class="stepContent">
                 <p>After closing the book, click the "Véra" book in your library.</p>
                 <p>After a few seconds, some text should flow from the top left of your screen, and a "RESTARTING GUI" screen should pop up.</p>
+                <p>After the GUI has restarted, the books downloaded earlier can be deleted (Véra and Font Calibration).
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
+                </p>
+                <p class="note">
+                    If you get stuck on any sort of screen during or after this point, it is safe to hold down the power button and reboot.
                 </p>
                 <img src="./restarting.png" />
             </div>
@@ -155,7 +162,7 @@ It will be ported to `KS3(NFL)` and `KSC firmwares` <=5.19.6 in the future.
 - "Restarting GUI" is on the screen for >=10 minutes
     - Restart your kindle by holding the physical power button for a few seconds, then press "Restart" on the screen.
 - Nothing happens after first opening the book
-    - Ensure that steps 3-4 were followed exactly. If it still doesn't work, join the discord server for support.
+    - Ensure that steps 6-9 were followed exactly. If it still doesn't work, join the discord server for support.
    
 ## Special Thanks To
 - Perplexity for a lot of tooling advice while creating this jailbreak, as well as motivating me to start creating one.
