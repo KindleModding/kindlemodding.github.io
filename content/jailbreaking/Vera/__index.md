@@ -136,7 +136,7 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
             <div class="stepContent">
                 <p>After closing the book, click the "Véra" book in your library.</p>
                 <p>After a few seconds, some text should flow from the top left of your screen, and a "RESTARTING GUI" screen should pop up.</p>
-                <p>After the GUI has restarted, the books downloaded earlier can be deleted (Véra and Font Calibration).
+                <p>After the GUI has restarted, the books downloaded earlier can be deleted (Véra and Font Calibration).</p>
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
                 </p>
