@@ -25,7 +25,7 @@ Some Kindle models <em>might</em> not be able to downgrade below<code>5.18.x</co
 
 ## Prerequisites
 - A PC
-- A jailbroken Kindle (using the [Universal Hotfix](../../jailbreaking/post-jailbreak/setting-up-a-hotfix))
+- A jailbroken Kindle 
 - [An appropriate firmware .bin file for the version you want to downgrade to](../downloading-updates).
 
 ## Downgrading

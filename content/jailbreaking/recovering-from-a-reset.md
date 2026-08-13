@@ -6,18 +6,11 @@ weight: 12
 ---
 
 # Recovering From a Reset
-Factory resetting a jailbroken Kindle with renametobin (`Rename`) left enabled will make it impossible to install either the hotfix or official update files. To fix this, follow these steps:
 
-1. Follow the [MRPI and KUAL installation instructions](./post-jailbreak/installing-kual-mrpi/)
-2. Install the Hotfix through MRPI (copy the [hotfix](../jailbreaking/post-jailbreak/setting-up-a-hotfix/) file to the `mrpackages` folder and type `;log mrpi` into the search bar)
-3. Click the `Run Hotfix` booklet  
-2. Follow the [Disable OTA instructions](./post-jailbreak/disable-ota.html)
-3. Instead of choosing the `Rename` option, use the `Restore` option
+Factory resetting a jailbroken Kindle means it has updates blocked and you will never be able to install official update files (<b>crucial</b> for removing all traces of a jailbreak on a Kindle). See the <a href="/jailbreaking/">jailbreaking lander</a> for more information.
 
-<p class="note">
-If you come from an un-jailbreak attempt, you can also force an update by copying the firmware update file to your Kindle and, while still plugged in, hold down the power button until it restarts
-</p>
+In order to restore the Kindle's ability to update, please install <a href="./ota.sh" download>this</a> scriptlet.
 
-<p class="caution">
-Remember that performing a factory reset followed by an update will remove any jailbreak remnants
-</p>
+<div class="note">
+    Scriptlets, and how to install them, are explained <a href="/jailbreaking/whats-next/installing-homebrew.html">here</a>.
+</div>

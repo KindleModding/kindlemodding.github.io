@@ -132,6 +132,20 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
                 <img src="./jailbreak.png">
             </div>
         </div>
+        <div class="step">
+            <h2>After Jailbreaking...</h2>
+            <div class="stepContent">
+                <div class="tip">
+                    <b>What's Next?</b><br>
+                    Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
+                </div>
+                <div class="caution">
+                    You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
+                    Before you do this, also <b>remove any existing update files with a <code>.bin</code> extension</b>, if they exist in the Kindle's root.
+                </div>
+                <p>Have fun! :)</p>
+            </div>
+        </div>
     </div>
     <div class="buttons">
         <button id="prev">Previous Step</button>
