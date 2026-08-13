@@ -18,7 +18,10 @@ The jailbreak has also pre-installed a <i>package manager</i> called KPM for you
 
 This section will cover;
 
-- Installing Homebrew & KPM
+- Installing Homebrew
+    - Scriptlets
+    - KPM
+    - KOPlugins
 - Getting KOReader
 
 <a href="./installing-homebrew.html"><button style="margin-top: 25px;">Get Started</button></a>

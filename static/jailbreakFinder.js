@@ -1,3 +1,12 @@
+//Alert Modal
+const readLander = localStorage.getItem("readLander");
+if(!readLander) {
+    showDialog(
+        "Halt!",
+        `We have detected <b>you have not</b> read the <a href="/jailbreaking/">jailbreaking lander</a> informational page yet, and are trying to find your jailbreak.<br>Please head over there now, and the warning will clear. <p class="caution"><b>Do NOT expect any support otherwise.</b></p>`
+    );
+};
+
 window.info = {};
 let current = document.querySelector("#home");
 

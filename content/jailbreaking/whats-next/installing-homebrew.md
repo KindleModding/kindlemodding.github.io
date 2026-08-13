@@ -8,7 +8,7 @@ weight: 1
 # Installing Homebrew
 
 <p class="note">
-    Before you go through the next guides to install apps, it is <b>crucial</b> you understand <i>how</i>.
+    Before you go through the next guides to install apps, it is <b>imperative</b> you understand <i>how</i>.
 </p>
 
 ## Scriptlets
@@ -32,6 +32,16 @@ If you are familiar with package managers such as <code>apt-get</code>, this wil
 <p class="tip">
     Psst... You can find a list of popular Kindle homebrew <a href="https://github.com/KindleTweaks/Awesome-Kindle">here!</a>.
 </p>
+
+## KOPlugins
+
+KOReader has an extendable plugins mechanism, as is documented on <a href="https://koreader.rocks">koreader.rocks</a>.
+
+Some fan-favourite homebrew, such as <a href="https://github.com/doctorhetfield-cmd/simpleui.koplugin">SimpleUI</a> and <a href="https://github.com/AnthonyGress/zen_ui.koplugin">ZenUI</a> takes shape as a KOPlugin.
+
+To install them manually, you copy them into <code>/koreader/plugins</code> when you plug the Kindle into a computer.
+
+Otherwise, they can also be installed on-device with an AppStore KOPlugin (e.g., <a href="https://github.com/ultimatejimmy/storefront.koplugin">Storefront</a>).
 
 ## Notes
 

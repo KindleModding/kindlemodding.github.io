@@ -57,7 +57,7 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
         <div class="step">
             <h2>Extract & Copy</h2>
             <div class="stepContent">
-                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy the three files within to your Kindle's root (top folder when connected).</p>
+                <p>Plug in the Kindle, Extract <code>nosebleed.zip</code> on your PC, and copy the two files within to your Kindle's root (top folder when connected).</p>
                 <img src="./copy_assets.png" /> 
             </div>
         </div>
@@ -83,9 +83,17 @@ Nosebleed is a jailbreak released on 02/03/2026 by hhhhhhhhh.
             </div>
         </div>
         <div class="step">
-            <h2>Done</h2>
+            <h2>After Jailbreaking...</h2>
             <div class="stepContent">
-                <p>Once the jailbreak has completed, continue to the post-jailbreak stage.</p>
+                <div class="tip">
+                    <b>What's Next?</b><br>
+                    Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
+                </div>
+                <div class="caution">
+                    You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
+                    Before you do this, also <b>remove any existing update files with a <code>.bin</code> extension</b>, if they exist in the Kindle's root.
+                </div>
+                <p>Have fun! :)</p>
             </div>
         </div>
     </div>

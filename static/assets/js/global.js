@@ -20,31 +20,48 @@ const registerServiceWorker = async () => {
 registerServiceWorker();
 
 //Modal Functions
-function showDialog(id) {
-    const modal = document.getElementById(id);
-    if (!modal) {
-        console.error(`Modal with ID "${id}" not found!`);
-        return;
-    }
+function showDialog(title, description) {
+    //Build Modal (from Scratch)
+    const overlay = document.createElement("div");
+    overlay.classList.add("modal-overlay");
+    document.body.appendChild(overlay);
 
-    const overlay = modal.closest(".modal-overlay");
-    if (overlay) {
-        overlay.classList.add("active");
-        document.body.style.overflow = "hidden";
+    const modal = document.createElement("div");
+    modal.classList.add("modal-container");
+    overlay.appendChild(modal);
 
-        const escHandler = (e) => {
-            if (e.key === "Escape") {
-                closeDialog(id);
-                window.removeEventListener("keydown", escHandler);
-            }
-        };
-        window.addEventListener("keydown", escHandler);
-    }
+    const header = document.createElement("div");
+    header.classList.add("modal-header");
+    const mTitle = document.createElement("h2");
+    mTitle.innerHTML = title; header.appendChild(mTitle);
+    modal.appendChild(header);
+
+    const body = document.createElement("div");
+    body.classList.add("modal-body");
+    const mDesc = document.createElement("p");
+    mDesc.innerHTML = description; body.appendChild(mDesc);
+    modal.appendChild(body);
+
+    const footer = document.createElement("div");
+    footer.classList.add("modal-footer");
+    const close = document.createElement("button");
+    close.onclick = () => closeDialog(); close.innerHTML = "CLOSE"; footer.appendChild(close);
+    modal.appendChild(footer);
+
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden";
+
+    const escHandler = (e) => {
+        if (e.key === "Escape") {
+            closeDialog();
+            window.removeEventListener("keydown", escHandler);
+        }
+    };
+    window.addEventListener("keydown", escHandler);
 }
 
-function closeDialog(id) {
-    const modal = document.getElementById(id);
-    if (!modal) return;
+function closeDialog() {
+    const modal = document.querySelector(".modal-container");
 
     const overlay = modal.closest(".modal-overlay");
     if (overlay) {
@@ -55,9 +72,6 @@ function closeDialog(id) {
 
 document.addEventListener("click", (e) => {
     if (e.target.classList.contains("modal-overlay")) {
-        const activeModal = e.target.querySelector(".modal-container");
-        if (activeModal) {
-            closeDialog(activeModal.id);
-        }
+        closeDialog();
     }
 });

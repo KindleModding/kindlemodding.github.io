@@ -24,7 +24,7 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
 - A PC, Cable, Kindle.
 - Unzipping Software (E.g., <a href="https://7-zip.org/">7-Zip</a>)
 - A registered, supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
-- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- You have read <a href="/jailbreaking">this overview</a>
 - A Wi-Fi connection.
 
 > [!INFO]
@@ -154,6 +154,19 @@ You can read the writeup [here](https://penguins184.xyz/blog/springbreak-jailbre
                     If you don't do this, the Kindle will take upwards of <b>15 minutes</b> to boot.
                 </p>
                 <img src="./cleaning.png">
+            </div>
+        </div>
+        <div class="step">
+            <h2>After Jailbreaking...</h2>
+            <div class="stepContent">
+                <div class="tip">
+                    <b>What's Next?</b><br>
+                    Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
+                </div>
+                <div class="caution">
+                    If they exist, <b>remove any existing update files with a <code>.bin</code> extension</b>, in the Kindle's root.
+                </div>
+                <p>Have fun! :)</p>
             </div>
         </div>
     </div>

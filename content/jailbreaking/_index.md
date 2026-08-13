@@ -30,6 +30,11 @@ Here are some important things to note before you begin. This information applie
     After the jailbreak, many different tools get <i>automagically</i> installed for you, which for the most part, you will not have to interact with. This includes update blocking so the jailbreak does not get removed, a package manager, etc. Once you're jailbroken you can begin installing your own software right out of the park using the inbuilt package manager. You will be guided through this in the "What's Next?" section, after you jailbroke.
 </p>
 
+<p class="warning" style="filter: hue-rotate(150deg);">
+    <b>Can I remove the Jailbreak?</b><br>
+    Yes. If you wish to remove the jailbreak, you must run <a href="./ota.sh" download>this</a> scriptlet (<a href="whats-next/installing-homebrew.html">'scriptlet' term definition</a>), factory reset the device, then push an update (whether it be to the same firmware, you can download an update file from <a href="https://ftvdb.com/kindle/firmware/">FTVDB</a>, place it in the Kindle's root and hit the update button). After this, <b>every trace</b> of the Jailbreak will be removed.
+</p>
+
 <p class="caution">
     <b>Who can I ask for help?</b><br>
     When in doubt, please consult someone on the official <a href="https://discord.kindlemodding.org/">KindleModding Discord</a>, or <a href="https://discord.gg/yWPHHbrp7h">KindleTweaks</a>. <a href="https://www.reddit.com/r/kindlejailbreak/">r/kindlejailbreak</a> on Reddit is also an available option, although a community resource. <b>Do not perform dangerous actions such as a Factory Reset without an experienced person's advice (e.g., KindleModding Helpers)</b>.
@@ -63,3 +68,7 @@ Also, for those who are curious (<b>or do not actually know what a jailbreak can
 - Certain tweaks could cause <i>lag/performance issues</i>, but this isn't because of jailbreak itself.
 - Everyone will know you as "that weird person who jailbroke their Kindle and plays doom on it" (did I mention it plays doom?)
 - You will inevitably deal with vexing people who have not read the above page which outlines basic jailbreaking concepts.
+
+<script>
+    if(!localStorage.getItem("readLander")) localStorage.setItem("readLander", true);
+</script>

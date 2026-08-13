@@ -7,6 +7,14 @@
 
 class Guide {
     constructor(guideID="guide", endLink=null, endText=null) {
+        const readLander = localStorage.getItem("readLander");
+        if(!readLander) {
+            showDialog(
+                "Halt!",
+                `We have detected <b>you have not</b> read the <a href="/jailbreaking/">jailbreaking lander</a> informational page yet, and are on a page with a guide.<br>Please head over there now, and this warning will clear. <p class="caution"><b>Do NOT expect any support otherwise.</b></p>`
+            );
+        };
+
         this.guideID = guideID;
         this.endText = endText;
         this.endLink = endLink;
