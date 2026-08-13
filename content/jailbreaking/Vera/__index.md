@@ -77,7 +77,7 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
                 <p class="note">
                     If your firmware does not appear in the dropdown box, but is above 5.17 and below 5.19.6, it is recommended to try the nearest firmware listed below/above your current firmware. This is not guaranteed to work, and it is recommended to join the discord server for support if this occurs.
                 </p>
-                <img src="./sitedownload.png"> 
+                <img src="./firmwareselect.png"> 
             </div>
         </div>
         <div class="step">
@@ -86,9 +86,9 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
                 <p class="warning">
                     Wait 2-3 seconds after closing your browser in order to ensure that you click the correct book on the next step.
                 </p>
-                <p>If the previous step was done correctly, some highlighted text containing "Download" should appear."</p>
-                <p>Click the text, then click "Ok" to confirm the download.</p>
-                <p>After downloading the book, click the "Download Font Calibration Book" and confirm the download for that as well.</p>
+                <p>If the previous step was done correctly, two download links will appear.</p>
+                <p>Click the Font Calibration book link and click "Ok" to confirm the download.</p>
+                <p>Click your device-specific Véra book link and click "Ok" to confirm the download.</p>
                 <img src = "./downloadconfirm.png" /> 
                 <p>After downloading, quit the browser by hitting the X in the upper right corner of the browser.</p>
                 <p class="warning">
@@ -127,7 +127,7 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
             <div class="stepContent">
                 <p>Select the "Themes" menu at the top, or the "Spacing" option if it appears.</p>
                 <p>Click "Save current settings" and then click "Save" again to save as a theme.</p>
-                <p>Then, exit out of the book by tapping the top left corner of the screen 3 times.</p>
+                <p>Then, exit out of the book by tapping the top left corner of the screen 3 times ("Home" or "Library" button).</p>
                 <img src="./split2.png"> <!-- i'm starting to like this split technique lol -->
             </div>
         </div>
