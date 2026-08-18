@@ -1,0 +1,526 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Véra</title>
+    <style>
+        body {
+            padding: 0 1em;
+            font-size: 1.25em;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: 0.5rem;
+        }
+
+        a,
+        p {
+            font-size: 1.2em;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+
+        #device-select,
+        #firmware-select {
+            display: none;
+        }
+
+        fieldset {
+            padding: 0;
+            outline: none;
+            border: none;
+            margin-top: 1rem;
+        }
+
+        legend,
+        #firmware-select label,
+        #download-heading {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0.5rem 0 0.25rem;
+            display: block;
+        }
+
+        .firmware-wrap {
+            position: relative;
+            display: inline-block;
+            z-index: 100;
+        }
+
+        #firmware-trigger {
+            font-size: 1.25rem;
+            padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+            background: #fff;
+            position: relative;
+            width: 24ch;
+            text-align: left;
+        }
+
+        #firmware-trigger::after {
+            content: '';
+            position: absolute;
+            right: 0.6rem;
+            top: 50%;
+            margin-top: -0.2rem;
+            border-left: 0.35rem solid transparent;
+            border-right: 0.35rem solid transparent;
+            border-top: 0.45rem solid #333;
+        }
+
+        #firmware-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 100%;
+            max-height: 12rem;
+            overflow-y: auto;
+            background: #fff;
+            border: 1px solid #333;
+            z-index: 200;
+        }
+
+        #firmware-dropdown button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            background: #fff;
+            border: none;
+        }
+
+        #firmware-dropdown button.placeholder {
+            color: #888;
+            font-style: italic;
+        }
+
+        #firmware-dropdown button.selected {
+            background: #333;
+            color: #fff;
+        }
+
+        button {
+            font-size: 1.25rem;
+            padding: 0.25rem 0.75rem;
+        }
+
+        #quote {
+            font-size: 0.75em;
+            margin-bottom: 1rem;
+        }
+
+        #quote p {
+            margin: 0;
+        }
+
+        blockquote {
+            margin: 0.25rem 0 0.25rem 0.75rem;
+        }
+
+        .note {
+            font-size: 0.75rem;
+        }
+
+        #links {
+            display: none;
+            padding: 0 1em;
+            margin: 0;
+        }
+
+        #download-heading {
+            display: none;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        #links li {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Véra</h1>
+    <div id="quote">
+        <blockquote>
+            <p>“We’re not searching for anything except people. We don’t need other worlds. We need mirrors.”</p>
+        </blockquote>
+        <p>Stanisław Lem, <cite>Solaris</cite></p>
+    </div>
+    <noscript>
+        <p>Please enable JavaScript to use this page.</p>
+    </noscript>
+    <div id="result">
+        <form>
+            <fieldset id="device-select">
+                <legend>Device:</legend>
+            </fieldset>
+            <p class="note">If your device is not listed, it is not currently supported.</p>
+            <div id="firmware-select">
+                <label>Firmware:</label>
+                <div class="firmware-wrap">
+                    <button type="button" id="firmware-trigger">Select a firmware…</button>
+                    <div id="firmware-dropdown"></div>
+                </div>
+            </div>
+        </form>
+        <h2 id="download-heading">Download BOTH books:</h2>
+        <ol id="links">
+            <li>
+                <a id="fontcal-link" href="https://kindlemodding.org/vera/books/fontcal.azw3">Download Font Calibration book</a>
+            </li>
+        </ol>
+    </div>
+    <script>
+        (() => {
+            const resolutions = {
+                '600x800': {
+                    K1: {},
+                    K2: {},
+                    K3: {},
+                    KT: {},
+                    K4: {},
+                    K5: {},
+                    KT2: {},
+                    KT3: {},
+                    KT4: {},
+                },
+                '758x1024': {
+                    PW1: {},
+                    PW2: {},
+                },
+                '824x1200': {
+                    DX: {},
+                },
+                '1072x1448': {
+                    PW3: {},
+                    PW4: {},
+                    KV: {},
+                    KOA: {},
+                    KT5: {
+                        name: 'Kindle 11th gen 2022 release',
+                        firmwares: [
+                            '5.19.2.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                            '5.17.1.0.3',
+                            '5.17.1',
+                        ],
+                    },
+                    KT6: {
+                        name: 'Kindle 11th gen 2024 release',
+                        firmwares: [
+                            '5.19.6',
+                            '5.19.5',
+                            '5.19.4.0.1',
+                            '5.19.3.0.2',
+                            '5.19.3.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.1.5',
+                            '5.18.1',
+                            '5.17.1.0.4',
+                            '5.17.1.0.2',
+                        ],
+                    },
+                },
+                '1236x1648': {
+                    PW5: {
+                        name: 'Paperwhite 11th gen',
+                        firmwares: [
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                            '5.17.1.0.3',
+                            '5.17.1',
+                        ],
+                    },
+                },
+                '1264x1680': {
+                    KOA2: {},
+                    KOA3: {},
+                },
+                '1272x1696': {
+                    PW6: {
+                        name: 'Paperwhite 12th gen',
+                        firmwares: [
+                            '5.19.6',
+                            '5.19.5',
+                            '5.19.4.0.1',
+                            '5.19.4',
+                            '5.19.3.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                            '5.17.1.0.4',
+                            '5.17.1.0.2',
+                        ],
+                    },
+                    CS: {
+                        name: 'Colorsoft',
+                        firmwares: [
+                            '5.19.6',
+                            '5.19.5',
+                            '5.19.4.0.1',
+                            '5.19.4',
+                            '5.19.3.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                        ],
+                    },
+                },
+                '1860x2480': {
+                    KS: {
+                        name: 'Scribe',
+                        firmwares: [
+                            '5.19.6',
+                            '5.19.5',
+                            '5.19.4.0.1',
+                            '5.19.4',
+                            '5.19.3.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                            '5.17.3',
+                            '5.17.2',
+                            '5.17.1.0.1',
+                        ],
+                    },
+                    KS2: {
+                        name: 'Scribe 2',
+                        firmwares: [
+                            '5.19.6',
+                            '5.19.5',
+                            '5.19.4.0.1',
+                            '5.19.3.0.1',
+                            '5.19.2',
+                            '5.18.6',
+                            '5.18.5.0.1',
+                            '5.18.5',
+                            '5.18.4.0.1',
+                            '5.18.4',
+                            '5.18.3',
+                            '5.18.2',
+                            '5.18.1',
+                            '5.17.3',
+                        ],
+                    },
+                },
+                '1986x2648': {
+                    KSC: {
+                        // NEEDS ROOTLESS STACK
+                        // name: 'Scribe Colorsoft',
+                        // firmwares: [
+                        //     '5.19.6',
+                        //     '5.19.5',
+                        //     '5.19.4.0.1',
+                        //     '5.19.3.0.1',
+                        //     '5.19.3',
+                        //     '5.19.2',
+                        //     '5.19.1',
+                        // ],
+                    },
+                    KS3: {
+                        // NEEDS ROOTLESS STACK
+                        // name: 'Scribe 3',
+                        // firmwares: [
+                        //     '5.19.6',
+                        //     '5.19.5',
+                        //     '5.19.4.0.1',
+                        //     '5.19.3.0.1',
+                        //     '5.19.3',
+                        //     '5.19.2',
+                        //     '5.19.1',
+                        // ],
+                    },
+                    KS3NFL: {
+                        // NEEDS ROOTLESS STACK
+                        // name: 'Scribe 3 No Front Light',
+                        // firmwares: [
+                        //     '5.19.6',
+                        //     '5.19.5',
+                        //     '5.19.4.0.1',
+                        // ],
+                    },
+                },
+            };
+
+            const result = document.getElementById('result');
+
+            const append = (tag, text) => {
+                const e = document.createElement(tag);
+                e.innerHTML = text;
+                result.appendChild(e);
+            };
+
+            const dpr = (typeof window.devicePixelRatio !== 'undefined') ? window.devicePixelRatio : 1;
+            const { width: logicalWidth, height: logicalHeight } = screen;
+            const panelWidth = Math.round(logicalWidth * dpr);
+            const panelHeight = Math.round(logicalHeight * dpr);
+            const key = Math.min(panelWidth, panelHeight) + 'x' + Math.max(panelWidth, panelHeight);
+            const entry = resolutions[key];
+
+            if (entry) {
+                let device, firmware;
+                const models = Object.entries(entry).filter(([, v]) => v.firmwares);
+                if (!models.length) {
+                    append('h2', 'Your device is not curently supported!');
+                } else {
+                    const deviceSelect = document.getElementById('device-select');
+                    const firmwareSelect = document.getElementById('firmware-select');
+                    const firmwareTrigger = document.getElementById('firmware-trigger');
+                    const firmwareDropdown = document.getElementById('firmware-dropdown');
+                    const fontCalLink = document.getElementById('fontcal-link');
+                    const links = document.getElementById('links');
+                    const downloadHeading = document.getElementById('download-heading');
+
+                    const openDropdown = () => {
+                        firmwareDropdown.style.display = 'block';
+                    };
+
+                    const closeDropdown = () => {
+                        firmwareDropdown.style.display = 'none';
+                    };
+
+                    const showLink = () => {
+                        const oldLink = document.getElementById('download-link-item');
+                        if (oldLink) oldLink.remove();
+                        const item = document.createElement('li');
+                        links.appendChild(item);
+                        const link = document.createElement('a');
+                        link.id = 'download-link';
+                        item.id = 'download-link-item';
+                        const book = `${device}-${firmware}-jb.azw3`.toLowerCase();
+                        link.href = `https://kindlemodding.org/vera/books/${book}`;
+                        link.setAttribute('download', '');
+                        link.innerHTML = `Download Véra (${device} - ${firmware})`;
+                        item.appendChild(link);
+                        links.style.display = 'block';
+                        downloadHeading.style.display = 'block';
+                    };
+
+                    const renderFirmwares = (device) => {
+                        firmware = '';
+                        firmwareTrigger.textContent = 'Select a firmware…';
+                        closeDropdown();
+                        firmwareDropdown.innerHTML = '';
+                        const placeholder = document.createElement('button');
+                        placeholder.type = 'button';
+                        placeholder.disabled = true;
+                        placeholder.className = 'placeholder';
+                        placeholder.textContent = 'Select a firmware…';
+                        firmwareDropdown.appendChild(placeholder);
+                        entry[device].firmwares.forEach((fw) => {
+                            const b = document.createElement('button');
+                            b.type = 'button';
+                            b.textContent = fw;
+                            b.addEventListener('click', () => {
+                                firmware = fw;
+                                firmwareTrigger.textContent = fw;
+                                Array.prototype.forEach.call(firmwareDropdown.children, (btn) => {
+                                    btn.classList.toggle('selected', btn === b);
+                                });
+                                closeDropdown();
+                                showLink();
+                            });
+                            firmwareDropdown.appendChild(b);
+                        });
+                        firmwareSelect.style.display = 'block';
+                        const oldLink = document.getElementById('download-link-item');
+                        if (oldLink) oldLink.remove();
+                    };
+
+                    models.forEach(([model, { name }]) => {
+                        const option = document.createElement('input');
+                        option.type = 'radio';
+                        option.value = model;
+                        option.name = 'device';
+                        const label = document.createElement('label');
+                        const wrapper = document.createElement('div');
+                        wrapper.appendChild(label);
+                        label.appendChild(option);
+                        labelText = document.createTextNode(`${model} (${name})`);
+                        label.appendChild(labelText);
+                        deviceSelect.appendChild(wrapper);
+                        if (models.length === 1) {
+                            option.checked = true;
+                            device = model;
+                            renderFirmwares(device);
+                        }
+                    });
+
+                    deviceSelect.style.display = 'block';
+
+                    firmwareTrigger.addEventListener('click', () => {
+                        if (firmwareDropdown.style.display === 'block') {
+                            closeDropdown();
+                        } else {
+                            openDropdown();
+                        }
+                    });
+
+                    document.addEventListener('click', (e) => {
+                        if (!firmwareSelect.contains(e.target)) closeDropdown();
+                    });
+
+                    deviceSelect.addEventListener('change', (e) => {
+                        device = e.target.value;
+                        renderFirmwares(device);
+                        links.style.display = 'none';
+                        downloadHeading.style.display = 'none';
+                    });
+
+                    document.querySelector('form').style.display = 'block';
+                }
+            }
+        })();
+    </script>
+</body>
+
+</html>
