@@ -15,6 +15,7 @@ A hotfix allows your Kindle's jailbreak to persist after updating. There are two
 > [!WARNING]
 > You may skip this if you jailbroke using Winterbreak, Springbreak, or Sanctuary. The hotfix has already been installed for you.  
 > This is also not necessary for some types of legacy jailbreaks, check the corresponding page.
+> **Exception:** If you used **WinterBreak2** and your `winterbreak.log` says `Please Install HOTFIX now`, you **must** install the hotfix — do not skip this step.
 
 <div id="guide">
     <div class="buttons">

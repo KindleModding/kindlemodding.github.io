@@ -220,7 +220,7 @@ This is also the case for the "Collecting Debug Info" message.
 
 You can do one of the following:
 
-- [Install KOReader](https://kindlemodding.org/jailbreaking/post-jailbreak/koreader.html)
+- [Install KOReader](https://kindlemodding.org/jailbreaking/Legacy/post-jailbreak/koreader.html)
 - [Downgrade your Kindle](https://kindlemodding.org/firmware-and-flashing/downgrading/)
 - Download scriptlets:
     - [Marek's Scriplets](https://scriptlets.notmarek.com/)
