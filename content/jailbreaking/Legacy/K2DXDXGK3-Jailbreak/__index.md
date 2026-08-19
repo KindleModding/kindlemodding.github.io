@@ -11,7 +11,7 @@ summary: A jailbreak for the now-discontinued K2, DX, DXG and K3 Kindles
 The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](https://www.mobileread.com/forums/member.php?u=69624)
 
 ## Prerequisites
-- Please check that your Kindle is [compatible](../../jailbreak-wizard) with the K2 Jailbreak
+- Please check that your Kindle is [compatible](../../../jailbreak-wizard.html) with the K2 Jailbreak
 - You will also need a PC
 
 ## Installation Guide
@@ -80,7 +80,7 @@ The NiLuJe K2/DX/DXG/K3 Jailbreak is a legacy jailbreak created by [NiLuJe](http
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "/jailbreaking/Legacy/post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
+<script>new Guide("guide", "../post-jailbreak/installing-kual-mrpi/", "Installing KUAL & MRPI");</script>
 
 <script>
 /**
@@ -348,7 +348,7 @@ function generateTable()
     table.replaceChildren(...newChildren);
 }
 
-fetch("/models.json").then(response => response.json()).then((data) => {
+fetch(`${baseUrl}models.json`).then(response => response.json()).then((data) => {
     window.kindleModels = data;
     generateTable();
 });

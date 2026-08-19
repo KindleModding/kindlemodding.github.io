@@ -109,7 +109,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
             <div class="stepContent">
                 <p>With storage nearly full, you can now connect to Wi-Fi and register your Kindle to your Amazon account.</p> 
                 <p>The Kindle will not be able to fully download the update due to a lack of space.</p>
-                <p>You can either perform a <a href="/jailbreak-wizard.html">Jailbreak suitable for your device</a> or wait for the next jailbreak to be released.</p> 
+                <p>You can either perform a <a href="../../jailbreak-wizard.html">Jailbreak suitable for your device</a> or wait for the next jailbreak to be released.</p>
                 <p class="info">
                   Always make sure to delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>
                 </p>
@@ -123,7 +123,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
     </div>
 </div>
 
-<script>new Guide("guide", "/jailbreaking/", "Jailbreak");</script>
+<script>new Guide("guide", "../", "Jailbreak");</script>
 
 ---
 

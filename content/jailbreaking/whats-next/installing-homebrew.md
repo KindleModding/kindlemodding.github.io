@@ -49,4 +49,4 @@ Please note, that software called <code>KUAL</code> was formerly used to launch 
 
 With that out of the way, KOReader installation will be covered to show KPM basics. After that, what you install is fully up to you (you don't even need KOReader! What am I, your mother?).
 
-<a href="./getting-koreader/__index.html"><button>Getting KOReader</button></a>
+<a href="./getting-koreader/"><button>Getting KOReader</button></a>

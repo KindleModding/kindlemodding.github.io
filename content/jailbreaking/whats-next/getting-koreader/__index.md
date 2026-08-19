@@ -30,21 +30,21 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
             <h2>Update Sources</h2>
             <div class="stepContent">
                 <p>Run <code>;kpm update</code> in the searchbar on the homescreen (and press return/enter).</p><br><p>You will see some text at the top of the screen, before you're returned to the homepage.</p>
-                <img src="update.png">
+                <img src="./update.png">
             </div>
         </div>
         <div class="step">
             <h2>Install</h2>
             <div class="stepContent">
                 <p>Now, run <code>;kpm install koreader</code> in the searchbar.</p><br><p>Wait a few moments, you'll be returned to the homescreen and a new Scriptlet will have appeared (the icon may not instantly appear).</p>
-                <img src="booklet.png">
+                <img src="./booklet.png">
             </div>
         </div>
         <div class="step">
             <h2>Run!</h2>
             <div class="stepContent">
                 <p>Click on it, and KOReader will run!</p><br><p>Alternatively, you can also run <code>;kpm launch koreader</code> to use it.</p>
-                <img src="koreader.png">
+                <img src="./koreader.png">
             </div>
         </div>
         <div class="step">

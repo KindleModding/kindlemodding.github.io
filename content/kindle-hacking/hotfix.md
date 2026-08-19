@@ -51,7 +51,7 @@ Once this is done, it performs numerous steps:
 - The `dispatch.sh` [debug command](./debug-commands.html) is copied to `/usr/bin/logThis.sh`
 - `/var/local/kmc/KMCLog.sh` is given execute permissions
 - The `run_bridge.sh` file from old hotfixes is removed and replaced with `Run Hotfix.run_hotfix`
-- `appreg.db` is modified to install the hotfix booklet and `sh_integration` (see also: [appreg.db](./appreg.html) and [Scanner](../kindle-apps-and-services/com.lab126.scanner.html))
+- `appreg.db` is modified to install the hotfix booklet and `sh_integration` (see also: [appreg.db](./appreg.html) and [Scanner](../kindle-apps-and-services/com.lab126.scanner/))
 
 ## Running Hotfix
 Once the hotfix is installed, the Kindle is very nearly jailbroken, however, some final stages that cannot be performed in the OTA environment need to be done. As such, the `Run Hotfix` booklet is created to do this.  

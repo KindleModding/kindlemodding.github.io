@@ -25,5 +25,9 @@ navbar_exclude: true
   <h1>HTTP 404</h1>
   <p>Page Not Found!</p>
 
-  <a href="/" class="button">Go Home</a>  
+  <a id="404-base-url" class="button">Go Home</a>
 </div>
+
+<script>
+  document.getElementById("404-base-url").href = baseUrl;
+</script>

@@ -62,7 +62,7 @@ Some devices may let you skip the initial device set-up by simply restarting the
 If you notice a <strong>significantly</strong> slower performance after the downgrade, it is recommended to perform a factory reset. Don't forget to backup your files and setting up the hotfix first
 </p>
 
-<a class="button" href="../../jailbreaking/post-jailbreak/setting-up-a-hotfix/">Setting Up A Hotfix</a>
+<a class="button" href="../../jailbreaking/Legacy/post-jailbreak/setting-up-a-hotfix/">Setting Up A Hotfix</a>
 
 ## Credits
 - Written by Bundlerocks, adapted from [Neon](https://kindlemodding.gitbook.io/kindlemodding/miscellaneous/downgrading-your-kindle-firmware)
