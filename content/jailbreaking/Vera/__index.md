@@ -25,13 +25,6 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
 - You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 
-<p class="caution" style="font-size:20px">
-    <b>
-        <span style="display:block;font-size:24px">8/18/2026 NOTICE: </span>
-        The Véra site is currently DOWN. Please bear with us as we work to resolve this issue.
-    </b>
-</p>
-
 > [!INFO]
 > If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit.
 
@@ -72,7 +65,7 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
             <div class="stepContent">
               <p>On your Kindle, open the <b>Web Browser</b> (<code>3 Dots → Web Browser</code>)</p>
                 <p>Then, navigate to the following URL:</p>
-                <p><code>https://vera.tene7.com</code></p>
+                <p><code>https://kindlemodding.org/vera</code></p>
                 <img src = "./browser.png">
             </div>
         </div>
