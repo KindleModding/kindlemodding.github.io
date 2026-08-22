@@ -11,6 +11,8 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
 
 > [!WARNING]
 > You may skip this if you jailbroke using Winterbreak, Springbreak, or Sanctuary. OTA updates have already been blocked for you.
+>
+> **Exception:** If you used **WinterBreak2** and your `winterbreak.log` says `Please Install HOTFIX now`, OTA updates have **not** been blocked for you — you **must** complete this step.
 
 <div id="guide">
     <div class="buttons">
@@ -132,7 +134,7 @@ Kindles automatically update when connected to Wi-Fi, which despite a `hotfix`, 
     </div>
 </div>
 
-<script>new Guide("guide", "#", "Finish");</script>
+<script>new Guide("guide", "./koreader.html", "Installing KOReader");</script>
 
 ## Credits
 
