@@ -167,6 +167,7 @@ function hasAds() {
             next.removeAttribute("disabled");
             break;
         case "2":
+        case "3":
             window.info.ads = false;
             next.removeAttribute("disabled");
             break;

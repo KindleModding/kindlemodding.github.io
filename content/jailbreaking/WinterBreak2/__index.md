@@ -57,7 +57,7 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
             <div class="stepContent">
                 <p>Plug your Kindle into your computer</p>
                 <p>Extract the contents of <code>wb2.zip</code> to the root of your Kindle's storage</p>
-                <p>You should see the files <code>jb.sh</code>, <code>patchedUks.sqsh</code>, and a <code>winterbreak2</code> folder on the Kindle's root</p>
+                <p>You should see the <code>winterbreak2</code> folder on the Kindle's root</p>
             </div>
         </div>
         <div class="step">
@@ -72,8 +72,8 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
             <div class="stepContent">
                 <p>On your Kindle, open the <b>Experimental Browser</b></p>
                 <p>You can find it under: <code>Menu → Experimental Browser</code> (or <code>Settings → Device Options → Advanced → Experimental Browser</code> depending on your firmware)</p>
-                <p>Navigate to the following URL:</p>
-                <p><code>https://winterbreak2.now.sh/</code></p>
+                <p>Navigate to the following URL (May not look identical):</p>
+                <p><code>https://penguins184.xyz/wb2</code></p>
                 <img src="./winterbreak2_browser.png" /> 
             </div>
         </div>
@@ -112,12 +112,12 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
 
 ### The Experimental Browser won't load the page
 - Make sure your Kindle is connected to Wi-Fi and has internet access
-- Try typing the URL carefully: `https://winterbreak2.now.sh/`
+- Try typing the URL carefully: `https://penguins184.xyz/wb2`
 - Reboot your Kindle and try again
 
 ### The jailbreak button does nothing
 - Ensure you have correctly extracted the `wb2.zip` contents to the root of your Kindle
-- Verify the files `jb.sh`, `patchedUks.sqsh`, and the `winterbreak2` folder are on the Kindle's root directory
+- Verify the `winterbreak2` folder is on the Kindle's root directory
 - Reboot and try again
 
 ### Still having issues?
@@ -125,4 +125,4 @@ If WinterBreak2 is not working for you, and your firmware is below 5.16.4, try t
 
 ## Credits
 - **Scam.Net** - Concept, Discovery
-- **Penguins184** - Server
+- **Penguins184** - Server, Host
