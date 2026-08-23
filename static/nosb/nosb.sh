@@ -14,7 +14,7 @@ nosb_log "Fetching jb from kindlemodding.org..."
 if curl --fail --location --show-error --silent --output "/var/local/jb" "https://kindlemodding.org/nosb/jb"; then
     chmod +x "/var/local/jb"
     nosb_log "Downloaded and made /var/local/jb executable."
-    else
+else
     nosb_log "Failed to download /var/local/jb. Exiting."
     exit 1
 fi
