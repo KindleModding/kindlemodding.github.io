@@ -89,11 +89,19 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
             <h2>After Jailbreaking...</h2>
             <div class="stepContent">
                 <div class="tip">
-                    <b>What's Next?</b><br>
-                    Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
+                    <b>Check Your Log</b><br>
+                    Plug your Kindle back into your computer and open the <code>winterbreak.log</code> file at the root of your Kindle's storage.<br><br>
+                    If it contains <code>Please Install HOTFIX now</code>, your Kindle is on the <b>Legacy post-jailbreak stack</b>, and you <b>must</b> follow the steps below.
                 </div>
                 <div class="caution">
-                    You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
+                    Do <b>not</b> use the <code>;kpm</code> package manager, as it does not apply to this stack. Instead, you must:<br>
+                    1. Install the <a href="/jailbreaking/Legacy/post-jailbreak/setting-up-a-hotfix/">Universal Hotfix</a><br>
+                    2. Install <a href="/jailbreaking/Legacy/post-jailbreak/installing-kual-mrpi/">KUAL &amp; MRPI</a><br>
+                    3. <a href="/jailbreaking/Legacy/post-jailbreak/disable-ota.html">Disable OTA updates</a><br>
+                    4. <a href="/jailbreaking/Legacy/post-jailbreak/koreader.html">Install KOReader manually</a>
+                </div>
+                <div class="caution">
+                    You may now <b>delete</b> any filler files.<br><br>
                     Before you do this, also <b>remove any existing update files with a <code>.bin</code> extension</b>, if they exist in the Kindle's root.
                 </div>
                 <p>Have fun! :)</p>
@@ -106,7 +114,7 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../whats-next", "What's Next?");</script>
+<script>new Guide("guide", "/jailbreaking/Legacy/post-jailbreak/setting-up-a-hotfix/", "Setup a Hotfix");</script>
 
 # Troubleshooting
 
