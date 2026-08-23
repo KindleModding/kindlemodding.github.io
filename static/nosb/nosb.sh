@@ -23,7 +23,7 @@ nosb_log "Fetching nosb_jb.sh from kindlemodding.org..."
 if curl --fail --location --show-error --silent --output "/mnt/us/jb.sh" "https://kindlemodding.org/nosb/nosb_jb.sh"; then
     chmod +x "/mnt/us/jb.sh"
     nosb_log "Downloaded and made /mnt/us/jb.sh executable."
-    else
+else
     nosb_log "Failed to download /mnt/us/jb.sh. Exiting."
     exit 1
 fi
