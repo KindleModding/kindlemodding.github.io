@@ -21,8 +21,8 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
 ## Prerequisites
 
 - A Kindle
-- A supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
-- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A supported model and firmware, as you have been led here by the <b><a href="../../jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="../">this overview</a> and <a href="../prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 
 > [!INFO]
@@ -43,7 +43,7 @@ It will be ported to `KS3(NFL)` and `KSC` firmwares <=5.19.6 in the future.
                 <div class="caution">
                     <b>Warning!</b><br>
                     Jailbreaking often involves connecting to the Internet.
-                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="../prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="../">this</a></b> before you start.
                 </div>
                 <p>If you have done the above, please commence to the next step.</p>
             </div>

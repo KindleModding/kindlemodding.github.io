@@ -17,8 +17,8 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
 ## Prerequisites
 
 - A PC, Kindle.
-- A supported model and firmware, as you have been led here by the <b><a href="/jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
-- You have read <a href="/jailbreaking">this overview</a> and <a href="/jailbreaking/prevent-auto-update/">filled the device</a>, if applicable
+- A supported model and firmware, as you have been led here by the <b><a href="../../jailbreak-wizard.html">Jailbreaking Wizard</a></b>.
+- You have read <a href="../">this overview</a> and <a href="../prevent-auto-update/">filled the device</a>, if applicable
 - A Wi-Fi connection.
 
 > [!INFO]
@@ -39,7 +39,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
                 <div class="caution">
                     <b>Warning!</b><br>
                     Jailbreaking often involves connecting to the Internet.
-                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="/jailbreaking/prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="/jailbreaking">this</a></b> before you start.
+                    Before beginning <b>any</b> jailbreaking process, please remember to <a href="../prevent-auto-update/">fill up your Kindle </a> as to avoid ruining the jailbreak mid-process. Additionally, please ensure <b>you have read <a href="../">this</a></b> before you start.
                 </div>
                 <p>If you have done the above, please commence to the next step.</p>
             </div>
@@ -61,7 +61,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
                 <p>Compare your scroll bar to the images below.</p>
                 <p>If your scroll bar appears to be the one on the left, you can proceed to the next step.</p>
                 <p class="warning">
-                    If your scroll bar is the one on the right, you will have to <a href="../../firmware-and-flashing/downloading-updates">manually update your firmware to the latest jailbreakable version.</a>
+                    If your scroll bar is the one on the right, you will have to <a href="../../firmware-and-flashing/downloading-updates.html">manually update your firmware to the latest jailbreakable version.</a>
                 </p>
                 <img src="./scroll.png">
             </div>

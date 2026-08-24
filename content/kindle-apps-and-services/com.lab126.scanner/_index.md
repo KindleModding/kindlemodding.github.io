@@ -6,7 +6,7 @@ title: com.lab126.scanner
 # com.lab126.scanner
 The scanner is a core component of the Kindle system. It watches the userstore filesystem at `/mnt/us/` and indexes books.
 
-[appreg.db](/kindle-hacking/appreg.html) is used to determine corresponding file associations.  
+[appreg.db](../../kindle-hacking/appreg.html) is used to determine corresponding file associations.  
 For more information on how books are indexed, please see the [extractors](./extractors.html) section
 
 ## LIPC Properties

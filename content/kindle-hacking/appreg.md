@@ -19,7 +19,7 @@ It contains the following tables:
 
 ## associations
 The associations table is the most important table in the `appreg.db` file, linking specific *handlers* to specific types of *content* or *interfaces*.  
-It is most notably used by [scanner](../kindle-apps-and-services/com.lab126.scanner.html) to determine what *extractor* to use when indexing a file.  
+It is most notably used by [scanner](../kindle-apps-and-services/com.lab126.scanner/) to determine what *extractor* to use when indexing a file.  
 It is also used to determine what application to launch when opening a booklet.
 
 | handlerId | interface | contentId | defaultAssoc |

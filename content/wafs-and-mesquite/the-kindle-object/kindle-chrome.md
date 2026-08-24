@@ -23,9 +23,6 @@ kindle.chrome.setTitleBar(centerText, leftText)
 ~~~
 Seemingly accepts 2 string arguments, purpose is unknown, possibly `deprecated` in modern Kindle firmware versions
 
-> [!WARNING]
-> `DO NOT` use this in `Mesquite` applications, that is what the [`SDK`](../../mesquito/development/the-mesquito-sdk.html) is for
-
 
 ## kindle.chrome.createHeader
 ~~~js

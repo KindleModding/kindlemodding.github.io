@@ -12,4 +12,4 @@ KPM is a package manager, it is a tool which indexes Kindle homebrew and allows 
 Each developer is expected to submit to the official [KindleModding KPM repository](https://github.com/KindleModding/repo/pulls) or host their own repository (repositories can be hosted statically on GitHub pages)
 
 ## How do I create a package?
-See [Creating a package](creating-a-package.html)
+See [Creating a package](./creating-a-package.html)
