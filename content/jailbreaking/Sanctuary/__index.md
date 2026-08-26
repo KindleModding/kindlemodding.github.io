@@ -128,7 +128,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
             <h2>Jailbreak!</h2>
             <div class="stepContent">
                 <p>Click "Getting Started".</p>
-                <p>Some text should appear, signifying a successful jailbreak!</p>
+                <p>Some text should appear, signifying a successful jailbreak! <b>Application Errors are expected and may be ignored!</b></p>
                 <img src="./jailbreak.png">
             </div>
         </div>
