@@ -2,6 +2,7 @@
 layout: default
 parent: What's Next?
 title: Getting KOReader
+slug: index
 weight: 2
 ---
 
