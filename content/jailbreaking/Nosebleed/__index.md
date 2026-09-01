@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Nosebleed
-weight: 5
+weight: 6
 slug: index
 kofi: https://ko-fi.com/penguins186
 adfree: true

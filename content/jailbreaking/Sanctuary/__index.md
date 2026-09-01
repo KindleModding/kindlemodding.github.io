@@ -2,7 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Sanctuary
-weight: 6
+weight: 7
 slug: index
 ---
 
