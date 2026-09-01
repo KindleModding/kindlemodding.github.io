@@ -32,6 +32,22 @@
         }]
     },
     {
+        "name": "SpiderCat",
+        "url": "/jailbreaking/SpiderCat",
+        "registration": false,
+        "ads": false,
+        "models": ["PW4", "KT4", "KOA3", "PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.16.3",
+            "max": "5.19.5",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
         "name": "Nosebleed",
         "url": "/jailbreaking/Nosebleed/",
         "registration": false,
