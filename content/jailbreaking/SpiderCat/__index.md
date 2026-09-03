@@ -50,14 +50,24 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
             <h2>Download the SpiderCat book</h2>
             <div class="stepContent">
                 <p>You may choose to either download and sideload SpiderCat via USB from your computer, or download it directly from your Kindle's web browser.</p>
-                    <div style="display: grid; grid-template-columns: 1fr 3rem 1fr; grid-template-rows: auto auto; text-align: center; align-items: center; justify-content: center">
-                    <p>Download SpiderCat from the following link and sideload to the Kindle's "documents" folder: <br/><a href="https://kindlemodding.org/spidercat/spidercat.azw3">Download SpiderCat</a></p>
-                    <p><strong>OR</strong></p>
-                    <p>On your Kindle, open the <b>Web Browser</b> and navigate to the following URL and download SpiderCat: <br/><code>https://kindlemodding.org/spidercat</code></p>
-                    <img src="./documents.png">
-                    <span></span>
-                    <img src="./browser.png">
-                </div>
+                <p>If USB sideloading via computer, <b>go to Step 3</b>.</p>
+                <p>If downloading via Kindle browser, <b>go to Step 4</b>.</p>
+            </div>
+        </div>
+        <div class="step">
+            <h2>Sideloading SpiderCat via computer</h2>
+            <div class="stepContent">
+                <p>If downloading via Kindle browser, <b>skip to Step 4</b>.</p>
+                <p>Download SpiderCat from the following link and place in the Kindle's "documents" folder: <br/><a href="https://kindlemodding.org/spidercat/spidercat.azw3">Download SpiderCat</a></p>
+                <img src="./documents.png">
+            </div>
+        </div>
+        <div class="step">
+            <h2>Downloading SpiderCat via Kindle browser</h2>
+            <div class="stepContent">
+                <p>If you sideloaded via USB, <b>skip to Step 5</b>.</p>
+                <p>On your Kindle, open the <b>Web Browser</b> and navigate to the following URL and download SpiderCat: <br/><code>https://kindlemodding.org/spidercat</code></p>
+                <img src="./browser.png">
             </div>
         </div>
         <div class="step">
@@ -73,19 +83,19 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
         <div class="step">
             <h2>Jailbreak!</h2>
             <div class="stepContent">
-                <p>Wait for the book content to load. You may only see a blank page for several seconds before anything else appears.</p>
-                <p>Continue waiting after the page content appears, and after several more seconds, text should begin to flow down from the top of the screen.</p>
-                <p>When the jailbreak script completes, a "Restarting GUI" screen will appear.  This may take several minutes to bring you back to your home screen, and a white screen is normal during this process.</p>
+                <p>Wait for the book to load. You may only see a blank page for several seconds.</p>
+                <p>Continue waiting after the page appears. After several more seconds, text will begin to flow down from the top of the screen.</p>
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
                 </p>
-                <p class="note">
-                    If you get stuck on any screen during or after this point for 10+ minutes, it is safe to hold down the power button and select the "Restart" option.
-                </p>
-                <div style="display:flex;gap:2rem">
-                    <img src="./jailbreaking.png" />
-                    <img src="./restarting.png" />
-                </div>
+                <img src="./jailbreaking.png" />
+            </div>
+        </div>
+        <div class="step">
+            <h2>Restart and Done!</h2>
+            <div class="stepContent">
+                <p>When the jailbreak script completes, a "Restarting GUI" screen will appear.  This may take several minutes to bring you back to your home screen, and a white screen is normal during this process. Then, your device will be in a jailbroken state.</p>
+                <img src="./restarting.png" />
             </div>
         </div>
         <div class="step">
