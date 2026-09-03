@@ -58,7 +58,7 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
             <h2>Sideloading SpiderCat via computer</h2>
             <div class="stepContent">
                 <p>If downloading via Kindle browser, <b>skip to Step 4</b>.</p>
-                <p>Download SpiderCat from the following link and sideload to the Kindle's "documents" folder: <br/><a href="https://kindlemodding.org/spidercat/spidercat.azw3">Download SpiderCat</a></p>
+                <p>Download SpiderCat from the following link and place in the Kindle's "documents" folder: <br/><a href="https://kindlemodding.org/spidercat/spidercat.azw3">Download SpiderCat</a></p>
                 <img src="./documents.png">
             </div>
         </div>
