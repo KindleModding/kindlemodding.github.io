@@ -16,22 +16,6 @@
         }]
     },
     {
-        "name": "Véra",
-        "url": "/jailbreaking/Vera",
-        "registration": false,
-        "ads": false,
-        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
-        "firmwares": [{
-            "models": ["all"],
-            "min": "5.17.1",
-            "max": "5.19.6",
-            "outliers": {
-                "accepted": [],
-                "denied": []
-            }
-        }]
-    },
-    {
         "name": "SpiderCat",
         "url": "/jailbreaking/SpiderCat",
         "registration": false,
@@ -41,6 +25,22 @@
             "models": ["all"],
             "min": "5.16.3",
             "max": "5.19.5",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
+        "name": "Véra",
+        "url": "/jailbreaking/Vera",
+        "registration": false,
+        "ads": false,
+        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.17.1",
+            "max": "5.19.6",
             "outliers": {
                 "accepted": [],
                 "denied": []
