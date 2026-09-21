@@ -15,7 +15,7 @@ In order to restore the Kindle's ability to update, please install <a href="./ot
     Scriptlets, and how to install them, are explained <a href="./whats-next/installing-homebrew.html">here</a>.
 </div>
 
-## I foolishly reset without restoring OTAs and now I'm stuck on an "Update Failed" screen. What do I do??
+## I foolishly reset without restoring OTAs and now I'm stuck on an "Update Failed" screen. What do I do?
 
 <ol>
     <li>
