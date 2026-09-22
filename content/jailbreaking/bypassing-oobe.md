@@ -14,7 +14,7 @@ Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registra
         Bring your Kindle to somewhere with a captive portal wifi network, such as a public wifi at a coffee shop -- the type where you must agree to terms or login via a browser popup in order to connect. <b>Do not actually connect to the network yet.</b>  We're just leveraging it to access a browser.
     </li>
     <li>
-        In the captive portal browser search bar, type <code>;demo</code> and submit. <b>Press "NO" whem prompted in the dialog for demo mode.</b>
+        In the captive portal browser search bar, type <code>;demo</code> and submit. <b>Press "NO" when prompted in the dialog for demo mode.</b>
         <div class="caution">YOU MUST HIT "NO" OR YOU MAY BE PERMANENTLY STUCK IN DEMO LIMBO.</div>
     </li>
     <li>
