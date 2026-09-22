@@ -7,7 +7,7 @@ weight: 13
 
 # Bypassing OOBE (Out-Of-Box Experience)
 
-Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registration during the initial setup. This means that if it is blacklisted (or you otherwise do not wish to register it), it will not allow you to proceed to the home screen and you will be stuck in the "Out-Of-Box Experience". To bypass this in order to be able to jailbreak and use the kindle, follow these steps.
+Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registration during the initial setup. This means that if it is blacklisted (or you otherwise do not wish to register it), it will not allow you to proceed to the home screen and you will be stuck in the "Out-Of-Box Experience". To bypass this in order to be able to jailbreak and use the Kindle, follow these steps.
 
 1. Bring your Kindle to somewhere with a captive portal wifi network, such as a public wifi at a coffee shop -- the type where you must agree to terms or login via a browser popup in order to connect. **Do not actually connect to the network yet.**  We're just leveraging it to access a browser.
 
