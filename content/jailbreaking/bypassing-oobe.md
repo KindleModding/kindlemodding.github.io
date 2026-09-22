@@ -25,11 +25,10 @@ Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registra
         <div class="warning">Ensure you have <a href="./prevent-auto-update/">filled the storage</a> to prevent an automatic update, if applicable, before connecting to wifi.</div>
     </li>
     <li>
-        After jailbreaking, you can permanently disable OOBE by running the following commands in any terminal on the Kindle (ssh, kterm, KOReader terminal emulator, etc):
-        <code style="white-space: pre-line; display: block; margin-top: 1em">cd /var/local/decanter
-            rm -f RESUME_OOBE_FOR_OTA
-            rm -f OTA_START_FOR_METRIC
-        </code>
-        <div class="warning">If you do not remove these markers, you will need to use the captive portal trick again to bypass the OOBE every time you reboot the device.</div>
+        After jailbreaking, you can permanently disable OOBE by running this <a href="./disable_oobe.sh" download>this scriptlet</a>.
+        <div class="note">
+            Scriptlets, and how to install them, are explained <a href="./whats-next/installing-homebrew.html">here</a>.
+        </div>
+        <div class="warning">If you do not run this, you will need to use the captive portal trick again to bypass the OOBE every time you reboot the device.</div>
     </li>
 </ol>
