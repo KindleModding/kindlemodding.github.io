@@ -21,7 +21,7 @@ Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registra
     > [!WARNING]
     > Ensure you have [filled the storage](./prevent-auto-update/) to prevent an automatic update, if applicable, before connecting to wifi.
 
-5. After jailbreaking, you can permanently disable OOBE by running this <a href="./disable_oobe.sh" download>this scriptlet</a>.
+5. After jailbreaking, you can permanently disable OOBE by running <a href="./disable_oobe.sh" download>this scriptlet</a>.
     > [!NOTE]
     > Scriptlets, and how to install them, are explained [here](./whats-next/installing-homebrew.html).
 
