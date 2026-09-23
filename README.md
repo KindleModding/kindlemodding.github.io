@@ -9,5 +9,5 @@
 Look at `content/sample.md.example` to see how you can write/format a page.
 
 1. Clone this Repository
-2. Get Hugo
+2. Get [Hugo](https://gohugo.io/)
 3. Run `hugo server`
