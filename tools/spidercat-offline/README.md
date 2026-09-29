@@ -8,10 +8,15 @@ writes only to the new output directory you specify; choose a directory on
 your computer, not a mounted Kindle.
 
 **Status:** The generated book and library have been checked for fixed size,
-file structure, command location, and SHA-256. This variant has **not been
-tested on a Kindle**. Airplane-mode operation is unconfirmed because the
-book still uses a `127.0.0.1` request for its exploit. These modified files
-are unsigned and are no longer identical to the upstream binaries.
+file structure, command location, and SHA-256. One PW4 owner on firmware
+5.18.1.1.1 reports that an offline attempt produced a `uid=0` marker and a
+`JAILBROKEN` marker identifying `jb.sh` v1.3.7. They also saw a core-dump
+prompt and Application Error, so this is not a clean success. A `;log` command
+response after a full restart suggests the command handler persisted. The
+report has not been independently reproduced. Airplane-mode operation, update
+protection, KPM, and other post-jailbreak tools remain unverified. The book
+still uses a `127.0.0.1` request for its exploit. These modified files are
+unsigned and are no longer identical to the upstream binaries.
 
 ## Build
 

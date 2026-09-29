@@ -111,7 +111,7 @@ def build(book: bytes, library: bytes, script: bytes) -> tuple[dict[str, bytes],
     if hashes != OUTPUT_SHA256:
         raise ValueError("Generated files differ from reviewed output hashes")
     manifest = {
-        "status": "experimental; statically checked; not device-tested or signed",
+        "status": "experimental; statically checked; one owner-reported PW4 test; unsigned",
         "input_sha256": INPUT_SHA256,
         "output_sha256": hashes,
         "book_patch": {"offset": book_offset, "length": len(BOOK_OLD), "record": record},
