@@ -2,7 +2,7 @@
 layout: default
 parent: What's Next?
 title: Installing Homebrew
-weight: 1
+weight: 2
 ---
 
 # Installing Homebrew

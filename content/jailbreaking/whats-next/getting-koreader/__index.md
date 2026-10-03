@@ -3,7 +3,7 @@ layout: default
 parent: What's Next?
 title: Getting KOReader
 slug: index
-weight: 2
+weight: 3
 ---
 
 # Getting KOReader
