@@ -14,6 +14,10 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
     This package is being installed from the official KindleModding KPM repository, <a href="https://repo.kindlemodding.org/">repo.kindlemodding.org</a>.
 </p>
 
+<p class="tip">
+    KOReader support on <b>rootless</b> devices is currently experimental.
+</p>
+
 <div id="guide">
     <div class="buttons">
         <button id="prev">Previous Step</button>

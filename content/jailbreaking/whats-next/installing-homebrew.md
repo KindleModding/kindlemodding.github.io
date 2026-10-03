@@ -11,6 +11,10 @@ weight: 2
     Before you go through the next guides to install apps, it is <b>imperative</b> you understand <i>how</i>.
 </p>
 
+<p class="caution">
+    On <b>rootless</b> devices, you must be extra cautious as to not download any homebrew not explicitly marked as rootless-compatible.<br>Any homebrew which modifies the rootfs will cause the kindle to be permanently bricked (although we take certain precautions against this.)
+</p>
+
 ## Scriptlets
 
 <p class="warning">
