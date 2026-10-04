@@ -27,9 +27,9 @@ Filling the Kindle's storage (leaving only 50-90 MB free) prevents the device fr
 You can use a simple script to fill your Kindle's storage with dummy files, leaving only a small amount of free space. This script is available in the [Kindle-Filler-Disk GitHub repository](https://github.com/bastianmarin/Kindle-Filler-Disk/) along with other useful scripts for Windows, macOS, and Linux.
 
 > [!WARNING]
-> This script will not work on 11th generation Kindles and newer, as these devices use MTP (Media Transfer Protocol) instead of standard USB storage when connected to a computer
+> This script will not work on 11th generation Kindles and newer, as these devices use MTP (Media Transfer Protocol) instead of standard USB storage when connected to a computer.
 >
-> You will need to manually fill your Kindle with "dummy" files. Download the [Filler files](https://github.com/Crosunt223/Kindle-Filler-Disk/tree/main/MTP) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–90 MB of free space
+> You will need to manually fill your Kindle with "dummy" files. Download the [Filler files](https://github.com/Crosunt223/Kindle-Filler-Disk/tree/main/MTP) that match your Kindle's storage from the link below. Extract the files, then move them to the root of your Kindle (you can also save them on a separate folder). After doing so, make sure to leave only 50–90 MB of free space available.
 
 <div id="guide">
     <div class="buttons">
