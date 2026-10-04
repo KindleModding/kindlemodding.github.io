@@ -38,9 +38,17 @@
         "ads": false,
         "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2", "KS3", "KSC", "KT7"],
         "firmwares": [{
-            "models": ["all"],
+            "models": ["PW5", "KT5", "PW6", "CS", "KS2", "KSC"],
             "min": "5.17.1",
             "max": "5.19.6",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        },  {
+            "models": ["KT6", "KT7", "KS", "KS3"],
+            "min": "5.17.1",
+            "max": "5.20.1",
             "outliers": {
                 "accepted": [],
                 "denied": []
