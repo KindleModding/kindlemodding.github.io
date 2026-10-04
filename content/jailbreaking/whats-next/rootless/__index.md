@@ -15,7 +15,7 @@ weight: 1
         <li>Kindle Scribe Coloursoft (KSC)</li>
         <li>Kindle Scribe 3 (KS3)</li>
         <li>Kindle Scribe 3 - No Frontlight (KS3NFL)</li>
-        <li>Kindle - 2026 Release (Aluminium) (KT7)</li>
+        <li>Kindle - 2026 Release (KT7)</li>
     </ul><br>
     Otherwise, commence to <a href="../installing-homebrew.html">Installing Homebrew</a>.
 </div>
