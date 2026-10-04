@@ -20,7 +20,7 @@
         "url": "/jailbreaking/SpiderCat",
         "registration": false,
         "ads": false,
-        "models": ["PW4", "KT4", "KOA3", "PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2", "KS3", "KSC"],
+        "models": ["PW4", "KT4", "KOA3", "PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
         "firmwares": [{
             "models": ["all"],
             "min": "5.16.3",
@@ -36,7 +36,7 @@
         "url": "/jailbreaking/Vera",
         "registration": false,
         "ads": false,
-        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2", "KS3", "KSC", "KT7"],
+        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
         "firmwares": [{
             "models": ["PW5", "KT5", "PW6", "CS", "KS2", "KSC"],
             "min": "5.17.1",
