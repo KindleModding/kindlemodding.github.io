@@ -135,10 +135,10 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
 
 ### Common Issues
 
-- "Restarting GUI" is on the screen for >=10 minutes
-    - Restart your kindle by holding the physical power button for a few seconds, then press "Restart" on the screen.
 - Nothing happens after first opening the book
     - Ensure that you have a wifi connection when opening the book. If it still doesn't work, join the discord server for support.
+- The last line of text on the book reads "abort:no-firm" instead of "executing"
+    - Double check your model and firmware version and verify that it is compatible with this jailbreak. If the wizard reports compatibility yet this message appears, join the discord server for support.
    
 ## Special Thanks To
 - fabrissou for sharing the entry point
