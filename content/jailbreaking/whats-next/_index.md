@@ -24,4 +24,4 @@ This section will cover;
     - KOPlugins
 - Getting KOReader
 
-<a href="./rootless"><button style="margin-top: 25px;">Get Started</button></a>
+<a href="./installing-homebrew.html"><button style="margin-top: 25px;">Get Started</button></a>
