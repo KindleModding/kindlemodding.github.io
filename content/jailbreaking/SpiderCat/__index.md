@@ -94,7 +94,7 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
         <div class="step">
             <h2>Restart and Done!</h2>
             <div class="stepContent">
-                <p>When the jailbreak script completes, a "Restarting GUI" screen will appear.  This may take several minutes to bring you back to your home screen, and a white screen is normal during this process. Then, your device will be in a jailbroken state.</p>
+                <p>When the jailbreak script completes, "Restarting Kindle" will appear and the Kindle will reboot. Then, your device will be in a jailbroken state.</p>
                 <img src="./restarting.png" />
             </div>
         </div>
