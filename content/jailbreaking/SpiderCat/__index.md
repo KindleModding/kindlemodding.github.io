@@ -94,7 +94,7 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
         <div class="step">
             <h2>Restart and Done!</h2>
             <div class="stepContent">
-                <p>When the jailbreak script completes, a "Restarting GUI" screen will appear.  This may take several minutes to bring you back to your home screen, and a white screen is normal during this process. Then, your device will be in a jailbroken state.</p>
+                <p>When the jailbreak script completes, "Restarting Kindle" will appear and the Kindle will reboot. Then, your device will be in a jailbroken state.</p>
                 <img src="./restarting.png" />
             </div>
         </div>
@@ -104,16 +104,6 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
                 <div class="tip">
                     <b>What's Next?</b><br>
                     Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
-                </div>
-                    <div class="important">
-                    <b>Rootless Notice</b><br>
-                    Hey there! This jailbreak supports <b>rootless</b> devices. Pay <i>close</i> attention to the what's next steps if you are on:<br>
-                    <ul>
-                        <li>Kindle Scribe Coloursoft (KSC)</li>
-                        <li>Kindle Scribe 3 (KS3)</li>
-                        <li>Kindle Scribe 3 - No Frontlight (KS3NFL)</li>
-                        <li>Kindle - 2026 Release (KT7)</li>
-                    </ul>
                 </div>
                 <div class="caution">
                     You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
@@ -135,10 +125,10 @@ SpiderCat is a jailbreak released on 01/09/26 by [sparklerfish](https://ko-fi.co
 
 ### Common Issues
 
-- "Restarting GUI" is on the screen for >=10 minutes
-    - Restart your kindle by holding the physical power button for a few seconds, then press "Restart" on the screen.
 - Nothing happens after first opening the book
     - Ensure that you have a wifi connection when opening the book. If it still doesn't work, join the discord server for support.
+- The last line of text on the book reads "abort:no-firm" instead of "executing"
+    - Double check your model and firmware version and verify that it is compatible with this jailbreak. If the wizard reports compatibility yet this message appears, join the discord server for support.
    
 ## Special Thanks To
 - fabrissou for sharing the entry point
