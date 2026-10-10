@@ -4,7 +4,7 @@ parent: Jailbreaking Your Kindle
 title: Véra
 weight: 2
 slug: index
-summary: Véra is a Kindle jailbreak for all firmwares up to 5.19.6 on KT5, PW5, KT6, PW6, CS, KS, KS2. It will be ported to KS3(NFL) and KSC in the future.
+summary: Véra is a Kindle jailbreak for all firmwares up to 5.19.6 on KT5, PW5, KT6, PW6, CS, KS, KS2. It will be ported to KS3(NFL), KSC, and KT7 in the future.
 kofi: https://ko-fi.com/yubaix
 ---
 
@@ -27,6 +27,8 @@ Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix) and
 > If you face any difficulty in following these guides, please navigate to the [troubleshooting](#troubleshooting) section, and/or make a ticket in the KindleModding Discord support forums/Community Reddit.
 
 ## Installation Guide
+
+If you would like, you may also follow a [video form of this guide](https://youtu.be/2Q2YrYeWJ-s).
 
 <div id="guide">
     <div class="buttons">
