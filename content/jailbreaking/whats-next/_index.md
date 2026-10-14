@@ -9,14 +9,14 @@ weight: 10
 
 <p class="caution">
     You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
-    Before you do this, also <b>remove any existing update files with a <code>.bin</code> extension</b>, if they exist in the Kindle's root.
+    Before you do this, also <b>remove any existing files named <code>update[-something].bin</code> or <code>update.bin.tmp.partial</code>.</b> These files, if they exist, will be located in the root of the Kindle storage when viewed over USB (not in a subfolder). If they do not exist, that means they have not downloaded, so there is nothing to delete.
 </p>
 
 You've landed onto this page because you've used one of the <b>modern</b> jailbreaks (these are said to use the <code>hdnext</code> stack.)
 
 The jailbreak has also pre-installed a <i>package manager</i> called KPM for you. It will be explained in the next section.
 
-This section will cover;
+This section will cover:
 
 - Installing Homebrew
     - Scriptlets
