@@ -28,6 +28,8 @@ Véra is a jailbreak released on 10/08/26 by [Ava](https://ko-fi.com/yubaix) and
 
 ## Installation Guide
 
+If you would like, you may also follow a [video form of this guide](https://youtu.be/2Q2YrYeWJ-s).
+
 <div id="guide">
     <div class="buttons">
         <button id="prev">Previous Step</button>
