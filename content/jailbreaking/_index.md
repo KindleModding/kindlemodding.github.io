@@ -17,7 +17,7 @@ Here are some important things to note before you begin. This information applie
 
 <p class="tip">
     <b>Is this Piracy?</b><br>
-    Jailbreaking and piracy are not the same. You can sideload pirated content without having a jailbreak. Do not seek official KindleModding or KindleTweaks organisation support in regards to piracy.
+    Jailbreaking and piracy are not the same. You can sideload pirated content without having a jailbreak. Jailbreaking does not and cannot make books free from Amazon or other stores. Do not seek official KindleModding or KindleTweaks organisation support in regards to piracy. 
 </p>
 
 <p class="important">
