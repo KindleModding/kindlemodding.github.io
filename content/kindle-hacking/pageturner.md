@@ -1,6 +1,7 @@
 ---
 title: Kindle Click
 weight: 2
+summary: Documentation regarding the Kindle Click and its protocol.
 ---
 
 # Kindle Click
