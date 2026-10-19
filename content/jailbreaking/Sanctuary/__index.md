@@ -14,6 +14,8 @@ slug: index
 
 Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubaix), [Alysa (Sky)](https://ko-fi.com/skylarplayz348), [sparklerfish](https://give.thetrevorproject.org/give/63307#!/donation/checkout).
 
+You can read the writeup [here](https://chirp.tene7.com/?action=page&url=sanctuary-self-debugging-iframes-and-injection).
+
 ## Prerequisites
 
 - A PC, Kindle.
