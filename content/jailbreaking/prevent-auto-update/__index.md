@@ -51,6 +51,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                 <p>Use a USB cable to connect your Kindle to your computer.</p>
                 <img src="./usb-mode.png"/>
                 <p>Wait for the Kindle to appear as a USB drive.</p>
+                <p>If it does not appear, you might be using a cable that only supports charging.</p>
             </div>
         </div>
         <div class="step">
