@@ -173,11 +173,11 @@ If you would like, you may also follow a [video form of this guide](https://yout
 
 ### Common Issues
 
-- "Restarting GUI" is on the screen for >=10 minutes
-    - Restart your kindle by holding the physical power button for a few seconds, then press "Restart" on the screen.
 - Nothing happens after first opening the book
     - Ensure that steps 6-9 were followed exactly. If it still doesn't work, join the discord server for support.
-   
+- When I open either book, the error "If you have bought this item from amazon, delete it and download again with the cloud." appears.
+    - Delete both books, reboot your Kindle, and try again. If it still doesn't work, join the discord server for support.
+     
 ## Special Thanks To
 - Perplexity for a lot of tooling advice while creating this jailbreak, as well as motivating me to start creating one.
 - [sparklerfish](https://give.thetrevorproject.org/give/63307#!/donation/checkout) for creating the website used in the jailbreak, as well as collaborating with me on finding the initial exploit.
