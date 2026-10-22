@@ -32,7 +32,7 @@ Here are some important things to note before you begin. This information applie
 
 <p class="warning" style="filter: hue-rotate(150deg);">
     <b>Can I remove the Jailbreak?</b><br>
-    Yes. If you wish to remove the jailbreak, you must run <a href="./ota.sh" download>this</a> scriptlet (<a href="./whats-next/installing-homebrew.html">'scriptlet' term definition</a>), factory reset the device, then push an update (whether it be to the same firmware, you can download an update file from <a href="https://ftvdb.com/kindle/firmware/">FTVDB</a>, place it in the Kindle's root and hit the update button). After this, <b>every trace</b> of the Jailbreak will be removed.
+    Yes. If you wish to remove the jailbreak, you must run <a href="./ota.sh" download>this</a> scriptlet (<a href="./whats-next/installing-homebrew.html">'scriptlet' term definition</a>), factory reset the device, then push an update (whether it be to the same firmware, you can download an update file from <a href="https://ftvdb.com/kindle/firmware/">FTVDB</a>, place it in the Kindle's root and hit the update button). After this, <b>every trace</b> of the Jailbreak will be removed. For more detailed information, visit <a href="./unjailbreaking.html">this page</a>.
 </p>
 
 <p class="caution">
