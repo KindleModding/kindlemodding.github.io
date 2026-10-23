@@ -59,7 +59,7 @@ Sure thing; follow the steps below!
 3. Install a firmware update (this may be either the same version the Kindle is already on, or a newer version)
    - Find your Kindle model on [FTVDB](https://ftvdb.com/kindle/firmware/) (note: their naming system diverges from the KindleModding community names; e.g. what we call KT6 they call Basic 5, but their PW numbers are the same.)
    - Locate the firmware version you wish to install (same or higher than current firmware) and download the .bin file
-   - Place the .bin file on the USB root of the Kindle (the base of the storage you see when you plug in the device to your computer)
+   - Place the .bin file on the USB root of the Kindle (the base of the storage you see when you plug in the device to your computer. You will see your documents folder and others. It goes alongside those, not inside one of them).
    - Reboot the Kindle and wait for the firmware to install
 
 4. The device is now in a fully unjailbroken state
