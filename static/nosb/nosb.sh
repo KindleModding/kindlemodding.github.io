@@ -29,5 +29,4 @@ else
 fi
 
 nosb_log "Executing /var/local/jb..."
-/var/local/jb
-nosb_log "Execution of /var/local/jb completed."
+exec /var/local/jb
