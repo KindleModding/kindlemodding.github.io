@@ -482,7 +482,7 @@ generationMap = [
         "amazon_name": "Kindle (10th Generation)",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
-        "board": "Moonshine",
+        "board": "Jaeger",
         "jailbreak": produce_jb_links(
             JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
@@ -500,7 +500,7 @@ generationMap = [
         "amazon_name": "Kindle Paperwhite (10th Generation)",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
-        "board": "Jaeger",
+        "board": "Moonshine",
         "jailbreak": produce_jb_links(
             JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
