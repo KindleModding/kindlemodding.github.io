@@ -10,7 +10,7 @@ weight: 11
 We recommend reading this article before or after jailbreaking your Kindle device and share it with other people.
 
 <p class="important">
-Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br><code>(Last updated: Apr 09, 2026)</code>
+Most of these instructions are subjected to changes due to newer jailbreaks, patches, extensions, firmware versions, etc. <br><code>(Last updated: Oct 12, 2026)</code>
 </p>
 
 ## General/Account
@@ -42,9 +42,24 @@ Yes, your Kindle will remain jailbroken whether you log back in or log out.
 
 However, deregistering will delete all files within the documents folder, including the KUAL launcher booklet and any other scriplets transferred to the device, which may partially break extensions. Be sure to back up all your files first.
 
+Deregistering needs a working Wi-Fi connection: the Kindle has to reach Amazon to complete it, so in Airplane mode it only shows an error. If the device keeps failing, deregister it from the **Manage Your Content and Devices** page on Amazon's website and restart the Kindle.
+
 ### Can I un-jailbreak my Kindle?
 
-Yes, re-enable automatic updates first (`Restore` option in `renametobin`) to avoid an update block. Then, perform a factory reset on the device and install the same firmware update (or any higher version).
+Yes, re-enable automatic updates first (`Restore` option in `renametobin`, or the <a href="./ota.sh" download>Restore Updates scriptlet</a> if you never installed `renametobin`) to avoid an update block. Then, perform a factory reset on the device and install the same firmware update (or any higher version).
+
+### I want to sell or give away my jailbroken Kindle. What should I do?
+
+Decide first whether the next owner gets the jailbreak or a stock device.
+
+- **Keep the jailbreak**: just [deregister](#can-i-deregister-my-kindle-after-jailbreaking) the Kindle. The jailbreak and the update block survive, only the documents folder is wiped. Tell the new owner that updates are blocked and that they must restore updates before ever factory resetting the device.
+- **Return it to stock**: enable Airplane mode, restore automatic updates (`Restore` option in `renametobin`, or the <a href="./ota.sh" download>Restore Updates scriptlet</a>), then factory reset. Afterwards connect to Wi-Fi (or [sideload the firmware file](../firmware-and-flashing/downloading-updates.html)) so the device installs an official update, which removes all traces of the jailbreak.
+
+<p class="caution">
+Never factory reset while updates are still blocked. The Kindle ends up unable to install official updates; see <a href="./recovering-from-a-reset.html">Recovering From a Reset</a> if that already happened.
+</p>
+
+Either way, check the **Manage Your Content and Devices** page on Amazon's website afterwards and remove the Kindle there if it is still listed.
 
 ### Will the jailbreak get my Amazon account banned?
 
@@ -137,7 +152,11 @@ If you have SSH access to the device, this directory can be found at `/mnt/us/`.
 
 ### Can I update/factory reset/downgrade my Kindle after jailbreaking?
 
-Yes, but you must first enable Airplane mode and enable automatic updates again (`Restore` option in `renametobin`) to avoid any potential update blocks or unwanted automatic updates.
+Yes, but you must first enable Airplane mode and enable automatic updates again (`Restore` option in `renametobin`, or the <a href="./ota.sh" download>Restore Updates scriptlet</a> if you never installed `renametobin`) to avoid any potential update blocks or unwanted automatic updates.
+
+<p class="note">
+Newer jailbreaks (WinterBreak, SpringBreak, Sanctuary, Véra, ...) block updates for you by renaming the update binaries, the same thing <code>renametobin</code> does. The scriptlet above undoes that block.
+</p>
 
 When updating, ensure that the newer version supports a jailbreak.
 
@@ -192,7 +211,7 @@ Verify if your device is still jailbroken by typing `;log` into the search bar.
 
 ### I can't no longer update my Kindle after a factory reset/update!
 
-If you reset your Kindle in a jailbroken state with renametobin left enabled, your Kindle may be in a locked state. To fix this, read [this guide](./recovering-from-a-reset.html).
+If you reset your Kindle in a jailbroken state with updates still blocked (`renametobin` left enabled, or the automatic block applied by newer jailbreaks), your Kindle may be in a locked state. To fix this, read [this guide](./recovering-from-a-reset.html).
 
 ### I get a message saying "Failed to remount rootfs RO, waiting"!
 
