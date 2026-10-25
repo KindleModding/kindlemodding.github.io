@@ -12,7 +12,7 @@ slug: index
 > <br/>
 > \- Homer
 
-Shadow is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubaix).
+Shadow is a jailbreak released on 26/10/2026 by [Ava](https://ko-fi.com/yubaix).
 
 You can read the writeup [here](TBD).
 
