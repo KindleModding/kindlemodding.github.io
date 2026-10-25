@@ -4,6 +4,7 @@ parent: Jailbreaking Your Kindle
 title: Shadow
 weight: 3
 slug: index
+kofi: https://ko-fi.com/yubaix
 ---
 
 # Shadow
