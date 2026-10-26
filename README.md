@@ -4,6 +4,8 @@
 
 *Theme by [Penguins184](https://ko-fi.com/penguins186)*
 
+*Website here [https://kindlemodding.org/](https://kindlemodding.org/)*
+
 ## Contributing
 
 Look at `content/sample.md.example` to see how you can write/format a page.
