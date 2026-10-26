@@ -128,6 +128,22 @@
         }]
     },
     {
+        "name": "Shadow",
+        "url": "/jailbreaking/Shadow",
+        "registration": false,
+        "ads": false,
+        "models": ["KS", "KS2", "CS", "PW6", "KT6"],
+        "firmwares": [{
+            "models": ["all"],
+            "min": "5.19.4",
+            "max": "5.19.6",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }]
+    },
+    {
         "name": "AdBreak",
         "url": "/jailbreaking/AdBreak/",
         "registration": true,

@@ -157,6 +157,9 @@ If you would like, you may also follow a [video form of this guide](https://yout
                     You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
                     Before you do this, also <b>remove any existing update files with a <code>.bin</code> extension</b>, if they exist in the Kindle's root.
                 </div>
+                <p class="warning">
+                    Due to how Shadow works, it leaves behind some empty folders in the base USB folder of your Kindle. These folders are completely harmless, but if you would like to remove them, you may use the provided scriptlet below. (See the next section for how to use scriptlets, if you are confused.)
+                </p>
                 <p>Have fun! :)</p>
             </div>
         </div>
