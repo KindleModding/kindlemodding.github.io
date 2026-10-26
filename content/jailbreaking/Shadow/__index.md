@@ -15,7 +15,7 @@ kofi: https://ko-fi.com/yubaix
 
 Shadow is a jailbreak released on 26/10/2026 by [Ava](https://ko-fi.com/yubaix).
 
-You can read the writeup [here](TBD).
+You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-dummy-folders-an-obvious-overflow-and-a-rop-chain).
 
 ## Prerequisites
 
