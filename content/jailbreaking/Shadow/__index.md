@@ -104,7 +104,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
                 <p>Then, replug your Kindle into your computer. Once this is done, you may close Zadig.</p>
                 <div class="warning">
                     <b>Warning!</b><br>
-                    <p>Restoring the driver via Zadig is difficult and flaky. Because of this, <b>until you reboot your comptuer</b>, you will not be able to transfer files over USB to your Kindle. No permanent changes are made, and everything is set back to normal after a reboot.</p>
+                    <p>Restoring the driver via Zadig is difficult and flaky. Because of this, <b>until you reboot your computer</b>, you will not be able to transfer files over USB to your Kindle. No permanent changes are made, and everything is set back to normal after a reboot.</p>
                 </div>
                 <img src = "./replace_success.png">
             </div>
@@ -132,7 +132,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <h2>Enter in your build number</h2>
             <div class="stepContent">
                 <p>In the application, enter in your ten-digit build number from before. Ensure that it matches exactly, as the exploit may not run otherwise.</p>
-                <img src="./buildno.png">
+                <img src="./id.png">
             </div>
         </div>
         <div class="step">
