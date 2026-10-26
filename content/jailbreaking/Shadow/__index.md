@@ -82,7 +82,7 @@ You can read the writeup [here](TBD).
             <div class="stepContent">
                 <p>If you have not done so already, unzip the .zip file you previously downloaded.</p>
                 <p><b>Do not open Shadow yet,</b>instead, open <code>zadig-2.9.exe</code></p>
-                <img src="./zadig_file.PNG">
+                <img src="./zadig_file.png">
             </div>
         </div>
         <div class="step">
