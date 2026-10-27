@@ -4,7 +4,7 @@ parent: Jailbreaking Your Kindle
 title: Véra
 weight: 2
 slug: index
-summary: Véra is a Kindle jailbreak for all firmwares up to 5.20.1 on KT5, PW5, KT6, PW6, CS, KS, KS2. It will be ported to KS3(NFL), KSC, and KT7 in the future.
+summary: Véra is a Kindle jailbreak for all firmwares up to 5.20.1.0.2 on KT5, PW5, KT6, PW6, CS, KS, KS2, and for 5.20.1 - 5.20.1.0.2 on KS3(NFL). It will be ported to KSC and KT7 in the future.
 kofi: https://ko-fi.com/yubaix
 ---
 
@@ -75,7 +75,7 @@ If you would like, you may also follow a [video form of this guide](https://yout
                 <p>Once you are on the website, choose your device from the selectable options if prompted.</p>
                 <p>Then, select your firmware from the dropdown box.</p>
                 <p class="note">
-                    If your firmware does not appear in the dropdown box, but is above 5.17 and below 5.19.6, it is recommended to try the nearest firmware listed below/above your current firmware. This is not guaranteed to work, and it is recommended to join the discord server for support if this occurs.
+                    If your firmware does not appear in the dropdown box, but is above 5.17 and at or below 5.20.1.0.2, it is recommended to try the nearest firmware listed below/above your current firmware. <b>Exception:</b> On the 2025 Kindle Scribe 3 (<code>KS3</code> / <code>KS3NFL</code>), only <code>5.20.1</code> and <code>5.20.1.0.2</code> are supported — if your Scribe 3 is on <code>5.19.x</code>, do <b>not</b> use the <code>5.20.1</code> book; <a href="../../firmware-and-flashing/downloading-updates.html">manually update</a> to <code>5.20.1</code> or <code>5.20.1.0.2</code> first (or join the Discord server for support).
                 </p>
                 <img src="./firmwareselect.png"> 
             </div>
@@ -135,8 +135,8 @@ If you would like, you may also follow a [video form of this guide](https://yout
             <h2>Jailbreak!</h2>
             <div class="stepContent">
                 <p>After closing the book, click the "Véra" book in your library.</p>
-                <p>After a few seconds, some text should flow from the top left of your screen, and a "RESTARTING GUI" screen should pop up.</p>
-                <p>After the GUI has restarted, the books downloaded earlier can be deleted (Véra and Font Calibration).</p>
+                <p>After a few seconds, some text should flow from the top left of your screen, and a "RESTARTING GUI" screen (or "Restarting Kindle" full reboot on 5.20+, ~60 seconds) should pop up.</p>
+                <p>After the GUI or Kindle has restarted, the books downloaded earlier can be deleted (Véra and Font Calibration).</p>
                 <p class="note">
                     You can safely ignore any "application error" popups, they are irrelevant.
                 </p>
@@ -180,6 +180,9 @@ If you would like, you may also follow a [video form of this guide](https://yout
     - Ensure that steps 6-9 were followed exactly. If it still doesn't work, join the discord server for support.
 - When I open either book, the error "If you have bought this item from amazon, delete it and download again with the cloud." appears.
     - Delete both books, reboot your Kindle, and try again. If it still doesn't work, join the discord server for support.
+- 2025 Kindles (`KS3` / `KS3NFL`)
+    - Because 2025 Kindles enforce hardware read-only protection on `/`, Véra automatically mounts a persistent `/var/local` root overlay (`mntroot rw` and [Restore Updates (`ota.sh`)](../ota.sh) work normally).
+    - If a broken third-party tweak ever prevents the UI from starting, holding the power button for 15 seconds across reboots (or placing an empty `DISABLE_UNTETHER` file on the USB root) safely disarms the overlay.
      
 ## Special Thanks To
 - Perplexity for a lot of tooling advice while creating this jailbreak, as well as motivating me to start creating one.

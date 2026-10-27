@@ -344,7 +344,9 @@ generationMap = [
         "last_firmware": "Not Yet Discontinued",
         "platform": "Platpa6",
         "board": "Paloma",
-        "jailbreak": produce_jb_links(),
+        "jailbreak": produce_jb_links(
+            JB("Véra 5.20.1 - 5.20.1.0.2", "/jailbreaking/Vera"),
+        ),
     },
     {
         "kindletool_names": ["KindleBasic5"],

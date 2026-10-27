@@ -36,10 +36,18 @@
         "url": "/jailbreaking/Vera",
         "registration": false,
         "ads": false,
-        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
+        "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2", "KS3", "KS3NFL"],
         "firmwares": [{
-            "models": ["all"],
+            "models": ["PW5", "KT5", "KT6", "PW6", "CS", "KS", "KS2"],
             "min": "5.17.1",
+            "max": "5.20.1.0.2",
+            "outliers": {
+                "accepted": [],
+                "denied": []
+            }
+        }, {
+            "models": ["KS3", "KS3NFL"],
+            "min": "5.20.1",
             "max": "5.20.1.0.2",
             "outliers": {
                 "accepted": [],
