@@ -41,8 +41,11 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <div class="stepContent">
             <a href="https://github.com/KindleModding/Shadow/releases/latest/download/shadow.zip" class="button">Download</a>
                 <div class="note">
+                    <p>On the contrary to other jailbreaks, <i>Filler files are not necessary!</i> This is because your Kindle never has to connect to the internet during the jailbreak. They will not make it fail either, so deleting filler files that are already present is also not necessary.</p>
+                </div>
+                <div class="warning">
                     <b>Warning!</b><br>
-                    <p>On the contrary to other jailbreaks, <i>Filler files are not necessary!</i> This is because your Kindle never has to connect to the internet during the jailbreak. Despite this, they will not make it fail either, so deleting filler files that are already present is also not necessary.</p>
+                    <p>Enabling airplane mode is still recommended during the jailbreak process to prevent updates!</p>
                 </div>
                 <p>If you have done the above, please commence to the next step.</p>
             </div>
@@ -101,7 +104,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <div class="stepContent">
                 <p>Click "Replace driver" or "Install driver" and wait for the process to complete.</p>
                 <p>This can take a few minutes. Once complete, a box will show up. Click "OK."</p>
-                <p>Then, replug your Kindle into your computer. Once this is done, you may close Zadig.</p>
+                <p>Then, unplug and replug your Kindle into your computer. Once this is done, you may close Zadig.</p>
                 <div class="warning">
                     <b>Warning!</b><br>
                     <p>Restoring the driver via Zadig is difficult and flaky. Because of this, <b>until you reboot your computer</b>, you will not be able to transfer files over USB to your Kindle. No permanent changes are made, and everything is set back to normal after a reboot.</p>
@@ -152,7 +155,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <div class="stepContent">
                 <div class="tip">
                     <b>What's Next?</b><br>
-                    Commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
+                    After the reboot, you may unplug your Kindle, and commence to the <a href="../whats-next">What's Next</a> section to read about installing scriptlets, homebrew, and KOReader.<br>Read the <b>whole section</b> thoroughly.
                 </div>
                 <div class="caution">
                     You may now <b>delete</b> any filler files. Updates have been automatically blocked for you.<br><br>
@@ -160,6 +163,9 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
                 </div>
                 <p class="warning">
                     Due to how Shadow works, some empty folders are left behind in the base USB folder of your Kindle. These folders are completely harmless, but if you would like to remove them, you may use the <a href="./cleanup-shadow-dirs.sh" download="cleanup-shadow-dirs.sh">provided scriptlet</a>. See the next section for how to use scriptlets, if you are confused.
+                </p>
+                <p class="warning">
+                    If you are on Windows, you must reboot your computer in order to restore the MTP driver to access your Kindle over USB.
                 </p>
                 <p>Have fun! :)</p>
             </div>

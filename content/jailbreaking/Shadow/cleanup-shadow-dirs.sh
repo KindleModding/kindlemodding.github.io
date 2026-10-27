@@ -133,4 +133,11 @@ while IFS= read -r d; do
     fi
 done < "$LIST"
 
+
 echo "done: $removed removed, $kept kept"
+
+if [ -f "/mnt/us/jb.sh" ]; then
+    rm /mnt/us/jb.sh
+    echo "removed /mnt/us/jb.sh"
+fi
+
