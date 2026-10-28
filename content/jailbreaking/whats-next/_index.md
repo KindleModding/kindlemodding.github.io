@@ -22,6 +22,10 @@ This section will cover:
     - Scriptlets
     - KPM
     - KOPlugins
+- Jailbreaking Manager
+    - Jobman
+    - Features
+    - Recovery
 - Getting KOReader
 
 <a href="./installing-homebrew.html"><button style="margin-top: 25px;">Get Started</button></a>

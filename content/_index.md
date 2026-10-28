@@ -106,9 +106,9 @@ params:
             <p>Documentation for homebrew developers</p>
         </a>
     <div class="landing-section buttons">
-        <a class="card" href="./jailbreaking/jailbreak-faq.html">
-            <h2 style="color: var(--text-colour) !important;">Jailbreak F.A.Q</h2>
-            <p>Frequently Asked Questions</p>
+        <a class="card" onclick="donate();" style="cursor:pointer;">
+            <h2 style="color: var(--text-colour) !important;">Donation Roulette</h2>
+            <p>Donate to a random developer</p>
         </a>
         <a class="card" href="http://discord.kindlemodding.org/">
             <h2 style="color: var(--text-colour) !important;">Discord</h2>
@@ -116,3 +116,11 @@ params:
         </a>
     </div>
 </div>
+
+<script>
+    function donate() {
+        const links = ["https://donate.hackerdude.tech", "https://ko-fi.com/penguins186", "https://ko-fi.com/sparklerfish", "https://ko-fi.com/yubaix", "https://ko-fi.com/fuzzyghosty", "https://ko-fi.com/notmarek", "https://ko-fi.com/scamdotnet1"];
+
+        document.location = links[Math.floor(Math.random() * links.length)];
+    }
+</script>

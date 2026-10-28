@@ -52,6 +52,12 @@ class Guide {
 
     syncButtons() {
         for (const buttonSet of this.guide.getElementsByClassName("buttons")) {
+            if (this.currentStep === 0) {
+                buttonSet.children[0].setAttribute("disabled", "");
+            } else {
+                buttonSet.children[0].removeAttribute("disabled");
+            }
+
             if (this.currentStep == this.steps.length - 1 && this.endText !== null) {
                 buttonSet.children[2].innerText = this.endText;
             } else {
