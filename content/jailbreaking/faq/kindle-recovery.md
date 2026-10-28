@@ -7,7 +7,7 @@ weight: 3
 
 # Kindle Recovery
 
-The [Jailbreaking Manager](../whats-next/jailbreaking-manager/) ("Jobman") has a recovery feature, if you are on a firmwares `5.16.3` and above.
+The [Jailbreaking Manager](../whats-next/jailbreaking-manager/) ("Jobman") has a recovery feature, if you are on firmwares `5.16.3` and above.
 
 - If you want to learn about recovery, or want to install it, go down [here](#what-is-recovery-mode).
 - If you want to recover your device which is currently in recovery mode, read down.
