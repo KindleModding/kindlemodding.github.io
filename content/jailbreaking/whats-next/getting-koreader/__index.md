@@ -51,7 +51,7 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
         <div class="step">
             <h2>Uninstallation</h2>
             <div class="stepContent">
-                <p>If you ever wish to uninstall it, simply run <code>;kpm uninstall koreader</code>. Simple!<br><br>All KPM packages are installed in this way.</p>
+                <p>If you ever wish to uninstall it, simply run <code>;kpm uninstall koreader</code>. Simple!<br><br>All KPM packages are installed in this way... Noticing a pattern?</p>
             </div>
         </div>
     </div>
@@ -61,4 +61,4 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "#", "Done");</script>
+<script>new Guide("guide", "../../faq", "Done");</script>

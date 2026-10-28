@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
-title: Kindle Jailbreak FAQ
-weight: 11
+parent: Legacy
+title: FAQ
+weight: 1
 ---
 
 # Frequently Asked Questions
@@ -22,7 +22,7 @@ Most of these instructions are subjected to changes due to newer jailbreaks, pat
 
 You'll have to wait for a new jailbreak method (or patch) to be released. **This may take weeks or even months**. To protect your Kindle from automatic updates, **forget** all saved internet connections, enable Airplane mode, and wait.
 
-If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](./prevent-auto-update).
+If you still want to use the internet on your Kindle while avoiding automatic updates, you might find [this guide helpful](../prevent-auto-update).
 
 #### Can I downgrade my Kindle so I can jailbreak it?
 
@@ -32,9 +32,9 @@ Your Kindle must be jailbroken first in order to downgrade. This is because Amaz
 
 ### Can I jailbreak my Kindle if my device is unregistered/blacklisted?
 
-[Nosebleed Jailbreak](../jailbreaking/Nosebleed) reportedly, works for some blacklisted devices.
+[Nosebleed Jailbreak](../Nosebleed) reportedly, works for some blacklisted devices.
 
-For devices on firmware `5.16.2.1.1` or below, you can try any of the jailbreaking methods listed in [Legacy Jailbreaks](../jailbreaking/Legacy/).
+For devices on firmware `5.16.2.1.1` or below, you can try any of the jailbreaking methods listed in [Legacy Jailbreaks](../Legacy).
 
 ### Can I deregister my Kindle after jailbreaking?
 
@@ -122,7 +122,7 @@ KOReader currently does not support USBMS mode (USB transfer) and will only char
 
 Not necessarily.
 
-You can launch it with simple [scriptlets](../kindle-dev/scriptlets.html), specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
+You can launch it with simple [scriptlets](../../kindle-dev/scriptlets.html), specifically, Marek's launcher that is available [here](https://scriptlets.notmarek.com/).
 
 [KOR booklet launcher (made by yparitcher)](https://github.com/yparitcher/KUAL_Booklet/releases/) is also available to install. You can further customize both the KUAL booklet and the KOReader launcher with the [coversetter extension made by Stanner](https://www.mobileread.com/forums/showpost.php?p=4222466&postcount=15).
 
@@ -147,17 +147,17 @@ After updating/factory reset/downgrading, reinstall the hotfix from scratch. KUA
 
 ### How do I downgrade my Kindle?
 
-[Read and follow this guide](../firmware-and-flashing/downgrading/).
+[Read and follow this guide](../../firmware-and-flashing/downgrading/).
 
 ### Where can I download firmware update files?
 
-[Read and follow this guide](../firmware-and-flashing/downloading-updates.html).
+[Read and follow this guide](../../firmware-and-flashing/downloading-updates.html).
 
 Find your exact model, find the download link and re-type the numbers to get the firmware version you want.
 
 ### How do I use Scriptlets (.sh)?
 
-As explained in the [Scriptlets section](../kindle-dev/scriptlets.html), copy the scriptlet file into the documents folder (`/documents`). Once you're in the library view mode on Kindle, simply click on it.
+As explained in the [Scriptlets section](../../kindle-dev/scriptlets.html), copy the scriptlet file into the documents folder (`/documents`). Once you're in the library view mode on Kindle, simply click on it.
 
 ### How can I check that the automatic updates have been disabled after using `renametobin`?
 
@@ -186,13 +186,13 @@ Type `;log` into the search bar, if a message pop ups, you're jailbroken.
 ### KUAL stopped working!/I can't no longer launch any of my extensions!
 Verify if your device is still jailbroken by typing `;log` into the search bar.
 
-- If it prompted any text, [reinstall the hotfix and KUAL](./Legacy/post-jailbreak/setting-up-a-hotfix/) from scratch.
-- If not [re-jailbreak](../jailbreak-wizard.html) your device.
+- If it prompted any text, [reinstall the hotfix and KUAL](../Legacy/post-jailbreak/setting-up-a-hotfix/) from scratch.
+- If not [re-jailbreak](../../jailbreak-wizard.html) your device.
 - If everything else failed, factory reset your device and start the jailbreak from scratch. 
 
 ### I can't no longer update my Kindle after a factory reset/update!
 
-If you reset your Kindle in a jailbroken state with renametobin left enabled, your Kindle may be in a locked state. To fix this, read [this guide](./recovering-from-a-reset.html).
+If you reset your Kindle in a jailbroken state with renametobin left enabled, your Kindle may be in a locked state. To fix this, read [this guide](../faq/recovering-from-a-reset.html).
 
 ### I get a message saying "Failed to remount rootfs RO, waiting"!
 
@@ -216,11 +216,11 @@ This is also the case for the "Collecting Debug Info" message.
 
 You can do one of the following:
 
-- [Install KOReader](./whats-next/getting-koreader/)
-- [Downgrade your Kindle](../firmware-and-flashing/downgrading/)
+- [Install KOReader](../whats-next/getting-koreader/)
+- [Downgrade your Kindle](../../firmware-and-flashing/downgrading/)
 - Download scriptlets:
     - [Marek's Scriplets](https://scriptlets.notmarek.com/)
-- [Develop more extensions](../kindle-dev/)
+- [Develop more extensions](../../kindle-dev/)
 - Browse [MobileRead](https://www.mobileread.com/forums/forumdisplay.php?f=150) or the Kindle Modding Community Discord Server for more scriplets and extensions.
 - Install Alpine Linux
 - [Support Winterbreak & the Wiki ❤️](https://ko-fi.com/hackerdude) 

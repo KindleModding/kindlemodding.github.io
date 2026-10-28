@@ -2,7 +2,7 @@
 layout: default
 parent: What's Next?
 title: Installing Homebrew
-weight: 2
+weight: 1
 ---
 
 # Installing Homebrew
@@ -47,6 +47,6 @@ Otherwise, they can also be installed on-device with an AppStore KOPlugin (e.g.,
 
 Please note, that software called <code>KUAL</code> was formerly used to launch applications over scriptlets, but this is now obsolete and does not work.
 
-With that out of the way, KOReader installation will be covered to show KPM basics. After that, what you install is fully up to you (you don't even need KOReader! What am I, your mother?).
+With that out of the way, Jailbreaking Manager (called "Jobman") and KOReader installation will be covered to show KPM basics. After that, what you install is fully up to you (you don't even need KOReader! Who am I, your mother?).
 
-<a href="./getting-koreader/"><button>Getting KOReader</button></a>
+<a href="./jailbreaking-manager/"><button>Getting Jobman</button></a>

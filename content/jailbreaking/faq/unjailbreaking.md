@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+parent: FAQ
 title: Unjailbreaking Your Kindle
-weight: 14
+weight: 5
 ---
 
 # Unjailbreaking Your Kindle
@@ -36,7 +36,7 @@ Correction: "I don't want control over my firmware updates!"
 
 Jailbreaking and blocking OTA updates does not mean that your Kindle is _incapable_ of being updated, just that it will not _automatically_ receive forced updates over-the-air. If a new firmware version includes a feature you want, you are free to install that update yourself. Blocking OTA updates means that you are entirely in control of whether and when you update your firmware.
 
-Modern ("hdnext") jailbreaks will attempt to persist/recover the jailbreak on your behalf (if needed, you can simply re-run the jailbreak to re-apply); legacy jailbreaks will require you to re-run the [hotfix](./Legacy/post-jailbreak/setting-up-a-hotfix/) after updating firmware.
+Modern ("hdnext") jailbreaks will attempt to persist/recover the jailbreak on your behalf (if needed, you can simply re-run the jailbreak to re-apply); legacy jailbreaks will require you to re-run the [hotfix](../Legacy/post-jailbreak/setting-up-a-hotfix/) after updating firmware.
 
 ### I am having errors with a KOReader plugin or other application and I want to factory reset and start over
 
@@ -52,6 +52,7 @@ Sure thing; follow the steps below!
 
 1. Restore OTA updates
    - For modern jailbreaks, download [this scriptlet](./ota.sh), place in the documents folder, and click the book to run it
+      - Alternatively, press "Enable OTA Updates" in the [Jobman](../whats-next/jailbreaking-manager/) menu, if you're on `5.16.3`+.
    - For legacy jailbreaks with KUAL/renameotabin, choose the "restore" option in the renameotabin extension
 
 2. Factory reset the Kindle
