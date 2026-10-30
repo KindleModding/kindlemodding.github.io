@@ -2,7 +2,7 @@
 layout: default
 title: Usermode Boot Process
 parent: Kindle OS
-weight: 6
+weight: 99
 ---
 # Usermode Boot Process
 The Kindle uses upstart for its usermode boot process.

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Hotfix
-weight: 5
+weight: 2
 ---
 
 # Hotfix
 The hotfix is an essential component to jailbreaking.
 
-Hotfixes are distributed as [OTA files](./ota-files.html) - this is why jailbreaks start by installing new OTA keys.  
+Hotfixes are distributed as OTA files - this is why jailbreaks start by installing new OTA keys.  
 The private key used to sign homebrew OTA files are included [as a part of KindleTool](https://github.com/KindleModding/KindleTool/blob/4fa6d0ca6c5ec24564e0f0f3a90dbe3618d6346a/KindleTool/create.c#L49)
 
 ## Hotfix Structure

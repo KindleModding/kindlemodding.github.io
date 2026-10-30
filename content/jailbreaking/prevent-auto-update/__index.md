@@ -111,7 +111,7 @@ You can use a simple script to fill your Kindle's storage with dummy files, leav
                 <p>The Kindle will not be able to fully download the update due to a lack of space.</p>
                 <p>You can either perform a <a href="../../jailbreak-wizard.html">Jailbreak suitable for your device</a> or wait for the next jailbreak to be released.</p>
                 <p class="info">
-                  Always make sure to delete any files ending with <code>.bin</code> or named <code>update.bin.tmp.partial</code>
+                  Always make sure to delete any files named <code>update[-something].bin</code> or <code>update.bin.tmp.partial</code>. These files, if they exist, will be located in the root of the Kindle storage when viewed over USB (not in a subfolder). If they do not exist, that means they have not downloaded, so there is nothing to delete.
                 </p>
             </div>
         </div>

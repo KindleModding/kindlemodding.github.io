@@ -19,6 +19,9 @@ AdBreak is a jailbreak released on 24/09/2025 by hhhhhhhhh.
 
 It is based on [CVE-2012-3748](https://scarybeastsecurity.blogspot.com/2017/05/ode-to-use-after-free-one-vulnerable.html).
 
+> [!WARNING]
+> **AdBreak does NOT disable ads.** It is a jailbreak; so named due to the exploit it leverages to execute the jailbreak, which uses a vulnerability in the display of the Kindle's ads.
+
 ## Prerequisites
 
 - A PC, Cable, Kindle.

@@ -1,18 +1,18 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+parent: FAQ
 title: Recovering From a Reset
-weight: 12
+weight: 4
 ---
 
 # Recovering From a Reset
 
-Factory resetting a jailbroken Kindle with updates blocked prevents normal installation of official update files (<b>crucial</b> for removing all traces of a jailbreak on a Kindle). See the <a href="../jailbreaking/">jailbreaking lander</a> for more information.
+Factory resetting a jailbroken Kindle with updates blocked prevents normal installation of official update files (<b>crucial</b> for removing all traces of a jailbreak on a Kindle). See the <a href="../">jailbreaking lander</a> for more information.
 
 In order to restore the Kindle's ability to update, please install <a href="./ota.sh" download>this scriptlet</a>.
 
 <div class="note">
-    Scriptlets, and how to install them, are explained <a href="./whats-next/installing-homebrew.html">here</a>.
+    Scriptlets, and how to install them, are explained <a href="../whats-next/installing-homebrew.html">here</a>.
 </div>
 
 ## I foolishly reset without restoring OTAs and now I'm stuck on an "Update Failed" screen. What do I do?
@@ -32,6 +32,6 @@ In order to restore the Kindle's ability to update, please install <a href="./ot
         Reboot and wait for the update to install.
     </li>
     <li>
-        Your kindle is now in a fully unjailbroken state; you can now rejailbreak following the guide for the method recommended by the <a href="../jailbreak-wizard.html">Jailbreaking Wizard</a>.
+        Your kindle is now in a fully unjailbroken state; you can now rejailbreak following the guide for the method recommended by the <a href="../../jailbreak-wizard.html">Jailbreaking Wizard</a>.
     </li>
 </ol>

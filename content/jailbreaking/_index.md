@@ -12,17 +12,18 @@ Here are some important things to note before you begin. This information applie
 
 <p class="note">
     <b>What's a Jailbreak?</b><br>
-    All jailbreaking allows you to do is run external code on your device (E.g., KOReader, or other apps). The Kindle is not affected in any other way, so all other features will remain (Kindle Unlimited, Store, etc...). This is alike to Android rooting, or iOS jailbreaking. Jailbreaking is a process, not an Operating System or firmware, so you cannot "install" a jailbreak, within itself it is not an app.
+    All jailbreaking allows you to do is run external code on your device (E.g., KOReader, or other apps). The Kindle is not affected in any other way, so all other features will remain (Kindle Unlimited, Store, etc...). This is alike to Android rooting, or iOS jailbreaking. Jailbreaking is a process, not an Operating System or firmware, so you cannot "install" a jailbreak, within itself it is not an app.<br><br>
+    Your Kindle's firmware version may not always have a jailbreak. These are commonly patched by Amazon, in which case you <b>must</b> wait for another one to get released (there is no way to estimate when this may be). You cannot downgrade firmware versions without first having a jailbreak.
 </p>
 
 <p class="tip">
     <b>Is this Piracy?</b><br>
-    Jailbreaking and piracy are not the same. You can sideload pirated content without having a jailbreak. Do not seek official KindleModding or KindleTweaks organisation support in regards to piracy.
+    Jailbreaking and piracy are not the same. You can sideload pirated content without having a jailbreak. Jailbreaking does not and cannot make books free from Amazon or other stores. Do not seek official KindleModding or KindleTweaks organisation support in regards to piracy. 
 </p>
 
 <p class="important">
     <b>Which Jailbreak is Best?</b><br>
-    Fundamentally, all jailbreaks are the same. They are different methods that all lead to one unified goal, as other methods become patched. The Jailbreaking wizard will tell you the most appropriate jailbreak for you to use, once you get to that step (<i>keep reading</i>.) <b>This means you can never "update" a jailbreak.</b>
+    Fundamentally, all jailbreaks are the same. They are different methods that all lead to one unified goal, as other methods become patched. The Jailbreaking wizard will tell you the most appropriate jailbreak for you to use (if there is one), once you get to that step (<i>keep reading</i>.) <b>This means you can never "update" a jailbreak.</b>
 </p>
 
 <p class="warning">
@@ -32,7 +33,7 @@ Here are some important things to note before you begin. This information applie
 
 <p class="warning" style="filter: hue-rotate(150deg);">
     <b>Can I remove the Jailbreak?</b><br>
-    Yes. If you wish to remove the jailbreak, you must run <a href="./ota.sh" download>this</a> scriptlet (<a href="./whats-next/installing-homebrew.html">'scriptlet' term definition</a>), factory reset the device, then push an update (whether it be to the same firmware, you can download an update file from <a href="https://ftvdb.com/kindle/firmware/">FTVDB</a>, place it in the Kindle's root and hit the update button). After this, <b>every trace</b> of the Jailbreak will be removed.
+    Yes. If you wish to remove the jailbreak, please visit <a href="./faq/unjailbreaking.html">this page</a> to learn how.
 </p>
 
 <p class="caution">

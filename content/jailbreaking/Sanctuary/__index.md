@@ -14,6 +14,8 @@ slug: index
 
 Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubaix), [Alysa (Sky)](https://ko-fi.com/skylarplayz348), [sparklerfish](https://give.thetrevorproject.org/give/63307#!/donation/checkout).
 
+You can read the writeup [here](https://chirp.tene7.com/?action=page&url=sanctuary-self-debugging-iframes-and-injection).
+
 ## Prerequisites
 
 - A PC, Kindle.
@@ -163,7 +165,7 @@ Sanctuary is a jailbreak released on 30/06/2026 by [Ava](https://ko-fi.com/yubai
 
 - [Ava](https://ko-fi.com/yubaix) - Found and engineered the privesc, wrote this wiki page, PW4 5.18.1.1.1 testing.
 - [sparklerfish](https://give.thetrevorproject.org/give/63307#!/donation/checkout) - Large amount of JS coding + webpage design, screenshots for this guide, as well as PW4 5.18.1 testing.
-- [Alysa](https://ko-fi.com/skylarplayz348) - JS development as well as extensive CS SE testing.
+- [Alysa](https://ko-fi.com/fuzzyghosty) - JS development as well as extensive CS SE testing.
 - [Scam.net](https://ko-fi.com/scamdotnet1) - POC assistance, minor troubleshooting with modifying the DB file, PW5 testing.
 - [HackerDude](https://ko-fi.com/hackerdude) - JB.sh implementation assistance.
 - Gimzie - Exemplary beta tester, tested for hours and was the first successful jailbreak.

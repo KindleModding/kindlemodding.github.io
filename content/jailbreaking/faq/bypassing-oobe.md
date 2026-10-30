@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Jailbreaking Your Kindle
+parent: FAQ
 title: Bypassing OOBE
-weight: 13
+weight: 2
 ---
 
 # Bypassing OOBE (Out-Of-Box Experience)
@@ -17,13 +17,13 @@ Some Kindles (e.g. Scribe, Colorsoft) do not provide the option to skip registra
 
 3. Hit the Home tab at the bottom of the screen.
 
-4. You may now access the Kindle normally to view settings, connect to wifi, access the browser, and whatever else you need to do in order to jailbreak according to the method recommended by the [Jailbreaking Wizard](../jailbreak-wizard.html).
+4. You may now access the Kindle normally to view settings, connect to wifi, access the browser, and whatever else you need to do in order to jailbreak according to the method recommended by the [Jailbreaking Wizard](../../jailbreak-wizard.html).
     > [!WARNING]
-    > Ensure you have [filled the storage](./prevent-auto-update/) to prevent an automatic update, if applicable, before connecting to wifi.
+    > Ensure you have [filled the storage](../prevent-auto-update/) to prevent an automatic update, if applicable, before connecting to wifi.
 
 5. After jailbreaking, you can permanently disable OOBE by running <a href="./disable_oobe.sh" download>this scriptlet</a>.
     > [!NOTE]
-    > Scriptlets, and how to install them, are explained [here](./whats-next/installing-homebrew.html).
+    > Scriptlets, and how to install them, are explained [here](../whats-next/installing-homebrew.html).
 
     > [!WARNING]
     > If you do not run this, you will need to use the captive portal trick again to bypass the OOBE every time you reboot the device.

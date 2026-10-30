@@ -189,7 +189,7 @@ model_tuples = [
 	('ValidKindleUnknown_KVR',					0x4FB9,	'A2C8F0TJH71TA1'),	# KVR?
 	('KindleScribe3Unknown_4PG',				0x12F0,	'A2PZKJK345L1G8'),	# 4PG?
 	('KindleScribe3Unknown_4PE',				0x12EE,	'A2PZKJK345L1G8'),	# 4PE?
-	('KindleScribe3NoFrontLight_4PL',				0x12F4,	'AC66OWFZXI53A'),	# 4PL?
+	('KindleScribe3NoFrontLight_4PL',			0x12F4,	'AC66OWFZXI53A'),	# 4PL?
 	('KindleScribe3Unknown_4F8',				0x11E8,	'A2PZKJK345L1G8'),	# 4F8?
 	('KindleScribe3Unknown_4FA',				0x11EA,	'A2PZKJK345L1G8'),	# 4FA
 	('KindleScribe3Unknown_454',				0x10A4,	'A2PZKJK345L1G8'),	# 454?
@@ -199,6 +199,16 @@ model_tuples = [
 	('KindleScribeColorSoftUnknown_4F9',			0x11E9,	'A3PXY43G91LWNT'),	# 4F9?
 	('KindleScribeColorSoftUnknown_4FB',			0x11EB,	'A3PXY43G91LWNT'),	# 4FB?
 	('KindleScribeColorSoftUnknown_46P',			0x10D7,	'A3PXY43G91LWNT'),	# 46P?
+	('KindleBasic6AluminumUnknown_6HQ',				0x1A38,	'A2LPVIBXOOZ67G'),	# 6HQ?
+	('KindleBasic6AluminumUnknown_6HR',				0x1A39,	'A2LPVIBXOOZ67G'),	# 6HR?
+	('KindleBasic6Unknown_6HN',						0x1A36,	'A1BCDFP38HIEWE'),	# 6HN?
+	('KindleBasic6Unknown_6HP',						0x1A37,	'A1BCDFP38HIEWE'),	# 6HP?
+	('KindleBasic6AluminumUnknown_5W6',				0x17C6,	'A2LPVIBXOOZ67G'),	# 5W6?
+	('KindleBasic6AluminumUnknown_5W5',				0x17C5,	'A2LPVIBXOOZ67G'),	# 5W5?
+	('KindleBasic6AluminumUnknown_56T',				0x14DB,	'A2LPVIBXOOZ67G'),	# 56T
+	('KindleBasic6AluminumUnknown_56S',				0x14DA,	'A2LPVIBXOOZ67G'),	# 56S?
+	('KindleBasic6Unknown_56U',						0x14DC,	'A1BCDFP38HIEWE'),	# 56U
+	('KindleBasic6Unknown_56V',						0x14DD,	'A1BCDFP38HIEWE'),	# 56V?
 	('KindleUnknown', 0x00),
 ]
 
@@ -304,6 +314,16 @@ def produce_jb_links(*jbs: JB) -> str:
 
 
 generationMap = [
+    {   "kindletool_names": ["KindleBasic6"],
+        "release_year": 2026,
+        "release_firmware": "5.20.0",
+        "generation_nicknames": ["KT7", "KT7A"],
+        "amazon_name": "Kindle (2026 release)",
+        "last_firmware": "Not Yet Discontinued",
+        "platform": "Platpo8",
+        "board": "Prosecco",
+        "jailbreak": produce_jb_links(),
+    },
     {
         "kindletool_names": ["KindleScribeColorSoft"],
         "release_year": 2025,
@@ -462,7 +482,7 @@ generationMap = [
         "amazon_name": "Kindle (10th Generation)",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
-        "board": "Moonshine",
+        "board": "Jaeger",
         "jailbreak": produce_jb_links(
             JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
@@ -480,7 +500,7 @@ generationMap = [
         "amazon_name": "Kindle Paperwhite (10th Generation)",
         "last_firmware": "Not Yet Discontinued",
         "platform": "Rex",
-        "board": "Jaeger",
+        "board": "Moonshine",
         "jailbreak": produce_jb_links(
             JB("Sanctuary 5.16.4 - 5.18.3", "/jailbreaking/Sanctuary"),
             JB("WinterBreak2 < 5.16.4", "/jailbreaking/WinterBreak2"),
