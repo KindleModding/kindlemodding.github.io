@@ -17,9 +17,6 @@ Shadow is a jailbreak released on 26/10/2026 by [Ava](https://ko-fi.com/yubaix).
 
 You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-dummy-folders-an-obvious-overflow-and-a-rop-chain).
 
-> [!CAUTION]
-> Shadow is currently experiencing issues on Windows devices and support has been temporarily removed. Windows support will be restored Soon™
-
 ## Prerequisites
 
 - A PC, Kindle.
@@ -70,7 +67,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Windows:</p>
-                    <p>Follow steps 4-6 to setup Zadig.</p>
+                    <p>Do not have the Kindle open in a file manager, if you have, close the file manager and re-plug the Kindle.</p>
                 </div>
                 <div class="version-block">
                     <p class="version-label">Linux:</p>
@@ -80,47 +77,14 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
                     <p class="version-label">MacOS:</p>
                     <p>Open a terminal, and run<code>killall ptpcamerad</code>. Additionally, close any file managers you have open, such as Finder.</p>
                 </div>
-                <p>If you are not on Windows, you may skip to step 7 at this point. If you are on Windows, please follow steps 4-6.
             </div>
-        </div>
-        <div class="step">
-            <h2>Open Zadig</h2>
-            <div class="stepContent">
-                <p>If you have not done so already, unzip the .zip file you previously downloaded.</p>
-                <p><b>Do not open Shadow yet,</b>instead, open <code>zadig-2.9.exe</code></p>
-                <img src="./zadig_file.png">
-            </div>
-        </div>
-        <div class="step">
-            <h2>Select the Kindle and driver</h2>
-            <div class="stepContent">
-                <p>Plug your Kindle into your computer.</p>
-                <p>At the top of Zadig, click options, and then click "Show all Devices"</p>
-                <p>In the dropdown menu immediately below the top bar, find and select your Kindle.</p>
-                <p>After selecting your Kindle, click the down arrow to the right side of the right box until that box says "WinUSB".</p>
-                <p>Once all is done correctly, your Zadig menu should look something like the image below:</p>
-                <img src="./zadig_setup.png">
-            </div>
-        </div>
-        <div class="step">
-            <h2>Replace the driver</h2>
-            <div class="stepContent">
-                <p>Click "Replace driver" or "Install driver" and wait for the process to complete.</p>
-                <p>This can take a few minutes. Once complete, a box will show up. Click "OK."</p>
-                <p>Then, unplug and replug your Kindle into your computer. Once this is done, you may close Zadig.</p>
-                <div class="warning">
-                    <b>Warning!</b><br>
-                    <p>Restoring the driver via Zadig is difficult and flaky. Because of this, <b>until you reboot your computer</b>, you will not be able to transfer files over USB to your Kindle. No permanent changes are made, and everything is set back to normal after a reboot.</p>
-                </div>
-                <img src = "./replace_success.png">
-            </div>
-        </div>
         <div class="step">
             <h2>Open Shadow!</h2>
             <div class="stepContent">
                 <div class="version-block">
                     <p class="version-label">Windows:</p>
-                    <p>Double click "shadow-windows.exe".</p>
+                    <p>Double click "shadow-windows.exe", click "yes" when prompted to run as admin.</p>
+                    <p>Admin privileges are needed as Shadow swaps out the USB driver for your Kindle.</p>
                 </div>
                 <div class="version-block">
                     <p class="version-label">Linux:</p>
@@ -145,7 +109,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <h2>Jailbreak!</h2>
             <div class="stepContent">
                 <p>After ensuring your build number matches the build number from before <b>exactly</b>, hit enter.</p>
-                <p>When prompted, unplug your Kindle, wait a second or two, and then re-plug your Kindle.</p>
+                <p>When prompted, unplug your Kindle, wait a second or two, and then re-plug your Kindle. This will happen twice on Windows, and once on MacOS and Linux.</p>
                 <p class="note">
                     There is a small chance (<1%) that an error message will appear saying that "The exploit did not get a clean address leak this attempt." -- If this happens, try again from the previous step. If this happens repeatedly, join the Discord server for support.
                 </p>
