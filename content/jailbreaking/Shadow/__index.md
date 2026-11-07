@@ -78,6 +78,7 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
                     <p>Open a terminal, and run<code>killall ptpcamerad</code>. Additionally, close any file managers you have open, such as Finder.</p>
                 </div>
             </div>
+        </div>
         <div class="step">
             <h2>Open Shadow!</h2>
             <div class="stepContent">
@@ -109,7 +110,8 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
             <h2>Jailbreak!</h2>
             <div class="stepContent">
                 <p>After ensuring your build number matches the build number from before <b>exactly</b>, hit enter.</p>
-                <p>When prompted, unplug your Kindle, wait a second or two, and then re-plug your Kindle. This will happen twice on Windows, and once on MacOS and Linux.</p>
+                <p>When prompted, unplug your Kindle, wait a second or two, and then re-plug your Kindle.</p>
+                <p> This will happen twice on Windows, and once on MacOS and Linux.</p>
                 <p class="note">
                     There is a small chance (<1%) that an error message will appear saying that "The exploit did not get a clean address leak this attempt." -- If this happens, try again from the previous step. If this happens repeatedly, join the Discord server for support.
                 </p>
@@ -130,9 +132,6 @@ You can read the writeup [here](https://chirp.tene7.com/?action=view&url=shadow-
                 </div>
                 <p class="warning">
                     Due to how Shadow works, some empty folders are left behind in the base USB folder of your Kindle. These folders are completely harmless, but if you would like to remove them, you may use the <a href="./cleanup-shadow-dirs.sh" download="cleanup-shadow-dirs.sh">provided scriptlet</a>. See the next section for how to use scriptlets, if you are confused.
-                </p>
-                <p class="warning">
-                    If you are on Windows, you must reboot your computer in order to restore the MTP driver to access your Kindle over USB.
                 </p>
                 <p>Have fun! :)</p>
             </div>
