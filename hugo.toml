@@ -1,5 +1,5 @@
 baseURL = 'https://kindlemodding.org/'
-languageCode = 'en-gb'
+locale = 'en-gb'
 title = 'Kindle Modding Wiki'
 disableKinds = ['taxonomy'] # We don't use this lol
 uglyURLs = true
