@@ -351,6 +351,7 @@ function generateTable()
 fetch(`${baseUrl}models.json`).then(response => response.json()).then((data) => {
     window.kindleModels = data;
     generateTable();
+    search();
 });
 
 function getSerialInfo(serial) {    
@@ -386,122 +387,49 @@ function search()
 {
     const serialNumber = document.getElementById("serial_input").value;
     const firmwareString = document.getElementById("version_input").value;
-    let firmwareArray = firmwareString.split('.');
-    if (firmwareString.slice(-1) == ".")
-    {
-        firmwareArray = null;
-    }
-    else
-    {
-        if (firmwareArray.length != 0 && firmwareArray[0].length != 0)
-        {
-            for (let i=0; i < firmwareArray.length; i++)
-            {
-                try {
-                    firmwareArray[i] = Number(firmwareArray[i]);
-                } catch {
-                    firmwareArray = null;
-                    break;
-                }
-            }
-        }
-        else
-        {
-            firmwareArray = null;
-        }
-    }
+    const firmwareArray = /^\d+(?:\.\d+)*$/.test(firmwareString)
+        ? firmwareString.split('.').map(Number)
+        : null;
     const serialInfo = getSerialInfo(serialNumber.toUpperCase().replaceAll(" ", ""));
 
     const searchStatus = document.getElementById("searchStatus");
+    const table = document.getElementById("table");
     searchStatus.innerText = "";
-    
-    for (const child of document.getElementById("table").children)
-    {
-        child.style = "";
-    }
-    if (serialNumber.length == 0)
-    {
-        return;
-    }
-    
-    if (serialInfo === -1) {
+
+    if (serialNumber.length > 0 && serialInfo === -1) {
         searchStatus.style = "color: red; font-size: 1.2em;";
         searchStatus.innerText = "ERROR: Serial Number Too Short!";
-    } else if (serialInfo === -2) {
+        return;
+    } else if (serialNumber.length > 0 && serialInfo === -2) {
         searchStatus.style = "color: red; font-size: 1.2em;";
         searchStatus.innerText = "ERROR: Serial Number Invalid!";
-    } else {
-        const targetIndices = [];
-        const allFirmwareTargetIndices = [];
-        let actualIndex = 0;
-        for (let i=0; i < jbDevices.length; i++)
+        return;
+    }
+
+    if (table.children.length == 0)
+        return;
+
+    let rowIndex = 0;
+    let matchCount = 0;
+    for (const device of jbDevices)
+    {
+        for (const installer of device.installers)
         {
-            if (jbDevices[i].device_code != serialInfo.device_code)
-            {
-                actualIndex++;
-                continue;
-            }
-            
-            console.log("\n\n")
-            for (let j=0; j < jbDevices[i].installers.length; j++)
-            {
-                const installer = jbDevices[i].installers[j];
-                if (
-                    (
-                        firmwareArray == null ||
-                        (
-                            (installer.min_firmware == null || compareFirmwareVersions(firmwareArray, installer.min_firmware) >= 0) && 
-                            (installer.max_firmware == null || compareFirmwareVersions(firmwareArray, installer.max_firmware) < 0)
-                        )
-                    )
-                )
-                {
-                    targetIndices.push(actualIndex);
-                }
-
-                console.log(firmwareArray);
-                if (installer.min_firmware != null)
-                {
-                    console.log(installer.min_firmware);
-                    console.log(compareFirmwareVersions(firmwareArray, installer.min_firmware));
-                }
-
-                if (installer.max_firmware != null)
-                {
-                    console.log(installer.max_firmware);
-                    console.log(compareFirmwareVersions(firmwareArray, installer.max_firmware));
-                }
-                allFirmwareTargetIndices.push(actualIndex);
-                actualIndex++;
-            }
+            const matchesSerial = serialNumber.length == 0 || device.device_code == serialInfo.device_code;
+            const matchesFirmware = firmwareArray == null ||
+                ((installer.min_firmware == null || compareFirmwareVersions(firmwareArray, installer.min_firmware) >= 0) &&
+                (installer.max_firmware == null || compareFirmwareVersions(firmwareArray, installer.max_firmware) < 0));
+            const row = table.children[rowIndex++];
+            row.style = matchesSerial && matchesFirmware ? "" : "display: none;";
+            if (matchesSerial && matchesFirmware)
+                matchCount++;
         }
+    }
 
-        const table = document.getElementById("table");
-        const tableChildren = table.children;
-
-        console.log(targetIndices);
-        console.log(allFirmwareTargetIndices);
-        for (let i=0; i < tableChildren.length; i++)
-        {
-            if (targetIndices.length == 0 && allFirmwareTargetIndices.length == 0)
-                tableChildren[i].style = "";
-            else if (
-                targetIndices.includes(i) || 
-                (targetIndices.length == 0 && allFirmwareTargetIndices.includes(i))
-            )
-                tableChildren[i].style = "";
-            else
-                tableChildren[i].style = "display: none;";
-        }
-
-        if (targetIndices.length == 0 && allFirmwareTargetIndices.length == 0)
-        {
-            searchStatus.style = "color: red; font-size: 1.2em;";
-            if (serialNumber.length < 4)
-                searchStatus.innerText = "ERROR: Serial Number Too Short!";
-            else
-                searchStatus.innerHTML = "ERROR: Serial Number Not Found! Please Open a <a style=\"color: red;\" href=\"https://github.com/KindleModding/kindlemodding.github.io\">GitHub Issue.</a>";
-        }
+    if (serialNumber.length > 0 && matchCount == 0)
+    {
+        searchStatus.style = "color: red; font-size: 1.2em;";
+        searchStatus.innerText = "ERROR: No installer found for this serial number and firmware version.";
     }
 }
 
