@@ -53,7 +53,7 @@ Also, for those who are curious (<b>or do not actually know what a jailbreak can
 
 ## Pros
 
-- Access to an active community of other <code>40,000+</code> members,
+- Access to an active community of over <code>40,000+</code> members,
 - Get <b>KOReader</b>, an alternative, open-source, customisable reading experience,
 - Download <b>RAnki</b>, or other flashcard apps for study purposes,
 - Use the Kindle's <i>Bluetooth</i> for purposes outside of listening to audio, e.g., <b>page turners</b> or connecting keyboards,
