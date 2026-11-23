@@ -116,6 +116,7 @@ WinterBreak2 is a browser-based jailbreak created by [Scam.Net](https://github.c
 - Reboot your Kindle and try again
 
 ### The jailbreak button does nothing
+- Enable Javascript in browser settings
 - Ensure you have correctly extracted the `wb2.zip` contents to the root of your Kindle
 - Verify the `winterbreak2` folder is on the Kindle's root directory
 - Reboot and try again
