@@ -15,7 +15,7 @@
             <div>
                 {{- $page := .page -}}
                 {{- $current := .current -}}
-                {{- range sort site.AllPages "Weight" -}}
+                {{- range sort site.Pages "Weight" -}}
                     {{- if and (eq .Parent $page) (not .Params.navbar_exclude) -}}
                         {{- $ctx := dict 
                             "page" .
@@ -32,7 +32,7 @@
 {{- end -}}
 
     {{- $current := page -}}
-    {{- range sort site.AllPages "Weight" -}}
+    {{- range sort site.Pages "Weight" -}}
         {{- if and (eq (.Path | strings.Count "/") 1) (not .Params.navbar_exclude) -}}
             {{- $ctx := dict 
                 "page" .
