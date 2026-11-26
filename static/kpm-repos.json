@@ -1,32 +1,19 @@
 {
     "repos": [
         {
-            "url": "https://repo.kindlemodding.org/manifest.json",
+            "url": "https://repo.kindlemodding.org/manifest.v2.json",
             "builtin": true
-        },
-        {
-            "url": "https://kindletweaks.github.io/Repo/manifest.json"
         }
     ],
     "hidden": [
         "kpm"
     ],
-    "extras": [
-        {
-            "id": "jobman",
-            "name": "Jailbreaking Manager",
-            "description": "Turn update blocking on and off, check battery health, run SSH over USB and Wi-Fi, and enable an experimental recovery mode. Firmware 5.16.3 and newer.",
-            "category": "System",
-            "repo": "Built in",
-            "page": "./jailbreaking-manager/",
-            "source": "https://github.com/KindleTweaks/Jobman"
-        }
-    ],
     "apps": {
-        "kuala": {"category": "System", "source": "https://github.com/kasparcode/kuala"},
-        "gargoyle": {"category": "Games", "source": "https://github.com/kbarni/garglk"},
-        "kinamp": {"category": "Audio", "source": "https://github.com/kbarni/KinAMP", "images": ["https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp.png", "https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp-koreader.png"]},
-        "larkplayer": {"category": "Audio", "source": "https://github.com/kbarni/LARKPlayer", "images": ["https://raw.githubusercontent.com/kbarni/LARKPlayer/main/assets/screenshot.png"]},
-        "ranki": {"category": "Study", "source": "https://github.com/crazy-electron/ranki", "images": ["https://github.com/user-attachments/assets/270407e5-4290-4820-9595-b2d072ca9c1e", "https://github.com/user-attachments/assets/87803fb1-eb44-40f3-8586-e4db38d3a072"]}
+        "jobman": {"source": "https://github.com/KindleTweaks/Jobman"},
+        "kuala": {"source": "https://github.com/kasparcode/kuala"},
+        "gargoyle": {"source": "https://github.com/kbarni/garglk"},
+        "kinamp": {"source": "https://github.com/kbarni/KinAMP", "images": ["https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp.png", "https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp-koreader.png"]},
+        "larkplayer": {"source": "https://github.com/kbarni/LARKPlayer", "images": ["https://raw.githubusercontent.com/kbarni/LARKPlayer/main/assets/screenshot.png"]},
+        "ranki": {"source": "https://github.com/crazy-electron/ranki", "images": ["https://github.com/user-attachments/assets/270407e5-4290-4820-9595-b2d072ca9c1e", "https://github.com/user-attachments/assets/87803fb1-eb44-40f3-8586-e4db38d3a072"]}
     }
 }

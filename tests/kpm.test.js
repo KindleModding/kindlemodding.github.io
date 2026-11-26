@@ -6,7 +6,7 @@ const source = fs.readFileSync(__dirname + "/../static/kpmBrowser.js", "utf8");
 const evilId = 'x" onerror="alert(1)';
 const config = {
     repos: [{ url: "good" }, { url: "malformed" }, { url: "offline" }],
-    hidden: [], extras: [],
+    hidden: [],
     apps: { [evilId]: { images: ["shot.png"] } }
 };
 const manifests = {

@@ -19,16 +19,16 @@ function loadApps() {
                     const pkg = manifest.packages[id], info = config.apps[id] || {};
                     return { id, name: pkg.name, author: pkg.author, description: pkg.description,
                         version: pkg.artifacts[pkg.artifacts.length - 1].version.join("."),
-                        category: info.category || "Other", source: info.source, images: info.images || [],
+                        source: info.source, images: info.images || [],
                         repo: manifest.name, repoId: manifest.id, repoUrl: repo.url, builtin: !!repo.builtin };
                 });
             }).catch(() => { failedRepos++; return []; }) // offline or malformed repo: skip it, keep the rest
-        )).then(lists => [].concat.apply(config.extras, lists)));
+        )).then(lists => [].concat.apply([], lists)));
 }
 
-function cardHtml(app, groupBy) {
-    const href = app.page || `./app.html?repo=${encodeURIComponent(app.repoId)}&id=${encodeURIComponent(app.id)}`;
-    const tags = [app.repo].concat(groupBy === "category" ? [] : [app.category]);
+function cardHtml(app) {
+    const href = `./app.html?repo=${encodeURIComponent(app.repoId)}&id=${encodeURIComponent(app.id)}`;
+    const tags = [app.repo];
     return `<a class="card kpm-card" href="${href}">
         <span class="kpm-card-title">${escapeHtml(app.name)}</span>
         <span class="kpm-desc">${escapeHtml(app.description)}</span>
@@ -48,7 +48,7 @@ function renderCards(apps, groupBy) {
     const warning = failedRepos ? `<p class="warning">Couldn't load ${failedRepos} app source${failedRepos > 1 ? "s" : ""}, so some apps may be missing. Refresh to try again.</p>` : "";
     document.querySelector("#kpm-app-list").innerHTML = warning + groups.map(group =>
         (group.key ? `<h3 class="kpm-group-title">${escapeHtml(group.key)} <span class="kpm-count">${group.apps.length}</span></h3>` : "") +
-        `<div class="kpm-cards">${group.apps.map(app => cardHtml(app, groupBy)).join("")}</div>`
+        `<div class="kpm-cards">${group.apps.map(cardHtml).join("")}</div>`
     ).join("") || "<p>No apps found.</p>";
     document.querySelectorAll("[data-group]").forEach(button =>
         button.setAttribute("aria-pressed", button.dataset.group === groupBy));
@@ -67,7 +67,7 @@ function renderDetail(apps) {
     if (!app.builtin) steps.push([`Add the ${escapeHtml(app.repo)} repo`, "You only need to do this once per repo. Skip it if you've added it before.", ";kpm add-repo " + app.repoUrl]);
     steps.push(["Refresh the list of apps", "", ";kpm update"]);
     steps.push([`Install ${escapeHtml(app.name)}`, "It appears on your homescreen like a book. The icon may take a moment.", ";kpm install " + app.id]);
-    const tags = [app.category, app.repo, "Version " + app.version, "By " + app.author];
+    const tags = [app.repo, "Version " + app.version, "By " + app.author];
 
     detail.innerHTML = `<nav class="kpm-crumbs"><a href="./find-more-apps.html">Find More Apps</a> › ${escapeHtml(app.name)}</nav>
         <h1>${escapeHtml(app.name)}</h1>
@@ -86,7 +86,7 @@ function renderDetail(apps) {
 
 loadApps().then(apps => {
     if (document.querySelector("#kpm-app-detail")) return renderDetail(apps);
-    renderCards(apps, "category");
+    renderCards(apps, "repo");
     document.querySelectorAll("[data-group]").forEach(button =>
         button.addEventListener("click", () => renderCards(apps, button.dataset.group)));
 }).catch(() => {

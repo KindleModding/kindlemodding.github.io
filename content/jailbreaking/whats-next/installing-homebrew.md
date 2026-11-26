@@ -37,7 +37,24 @@ Type these into the searchbar on the homescreen and press enter. Replace <code>n
 
 If you are familiar with package managers such as <code>apt-get</code>, this will be very simple to you.
 
-That covers the basics. For every KPM command, including searching and upgrading, see <a href="./find-more-apps.html">Find More Apps</a>.
+<details class="kpm-ref">
+    <summary>Every KPM command</summary>
+    <p>Type these in the searchbar on your homescreen. Replace the words in angle brackets.</p>
+
+| What it does | Command |
+|---|---|
+| Add a repo | <code>;kpm add-repo &lt;manifest url&gt;</code> |
+| Remove a repo | <code>;kpm remove-repo &lt;repo id&gt;</code> |
+| List your repos | <code>;kpm list-repo</code> |
+| Refresh the list of apps | <code>;kpm update</code> |
+| Search for an app | <code>;kpm search &lt;words&gt;</code> |
+| Install or reinstall an app | <code>;kpm install &lt;id&gt;</code> |
+| Uninstall an app | <code>;kpm uninstall &lt;id&gt;</code> |
+| Upgrade everything installed | <code>;kpm upgrade</code> |
+| Open an app | <code>;kpm launch &lt;id&gt;</code> |
+| Show the KPM version | <code>;kpm version</code> |
+
+</details>
 
 ## KOPlugins
 

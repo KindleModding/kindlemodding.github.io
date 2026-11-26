@@ -19,36 +19,17 @@ Tap an app to see what it does and how to install it.
 
 <div class="kpm-toolbar" role="group" aria-label="Group apps by">
     <span class="kpm-toolbar-label">Group by</span>
-    <button type="button" data-group="category" aria-pressed="true">Category</button>
-    <button type="button" data-group="repo" aria-pressed="false">Repo</button>
+    <button type="button" data-group="repo" aria-pressed="true">Repo</button>
     <button type="button" data-group="name" aria-pressed="false">A–Z</button>
 </div>
 
 <div id="kpm-app-list" aria-live="polite"><p>Loading apps...</p></div>
 <script src="../../kpmBrowser.js"></script>
 
-<details class="kpm-ref">
-    <summary>Every KPM command</summary>
-    <p>Type these in the searchbar on your homescreen. Replace the words in angle brackets.</p>
+## Community!
 
-| What it does | Command |
-|---|---|
-| Add a repo | <code>;kpm add-repo &lt;manifest url&gt;</code> |
-| Remove a repo | <code>;kpm remove-repo &lt;repo id&gt;</code> |
-| List your repos | <code>;kpm list-repo</code> |
-| Refresh the list of apps | <code>;kpm update</code> |
-| Search for an app | <code>;kpm search &lt;words&gt;</code> |
-| Install or reinstall an app | <code>;kpm install &lt;id&gt;</code> |
-| Uninstall an app | <code>;kpm uninstall &lt;id&gt;</code> |
-| Upgrade everything installed | <code>;kpm upgrade</code> |
-| Open an app | <code>;kpm launch &lt;id&gt;</code> |
-| Show the KPM version | <code>;kpm version</code> |
-
-</details>
-
-## Awesome Kindle
-
-<a href="https://github.com/KindleTweaks/Awesome-Kindle">Awesome-Kindle</a> is a community list of popular Kindle homebrew: games, tools, tweaks and more.
+- <a href="https://github.com/KindleTweaks/Awesome-Kindle">Awesome-Kindle</a> is a community list of popular Kindle homebrew: games, tools, tweaks and more.
+- <a href="https://github.com/KindleTweaks">KindleTweaks</a>: check out the <a href="https://discord.gg/aSG3eMsAsW">Discord</a> or the READMEs for more info.
 
 ## KOReader Plugins
 
