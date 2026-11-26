@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What's Next?
-linkTitle: 3. After Jailbreaking
+linkTitle: After Jailbreaking
 nav_flat: true
 parent: Jailbreaking Your Kindle
 weight: 10
