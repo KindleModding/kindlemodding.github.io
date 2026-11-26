@@ -1,0 +1,41 @@
+{
+    "repos": [
+        {
+            "url": "https://repo.kindlemodding.org/manifest.json",
+            "builtin": true
+        },
+        {
+            "url": "https://kindletweaks.github.io/Repo/manifest.json"
+        },
+        {
+            "url": "https://kylep33.github.io/kile-kpm-repo/manifest.json"
+        }
+    ],
+    "hidden": [
+        "kpm",
+        "kambience",
+        "kambience-sounds-1",
+        "kambience-sounds-2",
+        "kambience-sounds-3"
+    ],
+    "extras": [
+        {
+            "id": "jobman",
+            "name": "Jailbreaking Manager",
+            "description": "Turn update blocking on and off, check battery health, run SSH over USB and Wi-Fi, and enable an experimental recovery mode. Firmware 5.16.3 and newer.",
+            "category": "System",
+            "repo": "Built in",
+            "page": "./jailbreaking-manager/",
+            "source": "https://github.com/KindleTweaks/Jobman"
+        }
+    ],
+    "apps": {
+        "kuala": {"category": "System", "source": "https://github.com/kasparcode/kuala"},
+        "gargoyle": {"category": "Games", "source": "https://github.com/kbarni/garglk"},
+        "ksudoku": {"category": "Games", "source": "https://github.com/kylep33/kSudoku", "images": ["https://kylep33.github.io/kile-kpm-repo/packages/ksudoku/cover.png"]},
+        "kinamp": {"category": "Audio", "source": "https://github.com/kbarni/KinAMP", "images": ["https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp.png", "https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp-koreader.png"]},
+        "larkplayer": {"category": "Audio", "source": "https://github.com/kbarni/LARKPlayer", "images": ["https://raw.githubusercontent.com/kbarni/LARKPlayer/main/assets/screenshot.png"]},
+        "kambience": {"category": "Audio", "source": "https://github.com/kylep33/kAmbience"},
+        "ranki": {"category": "Study", "source": "https://github.com/crazy-electron/ranki", "images": ["https://github.com/user-attachments/assets/270407e5-4290-4820-9595-b2d072ca9c1e", "https://github.com/user-attachments/assets/87803fb1-eb44-40f3-8586-e4db38d3a072"]}
+    }
+}

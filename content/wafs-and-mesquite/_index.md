@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WAFs & Mesquite
+nav_group: advanced
 weight: 5
 ---
 

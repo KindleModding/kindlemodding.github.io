@@ -2,6 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: WinterBreak2
+nav_group: methods
 weight: 9
 slug: index
 summary: WinterBreak2 is a browser-based Kindle jailbreak that works without Amazon registration, created by Scam.Net and Penguins184

@@ -2,6 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: Shadow
+nav_group: methods
 weight: 3
 slug: index
 kofi: https://ko-fi.com/yubaix

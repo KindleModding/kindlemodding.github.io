@@ -2,13 +2,14 @@
 layout: default
 parent: What's Next?
 title: Installing Homebrew
+linkTitle: How Installing Apps Works
 weight: 1
 ---
 
 # Installing Homebrew
 
 <p class="note">
-    Before you go through the next guides to install apps, it is <b>imperative</b> you understand <i>how</i>.
+    Before you install your first app, here's how apps get onto your Kindle. You'll use this in the next step to install KOReader.
 </p>
 
 ## Scriptlets
@@ -25,13 +26,18 @@ If you ever want to download Kindle apps from online, expect them to be packaged
 
 KPM is a package manager that lets you <b>install Scriptlets</b> on device using a series of commands executed in the searchbar.
 
-For example, <code>;kpm install</code>, <code>;kpm update</code>, etc.
+Type these into the searchbar on the homescreen and press enter. Replace <code>name</code> with the app's name, like <code>koreader</code>:
+
+| Command | What it does |
+|---|---|
+| <code>;kpm update</code> | Refreshes the list of apps. Run this first. |
+| <code>;kpm install name</code> | Installs an app. It appears on your homescreen like a book. |
+| <code>;kpm launch name</code> | Opens an installed app. |
+| <code>;kpm uninstall name</code> | Removes an app. |
 
 If you are familiar with package managers such as <code>apt-get</code>, this will be very simple to you.
 
-<p class="tip">
-    Psst... You can find a list of popular Kindle homebrew <a href="https://github.com/KindleTweaks/Awesome-Kindle">here!</a>.
-</p>
+That covers the basics. For every KPM command, including searching and upgrading, and for running KPM over SSH, see <a href="./find-more-apps.html">Find More Apps</a>.
 
 ## KOPlugins
 
@@ -47,6 +53,6 @@ Otherwise, they can also be installed on-device with an AppStore KOPlugin (e.g.,
 
 Please note, that software called <code>KUAL</code> was formerly used to launch applications over scriptlets, but this is now obsolete and does not work.
 
-With that out of the way, Jailbreaking Manager (called "Jobman") and KOReader installation will be covered to show KPM basics. After that, what you install is fully up to you (you don't even need KOReader! Who am I, your mother?).
+From here, what you install is fully up to you (you don't even need KOReader! Who am I, your mother?).
 
-<a href="./jailbreaking-manager/"><button>Getting Jobman</button></a>
+<a href="./getting-koreader/"><button>Next: Install KOReader</button></a>

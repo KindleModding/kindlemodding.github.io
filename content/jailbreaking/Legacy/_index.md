@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Legacy
+nav_group: methods
 parent: Jailbreaking Your Kindle
 weight: 10
 ---
