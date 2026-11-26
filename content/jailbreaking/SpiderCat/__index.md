@@ -2,6 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: SpiderCat
+nav_group: methods
 weight: 3
 slug: index
 summary: SpiderCat is a Kindle jailbreak for firmwares between 5.16.3 and 5.19.5

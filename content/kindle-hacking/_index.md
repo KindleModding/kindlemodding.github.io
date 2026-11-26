@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kindle Hacking
+nav_group: advanced
 weight: 7
 ---
 

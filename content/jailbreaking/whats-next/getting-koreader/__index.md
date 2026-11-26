@@ -2,11 +2,14 @@
 layout: default
 parent: What's Next?
 title: Getting KOReader
+linkTitle: Install KOReader
 slug: index
-weight: 3
+weight: 2
 ---
 
 # Getting KOReader
+
+This is your first app. Every other app installs the same way, with the KPM commands from the last page.
 
 KOReader is a document viewer for E-Ink devices. Supported formats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files.
 
@@ -22,9 +25,9 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
     </div>
     <div id="stepwrapper" class="stepwrapper">
         <div class="step">
-            <h2>Reboot</h2>
+            <h2>Connect to Wi-Fi</h2>
             <div class="stepContent">
-                <p>If you have just jailbroken, and have not yet rebooted, <b>Reboot Now.</b></p><br><p>After this, ensure Wi-Fi is <b>enabled</b> on your device.</p>
+                <p>Make sure you've done the <a href="../">Finish Up</a> steps, and that your Kindle is connected to Wi-Fi.</p>
             </div>
         </div>
         <div class="step">
@@ -61,4 +64,4 @@ KOReader is a document viewer for E-Ink devices. Supported formats include EPUB,
         <button id="next">Next Step</button>
     </div>
 </div>
-<script>new Guide("guide", "../../faq", "Done");</script>
+<script>new Guide("guide", "../find-more-apps.html", "Next: Find More Apps");</script>

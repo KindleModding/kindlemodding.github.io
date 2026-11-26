@@ -50,6 +50,8 @@ jobs:
         run: wget https://github.com/KindleModding/jb.sh/releases/latest/download/jb.sh -O ./static/jb.sh
       - name: Generate models.json
         run: python static/models_json_generator.py
+      - name: Test app list script
+        run: node tests/kpm.test.js
       - name: Build with Hugo
         run: hugo --minify
       - name: Upload artifact

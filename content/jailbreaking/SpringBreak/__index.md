@@ -2,6 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: SpringBreak
+nav_group: methods
 weight: 4
 slug: index
 kofi: https://ko-fi.com/penguins186

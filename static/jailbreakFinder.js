@@ -191,6 +191,16 @@ function versions(v1, v2) {
 
 let text = document.querySelector("#classification");
 let tip = document.querySelector("#tip"); 
+let filler = document.querySelector("#filler");
+
+// Whether to fill storage depends on the jailbreak: see "filler" in jailbreaks.json (absent = fill)
+function fillerNote(jb) {
+    const fillLink = `<a href="${baseUrl}jailbreaking/prevent-auto-update/">fill up your Kindle</a>`;
+    if (!jb) return `Keep Airplane Mode on and ${fillLink} while you wait, so it doesn't update to a firmware that the upcoming jailbreak may not support.`;
+    if (jb.filler === "not-needed") return `<b>You don't need to fill your Kindle</b> for ${jb.name}: it never goes online. Just keep Airplane Mode on.`;
+    if (jb.filler === "avoid") return `<b>Don't fill your Kindle</b> for ${jb.name}. It needs free space and fills the Kindle for you during its steps. Keep Airplane Mode on until the guide says to turn it off.`;
+    return `Before you start, keep Airplane Mode on and ${fillLink}. ${jb.name} connects to Wi-Fi, and a full Kindle can't download an update that would patch it.`;
+};
 
 function fillResults() { //This tickles my brain
     fetch(`${baseUrl}jailbreaks.json`).then(response => response.json()).then((data) => {
@@ -221,11 +231,13 @@ function fillResults() { //This tickles my brain
             let others = []; matches.forEach((match, i) => i === 0 ? "" : others.push(`<a href="${baseUrl}${match.url}">${match.name}</a>`));
             tip.innerHTML = others.length > 0 ? `Alternatively, you can also attempt ${others.join(", ")} if preferred/something went wrong.` : "This is the <i>only</i> jailbreak applicable to this firmware and model combination. Be careful!";
 
+            filler.innerHTML = fillerNote(matches[0]);
             next.onclick = () => { document.location = matches[0].url; };
             next.removeAttribute("disabled");
         } else {
             text.innerHTML = "Unfortunately, <b>no jailbreaks</b> are available at the moment.";
             tip.innerText = "Please wait and check back until a jailbreak for your model and firmware combination is released! :)"
+            filler.innerHTML = fillerNote(null);
             next.setAttribute("disabled", "");
         };
     });

@@ -101,6 +101,16 @@ params:
         </div>
     </div>
     <div class="landing-section buttons">
+        <a class="card" href="./jailbreaking/whats-next/">
+            <h2 style="color: var(--text-colour) !important;">Already Jailbroken?</h2>
+            <p>Install KOReader and other apps</p>
+        </a>
+        <a class="card" href="./jailbreaking/faq/">
+            <h2 style="color: var(--text-colour) !important;">Something Went Wrong?</h2>
+            <p>Help, recovery and unjailbreaking</p>
+        </a>
+    </div>
+    <div class="landing-section buttons">
         <a class="card" href="./kindle-dev">
             <h2 style="color: var(--text-colour) !important;">Developer Documentation</h2>
             <p>Documentation for homebrew developers</p>

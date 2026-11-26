@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kindle Apps & Services
+nav_group: advanced
 weight: 100
 ---
 

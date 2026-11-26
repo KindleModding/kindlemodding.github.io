@@ -693,3 +693,34 @@ textarea {
         transition-duration: 0.01ms !important;
     }
 }
+// KPM app cards (Find More Apps) and app pages
+.kpm-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5em; margin: 1em 0 1.5em; }
+.kpm-toolbar-label { color: var(--text-light); margin-right: 0.25em; }
+.kpm-toolbar button { padding: 0.5rem 1rem; font-size: 0.85rem; }
+.kpm-toolbar button[aria-pressed="true"] { background-color: var(--button-border); color: var(--background-colour) !important; }
+
+.kpm-group-title { display: flex; align-items: baseline; gap: 0.5em; margin: 1.5em 0 0.75em; }
+.kpm-count { font-size: 0.75em; color: var(--text-light); font-family: var(--font-body); }
+
+.kpm-cards { display: flex; flex-wrap: wrap; gap: 1em; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.kpm-card { flex: 1 1 230px; display: flex; flex-direction: column; gap: 0.5em; padding: 1em 1.1em; min-height: 8.5em; }
+.kpm-card:hover, .kpm-card:focus-visible { border-color: var(--text-colour); outline: none; }
+.kpm-card-title { font-weight: 600; font-size: 1.05em; }
+.kpm-desc { color: var(--text-muted); font-size: 0.92em; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.kpm-card-foot { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4em; margin-top: auto; }
+.kpm-tag { font-size: 0.75em; padding: 0.15em 0.55em; border: 1px solid var(--border-colour); color: var(--text-light); }
+.kpm-chevron { margin-left: auto; font-size: 1.3em; line-height: 1; color: var(--text-light); }
+.kpm-card:hover .kpm-chevron { color: var(--text-colour); }
+
+.kpm-ref { border: 2px solid var(--border-colour); padding: 0.75em 1em; margin: 1em 0; }
+.kpm-ref > summary { cursor: pointer; font-weight: 600; }
+.kpm-ref[open] > summary { margin-bottom: 0.75em; }
+
+.kpm-meta { color: var(--text-light); font-size: 0.9em; }
+.kpm-gallery { display: flex; gap: 1em; overflow-x: auto; margin: 1.5em 0; }
+.kpm-gallery img { max-height: 320px; max-width: none; border: 2px solid var(--border-colour); display: block; }
+.kpm-crumbs { color: var(--text-light); font-size: 0.9em; margin-bottom: 1em; }
+.kpm-install-row { display: flex; gap: 1em; padding: 1em 0; border-bottom: 1px solid var(--border-colour); }
+.kpm-install-row p { margin: 0.4em 0 0; }
+.kpm-num { flex: none; width: 2em; height: 2em; display: flex; align-items: center; justify-content: center; border: 2px solid var(--text-colour); font-weight: 600; }
+.kpm-copy { padding: 0.2em 0.7em; margin-left: 0.4em; font-size: 0.85em; }

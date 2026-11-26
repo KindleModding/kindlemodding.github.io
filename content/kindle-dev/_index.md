@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kindle Development
+nav_group: advanced
 weight: 3
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 parent: Jailbreaking Your Kindle
 title: WinterBreak
+nav_group: methods
 weight: 8
 slug: index
 summary: WinterBreak is a Kindle jailbreak created by Hackerdude based on Mesquito

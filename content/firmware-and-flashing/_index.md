@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Firmware and Flashing
+nav_group: advanced
 weight: 2
 ---
 

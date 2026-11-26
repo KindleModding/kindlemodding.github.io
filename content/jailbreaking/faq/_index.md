@@ -1,6 +1,8 @@
 ---
 layout: default
 title: FAQ
+linkTitle: Help & Recovery
+nav_group: help
 parent: Jailbreaking Your Kindle
 weight: 11
 ---

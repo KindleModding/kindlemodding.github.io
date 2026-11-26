@@ -1,6 +1,6 @@
 <div class="navbar" role="navigation">
     <div>
-        <h1 style="color: var(--text-colour) !important;"><a href="{{ .Site.BaseURL }}" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important;">Kindle Modding Wiki</a></h1>
+        <h1 style="color: var(--text-colour) !important;"><a href="{{ .Site.BaseURL }}" style="text-decoration: none; color: unset !important; background: none !important; padding: 0 !important; display: inline-flex; align-items: center; gap: 0.4em;"><img class="navbar-logo" src="{{ "logo-mark.png" | relURL }}" alt="" width="40" height="40">Kindle Modding Wiki</a></h1>
     </div>
 
     <div class="search-container">
@@ -8,23 +8,25 @@
         <div id="search-results"></div>
     </div>
 
+{{- define "nav_children" -}}
+    {{- $page := .page -}}
+    {{- $current := .current -}}
+    {{- range sort site.Pages "Weight" -}}
+        {{- if and (eq .Parent $page) (not .Params.navbar_exclude) (not .Params.nav_group) -}}
+            {{ template "nav_item" (dict "page" . "current" $current) }}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
 {{- define "nav_item" -}}
-    {{- if .page.IsSection -}}
+    {{- if .page.Params.nav_flat -}}
+        {{- /* nav_flat: a plain link like its siblings, with its pages always listed underneath */ -}}
+        <a class="{{ if eq .page.Path .current.Path }}active{{ end }}" href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a>
+        <div class="nav-subpages">{{ template "nav_children" . }}</div>
+    {{- else if .page.IsSection -}}
         <details {{ if strings.Contains .current.Path .page.Path }}open{{ end }}>
             <summary class="{{if eq .page.Path .current.Path}}active{{end}}"><a href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a></summary>
-            <div>
-                {{- $page := .page -}}
-                {{- $current := .current -}}
-                {{- range sort site.AllPages "Weight" -}}
-                    {{- if and (eq .Parent $page) (not .Params.navbar_exclude) -}}
-                        {{- $ctx := dict 
-                            "page" .
-                            "current" $current
-                        -}}
-                        {{ template "nav_item" $ctx }}
-                    {{- end -}}
-                {{- end -}}
-            </div>
+            <div>{{ template "nav_children" . }}</div>
         </details>
     {{- else -}}
         <a class="{{ if eq .page.Path .current.Path }}active{{ end }}" href="{{ .page.Ref (dict "path" .page.Path) }}">{{.page.LinkTitle}}</a>
@@ -32,15 +34,39 @@
 {{- end -}}
 
     {{- $current := page -}}
-    {{- range sort site.AllPages "Weight" -}}
-        {{- if and (eq (.Path | strings.Count "/") 1) (not .Params.navbar_exclude) -}}
-            {{- $ctx := dict 
-                "page" .
-                "current" $current
-            -}}
-            {{ template "nav_item" $ctx }}
+    {{- range sort site.Pages "Weight" -}}
+        {{- if and (eq (.Path | strings.Count "/") 1) (not .Params.navbar_exclude) (not .Params.nav_group) -}}
+            {{ template "nav_item" (dict "page" . "current" $current) }}
         {{- end -}}
     {{- end -}}
+
+    {{- /* nav_group in front matter moves a page out of its folder's spot in the sidebar; URLs are unchanged */ -}}
+    {{- range sort (where site.Pages "Params.nav_group" "help") "Weight" -}}
+        {{ template "nav_item" (dict "page" . "current" $current) }}
+    {{- end -}}
+
+    {{- $methods := sort (where site.Pages "Params.nav_group" "methods") "Weight" -}}
+    {{- $advanced := sort (where site.Pages "Params.nav_group" "advanced") "Weight" -}}
+    {{- $inAdvanced := false -}}
+    {{- range (union $methods $advanced) -}}{{- if strings.Contains $current.Path .Path -}}{{- $inAdvanced = true -}}{{- end -}}{{- end -}}
+    <details {{ if $inAdvanced }}open{{ end }}>
+        <summary>Advanced</summary>
+        <div>
+            {{- $inMethods := false -}}
+            {{- range $methods -}}{{- if strings.Contains $current.Path .Path -}}{{- $inMethods = true -}}{{- end -}}{{- end -}}
+            <details {{ if $inMethods }}open{{ end }}>
+                <summary>All Jailbreak Methods</summary>
+                <div>
+                    {{- range $methods -}}
+                        {{ template "nav_item" (dict "page" . "current" $current) }}
+                    {{- end -}}
+                </div>
+            </details>
+            {{- range $advanced -}}
+                {{ template "nav_item" (dict "page" . "current" $current) }}
+            {{- end -}}
+        </div>
+    </details>
 
     <details>
         <summary>Settings</summary>

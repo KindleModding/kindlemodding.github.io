@@ -1,0 +1,19 @@
+{
+    "repos": [
+        {
+            "url": "https://repo.kindlemodding.org/manifest.v2.json",
+            "builtin": true
+        }
+    ],
+    "hidden": [
+        "kpm"
+    ],
+    "apps": {
+        "jobman": {"source": "https://github.com/KindleTweaks/Jobman"},
+        "kuala": {"source": "https://github.com/kasparcode/kuala"},
+        "gargoyle": {"source": "https://github.com/kbarni/garglk"},
+        "kinamp": {"source": "https://github.com/kbarni/KinAMP", "images": ["https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp.png", "https://raw.githubusercontent.com/kbarni/KinAMP/main/assets/kinamp-koreader.png"]},
+        "larkplayer": {"source": "https://github.com/kbarni/LARKPlayer", "images": ["https://raw.githubusercontent.com/kbarni/LARKPlayer/main/assets/screenshot.png"]},
+        "ranki": {"source": "https://github.com/crazy-electron/ranki", "images": ["https://github.com/user-attachments/assets/270407e5-4290-4820-9595-b2d072ca9c1e", "https://github.com/user-attachments/assets/87803fb1-eb44-40f3-8586-e4db38d3a072"]}
+    }
+}

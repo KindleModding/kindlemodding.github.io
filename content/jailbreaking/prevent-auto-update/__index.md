@@ -8,6 +8,27 @@ slug: index
 
 # Preventing Automatic Updates by Filling Kindle Storage
 
+<p class="important">
+    <b>Do this right now: turn on Airplane Mode, then check for update files.</b><br>
+    Airplane Mode stops your Kindle from downloading an update. Every jailbreak needs this.<br><br>
+    But if an update has <b>already downloaded</b>, the Kindle can still install it without internet, usually when it restarts. Plug your Kindle into your computer and look in the main folder (not a subfolder) for files named <code>update[-something].bin</code> or <code>update.bin.tmp.partial</code>. Delete any you find. Don't restart your Kindle until you've checked.
+</p>
+
+### Do I need to fill my storage too?
+
+Most jailbreaks need your Kindle on Wi-Fi for part of the process. A full Kindle can't download an update while it's online. A couple of jailbreaks work differently:
+
+| Jailbreak | Fill storage? | Why |
+|---|---|---|
+| **Shadow** | No | Your Kindle never goes online during Shadow. Keep Airplane Mode on. Filler files that are already there won't hurt. |
+| **SpringBreak** | No | SpringBreak needs free space to work, and it fills the Kindle for you during its steps. Filling first can make it fail. |
+| **Everything else** (Véra, SpiderCat, WinterBreak2, etc.) | Yes | Your Kindle connects to Wi-Fi during the jailbreak. |
+| **No jailbreak for my firmware yet** | Yes | Keeps your Kindle on its current firmware until a jailbreak comes out. |
+
+<p class="tip">
+    <b>Not sure which jailbreak you'll use?</b> Leave Airplane Mode on and run the <a href="../../jailbreak-wizard.html">Jailbreak Wizard</a> first. Its result tells you whether to fill. Then come back here if you need to.
+</p>
+
 ## Why Fill the Kindle's Storage?
 
 Kindle devices can automatically download and install firmware updates when they have enough free storage space. These updates can block jailbreaking methods. Automatic updates may occur when:

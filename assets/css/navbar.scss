@@ -81,8 +81,9 @@
     gap: 0.5em;
 }
 
-// Section contents
-.navbar details > div
+// Section contents (and pages listed under a nav_flat section)
+.navbar details > div,
+.navbar .nav-subpages
 {
     display: flex;
     flex-direction: column;
@@ -103,7 +104,8 @@
 
 .navbar > a,
 .navbar details > summary,
-.navbar details > div > a
+.navbar details > div > a,
+.navbar .nav-subpages > a
 {
     padding: 0.5em;
 }
@@ -128,6 +130,7 @@
 }
 
 .navbar details > div > a:hover,
+.navbar .nav-subpages > a:hover,
 .navbar details > summary:hover,
 .navbar details > summary:hover > a
 {
@@ -161,3 +164,9 @@
         min-width: unset;
     }
 }
+// Site logo next to the title; the glow keeps the dark device visible on the dark theme
+.navbar .navbar-logo {
+    max-width: none;
+    filter: drop-shadow(0 0 2px var(--logo-glow)) drop-shadow(0 1px 3px var(--logo-glow));
+}
+

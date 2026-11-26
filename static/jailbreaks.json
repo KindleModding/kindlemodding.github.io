@@ -105,6 +105,7 @@
     },
     {
         "name": "SpringBreak",
+        "filler": "avoid",
         "url": "/jailbreaking/SpringBreak",
         "registration": true,
         "ads": false,
@@ -129,6 +130,7 @@
     },
     {
         "name": "Shadow",
+        "filler": "not-needed",
         "url": "/jailbreaking/Shadow",
         "registration": false,
         "ads": false,

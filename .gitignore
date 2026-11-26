@@ -7,3 +7,4 @@ vendor
 public/
 resources/
 static/jb.sh
+static/models.json
