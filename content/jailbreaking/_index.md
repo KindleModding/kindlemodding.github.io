@@ -48,7 +48,7 @@ Here are some important things to note before you begin. This information applie
 
 <h2>With that out of the way,</h2> here's the path from here:
 
-1. <b><a href="./prevent-auto-update/">Block updates</a></b>. Turn on Airplane Mode now, and see whether your jailbreak needs the storage filled.
+1. <b><a href="./prevent-auto-update/">Prevent automatic updates</a></b>. Turn on Airplane Mode now, and see whether your jailbreak needs the storage filled.
 2. <b><a href="../jailbreak-wizard.html">Find my jailbreak</a></b>. The wizard picks the right jailbreak for your Kindle and links you to its guide.
 3. <b><a href="./whats-next/">After jailbreaking</a></b>. Install apps like KOReader with the package manager.
 

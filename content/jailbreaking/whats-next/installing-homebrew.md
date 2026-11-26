@@ -37,7 +37,7 @@ Type these into the searchbar on the homescreen and press enter. Replace <code>n
 
 If you are familiar with package managers such as <code>apt-get</code>, this will be very simple to you.
 
-That covers the basics. For every KPM command, including searching and upgrading, and for running KPM over SSH, see <a href="./find-more-apps.html">Find More Apps</a>.
+That covers the basics. For every KPM command, including searching and upgrading, see <a href="./find-more-apps.html">Find More Apps</a>.
 
 ## KOPlugins
 

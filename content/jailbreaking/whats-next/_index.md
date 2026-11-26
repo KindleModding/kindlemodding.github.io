@@ -9,7 +9,7 @@ weight: 10
 
 # You're Jailbroken! Let's Finish Up
 
-Your jailbreak has <b>automatically blocked updates</b>, so it's now safe to undo the preparation from <a href="../prevent-auto-update/">Block Updates</a>. Do these steps in order.
+Your jailbreak has <b>automatically blocked updates</b>, so it's now safe to undo the preparation from <a href="../prevent-auto-update/">Prevent Automatic Updates</a>. Do these steps in order.
 
 <p class="note">
     You're on this page because you used one of the <b>modern</b> jailbreaks (these use the <code>hdnext</code> stack). Used a legacy jailbreak? Head to <a href="../Legacy/post-jailbreak/">Post Jailbreak</a> instead.

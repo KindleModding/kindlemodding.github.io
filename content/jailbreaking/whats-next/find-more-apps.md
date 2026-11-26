@@ -46,16 +46,6 @@ Tap an app to see what it does and how to install it.
 
 </details>
 
-<details class="kpm-ref">
-    <summary>Running KPM over SSH</summary>
-    <p><b>Getting in:</b> KOReader's SSH server listens on port 22 as <code>root</code>. Add your public key to <code>koreader/settings/SSH/authorized_keys</code> to skip the password.</p>
-    <p><code>ssh root@&lt;kindle-ip&gt;</code></p>
-    <p>Don't worry if the Kindle won't answer <code>ping</code>: its firewall drops ping, so it looks offline when it isn't. Try <code>ssh</code> instead.</p>
-    <p><b>Running commands:</b> in a shell, the <code>;</code> is a syntax error and <code>kpm</code> isn't on the path. Drop the <code>;</code> and alias the full path once per session (home is in <code>/tmp</code>, so a profile won't survive a reboot):</p>
-    <p><code>alias kpm=/var/local/kmc/bin/kpm</code></p>
-    <p>Then every command above works without the <code>;</code>, e.g. <code>kpm update</code> or <code>kpm install &lt;id&gt;</code>.</p>
-</details>
-
 ## Awesome Kindle
 
 <a href="https://github.com/KindleTweaks/Awesome-Kindle">Awesome-Kindle</a> is a community list of popular Kindle homebrew: games, tools, tweaks and more.

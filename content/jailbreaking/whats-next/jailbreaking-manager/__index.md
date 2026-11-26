@@ -10,7 +10,7 @@ weight: 4
 # Jailbreaking Manager
 
 > [!WARNING]
-> This page is optional. If you have a Kindle below firmware 5.16.3, skip it: the Jailbreaking Manager does not support your device. See [Find More Apps](../find-more-apps.html) instead.
+> If you have a Kindle below firmware 5.16.3, move on to [Find More Apps](../find-more-apps.html). The Jailbreaking Manager does not support your device.
 
 [Jobman](https://github.com/KindleTweaks/Jobman) is a jailbreaking manager developed by the [KindleTweaks](https://discord.gg/aSG3eMsAsW) team.
 
@@ -75,4 +75,5 @@ It allows you to:
 </div>
 <script>
     new Guide("guide", "../find-more-apps.html", "Done");
+    showDialog("Halt! Firmware Check!", "If you are on a device below firmware <code>5.16.3</code>, you can safely skip this section and move on to <a href='../getting-koreader'>Getting KOReader</a>.");
 </script>
